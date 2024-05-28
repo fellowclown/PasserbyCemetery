@@ -632,7 +632,7 @@
 "Texture": "Animals\\FC.GhostWisp",
 "HarvestedTexture": null,
 "BabyTexture": "Animals\\FC.GhostWisp",
-"UseFlippedRightForLeft": false,
+"UseFlippedRightForLeft": true,
 "UseDoubleUniqueAnimationFrames": false,
 "SpriteWidth": 32,
 "SpriteHeight": 32,
