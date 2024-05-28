@@ -1,0 +1,225 @@
+{
+    "Changes": [
+
+ ///Valerie Movie reactions and dialogue
+  //spring_movie_0 Brave Little Sapling - family, comedy
+//spring_movie_1 NAtural Wonders - documentary, family
+//summer_movie_0 Prairie King - action
+//summer_movie_1 Wumbus - sci-fi, comedy, family
+//fall_movie_0 Mysterium - horror, art
+//fall_movie_1 Howls in the rain - horror
+//winter_movie_0 Miracle at Coldstar Ranch - family, romance
+//winter_movie_1 Zuzu City Express - classic, romance
+{
+    "Action": "EditData",
+    "Target": "Data/MoviesReactions",
+    "Entries": {
+"Valerie": { //Substitute with your NPC's internal name.
+    "NPCName": "FC.Valerie", //Substitute with your NPC's internal name.
+    "Reactions": [
+{
+"Tag": "spring_movie_0", //Brave Little Sapling
+"Response": "love", //Responses are love/like/hate.
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": { //What the NPC says in the lobby.
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.0.before}}"
+},
+"DuringMovie": { //What the NPC says during the actual movie. You can change ResponsePoint to a specific part of the movie to react to.
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.0.during}}",
+},
+"AfterMovie": { //What the NPC says in the lobby after the movie.
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.0.after}}"
+}
+},
+"ID": "spring0_6" //Each reaction has its own ID. But since I've done this for you, you shouldn't need to change it. I hope.
+
+//Repeat for the other movies.
+
+},
+{
+"Tag": "spring_movie_1", //Natural Wonders
+"Response": "like",
+"Whitelist": [],
+"SpecialResponses": { 
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.1.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.1.during}}"
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.1.after}}"
+}
+},
+"ID": "spring0_6"
+},
+{
+"Tag": "summer_movie_0", //Prairie King
+"Response": "like",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.2.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "",
+"Text": "{{i18n:Valerie.movies.2.during}}",
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.2.after}}"
+} 
+},
+"ID": "summer0_4"
+},
+{
+"Tag": "summer_movie_1", //Wumbus
+"Response": "hate",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.3.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.3.during}}",
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.3.after}}" 
+}
+
+},
+"ID": "summer0_6"
+},
+{
+"Tag": "fall_movie_0", //Mysterium
+"Response": "like",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.4.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.4.during}}",
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.4.after}}"
+}
+},
+"ID": "fall0_2"
+},
+{
+"Tag": "fall_movie_1", //It Howls In The Rain
+"Response": "love", 
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": "",
+"Text": "{{i18n:Valerie.movies.5.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.5.during}}",
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": "",
+"Text": "{{i18n:Valerie.movies.5.after}}"
+}
+},
+"ID": "fall0_5",
+},
+{
+"Tag": "winter_movie_0", //Miracle At Coldstar Ranch
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.6.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "/message \"{{i18n:Valerie.movies.6.during}}\"/",
+"Text": ""
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.6.after}}"
+}
+},
+"ID": "winter0_6",
+    },
+    {
+"Tag": "winter_movie_1", //Zuzu City Express
+"Response": "hate",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.7.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "/message \"{{i18n:Valerie.movies.7.during}}\"/",
+"Text": null
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Valerie.movies.7.after}}"
+}
+},
+"ID": "winter0_4",
+    }
+ ]
+  }
+}
+}, 
+         {
+"Action": "EditData",
+"Target": "Data/ConcessionTastes",
+"Entries": { 
+"FC.Valerie": {
+ "Name": "FC.Valerie",
+"LovedTags": [ "Sour" ],
+ "LikedTags": [ "Sweet" ],
+ "DislikedTags": [ "Joja" ]
+}
+}
+},
+    ]
+}

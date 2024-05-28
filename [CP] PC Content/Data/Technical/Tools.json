@@ -1,0 +1,478 @@
+{
+	  "Changes": [
+	  	  	{
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "{{ModID}}_SqueakyAxe": {
+    "ClassName": "Axe",
+    "Name": "{{ModID}}_SqueakyAxe",
+    "AttachmentSlots": -1,
+    "SalePrice": -1,
+    "DisplayName": "{{i18n:FC.ColorfulAxe}}",
+    "Description": "{{i18n:FC.ColorfulAxe.Desc}}",
+    "Texture": "Mods/{{ModID}}/JokeTools",
+    "SpriteIndex": 6,
+    "MenuSpriteIndex": 17,
+    "UpgradeLevel": 0,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom": null,
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+      "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "{{ModID}}_Squeak"
+    }
+  },
+}
+},
+    {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "{{ModID}}_SqueakyPick": {
+    "ClassName": "Pickaxe",
+    "Name": "{{ModID}}_SqueakyPick",
+    "AttachmentSlots": -1,
+    "SalePrice": -1,
+    "DisplayName": "{{i18n:FC.ColorfulPickaxe}}",
+    "Description": "{{i18n:FC.ColorfulPickaxe.Desc}}",
+    "Texture": "Mods/{{ModID}}/JokeTools",
+    "SpriteIndex": 18,
+    "MenuSpriteIndex": 29,
+    "UpgradeLevel": 0,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom": null,
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+      "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "{{ModID}}_Squeak"
+    }
+  },
+}
+      },
+          {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "{{ModID}}_SqueakyCan": {
+    "ClassName": "WateringCan",
+    "Name": "{{ModID}}_ColorfulCan",
+    "AttachmentSlots": -1,
+    "SalePrice": -1,
+    "DisplayName": "{{i18n:FC.ColorfulWateringCan}}",
+    "Description": "{{i18n:FC.ColorfulWateringCan.Desc}}",
+    "Texture": "Mods/{{ModID}}/JokeTools",
+    "SpriteIndex": 30,
+    "MenuSpriteIndex": 41,
+    "UpgradeLevel": 0,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom": null,
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+        "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "{{ModID}}_LongSqueak"
+    }
+  },
+}
+      },
+       {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "{{ModID}}_SqueakyHoe": {
+    "ClassName": "Hoe",
+    "Name": "{{ModID}}_SqueakyHoe",
+    "AttachmentSlots": -1,
+    "SalePrice": -1,
+    "DisplayName": "{{i18n:FC.ColorfulHoe}}",
+    "Description": "{{i18n:FC.ColorfulHoe.Desc}}",
+    "Texture": "Mods/{{ModID}}/JokeTools",
+    "SpriteIndex": 42,
+    "MenuSpriteIndex": 53,
+    "UpgradeLevel": 0,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom": null,
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+      "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "{{ModID}}_Squeak"
+    }
+  },
+}
+      }, 
+          {
+"Action": "EditData",
+"Target": "Data/Weapons",
+"Entries": {
+  "{{ModID}}_SqueakySword": {
+   "Name": "{{ModID}}_SqueakySword",
+    "DisplayName": "{{i18n:FC.ColorfulSword}}",
+    "Description": "{{i18n:FC.ColorfulSword.Desc}}",
+    "MinDamage": 4,
+    "MaxDamage": 10,
+    "Knockback": 4,
+    "Speed": 2,
+    "Precision": 2,
+    "Defense": 2,
+    "Type": 3,
+    "MineBaseLevel": -1,
+    "MineMinLevel": -1,
+    "AreaOfEffect": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.0,
+    "CanBeLostOnDeath": false,
+    "Texture": "Mods/{{ModID}}/JokeTools",
+    "SpriteIndex": 0,
+    "Projectiles": null,
+    "CustomFields": {
+         "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "{{ModID}}_Squeak"
+    }
+  }
+  },
+},
+
+  ////////////////////////
+    {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "{{ModID}}_SqueakyAxeUpgrade1": {
+    "ClassName": "Axe",
+    "Name": "{{ModID}}_SqueakyAxeUpgrade1",
+    "AttachmentSlots": 1,
+    "SalePrice": -1,
+    "DisplayName": "{{i18n:FC.ColorfulAxeUpgrade1}}",
+    "Description": "{{i18n:FC.ColorfulAxeUpgrade1.Desc}}",
+    "Texture": "Mods/{{ModID}}/JokeTools",
+    "SpriteIndex": 60,
+    "MenuSpriteIndex": 71,
+    "UpgradeLevel": 1,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom": [
+    {
+        "RequireToolId": "(T){{ModID}}_SqueakyAxe",
+        "Price": 5000,
+        "TradeItemId": "(O)564", // Opal Stone
+        "TradeItemAmount": 5
+    }
+],
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+      "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "{{ModID}}_Squeak"
+    }
+  },
+}
+},
+    {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "{{ModID}}_SqueakyPickUpgrade1": {
+    "ClassName": "Pickaxe",
+    "Name": "{{ModID}}_SqueakyPickUpgrade1",
+    "AttachmentSlots": 1,
+    "SalePrice": -1,
+    "DisplayName": "{{i18n:FC.ColorfulPickaxeUpgrade1}}",
+    "Description": "{{i18n:FC.ColorfulPickaxeUpgrade1.Desc}}",
+    "Texture": "Mods/{{ModID}}/JokeTools",
+    "SpriteIndex": 72,
+    "MenuSpriteIndex": 83,
+    "UpgradeLevel": 1,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom":  [
+    {
+        "RequireToolId": "(T){{ModID}}_SqueakyPick",
+        "Price": 5000,
+        "TradeItemId": "(O)564", // Opal Stone
+        "TradeItemAmount": 5
+    }
+],
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+      "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "{{ModID}}_Squeak"
+    }
+  },
+}
+      },
+          {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "{{ModID}}_SqueakyCanUpgrade1": {
+    "ClassName": "WateringCan",
+    "Name": "{{ModID}}_ColorfulCanUpgrade1",
+    "AttachmentSlots": 1,
+    "SalePrice": -1,
+    "DisplayName": "{{i18n:FC.ColorfulWateringCanUpgrade1}}",
+    "Description": "{{i18n:FC.ColorfulWateringCanUpgrade1.Desc}}",
+    "Texture": "Mods/{{ModID}}/JokeTools",
+    "SpriteIndex": 84,
+    "MenuSpriteIndex": 95,
+    "UpgradeLevel": 1,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom":   [
+    {
+        "RequireToolId": "(T){{ModID}}_SqueakyCan",
+        "Price": 5000,
+        "TradeItemId": "(O)564", // Opal Stone
+        "TradeItemAmount": 5
+    }
+],
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+        "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "{{ModID}}_LongSqueak"
+    }
+  },
+}
+      },
+       {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "{{ModID}}_SqueakyHoeUpgrade1": {
+    "ClassName": "Hoe",
+    "Name": "{{ModID}}_SqueakyHoeUpgrade1",
+    "AttachmentSlots":1,
+    "SalePrice": -1,
+    "DisplayName": "{{i18n:FC.ColorfulHoeUpgrade1}}",
+    "Description": "{{i18n:FC.ColorfulHoeUpgrade1.Desc}}",
+    "Texture": "Mods/{{ModID}}/JokeTools",
+    "SpriteIndex": 96,
+    "MenuSpriteIndex": 107,
+    "UpgradeLevel": 1,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom":   [
+    {
+        "RequireToolId": "(T){{ModID}}_SqueakyHoe",
+        "Price": 5000,
+        "TradeItemId": "(O)564", // Opal Stone
+        "TradeItemAmount": 5
+    }
+],
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+      "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "{{ModID}}_Squeak"
+    }
+  },
+}
+      }, 
+          {
+"Action": "EditData",
+"Target": "Data/Weapons",
+"Entries": {
+  "{{ModID}}_SqueakySwordUpgrade1": {
+   "Name": "{{ModID}}_SqueakySwordUpgrade1",
+    "DisplayName": "{{i18n:FC.ColorfulSwordUpgrade1}}",
+    "Description": "{{i18n:FC.ColorfulSwordUpgrade1.Desc}}",
+    "MinDamage": 6,
+    "MaxDamage": 16,
+    "Knockback": 4,
+    "Speed": 3,
+    "Precision": 3,
+    "Defense": 3,
+    "Type": 3,
+    "MineBaseLevel": -1,
+    "MineMinLevel": -1,
+    "AreaOfEffect": 0,
+    "CritChance": 0.03,
+    "CritMultiplier": 4.0,
+    "CanBeLostOnDeath": false,
+    "Texture": "Mods/{{ModID}}/JokeTools",
+    "SpriteIndex": 54,
+    "Projectiles": null,
+    "CustomFields": {
+         "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "{{ModID}}_Squeak"
+    }
+  }
+  },
+},
+///////////
+   {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "{{ModID}}_SqueakyAxeUpgrade2": {
+    "ClassName": "Axe",
+    "Name": "{{ModID}}_SqueakyAxeUpgrade2",
+    "AttachmentSlots": 2,
+    "SalePrice": -1,
+    "DisplayName": "{{i18n:FC.ColorfulAxeUpgrade2}}",
+    "Description": "{{i18n:FC.ColorfulAxeUpgrade2.Desc}}",
+    "Texture": "Mods/{{ModID}}/JokeTools",
+    "SpriteIndex": 120,
+    "MenuSpriteIndex": 125,
+    "UpgradeLevel": 2,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom":  [
+    {
+        "RequireToolId": "(T){{ModID}}_SqueakyAxeUpgrade2",
+        "Price": 5000,
+        "TradeItemId": "(O)554", // Lemon Stone
+        "TradeItemAmount": 5
+    }
+],
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+      "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "{{ModID}}_Squeak"
+    }
+  },
+}
+},
+    {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "{{ModID}}_SqueakyPickUpgrade2": {
+    "ClassName": "Pickaxe",
+    "Name": "{{ModID}}_SqueakyPickUpgrade2",
+    "AttachmentSlots": 2,
+    "SalePrice": -1,
+    "DisplayName": "{{i18n:FC.ColorfulPickaxeUpgrade2}}",
+    "Description": "{{i18n:FC.ColorfulPickaxeUpgrade2.Desc}}",
+    "Texture": "Mods/{{ModID}}/JokeTools",
+    "SpriteIndex": 126,
+    "MenuSpriteIndex": 137,
+    "UpgradeLevel": 2,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom":  [
+    {
+        "RequireToolId": "(T){{ModID}}_SqueakyPickUpgrade2",
+        "Price": 5000,
+        "TradeItemId": "(O)554", // Lemon Stone
+        "TradeItemAmount": 5
+    }
+],
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+      "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "{{ModID}}_Squeak"
+    }
+  },
+}
+      },
+          {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "{{ModID}}_SqueakyCanUpgrade2": {
+    "ClassName": "WateringCan",
+    "Name": "{{ModID}}_ColorfulCanUpgrade2",
+    "AttachmentSlots": 2,
+    "SalePrice": -1,
+    "DisplayName": "{{i18n:FC.ColorfulWateringCanUpgrade2}}",
+    "Description": "{{i18n:FC.ColorfulWateringCanUpgrade2.Desc}}",
+    "Texture": "Mods/{{ModID}}/JokeTools",
+    "SpriteIndex": 138,
+    "MenuSpriteIndex": 149,
+    "UpgradeLevel": 2,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom": [
+    {
+        "RequireToolId": "(T){{ModID}}_SqueakyCanUpgrade2",
+        "Price": 5000,
+        "TradeItemId": "(O)554", // Lemon Stone
+        "TradeItemAmount": 5
+    }
+],
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+        "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "{{ModID}}_LongSqueak"
+    }
+  },
+}
+      },
+       {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+         "{{ModID}}_SqueakyHoeUpgrade2": {
+    "ClassName": "Hoe",
+    "Name": "{{ModID}}_SqueakyHoeUpgrade2",
+    "AttachmentSlots": 2,
+    "SalePrice": -1,
+    "DisplayName": "{{i18n:FC.ColorfulHoeUpgrade2}}",
+    "Description": "{{i18n:FC.ColorfulHoeUpgrade2.Desc}}",
+    "Texture": "Mods/{{ModID}}/JokeTools",
+    "SpriteIndex": 150,
+    "MenuSpriteIndex": 161,
+    "UpgradeLevel": 2,
+    "ApplyUpgradeLevelToDisplayName": false,
+    "ConventionalUpgradeFrom": null,
+    "UpgradeFrom": [
+    {
+        "RequireToolId": "(T){{ModID}}_SqueakyHoeUpgrade2",
+        "Price": 5000,
+        "TradeItemId": "(O)554", // Lemon Stone
+        "TradeItemAmount": 5
+    }
+],
+   
+    "CanBeLostOnDeath": false,
+    "SetProperties": null,
+    "ModData": null,
+    "CustomFields": {
+      "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "{{ModID}}_Squeak"
+    }
+  },
+}
+      }, 
+          {
+"Action": "EditData",
+"Target": "Data/Weapons",
+"Entries": {
+  "{{ModID}}_SqueakySwordUpgrade2": {
+   "Name": "{{ModID}}_SqueakySwordUpgrade2",
+    "DisplayName": "{{i18n:FC.ColorfulSwordUpgrade2}}",
+    "Description": "{{i18n:FC.ColorfulSwordUpgrade2.Desc}}",
+    "MinDamage": 8,
+    "MaxDamage": 18,
+    "Knockback": 8,
+    "Speed": 8,
+    "Precision": 8,
+    "Defense": 6,
+    "Type": 3,
+    "MineBaseLevel": -1,
+    "MineMinLevel": -1,
+    "AreaOfEffect": 0,
+    "CritChance": 0.03,
+    "CritMultiplier": 4.0,
+    "CanBeLostOnDeath": false,
+    "Texture": "Mods/{{ModID}}/JokeTools",
+    "SpriteIndex": 108,
+    "Projectiles": null,
+    "CustomFields": {
+         "DecidedlyHuman.ClownsSqueakyTools/FC.ToolSound": "{{ModID}}_Squeak"
+    }
+  }
+  },
+},
+]
+}

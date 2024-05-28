@@ -1,0 +1,51 @@
+{
+"Changes": [
+{
+"Action": "EditData",
+"Target": "Data/Fish",
+"Entries": {
+"{{ModID}}_BoneyHeadedGraveFish": "{{i18n:FC.BoneyHeadedGraveFish}}/100/dart/16/40/2000 2300/winter/sunny/688 .6 684 .1/4/.5/.5/6",
+"{{ModID}}_IficusFish": "{{i18n:FC.IficusFish}}/10/dart/5/10/2000 2300/winter/sunny/688 .6 684 .1/4/.5/.5/6" 
+}
+},
+{
+"LogName": "Aquarium Data",
+"Action": "EditData",
+"Target": "Data/AquariumFish",
+"Entries": {
+"{{ModID}}_BoneyHeadedGraveFish": "0/fish/0////Mods\\{{ModID}}\\FC.Fish",
+"{{ModID}}_IficusFish": "1/fish/1////Mods\\{{ModID}}\\FC.Fish"
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/FishPondData",
+"Entries": {
+"{{ModID}}_IficusFish": {
+"ID": "{{ModID}}_IficusFish",
+"RequiredTags": [
+"fish_IficusFish"
+],
+"Precedence": 0,
+"SpawnTime": -1,
+"ProducedItems": [
+{
+"RequiredPopulation": 6,
+"Chance": 0.01,
+"ItemID": "(O)422",
+"MinQuantity": 1,
+"MaxQuantity": 6 
+},
+],
+"PopulationGates": {
+"1": [ 
+"(O)86 2",
+],
+}
+}
+}
+}
+]
+ }
+
+ 

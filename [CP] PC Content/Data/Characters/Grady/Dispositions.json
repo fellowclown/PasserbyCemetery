@@ -1,0 +1,97 @@
+{
+"Changes": [
+{
+"LogName": "Grady Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Grady": {
+"DisplayName": "{{i18n:FC.Grady}}",
+"BirthSeason": "fall",
+"BirthDay": 23,
+"HomeRegion": "Other",
+"Language": "Default",
+"Gender": "Male",
+"Age": "Adult",
+"Manner": "Polite",
+"SocialAnxiety": "Outgoing",
+"Optimism": "Positive",
+"CanSocialize": true,
+"IsDarkSkinned": false,
+"CanBeRomanced": false,
+"FlowerDanceCanDance ": false,
+"LoveInterest": "FC.Lyell",
+"Calendar": "AlwaysShown",
+"SocialTab": "UnknownUntilMet",
+"SocialTabIconSourceRect": null,
+"SocializeConditions": null,
+"CanVisitIslandCondition": true,
+"ExcludeFromIntroductionsQuest": true,
+"ExcludeFromPerfectionScore": true,
+"EndSlideShow": "TrailingGroup",
+"SpouseRoom": {},
+"SpousePatio":{},
+"SpouseFloors": [],
+"SpouseWallpapers": [],
+"FriendsAndFamily":null,
+"WinterStarGifts": [],
+"WinterStarParticipant": true,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_GradysRoom",
+"Tile": {
+"X": 4,
+"Y": 4
+},
+"Direction": "right"
+}
+],
+"Breather": false,
+"ShakePortraits": [
+  11,14
+],
+"KissSpriteIndex": 28,
+"KissSpriteFacingRight": 28,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"Appearance": [
+
+ {
+"ID": "spring",
+"Condition": "SEASON Spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Grady/FC.Grady_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Grady/FC.Grady_spring.png}}"
+},
+{
+"ID": "winter",
+"Condition": "SEASON Winter",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Grady/FC.Grady_winter.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Grady/FC.Grady_winter.png}}"
+},
+{
+"ID": "flowerfestival",
+"Condition": "EVENT_ID festival_spring24",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Grady/Festivals/flower dance.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Grady/Festivals/flower dance.png}}",
+"Precedence": -10,
+},
+{
+"ID": "spiritseve",
+"Condition": "EVENT_ID festival_fall3",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Grady/Festivals/spirit's eve.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Grady/Festivals/spirit's eve.png}}",
+"Precedence": -10,
+},
+],
+}
+}
+},
+]
+}

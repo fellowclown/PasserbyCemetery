@@ -1,0 +1,1036 @@
+{
+    "Changes": [
+ {
+ "LogName": "Bashful",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+"{{ModID}}_Bashful": {
+    "DisplayName": null,
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": -1,
+    "SellPrice": -1,
+    "ShopTexture": null,
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 16
+    },
+    "ShopDisplayName": null,
+    "ShopDescription": null,
+    "ShopMissingBuildingDescription": null,
+    "RequiredBuilding": null,
+    "UnlockCondition": null,
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": null,
+    "DaysToMature": 6,
+    "CanGetPregnant": false,
+    "DaysToProduce": 10,
+    "HarvestType": "HarvestWithTool",
+    "HarvestTool": "Milk Pail",
+    "ProduceItemIds": [
+    ],
+    "DeluxeProduceItemIds": [
+    ],
+    "ProduceOnMature": false,
+    "FriendshipForFasterProduce": -1,
+    "DeluxeProduceMinimumFriendship": -1,
+    "DeluxeProduceCareDivisor": -1,
+    "DeluxeProduceLuckMultiplier":-1,
+    "ProfessionForHappinessBoost": -1,
+    "ProfessionForQualityBoost":-1,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "goat",
+    "BabySound": "goat",
+    "Texture": "Animals\\FC.ArcaGoat_Adult",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.ArcaGoat_Adult",
+    "UseFlippedRightForLeft": true,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "Skins": [
+          ],
+    "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": false,
+    "GrassEatAmount": -1,
+    "HappinessDrain": -1,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+  },
+},
+},
+ {
+ "LogName": "Bashful",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+"{{ModID}}_Boba": {
+    "DisplayName": null,
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": -1,
+    "SellPrice": -1,
+    "ShopTexture": null,
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 16
+    },
+    "ShopDisplayName": null,
+    "ShopDescription": null,
+    "ShopMissingBuildingDescription": null,
+    "RequiredBuilding": null,
+    "UnlockCondition": null,
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": null,
+    "DaysToMature": 6,
+    "CanGetPregnant": false,
+    "DaysToProduce": 10,
+    "HarvestType": "HarvestWithTool",
+    "HarvestTool": "Milk Pail",
+    "ProduceItemIds": [
+    ],
+    "DeluxeProduceItemIds": [
+    ],
+    "ProduceOnMature": false,
+    "FriendshipForFasterProduce": -1,
+    "DeluxeProduceMinimumFriendship": -1,
+    "DeluxeProduceCareDivisor": -1,
+    "DeluxeProduceLuckMultiplier":-1,
+    "ProfessionForHappinessBoost": -1,
+    "ProfessionForQualityBoost":-1,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "{{ModID}}_Movoraptor",
+    "BabySound": "{{ModID}}_Movoraptor",
+    "Texture": "Animals\\FC.Movoraptor_Purple_Adult",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.Movoraptor_Purple_Adult",
+    "UseFlippedRightForLeft": true,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "Skins": [
+          ],
+    "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": false,
+    "GrassEatAmount": -1,
+    "HappinessDrain": -1,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+  },
+},
+},
+ {
+ "LogName": "Applesauce",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+"{{ModID}}_Applesauce": {
+    "DisplayName": null,
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": -1,
+    "SellPrice": -1,
+    "ShopTexture": null,
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 16
+    },
+    "ShopDisplayName": null,
+    "ShopDescription": null,
+    "ShopMissingBuildingDescription": null,
+    "RequiredBuilding": null,
+    "UnlockCondition": null,
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": null,
+    "DaysToMature": 6,
+    "CanGetPregnant": false,
+    "DaysToProduce": 10,
+    "HarvestType": "HarvestWithTool",
+    "HarvestTool": "Milk Pail",
+    "ProduceItemIds": [
+    ],
+    "DeluxeProduceItemIds": [
+    ],
+    "ProduceOnMature": false,
+    "FriendshipForFasterProduce": -1,
+    "DeluxeProduceMinimumFriendship": -1,
+    "DeluxeProduceCareDivisor": -1,
+    "DeluxeProduceLuckMultiplier":-1,
+    "ProfessionForHappinessBoost": -1,
+    "ProfessionForQualityBoost":-1,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "{{ModID}}_Movoraptor",
+    "BabySound": "{{ModID}}_Movoraptor",
+    "Texture": "Animals\\FC.Movoraptor_Blue_Baby",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.Movoraptor_Blue_Baby",
+    "UseFlippedRightForLeft": true,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "Skins": [
+          ],
+    "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": false,
+    "GrassEatAmount": -1,
+    "HappinessDrain": -1,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+  },
+},
+},
+{
+ "LogName": "Bubbles",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+"{{ModID}}_Bubbles": {
+    "DisplayName": null,
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": -1,
+    "SellPrice": -1,
+    "ShopTexture": null,
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 16
+    },
+    "ShopDisplayName": null,
+    "ShopDescription": null,
+    "ShopMissingBuildingDescription": null,
+    "RequiredBuilding": null,
+    "UnlockCondition": null,
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": null,
+    "DaysToMature": 6,
+    "CanGetPregnant": false,
+    "DaysToProduce": 10,
+    "HarvestType": "HarvestWithTool",
+    "HarvestTool": "Milk Pail",
+    "ProduceItemIds": [
+    ],
+    "DeluxeProduceItemIds": [
+    ],
+    "ProduceOnMature": false,
+    "FriendshipForFasterProduce": -1,
+    "DeluxeProduceMinimumFriendship": -1,
+    "DeluxeProduceCareDivisor": -1,
+    "DeluxeProduceLuckMultiplier":-1,
+    "ProfessionForHappinessBoost": -1,
+    "ProfessionForQualityBoost":-1,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "{{ModID}}_Movoraptor",
+    "BabySound": "{{ModID}}_Movoraptor",
+    "Texture": "Animals\\FC.Movoraptor_Pink_Baby",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.Movoraptor_Pink_Baby",
+    "UseFlippedRightForLeft": true,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "Skins": [
+          ],
+    "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": false,
+    "GrassEatAmount": -1,
+    "HappinessDrain": -1,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+  },
+},
+},
+{
+ "LogName": "Parsley",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+"{{ModID}}_Parsley": {
+    "DisplayName": null,
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": -1,
+    "SellPrice": -1,
+    "ShopTexture": null,
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 16
+    },
+    "ShopDisplayName": null,
+    "ShopDescription": null,
+    "ShopMissingBuildingDescription": null,
+    "RequiredBuilding": null,
+    "UnlockCondition": null,
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": null,
+    "DaysToMature": 6,
+    "CanGetPregnant": false,
+    "DaysToProduce": 10,
+    "HarvestType": "HarvestWithTool",
+    "HarvestTool": "Milk Pail",
+    "ProduceItemIds": [
+    ],
+    "DeluxeProduceItemIds": [
+    ],
+    "ProduceOnMature": false,
+    "FriendshipForFasterProduce": -1,
+    "DeluxeProduceMinimumFriendship": -1,
+    "DeluxeProduceCareDivisor": -1,
+    "DeluxeProduceLuckMultiplier":-1,
+    "ProfessionForHappinessBoost": -1,
+    "ProfessionForQualityBoost":-1,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "{{ModID}}_Movoraptor",
+    "BabySound": "{{ModID}}_Movoraptor",
+    "Texture": "Animals\\FC.Movoraptor_Purple_Baby",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.Movoraptor_Purple_Baby",
+    "UseFlippedRightForLeft": true,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "Skins": [
+          ],
+    "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": false,
+    "GrassEatAmount": -1,
+    "HappinessDrain": -1,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+  },
+},
+},
+{
+ "LogName": "Pepper",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+"{{ModID}}_Pepper": {
+    "DisplayName": null,
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": -1,
+    "SellPrice": -1,
+    "ShopTexture": null,
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 16
+    },
+    "ShopDisplayName": null,
+    "ShopDescription": null,
+    "ShopMissingBuildingDescription": null,
+    "RequiredBuilding": null,
+    "UnlockCondition": null,
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": null,
+    "DaysToMature": 6,
+    "CanGetPregnant": false,
+    "DaysToProduce": 10,
+    "HarvestType": "HarvestWithTool",
+    "HarvestTool": "Milk Pail",
+    "ProduceItemIds": [
+    ],
+    "DeluxeProduceItemIds": [
+    ],
+    "ProduceOnMature": false,
+    "FriendshipForFasterProduce": -1,
+    "DeluxeProduceMinimumFriendship": -1,
+    "DeluxeProduceCareDivisor": -1,
+    "DeluxeProduceLuckMultiplier":-1,
+    "ProfessionForHappinessBoost": -1,
+    "ProfessionForQualityBoost":-1,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "{{ModID}}_Movoraptor",
+    "BabySound": "{{ModID}}_Movoraptor",
+    "Texture": "Animals\\FC.Movoraptor_Purple_Baby",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.Movoraptor_Purple_Baby",
+    "UseFlippedRightForLeft": true,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "Skins": [
+          ],
+    "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": false,
+    "GrassEatAmount": -1,
+    "HappinessDrain": -1,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+  },
+},
+},
+{
+ "LogName": "Puddin",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+"{{ModID}}_Puddin": {
+    "DisplayName": null,
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": -1,
+    "SellPrice": -1,
+    "ShopTexture": null,
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 16
+    },
+    "ShopDisplayName": null,
+    "ShopDescription": null,
+    "ShopMissingBuildingDescription": null,
+    "RequiredBuilding": null,
+    "UnlockCondition": null,
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": null,
+    "DaysToMature": 6,
+    "CanGetPregnant": false,
+    "DaysToProduce": 10,
+    "HarvestType": "HarvestWithTool",
+    "HarvestTool": "Milk Pail",
+    "ProduceItemIds": [
+    ],
+    "DeluxeProduceItemIds": [
+    ],
+    "ProduceOnMature": false,
+    "FriendshipForFasterProduce": -1,
+    "DeluxeProduceMinimumFriendship": -1,
+    "DeluxeProduceCareDivisor": -1,
+    "DeluxeProduceLuckMultiplier":-1,
+    "ProfessionForHappinessBoost": -1,
+    "ProfessionForQualityBoost":-1,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "{{ModID}}_Movoraptor",
+    "BabySound": "{{ModID}}_Movoraptor",
+    "Texture": "Animals\\FC.Movoraptor_Purple_Baby",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.Movoraptor_Purple_Baby",
+    "UseFlippedRightForLeft": true,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "Skins": [
+          ],
+    "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": false,
+    "GrassEatAmount": -1,
+    "HappinessDrain": -1,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+  },
+},
+},
+{
+ "LogName": "Peaches",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+"{{ModID}}_Peaches": {
+    "DisplayName": null,
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": -1,
+    "SellPrice": -1,
+    "ShopTexture": null,
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 16
+    },
+    "ShopDisplayName": null,
+    "ShopDescription": null,
+    "ShopMissingBuildingDescription": null,
+    "RequiredBuilding": null,
+    "UnlockCondition": null,
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": null,
+    "DaysToMature": 6,
+    "CanGetPregnant": false,
+    "DaysToProduce": 10,
+    "HarvestType": "HarvestWithTool",
+    "HarvestTool": "Milk Pail",
+    "ProduceItemIds": [
+    ],
+    "DeluxeProduceItemIds": [
+    ],
+    "ProduceOnMature": false,
+    "FriendshipForFasterProduce": -1,
+    "DeluxeProduceMinimumFriendship": -1,
+    "DeluxeProduceCareDivisor": -1,
+    "DeluxeProduceLuckMultiplier":-1,
+    "ProfessionForHappinessBoost": -1,
+    "ProfessionForQualityBoost":-1,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "{{ModID}}_Movoraptor",
+    "BabySound": "{{ModID}}_Movoraptor",
+    "Texture": "Animals\\FC.Movoraptor_Purple_Baby",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.Movoraptor_Purple_Baby",
+    "UseFlippedRightForLeft": true,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "Skins": [
+          ],
+    "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": false,
+    "GrassEatAmount": -1,
+    "HappinessDrain": -1,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+  },
+},
+},
+{
+ "LogName": "Cream",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+"{{ModID}}_Cream": {
+    "DisplayName": null,
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": -1,
+    "SellPrice": -1,
+    "ShopTexture": null,
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 16
+    },
+    "ShopDisplayName": null,
+    "ShopDescription": null,
+    "ShopMissingBuildingDescription": null,
+    "RequiredBuilding": null,
+    "UnlockCondition": null,
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": null,
+    "DaysToMature": 6,
+    "CanGetPregnant": false,
+    "DaysToProduce": 10,
+    "HarvestType": "HarvestWithTool",
+    "HarvestTool": "Milk Pail",
+    "ProduceItemIds": [
+    ],
+    "DeluxeProduceItemIds": [
+    ],
+    "ProduceOnMature": false,
+    "FriendshipForFasterProduce": -1,
+    "DeluxeProduceMinimumFriendship": -1,
+    "DeluxeProduceCareDivisor": -1,
+    "DeluxeProduceLuckMultiplier":-1,
+    "ProfessionForHappinessBoost": -1,
+    "ProfessionForQualityBoost":-1,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "cow",
+    "BabySound": "cow",
+    "Texture": "Animals\\FC.ArcaCow_Adult_Brown",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.ArcaCow_Adult_Brown",
+    "UseFlippedRightForLeft": true,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "Skins": [
+          ],
+    "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": false,
+    "GrassEatAmount": -1,
+    "HappinessDrain": -1,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+  },
+},
+},
+{
+ "LogName": "Berries",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+"{{ModID}}_Berries": {
+    "DisplayName": null,
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": -1,
+    "SellPrice": -1,
+    "ShopTexture": null,
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 16
+    },
+    "ShopDisplayName": null,
+    "ShopDescription": null,
+    "ShopMissingBuildingDescription": null,
+    "RequiredBuilding": null,
+    "UnlockCondition": null,
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": null,
+    "DaysToMature": 6,
+    "CanGetPregnant": false,
+    "DaysToProduce": 10,
+    "HarvestType": "HarvestWithTool",
+    "HarvestTool": "Milk Pail",
+    "ProduceItemIds": [
+    ],
+    "DeluxeProduceItemIds": [
+    ],
+    "ProduceOnMature": false,
+    "FriendshipForFasterProduce": -1,
+    "DeluxeProduceMinimumFriendship": -1,
+    "DeluxeProduceCareDivisor": -1,
+    "DeluxeProduceLuckMultiplier":-1,
+    "ProfessionForHappinessBoost": -1,
+    "ProfessionForQualityBoost":-1,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "cow",
+    "BabySound": "cow",
+    "Texture": "Animals\\FC.ArcaCow_Baby_Pale",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.ArcaCow_Baby_Pale",
+    "UseFlippedRightForLeft": true,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "Skins": [
+          ],
+    "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": false,
+    "GrassEatAmount": -1,
+    "HappinessDrain": -1,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+  },
+},
+},
+{
+ "LogName": "Gobble",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+"{{ModID}}_Gobble": {
+    "DisplayName": null,
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": -1,
+    "SellPrice": -1,
+    "ShopTexture": null,
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 16
+    },
+    "ShopDisplayName": null,
+    "ShopDescription": null,
+    "ShopMissingBuildingDescription": null,
+    "RequiredBuilding": null,
+    "UnlockCondition": null,
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": null,
+    "DaysToMature": 6,
+    "CanGetPregnant": false,
+    "DaysToProduce": 10,
+    "HarvestType": "HarvestWithTool",
+    "HarvestTool": "Milk Pail",
+    "ProduceItemIds": [
+    ],
+    "DeluxeProduceItemIds": [
+    ],
+    "ProduceOnMature": false,
+    "FriendshipForFasterProduce": -1,
+    "DeluxeProduceMinimumFriendship": -1,
+    "DeluxeProduceCareDivisor": -1,
+    "DeluxeProduceLuckMultiplier":-1,
+    "ProfessionForHappinessBoost": -1,
+    "ProfessionForQualityBoost":-1,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "pig",
+    "BabySound": "pig",
+    "Texture": "Animals\\FC.ArcaTapi_Adult_Brown",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.ArcaTapi_Adult_Brown",
+    "UseFlippedRightForLeft": true,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "Skins": [
+          ],
+    "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": false,
+    "GrassEatAmount": -1,
+    "HappinessDrain": -1,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+  },
+},
+},
+{
+ "LogName": "Rumple",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+"{{ModID}}_Rumple": {
+    "DisplayName": null,
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": -1,
+    "SellPrice": -1,
+    "ShopTexture": null,
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 32,
+      "Height": 16
+    },
+    "ShopDisplayName": null,
+    "ShopDescription": null,
+    "ShopMissingBuildingDescription": null,
+    "RequiredBuilding": null,
+    "UnlockCondition": null,
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": null,
+    "DaysToMature": 6,
+    "CanGetPregnant": false,
+    "DaysToProduce": 10,
+    "HarvestType": "HarvestWithTool",
+    "HarvestTool": "Milk Pail",
+    "ProduceItemIds": [
+    ],
+    "DeluxeProduceItemIds": [
+    ],
+    "ProduceOnMature": false,
+    "FriendshipForFasterProduce": -1,
+    "DeluxeProduceMinimumFriendship": -1,
+    "DeluxeProduceCareDivisor": -1,
+    "DeluxeProduceLuckMultiplier":-1,
+    "ProfessionForHappinessBoost": -1,
+    "ProfessionForQualityBoost":-1,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "rabbit",
+    "BabySound": "rabbit",
+    "Texture": "Animals\\FC.ArcaHorse_Adult",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.ArcaHorse_Adult",
+    "UseFlippedRightForLeft": true,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "Skins": [
+          ],
+    "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": false,
+    "GrassEatAmount": -1,
+    "HappinessDrain": -1,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+  },
+},
+},
+],
+}

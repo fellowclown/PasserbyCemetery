@@ -1,0 +1,15 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Nikolai": "{{i18n:Nikolai.gift.love}}/{{ModID}}_SunshineHoney {{ModID}}_CherryBlossomHoney 22 60 340/{{i18n:Nikolai.gift.like}}/{{ModID}}_VoidHoney {{ModID}}_ChocoFruit {{ModID}}_ButtonFruit {{ModID}}_YohoFruit 342 346 348/{{i18n:Nikolai.gift.dislike}}/16 20 78/{{i18n:Nikolai.gift.hate}}/372/{{i18n:Nikolai.gift.neutral}}/66 392/",
+}
+ },
+]
+}

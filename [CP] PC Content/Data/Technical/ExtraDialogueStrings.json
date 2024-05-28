@@ -1,0 +1,19 @@
+{
+    "Changes": [
+   {
+"Action": "EditData",
+"Target": "strings/StringsFromCSFiles",
+"Entries": {
+"Utility.cs.5367": "{{i18n:Lyell.Utility.cs.5367}}",
+"Utility.cs.5369": "{{i18n:Lyell.Utility.cs.5369}}",
+"Utility.cs.5371": "{{i18n:Lyell.Utility.cs.5371}}",
+"Utility.cs.5377": "{{i18n:Lyell.Utility.cs.5377}}",
+},
+"When": {
+"Relationship:FC.Lyell": "Engaged, Married",
+"Relationship:FC.Nikolai": "Engaged, Married",
+"Relationship:FC.Valerie": "Engaged, Married",
+}
+},
+  ]
+}

@@ -1,0 +1,229 @@
+{
+    "Changes": [
+    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 43 78 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 43 78 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 20 17 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 20 17 2",
+                    "Delimiter": "/",
+        },
+        ]
+    },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 22 33 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 22 33 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },  
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 15 33 2",
+                    "Delimiter": "/",
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 15 33 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 6 27 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 24 28 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 70 100 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 70 100 1",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 100 17 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 100 17 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 48 89 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Nikolai 48 89 2",
+                    "Delimiter": "/"
+                 },
+        ]
+    },
+  ]
+}

@@ -1,0 +1,38 @@
+{
+    "Changes": [
+    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3",
+            "When": {
+ "HasFlag|contains=landslideDone": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Maverick 23 37 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Maverick 23 37 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+              {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3",
+     "Entries": {
+"FC.Maverick": "{{i18n:FC.MaverickFestival}}",
+}
+ },
+  ]
+}

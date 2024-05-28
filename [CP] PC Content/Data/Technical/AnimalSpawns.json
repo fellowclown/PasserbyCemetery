@@ -1,0 +1,220 @@
+{
+"Changes": [
+{
+"Action": "EditData",
+"Target": "MEEP/FarmAnimals/SpawnData",
+"Entries": {
+"{{ModID}}_Bashful": {
+"AnimalId": "{{ModID}}_Bashful",
+"Age": 0,
+"LocationId": "{{ModID}}_LyellsBarn",
+"DisplayName": "{{i18n:FC.Bashful}}",
+"PetMessage": [
+"{{i18n:FC.Bashful.01}}"
+],
+"HomeTileX": 4,
+"HomeTileY": 5,
+"Condition": ""
+},
+}
+},
+{
+"Action": "EditData",
+"Target": "MEEP/FarmAnimals/SpawnData",
+"Entries": {
+"{{ModID}}_Cream": {
+"AnimalId": "{{ModID}}_Cream",
+"Age": 0,
+"LocationId": "{{ModID}}_LyellsBarn",
+"DisplayName": "{{i18n:FC.Cream}}",
+"PetMessage": [
+"{{i18n:FC.Cream.01}}"
+],
+"HomeTileX": 8,
+"HomeTileY": 4,
+"Condition": ""
+},
+}
+},
+{
+"Action": "EditData",
+"Target": "MEEP/FarmAnimals/SpawnData",
+"Entries": {
+"{{ModID}}_Berries": {
+"AnimalId": "{{ModID}}_Berries",
+"Age": 0,
+"LocationId": "{{ModID}}_LyellsBarn",
+"DisplayName": "{{i18n:FC.Berries}}",
+"PetMessage": [
+"{{i18n:FC.Berries.01}}"
+],
+"HomeTileX": 7,
+"HomeTileY": 4,
+"Condition": ""
+},
+}
+},
+{
+"Action": "EditData",
+"Target": "MEEP/FarmAnimals/SpawnData",
+"Entries": {
+"{{ModID}}_Gobble": {
+"AnimalId": "{{ModID}}_Gobble",
+"Age": 0,
+"LocationId": "{{ModID}}_LyellsBarn",
+"DisplayName": "{{i18n:FC.Gobble}}",
+"PetMessage": [
+"{{i18n:FC.Gobble.01}}"
+],
+"HomeTileX":12,
+"HomeTileY":10,
+"Condition": ""
+},
+}
+},
+{
+"Action": "EditData",
+"Target": "MEEP/FarmAnimals/SpawnData",
+"Entries": {
+"{{ModID}}_Rumple": {
+"AnimalId": "{{ModID}}_Rumple",
+"Age": 0,
+"LocationId": "{{ModID}}_LyellsBarn",
+"DisplayName": "{{i18n:FC.Rumple}}",
+"PetMessage": [
+"{{i18n:FC.Rumple.01}}"
+],
+"HomeTileX":2,
+"HomeTileY":6,
+"Condition": ""
+},
+}
+},
+{
+"Action": "EditData",
+"Target": "MEEP/FarmAnimals/SpawnData",
+"Entries": {
+"{{ModID}}_Boba": {
+"AnimalId": "{{ModID}}_Boba",
+"Age": 0,
+"LocationId": "{{ModID}}_LyellsCoop",
+"DisplayName": "{{i18n:FC.Boba}}",
+"PetMessage": [
+"{{i18n:FC.Boba.01}}"
+],
+"HomeTileX":2,
+"HomeTileY":7,
+"Condition": ""
+},
+}
+},
+{
+"Action": "EditData",
+"Target": "MEEP/FarmAnimals/SpawnData",
+"Entries": {
+"{{ModID}}_Applesauce": {
+"AnimalId": "{{ModID}}_Applesauce",
+"Age": 0,
+"LocationId": "{{ModID}}_LyellsCoop",
+"DisplayName": "{{i18n:FC.Applesauce}}",
+"PetMessage": [
+"{{i18n:FC.Applesauce.01}}"
+],
+"HomeTileX":1,
+"HomeTileY":6,
+"Condition": ""
+},
+}
+},
+{
+"Action": "EditData",
+"Target": "MEEP/FarmAnimals/SpawnData",
+"Entries": {
+"{{ModID}}_Bubbles": {
+"AnimalId": "{{ModID}}_Bubbles",
+"Age": 0,
+"LocationId": "{{ModID}}_LyellsCoop",
+"DisplayName": "{{i18n:FC.Bubbles}}",
+"PetMessage": [
+"{{i18n:FC.Bubbles.01}}"
+],
+"HomeTileX":5,
+"HomeTileY":4,
+"Condition": ""
+},
+}
+},
+{
+"Action": "EditData",
+"Target": "MEEP/FarmAnimals/SpawnData",
+"Entries": {
+"{{ModID}}_Parsley": {
+"AnimalId": "{{ModID}}_Parsley",
+"Age": 0,
+"LocationId": "{{ModID}}_LyellsProperty",
+"DisplayName": "{{i18n:FC.Parsley}}",
+"PetMessage": [
+"{{i18n:FC.Parsley.01}}"
+],
+"HomeTileX":39,
+"HomeTileY":37,
+"Condition": ""
+},
+}
+},
+{
+"Action": "EditData",
+"Target": "MEEP/FarmAnimals/SpawnData",
+"Entries": {
+"{{ModID}}_Pepper": {
+"AnimalId": "{{ModID}}_Pepper",
+"Age": 0,
+"LocationId": "{{ModID}}_LyellsProperty",
+"DisplayName": "{{i18n:FC.Pepper}}",
+"PetMessage": [
+"{{i18n:FC.Pepper.01}}"
+],
+"HomeTileX":41,
+"HomeTileY":36,
+"Condition": ""
+},
+}
+},
+{
+"Action": "EditData",
+"Target": "MEEP/FarmAnimals/SpawnData",
+"Entries": {
+"{{ModID}}_Puddin": {
+"AnimalId": "{{ModID}}_Puddin",
+"Age": 0,
+"LocationId": "{{ModID}}_LyellsProperty",
+"DisplayName": "{{i18n:FC.Puddin}}",
+"PetMessage": [
+"{{i18n:FC.Puddin.01}}"
+],
+"HomeTileX":39,
+"HomeTileY":35,
+"Condition": ""
+},
+}
+},
+ {
+"Action": "EditData",
+"Target": "MEEP/FarmAnimals/SpawnData",
+"Entries": {
+"{{ModID}}_Peaches": {
+"AnimalId": "{{ModID}}_Peaches",
+"Age": 0,
+"LocationId": "{{ModID}}_LyellsProperty",
+"DisplayName": "{{i18n:FC.Peaches}}",
+"PetMessage": [
+"{{i18n:FC.Peaches.01}}"
+],
+"HomeTileX":36,
+"HomeTileY":36,
+"Condition": ""
+},
+}
+},
+]
+}

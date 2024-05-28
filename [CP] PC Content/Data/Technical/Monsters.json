@@ -1,0 +1,13 @@
+{
+"Changes": [
+
+{
+"LogName": "CorruptedGhost",
+"Action": "EditData",
+"Target": "Data/Monsters",
+"Entries": {
+  "FC.CorruptedGhost": "800/30/0/3/true/0/749 .99/3/.01/12/4/.0/false/25/{{i18n:FC.CorruptedGhost}}",
+}
+}
+]
+}

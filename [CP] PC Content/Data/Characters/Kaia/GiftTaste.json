@@ -1,0 +1,15 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+************************************************/
+{
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Kaia": "{{i18n:Kaia.gift.love}}/342 346 348 921 907/{{i18n:Kaia.gift.like}}/906 905 904 903 873/{{i18n:Kaia.gift.dislike}}/874 865 851 836/{{i18n:Kaia.gift.hate}}/832 393/{{i18n:Kaia.gift.neutral}}/395/",
+}
+},
+]
+}

@@ -1,0 +1,16 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Grady": "{{i18n:Grady.gift.love}}/395 {{ModID}}_MovoraptorEgg {{ModID}}_GaggleShrooms/{{i18n:Grady.gift.like}}/{{ModID}}_DragaDoughnut {{ModID}}_CapWedges {{ModID}}_LoMaCakes {{ModID}}_ZinfazuIcecream {{ModID}}_IceBerryWine {{ModID}}_FarmhandSupper {{ModID}}_AdáuulaCakes {{ModID}}_WarpRootTea/{{i18n:Grady.gift.dislike}}/{{ModID}}_DragaWhiskey {{ModID}}_LavaPop/{{i18n:Grady.gift.hate}}/346/{{i18n:Grady.gift.neutral}}/{{ModID}}_TropaWine/",
+
+}
+ },
+]
+}

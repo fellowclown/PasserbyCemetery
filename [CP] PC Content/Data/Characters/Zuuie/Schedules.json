@@ -1,0 +1,33 @@
+{
+"Changes": [
+      {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModID}}_ZuuieSleep": "22/22 22 22 23 23 23 23/23",
+"{{ModID}}_ZuuieSwim": "24/24 24 24 25 25 25/25//offset 20 0",
+"{{ModID}}_ZuuieSing": "26/26 26 26 27 27 27 28 28 28 27 27 27/27",
+"{{ModID}}_ZuuieSit": "29/29 29 30 30 30 31 31 31 30 30 30/29//offset 0 16",
+}
+ },
+/************************************************
+Default Schedule
+ ************************************************/
+  /////VANILLA 3< Left facing >1 Right Facing  
+{
+"LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Zuuie",
+"Entries": {
+"spring": "700 Mountain 89 21 2 {{ModID}}_ZuuieSing/900 {{ModID}}_OldGraveYard 37 48 2 {{ModID}}_ZuuieSing/1200 {{ModID}}_OldGraveYard 31 52 2 {{ModID}}_ZuuieSing/1400 {{ModID}}_OldGraveYard 11 56 2 {{ModID}}_ZuuieSit/1900 {{ModID}}_OldGraveYard 37 47 1/2000 {{ModID}}_SecretCave 14 8 2 {{ModID}}_ZuuieSleep",
+"summer": "800 {{ModID}}_OldGraveYard 37 48 {{ModID}}_ZuuieSwim/1200 {{ModID}}_OldGraveYard 31 52 2 {{ModID}}_ZuuieSing/1400 {{ModID}}_OldGraveYard 27 62 2 {{ModID}}_ZuuieSit/1900 {{ModID}}_OldGraveYard 37 47 1/2000 {{ModID}}_SecretCave 14 8 2 {{ModID}}_ZuuieSleep",
+"fall": "GOTO spring",
+"winter": "GOTO summer",
+}, 
+"When": {
+"HasSeenEvent |contains={{ModID}}_CaveBlockUnlock": true,
+}
+},
+]
+}

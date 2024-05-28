@@ -1,0 +1,55 @@
+{
+"Changes": [
+    /************************************************
+ ANIMATIONS 
+ ************************************************/
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+    "{{ModID}}_RoswellRest":"27/27/27",
+    "{{ModID}}_RoswellChill":"29/29/29",
+    "{{ModID}}_RoswellPeck":"22/22 22 23 23 23 24 24 24 25 25 25 24 24 24 23 23/23",
+    "{{ModID}}_RoswellSit2":"17/17/17",
+    "{{ModID}}_RoswellSit3":"30/30/30",
+    "{{ModID}}_RoswellSit0":"21/21/21",
+
+}
+ },
+{
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Roswell",
+"Entries": {
+"Roswell.Sleep": "{{i18n:Roswell.Sleep}}",
+}
+},
+   
+    /************************************************
+ ** FC.Roswell
+ ************************************************/
+
+///////CrossOvers
+    ////Nikolai and Roswell Visit at Roswells place
+           {
+"LogName": "Roswells Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Roswell",
+"Entries": {
+    "spring": "610 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_RoswellRest \"Strings\\schedules\\FC.Roswell:Roswell.Sleep\"/1000 {{ModID}}_LyellsProperty 45 31 2 {{ModID}}_RoswellPeck/1300 {{ModID}}_OldGraveYard 9 35 2 {{ModID}}_RoswellChill/1500 Town 61 69 2 {{ModID}}_RoswellPeck/1900 {{ModID}}_LyellsCoop 9 4 2 {{ModID}}_RoswellChill \"Strings\\schedules\\FC.Roswell:Roswell.Sleep\"",
+
+    "summer": "610 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_RoswellRest \"Strings\\schedules\\FC.Roswell:Roswell.Sleep\"/1200 Beach 15 23 2 square_2_2/1500 Beach 25 15 2 square_2_2/1800 Beach 41 21 2 square_2_2/1900 {{ModID}}_LyellsCoop 9 4 2 {{ModID}}_RoswellChill \"Strings\\schedules\\FC.Roswell:Roswell.Sleep\"",
+
+    "fall": "610 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_RoswellRest \"Strings\\schedules\\FC.Roswell:Roswell.Sleep\"/1200 Forest 56 11 2 {{ModID}}_RoswellPeck/1500 Forest 55 33 2 {{ModID}}_RoswellPeck/1800 Forest 90 25 2 square_2_2/1900 {{ModID}}_LyellsCoop 9 4 2 {{ModID}}_RoswellChill \"Strings\\schedules\\FC.Roswell:Roswell.Sleep\"",
+
+    "winter": "610 {{ModID}}_LyellsHouse 10 19 2 {{ModID}}_RoswellRest \"Strings\\schedules\\FC.Roswell:Roswell.Sleep\"/1200 Mountain 30 20 1 {{ModID}}_RoswellChill/1500 Mountain 77 13 2 square_2_2/1800 Mountain 93 26 1/1900 {{ModID}}_LyellsHouse 10 19 2 {{ModID}}_RoswellRest \"Strings\\schedules\\FC.Roswell:Roswell.Sleep\"",
+
+    "rain": "610 {{ModID}}_LyellsHouse 15 10 2 {{ModID}}_RoswellChill/1200 {{ModID}}_LyellsHouse 10 19 2 {{ModID}}_RoswellRest/1500 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_RoswellRest/1900 {{ModID}}_LyellsHouse 15 10 2 {{ModID}}_RoswellRest \"Strings\\schedules\\FC.Roswell:Roswell.Sleep\"",
+},
+      "When": {
+      "HasFlag|contains=landslideDone": true,
+     "HasSeenEvent |contains={{ModID}}_LyellIntroduction": true,
+             }
+        }, 
+]
+}

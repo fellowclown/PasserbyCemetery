@@ -1,0 +1,230 @@
+{
+    "Changes": [
+    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+      "When": {
+      "HasFlag|contains=landslideDone": true,
+      "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
+             },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 36 87 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 36 87 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+       "When": {
+      "HasFlag|contains=landslideDone": true,
+      "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
+             },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 11 16 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 11 16 2",
+                    "Delimiter": "/",
+        },
+        ]
+    },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+       "When": {
+      "HasFlag|contains=landslideDone": true,
+      "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
+             },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 19 30 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 19 30 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },  
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+       "When": {
+      "HasFlag|contains=landslideDone": true,
+      "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
+             },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 19 32 2",
+                    "Delimiter": "/",
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 19 32 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3",
+       "When": {
+      "HasFlag|contains=landslideDone": true,
+      "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
+             },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 24 24 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 24 24 1",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+      {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+                              "When": {
+      "HasFlag|contains=landslideDone": true,
+      "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
+             },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 65 96 3",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 65 96 3",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+                              "When": {
+      "HasFlag|contains=landslideDone": true,
+      "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
+             },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 103 20 3",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 103 20 3",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+       "When": {
+      "HasFlag|contains=landslideDone": true,
+      "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
+             },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 53 98 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 53 98 1",
+                    "Delimiter": "/"
+                 },
+        ]
+    },
+  ]
+}

@@ -1,0 +1,18 @@
+{
+"Changes": [
+	{
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_OldGraveYard",
+"Entries": {
+"{{ModID}}_CaveBlockUnlock/hasItem {{ModID}}_StatueGem/tile 28 35/e {{ModID}}_TheStatue": "none/-1000 -1000/farmer 28 35 0 FC.Zuuie -3000 -3000 0/viewport 28 35 clamp true/removeQuest {{ModID}}_FindGemYes.Quest/addConversationTopic FC.MamaZuuie 10/removeTile 28 34 Buildings/removeTile 28 33 Buildings/addTemporaryActor FC.CaveBlock 16 32 28 34 2 false Character/pause 900/emote farmer 40/pause 100/message \"{{i18n:CaveBlockUnlock.00}}\"/showFrame FC.CaveBlock 3/pause 200/showFrame FC.CaveBlock 2/playSound toolCharge/shake FC.CaveBlock 1000/showFrame FC.CaveBlock 1/pause 100/move farmer 0 3 0/positionOffset FC.CaveBlock 0 20/pause 200/positionOffset FC.CaveBlock 0 20/pause 200/positionOffset FC.CaveBlock 0 20/pause 200/positionOffset FC.CaveBlock 0 20/pause 200/positionOffset FC.CaveBlock 20 0/pause 200/positionOffset FC.CaveBlock 20 0/pause 100/positionOffset FC.CaveBlock 18 0/pause 200/positionOffset FC.CaveBlock 20 0/showFrame FC.CaveBlock 3/playSound reward/pause 100/message \"{{i18n:CaveBlockUnlock.01}}\"/move farmer 0 -4 0/pause 300/globalFade/viewport -1000 -1000/warp farmer 6 13/warp FC.Zuuie 4 10/showFrame FC.Zuuie 16/changeLocation {{ModID}}_SecretCave/addTemporaryActor FC.DodoBaby 16 16 7 6 2 false Character/viewport 10 9/pause 100/move farmer 0 -2 0/faceDirection farmer 1/faceDirection farmer 3/faceDirection farmer 0/pause 200/message \"{{i18n:CaveBlockUnlock.02}}\"/move farmer 0 -3 0/move farmer 1 0 0/move farmer 0 -1 0/warp FC.DodoBaby -3000 -3000/itemAboveHead {{ModID}}_FrenchDodoEgg/playSound shwip/message \"{{i18n:CaveBlockUnlock.03}}\"/addItem {{ModID}}_FrenchDodoEgg/removeItem {{ModID}}_StatueGem/pause 100/move farmer 0 2 2/pause 100/emote FC.Zuuie 16/pause 500/textabovehead FC.Zuuie \"{{i18n:CaveBlockUnlock.04}}\"/playMusic Crystal Bells/pause 200/showframe FC.Zuuie 17/pause 360/showFrame FC.Zuuie 18/pause 360/showFrame FC.Zuuie 19/pause 360/playSound pickUpItem/showFrame FC.Zuuie 20/pause 360/showFrame FC.Zuuie 21/pause 360/speed FC.Zuuie 3/move FC.Zuuie 3 0 0/pause 200/speak FC.Zuuie \"{{i18n:CaveBlockUnlock.05}}\"/pause 200/question fork0 \"{{i18n:CaveBlockUnlock.06}}\"/fork FC.GiveEggBack/pause 300/emote FC.Zuuie 28/pause 200/speak FC.Zuuie \"{{i18n:CaveBlockUnlock.07}}\"/pause 200/quickQuestion {{i18n:CaveBlockUnlock.08}}(break)speak FC.Zuuie \"{{i18n:CaveBlockUnlock.09}}\"\\friendship FC.Zuuie 5(break)speak FC.Zuuie \"{{i18n:CaveBlockUnlock.10}}\"//friendship FC.Zuuie 5/speak FC.Zuuie \"{{i18n:CaveBlockUnlock.11}}\"/pause 100/pause 100/viewport move -1 0 6000000/pause 800/globalFade/viewport -1000 -1000/message \"{{i18n:CaveBlockUnlock.12}}\"/end",
+}, 
+},
+ {
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_SecretCave",
+"Entries": {
+"FC.GiveEggBack": "pause 300/speak FC.Zuuie \"{{i18n:CaveBlockUnlock.13}}\"/pause 200/emote FC.Zuuie 16/pause 100/speak FC.Zuuie \"{{i18n:CaveBlockUnlock.14}}\"/pause 100/viewport move -1 0 6000000/pause 800/globalFade/viewport -1000 -1000/message \"{{i18n:CaveBlockUnlock.15}}\"/end",
+}, 
+},
+]
+}

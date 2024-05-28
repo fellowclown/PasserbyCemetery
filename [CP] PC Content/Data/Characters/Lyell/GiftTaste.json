@@ -1,0 +1,16 @@
+{
+"Changes": [
+
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Lyell": "{{i18n:Lyell.gift.love}}/{{ModID}}_ArcaCoin  395 {{ModID}}_MovoraptorEgg {{ModID}}_DragaWhiskey {{ModID}}_ArkaCoin 84 86 346/{{i18n:Lyell.gift.like}}/{{ModID}}_GaggleShrooms {{ModID}}_DragaDoughnut {{ModID}}_CapWedges {{ModID}}_LoMaCakes {{ModID}}_ZinfazuIcecream {{ModID}}_IceBerryWine {{ModID}}_FarmhandsSupper {{ModID}}_AdáuulaCakes {{ModID}}_WarpRootTea {{ModID}}_LavaPop/{{i18n:Lyell.gift.dislike}}/399 400/{{i18n:Lyell.gift.hate}}/403 406/{{i18n:Lyell.gift.neutral}}/396 398/",
+}
+ },
+]
+}

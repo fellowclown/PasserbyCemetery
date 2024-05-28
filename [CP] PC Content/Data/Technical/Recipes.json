@@ -1,0 +1,56 @@
+{
+"Changes": [
+ {
+"LogName": "CookingRecipes",
+"Action": "EditData",
+"Target": "Data/CookingRecipes",
+"Entries": {
+"{{ModID}}_AdáuulaCakes": "{{ModID}}_AdáuulaStalks 3 247 1/1 10/{{ModID}}_AdáuulaCakes/f FC.Lyell 500/{{i18n:FC.ArcaCakesRecipe.Title}}",
+"{{ModID}}_WarpRootTea": "{{ModID}}_WarpRoot 2 436 1 245 1/1 10/{{ModID}}_WarpRootTea/f FC.Lyell 1000/{{i18n:FC.WarpRootTeaRecipe.Title}}",
+"{{ModID}}_CapWedges": "{{ModID}}_FairyCap 2 247 1 245 1/1 10/{{ModID}}_CapWedges/f FC.Lyell 500/{{i18n:FC.CapWedgesRecipe.Title}}",
+"{{ModID}}_DragaDoughnut": "{{ModID}}_DragaClaw 1 247 1 245 1/1 10/{{ModID}}_DragaDoughnut/f FC.Lyell 500/{{i18n:FC.DragaDoughnutRecipe.Title}}",
+"{{ModID}}_LoMaCakes": "{{ModID}}_Cucumaba 3 247 1 {{ModID}}_Popachini 1/1 10/{{ModID}}_LoMaCakes/f FC.Lyell 500/{{i18n:FC.LoMaCakesRecipe.Title}}",
+"{{ModID}}_ZinfazuIcecream": "{{ModID}}_ZinfazuIcecream 2 {{ModID}}_IceBerries 1/1 10/{{ModID}}_ZinfazuIcecream/f FC.Lyell 500/{{i18n:FC.ZinfazuIcecreamRecipe.Title}}",
+"{{ModID}}_EnchantedTonic": "{{ModID}}_StoneShroomExtract 1 {{ModID}}_FireSnapperExtract 1 {{ModID}}_HeavyRootExtract 1 {{ModID}}_DragaTailExtract 1 {{ModID}}_FairyFingersExtract 1 {{ModID}}_DragaEyeExtract 1 {{ModID}}_BellPodsExtract 1 {{ModID}}_LureBerriesExtract 1 {{ModID}}_DarkTuffExtract 1 768 1/2 10/{{ModID}}_EnchantedTonic/f FC.Dezerie 250/{{i18n:FC.EnchantedTonicRecipe.Title}}",
+"{{ModID}}_EssenceOfLuck": "{{ModID}}_LureBerriesExtract 1 446 1 768 1/2 10/{{ModID}}_EssenceOfLuck/f FC.Alan 500/{{i18n:FC.EssenceOfLuckRecipe.Title}}",
+"{{ModID}}_GreenThumbTonic": "{{ModID}}_StoneShroomExtract 1 {{ModID}}_HeavyRootExtract 1 768 1/2 10/{{ModID}}_GreenThumbTonic/f FC.Dezerie 750/{{i18n:FC.GreenThumbTonicRecipe.Title}}",
+"{{ModID}}_ProtectiveTonic": "{{ModID}}_StoneShroomExtract 1 {{ModID}}_FireSnapperExtract 1 768 1/2 10/{{ModID}}_ProtectiveTonic/f FC.Alan 1250/{{i18n:FC.ProtectiveTonicRecipe.Title}}",
+"{{ModID}}_RestingTonic": "{{ModID}}_BellPodsExtract 1 444 2 769 1/2 10/{{ModID}}_RestingTonic/f FC.Valerie 1500/{{i18n:FC.RestingTonicRecipe.Title}}",
+"{{ModID}}_EnchantedDrink": "{{ModID}}_EnchantedTonic 1 {{ModID}}_EssenceOfLuck 2 769 1/2 10/{{ModID}}_EnchantedDrink/f FC.Dezerie 1500/{{i18n:FC.EnchantedDrinkRecipe.Title}}",
+"{{ModID}}_FireSnapperEssence": "{{ModID}}_FireSnapperExtract 3 {{ModID}}_DragaTailExtract 1 769 1/2 10/{{ModID}}_FireSnapperEssence/f FC.Dezerie 1500/{{i18n:FC.FireSnapperEssenceRecipe.Title}}",
+"{{ModID}}_DragaEyeTonic": "{{ModID}}_DragaEyeExtract 2 {{ModID}}_FairyFingersExtract 1 768 1/1 10/{{ModID}}_DragaEyeTonic/f FC.Valerie 1250/{{i18n:FC.DragaEyeTonicRecipe.Title}}",
+"{{ModID}}_DefensiveBrew": "{{ModID}}_StoneShroomExtract 2 {{ModID}}_HeavyRootExtract 2 768 1/1 10/{{ModID}}_DefensiveBrew/f FC.Valerie 250/{{i18n:FC.DefensiveBrewRecipe.Title}}",
+"{{ModID}}_DragaTailTonic": "{{ModID}}_DragaTail 1 768 1 769 1/1 10/{{ModID}}_DragaTailTonic/f FC.Valerie 500/{{i18n:FC.DragaTailTonicRecipe.Title}}",
+"{{ModID}}_FairyFingerTonic": "{{ModID}}_FairyFingersExtract 1 768 1 769 1/1 10/{{ModID}}_FairyFingerTonic/f FC.Valerie 1000/{{i18n:FC.FairyFingerTonicRecipe.Title}}",
+"{{ModID}}_FairyFingerTea": "{{ModID}}_FairyFingerTonic 1 {{ModID}}_GreenThumbTonic 1/1 10/{{ModID}}_FairyFingerTea/f FC.Dezerie 250/{{i18n:FC.FairyFingerTeaRecipe.Title}}",
+"{{ModID}}_HotChoco": "{{ModID}}_ChocoFruitExtract 1 184 1 245 2/1 10/{{ModID}}_HotChoco/f FC.Kaia 250/{{i18n:FC.HotChocoRecipe.Title}}",
+"{{ModID}}_MilkCoffee": "395 2 184 1 245 1/1 10/{{ModID}}_MilkCoffee/f FC.Valerie 100/{{i18n:FC.MilkCoffeeRecipe.Title}}",
+"{{ModID}}_StuffedMidnightCarp": "269 1 {{ModID}}_AdáuulaStalks 1 247 1 {{ModID}}_LureBerries 1/1 10/{{ModID}}_StuffedMidnightCarp/f FC.Lyell 500/{{i18n:FC.StuffedMidnightCarpRecipe.Title}}",
+"{{ModID}}_DragaTailPudding": "{{ModID}}_DragaTail 3 245 2/1 10/{{ModID}}_DragaTailPudding/f FC.Roswell 500/{{i18n:FC.DragaTailPuddingRecipe.Title}}",
+"{{ModID}}_FirePepperMeatPie": "{{ModID}}_FirePepper 1 {{ModID}}_Paneeki 1 247 1/1 10/{{ModID}}_FirePepperMeatPie/f FC.Roswell 1250/{{i18n:FC.FirePepperMeatPieRecipe.Title}}",
+"{{ModID}}_DarkTuffWedges": "{{ModID}}_DarkTuff 3 247 1/1 10/{{ModID}}_DarkTuffWedges/f FC.Dezerie 500/{{i18n:FC.DarkTuffWedgesRecipe.Title}}",
+"{{ModID}}_MidnightSurpise": "{{ModID}}_FairyFingers 5 247 1/1 10/{{ModID}}_MidnightSurpise/f FC.Dezerie 1000/{{i18n:FC.MidnightSurpiseRecipe.Title}}",
+"{{ModID}}_LureBerryJuice": "{{ModID}}_LureBerries 3 245 1/1 10/{{ModID}}_LureBerryJuice/f FC.Boxy 250/{{i18n:FC.LureBerryJuiceRecipe.Title}}",
+"{{ModID}}_ToughenTonic": "{{ModID}}_StoneShroom 1 {{ModID}}_CaveFlower 1/1 10/{{ModID}}_ToughenTonic/f FC.Grady 500/{{i18n:FC.ToughenTonicRecipe.Title}}",
+"{{ModID}}_SootheingCure": "{{ModID}}_YohoFruit 2 {{ModID}}_ButtonFruit 1 245 1/1 10/{{ModID}}_SootheingCure/f Emily 500/{{i18n:FC.SootheingCureRecipe.Title}}",
+"{{ModID}}_FarmHandSupper": "{{ModID}}_AdáuulaStalks 2 {{ModID}}_ButterTuff 1/1 10/{{ModID}}_FarmHandSupper/f FC.Lyell 750/{{i18n:FC.FarmHandSupperRecipe.Title}}",
+"{{ModID}}_PeircingShot": "118 1 {{ModID}}_StoneShroomExtract 2/1 10/{{ModID}}_PeircingShot/f Harvey 750/{{i18n:FC.PeircingShotRecipe.Title}}",
+"{{ModID}}_CucaSerum": "{{ModID}}_Cucumaba 2 634 1/1 10/{{ModID}}_CucaSerum/f FC.Marnie 250/{{i18n:FC.CucaSerumRecipe.Title}}",
+"{{ModID}}_PaneekiStirFry": "{{ModID}}_Paneeki 1 {{ModID}}_Popachini 1 247 1/1 10/{{ModID}}_PaneekiStirFry/f FC.Boxy 1000/{{i18n:FC.PaneekiStirFryRecipe.Title}}",
+"{{ModID}}_PopachiniStew": "{{ModID}}_Popachini 1 {{ModID}}_FirePepper 1/1 10/{{ModID}}_PopachiniStew/f FC.Lyell 800/{{i18n:FC.PopachiniStewRecipe.Title}}",
+"{{ModID}}_ButtonFruitCake": "{{ModID}}_ButtonFruit 1 246 1 245 1 184 1/1 10/{{ModID}}_ButtonFruitCake/f FC.Nikolai 1250/{{i18n:FC.ButtonFruitCakeRecipe.Title}}",
+"{{ModID}}_YohoHash": "{{ModID}}_YohoFruit 2 192 1 247 1/1 10/{{ModID}}_YohoHash/f FC.Kaia 1250/{{i18n:FC.YohoHashRecipe.Title}}",
+"{{ModID}}_ChocoBun": "{{ModID}}_ChocoFruitExtract 1 246 1 245 1 184 1/1 10/{{ModID}}_ChocoBun/f FC.Kaia 500/{{i18n:FC.ChocoBunRecipe.Title}}",
+"{{ModID}}_DeepCaveFruitJuice": "{{ModID}}_DeepCaveFruit 3 245 1/1 10/{{ModID}}_DeepCaveFruitJuice/f FC.Kaia 2000/{{i18n:FC.DeepCaveFruitJuiceRecipe.Title}}",
+}
+},
+ {
+"LogName": "CraftingRecipes",
+"Action": "EditData",
+"Target": "Data/CraftingRecipes",
+"Entries": {
+	  "{{ModID}}_WarpTotem": "583 6 {{ModID}}_DragaEyeExtract 1 769 25/Field/{{ModID}}_WarpTotem/false/none/",
+}
+},
+]
+}

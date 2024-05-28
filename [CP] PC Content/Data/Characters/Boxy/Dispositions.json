@@ -1,0 +1,134 @@
+{
+"Changes": [
+/************************************************
+Dispositions 
+************************************************/
+   {
+"LogName": "Boxy Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Boxy": {
+"DisplayName":"{{i18n:FC.Boxy}}",
+"Breather": false,
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Rude",
+"SocialAnxiety":"Shy",
+"Optimism":"Negative",
+"BirthSeason":"fall",
+"Birthday":"16",
+"HomeRegion":"Town",
+"IsDarkSkinned":false,
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":false,
+"CanVisitIsland":true,
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"HiddenUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":null,
+"SpouseWantsChildren":null,
+"SpouseGiftJealousy":false,
+"IntroductionsQuest":false,
+"ItemDeliveryQuests":false,
+"PerfectionScore":false,
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"28",
+"DumpsterDiveFriendshipEffect":"0",
+"FlowerDanceCanDance":false,
+"KissSpriteIndex": 28,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+   7
+],
+"SpouseRoom": {
+"MapAsset": null,
+},
+"SpousePatio":{
+"MapAsset": null,
+},
+
+"SpouseFloors": [ 
+    ],
+"SpouseWallpapers": [],
+"FriendsAndFamily": null,
+"WinterStarGifts": [
+],
+"WinterStarParticipant": false,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"EmoteOffset": { "X": 0, "Y": 45 },
+"MugShotSourceRect": { "X": 0, "Y": 144, "Width": 16, "Height": 16 },
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModId}}_OldGraveYard",
+"Tile": {
+"X":12,
+"Y": 52
+},
+"Direction": "right"
+}
+],
+"Appearance": [
+  {
+"ID": "{{ModID}}.Boxy_spring",
+"Season": "spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Boxy/FC.Boxy_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Boxy/FC.Boxy_spring.png}}"
+},
+{
+"ID": "{{ModID}}.Boxy_summer",
+"Season": "summer",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Boxy/FC.Boxy_summer.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Boxy/FC.Boxy_summer.png}}"
+},
+{
+"ID": "{{ModID}}.Boxy_fall",
+"Season": "fall",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Boxy/FC.Boxy_fall.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Boxy/FC.Boxy_fall.png}}"
+},
+{
+"ID": "{{ModID}}.Boxy_winter",
+"Season": "winter",
+"Portrait": "{{InternalAssetKey:Assets/Npcs/Portraits/FC.Boxy/FC.Boxy_winter.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Boxy/FC.Boxy_winter.png}}"
+},
+{
+"ID": "{{ModID}}.Boxy_rainy",
+"Condition": "WEATHER Target Rain",
+"Portrait": "{{InternalAssetKey:Assets/Npcs/Portraits/FC.Boxy/FC.Boxy_rainy.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Boxy/FC.Boxy_rainy.png}}",
+"Precedence": -10,
+},
+{
+"ID": "FC.BoxyAssetFlowerFestival",
+"Condition": "EVENT_ID festival_spring24",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Boxy/Festivals/flower dance.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Boxy/Festivals/flower dance.png}}",
+"Precedence": -10,
+},
+{
+"ID": "FC.BoxyAssetSpiritseve",
+"Condition": "EVENT_ID festival_fall3",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Boxy/Festivals/spirit's eve.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Boxy/Festivals/spirit's eve.png}}",
+"Precedence": -10,
+},
+],
+}
+}
+},
+]
+}

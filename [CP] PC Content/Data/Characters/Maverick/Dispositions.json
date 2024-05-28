@@ -1,0 +1,101 @@
+{
+"Changes": [
+ {
+"LogName": "Maverick Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Maverick": {
+"DisplayName": "{{i18n:FC.Maverick}}",
+"CanBeRomanced": false,
+"LoveInterest": null,
+"Calendar": "HiddenUntilMet",
+"SocialTab": "HiddenUntilMet",
+"SocialTabIconSourceRect": null,
+"CanSocialize": true,
+"CanReceiveGifts": true,
+"CanGreetNearbyCharacters": true,
+"CanCommentOnPurchasedShopItems": false,
+"CanVisitIsland": false,
+"IntroductionsQuest": true,
+"ItemDeliveryQuests": true,
+"PerfectionScore": false,
+"EndSlideShow": "TrailingGroup",
+"SpouseRoom": {
+"MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 6,
+"Height": 9
+}
+},
+"SpousePatio": {
+"MapAsset": null,
+"MapSourceRect": {
+},
+"SpriteAnimationFrames": [],
+"SpriteAnimationPixelOffset": {}
+},
+"SpouseFloors": [],
+"SpouseWallpapers": [],
+"FriendsAndFamily": null,
+"WinterStarGifts": [],
+"WinterStarParticipant": false,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_MavericksHouse",
+"Tile": {
+"X": 8,
+"Y": 12
+},
+"Direction": "left"
+}
+],
+"TextureName": null,
+"Appearance": [
+
+ {
+"ID": "FC.MaverickAsset",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Maverick/FC.Maverick.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Maverick/FC.Maverick.png}}"
+},
+{
+"ID": "flowerfestival",
+"Condition": "EVENT_ID festival_spring24",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Maverick/Festivals/flower dance.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Maverick/Festivals/flower dance.png}}",
+"Precedence": -10,
+},
+{
+"ID": "spiritseve",
+"Condition": "EVENT_ID festival_fall27",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Maverick/Festivals/spirit's eve.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Maverick/Festivals/spirit's eve.png}}",
+"Precedence": -10,
+},
+],
+"Size": {
+"X": 16,
+"Y": 32
+},
+"Breather": true,
+"ShakePortraits": [
+],
+"KissSpriteIndex": 42,
+"KissSpriteFacingRight": 52,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 16,
+"HiddenProfileEmoteFrameCount": 4,
+"HiddenProfileEmoteFrameDuration": 200.0,
+"CustomFields": {},
+}
+}
+},
+]
+}

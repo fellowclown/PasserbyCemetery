@@ -1,0 +1,14 @@
+{ "Changes": [
+/************************************************
+Gift Tastes
+************************************************/
+{
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Boxy": "{{i18n:Boxy.gift.love}}/684 698 699 700 701 702/{{i18n:Boxy.gift.like}}/704 705 706 707 708/{{i18n:Boxy.gift.dislike}}/723 715 716 717 718/{{i18n:Boxy.gift.hate}}/719 720 721 722/{{i18n:Boxy.gift.neutral}}/131/",
+}
+},
+]
+}

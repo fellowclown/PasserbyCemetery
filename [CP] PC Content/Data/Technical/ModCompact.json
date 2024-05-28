@@ -1,0 +1,27 @@
+{
+   "Changes": [
+     {
+            "Action": "Load",
+            "FromFile": "Assets/Maps/Tilesheets/PC_Icon.png",
+            "Target": "Mods/{{ModID}}/PC_Icon",
+            "When": {
+                "HasMod": "shekurika.worldMaps"
+            }
+        },
+{
+            "Action": "EditData",
+            "Entries": {
+                "{{ModID}}_OldGraveYard": {
+                    "Condition": "PLAYER_VISITED_LOCATION Current Fellowclown.PC_OldGraveYard",
+                    "Location": "{{ModID}}_OldGraveYard",
+                    "SpriteIndex": 0,
+                    "Texture": "Mods/{{ModID}}/PC_Icon"
+                }
+            },
+            "Target": "Mods/shekurika.Worldmaps/WorldMapData",
+            "When": {
+                 "HasMod": "shekurika.worldMaps"
+            }
+        },
+   ]
+}

@@ -1,0 +1,15 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Valerie": "{{i18n:Valerie.gift.love}}/{{ModID}}_MilkCoffee {{ModID}}_StoneShroom {{ModID}}_HeavyRoot {{ModID}}_FairyFingers {{ModID}}_CaveFlower {{ModID}}_DarkTuff/{{i18n:Valerie.gift.like}}/258 269 342 414/{{i18n:Valerie.gift.dislike}}/416 419 209/{{i18n:Valerie.gift.hate}}/253 252 250/{{i18n:Valerie.gift.neutral}}/346 348/",
+}
+ },
+]
+}

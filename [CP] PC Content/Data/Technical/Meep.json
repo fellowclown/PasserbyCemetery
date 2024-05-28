@@ -1,0 +1,184 @@
+{
+    "Changes": [
+/************************************************
+   MEEP
+ ************************************************/
+ {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_LyellsHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 25,
+                        "Y": 11
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/StoneRelic",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:LyellHouse.StoneRelic.01}}",
+                    }
+                }
+            ]
+        },
+                  {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_LyellsHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 14,
+                        "Y": 19
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                       "Action": "MEEP_Letter {{i18n:GradysNotes.{{Random:01,02,03}}}}",
+                        "MEEP_Letter_Type": "1"
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_LyellsHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 20,
+                        "Y": 9
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                         "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Page01",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:LyellHouse.Page01.01}}",
+                      "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Page02",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:LyellHouse.Page02.01}}",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Page03",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:LyellHouse.Page03.01}}",
+                          "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Page04",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:LyellHouse.Page04.01}}",
+                        "MEEP_SetMailFlag": "HasSeenPhotoAlbum"
+                    }
+                }
+            ]
+        },
+          {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_LyellSpouseRoom",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 0,
+                        "Y": 6,
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                         "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Page01",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:LyellHouse.Page01.02}}",
+                         "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Page02",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:LyellHouse.Page02.02}}",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Page03",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:LyellHouse.Page03.02}}",
+                          "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Page04",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:LyellHouse.Page04.02}}",
+                    }
+                }
+            ]
+        },
+   {
+//  Tile Properties
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_LyellSpouseRoom",
+"MapTiles": [
+{
+    "Position": {
+"X": 4,
+"Y": 6
+    },
+    "Layer": "Buildings",
+"SetProperties": {
+"Action": "MEEP_CloseupInteraction_Image {{ModID}}/Painting",
+"MEEP_CloseupInteraction_Text_1": "{{i18n:LyellHouse.Painting.01}}"
+    }
+}
+]
+}, 
+ {
+//  Tile Properties
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_LyellSpouseRoom",
+"MapTiles": [
+{
+    "Position": {
+"X": 3,
+"Y": 7
+    },
+    "Layer": "Buildings",
+    "SetProperties": {
+"Action": "MEEP_CloseupInteraction_Image {{ModID}}/StoneRelic",
+"MEEP_CloseupInteraction_Text_1": "{{i18n:LyellHouse.StoneRelic.02}}"
+    }
+}
+]
+},
+{
+//  Tile Properties
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_Niksroom",
+"MapTiles": [
+{
+    "Position": {
+"X": 7,
+"Y": 13
+    },
+    "Layer": "Buildings",
+    "SetProperties": {
+ "Action": "MEEP_CloseupInteraction_Image {{ModID}}/NikAndKaia",
+"MEEP_CloseupInteraction_Text_1": "{{i18n:FC.NikAndKaia}}",   
+    }
+}
+]
+},
+{
+//  Tile Properties
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_StoneHouse",
+"MapTiles": [
+{
+    "Position": {
+"X": 17,
+"Y": 9
+    },
+    "Layer": "Buildings",
+    "SetProperties": {
+ "Action": "MEEP_CloseupInteraction_Image {{ModID}}/ValAndHec",
+"MEEP_CloseupInteraction_Text_1": "{{i18n:FC.ValAndHec}}",   
+    }
+}
+]
+},
+{
+//  Tile Properties
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_StoneHouse",
+"MapTiles": [
+{
+    "Position": {
+"X": 16,
+"Y": 18
+    },
+    "Layer": "Buildings",
+    "SetProperties": {
+ "Action": "MEEP_CloseupInteraction_Image {{ModID}}/MicahValerieAndDezerie",
+"MEEP_CloseupInteraction_Text_1": "{{i18n:FC.MicahValerieAndDezerie}}",   
+    }
+}
+]
+},
+ ],
+}

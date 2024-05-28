@@ -1,0 +1,187 @@
+{
+  "Changes": [
+  
+    {
+      "Action": "EditData",
+      "Target": "Data/Movies",
+      "Entries": {
+        "{{ModID}}_SpiritOfLife": {
+          "Id": "{{ModID}}_SpiritOfLife",
+          "Texture": "{{InternalAssetKey: Assets/Movies/Movies.png}}",
+          "SheetIndex": 0,
+          "Title": "{{i18n:SpiritOfLife.Title}}",
+          "Description": "{{i18n:SpiritOfLife.Description}}",
+          "Tags": [
+            "art",
+            "documentary"
+          ],
+          "Scenes": [
+            {
+              "Image": 0,
+              "Music": "nightTime",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:SpiritOfLife.Title}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "winter0_1"
+            },  
+         
+            {
+              "Image":0,
+              "Music": "nightTime",
+              "Sound": "",
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:SpiritOfLife.Scene.1}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "winter0_2"
+            },   
+    
+            {
+              "Image": 1,
+              "Music": "nightTime",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": "",
+              "Text": "{{i18n:SpiritOfLife.Scene.2}}",
+              "Shake": false,
+              "ResponsePoint": "",
+              "Id": "winterwinter0_3"
+            },    
+            {
+              "Image": 1,
+              "Music": "nightTime",
+              "Sound": "winter_day_ambient",
+              "MessageDelay": 1000,
+              "Script": null,
+              "Text": "{{i18n:SpiritOfLife.Scene.3}}",
+              "Shake": false,
+              "ResponsePoint": "",
+              "Id": "winter0_4"
+            },   
+            {
+              "Image": 2,
+              "Music": "winter_day_ambient",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": ".{{i18n:SpiritOfLife.Scene.4}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "winter0_5"
+            }, 
+            {
+              "Image": 2,
+              "Music": "winter_day_ambient",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:SpiritOfLife.Scene.5}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "winter0_6"
+            }, 
+            {
+              "Image": 3,
+              "Music": "winter_day_ambient",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:SpiritOfLife.Scene.6}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "winter0_7"
+            },
+      
+             {
+              "Image": 3,
+              "Music": "{{ModID}}_Lullaby",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:SpiritOfLife.Scene.7}}",
+              "Shake": true,
+              "ResponsePoint": null,
+              "Id": "winter0_8"
+            },
+      
+                  {
+              "Image": 4,
+              "Music": "{{ModID}}_Lullaby",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:SpiritOfLife.Scene.8}}",
+              "Shake": true,
+              "ResponsePoint": null,
+              "Id": "winter0_9"
+            },
+    
+                  {
+              "Image": 5,
+              "Music": "{{ModID}}_Lullaby",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:SpiritOfLife.Scene.9}}",
+              "Shake": true,
+              "ResponsePoint": null,
+              "Id": "winter0_10"
+            },
+             {
+              "Image": 6,
+              "Music": "{{ModID}}_Lullaby",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:SpiritOfLife.Scene.10}}",
+              "Shake": true,
+              "ResponsePoint": null,
+              "Id": "winter0_11"
+            },
+
+                  {
+              "Image": 7,
+              "Music": "{{ModID}}_Lullaby",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:SpiritOfLife.Scene.11}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "winter0_12"
+            },
+      
+                  {
+              "Image": 8,
+              "Music": "{{ModID}}_Lullaby",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:SpiritOfLife.Scene.12}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "winter0_13"
+            },
+      
+                     {
+              "Image": 9,
+              "Music": "{{ModID}}_Lullaby",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:SpiritOfLife.Scene.13}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "winter0_14"
+            },
+          ],
+          "CustomFields": {}
+                 }
+            }
+        }
+    ]
+}

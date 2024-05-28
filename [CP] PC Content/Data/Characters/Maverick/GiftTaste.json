@@ -1,0 +1,15 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Maverick": "{{i18n:Maverick.gift.love}}/22 60 340/{{i18n:Maverick.gift.like}}/342 346 348/{{i18n:Maverick.gift.dislike}}/160 20 78/{{i18n:Maverick.gift.hate}}/372/{{i18n:Maverick.gift.neutral}}/66 392/",
+}
+},
+]
+}

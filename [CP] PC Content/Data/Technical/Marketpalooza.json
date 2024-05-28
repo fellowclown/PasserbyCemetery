@@ -1,0 +1,89 @@
+{
+"Changes": [
+    {
+      "LogName": "Marketpalooza",
+      "Action": "EditData",
+      "Target": "Data/Festivals/FestivalDates",
+      "Entries": {"fall3": "Marketpalooza",
+      },
+        "When": {
+      "HasFlag|contains={{ModID}}_Marketpalooza.Mail": true,
+        }
+      },
+                              {
+    "Action": "Load",
+    "Target": "Data/Festivals/fall3",
+    "FromFile": "Data/empty.json",
+"When": {
+      "HasFlag|contains={{ModID}}_Marketpalooza.Mail": true,
+        }
+      },
+          { 
+        "LogName": "Cs Strings Edits",
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "Event.cs.1531": "{{i18n:Event.cs.1531}}",
+      },
+     "When": {
+        "DayEvent": "Marketpalooza",
+        },
+        "When": {
+      "HasFlag|contains={{ModID}}_Marketpalooza.Mail": true,
+        }
+      },
+	{
+         "Action": "EditData",
+         "Target": "Data/Festivals/fall3",
+         "Entries": {
+    "name": "Marketpalooza",
+    "startedMessage": "{{i18n:Marketpalooza.Begin}}",
+    "conditions": "{{ModID}}_OldGraveYard/1600 2000/n {{ModID}}_Marketpalooza.Mail",
+    "set-up": "{{ModID}}_Marketpalooza/-1000 -1000/farmer 7 42 0/changeToTemporaryMap {{ModID}}_Marketpalooza/loadActors Set-Up/viewport 4 30 true unfreeze/playerControl jellies",
+"mainEvent": "fade/viewport 24 27 clamp true/loadActors MainEvent/warp farmer1 22 11/warp farmer2 25 26/warp farmer3 26 36/warp farmer4 23 26/faceDirection farmer1 2/faceDirection farmer2 2/faceDirection farmer3 2/faceDirection farmer4 2/pause 400/speak FC.Nikolai \"{{i18n:mainEvent.01}}\"/pause 500/speak FC.Nikolai \"{{i18n:mainEvent.02}}\"/pause 500/speak FC.Nikolai \"{{i18n:mainEvent.03}}\"/pause 400/speak FC.Nikolai \"{{i18n:mainEvent.04}}\"/pause 300/speak FC.Nikolai \"{{i18n:mainEvent.05}}\"/pause 500/speak FC.Nikolai \"{{i18n:mainEvent.06}}\"/pause 200/speak FC.Nikolai \"{{RaffleWinner}}\"/pause 500/speak FC.Nikolai \"{{i18n:mainEvent.07}}\"/{{RaffleResult}}/pause 800/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/pause 600/message \"{{i18n:mainEvent.08}}\"/waitForOtherPlayers festivalEnd/end",
+    "Abigail_spouse": "{{i18n:Marketpalooza.01}}",
+    "Nikolai_spouse": "{{i18n:Marketpalooza.02}}",
+    "Nikolai": "{{i18n:Marketpalooza.03}}",
+    "Leah_spouse": "{{i18n:Marketpalooza.04}}",
+    "Maru_spouse": "{{i18n:Marketpalooza.05}}",
+    "Penny_spouse": "{{i18n:Marketpalooza.06}}",
+    "Haley_spouse": "{{i18n:Marketpalooza.07}}",
+    "Sebastian_spouse": "{{i18n:Marketpalooza.08}}",
+    "Sam_spouse": "{{i18n:Marketpalooza.09}}",
+    "Alex_spouse": "{{i18n:Marketpalooza.010}}",
+    "Harvey_spouse": "{{i18n:Marketpalooza.011}}",
+    "Elliott_spouse": "{{i18n:Marketpalooza.012}}" ,
+    "Abigail": "{{i18n:Marketpalooza.014}}",
+    "Robin": "{{i18n:Marketpalooza.015}}",
+    "Demetrius": "{{i18n:Marketpalooza.016}}",
+    "Maru": "{{i18n:Marketpalooza.017}}",
+    "Sebastian": "{{i18n:Marketpalooza.018}}",
+    "Pierre": "{{i18n:Marketpalooza.019}}" ,
+    "Caroline": "{{i18n:Marketpalooza.020}}",
+    "Linus": "{{i18n:Marketpalooza.021}}",
+    "Alex": "{{i18n:Marketpalooza.022}}",
+    "George": "{{i18n:Marketpalooza.023}}",
+    "Evelyn": "{{i18n:Marketpalooza.024}}",
+    "Clint": "{{i18n:Marketpalooza.026}}",
+    "Emily": "{{i18n:Marketpalooza.027}}",
+    "Penny": "{{i18n:Marketpalooza.028}}",
+    "Pam": "{{i18n:Marketpalooza.029}}" ,
+    "Haley": "{{i18n:Marketpalooza.030}}",
+    "Jodi": "{{i18n:Marketpalooza.031}}" ,
+    "Kent": "{{i18n:Marketpalooza.032}}",
+    "Sam": "{{i18n:Marketpalooza.033}}",
+    "Leah": "{{i18n:Marketpalooza.034}}",
+    "Shane": "{{i18n:Marketpalooza.035}}",
+    "Marnie": "{{i18n:Marketpalooza.036}}" ,
+    "Elliott": "{{i18n:Marketpalooza.037}}",
+    "Gus": "{{i18n:Marketpalooza.038}}",
+    "Harvey": "{{i18n:Marketpalooza.039}}",
+    "Jas": "{{i18n:Marketpalooza.040}}",
+    "Vincent": "{{i18n:Marketpalooza.041}}",
+    "Willy": "{{i18n:Marketpalooza.042}}",
+    "Marlon": "{{i18n:Marketpalooza.043}}",
+        }
+              },
+
+]
+}

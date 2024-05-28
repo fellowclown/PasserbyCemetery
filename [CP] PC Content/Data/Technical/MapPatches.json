@@ -1,0 +1,205 @@
+{
+"Changes": [
+    {
+            "LogName": "begone Tile",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_StoneHouse",
+            "Update": "OnTimeChange, OnLocationChange",
+            "MapTiles": [
+                {
+                    "Position": { "X": 14, "Y":13, },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": null,
+                    },
+                },
+            ],
+            "When": {
+                 "HasSeenEvent |contains={{ModID}}_ResearchingRett": true,
+            },
+        },
+	{
+            "LogName": "begone Tile",
+            "Action": "EditMap",
+            "Target": "Maps/Town-Christmas2",
+            "MapTiles": [
+                {
+                    "Position": { "X": 28, "Y":68, },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": null,
+                    },
+                },
+            ],
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP",
+            },
+        },
+ {
+  "LogName": "LyellDoorOpen",
+  "Action": "EditMap",
+  "Target": "Maps/{{ModID}}_LyellsProperty",
+          "When": {
+      "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
+             },
+  "MapTiles": [
+    {
+      "Position": {
+        "X": 34,
+        "Y": 36
+      },
+      "Layer": "Buildings",
+      "SetProperties": {
+        "Action": "LockedDoorWarp 7 20 {{ModID}}_LyellsHouse 700 2200"
+      },
+
+           }
+  ]
+},
+     {
+  "LogName": "StoneDoorOpen",
+  "Action": "EditMap",
+  "Target": "Maps/{{ModID}}_OldGraveYard",
+      "When": {
+      "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
+                   },
+  "MapTiles": [
+    {
+      "Position": {
+        "X":13,
+        "Y": 62
+      },
+      "Layer": "Buildings",
+      "SetProperties": {
+        "Action": "LockedDoorWarp 7 24 {{ModID}}_StoneHouse 700 2200"
+      },
+           }
+  ]
+},
+   {
+  "LogName": "LeslaDoorOpen",
+  "Action": "EditMap",
+  "Target": "Maps/{{ModID}}_OldGraveYard",
+          "When": {
+      "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+                    },
+  "MapTiles": [
+    {
+      "Position": {
+        "X": 33,
+        "Y": 11
+      },
+      "Layer": "Buildings",
+      "SetProperties": {
+        "Action": "LockedDoorWarp 21 14 {{ModID}}_LeslaHouse 900 2200"
+      },
+           }
+  ]
+},
+  {
+  "LogName": "MaverickDoorOpen",
+  "Action": "EditMap",
+  "Target": "Maps/{{ModID}}_OldGraveYard",
+          "When": {
+      "HasSeenEvent |contains={{ModID}}_TheStatue": true,
+                    },
+  "MapTiles": [
+    {
+      "Position": {
+        "X": 8,
+        "Y": 43
+      },
+      "Layer": "Buildings",
+      "SetProperties": {
+        "Action": "LockedDoorWarp 8 14 {{ModID}}_MavericksHouse 900 2200 FC.Maverick 500"
+      },
+    }
+  ]
+},
+          {
+ "LogName": "gemedit",
+ "Action": "EditMap",
+ "Target": "Maps/{{ModID}}_OldGraveYard",
+ "FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/Glow.tbin",
+ "PatchMode":"overlay",
+"Update": "OnTimeChange, OnLocationChange",
+ "ToArea": { "X": 30, "Y": 80, "Width":1, "Height": 2 },
+ "When": {
+            "HasSeenEvent |contains={{ModID}}_TheStatue": true,
+            "HasFlag |contains={{ModID}}_GemGive.Mail": true,
+            "HasFlag |contains={{ModID}}_GotGem.Mail": false,
+            "Time": "{{Range: 2000, 2600}}",
+            "Weather": "Rain,Storm,GreenRain,Snow",
+}
+        },
+                  {
+ "LogName": "RettNote",
+ "Action": "EditMap",
+ "Target": "Maps/{{ModID}}_OldGraveYard",
+ "FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/RettNote.tbin",
+ "PatchMode":"overlay",
+"Update": "OnTimeChange, OnLocationChange",
+ "ToArea": { "X": 46, "Y": 22, "Width":1, "Height": 1 },
+ "When": {
+            "HasFlag |contains={{ModID}}_RettNote.Mail": true,
+            "HasSeenEvent |contains={{ModID}}_PickUpNote": false,
+  }
+},
+
+///Graveyard Map Edits
+       {
+ "LogName": "OldGraveYardStatueMoved",
+ "Action": "EditMap",
+ "Target": "Maps/{{ModID}}_OldGraveYard",
+ "FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/OldGraveYardStatueMoved.tbin",
+"Update": "OnTimeChange, OnLocationChange",
+ "ToArea": { "X": 26, "Y": 31, "Width": 4, "Height": 5 },
+ "When": {
+          "HasSeenEvent |contains={{ModID}}_CaveBlockUnlock": true,
+            }
+        },
+//Vanilla Map Edits 
+{
+"LogName": "Add custom Tilesheets to farmhouse",
+"Action": "EditMap",
+"Target": "Maps/FarmHouse,Maps/FarmHouse2, Maps/FarmHouse2_marriage, Maps/FarmHouse1_marriage",
+"FromFile": "Assets/Maps/Map Patches/farmhouse-tilesheets.tbin",
+"FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 1 },
+"ToArea": { "X": 0, "Y": 0, "Width": 1, "Height": 1 },
+ "PatchMode": "Overlay"
+},
+{
+"LogName": "Core Map Entrance-VanillaOnly-True",
+ "Action": "EditMap",
+ "Target": "Maps/Mountain",
+ "TextOperations": [
+{
+ "Operation": "Append",
+ "Target": ["MapProperties", "Warp"],
+ "Value": "64 0 {{ModID}}_OldGraveYard 37 84 64 0 {{ModID}}_OldGraveYard 37 84",
+ "Delimiter": " "
+}
+]  
+},
+{
+"LogName": "Core Map Entrance-VanillaOnly-True",
+ "Action": "EditMap",
+ "Target": "Maps/Mountain",
+ "FromFile": "Assets/Maps/Map Patches/MountainSDV.tbin",
+ "ToArea": { "X": 60, "Y": 0, "Width": 9, "Height": 10 }, 
+  "When": {
+           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+      },
+{
+"LogName": "Core Map Entrance-VanillaOnly-True",
+ "Action": "EditMap",
+ "Target": "Maps/Mountain",
+ "FromFile": "Assets/Maps/Map Patches/MountainSVE.tbin",
+ "ToArea": { "X": 62, "Y": 0, "Width": 6, "Height": 12 },
+  "When": {
+           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+      },
+]
+}

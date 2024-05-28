@@ -1,0 +1,15 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Alan": "{{i18n:Alan.gift.love}}/68 70 72 90/{{i18n:Alan.gift.like}}/{{ModID}}_MilkCoffee 101/{{i18n:Alan.gift.dislike}}/{{ModID}}_BellPods {{ModID}}_LureBerries 22/{{i18n:Alan.gift.hate}}/{{ModID}}_StoneShroom {{ModID}}_HeavyRoot {{ModID}}_FairyFingers 143/{{i18n:Alan.gift.neutral}}/253 346 348/",
+}
+ },
+]
+}

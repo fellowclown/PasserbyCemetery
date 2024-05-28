@@ -1,0 +1,60 @@
+{
+"Changes": [
+/************************************************
+UNIVERSAL GIFT TASTES
+ ************************************************/
+  {
+            "LogName": "Add gift tastes data",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                //Universal gift tastes
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Love"
+                    ],
+                    "Value": "{{ModID}}_AdáuulaCakes {{ModID}}_TropaWine {{ModID}}_DragaTail {{ModID}}_FirePepper {{ModID}}_StuffedMidnightCarp {{ModID}}_DragaTailPudding {{ModID}}_FirePepperMeatPie {{ModID}}_MidnightSurpise {{ModID}}_MovoraptorEgg {{ModID}}_MovoraptorMayo {{ModID}}_DragaWhiskey {{ModID}}_DragaClaw {{ModID}}_DragaTongue {{ModID}}_FairyCap {{ModID}}_ZinfazuIcecream {{ModID}}_PaneekiStirFry {{ModID}}_PopachiniStew {{ModId}}_HoneyGopper {{ModId}}_BudJelly {{ModId}}_ChocoBar {{ModId}}_HoneyDrops {{ModId}}_RainbowHoneyPichi {{ModId}}_ChocoFrog {{ModId}}_JellyBellyBumbleBees {{ModId}}_SnowPop {{ModId}}_BayDrop {{ModId}}_GreenAppleHoneyPop {{ModId}}_CherryBlossomHoney {{ModId}}_SnowHoney {{ModId}}_SunshineHoney {{ModId}}_HotChoco {{ModId}}_MidnightBubbly {{ModId}}_MegaWrap {{ModId}}_KingsRangoonDish {{ModId}}_SweetenBreadPudding {{ModId}}_HoneyCrumble {{ModId}}_ButtonFruitCake {{ModId}}_YohoHash {{ModId}}_ChocoBun" ,
+                    "Delimiter": " "
+      },
+              {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Like"
+                    ],
+                    "Value": "{{ModID}}_DragaDoughnut {{ModID}}_CapWedges {{ModID}}_LoMaCakes {{ModID}}_ZinfazuIcecream {{ModID}}_IceBerryWine {{ModID}}_FarmhandsSupper {{ModID}}_AdáuulaCakes {{ModID}}_WarpRootTea {{ModID}}_DragaWhiskey {{ModID}}_LavaPop {{ModID}}_MilkCoffee {{ModID}}_EnchantedDrink {{ModID}}_FireSnapper {{ModID}}_DragaEye {{ModID}}_BellPods {{ModID}}_LureBerries {{ModID}}_DarkTuff {{ModID}}_CaveFlower {{ModID}}_FairyFingerTea {{ModID}}_DarkTuffWedges {{ModID}}_AdáuulaStalks {{ModID}}_ZinfazuFruit {{ModID}}_TropaFruit {{ModID}}_IceBerries {{ModID}}_Paneeki {{ModId}}_LavaHoney {{ModId}}_SeafoamHoney {{ModID}}_ChocoFruit {{ModID}}_ButtonFruit {{ModID}}_YohoFruit {{ModId}}_LemonberryJuice {{ModId}}_AcornCake {{ModID}}_FrenchDodoEgg {{ModID}}_DodoMayo",
+                    "Delimiter": " "
+      },
+              {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Neutral"
+                    ],
+                    "Value": "{{ModID}}_ToughenTonic {{ModID}}_SootheingCure {{ModID}}_PeircingShot {{ModID}}_CucaSerum {{ModID}}_DragaClaw {{ModID}}_DragaTongue {{ModID}}_FairyCap {{ModID}}_IceBerries {{ModID}}_Popachini {{ModID}}_Páneeki {{ModID}}_AdáuulaStalks {{ModID}}_ZinfazuFruit {{ModID}}_ButterTuff {{ModID}}_StoneShroom {{ModID}}_HeavyRoot {{ModID}}_FairyFingers {{ModID}}_LureBerryJuice {{ModID}}_ButterTuff {{ModID}}_Cucumaba {{ModID}}_Popachini {{ModID}}_IceBerryWine {{ModID}}_TwistedBread {{ModId}}_VoidHoney {{ModID}}_DeepCaveFruit {{ModId}}_DeepCaveFruitJuice",
+                    "Delimiter": " "
+      },
+              {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Dislike"
+                    ],
+                    "Value": "{{ModID}}_Cucumaba {{ModID}}_WarpRoot {{ModID}}_FireSnapperEssence {{ModID}}_DefensiveBrew {{ModID}}_RootJuice {{ModID}}_DragaTailTonic {{ModID}}_FairyFingerTonic {{ModID}}_DragaEyeTonic {{ModID}}_GreenThumbTonic {{ModID}}_ProtectiveTonic {{ModID}}_EssenceOfLuck {{ModID}}_RestingTonic {{ModID}}_EnchantedTonic {{ModID}}_StoneShroomExtract {{ModID}}_FireSnapperExtract {{ModID}}_DragaTailExtract {{ModID}}_FairyFingersExtract {{ModID}}_DragaEyeExtract {{ModID}}_BellPodsExtract {{ModID}}_LureBerriesExtract {{ModID}}_DarkTuffExtract {{ModID}}_HeavyRootExtract {{ModID}}_WarpRoot",
+                    "Delimiter": " "
+      },
+              {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Hate"
+                    ],
+                    "Value": "{{ModID}}_ArcaCoin {{ModID}}_GaggleShrooms {{ModID}}_VultureSkull {{ModID}}_ToughenTonic {{ModID}}_SootheingCure {{ModID}}_PeircingShot {{ModID}}_CucaSerum",
+                    "Delimiter": " "
+      },
+   ]
+},
+]
+}

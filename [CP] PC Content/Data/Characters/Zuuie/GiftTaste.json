@@ -1,0 +1,15 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Zuuie": "{{i18n:Zuuie.gift.love}}/66 86/{{i18n:Zuuie.gift.like}}/110 119/{{i18n:Zuuie.gift.dislike}}/116/{{i18n:Zuuie.gift.hate}}/105/{{i18n:Zuuie.gift.neutral}}/346 350/ ",
+}
+},
+]
+}

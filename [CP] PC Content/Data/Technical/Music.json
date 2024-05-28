@@ -1,0 +1,160 @@
+{
+"Changes": [
+     {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Dodo": {
+"ID": "{{ModID}}_Dodo",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/Dodo.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": false
+}
+}
+},
+    {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Hush": {
+"ID": "{{ModID}}_Hush",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/Hush.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": true
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Stasis": {
+"ID": "{{ModID}}_Stasis",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/Stasis.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": true
+}
+}
+},
+ {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "{{ModID}}_Marketpalooza": {
+                    "ID": "{{ModID}}_Marketpalooza",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Marketpalooza.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+         {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "{{ModID}}_Squeak": {
+                    "ID": "{{ModID}}_Squeak",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Squeak.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        },
+          {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "{{ModID}}_LongSqueak": {
+                    "ID": "{{ModID}}_LongSqueak",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.LongSqueak.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        },
+                {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "{{ModID}}_BoxysTheme": {
+                    "ID": "{{ModID}}_BoxysTheme",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.BoxysTheme.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+                       {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "{{ModID}}_QuietTime": {
+                    "ID": "{{ModID}}_QuietTime",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.QuietTime.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+         {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Lullaby": {
+"ID": "{{ModID}}_Lullaby",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/Lullaby.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": true
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Movoraptor": {
+"ID": "{{ModID}}_Movoraptor",
+"Category": "Sound",
+"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/Movoraptor.ogg}}" ],
+"StreamedVorbis": false,
+"Looped": false
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_HalkiasClan": {
+"ID": "{{ModID}}_HalkiasClan",
+"Category": "Sound",
+"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/HalkiasClan.ogg}}" ],
+"StreamedVorbis": false,
+"Looped": false
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Motorcycle": {
+"ID": "{{ModID}}_Motorcycle",
+"Category": "Sound",
+"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/motorcycle.ogg}}" ],
+"StreamedVorbis": false,
+"Looped": false
+}
+}
+},
+]
+}

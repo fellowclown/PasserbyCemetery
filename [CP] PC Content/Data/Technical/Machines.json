@@ -1,0 +1,536 @@
+{
+  "Changes": [
+    {
+      "LogName": "Movorator Mayo",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)24",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_MovoraptorEgg": {
+          "Id": "{{ModID}}_MovoraptorEgg",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_MovoraptorEgg",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "{{ModID}}_MovoraptorMayo",
+              "ItemId": "{{ModID}}_MovoraptorMayo"
+            }
+          ],
+          "MinutesUntilReady": 180
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "{{ModID}}_MovoraptorEgg",
+          "BeforeId": "Default_Egg"
+        }
+      ]
+    },
+    {
+      "LogName": "Dodo Mayo",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)24",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_FrenchDodoEgg": {
+          "Id": "{{ModID}}_FrenchDodoEgg",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_FrenchDodoEgg",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "{{ModID}}_DodoMayo",
+              "ItemId": "{{ModID}}_DodoMayo"
+            }
+          ],
+          "MinutesUntilReady": 180
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "{{ModID}}_FrenchDodoEgg",
+          "BeforeId": "Default_Egg"
+        }
+      ]
+    },
+    {
+      "LogName": "Dried Draga Fruit",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)Dehydrator",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_DragaTail": {
+          "Id": "{{ModID}}_DragaTail",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_DragaTail",
+              "RequiredCount": 6
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+              "ItemId": "FLAVORED_ITEM DriedFruit DROP_IN_ID"
+            }
+          ],
+          "MinutesUntilReady": 180
+        }
+      }
+    },
+    {
+      "LogName": "Dried Fairy Fingers",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)Dehydrator",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_FairyFingers": {
+          "Id": "{{ModID}}_FairyFingers",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_FairyFingers",
+              "RequiredCount": 6
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+              "ItemId": "FLAVORED_ITEM DriedFruit DROP_IN_ID"
+            }
+          ],
+          "MinutesUntilReady": 180
+        }
+      }
+    },
+    {
+      "LogName": "Dried Draga Eye",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)Dehydrator",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_DragaEye": {
+          "Id": "{{ModID}}_DragaEye",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_DragaEye",
+              "RequiredCount": 6
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+              "ItemId": "FLAVORED_ITEM DriedFruit DROP_IN_ID"
+            }
+          ],
+          "MinutesUntilReady": 180
+        }
+      }
+    },
+    {
+      "LogName": "Dried Bell Pods",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)Dehydrator",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_BellPods": {
+          "Id": "{{ModID}}_BellPods",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_BellPods",
+              "RequiredCount": 6
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+              "ItemId": "FLAVORED_ITEM DriedFruit DROP_IN_ID"
+            }
+          ],
+          "MinutesUntilReady": 180
+        }
+      }
+    },
+    {
+      "LogName": "Dried Lure Berries",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)Dehydrator",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_LureBerries": {
+          "Id": "{{ModID}}_LureBerries",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_LureBerries",
+              "RequiredCount": 6
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+              "ItemId": "FLAVORED_ITEM DriedFruit DROP_IN_ID"
+            }
+          ],
+          "MinutesUntilReady": 180
+        }
+      }
+    },
+    {
+      "LogName": "Dried DriedDarkTuff",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)Dehydrator",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_DarkTuff": {
+          "Id": "{{ModID}}_DarkTuf",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_DarkTuff",
+              "RequiredCount": 6
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "FLAVORED_ITEM DriedFruit DROP_IN_ID",
+              "ItemId": "FLAVORED_ITEM DriedFruit DROP_IN_ID"
+            }
+          ],
+          "MinutesUntilReady": 180
+        }
+      }
+    },
+    {
+      "LogName": "draga whiskey",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)12",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_DragaTongue": {
+          "Id": "{{ModID}}_DragaTongue",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_DragaTongue",
+              "RequiredCount": 6
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "{{ModID}}_DragaWhiskey",
+              "ItemId": "{{ModID}}_DragaWhiskey"
+            }
+          ],
+          "MinutesUntilReady": 180
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "{{ModID}}_DragaTongue",
+          "BeforeId": "Default_Wine"
+        }
+      ]
+    },
+    {
+      "LogName": "ice beerry wine",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)12",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_IceBerries": {
+          "Id": "{{ModID}}_IceBerries",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_IceBerries",
+              "RequiredCount": 6
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "{{ModID}}_IceBerryWine",
+              "ItemId": "{{ModID}}_IceBerryWine"
+            }
+          ],
+          "MinutesUntilReady": 180
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "{{ModID}}_IceBerries",
+          "BeforeId": "Default_Wine"
+        }
+      ]
+    },
+    {
+      "LogName": "Tropa Fruit wine",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)12",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_TropaFruit": {
+          "Id": "{{ModID}}_TropaFruit",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_TropaFruit",
+              "RequiredCount": 6
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "{{ModID}}_TropaWine",
+              "ItemId": "Default_Wine"
+            }
+          ],
+          "MinutesUntilReady": 180
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "{{ModID}}_TropaFruit",
+          "BeforeId": "Default_Wine"
+        }
+      ]
+    },
+     /*/////////////////////////Actual Custom Machines*/
+    {
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "{{ModID}}_ExtractorMachine": {
+          "Name": "{{ModID}}_ExtractorMachine",
+          "DisplayName": "{{i18n:ExtractorMachine}}",
+          "Description": "{{i18n:ExtractorMachine.Desc}}",
+          "Texture": "Mods/{{ModID}}/Machines",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC){{ModID}}_ExtractorMachine": {
+          "OutputRules": [
+              {
+              "Id": "{{ModID}}_StoneShroomExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "{{ModID}}_StoneShroom",
+                     "RequiredCount": 4,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "{{ModID}}_StoneShroomExtract"
+                }
+              ],
+              "MinutesUntilReady": 6000
+            },
+             {
+              "Id": "{{ModID}}_FireSnapperExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "{{ModID}}_FireSnapper",
+                     "RequiredCount": 4,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "{{ModID}}_FireSnapperExtract"
+                }
+              ],
+              "MinutesUntilReady": 6000
+            },
+             {
+              "Id": "{{ModID}}_HeavyRootExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "{{ModID}}_HeavyRoot",
+                     "RequiredCount": 4,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "{{ModID}}_HeavyRootExtract"
+                }
+              ],
+              "MinutesUntilReady": 6000
+            },
+               {
+              "Id": "{{ModID}}_DragaTailExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "{{ModID}}_DragaTail",
+                     "RequiredCount": 4,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "{{ModID}}_DragaTailExtract"
+                }
+              ],
+              "MinutesUntilReady": 6000
+            },
+                  {
+              "Id": "{{ModID}}_FairyFingersExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "{{ModID}}_FairyFingers",
+                     "RequiredCount": 4,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "{{ModID}}_FairyFingersExtract"
+                }
+              ],
+              "MinutesUntilReady": 6000
+            },
+                      {
+              "Id": "{{ModID}}_DragaEyeExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "{{ModID}}_DragaEye",
+                     "RequiredCount": 4,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "{{ModID}}_DragaEyeExtract"
+                }
+              ],
+              "MinutesUntilReady": 6000
+            },
+                        {
+              "Id": "{{ModID}}_BellPodsExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "{{ModID}}_BellPods",
+                     "RequiredCount": 4,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "{{ModID}}_BellPodsExtract"
+                }
+              ],
+              "MinutesUntilReady": 6000
+            },
+                           {
+              "Id": "{{ModID}}_LureBerriesExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "{{ModID}}_LureBerries",
+                     "RequiredCount": 4,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "{{ModID}}_LureBerriesExtract"
+                }
+              ],
+              "MinutesUntilReady": 6000
+            },
+                              {
+              "Id": "{{ModID}}_DarkTuffExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "{{ModID}}_DarkTuff",
+                     "RequiredCount": 4,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "{{ModID}}_DarkTuffExtract"
+                }
+              ],
+              "MinutesUntilReady": 6000
+            },
+                                {
+              "Id": "{{ModID}}_ChocoFruitExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "{{ModID}}_ChocoFruit",
+                     "RequiredCount": 4,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "{{ModID}}_ChocoFruitExtract"
+                }
+              ],
+              "MinutesUntilReady": 6000
+            },
+          ],
+          "LoadEffects": [
+            {
+              "Sounds": [
+                {
+                  "Id": "Ship"
+                }
+              ]
+            }
+          ],
+          "WobbleWhileWorking": true
+        }
+      }
+    }
+  ]
+}

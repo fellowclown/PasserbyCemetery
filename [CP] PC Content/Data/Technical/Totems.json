@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                // The totem ID, change it to match the above item's id
+                "{{ModId}}_WarpTotem": {
+                    "TotemWarp": {
+                        "Location": "{{ModId}}_OldGraveYard", // The id of the location you want to warp to
+                        "Position": "17, 45", // The X Y coordinate
+                        "Color": { "R": 0, "G": 0, "B": 0, "A": 0 } // Color
+                    }
+                }
+            }
+        }
+    ]
+}

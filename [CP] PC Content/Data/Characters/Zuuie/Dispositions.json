@@ -1,0 +1,110 @@
+{
+"Changes": [
+ /************************************************
+NPCSPAWNS
+************************************************/
+ {
+"LogName": "Zuuie Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Zuuie": {
+"DisplayName": "{{i18n:FC.Zuuie}}",
+"CanBeRomanced": false,
+"LoveInterest": null,
+"BirthSeason":"winter",
+"Birthday":"1",
+"Calendar": "HiddenAlways",
+"SocialTab": "HiddenAlways",
+"SocialTabIconSourceRect": null,
+"CanSocialize": true,
+"CanReceiveGifts": true,
+"CanGreetNearbyCharacters": true,
+"CanCommentOnPurchasedShopItems": false,
+"CanVisitIsland": false,
+"IntroductionsQuest": false,
+"ItemDeliveryQuests": false,
+"PerfectionScore": false,
+"EndSlideShow": "TrailingGroup",
+"SpouseRoom": {
+"MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 6,
+"Height": 9
+}
+},
+"SpousePatio": {
+"MapAsset": null,
+"MapSourceRect": {
+},
+"SpriteAnimationFrames": [],
+"SpriteAnimationPixelOffset": {}
+},
+"SpouseFloors": [],
+"SpouseWallpapers": [],
+"FriendsAndFamily":null,
+"WinterStarGifts": [],
+"WinterStarParticipant": false,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_SecretCave",
+"Tile": {
+"X": 10,
+"Y": 9
+},
+"Direction": "down"
+}
+],
+"TextureName": null,
+"Appearance": [
+ {
+"ID": "{{ModID}}.Zuuie_spring",
+"Season": "spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Zuuie/FC.Zuuie_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Zuuie/FC.Zuuie_spring.png}}"
+},
+ {
+"ID": "{{ModID}}.Zuuie_summer",
+"Season": "summer",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Zuuie/FC.Zuuie_summer.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Zuuie/FC.Zuuie_summer.png}}"
+},
+ {
+"ID": "{{ModID}}.Zuuie_fall",
+"Season": "fall",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Zuuie/FC.Zuuie_fall.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Zuuie/FC.Zuuie_fall.png}}"
+},
+ {
+"ID": "{{ModID}}.Zuuie_winter",
+"Season": "winter",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Zuuie/FC.Zuuie_winter.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Zuuie/FC.Zuuie_winter.png}}"
+},
+],
+"Size": {
+"X": 16,
+"Y": 32
+},
+"Breather": false,
+"ShakePortraits": [
+],
+"KissSpriteIndex": 42,
+"KissSpriteFacingRight": 52,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 16,
+"HiddenProfileEmoteFrameCount": 4,
+"HiddenProfileEmoteFrameDuration": 200.0,
+"CustomFields": {},
+}
+}
+},
+]
+}

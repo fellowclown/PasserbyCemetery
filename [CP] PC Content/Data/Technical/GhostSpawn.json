@@ -1,0 +1,20 @@
+{
+    "Changes": [
+       {
+"Action": "EditData",
+"Target": "MEEP/FarmAnimals/SpawnData",
+"Entries": {
+"{{ModID}}_GhostBoy": {
+"AnimalId": "{{ModID}}_GhostBoy",
+"LocationId": "{{ModID}}_OldGraveYard",
+"DisplayName": "{{i18n:GhostBoy}}",
+"PetMessage": [
+"{{i18n:GhostBoy.{{Random:{{Range: 1, 5}}}}}}",
+],
+"HomeTileX": 18,
+"HometileY":50
+},
+}
+},
+],
+}

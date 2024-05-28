@@ -1,0 +1,28 @@
+{
+"Changes": [
+	{
+"LogName": "Unlock Lyell's animals, will be sold at Marnies",
+"Action": "EditData",
+"Target": "Data/Events/AnimalShop",
+"Entries": {
+ "{{ModID}}_UnlockLyellsAnimals/e {{ModID}}_LyellIntroduction/w sunny/t 900 2300": "breezy/-1000 -1000/farmer 23 15 1 FC.Nikolai -3000 -3000 1 FC.Lyell 29 15 1 Marnie 31 15 3/viewport 26 12 clamp true/skippable/pause 1000/move farmer 2 0 1/pause 350/speak Marnie \"{{i18n:UnlockLyellsAnimals.00}}\"/pause 350/textAbovehead FC.Lyell \"{{i18n:UnlockLyellsAnimals.01}}\"/pause 550/emote Marnie 32/pause 300/speak FC.Lyell \"{{i18n:UnlockLyellsAnimals.02}}\"/pause 300/move farmer 2 0 1/emote farmer 8/pause 250/faceDirection FC.Lyell 3/pause 200/speak FC.Lyell \"{{i18n:UnlockLyellsAnimals.03}}\"/pause 200/pause 200/speak FC.Lyell \"{{i18n:UnlockLyellsAnimals.04}}\"/move Marnie 0 1 3/move Marnie -2 0 3/pause 200/speak Marnie \"{{i18n:UnlockLyellsAnimals.05}}\"/pause 350/speak FC.Lyell \"{{i18n:UnlockLyellsAnimals.06}}\"/pause 350/question fork0 \"{{i18n:UnlockLyellsAnimals.07}}\"/fork FC.SeeTheAnimals/pause 400/emote Marnie 60/pause 200/speak Marnie \"{{i18n:UnlockLyellsAnimals.08}}\"/pause 350/speak FC.Lyell \"{{i18n:UnlockLyellsAnimals.09}}\"/pause 350/speak Marnie \"{{i18n:UnlockLyellsAnimals.10}}\"/pause 200/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/end",
+
+ "FC.SeeTheAnimals": "pause 450/speak Marnie \"{{i18n:UnlockLyellsAnimals.11}}\"/pause 350/globalFade/viewport -1000 -1000/warp FC.Lyell 8 7/warp Marnie 9 8/warp FC.Nikolai 10 5/warp farmer 10 7/faceDirection FC.Lyell 1/faceDirection Marnie 0/faceDirection farmer 3/faceDirection FC.Nikolai 2/changeToTemporaryMap {{ModID}}_MarnieBarn/viewport 9 7 clamp true/fade false/addConversationTopic FC.NewAnimals 12/fade false/pause 1000/speak FC.Nikolai \"{{i18n:UnlockLyellsAnimals.12}}\"/pause 350/speak Marnie \"{{i18n:UnlockLyellsAnimals.13}}\"/pause 350/speak FC.Nikolai \"{{i18n:UnlockLyellsAnimals.14}}\"/pause 300/speak FC.Lyell \"{{i18n:UnlockLyellsAnimals.15}}\"/pause 300/speak Marnie \"{{i18n:UnlockLyellsAnimals.16}}\"/pause 350/speak FC.Lyell \"{{i18n:UnlockLyellsAnimals.17}}\"/pause 300/speak FC.Lyell \"{{i18n:UnlockLyellsAnimals.18}}\"/pause 350/textAbovehead Marnie \"{{i18n:UnlockLyellsAnimals.19}}\"/pause 400/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/end",
+  }
+},
+{
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_OldGraveYard",
+"Entries": {
+"{{ModID}}_AltarOffering": "none/-1000 -1000/farmer 17 49 2/viewport 17 49 clamp true/pause 900/question fork0 \"{{i18n:BlessedFruitEvent.1}}#{{i18n:BlessedFruitEvent.2}}#{{i18n:BlessedFruitEvent.3}}#\"/fork FC.YesFruit/end position 17 49",
+"FC.YesFruit": "showFrame farmer 3/playSound stardrop/glow 00 255 4000/farmerEat {{ModID}}_SpeedFruit/message \"{{i18n:BlessedFruitEvent.4}}\"/action addmoney -200/end position 17 49",
+}, 
+},
+{
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_OldGraveYard",
+"Entries": {
+"{{ModID}}_PickUpNote": "none/-1000 -1000/farmer 46 23 2/viewport 42 23 clamp true/pause 1000/itemAboveHead {{ModID}}_RettNote/removeTile 46 22 Buildings/addItem {{ModID}}_RettNote/pause 1000/message \"You've found the missing page, give it to Valerie.\"/end"}, 
+},
+]
+}
