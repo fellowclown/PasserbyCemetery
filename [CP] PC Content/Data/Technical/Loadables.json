@@ -13,7 +13,7 @@ Load Character Over World Assets
  {
 "LogName": "Base Portraits and Characters seasonal",
 "Action": "Load",
-"Target": "Portraits/FC.Zuuie,Characters/FC.Zuuie,Portraits/FC.Lyell,Characters/FC.Lyell,Characters/FC.Roswell,Portraits/FC.Roswell,Characters/FC.Grady,Portraits/FC.Grady,Portraits/FC.Nikolai,Portraits/FC.Kaia,Characters/FC.Nikolai,Characters/FC.Kaia,Portraits/FC.Boxy,Characters/FC.Boxy,Portraits/FC.Valerie,Portraits/FC.Alan,Characters/FC.Valerie,Characters/FC.Alan,Portraits/FC.Dezerie,Characters/FC.Dezerie",
+"Target": "Portraits/FC.FakeNpc,Characters/FC.FakeNpc,Portraits/FC.Zuuie,Characters/FC.Zuuie,Portraits/FC.Lyell,Characters/FC.Lyell,Characters/FC.Roswell,Portraits/FC.Roswell,Characters/FC.Grady,Portraits/FC.Grady,Portraits/FC.Nikolai,Portraits/FC.Kaia,Characters/FC.Nikolai,Characters/FC.Kaia,Portraits/FC.Boxy,Characters/FC.Boxy,Portraits/FC.Valerie,Portraits/FC.Alan,Characters/FC.Valerie,Characters/FC.Alan,Portraits/FC.Dezerie,Characters/FC.Dezerie",
 "FromFile": "Assets/Npcs/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_spring.png", 
  },
 /************************************************

@@ -2437,9 +2437,8 @@ Quest
 "FC.FindGemYes.Quest.Obj": "Find the thief and retrieve the stolen gem.",
 "FC.FindGemYes.Quest.Reaction": "You found it! This is great...$1#$b#You know what though, you spent all that money on it, here you can put the gem back into the statue and have what I left in the cave as a reward.#$b#It's a pretty good prize I think.$1[Fellowclown.PC_StatueGem]",
 "FC.Rettnote.Quest.Title": "Missing Page",
-"FC.Rettnote.Quest.Desc": "According to my research, there should be a journal or maybe a page from one somewhere around Turn About Grove. If you can find this and bring it to me, I will reward you.",
+"FC.Rettnote.Quest.Desc": "According to my research, there should be a journal or maybe a page from one somewhere around Passerby Cemetery. If you can find this and bring it to me, I will reward you.",
 "FC.Rettnote.Quest.Obj": "Locate the journal page.",
-"FC.Rettnote.Quest.Reaction": "Amazing, you really found it.#$b#I'll get to restoring the writing right away.$1#$b#Hopefully I can figure out what happened to this poor soul.$2",
 "FC.Solar.Quest.Title": "Solar Essence Needed.",
 "FC.Solar.Quest.Desc": "Valerie is creating something and needs six Solar Essence.",
 "FC.Solar.Quest.Obj": "Collect and deliver six Solar Essence to Valerie.",
@@ -3397,6 +3396,7 @@ Custom Map Names
 "FC.MapName.GradysRoom": "Grady's Bedroom",
 "FC.MapName.StoneHouse": "Stone Residence",
 "FC.MapName.AlansRoom": "Alan's Room",
+"FC.FakeNpc": "the Stone Residence",
 /************************************************
 Marketpalooza
 ************************************************/

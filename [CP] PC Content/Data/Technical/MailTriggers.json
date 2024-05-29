@@ -25,7 +25,7 @@
 "{{ModID}}_BirthdayInvite.Mail": "{{i18n:FC.BirthdayInvite.Mail}}[#]{{i18n:FC.BirthdayInvite.Mail.Title}}",
 "{{ModID}}_RefugeInvite.Mail": "{{i18n:FC.RefugeInvite.Mail}}[#]{{i18n:FC.RefugeInvite.Mail.Title}}",
 "{{ModID}}_FirstDate.Mail": "{{i18n:FC.FirstDate.Mail}}[#]{{i18n:FC.FirstDate.Mail.Title}}",
-"{{ModID}}_RettNote.Mail": "{{i18n:FC.RettNote.Mail}}[#]{{i18n:FC.RettNote.Mail.Title}}",
+"{{ModID}}_RettNote.Mail": "{{i18n:FC.RettNote.Mail}} %item quest {{ModID}}_RettNote.Quest %%[#]{{i18n:FC.RettNote.Mail.Title}}",
 "{{ModID}}_Solar.Mail": "{{i18n:FC.Solar.Mail}} %item quest {{ModID}}_Solar.Quest true %%[#]{{i18n:FC.Solar.Mail.Title}}",
 "{{ModID}}_Void.Mail": "{{i18n:FC.Void.Mail}} %item quest {{ModID}}_Void.Quest true %%[#]{{i18n:FC.Void.Mail.Title}}",
 "{{ModID}}_Arrowhead.Mail": "{{i18n:FC.Arrowhead.Mail}} %item quest {{ModID}}_Arrowhead.Quest true %%[#]{{i18n:FC.Arrowhead.Mail.Title}}",
