@@ -9,8 +9,8 @@
                     "Seasons": [ "winter" ],
                     "Fruit": [
                         {
-                            "Id": "{{ModID}}_Tropafruit",
-                            "ItemId": "{{ModID}}_Tropafruit"
+                            "Id": "{{ModID}}_TropaFruit",
+                            "ItemId": "{{ModID}}_TropaFruit"
                         }
                     ],
                     "Texture": "Mods/{{ModID}}/Trees",

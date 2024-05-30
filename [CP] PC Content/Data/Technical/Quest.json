@@ -18,7 +18,7 @@
 "{{ModID}}_Void.Quest": "ItemDelivery/{{i18n:FC.Void.Quest.Title}}/{{i18n:FC.Void.Quest.Desc}}/{{i18n:FC.Void.Quest.Obj}}/FC.Valerie 769 6/-1/450/-1/true/{{i18n:FC.Void.Quest.Reaction}}",
 "{{ModID}}_Arrowhead.Quest": "ItemDelivery/{{i18n:FC.Arrowhead.Quest.Title}}/{{i18n:FC.Arrowhead.Quest.Desc}}/{{i18n:FC.Arrowhead.Quest.Obj}}/FC.Valerie 101 2/-1/150/-1/true/{{i18n:FC.Arrowhead.Quest.Reaction}}",
 "{{ModID}}_Bat.Quest": "ItemDelivery/{{i18n:FC.Bat.Quest.Title}}/{{i18n:FC.Bat.Quest.Desc}}/{{i18n:FC.Bat.Quest.Obj}}/FC.Valerie 767 10/-1/150/-1/true/{{i18n:FC.Bat.Quest.Reaction}}",
-"{{ModID}}_RettNote.Quest": "LostItem/{{i18n:FC.RettNote.Quest.Title}}/{{i18n:FC.RettNote.Quest.Desc}}/{{i18n:FC.RettNote.Quest.Obj}}/FC.FakeNpc {{ModID}}_RettNote {{ModID}}_OldGraveYard 19 46/-1/500/-1/true/",
+"{{ModID}}_RettNote.Quest": "LostItem/{{i18n:FC.RettNote.Quest.Title}}/{{i18n:FC.RettNote.Quest.Desc}}/{{i18n:FC.RettNote.Quest.Obj}}/FC.FakeNpc {{ModID}}_RettNote {{ModID}}_OldGraveYard 46 22/-1/500/-1/true/",
 }
 },
 ]

@@ -1678,7 +1678,7 @@
                 }
             }
         },
-        {
+                {
 "Action": "EditData",
 "Target": "Data/Shops",
 "Entries":
@@ -1702,41 +1702,44 @@
 "ItemId": "{{ModID}}_StatueGem",
 "Price": 2000,
 "AvailableStock":1,
-"AvailableStockLimit": "player"
-},
-]
-}
-}
+"AvailableStockLimit": "player",
+"Condition": "!PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
 },
 {
-"Action": "EditData",
-"Target": "Data/Shops",
-"Entries":
-{
-"Fellowclown.CC_Shop": {
-"Owners": [
-{
-"Name": "FC.Maverick",
-"Dialogues": [
-// dialogue any other time
-{
-"Id": "Fellowclown.CC_Shop",
-"Dialogue": "{{i18n:FC.DodoShop}}"
-},
-]
-},
-],
-"Items": [
-{
-"Id": "{{ModId}}_FrenchDodoEgg",
-"ItemId": "{{ModID}}_FrenchDodoEgg",
- "Price": 900,
+"Id": "{{ModID}}_ElizabethsRing",
+"ItemId": "{{ModID}}_ElizabethsRing",
+"Price": 3000,
 "AvailableStock":1,
-"AvailableStockLimit": "player"
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
+"Id": "{{ModID}}_GlowJellyfish",
+"ItemId": "{{ModID}}_GlowJellyfish",
+"Price": 1200,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
+"Id": "{{ModID}}_FemaleWarrior",
+"ItemId": "{{ModID}}_FemaleWarrior",
+"Price": 900,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
+"Id": "{{ModID}}_MaleWarrior",
+"ItemId": "{{ModID}}_MaleWarrior",
+"Price": 900,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
 },
 ]
 }
 }
 },
-    ]
+]
 }

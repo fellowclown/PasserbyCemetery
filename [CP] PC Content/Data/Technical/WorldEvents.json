@@ -18,11 +18,5 @@
 "FC.YesFruit": "showFrame farmer 3/playSound stardrop/glow 00 255 4000/farmerEat {{ModID}}_SpeedFruit/message \"{{i18n:BlessedFruitEvent.4}}\"/action addmoney -200/end position 17 49",
 }, 
 },
-{
-"Action": "EditData",
-"Target": "Data/Events/{{ModID}}_OldGraveYard",
-"Entries": {
-"{{ModID}}_PickUpNote": "none/-1000 -1000/farmer 46 23 2/viewport 42 23 clamp true/pause 1000/itemAboveHead {{ModID}}_RettNote/removeTile 46 22 Buildings/addItem {{ModID}}_RettNote/pause 1000/message \"You've found the missing page, give it to Valerie.\"/end"}, 
-},
 ]
 }
