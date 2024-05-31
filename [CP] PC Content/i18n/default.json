@@ -3377,6 +3377,7 @@ Custom Map Strings
 "StoneHome.HangingHerbs": "More dried Herbs.",
 "StoneHome.WitchesBrew": "The mixture smells strongly of the forest.",
 "StoneHome.PottedHerbs": "There's a lot of plants in this room, wonder what they're all used for?",
+"StoneHome.DezeriesDodo": "The dodo is sleeping.",
 /************************************************
 Custom Map Names
 ************************************************/
@@ -4039,4 +4040,27 @@ Lyells Events
 "WillysInformation.20": "I'm taking Willy home now, you should head home too @. Before you get hurt out here or worse.$3",
 "WillysInformation.21": "Maybe listening in was a bad idea...",
 "WillysInformation.22": "You don't know what was talked about, but no one can call you Nosey.",
+
+"NightMarket.00": "Really?",
+"NightMarket.01": "Relax.",
+"NightMarket.02": "How about 10g?",
+"NightMarket.03": "What did they say?",
+"NightMarket.04": "Oh it's you, seems the whole town is curious about the market.",
+"NightMarket.05": "I don't blame them, you can find a lot of really interesting things for sell.$1#$b#But...Every year, none of the vendors sell glowing jellyfish.$3#$b#I can understand why, they are beloved...But I really need one for this spell I want to try.$2",
+"NightMarket.06": "#Offer Valerie your jellyfish.#Don't offer Valerie your jellyfish.",
+"NightMarket.07": "Well, even though I didn't find a jellyfish. There's still the mermaid's show I can see, I used to watch the mermaid proformance when I was a little girl.$1#$b#Oh! Maybe you can Join me?",
+"NightMarket.08": "#Join Valerie.#Don't join Valerie.",
+"NightMarket.09": "Oh! You really mean it? I can have this?#$b#Thank you so much @$4#$b#I've wanted one of these for years now.$1",
+"NightMarket.10": "You know, there's a mermaid proformance that I was going to go see.#$b#I used to watch the proformance as a little girl, but I stopped going after my father passed.$3#$b#Would you...Like to go with me?",
+"NightMarket.11": "#Join Valerie.#Don't join Valerie.",
+"NightMarket.12": "Oh...Well that's okay, you're probably wanting to look around and shop a bit.#$b#I'll be seeing you around @, have a good night at the market.$1",
+"NightMarket.13": "Maybe you can find something interesting at the market.",
+"NightMarket.14": "This will be amazing I'm sure, lets go before the proformance starts.$1",
+"NightMarket.15": "It'll be any second now, I'm so excited.$1",
+"NightMarket.16": "She's beautiful isn't she?$4",
+"NightMarket.17": "You know, when I was a little girl, I wanted to be a mermaid...My mother always told me it was a silly wish, but my father...He was always supportive of me, even if my wishes weren't possible.$1#$b#I miss him dearly$3",
+"NightMarket.18": "It was hard when the family lost him...But, it was hardest on my mother.$3#$b#It's why she's so against me working with spirits...$2#$b#My father dabbled in the same things I do and one day he made a mistake and his soul was pulled into the afterlife by a angry spirit.$3",
+"NightMarket.19": "I know she's scared it'll happen to me too, that's why she's so unbearable about my work.$3#$b#But she won't stop me, I know what I'm doing...Way more then my father ever did, I think that's why I'm so determined to help Rett.$3#$b#I'm going to prove to her how skilled I really am...#$b#Maybe then she might be proud of me...$2",
+"NightMarket.20": "She's looking right at me...$6##$b#She's so beautiful.$4",
+
 }

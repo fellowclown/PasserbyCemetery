@@ -6,7 +6,7 @@
 "Entries": {
 "{{ModID}}_Dodo": {
 "ID": "{{ModID}}_Dodo",
-"Category": "Music",
+"Category": "Sound",
 "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/Dodo.ogg}}" ],
 "StreamedVorbis": true,
 "Looped": false
@@ -136,7 +136,7 @@
 "Entries": {
 "{{ModID}}_HalkiasClan": {
 "ID": "{{ModID}}_HalkiasClan",
-"Category": "Sound",
+"Category": "Music",
 "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/HalkiasClan.ogg}}" ],
 "StreamedVorbis": false,
 "Looped": false
