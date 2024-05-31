@@ -23,5 +23,18 @@
                  "HasMod": "shekurika.worldMaps"
             }
         },
+        {
+    "Action": "EditData",
+    "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+    "Entries": {
+        "FC.FakeNpc": {
+            "Exclude": true
+        }
+    },
+      "Target": "Mods/shekurika.Worldmaps/WorldMapData",
+            "When": {
+                 "HasMod": "Bouhm.NPCMapLocations"
+            }
+}
    ]
 }
