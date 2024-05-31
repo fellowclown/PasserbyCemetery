@@ -2910,7 +2910,7 @@ Custom Crops
 "FC.DeepCaveFruit":"Deep Cave Fruit",
 "FC.DeepCaveFruit.Desc":"Wonder if you can make something out of this, try using it in recipes",
 "FC.DeepCaveFruitSeeds":"Deep Cave Fruit Seeds",
-"FC.DeepCaveFruitSeeds.Desc":"Grows during winter in five days.",
+"FC.DeepCaveFruitSeeds.Desc":"Grows during Summer and Fall in five days.",
 "FC.DragaTongue": "Draga Tongue",
 "FC.DragaTongue.Desc": "A sweet and twangy fruit.",
 "FC.WarpRoot": "Warp Root",
@@ -3378,6 +3378,8 @@ Custom Map Strings
 "StoneHome.WitchesBrew": "The mixture smells strongly of the forest.",
 "StoneHome.PottedHerbs": "There's a lot of plants in this room, wonder what they're all used for?",
 "StoneHome.DezeriesDodo": "The dodo is sleeping.",
+"StoneHome.Durrah": "The primate stares at you expectedly.",
+"StoneHome.Shevit": "She appears to be resting.",
 /************************************************
 Custom Map Names
 ************************************************/

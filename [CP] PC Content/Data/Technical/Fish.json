@@ -4,8 +4,8 @@
 "Action": "EditData",
 "Target": "Data/Fish",
 "Entries": {
-"{{ModID}}_BoneyHeadedGraveFish": "{{i18n:FC.BoneyHeadedGraveFish}}/100/dart/16/40/2000 2300/winter/sunny/688 .6 684 .1/4/.5/.5/6",
-"{{ModID}}_IficusFish": "{{i18n:FC.IficusFish}}/10/dart/5/10/2000 2300/winter/sunny/688 .6 684 .1/4/.5/.5/6" 
+"{{ModID}}_BoneyHeadedGraveFish": "{{i18n:FC.BoneyHeadedGraveFish}}/110/mixed/50/50/600 2000/winter/rainy/688 .05/5/0/.1/10/false",
+"{{ModID}}_IficusFish": "{{i18n:FC.IficusFish}}/30/mixed/5/15/600 1900/spring summer/sunny/683 .2/1/.45/.1/0/true",
 }
 },
 {
@@ -30,15 +30,15 @@
 "SpawnTime": -1,
 "ProducedItems": [
 {
-"RequiredPopulation": 6,
-"Chance": 0.01,
+"RequiredPopulation": 10,
+"Chance": 0.08,
 "ItemID": "(O)422",
 "MinQuantity": 1,
-"MaxQuantity": 6 
+"MaxQuantity": 1 
 },
 ],
 "PopulationGates": {
-"1": [ 
+"3": [ 
 "(O)86 2",
 ],
 }
