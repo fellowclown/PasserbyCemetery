@@ -166,7 +166,7 @@
 "Entries": {
 "{{ModID}}_WarpRootSeeds": {
 "Seasons": [ "fall" ],
-"DaysInPhase": [ 2,5,2,2 ], 
+"DaysInPhase": [ 1,1,1,1,1], 
 "HarvestItemId": "{{ModID}}_WarpRoot",
 "RegrowDays": "-1",
 "IsRaised": false,
@@ -197,7 +197,7 @@
 "Target": "Data/Crops",
 "Entries": {
 "{{ModID}}_YohoFruitSeeds": {
-"Seasons": [ "spring" ],
+"Seasons": [ "spring","summer" ],
 "DaysInPhase": [ 1,1,1,1,1], 
 "HarvestItemId": "{{ModID}}_YohoFruit",
 "RegrowDays": "-1",
@@ -214,7 +214,7 @@
 "Target": "Data/Crops",
 "Entries": {
 "{{ModID}}_ChocoFruitSeeds": {
-"Seasons": [ "fall" ],
+"Seasons": [ "fall","winter" ],
 "DaysInPhase": [  2, 1, 1, 1, 1 ], 
 "HarvestItemId": "{{ModID}}_ChocoFruit",
 "RegrowDays": "3",
@@ -299,7 +299,7 @@
 "Target": "Data/Crops",
 "Entries": {
 "{{ModID}}_BellPodSeeds": {
-"Seasons": [ "spring" ],
+"Seasons": [ "spring","summer" ],
 "DaysInPhase": [ 1,1,1,1,1], 
 "HarvestItemId": "{{ModID}}_BellPods",
 "RegrowDays": "6",
