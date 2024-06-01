@@ -6,6 +6,11 @@
 "Entries": {
 "{{ModID}}_BoneyHeadedGraveFish": "{{i18n:FC.BoneyHeadedGraveFish}}/110/mixed/50/50/600 2000/winter/rainy/688 .05/5/0/.1/10/false",
 "{{ModID}}_IficusFish": "{{i18n:FC.IficusFish}}/30/mixed/5/15/600 1900/spring summer/sunny/683 .2/1/.45/.1/0/true",
+"{{ModID}}_DancerFish": "{{i18n:FC.DancerFish}}/25/dart/8/20/600 2600/spring summer/both/685 .2/1/.45/.1/0/true",
+"{{ModID}}_RiverBedJelly": "{{i18n:FC.RiverBedJelly}}/95/sinker/12/48/600 1300/fall/both/688 .6 684 .1/5/.1/.08/0/true",
+"{{ModID}}_GraveCrab": "{{i18n:FC.GraveCrab}}/trap/.1/684 .45/freshwater/1/20/false",
+"{{ModID}}_GulpFish": "{{i18n:FC.GulpFish}}/65/mixed/8/24/600 2000/spring summer fall winter/both/682 .2/1/.65/.1/0/false",
+
 }
 },
 {
@@ -14,7 +19,11 @@
 "Target": "Data/AquariumFish",
 "Entries": {
 "{{ModID}}_BoneyHeadedGraveFish": "0/fish/0////Mods\\{{ModID}}\\FC.Fish",
-"{{ModID}}_IficusFish": "1/fish/1////Mods\\{{ModID}}\\FC.Fish"
+"{{ModID}}_IficusFish": "1/fish/1////Mods\\{{ModID}}\\FC.Fish",
+"{{ModID}}_DancerFish": "2/fish/2////Mods\\{{ModID}}\\FC.Fish",
+"{{ModID}}_RiverBedJelly": "3/float/3////Mods\\{{ModID}}\\FC.Fish",
+"{{ModID}}_GraveCrab": "4/crawl/4////Mods\\{{ModID}}\\FC.Fish",
+"{{ModID}}_GulpFish": "5/static/5////Mods\\{{ModID}}\\FC.Fish",
 }
 },
 {
@@ -44,7 +53,331 @@
 }
 }
 }
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_BoneyHeadedGraveFish": {
+  "Name": "{{ModID}}_BoneyHeadedGraveFish",
+  "DisplayName": "{{i18n:FC.BoneyHeadedGraveFish}}",
+  "Description": "{{i18n:FC.BoneyHeadedGraveFish.Desc}}",
+  "Type": "Fish",
+  "Category": -4,
+  "Price": 0,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 156,
+  "Edibility":1500,
+  "IsDrink": false,
+    "CanBeGivenAsGift": false,
+  "CanBeTrashed": false,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": "{{ExcludePerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludePerfection}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "category_fish",
+  ],
+  "CustomFields": null
+  }
 }
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_IficusFish": {
+  "Name": "{{ModID}}_IficusFish",
+  "DisplayName": "{{i18n:FC.IficusFish}}",
+  "Description": "{{i18n:FC.IficusFish.Desc}}",
+  "Type": "Fish",
+  "Category": -4,
+  "Price": 50,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 157,
+  "Edibility": 5,
+  "IsDrink": false,
+    "CanBeGivenAsGift": false,
+  "CanBeTrashed": false,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": "{{ExcludePerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludePerfection}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "category_fish",
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_DancerFish": {
+  "Name": "{{ModID}}_DancerFish",
+  "DisplayName": "{{i18n:FC.DancerFish}}",
+  "Description": "{{i18n:FC.DancerFish.Desc}}",
+  "Type": "Fish",
+  "Category": -4,
+  "Price": 60,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 24,
+  "Edibility":6,
+  "IsDrink": false,
+    "CanBeGivenAsGift": false,
+  "CanBeTrashed": false,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": "{{ExcludePerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludePerfection}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "category_fish",
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_RiverBedJelly": {
+  "Name": "{{ModID}}_RiverBedJelly",
+  "DisplayName": "{{i18n:FC.RiverBedJelly}}",
+  "Description": "{{i18n:FC.RiverBedJelly.Desc}}",
+  "Type": "Fish",
+  "Category": -4,
+  "Price": 80,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 26,
+  "Edibility":6,
+  "IsDrink": false,
+    "CanBeGivenAsGift": false,
+  "CanBeTrashed": false,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": "{{ExcludePerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludePerfection}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "category_fish",
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_GraveCrab": {
+  "Name": "{{ModID}}_GraveCrab",
+  "DisplayName": "{{i18n:FC.GraveCrab}}",
+  "Description": "{{i18n:FC.GraveCrab.Desc}}",
+  "Type": "Fish",
+  "Category": -4,
+  "Price": 5,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 44,
+  "Edibility":3,
+  "IsDrink": false,
+    "CanBeGivenAsGift": false,
+  "CanBeTrashed": false,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": "{{ExcludePerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludePerfection}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "category_fish",
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_GulpFish": {
+  "Name": "{{ModID}}_GulpFish",
+  "DisplayName": "{{i18n:FC.GulpFish}}",
+  "Description": "{{i18n:FC.GulpFish.Desc}}",
+  "Type": "Fish",
+  "Category": -4,
+  "Price": 60,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 45,
+  "Edibility":10,
+  "IsDrink": false,
+    "CanBeGivenAsGift": false,
+  "CanBeTrashed": false,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": "{{ExcludePerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludePerfection}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "category_fish",
+  ],
+  "CustomFields": null
+  }
+}
+},
 ]
  }
 

@@ -754,7 +754,26 @@
 "Id": "{{ModID}}_IficusFish",
 "ItemId": "(O){{ModID}}_IficusFish",
 "FishaAreaID": "{{ModID}}_OldGraveYard",
-"Season": "Winter"
+},
+  {
+"Id": "{{ModID}}_DancerFish",
+"ItemId": "(O){{ModID}}_DancerFish",
+"FishaAreaID": "{{ModID}}_OldGraveYard",
+},
+  {
+"Id": "{{ModID}}_RiverBedJelly",
+"ItemId": "(O){{ModID}}_RiverBedJelly",
+"FishaAreaID": "{{ModID}}_OldGraveYard",
+},
+  {
+"Id": "{{ModID}}_GraveCrab",
+"ItemId": "(O){{ModID}}_GraveCrab",
+"FishaAreaID": "{{ModID}}_OldGraveYard",
+},
+  {
+"Id": "{{ModID}}_GulpFish",
+"ItemId": "(O){{ModID}}_GulpFish",
+"FishaAreaID": "{{ModID}}_OldGraveYard",
 }
 ],
 "Forage": [],

@@ -1714,8 +1714,8 @@
 "Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
 },
 {
-"Id": "{{ModID}}_GlowJellyfish",
-"ItemId": "{{ModID}}_GlowJellyfish",
+"Id": "{{ModID}}_RiverBedJelly",
+"ItemId": "{{ModID}}_RiverBedJelly",
 "Price": 1200,
 "AvailableStock":1,
 "AvailableStockLimit": "player",

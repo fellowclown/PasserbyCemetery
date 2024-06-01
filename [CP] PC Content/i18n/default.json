@@ -1866,7 +1866,7 @@ Valerie's Information
 "Valerie.winter25.spouse": "Hey honey, I got this for you.[###]",
 "Valerie.winter25.divorced": "Why don't you just leave me alone!$5",
 //Passive Festivals
-"Valerie.Nightmarket.A": "I've been looking everywhere for a glowing jellyfish, I just need one so badly for a project I'm working on.",
+"Valerie.Nightmarket.A": "I've been looking everywhere for a riverbed jellyfish, I just need one so badly for a project I'm working on.",
 //Incoming Calls
 "Valerie.PhoneCall.1": "Listen, if my mom calls about her recipes, just tell her you've no idea, okay.#$b#She doesn't need to know I borrowed them.$2#$b#Oh shoot!$3#$b#She's home.$#",
 "Valerie.PhoneCall.2": "Keep an eye out for jellies.$3#$b#Even if they're dead they can sting you, but if you come by one please consider selling it to me okay?#$b#Alright I'll talk with you later. Bye bye.$1",
@@ -2395,6 +2395,14 @@ Custom Fish
 "FC.BoneyHeadedGraveFish.Desc": "This hard headed fish is believed to swim in waters that lead to the afterlife.",
 "FC.IficusFish.Desc": "This fish is believed to bring good luck when caught.",
 "FC.IficusFish": "Ificus Fish",
+"FC.DancerFish": "Dancer Fish",
+"FC.DancerFish.Desc": "While fast and graceful, this fish is one of the only fish that doesn't quite taste like fish.",
+"FC.RiverBedJelly": "Riverbed Jellyfish",
+"FC.RiverBedJelly.Desc": "This jellyfish has adapted to live in deep fresh water.",
+"FC.GraveCrab": "The grave crab is called it's namesake due to it's habit of robbing graves for food.",
+"FC.GraveCrab.Desc": "Grave Crab",
+"FC.GulpFish": "Gulp Fish",
+"FC.GulpFish.Desc": "The gulp fish is a riverbed dwelling fish that feeds by opening it's mouth wide and sucking in it's prey.",
 /************************************************
 Quest
 ************************************************/
@@ -2476,8 +2484,6 @@ Custom Quest Items
 "FC.Vultureskull.Desc": "The skull of some type of bird, placed upon a stand.",
 "FC.LostAmulet": "Strange Amulet",
 "FC.LostAmulet.Desc": "A strange amulet, you can feel it pulsing in your palm.",
-"FC.GlowJellyfish": "Glowing Jellyfish",
-"FC.GlowJellyfish.Desc": "The ocean’s most beautiful creature.",
 "FC.Rettnote": "Worn Journal Page",
 "FC.Rettnote.Desc": "A worn page with smudge writing on it, better bring it to Valerie...",
 /************************************************
@@ -2674,13 +2680,13 @@ Custom Weapons
 "FC.Sword1": "Copper Sword",
 "FC.Sword1.Desc": "A sword of copper.",
 "FC.Sword2": "Blade Of Light",
-"FC.Sword2.Desc": "A sword infused with the venom of glowing jellyfish.",
+"FC.Sword2.Desc": "A sword infused with the venom of the riverbed jellyfish.",
 "FC.Sword3": "Bone Tipped Spear",
 "FC.Sword3.Desc": "Hand crafted spear tipped with a sharpened bone.",
 "FC.Sword4": "Blade Of Steel",
 "FC.Sword4.Desc": "Made from steel, forged in the volcano of Ginger Island.",
 "FC.Sword5": "Dagger Of Light",
-"FC.Sword5.Desc": "A dagger infused with the venom of glowing jellyfish.",
+"FC.Sword5.Desc": "A dagger infused with the venom of the riverbed jellyfish.",
 /************************************************
 Custom Rings
 ************************************************/
@@ -4048,7 +4054,7 @@ Lyells Events
 "NightMarket.02": "How about 10g?",
 "NightMarket.03": "What did they say?",
 "NightMarket.04": "Oh it's you, seems the whole town is curious about the market.",
-"NightMarket.05": "I don't blame them, you can find a lot of really interesting things for sell.$1#$b#But...Every year, none of the vendors sell glowing jellyfish.$3#$b#I can understand why, they are beloved...But I really need one for this spell I want to try.$2",
+"NightMarket.05": "I don't blame them, you can find a lot of really interesting things for sell.$1#$b#But...Every year, none of the vendors sell any riverbed jellyfish.$3#$b#I can understand why, they are beloved...But I really need one for this spell I want to try.$2",
 "NightMarket.06": "#Offer Valerie your jellyfish.#Don't offer Valerie your jellyfish.",
 "NightMarket.07": "Well, even though I didn't find a jellyfish. There's still the mermaid's show I can see, I used to watch the mermaid proformance when I was a little girl.$1#$b#Oh! Maybe you can Join me?",
 "NightMarket.08": "#Join Valerie.#Don't join Valerie.",
