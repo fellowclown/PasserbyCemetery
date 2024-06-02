@@ -22,13 +22,7 @@ Load TempActor Assets
  {
 "LogName": "Base Characters",
 "Action": "Load",
-"Target": "Portraits/FC.Heart",
-"FromFile": "Assets/Npcs/TempActors/Portraits/{{TargetWithoutPath}}.png", 
- },
- {
-"LogName": "Base Characters",
-"Action": "Load",
-"Target": "Characters/FC.Amulet,Characters/FC.Snappers,Characters/FC.River,Characters/FC.Fishgirl,Characters/FC.Willy,Characters/FC.Page,Characters/FC.CrystalBall,Characters/FC.PotionPot,Characters/FC.Heart,Characters/FC.Emotes,Characters/FC.PopperPC,Characters/FC.Jeremy,Characters/FC.CaveBlock,Characters/FC.DodoBaby,Characters/FC.Campfire,Characters/FC.GhostBoy,Characters/FC.GradyRide,Characters/FC.Rumple,Portraits/FC.Rumple,Characters/FC.Amanda,Characters/FC.Lyza,Characters/FC.Elizabeth,Characters/FC.Constantina,Characters/FC.Aluua,Characters/FC.Agata,Characters/FC.Baahir,Characters/FC.Chara,Characters/FC.Lye,Characters/FC.Agata_Lyell,Portraits/FC.Amanda,Portraits/FC.Lyza,Portraits/FC.Elizabeth,Portraits/FC.Constantina,Portraits/FC.Aluua,Portraits/FC.Agata,Portraits/FC.Baahir,Portraits/FC.Chara,Portraits/FC.Lye,Portraits/FC.Arah,Characters/FC.JumbaBook,Characters/FC.Mayo,Characters/FC.BoxyCakeSurprise,Characters/FC.FairyFlock,Characters/FC.BoxyCowRide,Characters/FC.BeeGroup1,Characters/FC.BeeGroup2,Characters/FC.BeeGroup3",
+"Target": "Characters/FC.FamilyPainting,Characters/FC.Objects,Characters/FC.Heart,Characters/FC.River,Characters/FC.Fishgirl,Characters/FC.Willy,Characters/FC.PotionPot,Portraits/FC.Heart,Characters/FC.Emotes,Characters/FC.PopperPC,Characters/FC.Jeremy,Characters/FC.CaveBlock,Characters/FC.Campfire,Characters/FC.GhostBoy,Characters/FC.GradyRide,Characters/FC.Rumple,Characters/FC.Aluua,Portraits/FC.Aluua,Portraits/FC.Arah,Characters/FC.Arah,Characters/FC.Mayo,Characters/FC.BoxyCakeSurprise,Characters/FC.FairyFlock,Characters/FC.BoxyCowRide,Characters/FC.BeeGroup1,Characters/FC.BeeGroup2,Characters/FC.BeeGroup3",
 "FromFile": "Assets/Npcs/TempActors/Characters/{{TargetWithoutPath}}.png", 
  },
  {

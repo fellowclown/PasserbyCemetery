@@ -4,37 +4,31 @@
 /************************************************
 1 Heart
 ************************************************/
-
+ { 
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_NiksRoom",
+"Entries": {
+"{{ModID}}_KaiaMoms/t 1000 1500/f FC.Kaia 250/e {{ModID}}_KaiaExplains": "CloudCountry/-1000 -1000/FC.Kaia 10 12 3 FC.Nikolai 8 12 1 farmer 14 14 3/viewport 10 12 clamp true/skippable/emote FC.Kaia 12/speak FC.Kaia \"{{i18n:KaiaMoms.00}}\"/pause 400/textabovehead FC.Nikolai \"{{i18n:KaiaMoms.01}}\"/pause 500/speak FC.Nikolai \"{{i18n:KaiaMoms.02}}\"/pause 300/speak FC.Kaia \"{{i18n:KaiaMoms.03}}\"/advancedMove farmer false -5 0 4 10 0 0 4 10/pause 200/emote farmer 8/pause 300/faceDirection FC.Kaia 2/faceDirection FC.Nikolai 2/emote FC.Nikolai 12/pause 300/speak FC.Nikolai \"{{i18n:KaiaMoms.04}}\"/pause 300/speak FC.Kaia \"{{i18n:KaiaMoms.05}}\"/pause 300/faceDirection FC.Kaia 3/pause 1000/quickQuestion {{i18n:KaiaMoms.06}}(break)speak FC.Kaia \"{{i18n:KaiaMoms.07}}\"\\friendship FC.Kaia -10(break)speak FC.Kaia \"{{i18n:KaiaMoms.08}}\"/friendship FC.Kaia 10/pause 300/speak FC.Nikolai \"{{i18n:KaiaMoms.09}}\"/pause 200/emote FC.Kaia 40/pause 300/speak FC.Kaia \"{{i18n:KaiaMoms.10}}\"/pause 300/viewport move -1 0 6000000/globalFade/viewport -1000 -1000/addConversationTopic FC.KaiaMoms 13/end position 9 13 0",
+}, 
+},
 /************************************************
 2 Hearts
 ************************************************/
  { 
 "Action": "EditData",
-"Target": "Data/Events/{{ModID}}_NiksRoom",
+"Target": "Data/Events/{{ModID}}_OldGraveYard",
 "Entries": {
-"{{ModID}}_KaiaMoms/t 1000 1500/f FC.Kaia 500/e {{ModID}}_KaiaExplains": "CloudCountry/-1000 -1000/FC.Kaia 10 12 3 FC.Nikolai 8 12 1 farmer 14 14 3/viewport 10 12 clamp true/skippable/emote FC.Kaia 12/speak FC.Kaia \"{{i18n:KaiaMoms.00}}\"/pause 400/textabovehead FC.Nikolai \"{{i18n:KaiaMoms.01}}\"/pause 500/speak FC.Nikolai \"{{i18n:KaiaMoms.02}}\"/pause 300/speak FC.Kaia \"{{i18n:KaiaMoms.03}}\"/advancedMove farmer false -5 0 4 10 0 0 4 10/pause 200/emote farmer 8/pause 300/faceDirection FC.Kaia 2/faceDirection FC.Nikolai 2/emote FC.Nikolai 12/pause 300/speak FC.Nikolai \"{{i18n:KaiaMoms.04}}\"/pause 300/speak FC.Kaia \"{{i18n:KaiaMoms.05}}\"/pause 300/faceDirection FC.Kaia 3/pause 1000/quickQuestion {{i18n:KaiaMoms.06}}(break)speak FC.Kaia \"{{i18n:KaiaMoms.07}}\"\\friendship FC.Kaia -10(break)speak FC.Kaia \"{{i18n:KaiaMoms.08}}\"/friendship FC.Kaia 10/pause 300/speak FC.Nikolai \"{{i18n:KaiaMoms.09}}\"/pause 200/emote FC.Kaia 40/pause 300/speak FC.Kaia \"{{i18n:KaiaMoms.10}}\"/pause 300/viewport move -1 0 6000000/globalFade/viewport -1000 -1000/addConversationTopic FC.KaiaMoms 13/end position 9 13 0",
+"{{ModID}}_KaiasPurpose/t 1900 2300/f FC.Kaia 500/e {{ModID}}_KaiaMoms": "junimoKart_whaleMusic/-1000 -1000/FC.Kaia 32 52 2 farmer 23 52 2/viewport 31 52 clamp true/skippable/showFrame FC.Kaia 24/positionOffset FC.Kaia 0 40/move farmer 7 0 2/pause 200/textabovehead FC.Kaia \"{{i18n:KaiasPurpose.00}}\"/pause 2000/faceDirection farmer 1/emote farmer 32/pause 500/speak FC.Kaia \"{{i18n:KaiasPurpose.01}}\"/pause 500/textabovehead FC.Kaia \"{{i18n:KaiasPurpose.02}}\"/pause 400/speak FC.Kaia \"{{i18n:KaiasPurpose.03}}\"/pause 200/speak FC.Kaia \"{{i18n:KaiasPurpose.04}}\"/pause 300/speak FC.Kaia \"{{i18n:KaiasPurpose.05}}\"/pause 300/quickQuestion {{i18n:KaiasPurpose.06}}(break)speak FC.Kaia \"{{i18n:KaiasPurpose.07}}\"\\friendship FC.Kaia -5(break)speak FC.Kaia \"{{i18n:KaiasPurpose.08}}\"/friendship FC.Kaia 5/shake FC.Kaia 1000/emote FC.Kaia 60/pause 300/viewport move -1 0 6000000/globalFade/viewport -1000 -1000/message \"{{i18n:KaiasPurpose.09}}\"/addConversationTopic FC.KaiasPurpose 13/end position 29 52 2",
 }, 
 },
 /************************************************
 3 Hearts
 ************************************************/
- { 
-"Action": "EditData",
-"Target": "Data/Events/{{ModID}}_OldGraveYard",
-"Entries": {
-"{{ModID}}_KaiasPurpose/t 1900 2300/f FC.Kaia 750/e {{ModID}}_KaiaMoms": "junimoKart_whaleMusic/-1000 -1000/FC.Kaia 32 52 2 farmer 23 52 2/viewport 31 52 clamp true/skippable/showFrame FC.Kaia 24/positionOffset FC.Kaia 0 40/move farmer 7 0 2/pause 200/textabovehead FC.Kaia \"{{i18n:KaiasPurpose.00}}\"/pause 2000/faceDirection farmer 1/emote farmer 32/pause 500/speak FC.Kaia \"{{i18n:KaiasPurpose.01}}\"/pause 500/textabovehead FC.Kaia \"{{i18n:KaiasPurpose.02}}\"/pause 400/speak FC.Kaia \"{{i18n:KaiasPurpose.03}}\"/pause 200/speak FC.Kaia \"{{i18n:KaiasPurpose.04}}\"/pause 300/speak FC.Kaia \"{{i18n:KaiasPurpose.05}}\"/pause 300/quickQuestion {{i18n:KaiasPurpose.06}}(break)speak FC.Kaia \"{{i18n:KaiasPurpose.07}}\"\\friendship FC.Kaia -5(break)speak FC.Kaia \"{{i18n:KaiasPurpose.08}}\"/friendship FC.Kaia 5/shake FC.Kaia 1000/emote FC.Kaia 60/pause 300/viewport move -1 0 6000000/globalFade/viewport -1000 -1000/message \"{{i18n:KaiasPurpose.09}}\"/addConversationTopic FC.KaiasPurpose 13/end position 29 52 2",
-}, 
-},
+
 /************************************************
 4 Hearts
 ************************************************/
- { 
-"Action": "EditData",
-"Target": "Data/Events/Seedshop",
-"Entries": {
-"{{ModID}}_KaiasNewHobby/t 1000 1400/f FC.Kaia 1000/e {{ModID}}_KaiasPurpose/w sunny": "playful/-1000 -1000/FC.Kaia 24 17 2 farmer 20 13 2 Caroline 24 20 0 Abigail 25 17 3 Sam 26 19 3/viewport 24 18 clamp true/skippable/advancedMove farmer false 0 4 1 10 2 0 1 10/animate FC.Kaia false true 100 18 18 18 17 17 18 17 18 17 17 17 17 17 18 18 17 17 18 18 17 17/pause 800/playSound drumkit4/pause 50/playSound drumkit4/pause 500/playSound drumkit1/pause 50/playSound drumkit4/pause 50/playSound drumkit4/pause 40/playSound drumkit4/pause 50/playSound drumkit5/playSound drumkit1/pause 80/playSound drumkit4/pause 50/playSound drumkit4/pause 500/playSound drumkit1/pause 50/playSound drumkit4/pause 50/playSound drumkit4/pause 40/emote Sam 60 true/playSound drumkit4/pause 50/playSound drumkit5/playSound drumkit1/pause 200/pause 50/playsound drumkit1/playsound drumkit1/playsound drumkit1/pause 50/playSound drumkit4/pause 50/playSound drumkit4/pause 500/playSound drumkit1/pause 50/playSound drumkit4/pause 50/playSound drumkit4/pause 40/playSound drumkit4/pause 50/playSound drumkit5/playSound drumkit1/pause 80/playSound drumkit4/pause 50/playSound drumkit4/pause 500/playSound drumkit1/pause 50/playSound drumkit4/pause 50/playSound drumkit4/pause 40/playSound drumkit4/pause 50/playSound drumkit5/playSound drumkit1/pause 200/pause 50/playsound drumkit1/playsound drumkit1/playsound drumkit1/pause 40/playSound drumkit4/pause 50/playSound drumkit5/playSound drumkit1/pause 200/pause 50/playsound drumkit1/playsound drumkit1/playsound drumkit1/pause 50/emote Abigail 32 true/playSound drumkit4/pause 50/playSound drumkit4/pause 500/pause 40/playSound drumkit4/pause 50/playSound drumkit5/playSound drumkit1/pause 200/pause 50/playsound drumkit1/playsound drumkit1/playsound drumkit1/pause 50/playSound drumkit4/pause 50/playSound drumkit4/pause 500/playSound drumkit1/pause 50/playSound drumkit4/pause 50/playSound drumkit4/pause 40/playSound drumkit4/pause 50/playSound drumkit5/playSound drumkit1/pause 200/pause 50/pause 500/playSound drumkit1/pause 50/playSound drumkit4/pause 50/textabovehead Caroline \"{{i18n:KaiasNewHobby.00}}\"/playSound drumkit4/pause 40/playSound drumkit4/pause 50/playSound drumkit5/playSound drumkit1/pause 200/pause 50/pause 500/playSound drumkit1/pause 50/playSound drumkit4/pause 50/playSound drumkit4/pause 40/playSound drumkit4/pause 50/playSound drumkit5/playSound drumkit1/stopAnimation FC.Kaia 18/pause 1000/emote FC.Kaia 12/pause 100/speak FC.Kaia \"{{i18n:KaiasNewHobby.01}}\"/pause 1000/quickQuestion {{i18n:KaiasNewHobby.02}}(break)speak FC.Kaia \"{{i18n:KaiasNewHobby.03}}\"\\friendship FC.Kaia -6(break)speak FC.Kaia \"{{i18n:KaiasNewHobby.04}}\"/friendship FC.Kaia 6/pause 1000/emote Abigail 12/pause 200/speak Abigail \"{{i18n:KaiasNewHobby.05}}\"/pause 200/speak Sam \"{{i18n:KaiasNewHobby.06}}\"/pause 200/faceDirection Abigail 2/pause 100/textabovehead Abigail \"{{i18n:KaiasNewHobby.07}}\"/pause 200/speak Sam \"{{i18n:KaiasNewHobby.08}}\"/pause 200/speak FC.Kaia \"{{i18n:KaiasNewHobby.09}}\"/pause 200/speak Caroline \"{{i18n:KaiasNewHobby.10}}\"/pause 200/speak FC.Kaia \"{{i18n:KaiasNewHobby.11}}\"/pause 200/speak Abigail \"{{i18n:KaiasNewHobby.12}}\"/pause 300/quickQuestion S{{i18n:KaiasNewHobby.13}}(break)speak FC.Kaia \"{{i18n:KaiasNewHobby.14}}\"\\friendship FC.Kaia 6(break)speak FC.Kaia \"{{i18n:KaiasNewHobby.15}}\"/friendship FC.Kaia -6/pause 1000/speak Sam \"{{i18n:KaiasNewHobby.16}}\"/pause 200/textabovehead Caroline \"{{i18n:KaiasNewHobby.17}}\"/pause 200/speak Sam \"{{i18n:KaiasNewHobby.18}}\"/pause 200/speak FC.Kaia \"{{i18n:KaiasNewHobby.19}}\"/pause 300/viewport move -1 0 6000000/globalFade/viewport -1000 -1000/addConversationTopic FC.KaiasNewHobby 13/end position 22 19 1",
-}, 
-},
+
 /************************************************
 5 Hearts
 ************************************************/
