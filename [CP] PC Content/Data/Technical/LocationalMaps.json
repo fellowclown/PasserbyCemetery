@@ -1,6 +1,28 @@
 {
 "Changes": [
-
+{
+"LogName": "GRadys Room",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_BoxysHouse": {
+"DisplayName": "{{i18n:FC.MapName.BoxysHouse}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_BoxysHouse"
+},
+"DefaultArrivalTile": {
+"X": 2,
+"Y": 3
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage": [],
+"CustomFields": {}
+}
+}
+},
 {
 "LogName": "GRadys Room",
 "Action": "EditData",
@@ -934,6 +956,7 @@
 "HalkiasProperty.PrayerRoomEntrance": "{{i18n:HalkiasProperty.PrayerRoomEntrance}}",
 "HalkiasProperty.FemaleStatue": "{{i18n:HalkiasProperty.FemaleStatue}}",
 "HalkiasProperty.MaleStatue": "{{i18n:HalkiasProperty.MaleStatue}}",
+"HalkiasProperty.MailBox": "{{i18n:HalkiasProperty.MailBox}}",
 "HalkiasProperty.BigtropaTree": "{{i18n:HalkiasProperty.BigtropaTree.{{season}}}}",
 "HalkiasProperty.GhostFlower.DayTime": "{{i18n:HalkiasProperty.GhostFlower.DayTime}}",
 "HalkiasProperty.GhostFlower.NightTime": "{{i18n:HalkiasProperty.GhostFlower.NightTime}}",
@@ -1216,6 +1239,7 @@
 "StoneHome.DezeriesDodo": "{{i18n:StoneHome.DezeriesDodo}}",
  "StoneHome.Durrah": "{{i18n:StoneHome.Durrah}}",
  "StoneHome.Shevit": "{{i18n:StoneHome.Shevit}}",
+ "BoxysHouse": "{{i18n:BoxysHouse}}"
 }
  },
 ]

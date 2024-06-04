@@ -78,6 +78,16 @@ Dispositions
 "Y": 52
 },
 "Direction": "right"
+},
+{
+"Id": "CatHouse",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_BoxysHouse",
+"Location": "{{ModID}}_BoxysHouse",
+"Tile": {
+"X": 2,
+"Y": 3
+},
+"Direction": "right"
 }
 ],
 "Appearance": [
@@ -113,14 +123,14 @@ Dispositions
 "Precedence": -10,
 },
 {
-"ID": "FC.BoxyAssetFlowerFestival",
+"ID": "{{ModID}}.BoxyAssetFlowerFestival",
 "Condition": "EVENT_ID festival_spring24",
 "Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Boxy/Festivals/flower dance.png}}",
 "Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Boxy/Festivals/flower dance.png}}",
 "Precedence": -10,
 },
 {
-"ID": "FC.BoxyAssetSpiritseve",
+"ID": "{{ModID}}.BoxyAssetSpiritseve",
 "Condition": "EVENT_ID festival_fall3",
 "Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Boxy/Festivals/spirit's eve.png}}",
 "Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Boxy/Festivals/spirit's eve.png}}",

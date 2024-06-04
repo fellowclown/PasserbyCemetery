@@ -120,6 +120,17 @@
  "LogName": "gemedit",
  "Action": "EditMap",
  "Target": "Maps/{{ModID}}_OldGraveYard",
+ "FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/BoxysHouse.tbin",
+"Update": "OnTimeChange, OnLocationChange",
+ "ToArea": { "X": 11, "Y": 49, "Width":3, "Height": 3 },
+ "When": {
+            "HasSeenEvent |contains={{ModID}}_BoxysHouse": true,
+}
+        },
+          {
+ "LogName": "gemedit",
+ "Action": "EditMap",
+ "Target": "Maps/{{ModID}}_OldGraveYard",
  "FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/Glow.tbin",
  "PatchMode":"overlay",
 "Update": "OnTimeChange, OnLocationChange",

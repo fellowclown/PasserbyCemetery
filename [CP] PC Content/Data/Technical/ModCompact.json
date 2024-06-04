@@ -31,7 +31,6 @@
             "Exclude": true
         }
     },
-      "Target": "Mods/shekurika.Worldmaps/WorldMapData",
             "When": {
                  "HasMod": "Bouhm.NPCMapLocations"
             }

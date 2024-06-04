@@ -290,7 +290,7 @@
 "{{ModID}}_Marketpalooza.Trigger":  {
 "Id": "{{ModID}}_Marketpalooza.Trigger",
 "Trigger": "DayStarted",
-"Condition": "SEASON_DAY Summer 27,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_LeslaIntroduction,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_GradyReunitesWithLyell,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_StoneIntroduction",
+"Condition": "SEASON Summer,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_LeslaIntroduction,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_GradyReunitesWithLyell,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_StoneIntroduction",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_Marketpalooza.Mail",
 "Actions": null,

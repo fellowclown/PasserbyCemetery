@@ -2434,10 +2434,10 @@ Quest
 "FC.StoneRelic.Quest.Desc": "Someone took the most important object I own. It’s a stone relic, I confronted them and it turns out they lost it somewhere in the valley. If you find it, I’ll pay anything to have it back.",
 "FC.StoneRelic.Quest.Obj": "Locate and find the precious relic.",
 "FC.StoneRelic.Quest.Reaction": "You…You found it.$1#$b#Thank you, thank you so much @.#$b#I won’t forget this.",
-"FC.LostPipe.Title": "Papa’s Pipe.",
-"FC.LostPipe.Desc": "Lewis that ass, he took my Pa's pipe!",
-"FC.LostPipe.Obj": "Locate and return Papa’s Pipe.",
-"FC.LostPipe.Reaction": "Papa’s pipe!$1#$b#I’m so happy you found it…#$b#This pipe means the world to me, it belonged to my father before he passed away.$2#$b#I would be crushed if it had been lost forever…$2",
+"FC.LostPipe.Quest.Title": "Papa’s Pipe.",
+"FC.LostPipe.Quest.Desc": "Lewis that ass, he took my Pa's pipe!",
+"FC.LostPipe.Quest.Obj": "Locate and return Papa’s Pipe.",
+"FC.LostPipe.Quest.Reaction": "Papa’s pipe!$1#$b#I’m so happy you found it…#$b#This pipe means the world to me, it belonged to my father before he passed away.$2#$b#I would be crushed if it had been lost forever…$2",
 "FC.MovoraptorEgg": "Movoraptor Egg",
 "FC.MovoraptorEgg.Desc": "A Movorator Egg-Incubate this and hatch a raptor of your own!",
 "FC.FindGemYes.Quest.Title": "The Stolen Gem.",
@@ -2849,8 +2849,8 @@ Custom Mail
 "FC.CucaSerum.Mail.Title" : "Cuca Serum Recipe.",
 "FC.SootheingCure.Mail" : "Come visit Driftwood and buy a selection of seeds, tonics and more. As an offering, here's a gift from me to you. Enjoy the recipe.^-Grady",
 "FC.SootheingCure.Mail.Title" : "Soothing Cure Recipe.",
-"FC.Rett.Mail": "After researching the situation, I have come to the conclusion that the spirit we encountered upon the summoning circle is in fact the lost soul of Rett Tiller. The young man lived in the Adventurer's Guild at one point, preparing himself for personal training with Marlon and Gil. However, he went missing shortly after. Marlon has clued me in to a journal that Rett had been writing, apparently it's missing a page. If you could find that page and bring it to me, I would be forever grateful. You will be compensated for your efforts.^-Valerie",
-"FC.Rett.Mail.Title": "The Missing Page.",
+"FC.RettNote.Mail": "After researching the situation, I have come to the conclusion that the spirit we encountered upon the summoning circle is in fact the lost soul of Rett Tiller. The young man lived in the Adventurer's Guild at one point, preparing himself for personal training with Marlon and Gil. However, he went missing shortly after. Marlon has clued me in to a journal that Rett had been writing, apparently it's missing a page. If you could find that page and bring it to me, I would be forever grateful. You will be compensated for your efforts.^-Valerie",
+"FC.RettNote.Mail.Title": "The Missing Page.",
 "FC.Solar.Mail": "The hardest thing in the world for me is to go out and collect the Solar Essence of corrupted souls. They're so prevalent in the cemetery and I become too distressed whenever I must end one's suffering in such a violent way. If you would take on this burden for me and collect some Solar Essence,I would be forever grateful. You will be compensated for your efforts.^-Valerie",
 "FC.Solar.Mail.Title": "Ingredient needed: Solar Essence.",
 "FC.Void.Mail": "Void Essence is one of the most difficult things to collect. If you could collect some for me, but only collect them from spiders, serpents or haunted skulls. I would be forever grateful. You will be compensated for your efforts.^-Valerie",
@@ -3356,6 +3356,7 @@ Custom Map Strings
 "StoneHome.DezeriesDodo": "The dodo is sleeping.",
 "StoneHome.Durrah": "The primate stares at you expectedly.",
 "StoneHome.Shevit": "She appears to be resting.",
+ "BoxysHouse": "The house Nikolai, Robin and Lyell made for Boxy.",
 /************************************************
 Custom Map Names
 ************************************************/
@@ -3375,6 +3376,7 @@ Custom Map Names
 "FC.MapName.GradysRoom": "Grady's Bedroom",
 "FC.MapName.StoneHouse": "Stone Residence",
 "FC.MapName.AlansRoom": "Alan's Room",
+"FC.MapName.BoxysHouse": "Boxy's Cat House",
 /************************************************
 Marketpalooza
 ************************************************/
@@ -3802,6 +3804,21 @@ Lesla events
 "BoxysRebellion.15": "I'll try to catch him.$2",
 "BoxysRebellion.16": "Caroline struggled to catch Boxy, the entire situation stressed the animal out.",
 
+"BoxysHouse.00": "Hey @!#$b#You're just in time for the big reveal!$1",
+"BoxysHouse.01": "It was all Nikolai's idea.$1",
+"BoxysHouse.02": "Let's show it then, I'm sure @ what's to see what Nikki's idea was.$1",
+"BoxysHouse.03": "Right!",
+"BoxysHouse.04": "Ta-Da!",
+"BoxysHouse.05": "Boxy, you  have your own little house now!$1",
+"BoxysHouse.06": "I think he likes it Nikki.$1",
+"BoxysHouse.07": "Aw, that's so adorable.$1",
+"BoxysHouse.08": "Maverick mentioned, that Boxy slept at the same gravesite everynight...$3",
+"BoxysHouse.09": "I figured, if he wouldn't let me take him home...Then I would bring a home to him!$1",
+"BoxysHouse.10": "Yeah...I don't know a lot about the woman who had him, but I do know she would have been so happy for Boxy.$1#$b#They can be close to eachother now and Boxy can be protected from the element's.$1",
+"BoxysHouse.11": "Animals are so loyal...such wonderful creatures. I hope Boxy feels as happy as he looks.$1",
+"BoxysHouse.12": "I'm sure he does Nikki.$1",
+"BoxysHouse.13": "And their bond will stay strong, Boxy can stay by his humans side in comfort now.",
+
 "KaiaExplains.00": "Could you read it again? I love this story!$1",
 "KaiaExplains.01": "Of course I can read it again, but maybe another time. It'll be lunch time very soon.$1",
 "KaiaExplains.02": "Hm...Do you think there's a second book? It would be much more interesting to hear how Jumba's adventure continues.$1",
@@ -4045,7 +4062,7 @@ Lyell's Events
 "TheFamiliar.02": "Oh, it's you...Hello James.#$b#I just returned from the deeper areas of the mines.#$b#You can find valuable resources down there, though I suggest bringing a weapon or even a companion.",
 "TheFamiliar.03": "Next to me is my familiar, her name is Jingles.$1#$b#My youngest son named her, I wanted to call her River, but you know how children are.$1#$b#I can't see her named anything else though, besides Alan was right. She does have a weakness for anything that shines and jingles...So the name is accurate.$1",
 "TheFamiliar.04": "There you go...",
-"TheFamiliar.05": "Hopefully next time she doesn't play the hero....I doubt it though, Jingles tends to jump between me and anything threating.$2",
+"TheFamiliar.05": "Hopefully next time she doesn't play the hero....I doubt it though, Jingles tends to jump between me and anything threatening.$2",
 "TheFamiliar.06": "It's time for us to head home, I'm sure Jingles is just as tired as I am.$1",
 
 "Betrayal.00":"@, you've come during my hour of reflection.$2#$b#But I suppose it's acceptable, since you are more of a friend than foe.$1",
@@ -4056,5 +4073,8 @@ Lyell's Events
 "Betrayal.05":"...$2#$b#Betrayal is the shortest answer I can give.#$b#But that doesn't answer your question completely does it?",
 "Betrayal.06":"Hmph...$2#$b#I'm assuming you've never been betrayed before.$3#$b#That's good, I hope you never are...#$b#But I was betrayed, by someone I considered a son no less.$3",
 "Betrayal.07":"Seems my familiar is wishing to return home.$1#$b#I never could deny such a cute face.$1",
-"Betrayal.08":"Farewell @, perhap's we can meet later.$1#$b#Though, I'd consider refreshing yourself...You don't need to smell like a farmer all the time.",
+"Betrayal.08":"Farewell @, perhaps we can meet later.$1#$b#Though, I'd consider refreshing yourself...You don't need to smell like a farmer all the time.",
+
+
+
 }

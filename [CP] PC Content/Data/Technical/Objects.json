@@ -3361,7 +3361,7 @@
    "Texture": "Mods/{{ModID}}/Objects",
   "SpriteIndex": 67,
   "Edibility": 5,
-  "IsDrink": true,
+  "IsDrink": false,
     "CanBeGivenAsGift": true,
   "CanBeTrashed": true,
   "Buffs": [

@@ -46,5 +46,16 @@
 "FC.LeaveBoxyAlone": "stopMusic/pause 200/textabovehead Caroline \"{{i18n:BoxysRebellion.14}}\"/pause 300/speak Caroline \"{{i18n:BoxysRebellion.15}}\"/pause 200/emote FC.Boxy 12/speed FC.Boxy 5/advancedMove FC.Boxy false 0 1 3 10 -4 0 3 10 0 3 2 10 0 1 3 10 -11 0 2 10/pause 200/viewport move -1 0 6000000/pause 800/globalFade/viewport -1000 -1000/friendship FC.Boxy -5/message \"{{i18n:BoxysRebellion.16}}\"/end",
 }
 },
+
+/************************************************
+5 Hearts
+************************************************/
+{ 
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_OldGraveYard",
+"Entries": {
+"{{ModID}}_BoxysHouse/e {{ModID}}_BoxysRebellion/t 900 1200/f FC.Boxy 1250/w sunny": "{{ModID}}_BoxysTheme/-1000 -1000/farmer 18 56 0 FC.Boxy 12 53 1 Robin 10 52 1 FC.Lyell 10 53 1 FC.Nikolai 13 53 3/viewport 12 53 clamp true/skippable/removeTile 12 51 Buildings/removeTile 13 51 Buildings/removeTile 12 50 Front/removeTile 13 50 Front/addTemporaryActor FC.BoxysHouse 48 48 12 52 2 false Character/positionOffset FC.BoxysHouse -40 0/addConversationTopic FC.BoxysHouse/showFrame FC.Nikolai 44/pause 1000/emote Robin 32/pause 1000/positionOffset FC.Boxy 10 0/showFrame FC.Boxy 26 true/playSound cat/pause 350/emote FC.Nikolai 32/pause 350/advancedMove farmer false 0 -3 3 1000 -3 0 2 10 0 1 3 10 -3 0 4 10/pause 3000/emote farmer 8/showFrame FC.Boxy 4 true/showFrame FC.Nikolai 12/pause 350/faceDirection FC.Nikolai 2/pause 350/speak FC.Nikolai \"{{i18n:BoxysHouse.00}}\"/faceDirection FC.Boxy 2/playSound cat/pause 350/speak Robin \"{{i18n:BoxysHouse.01}}\"/pause 350/faceDirection FC.Lyell 0/faceDirection FC.Lyell 1/pause 360/speak FC.Lyell \"{{i18n:BoxysHouse.02}}\"/pause 1000/textabovehead FC.Nikolai \"{{i18n:BoxysHouse.03}}\"/pause 350/faceDirection FC.Nikolai 0/pause 300/shake FC.BoxysHouse 1000/pause 250/showFrame FC.BoxysHouse 1/pause 350/showFrame FC.BoxysHouse 2/move FC.Nikolai 1 0 3/move farmer 0 1 0/pause 350/textabovehead FC.Nikolai \"{{i18n:BoxysHouse.04}}\"/pause 350/speak FC.Nikolai \"{{i18n:BoxysHouse.05}}\"/pause 400/faceDirection FC.Boxy 0/jump FC.Boxy 5/pause 1000/jump FC.Boxy 5/emote FC.Boxy 20/playSound cat/pause 200/positionOffset FC.Boxy 3 0/positionOffset FC.Boxy 0 -1/warp FC.Boxy -3000 -3000/showFrame FC.BoxysHouse 3/pause 350/showFrame FC.BoxysHouse 4/pause 1000/showFrame FC.BoxysHouse 5/pause 200/showFrame FC.BoxysHouse 6/pause 200/showFrame FC.BoxysHouse 7/pause 200/showFrame FC.BoxysHouse 4/pause 100/emote FC.Nikolai 20/pause 350/speak FC.Lyell \"{{i18n:BoxysHouse.06}}\"/pause 350/speak Robin \"{{i18n:BoxysHouse.07}}\"/pause 400/speak FC.Nikolai \"{{i18n:BoxysHouse.08}}\"/pause 350/speak FC.Nikolai \"{{i18n:BoxysHouse.09}}\"/pause 350/playSound cat/pause 350/speak Robin \"{{i18n:BoxysHouse.10}}\"/pause 350/speak FC.Nikolai \"{{i18n:BoxysHouse.11}}\"/pause 350/speak FC.Lyell \"{{i18n:BoxysHouse.12}}\"/pause 350/emote farmer 32/pause 200/viewport move 1 -1 6000000/pause 800/globalFade/viewport -1000 -1000//message \"{{i18n:BoxysHouse.13}}\"/end",
+}
+},
 ]
 }

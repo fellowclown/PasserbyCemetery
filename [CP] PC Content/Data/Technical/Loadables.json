@@ -22,7 +22,7 @@ Load TempActor Assets
  {
 "LogName": "Base Characters",
 "Action": "Load",
-"Target": "Characters/FC.FamilyPainting,Characters/FC.Objects,Characters/FC.Heart,Characters/FC.River,Characters/FC.Fishgirl,Characters/FC.Willy,Characters/FC.PotionPot,Portraits/FC.Heart,Characters/FC.Emotes,Characters/FC.PopperPC,Characters/FC.Jeremy,Characters/FC.CaveBlock,Characters/FC.Campfire,Characters/FC.GhostBoy,Characters/FC.GradyRide,Characters/FC.Rumple,Characters/FC.Aluua,Portraits/FC.Aluua,Portraits/FC.Arah,Characters/FC.Arah,Characters/FC.Mayo,Characters/FC.BoxyCakeSurprise,Characters/FC.FairyFlock,Characters/FC.BoxyCowRide,Characters/FC.BeeGroup1,Characters/FC.BeeGroup2,Characters/FC.BeeGroup3",
+"Target": "Characters/FC.BoxysHouse,Characters/FC.FamilyPainting,Characters/FC.Objects,Characters/FC.Heart,Characters/FC.River,Characters/FC.Fishgirl,Characters/FC.Willy,Characters/FC.PotionPot,Portraits/FC.Heart,Characters/FC.Emotes,Characters/FC.PopperPC,Characters/FC.Jeremy,Characters/FC.CaveBlock,Characters/FC.Campfire,Characters/FC.GhostBoy,Characters/FC.GradyRide,Characters/FC.Rumple,Characters/FC.Aluua,Portraits/FC.Aluua,Portraits/FC.Arah,Characters/FC.Arah,Characters/FC.Mayo,Characters/FC.BoxyCakeSurprise,Characters/FC.FairyFlock,Characters/FC.BoxyCowRide,Characters/FC.BeeGroup1,Characters/FC.BeeGroup2,Characters/FC.BeeGroup3",
 "FromFile": "Assets/Npcs/TempActors/Characters/{{TargetWithoutPath}}.png", 
  },
  {
@@ -55,7 +55,7 @@ Load Locational Maps
 {
 "LogName": "Load Location Maps",
 "Action":"Load",
-"Target":"Maps/{{ModID}}_ValerieSpouseRoom,Maps/{{ModID}}_ValeriePatio,Maps/{{ModID}}_StoneHouse,Maps/{{ModID}}_AlansRoom,Maps/{{ModID}}_AnimalRefuge,Maps/{{ModID}}_BeeNursery,Maps/{{ModID}}_Marketpalooza,Maps/{{ModID}}_NiksRoom,Maps/{{ModID}}_NikolaiSpouseRoom,Maps/{{ModID}}_NikolaiPatio,Maps/{{ModID}}_LeslaHouse,Maps/{{ModID}}_BeeNursery,Maps/{{ModID}}_SecretCave,Maps/{{ModID}}_OldGraveYard,Maps/{{ModID}}_MavericksHouse,Maps/{{ModId}}_GradysRoom,Maps/{{ModId}}_LyellSpouseRoom,Maps/{{ModId}}_LyellPatio,Maps/{{ModId}}_RoswellsCoop,Maps/{{ModId}}_LyellsProperty,Maps/{{ModId}}_LyellsHouse,Maps/{{ModId}}_LyellsBarn,Maps/{{ModId}}_LyellsCoop,Maps/{{ModId}}_LyellsShed",
+"Target":"Maps/{{ModID}}_BoxysHouse,Maps/{{ModID}}_ValerieSpouseRoom,Maps/{{ModID}}_ValeriePatio,Maps/{{ModID}}_StoneHouse,Maps/{{ModID}}_AlansRoom,Maps/{{ModID}}_AnimalRefuge,Maps/{{ModID}}_BeeNursery,Maps/{{ModID}}_Marketpalooza,Maps/{{ModID}}_NiksRoom,Maps/{{ModID}}_NikolaiSpouseRoom,Maps/{{ModID}}_NikolaiPatio,Maps/{{ModID}}_LeslaHouse,Maps/{{ModID}}_BeeNursery,Maps/{{ModID}}_SecretCave,Maps/{{ModID}}_OldGraveYard,Maps/{{ModID}}_MavericksHouse,Maps/{{ModId}}_GradysRoom,Maps/{{ModId}}_LyellSpouseRoom,Maps/{{ModId}}_LyellPatio,Maps/{{ModId}}_RoswellsCoop,Maps/{{ModId}}_LyellsProperty,Maps/{{ModId}}_LyellsHouse,Maps/{{ModId}}_LyellsBarn,Maps/{{ModId}}_LyellsCoop,Maps/{{ModId}}_LyellsShed",
 "FromFile":"Assets/Maps/Locational Maps/{{TargetWithoutPath}}.tbin",
 },
        {

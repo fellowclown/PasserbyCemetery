@@ -44,7 +44,7 @@
 
 "Wed": "830 {{ModID}}_OldGraveYard 15 63 3 {{ModID}}_DezerieWait/910 WizardsHouse 12 17 3/1200 Forest 35 25 2/1600 {{ModID}}_OldGraveYard 19 48 3/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
 
-"Thu": "610 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/900 Mountain 84 9 1/1200 {{ModID}}_OldGraveYard 45 61 1/900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+"Thu": "610 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/900 Mountain 84 9 1/1200 {{ModID}}_OldGraveYard 45 61 1/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
 
 "Fri": "610 ManorHouse 7 5 1/1000 Town 65 86 3/1020 Town 61 88 0/1400 WizardsHouse 12 17 3/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
 
