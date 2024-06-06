@@ -17,9 +17,9 @@
 "CanGreetNearbyCharacters": true,
 "CanCommentOnPurchasedShopItems": false,
 "CanVisitIsland": false,
-"IntroductionsQuest": true,
+"IntroductionsQuest":"{{ExcludePerfection}}",
+"PerfectionScore":"{{ExcludePerfection}}",
 "ItemDeliveryQuests": true,
-"PerfectionScore": false,
 "EndSlideShow": "TrailingGroup",
 "SpouseRoom": {
 "MapAsset": null,

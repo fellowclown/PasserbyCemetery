@@ -2849,7 +2849,7 @@ Custom Mail
 "FC.CucaSerum.Mail.Title" : "Cuca Serum Recipe.",
 "FC.SootheingCure.Mail" : "Come visit Driftwood and buy a selection of seeds, tonics and more. As an offering, here's a gift from me to you. Enjoy the recipe.^-Grady",
 "FC.SootheingCure.Mail.Title" : "Soothing Cure Recipe.",
-"FC.RettNote.Mail": "After researching the situation, I have come to the conclusion that the spirit we encountered upon the summoning circle is in fact the lost soul of Rett Tiller. The young man lived in the Adventurer's Guild at one point, preparing himself for personal training with Marlon and Gil. However, he went missing shortly after. Marlon has clued me in to a journal that Rett had been writing, apparently it's missing a page. If you could find that page and bring it to me, I would be forever grateful. You will be compensated for your efforts.^-Valerie",
+"FC.RettNote.Mail": "After researching the situation, I have come to the conclusion that a spirit has been attempting to contact me. I've been made aware of a lost journal or a page of said journal being somewhere in the cemetery. If you could find it and bring it to my residence I would be grateful.^-Valerie",
 "FC.RettNote.Mail.Title": "The Missing Page.",
 "FC.Solar.Mail": "The hardest thing in the world for me is to go out and collect the Solar Essence of corrupted souls. They're so prevalent in the cemetery and I become too distressed whenever I must end one's suffering in such a violent way. If you would take on this burden for me and collect some Solar Essence,I would be forever grateful. You will be compensated for your efforts.^-Valerie",
 "FC.Solar.Mail.Title": "Ingredient needed: Solar Essence.",
@@ -3377,6 +3377,7 @@ Custom Map Names
 "FC.MapName.StoneHouse": "Stone Residence",
 "FC.MapName.AlansRoom": "Alan's Room",
 "FC.MapName.BoxysHouse": "Boxy's Cat House",
+"FC.FakeNpc": "the Stone Residence.",
 /************************************************
 Marketpalooza
 ************************************************/
