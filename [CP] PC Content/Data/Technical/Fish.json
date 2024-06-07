@@ -64,13 +64,13 @@
   "Description": "{{i18n:FC.BoneyHeadedGraveFish.Desc}}",
   "Type": "Fish",
   "Category": -4,
-  "Price": 0,
+  "Price": 5000,
    "Texture": "Mods/{{ModID}}/Objects",
   "SpriteIndex": 154,
   "Edibility":1500,
   "IsDrink": false,
-    "CanBeGivenAsGift": false,
-  "CanBeTrashed": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
   "Buffs": [
     {
       "Id": null,
@@ -123,8 +123,8 @@
   "SpriteIndex": 155,
   "Edibility": 5,
   "IsDrink": false,
-    "CanBeGivenAsGift": false,
-  "CanBeTrashed": false,
+    "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
   "Buffs": [
     {
       "Id": null,
@@ -177,8 +177,8 @@
   "SpriteIndex": 24,
   "Edibility":6,
   "IsDrink": false,
-    "CanBeGivenAsGift": false,
-  "CanBeTrashed": false,
+    "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
   "Buffs": [
     {
       "Id": null,
@@ -231,8 +231,8 @@
   "SpriteIndex": 26,
   "Edibility":6,
   "IsDrink": false,
-    "CanBeGivenAsGift": false,
-  "CanBeTrashed": false,
+    "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
   "Buffs": [
     {
       "Id": null,
@@ -285,8 +285,8 @@
   "SpriteIndex": 44,
   "Edibility":3,
   "IsDrink": false,
-    "CanBeGivenAsGift": false,
-  "CanBeTrashed": false,
+    "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
   "Buffs": [
     {
       "Id": null,
@@ -339,8 +339,8 @@
   "SpriteIndex": 45,
   "Edibility":10,
   "IsDrink": false,
-    "CanBeGivenAsGift": false,
-  "CanBeTrashed": false,
+    "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
   "Buffs": [
     {
       "Id": null,
