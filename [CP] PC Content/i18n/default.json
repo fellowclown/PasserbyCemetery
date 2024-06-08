@@ -2137,6 +2137,8 @@ Alan's Information ///Written By Chirps
 "pamHouseUpgrade.Alan": "You know what? %farm produces more than just quality crops. It 'produced' an amazing person. Or perhaps it's amazing because of you, @.$1#$b#Pam still scares me from time to time, but everyone deserves a home.$1",
 "pamHouseUpgradeAnonymous.Alan": "Hmm. So Pam got the whole package- kit, caboodle. You know what? Good for her.$#$e#...Just hope this means she'll get her head on straight.",
 "RejectBouquet_NotDatable.Alan": "Oh man, bud I don't think so.$4",
+"cc_Minecart.Alan": "Becareful when using the minecarts, make sure to keep an eye out for any wild animals on the tracks.$5",
+"cc_Bus.Alan": "Pam's bus if fixed?$5#$b#I don't know if I'd ride with her, that woman scares me.$2",
 //schedule dialogue
 //Schedules Dialogue
 "Alan.Working": "Oh, I'm just...Fiddling with a gadget, that's all...Just for fun.$4",

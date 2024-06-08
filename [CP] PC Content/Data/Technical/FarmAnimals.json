@@ -39,7 +39,7 @@
         "Id": "Default",
         "Condition": null,
         "MinimumFriendship": 0,
-        "ItemId": "184"
+        "ItemId": "436"
       }
     ],
     "DeluxeProduceItemIds": [
@@ -47,7 +47,7 @@
         "Id": "Default",
         "Condition": null,
         "MinimumFriendship": 750,
-        "ItemId": "186"
+        "ItemId": "440"
       }
 
 
