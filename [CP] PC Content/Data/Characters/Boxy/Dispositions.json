@@ -71,7 +71,7 @@ Dispositions
 "Home": [
 {
 "Id": "Default",
-"Condition": null,
+"Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_BoxysHouse",
 "Location": "{{ModId}}_OldGraveYard",
 "Tile": {
 "X":12,
