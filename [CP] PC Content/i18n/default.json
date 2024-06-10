@@ -5,6 +5,7 @@ Boxy
 //Display Name
 "FC.Boxy":"Boxy",
 //Gift Related Dialogue
+"AcceptGift_StardropTea.Boxy": "%He knocks the drink from your hand and then frantically licks it up from the ground.",
 "Boxy.gift.love":"Boxy is happy, you've earned his favor.$1",
 "Boxy.gift.like":"Boxy is pleased with your gift.$1",
 "Boxy.gift.dislike":"Boxy hisses at you with distaste, you've offended his senses.$2",
@@ -134,6 +135,7 @@ Kaia
 //Display Name
 "FC.Kaia":"Kaia",
 //Gift Related Dialogue
+"AcceptGift_StardropTea.Kaia": "This tea is amazing, I love the taste of it.$1",
 "AcceptBirthdayGift_Loved.Kaia": "Did Nikolai tell you it's my birthday?$1#$b#That little sneak.$1",
 "AcceptBirthdayGift_Liked.Kaia": "What a nice birthday gift.$1",
 "AcceptBirthdayGift_Disliked.Kaia": "I'm sure I can do something with this...$2#$b#Thanks for the birthday gift.$1",
@@ -292,6 +294,7 @@ Maverick
 //Display Name
 "FC.Maverick": "Maverick",
 //Gift Related Dialogue
+"AcceptGift_StardropTea.Maverick": "Tea?$2#$b#Well, it's pretty decent tea.#$b#Thanks$1",
 "AcceptBirthdayGift_Loved.Maverick": "Oh, this is very unexpected...How did you know it's my birthday?$1",
 "AcceptBirthdayGift_Liked.Maverick": "Thank you, very thoughtful birthday gift @.$1",
 "AcceptBirthdayGift_Disliked.Maverick": "I'm not too fond of it but, I'll hold onto it I guess.$2",
@@ -420,6 +423,7 @@ Nikolai
 //Display Name
 "FC.Nikolai":"Nikolai",
 //Gift Related Dialogue
+"AcceptGift_StardropTea.Nikolai": "Oh hey, my mom loves this tea. I mean I do too but I think she loves it more then me.$1",
 "AcceptBirthdayGift_Loved.Nikolai":"Did I tell you it's my birthday today?$3#$b#I can't recall actually.#$b#Thanks so much though, this is one of my favorite things.$6",
 "AcceptBirthdayGift_Liked.Nikolai":"You shouldn't have!$1#$b#Thank you @, this is becoming a great birthday.$6",
 "AcceptBirthdayGift_Disliked.Nikolai":"Oh, I think I can use this actually.#$b#Thank you for the birthday present.$1",
@@ -777,6 +781,7 @@ Zuuie
 //Display Name
 "FC.Zuuie": "Zuuie",
 //Gift Related Dialogue
+"AcceptGift_StardropTea.Zuuie": "It is called tea?#@#$b#Oh, that's really nice actually!$1",
 "Zuuie.gift.love": "Wow, wow! Amazing, thank you!$1",
 "Zuuie.gift.like": "Ooh, this is so nice, you're such a sweet human!$1",
 "Zuuie.gift.dislike": "Ack, terrible, awful, go away now.$3",
@@ -850,7 +855,7 @@ Lyell's Information
 //Display Name
 "FC.Lyell": "Lyell",
 //Gift Related Dialogue
-
+"AcceptGift_StardropTea.Lyell": "This is so thoughtful, thank you @.$1",
 "AcceptBirthdayGift_Loved.Lyell": "You...Did you know it's my birthday?#$b#I don't recall telling you that...#$b#This is so kind of you @.$1",
 "AcceptBirthdayGift_Liked.Lyell": "Oh...Thank you, this is so nice.#$b#Sorry, still getting used to people acknowledging my birthday.$1",
 "AcceptBirthdayGift_Disliked.Lyell": "Hm, well thank you...Um, I wasn't expecting a birthday present though...$2",
@@ -1224,6 +1229,7 @@ Roswell's Information
 //Display Name
 "FC.Roswell": "Roswell",
 //Gift Related Dialogue
+"AcceptGift_StardropTea.Roswell": "%Roswell sips from the offered cup. She seems to enjoy the tea.",
 "AcceptBirthdayGift_Loved.Roswell": "Roswell doesn't know what a birthday is, but she loves the present.$1",
 "AcceptBirthdayGift_Liked.Roswell": "Roswell doesn't know what a birthday is, but she liked the present.$1",
 "AcceptBirthdayGift_Disliked.Roswell": "Roswell doesn't know what a birthday is and she dislikes the present.$2",
@@ -1360,6 +1366,7 @@ Grady's Information
 //Display Name
 "FC.Grady": "Grady",
 //Gift Related Dialogue
+"AcceptGift_StardropTea.Grady": "Well, ain't that sweet of you! Just needs a bit of sugar.$1",
 "AcceptBirthdayGift_Loved.Grady": "Oh hell, how'd you know it was my birthday?$1#$b#Thanks so much, this is great.$6",
 "AcceptBirthdayGift_Liked.Grady": "Aw, ain't that just the sweetest, you know it's my birthday right?$1#$b#Thank you very much friend.$1",
 "AcceptBirthdayGift_Disliked.Grady": "Not the best gift giver huh, it's okay I'm not either.$6",
@@ -1547,6 +1554,7 @@ Valerie's Information
 //Display Name
 "FC.Valerie": "Valerie",
 //Gift Related Dialogue
+"AcceptGift_StardropTea.Valerie": "Wow, this is so good. What's it called?$1",
 "AcceptBirthdayGift_Loved.Valerie": "Wow, I haven't gotten a birthday present in years. Thank you!$1",
 "AcceptBirthdayGift_Liked.Valerie": "This is pretty wonderful, thank you. I didn't think anyone would remember my birthday.$1",
 "AcceptBirthdayGift_Disliked.Valerie": "Wow, this is thoughtful...Thank you for the birthday gift.",
@@ -2091,6 +2099,7 @@ Alan's Information ///Written By Chirps
 //Display Name
 "FC.Alan": "Alan",
 //Gift Related Dialogue
+"AcceptGift_StardropTea.Alan": "After my heart @?$4#$b#I'm just kidding, thanks for the tea.$1",
 "AcceptBirthdayGift_Loved.Alan": "Oh, this is perfect!$1#$b#I can't thank you enough, @. I'll have to return the favor - wait, when IS your birthday?$5",
 "AcceptBirthdayGift_Liked.Alan": "Oooh. Just what I needed. Thanks pal!$1",
 "AcceptBirthdayGift_Disliked.Alan": "Umm...$2#$b#I need a moment.$2",

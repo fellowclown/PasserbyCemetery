@@ -1706,6 +1706,14 @@
 "Condition": "!PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
 },
 {
+"Id": "815",
+"ItemId": "815",
+"Price": 850,
+"AvailableStock":10,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
 "Id": "{{ModID}}_ElizabethsRing",
 "ItemId": "{{ModID}}_ElizabethsRing",
 "Price": 3000,
