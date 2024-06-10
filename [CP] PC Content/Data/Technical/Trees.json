@@ -9,7 +9,6 @@
                     "Seasons": [ "winter" ],
                     "Fruit": [
                         {
-                            "Id": "{{ModID}}_TropaFruit",
                             "ItemId": "{{ModID}}_TropaFruit"
                         }
                     ],

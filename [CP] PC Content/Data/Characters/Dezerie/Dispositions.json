@@ -67,14 +67,34 @@ Dispositions
 "Home": [
 {
 "Id": "Default",
-"Condition": null,
+"Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_SummoningRett",
 "Location": "{{ModID}}_StoneHouse",
 "Tile": {
 "X": 18,
 "Y":19
 },
 "Direction": "right"
-}
+},
+{
+"Id": "DezHide",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_SummoningRett",
+"Location": "{{ModID}}_StoneHouse",
+"Tile": {
+"X": -3000,
+"Y":-3000
+},
+"Direction": "right"
+},
+{
+"Id": "Default",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_ConfessionsOfMother",
+"Location": "{{ModID}}_StoneHouse",
+"Tile": {
+"X": 18,
+"Y":19
+},
+"Direction": "right"
+},
 ],
 "Appearance": [
   {

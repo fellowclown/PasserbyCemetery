@@ -323,7 +323,7 @@
 "IsRaised": false,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
-"SpriteIndex": 4
+"SpriteIndex": 20
 }
 }
 },
@@ -339,7 +339,7 @@
 "IsRaised": false,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
-"SpriteIndex": 0
+"SpriteIndex": 5
 }
 }
 },

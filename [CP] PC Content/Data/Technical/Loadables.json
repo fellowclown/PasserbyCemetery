@@ -1,6 +1,11 @@
 {
 "Changes": [
-
+    {
+        "LogName": "SummonCircle",
+        "Action": "Load",
+        "Target": "{{ModID}}/FC.SummonCircle",
+        "FromFile": "Assets/Npcs/TempActors/Characters/FC.SummonCircle.png"
+    },
 /************************************************
 Load Character Over World Assets
 ************************************************/

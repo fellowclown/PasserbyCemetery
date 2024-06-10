@@ -1239,7 +1239,8 @@
 "StoneHome.DezeriesDodo": "{{i18n:StoneHome.DezeriesDodo}}",
  "StoneHome.Durrah": "{{i18n:StoneHome.Durrah}}",
  "StoneHome.Shevit": "{{i18n:StoneHome.Shevit}}",
- "BoxysHouse": "{{i18n:BoxysHouse}}"
+ "BoxysHouse": "{{i18n:BoxysHouse}}",
+"GraveYard.Bridge": "{{i18n:GraveYard.Bridge}}",
 }
  },
 ]

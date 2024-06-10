@@ -34,6 +34,30 @@
             "When": {
                  "HasMod": "Bouhm.NPCMapLocations"
             }
+},
+       {
+    "Action": "EditData",
+    "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+    "Entries": {
+        "FC.Dezerie": {
+            "Exclude": true
+        }
+    },
+            "When": {
+                 "HasSeenEvent |contains={{ModID}}_SummoningRett": true,
+            }
+},
+       {
+    "Action": "EditData",
+    "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+    "Entries": {
+        "FC.Dezerie": {
+            "Exclude": false
+        }
+    },
+            "When": {
+                 "HasSeenEvent |contains={{ModID}}_ConfessionsOfMother": true,
+            }
 }
    ]
 }
