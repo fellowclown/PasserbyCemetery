@@ -1,0 +1,17 @@
+{
+    "Changes": [
+{
+"Action": "EditData",
+"Priority": "Late",
+"Target": "Characters/Dialogue/Abigail,Characters/Dialogue/Alex,Characters/Dialogue/Caroline,Characters/Dialogue/Clint,Characters/Dialogue/Demetrius,Characters/Dialogue/Elliott,Characters/Dialogue/Emily,Characters/Dialogue/Evelyn,Characters/Dialogue/George,Characters/Dialogue/Gus,Characters/Dialogue/Haley,Characters/Dialogue/Harvey,Characters/Dialogue/Jas,Characters/Dialogue/Jodi,Characters/Dialogue/Kent,Characters/Dialogue/Leah,Characters/Dialogue/LeoMainland,Characters/Dialogue/Lewis,Characters/Dialogue/Linus,Characters/Dialogue/Marnie,Characters/Dialogue/Maru,Characters/Dialogue/Pam,Characters/Dialogue/Penny,Characters/Dialogue/Pierre,Characters/Dialogue/Robin,Characters/Dialogue/Sam,Characters/Dialogue/Sebastian,Characters/Dialogue/Shane,Characters/Dialogue/Vincent,Characters/Dialogue/Willy,Characters/Dialogue/Wizard,Characters/Dialogue/Krobus,Characters/Dialogue/Mister Qi",
+"Entries": {
+"Mon":"{{i18n:Mon.{{TargetWithoutPath}}}}",
+"Wed":"{{i18n:Wed.{{TargetWithoutPath}}}}",
+"Fri":"{{i18n:Fri.{{TargetWithoutPath}}}}",
+},
+ "When": {
+"Query: {{Random: {{Range: 1,10}}}} = 1": true,
+ }
+},
+  ]
+}

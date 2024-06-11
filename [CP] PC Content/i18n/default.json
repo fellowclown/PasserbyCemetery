@@ -1696,7 +1696,7 @@ Valerie's Information
 "Thu.Valerie.MidHeart.fall": "I find myself wondering each day, if I would be happier studying the elements like my brother.#$e#But you know, I always decide I wouldn't be.#$b#The spiritual side of magic has always called to me.$1",
 "Thu.Valerie.MidHeart.winter": "When I feel lonely, I try to remember that we're never actually alone.$2#$b#The signatures of people who have passed are here with me.$3",
 "Fri.Valerie.MidHeart.spring": "There's many things I've yet to experience.$3#$b#There doesn't seem to be enough time huh?$2",
-"Fri.Valerie.MidHeart.summer": "I don't I understand how my brother can just, lock himself in that tower all day everyday.$2#$e#It would drive me completely crazy if I lived like that.$3",
+"Fri.Valerie.MidHeart.summer": "I don't understand why Alan can't stand up to our mother. It would drive me crazy doing everything she says to do.$3",
 "Fri.Valerie.MidHeart.fall": "I think out of everyone in town, you talk to me the most.$4#$b#Thank you for that.$1",
 "Fri.Valerie.MidHeart.winter": "Winter is a time of rebirth you know.$3#$b#It holds powerful energies for regeneration, renewal and self-reflection.#$e#As much as I hate winter as a season, I'm glad we have it.$1",
 "Sat.Valerie.MidHeart.spring": "After it rains, you can go to the beach and find a lot of really cool things.#$b#I've not been going as much though...$2#$e#Maybe we can go together sometime.$1",
@@ -2298,6 +2298,130 @@ Alan's Information ///Written By Chirps
 /************************************************
 Vanilla Editions
 ************************************************/
+"Mon.Abigail":"Nikolai brought me some honey yesterday, he really is a sweet guy.$1",
+"Wed.Abigail":"Alan's mom makes me pretty uneasy, have you met her? I'd hate to live with her.$2",
+"Fri.Abigail":"Lyell's raptors are so pretty, but they're pretty vicious.$1",
+
+"Mon.Alex":"Mister Lovejoy just freaks me the hell out...I don't if it's cause he lives int he cemetery or what, but I don't trust him.$2",
+"Wed.Alex":"Alan is such a nerdy dude, but at least he's nice to my grandparents.$1",
+"Fri.Alex":"Do you think Lyell misses his arm?$2#$b#I can't help but be curious about that...",
+
+"Mon.Caroline":"Have you seen Kaia around? She's such a treat to talk to. Just the sweetest thing.$1",
+"Wed.Caroline":"Grady is a strange character, but I do love talking to him.#$b#He's so fun and friendly.$1",
+"Fri.Caroline":"Do you think Lyell would mind if I visit, I was wanting to buy some ice berry wine.$1",
+
+"Mon.Clint":"Kaia passes by the forge sometimes, she should replace her guide cane...It's wearing down pretty fast...#$b#I want to help out, but I'm worried about offending her.$2",
+"Wed.Clint":"Hope Nikolai visit's sometime this week, he always helps me unload shipments.#$b#I really need to figure out how to reward him.$1",
+"Fri.Clint":"That Dezerie really gives me the creeps, everytime I see her she's just glaring at me.$2",
+
+"Mon.Demetrius":"Lyell grows some fascinating foliage, some of which I thought were exinct.$1#$b#Such a curious thing.$1",
+"Wed.Demetrius":"Grady should have remained a anthropologist...$2#$b#His inventions are rather, unstable.#$b#He asked me some questions about engineering, but I'm not specialized in that feild.$2",
+"Fri.Demetrius":"I may need to redirect Doctor Talon to my daughter, she's the engineer in our family.$1",
+
+"Mon.Elliott":"It's simply beautiful how Maverick dedicates so much of his life to caring for the cemetery.$1#$b#Though, that wouldn't be a career I would choose if I can be honest.$2",
+"Wed.Elliott":"The cemetery is gorgeous, a bit saddening to visit but the scenery inspires me.#$b#Especially the epitaphs on the gravestones..$1",
+"Fri.Elliott":"Valerie has such a refined sense of taste, if you're interested in dabbling in the art of Winery and dining. I strongly recommended asking her opinion on where to start.$1",
+
+"Mon.Emily":"There are other's powers in this valley, powers that come from far away.$2#$b#I can feel it in my bones.$2",
+"Wed.Emily":"The corrupted souls have been visiting my dreams, I worry about the implications.$2",
+"Fri.Emily":"Valerie is on a entirely different level, her spiritual energy is powerful.",
+
+"Mon.Evelyn":"Alan is such a sweetheart, I do love it when he visit's.",
+"Wed.Evelyn":"Do you think Dezerie would like some cookies?#$b#She's always in such a grumpy mood maybe she needs a pick me up.$1",
+"Fri.Evelyn":"That Lyell, he's such a looker isn't he?$1#$b#If I was younger and didn't have my George.$1",
+
+"Mon.George":"He's a ball of nerves Alan, kid is gonna get sick one day from all that worrying.$3",
+"Wed.George":"It's about time Alex made some smart friends, boy needs some good influences in his life.$3",
+"Fri.George":"I've been told the eyes are window to the soul, Lyell looks like his soul been through hell.$2",
+
+"Mon.Haley":"Valerie would be so pretty if she wasn't into such creepy things.$2#$b#She might get alone with emily though...$2",
+"Wed.Haley":"Nikolai is so sweet, I can't be annoyed with him for too long...Even though he's obnoxiously dressed.$1",
+"Fri.Haley":"Dezerie is the only person in that weird family of hers that I can stand.$1",
+
+"Mon.Harvey":"With how poorly Lyell cares for himself, I worry I'll be signing his death certificate soon.$2",
+"Wed.Harvey":"I usually don't try odd foods, but Grady makes taste testing things so fun.$1#$b#I actually really love pickled Popachini!$1",
+"Fri.Harvey":"Valerie got me to try this imported coffee brand, it was delicious but really gave me the jitters.$1",
+
+"Mon.Jas":"Roswell is very smart for a chicken, she helped me find my way home after I got lost playing in the forest.$1",
+"Wed.Jas":"Boxy is a very bitey kitty, but I love him anyway.$1#$b#I asked aunt Marnie if I could leave food out for him, but he's too picky.$2",
+"Fri.Jas":"I thought all kitties liked fish, but Boxy seems to like bugs more...Yuck!$2",
+
+"Mon.Jodi":"Lyell is a veteran as well I heard, but honestly it's easy to tell too. He has that look to him...$2",
+"Wed.Jodi":"I tried some Yoho Hash at Kaia's the other day, it was so good!$1",
+"Fri.Jodi":"Draga Doughnut's are so good. You should buy some from Grady.$1",
+
+"Mon.Kent":"I recognize Lyell's accent, Arcánia is part of the Gotoro Empire...#$b#But it's one of the only places not directly influenced by it.",
+"Wed.Kent":"That Grady, he needs to realize I'm married...#$b#Such a flirt.$3",
+"Fri.Kent":"Nikolai has been helping my wife around the house...Apparently even when I was gone, I appreciate that...$1",
+
+"Mon.Leah":"I over heard Dezerie playing her violin at the beach. She's incredibly talented.$1",
+"Wed.Leah":"Do you think Maverick realizes he can be sort of...Off putting?$2#$b#I hope he does...$2",
+"Fri.Leah":"Kaia is such a mom, I love seeing her and Nikolai interact.$1",
+
+"Mon.LeoMainland":"Mister Halkias is really big, it's scary.#$b#But he act like he love birds.$1",
+"Wed.LeoMainland":"Do you think Roswell is a really big parrot?#$b#She looks different, but she acts like one.$1",
+"Fri.LeoMainland":"Nikolai played with me yesterday, it was so fun.#$b#I really like video games.$1",
+
+"Mon.Lewis":"I swear, if Grady keeps up his shenanigans. I'm pretty sure I'll start loosing more hair.$5",
+"Wed.Lewis":"Lyell is just as bad as Grady, he's impuslive and unhinged! What is wrong with this town!$5",
+"Fri.Lewis":"Dezerie is very sweet, I like it when she comes to visit but I do worry what people will think.$2",
+
+"Mon.Linus":"Whenever Lyell is near, I can feel just how connected he is with nature.#$b#As well as how old his heart really is...I really hope he's doing well.$1",
+"Wed.Linus":"Valerie sometimes brings me warm drinks, she says she makes too much but I can tell that's not the case. She's so kind.$1",
+"Fri.Linus":"I see Alan sometimes talking with animals, it's really heartwarming to see the youth interested in nature.$1",
+
+"Mon.Marnie":"I really respect Lyell's love for his animals’.#$b#He really seems to put a lot of effort into caring for them properly, makes me proud to work with the man.$1",
+"Wed.Marnie":"I over heard Maverick baby talking one of my cows, it was adorable.$1",
+"Fri.Marnie":"The cows love it when Nikolai visit's, he's always spoiling them with treats.$1",
+
+"Mon.Maru":"Grady comes by the lab sometimes, he's really wanting to get into engineering.#$b#I can respect his determination.$1",
+"Wed.Maru":"Boxy bit me really hard this morning, I just wanted to pet him.$2",
+"Fri.Maru":"Did you notice...Roswell has teeth...$2",
+
+"Mon.Pam":"Lyell makes some of the best whiskey around.$1#$b#Talk about a real heart throb.$1",
+"Wed.Pam":"That Dezerie needs to piss off, she's so judgemental.$3",
+"Fri.Pam":"Penny seems to really like that Lesla boy.#$b#He's a sweet kid but there's something weird about him.$2",
+
+"Mon.Penny":"I really wish my mom would stop it with the whiskey, she acts different when she drinks it.$2",
+"Wed.Penny":"Do you think Valerie would like to join me on a trip to Zuzu, I can't find anyone who will go with me.$2",
+"Fri.Penny":"Kaia is wonderful to be around and she's really great with the kids too.$1",
+
+"Mon.Pierre":"Grady and Lyell are gonna run me out of business...$2#$b#Their prices are too low to compete with.$3",
+"Wed.Pierre":"That dang cat, he keeps finding his way inside my store!$3",
+"Fri.Pierre":"I wonder how Boxy keeps getting inside my home...Maybe someone is letting him inside.$3",
+
+"Mon.Robin":"Do you think Maverick could use some home upgrades? His place is sure run down.$1",
+"Wed.Robin":"Kaia and I have been working on some home alterations for her.#$b#I hope we can make it safer for her.$1",
+"Fri.Robin":"I tried chomping down a Tropa tree, that wood is so hard it nearly broke my axe!$2",
+
+"Mon.Sam":"I traded some games with Nikolai, I can't wait to try them.$1",
+"Wed.Sam":"Do you think Roswell will ever warm up to me?#$b#She's always so murderous.$2",
+"Fri.Sam":"Aw man, I'm really craving Kaia's Yoho Hash right now.$1",
+
+"Mon.Sebstian":"Valerie really seems to get it, probably because her mom and my dad are sort of similar.$2",
+"Wed.Sebstian":"I should invite Alan and Nikolai to DND sometime.$1",
+"Fri.Sebstian":"",
+
+"Mon.Shane":"I don't know what Dezerie is thinking, it's annoying how she bothers me. But I can't be bothered to chase her off...$5",
+"Wed.Shane":"Sometimes Lyell looks at me and I get this feeling of being seen...#$b#I don't understand it, but it's not...awful.$2",
+"Fri.Shane":"Nikolai is such a sweet kid, he's always able to see the bright side of things.$2",
+
+"Mon.Vincent":"When do you think, Mister Halkias arm will grow back?$2#$b#My brother told me it would...$2",
+"Wed.Vincent":"Roswell is the biggest chicken in the world! I can ride her like a horse!$1",
+"Fri.Vincent":"I love Boxy, he's so silly. Always chewing on my shoe.$1",
+
+"Mon.Wizard":"Dezerie needs to allow her children to explode outside the limits of family tradition.",
+"Wed.Wizard":"Alan has great potential, he's practically a prodigy.",
+"Fri.Wizard":"Valerie toys with magic that can be highly unstable, but I can respect her desire to help the valley's lost souls move on.",
+
+"Mon.Krobus":"Zuuie is nice, I like it when she sings.",
+"Wed.Krobus":"Someone in town is older than they appear, I can remember them from the elemental war.$2",
+"Fri.Krobus":"Zuuie sometimes brings me fruit, it is sweet of her.",
+
+"Mon.Mister Qi":"Sometimes even people are more than what they appear.",
+"Wed.Mister Qi":"I see you've been talking to Lyell, such a curious man. Be careful not to mirror him.",
+"Fri.Mister Qi":"Watch yourself but watch your neighbors more intently.#$b#Some of them are guilty of things you don't realize.",
+
 //Wedding Event 
 "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite them both in the bonds of marriage.",
 "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite to unite them both in the bonds of marriage.",

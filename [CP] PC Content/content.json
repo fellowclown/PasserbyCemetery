@@ -52,7 +52,7 @@ Technical Includes
  {
 "LogName": "PC Technical Information",
 "Action": "Include",
-"FromFile": "Data/Technical/Meep.json,Data/Technical/NonFarmAnimals.json,Data/Technical/AnimalSpawns.json,Data/Technical/Tools.json,Data/Technical/Crops.json,Data/Technical/Quest.json,Data/Technical/MapPatches.json,Data/Technical/FarmAnimals.json,Data/Technical/Fish.json,Data/Technical/Loadables.json,Data/Technical/LocationalMaps.json,Data/Technical/MailTriggers.json,Data/Technical/Music.json,Data/Technical/Objects.json,Data/Technical/Shops.json,Data/Technical/Totems.json,Data/Technical/WorldEvents.json,Data/Technical/Machines.json,Data/Technical/ExtraDialogueStrings.json,Data/Technical/Marketpalooza.json,Data/Technical/Recipes.json,Data/Technical/Trees.json,Data/Technical/UniversalGiftTaste.json,Data/Technical/ModCompact.json"
+"FromFile": "Data/Technical/VanillaDialogue.json,Data/Technical/Meep.json,Data/Technical/NonFarmAnimals.json,Data/Technical/AnimalSpawns.json,Data/Technical/Tools.json,Data/Technical/Crops.json,Data/Technical/Quest.json,Data/Technical/MapPatches.json,Data/Technical/FarmAnimals.json,Data/Technical/Fish.json,Data/Technical/Loadables.json,Data/Technical/LocationalMaps.json,Data/Technical/MailTriggers.json,Data/Technical/Music.json,Data/Technical/Objects.json,Data/Technical/Shops.json,Data/Technical/Totems.json,Data/Technical/WorldEvents.json,Data/Technical/Machines.json,Data/Technical/ExtraDialogueStrings.json,Data/Technical/Marketpalooza.json,Data/Technical/Recipes.json,Data/Technical/Trees.json,Data/Technical/UniversalGiftTaste.json,Data/Technical/ModCompact.json"
  },
  /************************************************
  Character Includes
