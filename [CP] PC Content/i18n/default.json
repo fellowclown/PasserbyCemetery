@@ -2298,7 +2298,7 @@ Alan's Information ///Written By Chirps
 /************************************************
 Vanilla Editions
 ************************************************/
-"Mon.Abigail":"Nikolai brought me some honey yesterday, he really is a sweet guy.$1",
+"Mon.Abigail":"Valerie is actually really cool, she's pretty knowledgable in the occult you know.$1",
 "Wed.Abigail":"Alan's mom makes me pretty uneasy, have you met her? I'd hate to live with her.$2",
 "Fri.Abigail":"Lyell's raptors are so pretty, but they're pretty vicious.$1",
 
@@ -3514,6 +3514,7 @@ Custom Map Names
 "FC.MapName.AlansRoom": "Alan's Room",
 "FC.MapName.BoxysHouse": "Boxy's Cat House",
 "FC.FakeNpc": "the Stone Residence.",
+
 /************************************************
 Marketpalooza
 ************************************************/

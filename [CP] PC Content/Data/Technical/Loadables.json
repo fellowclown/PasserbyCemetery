@@ -66,7 +66,7 @@ Load Locational Maps
        {
 "LogName": "Load Event Maps",
 "Action":"Load",
-"Target":"Maps/{{ModId}}_WaterGrave,Maps/{{ModId}}_Void,Maps/{{ModId}}_MarnieBarn,Maps/{{ModId}}_GradyLyellReunited,Maps/{{ModID}}_Birthday,Maps/{{ModID}}_FirstDate,Maps/{{ModID}}_FirstDateStars",
+"Target":"Maps/{{ModID}}_ZehPhamVillage,Maps/{{ModId}}_WaterGrave,Maps/{{ModId}}_Void,Maps/{{ModId}}_MarnieBarn,Maps/{{ModId}}_GradyLyellReunited,Maps/{{ModID}}_Birthday,Maps/{{ModID}}_FirstDate,Maps/{{ModID}}_FirstDateStars",
 "FromFile":"Assets/Maps/Event Maps/{{TargetWithoutPath}}.tbin"
 },
 /************************************************
