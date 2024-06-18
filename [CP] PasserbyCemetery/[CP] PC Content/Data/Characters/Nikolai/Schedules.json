@@ -1,0 +1,96 @@
+{
+"Changes": [
+/************************************************
+Schedule Strings
+ ************************************************/
+{
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Nikolai",
+"Entries": {
+"Nikolai.AND.A": "{{i18n:Nikolai.AND.A}}",
+"Nikolai.AND.B": "{{i18n:Nikolai.AND.B}}",
+"Nikolai.Sleep": "{{i18n:Nikolai.Sleep}}",
+"Nikolai.GreenRain": "{{i18n:Nikolai.GreenRain}}",
+"Nikolai.DesertFestival": "{{i18n:Nikolai.DesertFestival}}",
+"Nikolai.TroutDerby": "{{i18n:Nikolai.TroutDerby}}",
+"Nikolai.SquidFest": "{{i18n:Nikolai.SquidFest}}",
+}
+},
+/************************************************
+ ANIMATIONS 
+ ************************************************/
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModID}}_Nikolai_Sleep": "34/34 34 34 35 35 35 36 36 36 35 35/35//offset 30 0",
+"{{ModID}}_Nikolai_Dishes": "22/22 22 23 23/23",
+"{{ModID}}_Nikolai_SitGround1": "25/25/25",
+"{{ModID}}_Nikolai_SitChair3": "26/26/26",
+"{{ModID}}_Nikolai_SitChair2": "27/27/27",
+"{{ModID}}_Nikolai_SitChair0": "29/29/29",
+"{{ModID}}_Nikolai_DrinkChair2": "30/30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 31 32 33 33 33 33 33 32 31/30",
+"{{ModID}}_Nikolai_EatChair2": "37/37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 38 39 40 41 42/43//offset -8 38",
+"{{ModID}}_Nikolai_StandIdle": "51/51/51",
+}
+},
+/************************************************
+ ** Schedules Default\"Strings\\schedules\\FC.Nikolai:Nikolai.Sleep\"
+ ************************************************/
+ {
+"LogName": "Nikolai's Default Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Nikolai",
+"Entries": {
+"spring": "GOTO Mon",
+"Mon": "700 Samhouse 6 5 0 {{ModID}}_Nikolai_Dishes/1200 Saloon 34 20 0/1400 Beach 54 6 2 {{ModID}}_Nikolai_DrinkChair2/1800 {{ModID}}_OldGraveYard 30 52 2 {{ModID}}_Nikolai_StandIdle/2000 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/2200 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleep\"",
+
+"Tue": "900 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/1200 {{ModID}}_BeeNursery 8 7 0/1300 {{ModID}}_BeeNursery 7 8 0/1330 {{ModID}}_BeeNursery 10 15 0/1400 {{ModID}}_BeeNursery 4 15 0/1600 Saloon 34 20 0/2200 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleep\"",
+
+"Wed": "800 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/1100 {{ModID}}_LeslaHouse 20 12 2 {{ModID}}_Nikolai_EatChair2/1300 {{ModID}}_OldGraveYard 30 52 2 {{ModID}}_Nikolai_StandIdle/1500 Town 72 11 2 {{ModID}}_Nikolai_SitChair2/1900 Beach 54 6 2 {{ModID}}_Nikolai_DrinkChair2/2130 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleep\"",
+
+"Thu": "700 Samhouse 6 5 0 {{ModID}}_Nikolai_Dishes/1000 Town 72 11 2 {{ModID}}_Nikolai_SitChair2/1300 Beach 54 6 2 {{ModID}}_Nikolai_DrinkChair2/1500 {{ModID}}_MavericksHouse 7 9 0 {{ModID}}_Nikolai_Dishes/1800 {{ModID}}_OldGraveYard 30 52 2 {{ModID}}_Nikolai_StandIdle/2200 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleep\"",
+
+"Fri": "700 Samhouse 18 14 3/1100 Beach 54 6 2 {{ModID}}_Nikolai_DrinkChair2/1400 Town 72 11 2 {{ModID}}_Nikolai_SitChair2/1600 {{ModID}}_MavericksHouse 7 9 0 {{ModID}}_Nikolai_Dishes/1900 {{ModID}}_OldGraveYard 30 52 2 {{ModID}}_Nikolai_StandIdle/2000 {{ModID}}_LeslaHouse 20 12 2 {{ModID}}_Nikolai_EatChair2/2200 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleep\"",
+
+"Sat": "1200 {{ModID}}_BeeNursery 8 7 0/1300 {{ModID}}_BeeNursery 7 8 0/1330 {{ModID}}_BeeNursery 10 15 0/1400 {{ModID}}_BeeNursery 4 15 0/1600 Saloon 34 20 0/2200 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleep\"",
+
+"Sun": "1200 Town 72 11 2 {{ModID}}_Nikolai_SitChair2/1400 Saloon 34 20 0/1600 SeedShop 30 19 3/1900 {{ModID}}_OldGraveYard 30 52 2 {{ModID}}_Nikolai_StandIdle/2000 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/2200 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleep\"",
+
+"rain": "1200 AnimalShop 7 15 3/1400 Saloon 34 20 0/1900 {{ModID}}_OldGraveYard 30 52 2 {{ModID}}_Nikolai_StandIdle/2000 {{ModID}}_LeslaHouse 20 12 2 {{ModID}}_Nikolai_EatChair2/2200 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleep\"",
+
+"marriage_Fri": "900 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/1200 {{ModID}}_BeeNursery 8 7 0/1300 {{ModID}}_BeeNursery 7 8 0/1330 {{ModID}}_BeeNursery 10 15 0/1400 {{ModID}}_BeeNursery 4 15 0/1600 Saloon 34 20 0/2200 bed {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleep\"",
+
+"GreenRain": "1000 {{ModID}}_BeeNursery 11 15 0 \"Strings\\schedules\\FC.Nikolai:Nikolai.GreenRain\"",
+"DesertFestival": "610 Desert 27 66 1 \"Strings\\schedules\\FC.Nikolai:Nikolai.DesertFestival\"",
+"TroutDerby": "1000 Forest 102 33 2 \"Strings\\schedules\\FC.Nikolai:Nikolai.TroutDerby\"",
+"SquidFest": "900 Beach 54 6 2 {{ModID}}_Nikolai_DrinkChair2 14 37 1 \"Strings\\schedules\\FC.Nikolai:Nikolai.SquidFest\"",
+}, 
+"When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+}
+},
+/************************************************
+A New Dream / Barron
+ ************************************************/
+   {
+"LogName": "Nikolai's and barron Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Nikolai",
+"Priority": "Late",
+"Entries": {
+"Tue": "900 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/1200 {{ModID}}_BeeNursery 8 7 0/1300 {{ModID}}_BeeNursery 7 8 0/1330 {{ModID}}_BeeNursery 10 15 0/1400 Fellowclown.AND_TravelingTrailer 12 11 0 \"Strings\\schedules\\FC.Nikolai:Nikolai.AND.A\"/1600 Fellowclown.AND_TravelingTrailer 12 14 2 \"Strings\\schedules\\FC.Nikolai:Nikolai.AND.B\"/2200 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleep\"",
+},
+  "When": {
+"HasMod: |contains=Fellowclown.AND": true,
+"HasSeenEvent |contains=Fellowclown.AND_BarronIntroduction": "true",
+   "Query: {{Random: {{Range: 1,10}}|key=FC.AND}} = 1": true,
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+ 
+ }
+}, 
+]
+}

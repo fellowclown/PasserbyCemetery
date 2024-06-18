@@ -1,0 +1,228 @@
+{
+"Changes": [
+/************************************************
+Dispositions 
+************************************************/
+ {
+"LogName": "Valerie Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Valerie": {
+"DisplayName":"{{i18n:FC.Valerie}}",
+"Breather": true,
+"Language":"Default",
+"Gender":"Female",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"winter",
+"Birthday":"1",
+"HomeRegion":"Town",
+"IsDarkSkinned":false,
+"CanSocialize":true,
+"CanBeRomanced":true,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":true,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland":"DAY_OF_WEEK Saturday",
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"HiddenUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":null,
+"SpouseWantsChildren":true,
+"SpouseGiftJealousy":false,
+"ItemDeliveryQuests":true,
+"IntroductionsQuest":"{{ExcludePerfection}}",
+"PerfectionScore":"{{ExcludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"28",
+"DumpsterDiveFriendshipEffect":"-1",
+"FlowerDanceCanDance":true,
+"KissSpriteIndex": 28,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+  5
+],
+"SpouseRoom": {
+"MapAsset": "{{ModID}}_ValerieSpouseRoom"
+},
+"SpousePatio":{
+"MapAsset": "{{ModID}}_ValeriePatio",
+},
+
+"SpouseFloors": [ 
+      "2",
+      "1",
+      "3",
+      "2",
+      "3",
+      "2",
+      "6",
+      "4",
+      "6",
+      "4",
+      "5",
+      "6",
+      "4",
+      "7",
+      "7",
+      "1",
+      "0",
+      "6",
+      "1",
+      "0",
+      "7"
+ ],
+"SpouseWallpapers": [],
+"FriendsAndFamily": null,
+"WinterStarGifts": [
+],
+"WinterStarParticipant": true,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_StoneHouse",
+"Tile": {
+"X": 18,
+"Y":10
+},
+"Direction": "right"
+}
+],
+"Appearance": [
+  {
+"ID": "{{ModID}}.Valerie_SwimWear",
+"IsIslandAttire": true,
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Valerie/SwimWear.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Valerie/SwimWear.png}}",
+"Precedence": -10,
+},    
+ {
+"ID": "spring",
+"Condition": "SEASON Spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Valerie/FC.Valerie_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Valerie/FC.Valerie_spring.png}}"
+},
+{
+"ID": "winter",
+"Condition": "SEASON Winter",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Valerie/FC.Valerie_winter.png}}",
+"Sprite": "{{InternalAssetKey: assets/Npcs/Characters/FC.Valerie/FC.Valerie_winter.png}}"
+},
+{
+"ID": "flowerfestival",
+"Condition": "EVENT_ID festival_spring24",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Valerie/Festivals/flower dance.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Valerie/Festivals/flower dance.png}}",
+"Precedence": -10,
+},
+{
+"ID": "spiritseve",
+"Condition": "EVENT_ID festival_fall3",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Valerie/Festivals/spirit's eve.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Valerie/Festivals/spirit's eve.png}}",
+"Precedence": -10,
+},
+],
+}
+}
+},
+ {
+"LogName": "Fake Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.FakeNpc": {
+"DisplayName":"{{i18n:FC.FakeNpc}}",
+"Breather": true,
+"Language":"Default",
+"Gender":"Female",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"winter",
+"Birthday":"1",
+"HomeRegion":"Town",
+"IsDarkSkinned":false,
+"CanSocialize":false,
+"CanBeRomanced":false,
+"CanReceiveGifts":false,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":false,
+"CanVisitIsland":false,
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"HiddenUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":null,
+"SpouseWantsChildren":false,
+"SpouseGiftJealousy":false,
+"IntroductionsQuest":false,
+"ItemDeliveryQuests":false,
+"PerfectionScore":false,
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"28",
+"DumpsterDiveFriendshipEffect":"-1",
+"FlowerDanceCanDance":false,
+"KissSpriteIndex": 28,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+  5
+],
+"SpouseRoom": {
+"MapAsset": "{{ModID}}_ValerieSpouseRoom"
+},
+"SpousePatio":{
+"MapAsset": "{{ModID}}_ValeriePatio",
+},
+
+"SpouseFloors": [ 
+    
+ ],
+"SpouseWallpapers": [],
+"FriendsAndFamily": null,
+"WinterStarGifts": [
+],
+"WinterStarParticipant": true,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_StoneHouse",
+"Tile": {
+"X": -4000,
+"Y":-4000
+},
+"Direction": "right"
+}
+],
+"Appearance": [
+  {
+"ID": "FC.FakeNpc",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.FakeNpc/FC.FakeNpc_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.FakeNpc/FC.FakeNpc_spring.png}}",
+
+},    
+],
+}
+}
+},
+]
+}

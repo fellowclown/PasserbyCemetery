@@ -1,0 +1,62 @@
+{
+    "Changes": [
+
+/************************************************
+1 Heart
+************************************************/
+ { 
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_NiksRoom",
+"Entries": {
+"{{ModID}}_KaiaMoms/t 1000 1500/f FC.Kaia 250/e {{ModID}}_KaiaExplains": "CloudCountry/-1000 -1000/FC.Kaia 10 12 3 FC.Nikolai 8 12 1 farmer 14 14 3/viewport 10 12 clamp true/skippable/addConversationTopic FC.KaiaMoms 7/emote FC.Kaia 12/speak FC.Kaia \"{{i18n:KaiaMoms.00}}\"/pause 400/textabovehead FC.Nikolai \"{{i18n:KaiaMoms.01}}\"/pause 500/speak FC.Nikolai \"{{i18n:KaiaMoms.02}}\"/pause 300/speak FC.Kaia \"{{i18n:KaiaMoms.03}}\"/advancedMove farmer false -5 0 4 10 0 0 4 10/pause 200/emote farmer 8/pause 300/faceDirection FC.Kaia 2/faceDirection FC.Nikolai 2/emote FC.Nikolai 12/pause 300/speak FC.Nikolai \"{{i18n:KaiaMoms.04}}\"/pause 300/speak FC.Kaia \"{{i18n:KaiaMoms.05}}\"/pause 300/faceDirection FC.Kaia 3/pause 1000/quickQuestion {{i18n:KaiaMoms.06}}(break)speak FC.Kaia \"{{i18n:KaiaMoms.07}}\"\\friendship FC.Kaia -10(break)speak FC.Kaia \"{{i18n:KaiaMoms.08}}\"/friendship FC.Kaia 10/pause 300/speak FC.Nikolai \"{{i18n:KaiaMoms.09}}\"/pause 200/emote FC.Kaia 40/pause 300/speak FC.Kaia \"{{i18n:KaiaMoms.10}}\"/pause 300/viewport move -1 0 6000000/globalFade/viewport -1000 -1000/addConversationTopic FC.KaiaMoms 13/end",
+}, 
+},
+/************************************************
+2 Hearts
+************************************************/
+ { 
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_OldGraveYard",
+"Entries": {
+"{{ModID}}_KaiasPurpose/t 1900 2300/f FC.Kaia 500/e {{ModID}}_KaiaMoms": "junimoKart_whaleMusic/-1000 -1000/FC.Kaia 32 52 2 farmer 23 52 2/viewport 31 52 clamp true/skippable/addConversationTopic FC.KaiasPurpose 7/showFrame FC.Kaia 24/positionOffset FC.Kaia 0 40/move farmer 7 0 2/pause 200/textabovehead FC.Kaia \"{{i18n:KaiasPurpose.00}}\"/pause 2000/faceDirection farmer 1/emote farmer 32/pause 500/speak FC.Kaia \"{{i18n:KaiasPurpose.01}}\"/pause 500/textabovehead FC.Kaia \"{{i18n:KaiasPurpose.02}}\"/pause 400/speak FC.Kaia \"{{i18n:KaiasPurpose.03}}\"/pause 200/speak FC.Kaia \"{{i18n:KaiasPurpose.04}}\"/pause 300/speak FC.Kaia \"{{i18n:KaiasPurpose.05}}\"/pause 300/quickQuestion {{i18n:KaiasPurpose.06}}(break)speak FC.Kaia \"{{i18n:KaiasPurpose.07}}\"\\friendship FC.Kaia -5(break)speak FC.Kaia \"{{i18n:KaiasPurpose.08}}\"//friendship FC.Kaia 5/shake FC.Kaia 1000/emote FC.Kaia 60/pause 300/viewport move -1 0 6000000/globalFade/viewport -1000 -1000/message \"{{i18n:KaiasPurpose.09}}\"/addConversationTopic FC.KaiasPurpose 13/end",
+}, 
+},
+/************************************************
+3 Hearts
+************************************************/
+ { 
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_LeslaHouse",
+"Entries": {
+"{{ModID}}_KaiasDate/t 1300 2300/f FC.Kaia 750/e {{ModID}}_KaiaMoms": "CloudCountry/-1000 -1000/FC.Kaia 8 11 2 farmer 21 14 2 FC.Nikolai -3000 -3000 2/changePortrait FC.Kaia FC.DateNight/changeSprite FC.Kaia FC.DateNight/viewport 14 11 clamp true/skippable/addConversationTopic FC.KaiasDate 7/pause 300/advancedMove farmer false 0 -3 3 10 -3 0 4 800 0 -1 3 10 -4 0 2 4000 0 4 3 10 -5 0 4 10 0 -2 3 10/faceDirection FC.Kaia 3/move FC.Kaia -1 0 0/pause 3000/move FC.Kaia 1 0 2/pause 2000/emote FC.Kaia 40/pause 3000/speak FC.Kaia \"Who's there?\"/pause 3000/emote farmer 40/speak FC.Kaia \"Oh it’s you, @. Did Nikolai let you in? He’s looking for my bracelet.#$b#He gave it to me for my birthday but I don’t remember where I stored it.$2\"/pause 1000/quickQuestion #You look nice!#You look nervous.(break)speak FC.Kaia \"You think so? Thank you. I’m not feeling confident, it’s been a long time.\"\\friendship FC.Kaia 5(break)speak FC.Kaia \"Oh you can tell, can you? Yeah, I’m not feeling too confident...\"//friendship FC.Kaia -5/pause 300/speak FC.Kaia \"My friend from east of town set me up on a date with someone she knows from Zuzu City.$1#$b#I do like the idea of expanding my social circle but I feel like a fish out of water. It’s been so long since I thought about dating.$2\"/pause 1000/quickQuestion #It’s good to try new things!#You don’t have to force yourself to do things you’re uncomfortable with.(break)speak FC.Kaia \"Maybe you’re right...Hey even if it doesn’t go well at least I’ll know I can do it!$1\"\\friendship FC.Kaia 2(break)speak FC.Kaia \"Maybe you’re right...But I think it’ll be good for me to try, just to show myself that I can!$1\"//friendship FC.Kaia 2/pause 300/speak FC.Kaia \"Thanks @, I feel a little better after talking through it.$1\"/pause 200/warp FC.Nikolai 18 9/pause 1000/speed FC.Nikolai 3/advancedMove FC.Nikolai false 0 1 3 10 -4 0 2 10 0 4 3 10 -6 0 4 10 0 -2 4 1800 0 0 1 10/speak FC.Nikolai \"Ma I found it! Now you can take a little bit of me as your good luck charm.$1\"/pause 800/emote FC.Kaia 20/pause 300/speak FC.Nikolai \"Oh hi @! I didn’t hear you come in.\"/pause 300/faceDirection FC.Nikolai 1/emote FC.Kaia 16/pause 300/speak FC.Kaia \"@! What have I told you about walking into our house uninvited!?$3\"/pause 300/faceDirection farmer 2/animate farmer false true 200 102 103/pause 300/viewport move -1 0 6000000/globalFade/viewport -1000 -1000/addConversationTopic FC.KaiasDate 13/end",
+}, 
+},
+/************************************************
+4 Hearts
+************************************************/
+
+/************************************************
+5 Hearts
+************************************************/
+
+/************************************************
+6 Hearts
+************************************************/
+
+/************************************************
+7 Hearts
+************************************************/
+
+/************************************************
+8 Hearts
+************************************************/
+
+/************************************************
+9 Hearts
+************************************************/
+
+/************************************************
+10 Hearts
+************************************************/
+    ]
+}

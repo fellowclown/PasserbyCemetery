@@ -1,0 +1,67 @@
+{
+"Changes": [
+
+/************************************************
+ ANIMATIONS 
+ ************************************************/
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModID}}_Valerie_Sleep": "29/29/29//offset 30 0",
+"{{ModID}}_ValerieDrinkSit2": "16/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 18 18 18 17 17/16//offset 0 30",
+"{{ModID}}_ValerieReadSit2": "19/19 19 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20/19//offset 0 30",
+"{{ModID}}_ValerieCastMagic3": "30/30 30 31 31 31 31 31 31 31 32 32 32 32 32 31 31 31 31/31",
+}
+},
+{
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Valerie",
+"Entries": {
+"Valerie.CastMagic": "{{i18n:Valerie.CastMagic}}",
+"Valerie.GreenRain": "{{i18n:Valerie.GreenRain}}",
+"Valerie.DesertFestival": "{{i18n:Valerie.DesertFestival}}",
+"Valerie.TroutDerby": "{{i18n:Valerie.TroutDerby}}",
+"Valerie.SquidFest": "{{i18n:Valerie.SquidFest}}",
+"Valerie.Sleeping": "{{i18n:Valerie.Sleeping}}",
+}
+},
+/************************************************
+ ** Schedules Default
+ ************************************************/
+ {
+"LogName": "Valerie's Default Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Valerie",
+"Entries": {
+"spring": "GOTO Mon",
+"Mon": "930 {{ModID}}_StoneHouse 11 11 3/1000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_ValerieDrinkSit2/1200 {{ModID}}_StoneHouse 14 22 3 {{ModID}}_ValerieCastMagic3 \"Strings\\schedules\\FC.Valerie:Valerie.CastMagic\"/1400 Town 48 88 3/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_ValerieReadSit2/2300 {{ModID}}_StoneHouse 18 10 2 {{ModID}}_Valerie_Sleep \"Strings\\schedules\\FC.Valerie:Valerie.Sleeping\"",
+
+"Tue": "1000 {{ModID}}_OldGraveYard 29 79 3/1200 Beach 10 37 3/2000 {{ModID}}_StoneHouse 14 22 3 {{ModID}}_ValerieCastMagic3 \"Strings\\schedules\\FC.Valerie:Valerie.CastMagic\"/2300 {{ModID}}_StoneHouse 18 10 2 {{ModID}}_Valerie_Sleep \"Strings\\schedules\\FC.Valerie:Valerie.Sleeping\"",
+
+"Wed": "900 Forest 21 30 1/1200 Forest 21 29 1/1600 Saloon 42 17 2 {{ModID}}_ValerieDrinkSit2/2000 {{ModID}}_StoneHouse 18 10 2 {{ModID}}_Valerie_Sleep \"Strings\\schedules\\FC.Valerie:Valerie.Sleeping\"",
+
+"Thu": "1200 {{ModID}}_StoneHouse 11 11 3/1400 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_ValerieDrinkSit2/1800 {{ModID}}_OldGraveYard 29 79 3/2000 {{ModID}}_StoneHouse 14 22 3 {{ModID}}_ValerieCastMagic3 \"Strings\\schedules\\FC.Valerie:Valerie.CastMagic\"/2300 {{ModID}}_StoneHouse 18 10 2 {{ModID}}_Valerie_Sleep \"Strings\\schedules\\FC.Valerie:Valerie.Sleeping\"",
+
+"Fri": "1100 Saloon 42 17 2 {{ModID}}_ValerieDrinkSit2/1500 Beach 10 37 3/1900 {{ModID}}_StoneHouse 14 22 3 {{ModID}}_ValerieCastMagic3 \"Strings\\schedules\\FC.Valerie:Valerie.CastMagic\"/2300 {{ModID}}_StoneHouse 18 10 2 {{ModID}}_Valerie_Sleep \"Strings\\schedules\\FC.Valerie:Valerie.Sleeping\"",
+
+"Sat": "1100 Saloon 42 17 2 {{ModID}}_ValerieDrinkSit2/1500 Beach 10 37 3/1900 {{ModID}}_StoneHouse 14 22 3 {{ModID}}_ValerieCastMagic3 \"Strings\\schedules\\FC.Valerie:Valerie.CastMagic\"/2300 {{ModID}}_StoneHouse 18 10 2 {{ModID}}_Valerie_Sleep \"Strings\\schedules\\FC.Valerie:Valerie.Sleeping\"",
+
+"Sun": "900 {{ModID}}_StoneHouse 11 11 3/1000 {{ModID}}_OldGraveYard 29 79 3/1600 Forest 21 29 1/1900 Saloon 42 17 2 {{ModID}}_ValerieDrinkSit2/2000 {{ModID}}_StoneHouse 18 10 2 {{ModID}}_Valerie_Sleep \"Strings\\schedules\\FC.Valerie:Valerie.Sleeping\"",
+
+"rain": "930 {{ModID}}_StoneHouse 11 11 3/1000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_ValerieDrinkSit2/1200 {{ModID}}_StoneHouse 14 22 3 {{ModID}}_ValerieCastMagic3 \"Strings\\schedules\\FC.Valerie:Valerie.CastMagic\"/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_ValerieReadSit2/2300 {{ModID}}_StoneHouse 18 10 2 {{ModID}}_Valerie_Sleep \"Strings\\schedules\\FC.Valerie:Valerie.Sleeping\"",
+
+"GreenRain": "930 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_ValerieDrinkSit2 \"Strings\\schedules\\FC.Valerie:Valerie.GreenRain\"/1000 {{ModID}}_StoneHouse 11 11 3/1200 {{ModID}}_StoneHouse 14 22 3 {{ModID}}_ValerieCastMagic3 \"Strings\\schedules\\FC.Valerie:Valerie.CastMagic\"/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_ValerieReadSit2/2300 {{ModID}}_StoneHouse 18 10 2 {{ModID}}_Valerie_Sleep \"Strings\\schedules\\FC.Valerie:Valerie.Sleeping\"",
+"DesertFestival": "1000 {{ModID}}_StoneHouse 11 11 3/12 Desert 20 54 2 \"Strings\\schedules\\FC.Valerie:Valerie.DesertFestival\"/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_ValerieReadSit2/2300 {{ModID}}_StoneHouse 18 10 2 {{ModID}}_Valerie_Sleep \"Strings\\schedules\\FC.Valerie:Valerie.Sleeping\"",
+"TroutDerby": "930 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_ValerieDrinkSit2/1000 {{ModID}}_StoneHouse 11 11 3/1200 Forest 75 60 3 \"Strings\\schedules\\FC.Valerie:Valerie.TroutDerby\"/2000 {{ModID}}_StoneHouse 18 10 2 {{ModID}}_Valerie_Sleep \"Strings\\schedules\\FC.Valerie:Valerie.Sleeping\"",
+"SquidFest": "930 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_ValerieDrinkSit2/1600 Beach 56 8 1 \"Strings\\schedules\\FC.Valerie:Valerie.SquidFest\"/2000 {{ModID}}_StoneHouse 18 10 2 {{ModID}}_Valerie_Sleep \"Strings\\schedules\\FC.Valerie:Valerie.Sleeping\"",
+"Marriage_Tue": "930 {{ModID}}_StoneHouse 11 11 3/1000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_ValerieDrinkSit2/1200 {{ModID}}_StoneHouse 14 22 3 {{ModID}}_ValerieCastMagic3 \"Strings\\schedules\\FC.Valerie:Valerie.CastMagic\"/1400 Town 48 88 3/2000 Bed",
+}, 
+"When": {
+ "HasFlag|contains=landslideDone": true,
+ "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
+}
+},
+]
+}

@@ -1,0 +1,132 @@
+{
+"Changes": [
+
+  /************************************************
+ **  Dialogues
+ ************************************************/ 
+{
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/FC.Grady",
+  "Entries": {
+// Special Keys
+"Introduction": "{{i18n:Introduction.Grady}}",
+// RESORT
+"Resort_Entering": "{{i18n:Resort_Entering.Grady}}",
+"Resort_Leaving": "{{i18n:Resort_Leaving.Grady}}",
+"Resort_Shore": "{{i18n:Resort_Shore.Grady}}",
+"Resort_Umbrella": "{{i18n:Resort_Umbrella.Grady}}",
+"Resort_Wander": "{{i18n:Resort_Wander.Grady}}",
+"Resort_Bar": "{{i18n:Resort_Bar.Grady.}}",
+"Resort": "{{i18n:Resort.Grady}}",
+"Saloon_FC.Grady_RareGreeting": "Saloon_Grady_RareGreeting.Grady",
+"AcceptBirthdayGift_Loved": "{{i18n:AcceptBirthdayGift_Loved.Grady}}",
+"AcceptBirthdayGift_Liked": "{{i18n:AcceptBirthdayGift_Liked.Grady}}",
+"AcceptBirthdayGift_Disliked": "{{i18n:AcceptBirthdayGift_Disliked.Grady}}",
+"AcceptBirthdayGift_Hated": "{{i18n:AcceptBirthdayGift_Hated.Grady}}",
+"AcceptBirthdayGift_Neutral": "{{i18n:AcceptBirthdayGift_Neutral.Grady}}",
+"Fair_Judging": "{{i18n:Fair_Judging.Grady}}",
+"Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Fair_Judged_PlayerLost_PurpleShorts.Grady}}",
+"Fair_Judged_PlayerLost_Skipped": "{{i18n:Fair_Judged_PlayerLost_Skipped.Grady}}",
+"Fair_Judged_PlayerLost": "{{i18n:Fair_Judged_PlayerLost.Grady}}",
+"Fair_Judged_PlayerWon": "{{i18n:Fair_Judged_PlayerWon.Grady}}",
+"Fair_Judged": "{{i18n:Fair_Judged.Grady}}",
+"WinterStar_GiveGift_Before": "{{i18n:WinterStar_GiveGift_Before.Grady}}",
+"WinterStar_GiveGift_After": "{{i18n:WinterStar_GiveGift_After.Grady}}",
+"WinterStar_ReceiveGift": "{{i18n:WinterStar_ReceiveGift.Grady}}",
+"HitBySlingshot": "{{i18n:HitBySlingshot.Grady}}",
+"DumpsterDiveComment": "{{i18n:DumpsterDiveComment.Grady}}",
+"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:RejectMovieTicket_AlreadyInvitedBySomeoneElse.Grady}}",
+"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek.Grady}}",
+"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie.Grady}}",
+"MovieInvitation": "{{i18n:MovieInvitation.Grady}}",
+"cc_Complete": "{{i18n:cc_Complete.Grady}}",
+"cc_Boulder": "{{i18n:cc_Boulder.Grady}}",
+"cc_Bridge": "{{i18n:cc_Bridge.Grady}}",
+"cc_Bus": "{{i18n:cc_Bus.Grady}}",
+"cc_Greenhouse": "{{i18n:cc_Greenhouse.Grady}}",
+"cc_Minecart": "{{i18n:cc_Minecart.Grady}}",
+"joja_Begin": "{{i18n:joja_Begin.Grady}}",
+"movieTheater": "{{i18n:movieTheater.Grady}}",
+"dumped_Guys": "{{i18n:dumped_Guys.Grady}}",
+"secondChance_Guys": "{{i18n:secondChance_Guys.Grady}}",
+"dumped_Girls": "{{i18n:dumped_Girls.Grady}}",
+"secondChance_Girls": "{{i18n:secondChance_Girls.Grady}}",
+"pamHouseUpgrade": "{{i18n:pamHouseUpgrade.Grady}}",
+"pamHouseUpgradeAnonymous": "{{i18n:pamHouseUpgradeAnonymous.Grady}}",
+"GreenRainFinished": "{{i18n:GreenRainFinished.Grady}}",
+"GreenRain": "{{i18n:GreenRain.Grady}}",
+"GreenRain_2": "{{i18n:GreenRain_2.Grady}}",
+
+  }
+},
+
+
+       {
+            "LogName": "Dialogue - 0-4",
+            "Action": "EditData",
+  "Target": "Characters/Dialogue/FC.Grady",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Grady.LowHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Grady.LowHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Grady.LowHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Grady.LowHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Grady.LowHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Grady.LowHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Grady.LowHeart.{{season}}}}",
+"Saloon": "{{i18n:Saloon.Grady.LowHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Grady": "{{Range: 0, 4}}" 
+}
+},
+  {
+            "LogName": "Dialogue - 5-8",
+            "Action": "EditData",
+  "Target": "Characters/Dialogue/FC.Grady",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Grady.MidHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Grady.MidHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Grady.MidHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Grady.MidHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Grady.MidHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Grady.MidHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Grady.MidHeart.{{season}}}}",
+"Resort": "{{i18n:Resort.Grady.MidHeart}}",
+"Saloon": "{{i18n:Saloon.Grady.MidHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Grady": "{{Range: 5, 10}}" 
+}
+},
+  {
+"LogName": "Festival dialogue",
+"Action": "EditData",
+"Target": "Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/winter8,Data/Festivals/winter25",
+"Entries": {
+// show the first translation found from 'spring13.dating', 'spring13', or 'festival-default'
+"FC.Grady{{YearCheck}}": "{{i18n:Grady.{{TargetWithoutPath}}.{{Relationship:FC.Grady}} |default={{i18n:Grady.{{TargetWithoutPath}} |default={{i18n:Grady.festival-default}} }} }}",
+} 
+ },
+ {
+"LogName": "Incoming Calls",
+"Action": "EditData",
+"Target": "Data/IncomingPhoneCalls",
+"Entries": {
+  "{{ModID}}_PhoneGrady": {
+"TriggerCondition": null,
+"RingCondition": null,
+"FromNpc": "FC.Grady",
+"FromPortrait": null,
+"FromDisplayName": null,
+"Dialogue": "{{i18n:Grady.PhoneCall.{{Random:1,2}}}}",
+"IgnoreBaseChance": false,
+"SimpleDialogueSplitBy": null,
+"MaxCalls": 100,
+"CustomFields": {}
+  }
+}
+},
+]
+}

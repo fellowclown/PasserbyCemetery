@@ -1,0 +1,85 @@
+{
+"Changes": [
+  /************************************************
+ **  Dialogues
+ ************************************************/ 
+ {
+  "LogName": "Special Dialogue",
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/FC.Roswell",
+  "Entries": {
+"Introduction": "{{i18n:Introduction.Roswell}}",
+"reject_809":"{{i18n:reject_809.Roswell}}",
+"FlowerDance_Accept": "{{i18n:FlowerDance_Accept.Roswell}}",
+"FlowerDance_Decline": "{{i18n:FlowerDance_Decline.Roswell}}",
+"AcceptBirthdayGift_Loved": "{{i18n:AcceptBirthdayGift_Loved.Roswell}}",
+"AcceptBirthdayGift_Liked": "{{i18n:AcceptBirthdayGift_Liked.Roswell}}",
+"AcceptBirthdayGift_Disliked": "{{i18n:AcceptBirthdayGift_Disliked.Roswell}}",
+"AcceptBirthdayGift_Hated": "{{i18n:AcceptBirthdayGift_Hated.Roswell}}",
+"AcceptBirthdayGift_Neutral": "{{i18n:AcceptBirthdayGift_Neutral.Roswell}}",
+"AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Roswell}}",
+"HitBySlingshot": "{{i18n:HitBySlingshot.Roswell}}",
+"Resort_Entering": "{{i18n:Resort_Entering.Roswell}}",
+"Resort_Leaving": "{{i18n:Resort_Leaving.Roswell}}",
+"Resort_Shore": "{{i18n:Resort_Shore.Roswell}}",
+"Resort_Umbrella": "{{i18n:Resort_Umbrella.Roswell}}",
+"Resort_Wander": "{{i18n:Resort_Wander.Roswell}}",
+"Resort_Bar": "{{i18n:Resort_Bar.Roswell}}",
+"Resort": "{{i18n:Resort.Roswell}}",
+"GreenRainFinished": "{{i18n:GreenRainFinished.Roswell}}",
+"GreenRain": "{{i18n:GreenRain.Roswell}}",
+"GreenRain_2": "{{i18n:GreenRain_2.Roswell}}",
+  }
+},
+
+       {
+            "LogName": "Dialogue - 0-4",
+            "Action": "EditData",
+  "Target": "Characters/Dialogue/FC.Roswell",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Roswell.LowHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Roswell.LowHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Roswell.LowHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Roswell.LowHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Roswell.LowHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Roswell.LowHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Roswell.LowHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Roswell": "{{Range: 0, 4}}" 
+}
+},
+  {
+            "LogName": "Dialogue - 5-10",
+            "Action": "EditData",
+  "Target": "Characters/Dialogue/FC.Roswell",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Roswell.MidHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Roswell.MidHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Roswell.MidHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Roswell.MidHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Roswell.MidHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Roswell.MidHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Roswell.MidHeart.{{season}}}}",
+
+},
+"When": {
+"Hearts:FC.Roswell": "{{Range: 5, 10}}" 
+}
+},
+  /************************************************
+ ** Dialogues
+ ************************************************/
+  {
+"LogName": "Festival dialogue",
+"Action": "EditData",
+"Target": "Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/winter8,Data/Festivals/winter25",
+"Entries": {
+// show the first translation found from 'spring13.dating', 'spring13', or 'festival-default'
+"FC.Roswell{{YearCheck}}": "{{i18n:Roswell.{{TargetWithoutPath}}.{{Relationship:FC.Roswell}} |default={{i18n:Roswell.{{TargetWithoutPath}} |default={{i18n:Roswell.festival-default}} }} }}",
+} 
+ },
+]
+}

@@ -1,0 +1,123 @@
+{
+"Changes": [
+
+/************************************************
+ ANIMATIONS 
+ ************************************************/
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModID}}_Dezerie_Sleep": "21/21/21//offset -30 0",
+"{{ModID}}_DezerieSit2": "22/22/22",
+"{{ModID}}_DezerieSit3": "23/23/23",
+"{{ModID}}_DezerieCastMagic": "24/24 24 25 25 25 26 26 26 27 27/27",
+"{{ModID}}_DezerieRelax": "29/29 29 29 29 30 30 30 30 30 31 31 31 31 31 31 30 30 30 30 30/30",
+"{{ModID}}_DezerieWait": "34/34 34 34 34 33 33 33 33/33",
+}
+},
+{
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Dezerie",
+"Entries": {
+"Dezerie.CastMagic": "{{i18n:Dezerie.CastMagic}}",
+"Dezerie.GreenRain": "{{i18n:Dezerie.GreenRain}}",
+"Dezerie.DesertFestival": "{{i18n:Dezerie.DesertFestival}}",
+"Dezerie.TroutDerby": "{{i18n:Dezerie.TroutDerby}}",
+"Dezerie.SquidFest": "{{i18n:Dezerie.SquidFest}}",
+"Dezerie.Sleeping": "{{i18n:Dezerie.Sleeping}}",
+}
+},
+/************************************************
+ ** Schedules Default
+ ************************************************/
+ {
+"LogName": "Dezerie's Default Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Dezerie",
+"Entries": {
+"spring": "GOTO Mon",
+"Mon": "610 {{ModID}}_OldGraveYard 15 63 3 {{ModID}}_DezerieWait/720 {{ModID}}_OldGraveYard 42 71 3/940 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1200 Mountain 75 15 2/1300 {{ModID}}_OldGraveYard 19 48 3/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"Tue": "610 ManorHouse 7 5 1/1000 Town 65 87 3/1020 Town 61 88 0/1100 Town 69 92 2 {{ModID}}_DezerieSit2/1500 {{ModID}}_OldGraveYard 19 48 3/1600 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"Wed": "610 {{ModID}}_OldGraveYard 15 63 3 {{ModID}}_DezerieWait/1000 Forest 21 28 1/1200 Forest 35 25 2/1600 {{ModID}}_OldGraveYard 19 48 3/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"Thu": "610 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/900 Mountain 84 9 1/1200 {{ModID}}_OldGraveYard 45 61 1/1600 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"Fri": "610 ManorHouse 7 5 1/1000 Town 65 86 3/1020 Town 61 88 0/1400 Forest 21 28 1/1600 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"Sat": "1000 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1300 Forest 21 28 1/1600 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"Sun": "900 {{ModID}}_OldGraveYard 19 48 3/1100 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1300 Mountain 84 9 1/1500 {{ModID}}_OldGraveYard 19 48 3/1600 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"rain": "900 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1200 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_DezerieSit2/1600 {{ModID}}_OldGraveYard 37 65 2 {{ModID}}_DezerieRelax/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"GreenRain": "900 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1200 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_DezerieSit2/1600 {{ModID}}_OldGraveYard 37 65 2 {{ModID}}_DezerieRelax \"Strings\\schedules\\FC.Dezerie:Dezerie.GreenRain\"/1600 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+"DesertFestival": "900 {{ModID}}_OldGraveYard 37 65 2 {{ModID}}_DezerieRelax/1300 Desert 2 33 1 \"Strings\\schedules\\FC.Dezerie:Dezerie.DesertFestival\"/1600 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+"TroutDerby": "900 Forest 35 25 2 \"Strings\\schedules\\FC.Dezerie:Dezerie.TroutDerby\"/1400 Forest 21 28 1/1600 {{ModID}}_OldGraveYard 19 48 3/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+"SquidFest": "900 Forest 35 25 2/1300 Beach 42 5 2 \"Strings\\schedules\\FC.Dezerie:Dezerie.SquidFest\"/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+}, 
+"When": {
+ "HasFlag|contains=landslideDone": true,
+    "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
+   "HasSeenEvent |contains={{ModID}}_SummoningRett": false,
+}
+},
+ {
+"LogName": "Dezerie's Default Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Dezerie",
+"Entries": {
+"Mon": "610 {{ModID}}_StoneHouse -3000 -3000 2",
+"Tue": "610 {{ModID}}_StoneHouse -3000 -3000 2",
+"Wed": "610 {{ModID}}_StoneHouse -3000 -3000 2",
+"Thu": "610 {{ModID}}_StoneHouse -3000 -3000 2",
+"Fri":"610 {{ModID}}_StoneHouse -3000 -3000 2",
+"Sat": "610 {{ModID}}_StoneHouse -3000 -3000 2",
+"Sun": "610 {{ModID}}_StoneHouse -3000 -3000 2",
+"rain": "610 {{ModID}}_StoneHouse -3000 -3000 2",
+"GreenRain": "610 {{ModID}}_StoneHouse -3000 -3000 2",
+"DesertFestival": "610 {{ModID}}_StoneHouse -3000 -3000 2",
+"TroutDerby": "610 {{ModID}}_StoneHouse -3000 -3000 2",
+"SquidFest": "610 {{ModID}}_StoneHouse -3000 -3000 2",
+}, 
+"When": {
+   "HasSeenEvent |contains={{ModID}}_SummoningRett": true,
+   "HasSeenEvent |contains={{ModID}}_ConfessionsOfMother": false,
+}
+},
+ {
+"LogName": "Dezerie's Default Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Dezerie",
+"Entries": {
+"spring": "GOTO Mon",
+"Mon": "610 {{ModID}}_OldGraveYard 15 63 3 {{ModID}}_DezerieWait/720 {{ModID}}_OldGraveYard 42 71 3/940 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1200 Mountain 75 15 2/1300 {{ModID}}_OldGraveYard 19 48 3/1600 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"Tue": "610 ManorHouse 7 5 1/1000 Town 65 86 3/1020 Town 61 88 0/1100 Town 69 91 2 {{ModID}}_DezerieSit2/1500 {{ModID}}_OldGraveYard 19 48 3/1600 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"Wed": "830 {{ModID}}_OldGraveYard 15 63 3 {{ModID}}_DezerieWait/910 Forest 21 28 1/1200 Forest 35 25 2/1600 {{ModID}}_OldGraveYard 19 48 3/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"Thu": "610 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/900 Mountain 84 9 1/1200 {{ModID}}_OldGraveYard 45 61 1/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"Fri": "610 ManorHouse 7 5 1/1000 Town 65 86 3/1020 Town 61 88 0/1400 Forest 21 28 1/1600 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"Sat": "1000 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1600 Forest 21 28 1/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"Sun": "900 {{ModID}}_OldGraveYard 19 48 3/1100 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1300 Mountain 84 9 1/1500 {{ModID}}_OldGraveYard 19 48 3/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"rain": "900 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1200 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_DezerieSit2/1600 {{ModID}}_OldGraveYard 37 65 2 {{ModID}}_DezerieRelax/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
+"GreenRain": "900 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1200 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_DezerieSit2/1600 {{ModID}}_OldGraveYard 37 65 2 {{ModID}}_DezerieRelax \"Strings\\schedules\\FC.Dezerie:Dezerie.GreenRain\"/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+"DesertFestival": "900 {{ModID}}_OldGraveYard 37 65 2 {{ModID}}_DezerieRelax/1300 Desert 2 33 1 \"Strings\\schedules\\FC.Dezerie:Dezerie.DesertFestival\"/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+"TroutDerby": "900 Forest 35 25 2 \"Strings\\schedules\\FC.Dezerie:Dezerie.TroutDerby\"/910 Forest 21 28 1/1200 Forest 35 25 2/1600 {{ModID}}_OldGraveYard 19 48 3/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+"SquidFest": "900 Forest 35 25 2/1300 Beach 42 5 2 \"Strings\\schedules\\FC.Dezerie:Dezerie.SquidFest\"/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+}, 
+"When": {
+"HasSeenEvent |contains={{ModID}}_ConfessionsOfMother": true,
+}
+},
+]
+}

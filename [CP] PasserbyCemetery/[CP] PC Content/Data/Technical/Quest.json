@@ -1,0 +1,25 @@
+{
+"Changes": [
+	{
+"LogName":"Quests",
+"Action":"EditData",
+"Target":"Data/Quests",
+"Entries":{
+"{{ModID}}_FindGemYes.Quest":"ItemDelivery/{{i18n:FC.FindGemYes.Quest.Title}}/{{i18n:FC.FindGemYes.Quest.Desc}}./{{i18n:FC.FindGemYes.Quest.Obj}}/FC.Maverick {{ModID}}_StatueGem 1/-1/150/-1/true/{{i18n:FC.FindGemYes.Quest.Reaction}}",
+"{{ModID}}_LostJournal.Quest": "LostItem/{{i18n:FC.LostJournal.Quest.Title}}/{{i18n:FC.LostJournal.Quest.Desc}}/{{i18n:FC.LostJournal.Quest.Obj}}/FC.Lyell {{ModID}}_LostJournal Fellowclown.PC_OldGraveYard {{Random:13 32,32 20,12 3}}/-1/500/-1/true/{{i18n:FC.LostJournal.Quest.Reaction}}",
+"{{ModID}}_StoneRelic.Quest": "LostItem/{{i18n:FC.StoneRelic.Quest.Title}}/{{i18n:FC.StoneRelic.Quest.Desc}}/{{i18n:FC.StoneRelic.Quest.Obj}}/FC.Lyell {{ModID}}_StoneRelic Mountain {{Random:18 32,32 20,92 26,80 32}}/-1/780/-1/true/{{i18n:FC.StoneRelic.Quest.Reaction}}",
+"{{ModID}}_LostPipe.Quest": "LostItem/{{i18n:FC.LostPipe.Quest.Title}}/{{i18n:FC.LostPipe.Quest.Desc}}/{{i18n:FC.LostPipe.Quest.Obj}}/FC.Grady {{ModID}}_LostPipe ManorHouse 5 5/-1/780/-1/true/{{i18n:FC.LostPipe.Quest.Reaction}}",
+"{{ModID}}_ChocoFruit.Quest":"ItemDelivery/{{i18n:FC.ChocoFruit.Quest.Title}}/{{i18n:FC.ChocoFruit.Quest.Desc}}./{{i18n:FC.ChocoFruit.Quest.Obj}}/FC.Nikolai {{ModID}}_ChocoFruit 1/-1/150/-1/true/{{i18n:FC.ChocoFruit.Quest.Reaction}}",
+"{{ModID}}_YohoFruit.Quest":"ItemDelivery/{{i18n:FC.YohoFruit.Quest.Title}}/{{i18n:FC.YohoFruit.Quest.Desc}}./{{i18n:FC.YohoFruit.Quest.Obj}}/FC.Kaia {{ModID}}_YohoFruit 2/-1/100/-1/true/{{i18n:FC.YohoFruit.Quest.Reaction}}",
+"{{ModID}}_ButtonFruit.Quest":"ItemDelivery/{{i18n:FC.ButtonFruit.Quest.Title}}/{{i18n:FC.ButtonFruit.Quest.Desc}}./{{i18n:FC.ButtonFruit.Quest.Obj}}/FC.Kaia {{ModID}}_ButtonFruit 2/-1/350/-1/true/{{i18n:FC.ButtonFruit.Quest.Reaction}}",
+"{{ModID}}_Cloth.Quest":"ItemDelivery/{{i18n:FC.Cloth.Quest.Title}}/{{i18n:FC.Cloth.Quest.Desc}}/{{i18n:FC.Cloth.Quest.Obj}}/FC.Nikolai 428 4/-1/500/-1/true/{{i18n:FC.Cloth.Quest.Reaction}}",
+"{{ModID}}_WalkMan.Quest":"LostItem/{{i18n:FC.WalkMan.Quest.Title}}/{{i18n:FC.WalkMan.Quest.Desc}}/{{i18n:FC.WalkMan.Quest.Obj}}/FC.Nikolai {{ModID}}_WalkMan {{ModID}}_OldGraveYard {{Random:19 46,34 65,32 41,8 12}}/-1/1500/-1/true/{{i18n:FC.WalkMan.Reaction}}",
+"{{ModID}}_Solar.Quest": "ItemDelivery/{{i18n:FC.Solar.Quest.Title}}/{{i18n:FC.Solar.Quest.Desc}}/{{i18n:FC.Solar.Quest.Obj}}/FC.Valerie 768 6/-1/450/-1/true/{{i18n:FC.Solar.Quest.Reaction}}",
+"{{ModID}}_Void.Quest": "ItemDelivery/{{i18n:FC.Void.Quest.Title}}/{{i18n:FC.Void.Quest.Desc}}/{{i18n:FC.Void.Quest.Obj}}/FC.Valerie 769 6/-1/450/-1/true/{{i18n:FC.Void.Quest.Reaction}}",
+"{{ModID}}_Arrowhead.Quest": "ItemDelivery/{{i18n:FC.Arrowhead.Quest.Title}}/{{i18n:FC.Arrowhead.Quest.Desc}}/{{i18n:FC.Arrowhead.Quest.Obj}}/FC.Valerie 101 2/-1/150/-1/true/{{i18n:FC.Arrowhead.Quest.Reaction}}",
+"{{ModID}}_Bat.Quest": "ItemDelivery/{{i18n:FC.Bat.Quest.Title}}/{{i18n:FC.Bat.Quest.Desc}}/{{i18n:FC.Bat.Quest.Obj}}/FC.Valerie 767 10/-1/150/-1/true/{{i18n:FC.Bat.Quest.Reaction}}",
+"{{ModID}}_RettNote.Quest": "LostItem/{{i18n:FC.RettNote.Quest.Title}}/{{i18n:FC.RettNote.Quest.Desc}}/{{i18n:FC.RettNote.Quest.Obj}}/FC.FakeNpc {{ModID}}_RettNote {{ModID}}_OldGraveYard {{Random:46 22,5 60,46 60,48 31}}/-1/500/-1/true/",
+}
+},
+]
+}

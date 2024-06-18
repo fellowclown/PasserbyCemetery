@@ -1,0 +1,201 @@
+{
+    "Changes": [
+    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+ "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Dezerie 32 64 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Dezerie 32 64 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+ "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Dezerie 24 12 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Dezerie 24 12 2",
+                    "Delimiter": "/",
+        },
+        ]
+    },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+ "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Dezerie 15 30 3",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Dezerie 15 30 3",
+                    "Delimiter": "/"
+                },
+        ]
+    },  
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+ "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Dezerie 15 30 3",
+                    "Delimiter": "/",
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Dezerie 15 30 3",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+ "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Dezerie 17 27 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Dezerie 17 25 1",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+ "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Dezerie 97 18 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Dezerie 97 18 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+ "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Dezerie 33 43 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Dezerie 33 43 2",
+                    "Delimiter": "/"
+                 },
+        ]
+    },
+  ]
+}

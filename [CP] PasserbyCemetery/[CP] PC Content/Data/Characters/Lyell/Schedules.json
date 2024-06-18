@@ -1,0 +1,70 @@
+{
+"Changes": [
+    /************************************************
+ ANIMATIONS 
+ ************************************************/
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModId}}_LyellSmokeSit": "16/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 18 19 19 19 18 17 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/16",
+"{{ModId}}_LyellDrinkStand":"24/24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 27 27 27 27 26 25 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24/24",
+"{{ModId}}_LyellDrinkSitLeft":"28/28 28 28 28 28 28 28 28 28 28 29 30 30 30 30 29 29 29 29 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28/28//offset -10 20",
+"{{ModId}}_LyellWater1":"31/31 31 31 31 31 32 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 33 32 31/31/",
+"{{ModId}}_LyellWater2":"34/34 34 34 34 34 34 35 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 35 34/34",
+"{{ModId}}_LyellGunGuard":"37/37 37 37 37 37 38 38 38 38 38 38 38 38 38 38 39 39 39 39 39 39 39 38 38 38 38 38 38 37/37",
+"{{ModId}}_LyellSmokeStand":"44/44 44 44 44 44 44 44 45 46 47 47 47 47 47 46 45 44 44 44 44 44 44 44 44 44 44 44 44 44/44",
+"{{ModId}}_LyellSleep": "55/55/55//offset 30 0",
+}
+ },
+{
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Lyell",
+"Entries": {
+"Lyell.Sleep": "{{i18n:Lyell.Sleep}}",
+"Lyell.GreenRain": "{{i18n:Lyell.GreenRain}}",
+"Lyell.DesertFestival": "{{i18n:Lyell.DesertFestival}}",
+"Lyell.TroutDerby": "{{i18n:Lyell.TroutDerby}}",
+"Lyell.SquidFest": "{{i18n:Lyell.SquidFest}}",
+"Lyell.Grave": "{{i18n:Lyell.Grave}}",
+"Lyell.Prayer": "{{i18n:Lyell.Prayer}}",
+}
+},
+   
+    /************************************************
+ ** {{ModId}}_Lyell
+ ************************************************/
+           {
+"LogName": "Wayfarer Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Lyell",
+"Entries": {
+"spring": "GOTO Mon",
+"Mon": "610 {{ModID}}_LyellsProperty 23 33 1 {{ModId}}_LyellWater1/700 {{ModID}}_LyellsProperty 28 31 2 {{ModId}}_LyellWater2/730 {{ModID}}_LyellsProperty 29 42 1 {{ModId}}_LyellWater1/800 {{ModID}}_LyellsProperty 41 43 2 {{ModID}}_LyellWater2/830 {{ModID}}_LyellsProperty 26 11 1 {{ModId}}_LyellWater1/900 {{ModID}}_LyellsProperty 38 8 1 {{ModId}}_LyellDrinkSitLeft/1200 {{ModID}}_LyellsHouse 16 19 2 {{ModId}}_LyellSmokeSit/1600 Saloon 22 19 2 {{ModId}}_LyellDrinkStand/2100 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleep\"",
+
+"Tue": "800 {{ModID}}_LyellsHouse 14 17 0/1200 {{ModID}}_OldGraveYard 8 37 1 {{ModId}}_LyellDrinkSitLeft \"Strings\\schedules\\FC.Lyell:Lyell.Grave\"/1500 Mountain 27 7 2 {{ModId}}_LyellDrinkStand/1800 Mountain  27 15 2/2100 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleep\"",
+
+"Wed": "800 {{ModID}}_GradysRoom 3 13 2 {{ModId}}_LyellDrinkSitLeft/900 AnimalShop 11 16 1/1200 Beach 25 36 2 {{ModId}}_LyellSmokeStand/1600 {{ModID}}_OldGraveYard 8 37 1 {{ModId}}_LyellDrinkSitLeft \"Strings\\schedules\\FC.Lyell:Lyell.Grave\"/2200 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleep\"",
+"Thu": "GOTO Mon",
+
+"Fri": "610 {{ModID}}_LyellsBarn 9 4 2/900 {{ModID}}_LyellsCoop 4 6 2 {{ModId}}_LyellGunGuard/1000 {{ModID}}_LyellsProperty 41 41 2 {{ModId}}_LyellGunGuard/1300 Mountain 27 7 2 {{ModId}}_LyellDrinkStand/1600 Mountain  27 15 2/2000 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleep\"",
+"Sat": "GOTO Mon",
+
+"Sun": "900 {{ModID}}_LyellsProperty 23 30 0 \"Strings\\schedules\\FC.Lyell:Lyell.Prayer\"/1300 {{ModID}}_LyellsProperty 38 8 1 {{ModId}}_LyellDrinkSitLeft/1500 Saloon 22 19 2 {{ModId}}_LyellDrinkStand/2000 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleep\"",
+
+"rain": "610 {{ModID}}_LyellsBarn 12 3 2/900 {{ModID}}_LyellsCoop 4 6 2 {{ModId}}_LyellGunGuard/1200 {{ModID}}_LyellsHouse 16 19 2 {{ModId}}_LyellSmokeSit/1900 {{ModID}}_LyellsHouse 14 17 0/2100 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleep\"",
+"marriage_Tue": "610 {{ModID}}_LyellsProperty 23 33 1 {{ModId}}_LyellWater1/700 {{ModID}}_LyellsProperty 28 31 2 {{ModId}}_LyellWater2/730 {{ModID}}_LyellsProperty 29 42 1 {{ModId}}_LyellWater1/800 {{ModID}}_LyellsProperty 41 43 2 {{ModID}}_LyellWater2/830 {{ModID}}_LyellsProperty 26 11 1 {{ModId}}_LyellWater1/900 {{ModID}}_LyellsProperty 38 8 1 {{ModId}}_LyellDrinkSitLeft/1200 {{ModID}}_LyellsHouse 16 19 2 {{ModId}}_LyellSmokeSit/1600 Saloon 22 19 2 {{ModId}}_LyellDrinkStand/2000 Bed",
+
+"GreenRain": "610 {{ModID}}_LyellsBarn 9 4 2/900 {{ModID}}_LyellsCoop 4 6 2 {{ModId}}_LyellGunGuard/1000 {{ModID}}_LyellsProperty 41 41 2 {{ModId}}_LyellGunGuard \"Strings\\schedules\\FC.Lyell:Lyell.GreenRain\"/2000 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleep\"",
+"DesertFestival": "610 {{ModID}}_LyellsProperty 23 33 1 {{ModId}}_LyellWater1/700 {{ModID}}_LyellsProperty 28 31 2 {{ModId}}_LyellWater2/730 {{ModID}}_LyellsProperty 29 42 1 {{ModId}}_LyellWater1/800 {{ModID}}_LyellsProperty 41 43 2 {{ModID}}_LyellWater2/830 {{ModID}}_LyellsProperty 26 11 1 {{ModId}}_LyellWater1/900 Desert 47 40 3 \"Strings\\schedules\\FC.Lyell:Lyell.DesertFestival\"/2000 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleep\"",
+"TroutDerby": "610 {{ModID}}_LyellsBarn 9 4 2/900 {{ModID}}_LyellsCoop 4 6 2 {{ModId}}_LyellGunGuard/1000 {{ModID}}_LyellsProperty 41 41 2 {{ModId}}_LyellGunGuard/1300 Forest 35 21 1 \"Strings\\schedules\\FC.Lyell:Lyell.TroutDerby\"/1600 Saloon 22 19 2 {{ModId}}_LyellDrinkStand/2100 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleep\"",
+"SquidFest": "610 {{ModID}}_LyellsProperty 23 33 1 {{ModId}}_LyellWater1/700 {{ModID}}_LyellsProperty 28 31 2 {{ModId}}_LyellWater2/730 {{ModID}}_LyellsProperty 29 42 1 {{ModId}}_LyellWater1/800 {{ModID}}_LyellsProperty 41 43 2 {{ModID}}_LyellWater2/830 {{ModID}}_LyellsProperty 26 11 1 {{ModId}}_LyellWater1/900 {{ModID}}_LyellsProperty 38 8 1 {{ModId}}_LyellDrinkSitLeft/1200 {{ModID}}_LyellsHouse 16 19 2 {{ModId}}_LyellSmokeSit/1400 Beach 51 24 2 \"Strings\\schedules\\FC.Lyell:Lyell.SquidFest\"/2100 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleep\"",
+},
+"When": {
+"HasFlag|contains=landslideDone": true,
+"HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
+}
+}, 
+]
+}

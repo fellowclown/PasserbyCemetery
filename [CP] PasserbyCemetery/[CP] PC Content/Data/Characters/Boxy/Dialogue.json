@@ -1,0 +1,88 @@
+{
+"Changes": [
+/************************************************
+NoneChangingDialogue
+************************************************/
+ {
+"LogName": "Special Dialogue",
+"Action": "EditData",
+"Target": "Characters/Dialogue/FC.Boxy",
+"Entries": {
+"Introduction": "{{i18n:Introduction.Boxy}}",
+"reject_809":"{{i18n:reject_809.Boxy}}",
+"DumpsterDiveComment":"{{i18n:DumpsterDiveComment.Boxy}}",
+"HitBySlingshot": "{{i18n:HitBySlingshot.Boxy}}",
+"AcceptBirthdayGift_Loved": "{{i18n:AcceptBirthdayGift_Loved.Boxy}}",
+"AcceptBirthdayGift_Liked": "{{i18n:AcceptBirthdayGift_Liked.Boxy}}",
+"AcceptBirthdayGift_Disliked": "{{i18n:AcceptBirthdayGift_Disliked.Boxy}}",
+"AcceptBirthdayGift_Hated": "{{i18n:AcceptBirthdayGift_Hated.Boxy}}",
+"AcceptBirthdayGift_Neutral": "{{i18n:AcceptBirthdayGift_Neutral.Boxy}}",
+"AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Boxy}}",
+"Resort_Entering": "{{i18n:Resort_Entering.Boxy}}",
+"Resort_Leaving": "{{i18n:Resort_Leaving.Boxy}}",
+"Resort_Shore": "{{i18n:Resort_Shore.Boxy}}",
+"Resort_Umbrella": "{{i18n:Resort_Umbrella.Boxy}}",
+"Resort_Wander": "{{i18n:Resort_Wander.Boxy}}",
+"Resort_Bar": "{{i18n:Resort_Bar.Boxy}}",
+"Resort": "{{i18n:Resort.Boxy}}",
+"GreenRainFinished": "{{i18n:GreenRainFinished.Boxy}}",
+"GreenRain": "{{i18n:GreenRain.Boxy}}",
+"GreenRain_2": "{{i18n:GreenRain_2.Boxy}}",
+}
+},
+/************************************************
+PlatonicDialogue
+************************************************/
+ {
+"LogName": "Dialogue - 0-4",
+"Action": "EditData",
+"Target": "Characters/Dialogue/FC.Boxy",
+"Entries": { 
+///Main Dialogue
+"Mon": "{{i18n:Mon.Boxy.LowHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Boxy.LowHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Boxy.LowHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Boxy.LowHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Boxy.LowHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Boxy.LowHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Boxy.LowHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Boxy": "{{Range: 0, 4}}" 
+}
+},
+/************************************************
+HighPlatonicDialogue
+************************************************/
+{
+"LogName": "Dialogue - 5-10",
+"Action": "EditData",
+"Target": "Characters/Dialogue/FC.Boxy",
+"Entries": { 
+///Main Dialogue
+"Mon": "{{i18n:Mon.Boxy.MidHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Boxy.MidHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Boxy.MidHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Boxy.MidHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Boxy.MidHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Boxy.MidHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Boxy.MidHeart.{{season}}}}",
+
+},
+"When": {
+"Hearts:FC.Boxy": "{{Range: 5, 10}}" 
+}
+},
+/************************************************
+MiscDialogue
+************************************************/
+{
+"LogName": "Festival dialogue",
+"Action": "EditData",
+"Target": "Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/winter8,Data/Festivals/winter25",
+"Entries": {
+"FC.Boxy{{YearCheck}}": "{{i18n:Boxy.{{TargetWithoutPath}}.{{Relationship:FC.Boxy}} |default={{i18n:Boxy.{{TargetWithoutPath}} |default={{i18n:Boxy.festival-default}} }} }}",
+} 
+ },
+]
+}

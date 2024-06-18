@@ -1,0 +1,66 @@
+{
+"Changes": [
+/************************************************
+Introduction 
+************************************************/
+/************************************************
+One Heart
+************************************************/ 
+ {
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "{{ModID}}_TheFamiliar/t 1200 1600/!z summer/f FC.Dezerie 250/w rainy": "MarlonsTheme/-1000 -1000/farmer 18 12 0 FC.Dezerie 18 6 3/skippable/viewport 18 7 clamp true/addConversationTopic FC.TheFamiliar 7/addTemporaryActor FC.River 32 32 17 6 2 false Character/addTemporaryActor FC.Objects 16 16 15 10 2 false Character/showFrame FC.Objects 33/animate FC.Dezerie false true 360 36 36 37 37 36 36 37 37/positionOffset FC.Dezerie 36 0/pause 1000/speak FC.Dezerie \"{{i18n:TheFamiliar.00}}\"/pause 350/emote FC.River 28/shake FC.River 1000/pause 350/speak FC.Dezerie \"{{i18n:TheFamiliar.01}}\"/pause 350/move farmer 0 -4 0/stopAnimation FC.Dezerie 38/playsound healSound/pause 1000/showFrame FC.Dezerie 39/faceDirection FC.River 1/pause 300/speak FC.Dezerie \"{{i18n:TheFamiliar.02}}\"/pause 300/playSound {{ModID}}_Dodo/pause 300/emote FC.Dezerie 20/animate FC.Dezerie false true 360 36 36 37 37 36 36 37 37/pause 300/pause 300/speak FC.Dezerie \"{{i18n:TheFamiliar.03}}\"/pause 400/speak FC.Dezerie \"{{i18n:TheFamiliar.04}}\"/stopAnimation FC.Dezerie 37/emote farmer 32/pause 200/move farmer 0 2 3/move farmer -2 0 3/warp FC.Objects -3000 -3000/playsound pickUpItem/move farmer 2 0 0/move farmer 0 -3 0/pause 1000/showFrame FC.Dezerie 38/playsound healSound/pause 500/textAbovehead FC.Dezerie \"{{i18n:TheFamiliar.05}}\"/pause 300/showFrame FC.Dezerie 37/pause 300/speak FC.Dezerie \"{{i18n:TheFamiliar.06}}\"/pause 1000/jump FC.River 5/pause 500/speed FC.River 4/advancedMove FC.River false -1 0 0 2 3 10 3 0 4 10 0 -1 3 10/pause 2000/jump FC.River 3/pause 2000/jump FC.River 3/emote FC.River 20/pause 300/speak FC.Dezerie \"{{i18n:TheFamiliar.07}}\"/pause 200/viewport move 1 0 6000000/globalFade/viewport -1000 -1000/end",
+}
+        },
+/************************************************
+2 Hearts
+************************************************/
+ {
+            "Action": "EditData",
+            "Target": "Data/Events/Beach",
+            "Entries": {
+                "{{ModID}}_Betrayal/t 1200 1600/f FC.Dezerie 500/w rainy": "{{ModID}}_Stasis/-1000 -1000/farmer 87 18 2 FC.Dezerie 85 39 2/skippable/viewport 87 23 clamp true/addConversationTopic FC.Betrayal 7/addTemporaryActor FC.River 32 32 90 23 2 false Character/animate FC.Dezerie false true 360 29 29 30 30 31 31 32 32 31 31 30 30/pause 1000/advancedMove farmer false 0 5 2 2000 0 0 1 1000 0 12 2 2000 0 5 3 10/viewport move 0 1 40000 true/pause 3000/emote farmer 8/faceDirection FC.River 3/pause 6000/emote farmer 40/pause 350/speak FC.Dezerie \"{{i18n:Betrayal.00}}\"/pause 1000/faceDirection farmer 2/stopAnimation FC.Dezerie 31/pause 200/showframe FC.Dezerie 28/positionOffset FC.Dezerie 0 20/showframe FC.Dezerie 0/pause 200/faceDirection farmer 3/advancedMove FC.River false -4 0 2 4000 0 14 3 10/pause 360/move FC.Dezerie 0 1 2/pause 360/faceDirection farmer 2/speak FC.Dezerie \"{{i18n:Betrayal.01}}\"/pause 360/emote FC.Dezerie 28/speak FC.Dezerie \"{{i18n:Betrayal.02}}\"/pause 250/faceDirection FC.Dezerie 1/pause 360/speak FC.Dezerie \"{{i18n:Betrayal.03}}\"/pause 1000/question fork0 \"{{i18n:Betrayal.04}}\"/fork FC.TrustOthers/speak FC.Dezerie \"{{i18n:Betrayal.05}}\"/pause 1000/emote FC.Dezerie 12/pause 300/speed FC.River 3/move FC.River 0 3 1/positionOffset FC.Dezerie -30 0/pause 200/shake FC.River 4000/showFrame FC.River 17/playSound {{ModID}}_Dodo/speed farmer 3/move farmer 1 0 2/showframe farmer 94/startJittering/pause 1000/speak FC.Dezerie \"{{i18n:Betrayal.06}}\"/showframe FC.River 4/shake FC.River 1000/showFrame 0/stopJittering/pause 100/faceDirection farmer 3/speed FC.Dezerie 3/advancedMove FC.Dezerie false 0 -1 1 10 3 0 2 10 0 1 3 10/pause 1000/textAbovehead FC.Dezerie \"{{i18n:Betrayal.07}}\"/pause 2000/move farmer 0 -1 1/move farmer 2 0 3/speak FC.Dezerie \"{{i18n:Betrayal.08}}\"/pause 200/faceDirection FC.Dezerie 1/speak FC.Dezerie \"{{i18n:Betrayal.09}}\"/pause 200/viewport move 1 0 8000000/globalFade/viewport -1000 -1000/end",
+
+                "FC.TrustOthers": "pause 1000/speak FC.Dezerie \"{{i18n:Betrayal.10}}\"/pause 300/textAbovehead FC.Dezerie \"{{i18n:Betrayal.11}}\"/pause 300/emote FC.Dezerie 12/faceDirection FC.River 2/pause 300/speed FC.River 3/move FC.River 0 3 1/positionOffset FC.Dezerie -30 0/pause 200/shake FC.River 4000/showFrame FC.River 17/playSound {{ModID}}_Dodo/speed farmer 3/move farmer 1 0 2/showframe farmer 94/startJittering/pause 1000/speak FC.Dezerie \"{{i18n:Betrayal.12}}\"/showframe FC.River 4/shake FC.River 1000/showFrame 0/stopJittering/pause 100/faceDirection farmer 3/speed FC.Dezerie 3/advancedMove FC.Dezerie false 0 -1 1 10 3 0 2 10 0 1 3 10/pause 1000/textAbovehead FC.Dezerie \"{{i18n:Betrayal.13}}\"/pause 2000/move farmer 0 -1 1/move farmer 2 0 3/speak FC.Dezerie \"{{i18n:Betrayal.14}}\"/pause 400/faceDirection FC.Dezerie 1/speak FC.Dezerie \"{{i18n:Betrayal.15}}\"/pause 200/viewport move 1 0 8000000/globalFade/viewport -1000 -1000/end",
+},
+
+                       "When": {
+"HasFlag": "beachBridgeFixed",
+}
+        }, 
+/************************************************
+Three Hearts
+************************************************/ 
+ 
+/************************************************
+4 Hearts
+************************************************/ 
+/************************************************
+Five Hearts
+************************************************/ 
+   {
+            "Action": "EditData",
+            "Target": "Data/Events/{{ModID}}_OldGraveYard",
+            "Entries": {
+                "{{ModID}}_TheAmulet/t 1900 2600/w sunny/f FC.Dezerie 1250/i {{ModID}}_LostAmulet/e {{ModID}}_NightMarket": "none/-1000 -1000/farmer 37 83 0/skippable/viewport 54 107 clamp true/addConversationTopic FC.TheAmulet 12/addTemporaryActor FC.River 32 32 27 84 2 false Character/addTemporaryActor FC.Objects 16 16 32 80 2 false Character/showFrame FC.Objects 16/pause 1000/move farmer 0 -1 3/move farmer -4 0 0/move farmer 0 -2 3/itemAboveHead {{ModID}}_FireSnapper/warp FC.Objects -3000 -3000/playSound pickUpItem/pause 2000/faceDirection farmer 0/pause 250/playSound leafrustle/faceDirection farmer 3/pause 450/playSound {{ModID}}_Dodo/pause 300/faceDirection farmer 2/pause 350/move FC.River 0 -4 1/faceDirection farmer 3/pause 360/emote farmer 8/move farmer -1 0 3/emote farmer 8/pause 200/playSound {{ModID}}_Dodo/jump farmer 5/pause 200/speed FC.River 4/move FC.River 4 0 1/pause 50/showFrame FC.River 16/pause 50/showFrame FC.River 17/pause 50/showFrame FC.River 18/pause 50/showFrame FC.River 19/pause 50/showFrame FC.River 4/playSound ow/positionOffset farmer 20 0/damageFarmer 25/faceDirection farmer 2/showFrame farmer 5 true/showFrame FC.Objects 12/warp FC.Objects 32 79/playSound throwDownITem/positionOffset FC.Objects 0 -30/pause 100/positionOffset FC.Objects -30 0/pause 100/positionOffset FC.Objects -30 0/pause 100/positionOffset FC.Objects -30 0/pause 100/positionOffset FC.Objects 0 30/pause 100/positionOffset FC.Objects 0 30/pause 360/faceDirection FC.River 3/emote farmer 12/move FC.River -1 0 3/playsound Pickup_Coin15/warp FC.Objects -3000 -3000/pause 200/faceDirection FC.River 2/pause 200/speed FC.River 6/move FC.River 0 4 2/playSound leafrustle/removeItem {{ModID}}_LostAmulet/end",
+}
+        }, 
+/************************************************
+6 Hearts
+************************************************/ 
+
+/************************************************
+7 Hearts
+************************************************/ 
+
+/************************************************
+8 Hearts
+************************************************/ 
+
+/************************************************
+9 Hearts
+************************************************/ 
+
+]
+}

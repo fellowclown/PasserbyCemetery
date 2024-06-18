@@ -1,0 +1,64 @@
+{
+"Changes": [
+    /************************************************
+ ANIMATIONS 
+ ************************************************/
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+    "{{ModID}}_GradySitDrink2": "16/16 16 16 16 16 16 16 16 17 17 18 18 19 19 18 18 17 17 16 16 16 16 16 16 16 16/16",
+    "{{ModID}}_GradySitEat1": "20/20 20 20 20 20 21 21 21 22 22 22 23 23 23 24 24 24 25 25 25 26 26 26 27 27/27//offset 0 30",
+    "{{ModID}}_GradyWork0": "28/28 29 29 30 30 30 31 31 31 30 30 29 29 28 28 28 29 29/28//offset 0 30",
+    "{{ModID}}_GradySleep": "35/35/35//offset 30 0",
+}
+ },
+{
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Grady",
+"Entries": {
+"Grady.Sleep": "{{i18n:Grady.Sleep}}",
+"Grady.GreenRain": "{{i18n:Grady.GreenRain}}",
+"Grady.DesertFestival": "{{i18n:Grady.DesertFestival}}",
+"Grady.TroutDerby": "{{i18n:Grady.TroutDerby}}",
+"Grady.SquidFest": "{{i18n:Grady.SquidFest}}",
+"Grady.Work": "{{i18n:Grady.Work}}",
+}
+},
+   
+    /************************************************
+ ** FC.Grady
+ ************************************************/
+           {
+"LogName": "Grady's Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Grady",
+"Entries": {
+    "spring": "GOTO Mon",
+    "Mon": "1000 {{ModID}}_LyellsHouse 4 19 2 {{ModID}}_GradySitDrink2/1400 {{ModID}}_GradysRoom 4 12 0 {{ModID}}_GradyWork0 \"Strings\\schedules\\FC.Grady:Grady.Work\"/1600 {{ModID}}_OldGraveYard 16 44 1/1800 Town 48 74 2 square_3_3/2100 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleep\"",
+
+    "Tue": "1000 {{ModID}}_LyellsHouse 4 19 2 {{ModID}}_GradySitDrink2/1400 {{ModID}}_GradysRoom 4 12 0 {{ModID}}_GradyWork0 \"Strings\\schedules\\FC.Grady:Grady.Work\"/1600 {{ModID}}_OldGraveYard 25 79 1/1800 {{ModID}}_OldGraveYard 40 75 1/2100 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleep\"",
+
+    "Wed": "800 {{ModID}}_GradysRoom 2 14 1 {{ModID}}_GradySitEat1/900 {{ModID}}_GradysRoom 4 12 0 {{ModID}}_GradyWork0 \"Strings\\schedules\\FC.Grady:Grady.Work\"/1000 {{ModID}}_LyellsHouse 4 19 2 {{ModID}}_GradySitDrink2/1400 {{ModID}}_OldGraveYard 40 75 1/1600 {{ModID}}_OldGraveYard 10 36 2 {{ModID}}_GradySitDrink2/2100 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleep\"",
+
+    "Thu": "GOTO Mon",
+
+    "Fri": "1000 Saloon 23 19 2/1400 SeedShop 12 29 3/1600 ArchaeologyHouse 48 16 3/2000 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_GradySitDrink2/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleep\"",
+
+    "Sat": "GOTO Sun", 
+
+    "Sun": "700 {{ModID}}_LyellsProperty 44 44 3/900 {{ModID}}_LyellsProperty 46 50 3/1000 {{ModID}}_LyellsHouse 4 19 2 {{ModID}}_GradySitDrink2/1300 {{ModID}}_GradysRoom 2 14 1 {{ModID}}_GradySitEat1/1500 Saloon 23 19 2/2100 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleep\"",
+    
+"GreenRain": "610 {{ModID}}_GradysBarn 3 5 1/900 {{ModID}}_GradysCoop 3 10 2 square_2_2/1000 {{ModID}}_LyellsProperty 35 42 2 square_2_2 \"Strings\\schedules\\FC.Grady:Grady.GreenRain\"/1300 {{ModID}}_GradysRoom 2 14 1 {{ModID}}_GradySitEat1/1500 Saloon 23 19 2/2100 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleep\"",
+"DesertFestival": "900 Desert 47 41 3 \"Strings\\schedules\\FC.Grady:Grady.DesertFestival\"/2000 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_GradySitDrink2/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleep\"",
+"TroutDerby": "1300 Forest 35 20 1 \"Strings\\schedules\\FC.Grady:Grady.TroutDerby\"/2000 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_GradySitDrink2/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleep\"",
+"SquidFest": "1000 {{ModID}}_LyellsHouse 4 19 2 {{ModID}}_GradySitDrink2/1400 Beach 50 24 2 \"Strings\\schedules\\FC.Grady:Grady.SquidFest\"/2000 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_GradySitDrink2/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleep\"",
+},
+      "When": {
+      "HasFlag|contains=landslideDone": true,
+      "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
+             }
+        }, 
+]
+}

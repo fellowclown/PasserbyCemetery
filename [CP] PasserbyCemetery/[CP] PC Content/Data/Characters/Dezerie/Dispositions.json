@@ -1,0 +1,124 @@
+{
+"Changes": [
+/************************************************
+Dispositions 
+************************************************/
+ {
+"LogName": "Dezerie Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Dezerie": {
+"DisplayName":"{{i18n:FC.Dezerie}}",
+"Breather": false,
+"Language":"Default",
+"Gender":"Female",
+"Age":"Adult",
+"Manner":"Rude",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Negative",
+"BirthSeason":"winter",
+"Birthday":"9",
+"HomeRegion":"Town",
+"IsDarkSkinned":false,
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":true,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland":"DAY_OF_WEEK Saturday",
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"HiddenUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":null,
+"SpouseWantsChildren":false,
+"SpouseGiftJealousy":false,
+"IntroductionsQuest":"{{ExcludePerfection}}",
+"PerfectionScore":"{{ExcludePerfection}}",
+"ItemDeliveryQuests":true,
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"28",
+"DumpsterDiveFriendshipEffect":"-1",
+"FlowerDanceCanDance":false,
+"KissSpriteIndex": 28,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+  3,6
+],
+"SpouseRoom": {
+},
+"SpousePatio":{
+},
+
+"SpouseFloors": [ 
+],
+"SpouseWallpapers": [],
+"FriendsAndFamily": null,
+"WinterStarGifts": [
+],
+"WinterStarParticipant": false,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_SummoningRett",
+"Location": "{{ModID}}_StoneHouse",
+"Tile": {
+"X": 18,
+"Y":19
+},
+"Direction": "right"
+},
+{
+"Id": "DezHide",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_SummoningRett",
+"Location": "{{ModID}}_StoneHouse",
+"Tile": {
+"X": -3000,
+"Y":-3000
+},
+"Direction": "right"
+},
+{
+"Id": "Default",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_ConfessionsOfMother",
+"Location": "{{ModID}}_StoneHouse",
+"Tile": {
+"X": 18,
+"Y":19
+},
+"Direction": "right"
+},
+],
+"Appearance": [
+  {
+"ID": "{{ModID}}.Dezerie_SwimWear",
+"IsIslandAttire": true,
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Dezerie/SwimWear.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Dezerie/SwimWear.png}}",
+"Precedence": -10,
+},    
+ {
+"ID": "spring",
+"Condition": "SEASON Spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Dezerie/FC.Dezerie_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Dezerie/FC.Dezerie_spring.png}}"
+},
+{
+"ID": "winter",
+"Condition": "SEASON Winter",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Dezerie/FC.Dezerie_winter.png}}",
+"Sprite": "{{InternalAssetKey: assets/Npcs/Characters/FC.Dezerie/FC.Dezerie_winter.png}}"
+},
+],
+}
+}
+},
+]
+}

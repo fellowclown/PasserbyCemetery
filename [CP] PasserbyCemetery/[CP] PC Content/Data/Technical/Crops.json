@@ -1,0 +1,347 @@
+{
+"Changes": [
+  {
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": { ///Plant these in summer. Takes 10 days to mature and continues producing after that.
+"{{ModID}}_DragaTongueSeeds": {
+"Seasons": [ "summer" ],
+"DaysInPhase": [ 2,2,2,2,2 ], 
+"HarvestItemId": "{{ModID}}_DragaTongue",
+"RegrowDays": "6",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 0
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {///Plant these in spring. Takes 5 days to mature.
+"{{ModID}}_AdáuulaStalksSeeds": {
+"Seasons": [ "spring" ],
+"DaysInPhase": [ 1,1,1,1,1 ], 
+"HarvestItemId": "{{ModID}}_AdáuulaStalks",
+"RegrowDays": "-1",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 1
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": { ///Plant these in summer. Takes 6 days to mature.
+"{{ModID}}_ButterTuffSeeds": {
+"Seasons": [ "spring,summer" ],
+"DaysInPhase": [ 2,1,1,1,1], 
+"HarvestItemId": "{{ModID}}_ButterTuff",
+"RegrowDays": "-1",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 2
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {///Plant these in fall. Takes 7 days to mature.
+"{{ModID}}_GaggleShroomsSeeds": {
+"Seasons": [ "fall" ],
+"DaysInPhase": [ 2,1,2,1,1], 
+"HarvestItemId": "{{ModID}}_GaggleShrooms",
+"RegrowDays": "-1",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 3
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {///Plant these in fall and winter. Takes 10 days to mature and continues producing after that.
+"{{ModID}}_CucumabaSeeds": {
+"Seasons": [ "Fall","Winter" ],
+"DaysInPhase": [ 2, 2, 2, 2, 2 ], 
+"HarvestItemId": "{{ModID}}_Cucumaba",
+"RegrowDays": "5",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 4
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": { ///Plant these in fall. Takes 8 days to mature.
+"{{ModID}}_FairyCapSeeds": {
+"Seasons": [ "fall" ],
+"DaysInPhase": [ 2, 2, 2, 1, 1 ], 
+"HarvestItemId": "{{ModID}}_FairyCap",
+"RegrowDays": "-1",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 6
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {//Plant these in winter. Takes 3 days to mature and continues producing after that.
+"{{ModID}}_IceBerriesSeeds": {
+"Seasons": [ "Winter" ],
+"DaysInPhase": [ 1, 1, 1, 1, 1], 
+"HarvestItemId": "{{ModID}}_IceBerries",
+"RegrowDays": "3",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 7
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {/// Plant these in fall and winter. Takes 7 days to mature.
+"{{ModID}}_PaneekiSeeds": {
+"Seasons": [ "fall","winter" ],
+"DaysInPhase": [ 2,2,1,1,1], 
+"HarvestItemId": "{{ModID}}_Paneeki",
+"RegrowDays": "-1",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 8
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {///Plant these in fall. Takes 8 days to mature and continues producing after that.
+"{{ModID}}_PopachiniSeeds": {
+"Seasons": [ "fall" ],
+"DaysInPhase": [ 2,2,2,1,1 ], 
+"HarvestItemId": "{{ModID}}_Popachini",
+"RegrowDays": "4",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 9
+}
+}
+},
+   {
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {/// Plant these in summer. Takes 10 days to mature.
+"{{ModID}}_ZinfazuFruitSeeds": {
+"Seasons": [ "summer" ],
+"DaysInPhase": [ 3,3,2,1,1], 
+"HarvestItemId": "{{ModID}}_ZinfazuFruit",
+"RegrowDays": "-1",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.1",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 10
+}
+}
+},
+   {
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {///Plant these in fall. Takes 5 days to mature
+"{{ModID}}_WarpRootSeeds": {
+"Seasons": [ "fall" ],
+"DaysInPhase": [ 1,1,1,1,1], 
+"HarvestItemId": "{{ModID}}_WarpRoot",
+"RegrowDays": "-1",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 11
+}
+}
+},
+{ 
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {///Plant these in summer. Takes 8 days to mature and continues producing after that.
+"{{ModID}}_ButtonFruitSeeds": {
+"Seasons": [ "summer" ],
+"DaysInPhase": [ 2, 2, 1, 2, 1 ], 
+"HarvestItemId": "{{ModID}}_ButtonFruit",
+"RegrowDays": "3",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 12
+}
+}
+},
+{ 
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": { ///Plant these in spring and summer. Takes 5 days to mature.
+"{{ModID}}_YohoFruitSeeds": {
+"Seasons": [ "spring","summer" ],
+"DaysInPhase": [ 1,1,1,1,1], 
+"HarvestItemId": "{{ModID}}_YohoFruit",
+"RegrowDays": "-1",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 13
+}
+}
+},
+{
+  //Grows in 6 days (Change this later)
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {///Plant these in fall and winter. Takes 6 days to mature and continues producing after that.
+"{{ModID}}_ChocoFruitSeeds": {
+"Seasons": [ "fall","winter" ],
+"DaysInPhase": [  2, 1, 1, 1, 1 ], 
+"HarvestItemId": "{{ModID}}_ChocoFruit",
+"RegrowDays": "3",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 14
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {
+  ///Plant these in summer and fall. Takes 15 days to mature and continues producing after that.
+"{{ModID}}_DeepCaveFruitSeeds": {
+"Seasons": [ "fall","summer" ],
+"DaysInPhase": [ 3,3,3,3,3], 
+"HarvestItemId": "{{ModID}}_DeepCaveFruit",
+"RegrowDays": "3",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 15
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {
+  ///Plant these in fall and winter. Takes 11 days to mature.
+"{{ModID}}_CaveFlowerSeeds": {
+"Seasons": [ "fall","winter" ],
+"DaysInPhase": [ 4,4,1,1,1], 
+"HarvestItemId": "{{ModID}}_CaveFlower",
+"RegrowDays": "-1",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 16
+}
+}
+},
+{
+"LogName": "Dark Tuff Plant",
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {///Plant these in fall. Takes 6 days to mature and continues producing after that.
+"{{ModID}}_DarkTuffSeeds": {
+"Seasons": [ "fall" ],
+"DaysInPhase":[ 1,1,1,1,2], 
+"HarvestItemId": "{{ModID}}_DarkTuff",
+"RegrowDays": "3",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 17
+}
+}
+},
+{
+  "LogName": "Lure Berry Plant",
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": { ///Plant these in spring and summer. Takes 15 days to mature and continues producing after that.
+"{{ModID}}_LureBerriesSeeds": {
+"Seasons": [ "summer","spring" ],
+"DaysInPhase": [ 2,2,2,2,7], 
+"HarvestItemId": "{{ModID}}_LureBerries",
+"RegrowDays": "5",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 18
+}
+}
+},
+{
+  "LogName": "bell pods Plant",
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": { ///Plant these in summer and spring. Takes 5 days to mature and continues producing after that.
+"{{ModID}}_BellPodSeeds": {
+"Seasons": [ "spring","summer" ],
+"DaysInPhase": [ 1,1,1,1,1], 
+"HarvestItemId": "{{ModID}}_BellPods",
+"RegrowDays": "6",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.3",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 19
+}
+}
+},
+{
+  "LogName": "FirePepper Plant",
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {///Plant these in spring. Takes 15 days to mature and continues producing after that.
+"{{ModID}}_FirePepperSeeds": {
+"Seasons": [ "spring" ],
+"DaysInPhase": [ 5,5,5,1,1], 
+"HarvestItemId": "{{ModID}}_FirePepper",
+"RegrowDays": "2",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 20
+}
+}
+},
+  {
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": {///Plant these in fall. Takes 15 days to mature and continues producing after that.
+"{{ModID}}_DragaClawSeeds": {
+"Seasons": [ "fall" ],
+"DaysInPhase": [ 2,2,2,2,7 ], 
+"HarvestItemId": "{{ModID}}_DragaClaw",
+"RegrowDays": "2",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 5
+}
+}
+},
+]
+}
