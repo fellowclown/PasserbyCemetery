@@ -20,10 +20,10 @@
 "Action": "EditData",
 "Target": "Data/Crops",
 "Entries": {///Plant these in spring. Takes 5 days to mature.
-"{{ModID}}_AdáuulaStalksSeeds": {
+"{{ModID}}_AdauulaStalksSeeds": {
 "Seasons": [ "spring" ],
 "DaysInPhase": [ 1,1,1,1,1 ], 
-"HarvestItemId": "{{ModID}}_AdáuulaStalks",
+"HarvestItemId": "{{ModID}}_AdauulaStalks",
 "RegrowDays": "-1",
 "IsRaised": false,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",

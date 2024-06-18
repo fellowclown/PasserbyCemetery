@@ -3081,10 +3081,10 @@
 "Action": "EditData",
 "Target": "Data/Objects",
 "Entries": {
- "{{ModID}}_AdáuulaCakes": {
-  "Name": "{{ModID}}_AdáuulaCakes",
-  "DisplayName": "{{i18n:FC.AdáuulaCakes}}",
-  "Description": "{{i18n:FC.AdáuulaCakes.Desc}}",
+ "{{ModID}}_AdauulaCakes": {
+  "Name": "{{ModID}}_AdauulaCakes",
+  "DisplayName": "{{i18n:FC.AdauulaCakes}}",
+  "Description": "{{i18n:FC.AdauulaCakes.Desc}}",
   "Type": "Cooking",
   "Category": -7,
   "Price": 120,
@@ -3513,10 +3513,10 @@
 "Action": "EditData",
 "Target": "Data/Objects",
 "Entries": {
- "{{ModID}}_AdáuulaStalks": {
-  "Name": "{{ModID}}_AdáuulaStalks",
-  "DisplayName": "{{i18n:FC.AdáuulaStalks}}",
-  "Description": "{{i18n:FC.AdáuulaStalks.Desc}}",
+ "{{ModID}}_AdauulaStalks": {
+  "Name": "{{ModID}}_AdauulaStalks",
+  "DisplayName": "{{i18n:FC.AdauulaStalks}}",
+  "Description": "{{i18n:FC.AdauulaStalks.Desc}}",
   "Type": "Vegetable",
   "Category": -75,
   "Price": 20,
@@ -5102,10 +5102,10 @@
 "Action": "EditData",
 "Target": "Data/Objects",
 "Entries": {
- "{{ModID}}_AdáuulaStalksSeeds": {
-  "Name": "{{ModID}}_AdáuulaStalksSeeds",
-  "DisplayName": "{{i18n:FC.AdáuulaStalksSeeds}}",
-  "Description": "{{i18n:FC.AdáuulaStalksSeeds.Desc}}",
+ "{{ModID}}_AdauulaStalksSeeds": {
+  "Name": "{{ModID}}_AdauulaStalksSeeds",
+  "DisplayName": "{{i18n:FC.AdauulaStalksSeeds}}",
+  "Description": "{{i18n:FC.AdauulaStalksSeeds.Desc}}",
   "Type": "Seed",
   "Category": -74,
   "Price": 45,
