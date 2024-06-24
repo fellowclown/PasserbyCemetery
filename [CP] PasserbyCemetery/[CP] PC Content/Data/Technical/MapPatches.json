@@ -196,20 +196,46 @@
 "LogName": "Core Map Entrance-VanillaOnly-True",
  "Action": "EditMap",
  "Target": "Maps/Mountain",
- "FromFile": "Assets/Maps/Map Patches/MountainSDV.tbin",
+ "FromFile": "Assets/Maps/Map Patches/MountainSDVBlocked.tbin",
  "ToArea": { "X": 60, "Y": 0, "Width": 9, "Height": 10 }, 
   "When": {
-           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+            "HasFlag |contains={{ModID}}_Graveyard.Mail": false,
             }
       },
 {
 "LogName": "Core Map Entrance-VanillaOnly-True",
  "Action": "EditMap",
  "Target": "Maps/Mountain",
+ "FromFile": "Assets/Maps/Map Patches/MountainSVEBlocked.tbin",
+ "ToArea": { "X": 62, "Y": 0, "Width": 6, "Height": 12 },
+  "When": {
+           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "HasFlag |contains={{ModID}}_Graveyard.Mail": false,
+            }
+      },
+      {
+"LogName": "Core Map Entrance-VanillaOnly-True",
+ "Action": "EditMap",
+ "Target": "Maps/Mountain",
+   "Update": "OnTimeChange, OnLocationChange",
+ "FromFile": "Assets/Maps/Map Patches/MountainSDV.tbin",
+ "ToArea": { "X": 60, "Y": 0, "Width": 9, "Height": 10 }, 
+  "When": {
+           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+            "HasFlag |contains={{ModID}}_Graveyard.Mail": true,
+            }
+      },
+{
+"LogName": "Core Map Entrance-VanillaOnly-True",
+ "Action": "EditMap",
+ "Target": "Maps/Mountain",
+   "Update": "OnTimeChange, OnLocationChange",
  "FromFile": "Assets/Maps/Map Patches/MountainSVE.tbin",
  "ToArea": { "X": 62, "Y": 0, "Width": 6, "Height": 12 },
   "When": {
-           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            "HasFlag |contains={{ModID}}_Graveyard.Mail": true,
             }
       },
 ]

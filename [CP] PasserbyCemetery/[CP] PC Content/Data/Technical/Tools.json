@@ -325,12 +325,6 @@
     "ApplyUpgradeLevelToDisplayName": false,
     "ConventionalUpgradeFrom": null,
     "UpgradeFrom":  [
-    {
-        "RequireToolId": "(T){{ModID}}_SqueakyAxeUpgrade2",
-        "Price": 5000,
-        "TradeItemId": "(O)554", // Lemon Stone
-        "TradeItemAmount": 5
-    }
 ],
     "CanBeLostOnDeath": false,
     "SetProperties": null,
@@ -359,12 +353,6 @@
     "ApplyUpgradeLevelToDisplayName": false,
     "ConventionalUpgradeFrom": null,
     "UpgradeFrom":  [
-    {
-        "RequireToolId": "(T){{ModID}}_SqueakyPickUpgrade2",
-        "Price": 5000,
-        "TradeItemId": "(O)554", // Lemon Stone
-        "TradeItemAmount": 5
-    }
 ],
     "CanBeLostOnDeath": false,
     "SetProperties": null,
@@ -393,12 +381,6 @@
     "ApplyUpgradeLevelToDisplayName": false,
     "ConventionalUpgradeFrom": null,
     "UpgradeFrom": [
-    {
-        "RequireToolId": "(T){{ModID}}_SqueakyCanUpgrade2",
-        "Price": 5000,
-        "TradeItemId": "(O)554", // Lemon Stone
-        "TradeItemAmount": 5
-    }
 ],
     "CanBeLostOnDeath": false,
     "SetProperties": null,
@@ -427,12 +409,6 @@
     "ApplyUpgradeLevelToDisplayName": false,
     "ConventionalUpgradeFrom": null,
     "UpgradeFrom": [
-    {
-        "RequireToolId": "(T){{ModID}}_SqueakyHoeUpgrade2",
-        "Price": 5000,
-        "TradeItemId": "(O)554", // Lemon Stone
-        "TradeItemAmount": 5
-    }
 ],
    
     "CanBeLostOnDeath": false,

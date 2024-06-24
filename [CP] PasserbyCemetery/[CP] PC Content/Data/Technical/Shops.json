@@ -1404,10 +1404,10 @@
 "AvailableStockLimit": "5"
 },
                         {
-"Id": "{{ModID}}_AdáuulaStalksSeeds",
+"Id": "{{ModID}}_AdauulaStalksSeeds",
 "Condition": "SEASON Spring",
 "Price": 10,
-"ItemId": "{{ModID}}_AdáuulaStalksSeeds",
+"ItemId": "{{ModID}}_AdauulaStalksSeeds",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
 },
@@ -1610,10 +1610,10 @@
 "AvailableStockLimit": "5"
 },
                         {
-"Id": "{{ModID}}_AdáuulaStalksSeeds",
+"Id": "{{ModID}}_AdauulaStalksSeeds",
 "Condition": null,
 "Price": 10,
-"ItemId": "{{ModID}}_AdáuulaStalksSeeds",
+"ItemId": "{{ModID}}_AdauulaStalksSeeds",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
 },

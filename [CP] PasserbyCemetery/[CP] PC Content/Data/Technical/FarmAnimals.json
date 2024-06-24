@@ -1,6 +1,5 @@
 {
     "Changes": [
- 
  {
  "LogName": "ArcaGoat",
 "Action": "EditData",
@@ -8,7 +7,7 @@
 "Entries": {
 "{{ModID}}_ArcaGoat": {
     "DisplayName": "{{i18n:FC.ArcaGoat}}",
-    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "House": "{{AnimalHouse}}",
     "Gender": "MaleOrFemale",
     "PurchasePrice": 2000,
     "SellPrice": 1000,
@@ -21,8 +20,8 @@
     },
     "ShopDisplayName": "{{i18n:FC.ArcaGoat}}",
     "ShopDescription": "{{i18n:FC.ArcaGoat.Desc}}",
-    "ShopMissingBuildingDescription": "{{i18n:FC.MissingTropicalHutch}}",
-    "RequiredBuilding": "Fellowclown.ClownCore_SmallTropicalHutch",
+    "ShopMissingBuildingDescription": "{{ShopDesc}}",
+    "RequiredBuilding": null,
     "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
     "AlternatePurchaseTypes": null,
     "EggItemIds": null,
@@ -47,7 +46,7 @@
         "Id": "Default",
         "Condition": null,
         "MinimumFriendship": 750,
-        "ItemId": "440"
+        "ItemId": "438"
       }
 
 
@@ -108,7 +107,7 @@
 "Entries": {
 "{{ModID}}_Movoraptor": {
     "DisplayName": "{{i18n:FC.Movoraptor}}",
-    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "House": "{{AnimalHouse}}",
     "Gender": "Female",
     "PurchasePrice": 2500,
     "SellPrice": 1500,
@@ -121,15 +120,15 @@
     },
     "ShopDisplayName": "{{i18n:FC.Movoraptor}}",
     "ShopDescription": "{{i18n:FC.Movoraptor.desc}}",
-    "ShopMissingBuildingDescription":  "{{i18n:FC.MissingTropicalHutch}}",
-    "RequiredBuilding": "Fellowclown.ClownCore_SmallTropicalHutch",
+    "ShopMissingBuildingDescription":  "{{ShopDesc}}",
+    "RequiredBuilding": null,
     "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
     "AlternatePurchaseTypes": null,
   "EggItemIds": [ "{{ModID}}_MovoraptorEgg" ],
-   "IncubationTime": 1300,
+   "IncubationTime": 18000,
     "IncubatorParentSheetOffset": 1,
     "BirthText": "{{i18n:FC.MovoraptorHatch}}",
-    "DaysToMature": 13,
+    "DaysToMature": 6,
     "CanGetPregnant": false,
     "DaysToProduce": 1,
     "HarvestType": "DropOvernight",
@@ -238,7 +237,7 @@
 "Entries": {
 "{{ModID}}_ArcaCow": {
     "DisplayName": "{{i18n:FC.ArcaCow}}",
-    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "House": "{{AnimalHouse}}",
     "Gender": "Female",
     "PurchasePrice": 3500,
     "SellPrice": 4000,
@@ -251,8 +250,8 @@
     },
     "ShopDisplayName": "{{i18n:FC.ArcaCow}}",
     "ShopDescription": "{{i18n:FC.ArcaCow.desc}}",
-    "ShopMissingBuildingDescription":  "{{i18n:FC.MissingTropicalHutch}}",
-    "RequiredBuilding":"Fellowclown.ClownCore_SmallTropicalHutch",
+    "ShopMissingBuildingDescription":  "{{ShopDesc}}",
+    "RequiredBuilding":"{{AnimalHouse}}",
     "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
     "AlternatePurchaseTypes": null,
     "EggItemIds": null,
@@ -360,7 +359,7 @@
 "Entries": {
 "{{ModID}}_ArcaTapi": {
     "DisplayName": "{{i18n:FC.ArcaTapi}}",
-    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "House": "{{AnimalHouse}}",
     "Gender": "Female",
     "PurchasePrice": 3500,
     "SellPrice": 2000,
@@ -373,8 +372,8 @@
     },
     "ShopDisplayName": "{{i18n:FC.ArcaTapi}}",
     "ShopDescription": "{{i18n:FC.ArcaTapi.desc}}",
-    "ShopMissingBuildingDescription":  "{{i18n:FC.MissingTropicalHutch}}",
-    "RequiredBuilding": "Fellowclown.ClownCore_SmallTropicalHutch",
+    "ShopMissingBuildingDescription":  "{{ShopDesc}}",
+    "RequiredBuilding": null,
     "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
     "AlternatePurchaseTypes": null,
     "EggItemIds": null,
@@ -483,7 +482,7 @@
         "Entries": { 
             "{{ModID}}_FrenchDodo": {
 "DisplayName": "{{i18n:FC.FrenchDodo}}",
-"House": "Fellowclown.ClownCore_TropicalHutch",
+"House": "{{AnimalHouse}}",
 "Gender": "Male",
 "PurchasePrice": 2500,
 "SellPrice": 1200,
@@ -494,8 +493,8 @@
 "Width":32,
 "Height": 16
 },
-"ShopMissingBuildingDescription": "{{i18n:FC.MissingTropicalHutch}}",
-"RequiredBuilding": "Fellowclown.ClownCore_SmallTropicalHutch",
+"ShopMissingBuildingDescription": "{{ShopDesc}}",
+"RequiredBuilding": null,
 "UnlockCondition":"PLAYER_HAS_MAIL Current {{ModID}}_DodoEgg.Mail",
 "EggItemIds": [ "{{ModID}}_FrenchDodoEgg" ],
 "IncubationTime": 4500,

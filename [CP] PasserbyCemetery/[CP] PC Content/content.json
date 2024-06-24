@@ -9,6 +9,20 @@
       "AllowBlank": false,
      
     },
+    "AnimalHouse": {
+       "Description": "Switch between the barn or hutch. If you put barn you can house the custom animals in your barn, Fellowclown.ClownCore_SmallTropicalHutch if you like the hutch.",
+      "AllowValues": "Barn, Fellowclown.ClownCore_SmallTropicalHutch",
+      "Default": "Fellowclown.ClownCore_SmallTropicalHutch",
+      "AllowBlank": false,
+     
+    },
+     "ShopDesc": {
+       "Description": "Change Marnie's shop description to say barn or hutch..",
+      "AllowValues": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5931],{{i18n:FC.MissingTropicalHutch}}",
+      "Default": "{{i18n:FC.MissingTropicalHutch}}",
+      "AllowBlank": false,
+     
+    },
   },
 "DynamicTokens": [
        {

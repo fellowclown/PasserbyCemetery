@@ -4,7 +4,7 @@
 "Action": "EditData",
 "Target": "Data/Events/{{ModID}}_OldGraveYard",
 "Entries": {
-"{{ModID}}_TheStatue/w sunny/t 600 2300": "distantBanjo/-1000 -1000/farmer 35 43 0 FC.Maverick 34 36 3/viewport 33 36 clamp true/skippable/addConversationTopic FC.TheStatue/pause 1000/advancedMove farmer false 0 -6 4 1500 -5 0 3 10 0 -1 3 10/advancedMove FC.Maverick false -4 0 3 1000 -2 0 4 10/pause 500/jump FC.Maverick 3/pause 1000/emote FC.Maverick 12/pause 100/emote farmer 8/pause 100/faceDirection FC.Maverick 0/pause 300/faceDirection FC.Maverick 1/pause 200/speak FC.Maverick \"{{i18n:TheStatue.00}}\"/pause 200/speak FC.Maverick \"{{i18n:TheStatue.01}}\"/pause 200/speak FC.Maverick \"{{i18n:TheStatue.02}}\"/pause 1000/speak FC.Maverick \"{{i18n:TheStatue.03}}\"/pause 400/viewport move 1 0 6000000 true/globalFade/viewport -1000 -1000/addQuest {{ModID}}_FindGemYes.Quest/end position 30 37",
+"{{ModID}}_TheStatue/w sunny/t 600 2300": "distantBanjo/-1000 -1000/farmer 35 43 0 FC.Maverick 34 36 3/viewport 33 36 clamp true/skippable/addConversationTopic FC.TheStatue/addConversationTopic FC.TheVendor/pause 1000/advancedMove farmer false 0 -6 4 1500 -5 0 3 10 0 -1 3 10/advancedMove FC.Maverick false -4 0 3 1000 -2 0 4 10/pause 500/jump FC.Maverick 3/pause 1000/emote FC.Maverick 12/pause 100/emote farmer 8/pause 100/faceDirection FC.Maverick 0/pause 300/faceDirection FC.Maverick 1/pause 200/speak FC.Maverick \"{{i18n:TheStatue.00}}\"/pause 200/speak FC.Maverick \"{{i18n:TheStatue.01}}\"/pause 200/speak FC.Maverick \"{{i18n:TheStatue.02}}\"/pause 1000/speak FC.Maverick \"{{i18n:TheStatue.03}}\"/pause 400/viewport move 1 0 6000000 true/globalFade/viewport -1000 -1000/addQuest {{ModID}}_FindGemYes.Quest/end position 30 37",
 }, 
 },
  { 

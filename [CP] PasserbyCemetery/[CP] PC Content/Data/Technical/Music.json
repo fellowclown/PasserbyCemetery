@@ -7,7 +7,7 @@
 "{{ModID}}_Dodo": {
 "ID": "{{ModID}}_Dodo",
 "Category": "Sound",
-"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/Dodo.ogg}}" ],
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Dodo.ogg}}" ],
 "StreamedVorbis": true,
 "Looped": false
 }
@@ -20,7 +20,7 @@
 "{{ModID}}_Hush": {
 "ID": "{{ModID}}_Hush",
 "Category": "Music",
-"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/Hush.ogg}}" ],
+"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/FC.Hush.ogg}}" ],
 "StreamedVorbis": true,
 "Looped": true
 }
@@ -33,7 +33,7 @@
 "{{ModID}}_Stasis": {
 "ID": "{{ModID}}_Stasis",
 "Category": "Music",
-"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/Stasis.ogg}}" ],
+"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/FC.Stasis.ogg}}" ],
 "StreamedVorbis": true,
 "Looped": true
 }
@@ -111,7 +111,7 @@
 "{{ModID}}_Lullaby": {
 "ID": "{{ModID}}_Lullaby",
 "Category": "Music",
-"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/Lullaby.ogg}}" ],
+"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/FC.Lullaby.ogg}}" ],
 "StreamedVorbis": true,
 "Looped": true
 }
@@ -124,7 +124,7 @@
 "{{ModID}}_Movoraptor": {
 "ID": "{{ModID}}_Movoraptor",
 "Category": "Sound",
-"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/Movoraptor.ogg}}" ],
+"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/FC.Movoraptor.ogg}}" ],
 "StreamedVorbis": false,
 "Looped": false
 }
@@ -137,7 +137,7 @@
 "{{ModID}}_HalkiasClan": {
 "ID": "{{ModID}}_HalkiasClan",
 "Category": "Music",
-"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/HalkiasClan.ogg}}" ],
+"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/FC.HalkiasClan.ogg}}" ],
 "StreamedVorbis": false,
 "Looped": false
 }
@@ -150,7 +150,7 @@
 "{{ModID}}_Motorcycle": {
 "ID": "{{ModID}}_Motorcycle",
 "Category": "Sound",
-"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/motorcycle.ogg}}" ],
+"FilePaths": [ "{{AbsoluteFilePath: Assets/Music/FC.motorcycle.ogg}}" ],
 "StreamedVorbis": false,
 "Looped": false
 }
