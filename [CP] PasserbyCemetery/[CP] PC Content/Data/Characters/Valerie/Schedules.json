@@ -59,7 +59,7 @@
 "Marriage_Tue": "930 {{ModID}}_StoneHouse 11 11 3/1000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_ValerieDrinkSit2/1200 {{ModID}}_StoneHouse 14 22 3 {{ModID}}_ValerieCastMagic3 \"Strings\\schedules\\FC.Valerie:Valerie.CastMagic\"/1400 Town 48 88 3/2000 Bed",
 }, 
 "When": {
- "HasFlag|contains=landslideDone": true,
+ "HasFlag|contains=FC.ClearEntrance": true,
  "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
 }
 },

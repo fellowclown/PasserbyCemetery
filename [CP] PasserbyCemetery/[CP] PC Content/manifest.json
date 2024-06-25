@@ -42,5 +42,8 @@
             {
             "UniqueID": "shekurika.worldMaps",  "IsRequired": false 
         },
+             {
+            "UniqueID": "selph.ExtraAnimalConfig",  "IsRequired": false 
+        },
     ]
 }

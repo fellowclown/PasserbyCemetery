@@ -60,7 +60,7 @@
 "SquidFest": "900 Forest 35 25 2/1300 Beach 42 5 2 \"Strings\\schedules\\FC.Dezerie:Dezerie.SquidFest\"/1900 {{ModID}}_StoneHouse 18 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
 }, 
 "When": {
- "HasFlag|contains=landslideDone": true,
+ "HasFlag|contains=FC.ClearEntrance": true,
     "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
    "HasSeenEvent |contains={{ModID}}_SummoningRett": false,
 }

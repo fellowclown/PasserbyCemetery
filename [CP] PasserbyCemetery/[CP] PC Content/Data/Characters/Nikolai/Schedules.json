@@ -68,7 +68,7 @@ Schedule Strings
 "SquidFest": "900 Beach 54 6 2 {{ModID}}_Nikolai_DrinkChair2 14 37 1 \"Strings\\schedules\\FC.Nikolai:Nikolai.SquidFest\"",
 }, 
 "When": {
- "HasFlag|contains=landslideDone": true,
+ "HasFlag|contains=FC.ClearEntrance": true,
    "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
 }
 },

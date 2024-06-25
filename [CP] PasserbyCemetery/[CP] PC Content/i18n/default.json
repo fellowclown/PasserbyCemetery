@@ -966,7 +966,7 @@ Lyell's Information
 "GreenRainFinished.Lyell": "Arcania has this very rain fall, but it comes down much more hazardously.$3",
 "GreenRain.Lyell": "The green rain isn't so bad, made pretty decent lemonade with it.$1",
 "GreenRain_2.Lyell": "I'm obsessed with this rain, it's green color is gorgeous.$1",
-"FC.GaveCoin.Lyell": "Oh @, I'm to find you. I have this for you, thank you again for the coin.$action AddMoney 1",
+"FC.GaveCoin.Lyell": "Oh @, I'm happy to find you. I have this for you, thank you again for the coin.#$action AddMoney 1",
 //schedule dialogue
 "Lyell.Sleep": "He's asleep but he looks disturbed.",
 "Lyell.GreenRain": "Green rain always brings more pests-I need to protect my girls.$2",

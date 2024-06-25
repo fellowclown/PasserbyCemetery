@@ -54,7 +54,7 @@ Default Schedules
 
 },
     "When": {
-"HasFlag|contains=landslideDone": true,
+"HasFlag|contains=FC.ClearEntrance": true,
   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
 }
 }, 
