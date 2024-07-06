@@ -68,7 +68,7 @@ Schedule Strings
 "SquidFest": "900 Beach 54 6 2 {{ModID}}_Nikolai_DrinkChair2 14 37 1 \"Strings\\schedules\\FC.Nikolai:Nikolai.SquidFest\"",
 }, 
 "When": {
- "HasFlag|contains=FC.ClearEntrance": true,
+
    "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
 }
 },
@@ -87,7 +87,6 @@ A New Dream / Barron
 "HasMod: |contains=Fellowclown.AND": true,
 "HasSeenEvent |contains=Fellowclown.AND_BarronIntroduction": "true",
    "Query: {{Random: {{Range: 1,10}}|key=FC.AND}} = 1": true,
- "HasFlag|contains=landslideDone": true,
    "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
  
  }

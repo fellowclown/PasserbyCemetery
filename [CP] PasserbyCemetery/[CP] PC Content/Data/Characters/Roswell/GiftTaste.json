@@ -8,7 +8,7 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Roswell": "{{i18n:Roswell.gift.love}}/{{ModID}}_MovoraptorEgg 406 410/{{i18n:Roswell.gift.like}}/{{ModID}}_AdáuulaCakes 400/{{i18n:Roswell.gift.dislike}}/422 424/{{i18n:Roswell.gift.hate}}/{{ModID}}_TropaWine {{ModID}}_DragaWhiskey {{ModID}}_IceBerryWine/{{i18n:Roswell.gift.neutral}}/{{ModID}}_GaggleShrooms 395/",
+"FC.Roswell": "{{i18n:Roswell.gift.love}}/{{ModID}}_MovoraptorEgg 406 410 {{ModID}}_DancerFish/{{i18n:Roswell.gift.like}}/{{ModID}}_AdáuulaCakes 400/{{i18n:Roswell.gift.dislike}}/422 424/{{i18n:Roswell.gift.hate}}/{{ModID}}_TropaWine {{ModID}}_DragaWhiskey {{ModID}}_IceBerryWine/{{i18n:Roswell.gift.neutral}}/{{ModID}}_GaggleShrooms 395/",
 }
  },
 ]

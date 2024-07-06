@@ -45,10 +45,10 @@
 "Action": "EditData",
 "Target": "Data/TriggerActions",
 "Entries": {
-"{{ModID}}_ConfessionalHelp.Trigger":  {
-"Id": "{{ModID}}_ConfessionalHelp.Trigger",
+"{{ModID}}_ConfrontingRett.Trigger":  {
+"Id": "{{ModID}}_ConfrontingRett.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_HAS_SEEN_EVENT current {{ModID}}_ConfessionsOfMother,!PLAYER_HAS_CONVERSATION_TOPIC current FC.ConfessionsOfMother,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_HAS_SEEN_EVENT current {{ModID}}_ConfessionsOfMother",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_ConfrontingRett.Mail",
 "Actions": null,
@@ -63,7 +63,7 @@
 "{{ModID}}_ConfessionalHelp.Trigger":  {
 "Id": "{{ModID}}_ConfessionalHelp.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_HAS_SEEN_EVENT current {{ModID}}_SummoningRett,!PLAYER_HAS_CONVERSATION_TOPIC current FC.SummoningRett,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_HAS_SEEN_EVENT current {{ModID}}_SummoningRett",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_ConfessionalHelp.Mail",
 "Actions": null,
@@ -78,7 +78,7 @@
 "{{ModID}}_SootheingCure.Trigger":  {
 "Id": "{{ModID}}_SootheingCure.Trigger",
 "Trigger": "DayStarted",
-"Condition": "SEASON Spring,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "SEASON Spring",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_SootheingCure.Mail",
 "Actions": null,
@@ -93,7 +93,7 @@
 "{{ModID}}_CucaSerum.Trigger":  {
 "Id": "{{ModID}}_CucaSerum.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Grady 500,SEASON Fall,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Grady 500,SEASON Fall",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_CucaSerum.Mail",
 "Actions": null,
@@ -108,7 +108,7 @@
 "{{ModID}}_PeircingShot.Trigger":  {
 "Id": "{{ModID}}_PeircingShot.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Grady 250,SEASON Winter,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Grady 250,SEASON Winter",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_PeircingShot.Mail",
 "Actions": null,
@@ -123,7 +123,7 @@
 "{{ModID}}_ToughenTonic.Trigger":  {
 "Id": "{{ModID}}_ToughenTonic.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Grady 750,SEASON Spring,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Grady 750,SEASON Spring",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_ToughenTonic.Mail",
 "Actions": null,
@@ -138,7 +138,7 @@
 "{{ModID}}_WarpTea.Trigger":  {
 "Id": "{{ModID}}_WarpTea.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Lyell 500,SEASON Fall,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Lyell 500,SEASON Fall",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_WarpTea.Mail",
 "Actions": null,
@@ -153,7 +153,7 @@
 "{{ModID}}_AdauulaCakes.Trigger":  {
 "Id": "{{ModID}}_AdauulaCakes.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Lyell 250,SEASON Spring,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Lyell 250,SEASON Spring",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_AdauulaCakes.Mail",
 "Actions": null,
@@ -168,7 +168,7 @@
 "{{ModID}}_LostJournal.Trigger":  {
 "Id": "{{ModID}}_LostJournal.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Lyell 750,SEASON Fall,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Lyell 750,SEASON Fall",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_LostJournal.Mail",
 "Actions": null,
@@ -183,7 +183,7 @@
 "{{ModID}}_StoneRelic.Trigger":  {
 "Id": "{{ModID}}_StoneRelic.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Lyell 2000,SEASON Winter,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Lyell 2000,SEASON Winter",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_StoneRelic.Mail",
 "Actions": null,
@@ -198,7 +198,7 @@
 "{{ModID}}_LostPipe.Trigger":  {
 "Id": "{{ModID}}_LostPipe.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Grady 2000,SEASON Fall,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Grady 2000,SEASON Fall",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_LostPipe.Mail",
 "Actions": null,
@@ -206,7 +206,6 @@
 }
 }
 },
-
 {
 "Action": "EditData",
 "Target": "Data/TriggerActions",
@@ -215,9 +214,9 @@
 "{{ModID}}_ClearEntrance.Trigger":  {
 "Id": "{{ModID}}_ClearEntrance.Trigger",
 "Trigger": "LocationChanged",
-"Condition": "PLAYER_HAS_MAIL current {{ModID}}_Graveyard.Mail",
+"Condition": "DAYS_PLAYED 10",
 "HostOnly": false,
-"Action": "AddConversationTopic FC.ClearEntrance 12",
+"Action": "AddConversationTopic FC.ClearEntrance 10",
 "Actions": null,
 "CustomFields": {}
 }
@@ -231,7 +230,7 @@
 "{{ModID}}_GemGive.Trigger":  {
 "Id": "{{ModID}}_GemGive.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_HAS_MAIL current {{ModID}}_Graveyard.Mail",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_GemGive.Mail",
 "Actions": null,
@@ -247,7 +246,7 @@
 "{{ModID}}_GotGem.Trigger":  {
 "Id": "{{ModID}}_GotGem.Trigger",
 "Trigger": "LocationChanged",
-"Condition": "PLAYER_HAS_ITEM Current {{ModID}}_StatueGem 1 1,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_HAS_ITEM Current {{ModID}}_StatueGem 1 1",
 "HostOnly": false,
 "Action": "AddMail current {{ModID}}_GotGem.Mail",
 "Actions": null,
@@ -262,15 +261,18 @@
 "Entries": {
 "{{ModID}}_Graveyard.Trigger":  {
 "Id": "{{ModID}}_Graveyard.Trigger",
-"Trigger": "DayStarted",
-"Condition": "SEASON_DAY spring 16",
+"Trigger": "LocationChanged",
+"Condition": null,
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_Graveyard.Mail",
 "Actions": null,
 "CustomFields": {}
-}
-}
 },
+  "When": {
+            "HasFlag |contains=landslideDone": true,
+            }
+      },
+  },
 {
 "Action": "EditData",
 "Target": "Data/TriggerActions",
@@ -279,7 +281,7 @@
 "{{ModID}}_DodoEgg.Trigger":  {
 "Id": "{{ModID}}_DodoEgg.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_HAS_SEEN_EVENT current {{ModID}}_CaveBlockUnlock,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_HAS_SEEN_EVENT current {{ModID}}_CaveBlockUnlock",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_DodoEgg.Mail",
 "Actions": null,
@@ -296,7 +298,7 @@
 "Trigger": "DayStarted",
 "Condition": "PLAYER_NPC_RELATIONSHIP current FC.Nikolai Dating",
 "HostOnly": false,
-"Action": "AddMail Current {{ModID}}_FirstDate.Mail,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Action": "AddMail Current {{ModID}}_FirstDate.Mail",
 "Actions": null,
 "CustomFields": {}
 }
@@ -309,7 +311,7 @@
 "{{ModID}}_NikolaisBirthday.Trigger":  {
 "Id": "{{ModID}}_NikolaisBirthday.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Nikolai 500,SEASON Spring,PLAYER_HAS_SEEN_EVENT current {{ModID}}_SavingBoxy,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Nikolai 500,SEASON Spring,PLAYER_HAS_SEEN_EVENT current {{ModID}}_SavingBoxy",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_BirthdayInvite.Mail",
 "Actions": null,
@@ -324,7 +326,7 @@
 "{{ModID}}_RefugeInvite.Trigger":  {
 "Id": "{{ModID}}_RefugeInvite.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Nikolai 750,DAY_OF_WEEK Fri,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Nikolai 750,DAY_OF_WEEK Fri",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_RefugeInvite.Mail",
 "Actions": null,
@@ -339,7 +341,7 @@
 "{{ModID}}_Marketpalooza.Trigger":  {
 "Id": "{{ModID}}_Marketpalooza.Trigger",
 "Trigger": "DayStarted",
-"Condition": "SEASON Summer,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_LeslaIntroduction,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_GradyReunitesWithLyell,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_StoneIntroduction,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "SEASON Summer,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_LeslaIntroduction,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_GradyReunitesWithLyell,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_StoneIntroduction",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_Marketpalooza.Mail",
 "Actions": null,
@@ -354,7 +356,7 @@
 "{{ModID}}_ChocoFruit.Trigger":  {
 "Id": "{{ModID}}_ChocoFruit.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Nikolai 250,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Nikolai 250",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_ChocoFruit.Mail",
 "Actions": null,
@@ -369,7 +371,7 @@
 "{{ModID}}_YohoFruit.Trigger":  {
 "Id": "{{ModID}}_YohoFruit.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Kaia 750,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Kaia 750",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_YohoFruit.Mail",
 "Actions": null,
@@ -384,7 +386,7 @@
 "{{ModID}}_ButtonFruit.Trigger":  {
 "Id": "{{ModID}}_ButtonFruit.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Kaia 2000,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Kaia 2000",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_ButtonFruit.Mail",
 "Actions": null,
@@ -399,7 +401,7 @@
 "{{ModID}}_Cloth.Trigger":  {
 "Id": "{{ModID}}_Cloth.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Nikolai 750,SEASON Fall,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Nikolai 750,SEASON Fall",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_Cloth.Mail",
 "Actions": null,
@@ -414,7 +416,7 @@
 "{{ModID}}_WalkMan.Trigger":  {
 "Id": "{{ModID}}_WalkMan.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Nikolai 750,SEASON Winter,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Nikolai 750,SEASON Winter",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_WalkMan.Mail",
 "Actions": null,
@@ -430,7 +432,7 @@
 "{{ModId}}_WarpTotemRecipe.Trigger":  {
 "Id": "{{ModId}}_WarpTotemRecipe.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Dezerie 2000,PLAYER_FRIENDSHIP_POINTS current FC.Alan 2000,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Dezerie 2000,PLAYER_FRIENDSHIP_POINTS current FC.Alan 2000",
 "HostOnly": false,
 "Action": "AddMail Current {{ModId}}_WarpTotemRecipe.Mail",
 "Actions": null,
@@ -446,7 +448,7 @@
 "{{ModID}}_RettNote.Trigger":  {
 "Id": "{{ModID}}_RettNote.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Valerie 500,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_ThePotion,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Valerie 500,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_ThePotion",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_RettNote.Mail",
 "Actions": null,
@@ -462,7 +464,7 @@
 "{{ModID}}_Bat.Trigger":  {
 "Id": "{{ModID}}_Bat.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Valerie 250,PLAYER_HAS_SEEN_EVENT Current 100162,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Valerie 250,PLAYER_HAS_SEEN_EVENT Current 100162",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_Bat.Mail",
 "Actions": null,
@@ -478,7 +480,7 @@
 "{{ModID}}_Arrowhead.Trigger":  {
 "Id": "{{ModID}}_Arrowhead.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Valerie 500,PLAYER_HAS_SEEN_EVENT Current 100162,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Valerie 500,PLAYER_HAS_SEEN_EVENT Current 100162",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_Arrowhead.Mail",
 "Actions": null,
@@ -494,7 +496,7 @@
 "{{ModID}}_Solar.Trigger":  {
 "Id": "{{ModID}}_Solar.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Valerie 750,PLAYER_HAS_SEEN_EVENT Current 100162,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Valerie 750,PLAYER_HAS_SEEN_EVENT Current 100162",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_Solar.Mail",
 "Actions": null,
@@ -510,7 +512,7 @@
 "{{ModID}}_Void.Trigger":  {
 "Id": "{{ModID}}_Void.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Valerie 1000,PLAYER_HAS_SEEN_EVENT Current 100162,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Valerie 1000,PLAYER_HAS_SEEN_EVENT Current 100162",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_Void.Mail",
 "Actions": null,
@@ -526,7 +528,7 @@
 "{{ModID}}_GreenThumbTonic.Trigger":  {
 "Id": "{{ModID}}_GreenThumbTonic.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Alan 250,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Alan 250",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_GreenThumbTonic.Mail",
 "Actions": null,
@@ -542,7 +544,7 @@
 "{{ModID}}_ProtectiveTonic.Trigger":  {
 "Id": "{{ModID}}_ProtectiveTonic.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Alan 500,PLAYER_HAS_SEEN_EVENT Current 100162,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Alan 500,PLAYER_HAS_SEEN_EVENT Current 100162",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_ProtectiveTonic.Mail",
 "Actions": null,
@@ -558,7 +560,7 @@
 "{{ModID}}_RestingTonic.Trigger":  {
 "Id": "{{ModID}}_RestingTonic.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Alan 1000,PLAYER_HAS_SEEN_EVENT Current 100162,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Alan 1000,PLAYER_HAS_SEEN_EVENT Current 100162",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_RestingTonic.Mail",
 "Actions": null,
@@ -574,7 +576,7 @@
 "{{ModID}}_EssenceOfLuck.Trigger":  {
 "Id": "{{ModID}}_EssenceOfLuck.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Alan 1250,PLAYER_HAS_SEEN_EVENT Current 100162,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Alan 1250,PLAYER_HAS_SEEN_EVENT Current 100162",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_EssenceOfLuck.Mail",
 "Actions": null,
@@ -590,7 +592,7 @@
 "{{ModID}}_EnchantedTonic.Trigger":  {
 "Id": "{{ModID}}_EnchantedTonic.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Dezerie 2000,PLAYER_HAS_SEEN_EVENT Current 100162,PLAYER_HAS_CONVERSATION_TOPIC current FC.ClearEntrance",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Dezerie 2000,PLAYER_HAS_SEEN_EVENT Current 100162",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_EnchantedTonic.Mail",
 "Actions": null,

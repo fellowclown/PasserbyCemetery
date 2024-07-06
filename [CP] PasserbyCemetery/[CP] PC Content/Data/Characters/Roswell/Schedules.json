@@ -47,7 +47,6 @@
     "rain": "610 {{ModID}}_LyellsHouse 15 10 2 {{ModID}}_RoswellChill/1200 {{ModID}}_LyellsHouse 10 19 2 {{ModID}}_RoswellRest/1500 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_RoswellRest/1900 {{ModID}}_LyellsHouse 15 10 2 {{ModID}}_RoswellRest \"Strings\\schedules\\FC.Roswell:Roswell.Sleep\"",
 },
       "When": {
-      "HasFlag|contains=FC.ClearEntrance": true,
      "HasSeenEvent |contains={{ModID}}_LyellIntroduction": true,
              }
         }, 

@@ -64,7 +64,6 @@
 "SquidFest": "730 {{ModID}}_OldGraveYard 41 71 0/1000 {{ModID}}_AlansRoom 6 7 0 {{ModID}}_Alan_Work0/1200 Beach 56 9 1 \"Strings\\schedules\\FC.Alan:Alan.SquidFest\"/1800 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2300 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 }, 
 "When": {
- "HasFlag|contains=FC.ClearEntrance": true,
    "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
 }
 },

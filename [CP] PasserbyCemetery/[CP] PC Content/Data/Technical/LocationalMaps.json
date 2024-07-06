@@ -1,28 +1,6 @@
 {
 "Changes": [
-{
-"LogName": "GRadys Room",
-"Action": "EditData",
-"Target": "Data/Locations",
-"Entries": {
-"{{ModID}}_BoxysHouse": {
-"DisplayName": "{{i18n:FC.MapName.BoxysHouse}}",
-"CreateOnLoad": {
-"MapPath": "Maps/{{ModID}}_BoxysHouse"
-},
-"DefaultArrivalTile": {
-"X": 2,
-"Y": 3
-},
-"ExcludeFromNpcPathfinding": false,
-"ArtifactSpots": [],
-"FishAreas": {},
-"Fish": [],
-"Forage": [],
-"CustomFields": {}
-}
-}
-},
+ 
 {
 "LogName": "GRadys Room",
 "Action": "EditData",
@@ -1242,6 +1220,7 @@
  "BoxysHouse": "{{i18n:BoxysHouse}}",
 "GraveYard.Bridge": "{{i18n:GraveYard.Bridge}}",
 "GraveYard.Worker": "{{i18n:GraveYard.Worker}}",
+"GraveYard.ComingSoon": "{{i18n:GraveYard.ComingSoon}}",
 }
  },
 ]

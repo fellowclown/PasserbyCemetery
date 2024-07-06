@@ -200,7 +200,7 @@
  "ToArea": { "X": 60, "Y": 0, "Width": 9, "Height": 10 }, 
   "When": {
            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
-            "HasFlag |contains={{ModID}}_Graveyard.Mail": false,
+            "HasFlag |contains=landslideDone": false,
             }
       },
 {
@@ -211,7 +211,7 @@
  "ToArea": { "X": 62, "Y": 0, "Width": 6, "Height": 12 },
   "When": {
            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
-            "HasFlag |contains={{ModID}}_Graveyard.Mail": false,
+            "HasFlag |contains=landslideDone": false,
             }
       },
       {
@@ -223,7 +223,7 @@
  "ToArea": { "X": 60, "Y": 0, "Width": 9, "Height": 10 }, 
   "When": {
            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
-            "HasFlag |contains={{ModID}}_Graveyard.Mail": true,
+            "HasFlag |contains=landslideDone": true,
             }
       },
 {
@@ -235,7 +235,7 @@
  "ToArea": { "X": 62, "Y": 0, "Width": 6, "Height": 12 },
   "When": {
            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
-            "HasFlag |contains={{ModID}}_Graveyard.Mail": true,
+            "HasFlag |contains=landslideDone": true,
             }
       },
 ]

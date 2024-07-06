@@ -56,7 +56,6 @@
 "SquidFest": "1000 {{ModID}}_LyellsHouse 4 19 2 {{ModID}}_GradySitDrink2/1400 Beach 50 24 2 \"Strings\\schedules\\FC.Grady:Grady.SquidFest\"/2000 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_GradySitDrink2/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleep\"",
 },
       "When": {
-      "HasFlag|contains=FC.ClearEntrance": true,
       "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
              }
         }, 
