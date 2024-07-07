@@ -105,7 +105,7 @@ MEEP
           {
 // Loading old Image
 "Action": "Load",
-"Target": "{{ModID}}/NikAndKaia,{{ModID}}/Painting,{{ModID}}/StoneRelic,{{ModID}}/Page01,{{ModID}}/Page02,{{ModID}}/Page03,{{ModID}}/Page04,{{ModID}}/MicahValerieAndDezerie,{{ModID}}/ValAndHec",
+"Target": "{{ModID}}/Thalia,{{ModID}}/Map,{{ModID}}/NikAndKaia,{{ModID}}/Painting,{{ModID}}/StoneRelic,{{ModID}}/Page01,{{ModID}}/Page02,{{ModID}}/Page03,{{ModID}}/Page04,{{ModID}}/MicahValerieAndDezerie,{{ModID}}/ValAndHec",
 "FromFile": "Assets/Meep/{{TargetWithoutPath}}.png"
 },
   {

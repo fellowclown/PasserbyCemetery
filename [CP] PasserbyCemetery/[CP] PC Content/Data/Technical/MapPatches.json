@@ -35,6 +35,26 @@
                 "HasMod": "FlashShifter.StardewValleyExpandedCP",
             },
         },
+        {
+  "LogName": "Exhibit open",
+  "Action": "EditMap",
+  "Target": "Maps/{{ModID}}_OldGraveYard",
+          "When": {
+"HasFlag |contains=landslideDone": true,             },
+  "MapTiles": [
+    {
+      "Position": {
+        "X": 7,
+        "Y": 69
+      },
+      "Layer": "Buildings",
+      "SetProperties": {
+        "Action": "LockedDoorWarp 5 13 {{ModID}}_Exhibit 1200 2200"
+      },
+
+           }
+  ]
+},
  {
   "LogName": "LyellDoorOpen",
   "Action": "EditMap",

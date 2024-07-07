@@ -1,6 +1,28 @@
 {
 "Changes": [
- 
+ {
+"LogName": "Exhibit Room",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_Exhibit": {
+"DisplayName": "{{i18n:FC.MapName.Exhibit}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_Exhibit"
+},
+"DefaultArrivalTile": {
+"X": 5,
+"Y": 13
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage": [],
+"CustomFields": {}
+}
+}
+},
 {
 "LogName": "GRadys Room",
 "Action": "EditData",
@@ -1221,6 +1243,7 @@
 "GraveYard.Bridge": "{{i18n:GraveYard.Bridge}}",
 "GraveYard.Worker": "{{i18n:GraveYard.Worker}}",
 "GraveYard.ComingSoon": "{{i18n:GraveYard.ComingSoon}}",
+"Exhibit.Stairs": "{{i18n:Exhibit.Stairs}}",
 }
  },
 ]

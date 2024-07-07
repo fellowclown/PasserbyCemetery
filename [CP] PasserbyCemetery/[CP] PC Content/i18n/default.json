@@ -2180,6 +2180,7 @@ Alan's Information ///Written By Chirps
 "RejectBouquet_NotDatable.Alan": "Oh man, bud I don't think so.$4",
 "cc_Minecart.Alan": "Becareful when using the minecarts, make sure to keep an eye out for any wild animals on the tracks.$5",
 "cc_Bus.Alan": "Pam's bus if fixed?$5#$b#I don't know if I'd ride with her, that woman scares me.$2",
+"cc_Greenhouse.Alan": "I heard you have a brand new greenhouse now! Enjoy growing things out of season, that's the best thing about greenhouses!$1",
 "GreenRainFinished.Alan": "Finally the rain has stopped, I hope everyone in town is okay.$2",
 "GreenRain.Alan": "The rain is really coming down, I wonder how the rest of town is handling this green down pour.$5",
 "GreenRain_2.Alan": "Oh wow, green rain is really rare.#$b#Maybe I could collect some.$1",
@@ -2500,6 +2501,46 @@ Meep Image and Text Editions
 "LyellHouse.Page03.02": "Some have passed a long time ago.",
 "LyellHouse.Page04.02": "But they will live on within him, in the memories he loves.",
 "LyellHouse.Painting.01": "It's a painting of Lyell's sister and parents. He really tried to remember how they looked for this piece.",
+
+"Exhibit.Stairs": "You're not allowed up stairs.",
+"Exhibit.00": "While similar to burial practices of Ferngill, the key difference between Arcanian and Ferngill tradition. Is that in Arcania the body of the deceased is coated in a special tree sap and Adauula based linen.^After the wrapping is completed, the body is placed in a clay coffin and buried. Above the coffin a Tropa or Reuu tree is planted, which is nourished by sap, clay and deceased.",///Coffin
+"Exhibit.01": "Dating back to the middle of the Arcanian stone age, Movoraptor's have been succussfully domesticated and used for their eggs, meat and territorial nature. This Movoraptor talon was harvested and taxadermiy as a charm of strength for someone's loved one. The natives of Arcania beleive that the talons of the Movoraptor attract power and strength for whoever carries the charm.",///Movoraptor Foot
+"Exhibit.02": "This perfectly perserved Movorator egg is dated all the way to the jurassic period of the planet.",///Movoraptor Egg
+"Exhibit.03": "This is a toy cow, often times the natives of Arcania would carve toys, utensils and even furniture out of stone.",///Stone Cow Toy
+"Exhibit.04": "While uncommon in Tuuwe and Suuwe. The people of Ruual Arcania would use this half moon knife peice during animal and food based rituals. ",///Half Moon ritiual Weapon
+"Exhibit.05": "Arcanian Coins are made from gold and lead. These coins were not used as currency, as the trade system in Arcania is based on bartering skills and valuable objects instead of money. However, these coins were used as offerings to the natives two main Goddesses. Lipheum and Arah, who in mythos was obsessed with gold because of it's supposed taste.",///Arcarnian coins
+"Exhibit.06": "Arcanian Boots were often made from the leather created from the wild boar and cattle that roam the isles.",///Arcanian Boots
+"Exhibit.07": "This gold necklace was consider a everyday and common commodities among the Arcanian people. In fact, jewelry was so common that even the poorest individuals would own a number of golden peices.",///Golden Necklace
+"Exhibit.08": "Gold was and still is the most readily available metal in Arcania and was melted down and mixed with asbestos to create a number of valuable items. Jewelry, weapons and house hold utensils were the most commonly made objects.",///Golden Nuggets
+"Exhibit.09": "Taken from the exinct Reuu tree, this golden sap was collected and used in burial practices, food preservation and even used as glue.",///Petrified Golden Sap
+"Exhibit.10": "Music was very popular in Arcania, Drums, Harps and even a type of lute was commonly found at village watering holes. At these watering holes people would gather to swim, drink booze, eat and listen to the village musicians.",///Arcanian Harp
+"Exhibit.11": "Arcanian people usually created jars from clay, they used these jars for storage and more.",///Arcanian Jar
+"Exhibit.12": "This Arcanian book is filled with religious writings and images.",///Arcanian Book
+"Exhibit.13": "Arcanian warriors fought with spears made from bone and wood.",///Arcanian Spears
+"Exhibit.14": "The male variation of the Arcanian warrior statue was and still is the traditional symbol of ambition and gluttony. Unlike the female variation, the male statue is only found in places of celebration.",///Arcanian Male warrior
+"Exhibit.15": "The female variation of the Arcanian warrior statue was and still is the traditional symbol of strength and fertility. Unlike the male variation, the female statue is only found in temples and training feilds.",///Arcanian Female warrior
+"Exhibit.16": "Art was a important part of Arcanian culture. There was a number of meduims used to create these peices, however stone carvings of statues and pictures were the most common.",///Arcanian Stone Picture Carving
+"Exhibit.17": "The Arcanian rattler was a ritualistic rattle used in blessings. Usually within the temple of a village, a preist would use this rattle by rattling it over a person or object to bless it. It was also used to bless water and food. The reason for it's rattle or rattling sound, is because of the Goddess Arah. Who is said to be a snake woman with a rattling tail.",///Arcanian Ritiualistic Rattle
+"Exhibit.18": "These two tools was used to harvest produce but could also be used as a weapon. It was not uncommon for even farmers to be trained in combat due to the hostile environment of Arcania.",///Arcanian sythes
+"Exhibit.19": "The 'women' of Arcania would were this red and gold outfit's during wedding ritiuals. However the concept of gender was different, only those labeled a woman would wear it and the label of woman depended on your strength and size. This label could change over time.",///Arcanian  female Marriage outfit
+"Exhibit.20": "An everyday outfit worn in Arcania.",///Arcanian Everyday outfit
+"Exhibit.21": "An Arcanian fishing uniform.",///Arcanian Fishing outfit
+"Exhibit.22": "An Arcanian clay Stove.",///Arcanian stove
+"Exhibit.23": "An everyday outfit worn in Arcania.",///Arcanian everyday outfit
+"Exhibit.24": "An everyday outfit with a sun sheilding hat the was worn in Arcania.",///Arcanian everyday outfit with hat
+"Exhibit.25": "An Arcanian Preist uniform.",///Arcanian preist outfit
+"Exhibit.26": "An Arcanian Scholar uniform.",///Arcanian Scholar outfit
+"Exhibit.27": "An Arcanian Blacksmith uniform.",///Arcanian Blacksmith outfit
+"Exhibit.28": "The 'men' of Arcania would were this red and gold outfit's during wedding ritiuals. However the concept of gender was different, only those labeled a man would wear it and the label of man depended on your strength and size. This label could change over time.",///Arcanian mens wedding outfit
+"Exhibit.29": "Arcanian sword, most commonly weilded by warriors, guards and hunters.",///Arcanian sword
+"Exhibit.30": "The Arcanian death flute was a flute used before a day of battle. A haunting tune would be played to call upon the spirits of war to guide the warriors of the village through the next few days.",///Arcanian death flute
+"Exhibit.31": "A Zuut is a spirit that the people of Arcania beleive in. This spirit is said to be the protector of the Tropa Fruit Tree, which was a important fruit tree to the natives. The fruit of the Tropa tree was thought to spiritually healing and was also a important source of vitamins for the natives.",///forest spirit statue
+"Exhibit.32": "While vaguely mentioned in Arcanian mythos. The dwarvin cyclops was said to be a version of the larger Ferngill Cyclops. They were said to be highly intelligent, agile and family focused. This Cyclops mummy has been the only specimen found of the miniature people and has been vertified as real by W.A.S. ",///Arcanian Cyclops Mummy Shrine
+"Exhibit.33": "Gender to the Arcanian people was not based on physical sex, but was instead based on the height,size and overall strength of the person. These labels of male(Aba) and female(Marah) could time and the people beleived that childern were genderless until they reached a certain age.^Those assigned female at birth were considered the taller, heavier and physically stronger. The females of the culture were the warriors, farmers and hard laborers. Those assigned male at birth were considered the shorter, thinner and more agile.The men tended to be in charge of fishing, trading and child rearing. Both genders were equally educated, however the topic of education tended to change once the gender was assigned.^There is also a third and even forth gender in the Arcanian culture. The assignment of sex however, was based on the physical ability of ones personal equipment. Aduliio means, one who offers life. Which is translated to male in the republic and the word Aduliia mean, one who brings gives life, which is translated to female. There was also a term for intersex born childern, Duliarah, which simply means, one with gods.",///Arcanian Books 1
+"Exhibit.34": "Arkanian natives believe that Arah, the earth goddess, created them from the body of a sea snake named Fuurios, Furrios was her son born from her relationship with a fallen star called Sarui. The concept is that Fuurios kept destroying all of Arah's creations out of jealousy, having wanted all her love to himself, so she took him, split his body into two, and created the first humanoids from his flesh as if it were clay.",///Arcanian Books 2
+"Exhibit.35": "Arah the Goddess of earth is both male and female. In Arcania she is both the offerer and giver of life. Her mother, Lipheum is the goddess of our sun. The Arcanian people beleive there are many gods and goddesses that all rein over different galaxies. It is unsure how, but the people of Arcania have had knowledge of far off galaxies since the start of the bronze age.",///Arcanian Books 3
+"Exhibit.36": "An ancient map of Arcania. There's villages marked down as well as the direction of north and south.",///Arcanian Map
+"Exhibit.37": "Hey there I'm Thalia! Welcome to the lost vistors exhibit. Feel free to look around and learn about the people of Arcania.",
 /************************************************
 Meep Animals
 ************************************************/
