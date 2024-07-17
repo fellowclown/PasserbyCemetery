@@ -1,0 +1,103 @@
+{
+"Changes": [
+/************************************************
+Dispositions 
+************************************************/
+ {
+"LogName": "Cotton Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Cotton": {
+"DisplayName":"{{i18n:FC.Cotton}}",
+"Breather": true,
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Rude",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"summer",
+"Birthday":"4",
+"HomeRegion":"Town",
+"IsDarkSkinned":false,
+"CanSocialize":true,
+"CanBeRomanced":true,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland":false,
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"HiddenUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":null,
+"SpouseWantsChildren":true,
+"SpouseGiftJealousy":true,
+"IntroductionsQuest":false,
+"PerfectionScore":false,
+"ItemDeliveryQuests":true,
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"28",
+"DumpsterDiveFriendshipEffect":"-1",
+"FlowerDanceCanDance":false,
+"KissSpriteIndex": 28,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+   7
+],
+"SpouseRoom": {
+"MapAsset": "{{ModID}}_CottonSpouseRoom"
+},
+"SpousePatio":{
+"MapAsset": "{{ModID}}_CottonPatio",
+},
+
+"SpouseFloors": [ 
+      "2",
+      "1",
+      "3",
+      "2",
+      "3",
+      "2",
+      "6",
+      "6",
+      "1",
+      "0",
+      "7"
+  ],
+"SpouseWallpapers": [],
+"FriendsAndFamily": null,
+"WinterStarGifts": [
+],
+"WinterStarParticipant": false,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_CottonsHome",
+"Tile": {
+"X": 16,
+"Y":6
+},
+"Direction": "right"
+}
+],
+"Appearance": [  
+ {
+"ID": "{{ModID}}_Cotton",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Cotton/FC.Cotton.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Cotton/FC.Cotton.png}}"
+},
+],
+}
+}
+},
+]
+}

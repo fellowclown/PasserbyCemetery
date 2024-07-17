@@ -1,0 +1,43 @@
+{
+"Changes": [
+    /************************************************
+ ANIMATIONS 
+ ************************************************/
+  {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModID}}_MavTrim3": "16/17 17 17 16 16 16 16/17",
+"{{ModID}}_MavTrim1": "18/18 19 19 18 18 19/19",
+"{{ModID}}_MavRake1": "28/28 28 29 29 29 28 28 28 29 29/29",
+"{{ModID}}_MavClean2": "24/24 25 25 26 26 27 27 26 26 25 25/24",
+"{{ModID}}_MavClean1": "22/22 22 23 23 23 22 22 22 23 23/23",
+"{{ModID}}_MavClean3": "20/20 20 21 21 21 20 20 20 21 21/21",
+}
+ },
+/************************************************
+ ** FC.Maverick
+ ************************************************/
+  /////VANILLA 3< Left facing >1 Right Facing  
+{
+"LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Maverick",
+"Entries": {
+"spring": "GOTO Mon",
+"Mon": "610 {{ModID}}_OldGraveYard 11 49 3 {{ModID}}_MavClean1/700 {{ModID}}_OldGraveYard 9 54 2 {{ModID}}_MavClean2/800 {{ModID}}_OldGraveYard 21 62 1/900 {{ModID}}_OldGraveYard 46 59 3 {{ModID}}_MavClean3/1000 {{ModID}}_OldGraveYard 32 77 1 {{ModID}}_MavClean1/1200 {{ModID}}_OldGraveYard 22 63 1 {{ModID}}_MavTrim1/1500 Saloon 43 20 3/1800 Town 47 89 1 {{ModID}}_MavRake1/2100 {{ModID}}_MavericksHouse 11 9 2",
+"Tue": "610 {{ModID}}_OldGraveYard 35 49 1 {{ModID}}_MavRake1/700 {{ModID}}_MavericksHouse 8 9 0/800 {{ModID}}_OldGraveYard 31 52 2/900 Mountain 84 10 1/1200 {{ModID}}_OldGraveYard 46 59 3 {{ModID}}_MavClean3/1500 {{ModID}}_OldGraveYard 32 77 1 {{ModID}}_MavClean1/1800 {{ModID}}_MavericksHouse 8 9 0/2100 {{ModID}}_MavericksHouse 11 9 2",
+"Wed": "610 {{ModID}}_OldGraveYard 21 62 1/700 {{ModID}}_OldGraveYard 35 49 1 {{ModID}}_MavRake1/800 {{ModID}}_OldGraveYard 9 54 2 {{ModID}}_MavClean2/900 Mountain 84 10 1/1200 {{ModID}}_OldGraveYard 46 59 3 {{ModID}}_MavClean3/1500 {{ModID}}_OldGraveYard 32 77 1 {{ModID}}_MavClean1/1800 Saloon 43 20 3/2100 {{ModID}}_MavericksHouse 11 9 2",
+"Thu": "700 {{ModID}}_MavericksHouse 8 9 0/900 Mountain 84 10 1/1200 {{ModID}}_OldGraveYard 46 59 3 {{ModID}}_MavClean3/1500 {{ModID}}_OldGraveYard 32 77 1 {{ModID}}_MavClean1/1800 {{ModID}}_MavericksHouse 8 9 0/2100 {{ModID}}_MavericksHouse 11 9 2",
+"Fri": "700 SeedShop 38 23 0/1500 Town 47 89 1 {{ModID}}_MavRake1/1800 Saloon 43 20 3/2200 {{ModID}}_MavericksHouse 11 9 2",
+"Sat": "700 Saloon 43 20 3/1500 Beach 22 24 2/1800 Mountain 84 10 1/2200 {{ModID}}_MavericksHouse 11 9 2",
+"Sun": "700 SeedShop 38 23 0/1500 Beach 22 24 2/1800 Beach 56 7 2/2200 {{ModID}}_MavericksHouse 11 9 2",
+"rain": "700 SeedShop 38 23 0/1500 Town 47 89 1 {{ModID}}_MavRake1/1800 {{ModID}}_MavericksHouse 8 9 0/2200 {{ModID}}_MavericksHouse 11 9 2",
+}, 
+"When": {
+"HasSeenEvent |contains={{ModID}}_TheStatue": true,
+}
+},
+]
+}

@@ -1,0 +1,6 @@
+{
+  "ExcludePerfection": "false",
+  "AnimalHouse": "Fellowclown.ClownCore_SmallTropicalHutch",
+  "ShopDesc": "{{i18n:FC.MissingTropicalHutch}}",
+  "AltFeed": "true"
+}

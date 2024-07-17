@@ -1,0 +1,156 @@
+{
+"Changes": [
+            {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_LyellsProperty",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 42,
+                        "Y": 50
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+
+                },
+     {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_LyellsProperty",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 45,
+                        "Y": 50
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                     }
+                }
+                ]
+
+                },
+  {
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "{{ModID}}_TropaTreeSapling": {
+                    "DisplayName": "{{i18n:FC.TropaTree}}",
+                    "Seasons": [ "winter" ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModID}}_TropaFruit"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModID}}/Trees",
+                    "TextureSpriteRow": 0
+                }
+            }
+        },
+                {
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "Entries": {
+                "{{ModID}}_ReuuTree": {
+                    "Textures": [
+                        {
+                            "Texture": "Mods/{{ModID}}/WildTree_spring",
+                            "Season": "spring"
+                        },
+                        {
+                            "Texture": "Mods/{{ModID}}/WildTree_summer",
+                            "Season": "summer"
+                        },
+                        {
+                            "Texture": "Mods/{{ModID}}/WildTree_fall",
+                            "Season": "fall"
+                        },
+                        {
+                            "Texture": "Mods/{{ModID}}/WildTree_winter",
+                            "Season": "winter"
+                        }
+                    ],
+                    "SeedItemId": "(O){{ModID}}_ReuuSeed",
+                    "IsLeafyInWinter": false,
+                    "UseAlternateSpriteWhenNotShaken": true,
+                     "DropWoodOnChop": true,
+                     "DropHardwoodOnLumberChop": true,
+                        "AllowWoodpeckers": true,
+                        "SeedDropItems": [
+      {
+        "ContinueOnDrop": false,
+        "Season": "Fall",
+        "Chance": 1.0,
+        "Condition": "!SEASON winter",
+        "Id": "(O){{ModID}}_ReuuSeed",
+        "ItemId": "(O){{ModID}}_ReuuSeed",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      }
+    ],
+                    "ShakeItems": [
+                        {
+                            "ItemId": "(O){{ModID}}_ReuuNut",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Season": "fall",
+                            "Chance": 3
+                        }
+                    ],
+                      "ChopItems": [
+      {
+        "MinSize": null,
+        "MaxSize": null,
+        "ForStump": true,
+        "Season": null,
+        "Chance": 1.0,
+        "Condition": null,
+        "Id": "{{ModID}}_ReuuSeedDrop",
+        "ItemId": "(O){{ModID}}_ReuuSeed",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": 1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      }
+    ],
+                    "TapItems": [
+                        {
+                            "ItemId": "(O){{ModID}}_ReuuResin",
+                            "DaysUntilReady": 6
+                            }
+                    ]
+                }
+            }
+        }
+    ]
+}

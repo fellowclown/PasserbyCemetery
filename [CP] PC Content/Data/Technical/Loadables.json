@@ -1,0 +1,117 @@
+{
+"Changes": [
+    {
+        "LogName": "SummonCircle",
+        "Action": "Load",
+        "Target": "{{ModID}}/FC.SummonCircle,{{ModID}}/FC.BrokenBoat",
+        "FromFile": "Assets/Npcs/TempActors/Characters/{{TargetWithoutPath}}.png"
+    },
+/************************************************
+Load Character Over World Assets
+************************************************/
+{
+"LogName": "Base Portraits and Characters nonseasonal",
+"Action": "Load",
+"Target": "Portraits/FC.Cotton,Characters/FC.Cotton,Portraits/FC.Maverick,Characters/FC.Maverick",
+"FromFile": "Assets/Npcs/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}.png", 
+ },
+ {
+"LogName": "Base Portraits and Characters seasonal",
+"Action": "Load",
+"Target": "Portraits/FC.FakeNpc,Characters/FC.FakeNpc,Portraits/FC.Zuuie,Characters/FC.Zuuie,Portraits/FC.Lyell,Characters/FC.Lyell,Characters/FC.Roswell,Portraits/FC.Roswell,Characters/FC.Grady,Portraits/FC.Grady,Portraits/FC.Nikolai,Portraits/FC.Kaia,Characters/FC.Nikolai,Characters/FC.Kaia,Portraits/FC.Boxy,Characters/FC.Boxy,Portraits/FC.Valerie,Portraits/FC.Alan,Characters/FC.Valerie,Characters/FC.Alan,Portraits/FC.Dezerie,Characters/FC.Dezerie",
+"FromFile": "Assets/Npcs/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_spring.png", 
+ },
+/************************************************
+Load Character Event Sprite Assets
+************************************************/
+ {
+"LogName": "Base Portraits and Characters nonseasonal",
+"Action": "Load",
+"Target": "Portraits/FC.Kaia_FC.DateNight,Characters/FC.Kaia_FC.DateNight",
+"FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Kaia/FC.DateNight.png", 
+ },
+/************************************************
+Load TempActor Assets
+************************************************/
+ {
+"LogName": "Base Characters",
+"Action": "Load",
+"Target": "Characters/FC.Farmer,Characters/FC.Raptor1,Characters/FC.Raptor2,Characters/FC.Invention,Portraits/FC.Twinkle,Characters/FC.Twinkle,Portraits/FC.Mellie,Characters/FC.Mellie,Portraits/FC.GhostBoy,Characters/FC.StoneFamilyHug,Characters/FC.BoxysHouse,Characters/FC.FamilyPainting,Characters/FC.Objects,Characters/FC.Heart,Characters/FC.River,Characters/FC.Fishgirl,Characters/FC.Willy,Characters/FC.PotionPot,Portraits/FC.Heart,Characters/FC.Emotes,Characters/FC.PopperPC,Characters/FC.Jeremy,Characters/FC.CaveBlock,Characters/FC.Campfire,Characters/FC.GhostBoy,Characters/FC.GradyRide,Characters/FC.Rumple,Characters/FC.Aluua,Portraits/FC.Aluua,Portraits/FC.Arah,Characters/FC.Arah,Characters/FC.Mayo,Characters/FC.BoxyCakeSurprise,Characters/FC.FairyFlock,Characters/FC.BoxyCowRide,Characters/FC.BeeGroup1,Characters/FC.BeeGroup2,Characters/FC.BeeGroup3",
+"FromFile": "Assets/Npcs/TempActors/{{TargetPathOnly}}/{{TargetWithoutPath}}.png", 
+ },
+ {
+"LogName": "TempActor Characters",
+"Action": "Load",
+"Target": "Characters/FC.LyellRoswellCare",
+"FromFile": "Assets/Npcs/TempActors/{{TargetPathOnly}}/{{TargetWithoutPath}}_{{season}}.png",
+},
+/************************************************
+Load Empty Json 
+************************************************/
+{
+"LogName": "Load Empty Json",
+"Action": "Load",
+"Target": "Data/Events/{{ModID}}_CottonsHome,Data/Events/{{ModID}}_LyellsProperty,Data/Events/{{ModID}}_LeslaHouse,Data/Events/{{ModID}}_StoneHouse,Characters/schedules/FC.Alan,strings/schedules/FC.Alan,Characters/schedules/FC.Dezerie,strings/schedules/FC.Dezerie,strings/schedules/FC.Valerie,Characters/schedules/FC.Valerie,Characters/Dialogue/MarriageDialogueFC.Valerie,Characters/Dialogue/FC.Dezerie,Characters/Dialogue/FC.Alan,Characters/Dialogue/FC.Valerie,Characters/schedules/FC.Kaia,strings/schedules/FC.Kaia,Characters/schedules/FC.Boxy,strings/schedules/FC.Boxy,strings/schedules/FC.Nikolai,Characters/schedules/FC.Nikolai,Data/Events/{{ModID}}_NiksRoom,Data/Events/{{ModID}}_LeslaProperty,Data/Events/{{ModID}}_BeeNursery,Characters/Dialogue/MarriageDialogueFC.Nikolai,Characters/Dialogue/FC.Boxy,Characters/Dialogue/FC.Kaia,Characters/Dialogue/FC.Nikolai,Data/Events/{{ModID}}_LyellsHouse,Data/Events/{{ModID}}_LyellsBarn,Data/Events/{{ModID}}_LyellsCoop,Data/Events/{{ModID}}_LyellsShed,strings/schedules/FC.Roswell,strings/schedules/FC.Lyell,strings/schedules/FC.Grady,Characters/schedules/FC.Roswell,Characters/schedules/FC.Lyell,Characters/schedules/FC.Grady,Characters/Dialogue/FC.Roswell,Characters/Dialogue/FC.Lyell,Characters/Dialogue/MarriageDialogueFC.Lyell,Characters/Dialogue/FC.Grady,Data/Events/{{ModID}}_SecretCave,Characters/schedules/FC.Zuuie,Strings/schedules/FC.Zuuie,Characters/schedules/FC.Maverick,Characters/Dialogue/FC.Zuuie,Characters/Dialogue/FC.Maverick,Data/Events/{{ModID}}_OldGraveYard,Data/Events/{{ModID}}_MavericksHouse,Data/Events/{{ModID}}_SecretCave,Data/Events/{{ModID}}_Exhibit,strings/schedules/FC.Cotton,Characters/schedules/FC.Cotton,Characters/Dialogue/MarriageDialogueFC.Cotton,Characters/Dialogue/FC.Cotton",
+"FromFile": "Data/Empty.json",
+},
+
+/************************************************
+load Custom Items
+************************************************/
+{
+"Action": "Load",
+"Target": "Mods/{{ModID}}/WildTree_spring,Mods/{{ModID}}/WildTree_summer,Mods/{{ModID}}/WildTree_fall,Mods/{{ModID}}/WildTree_winter,Mods/{{ModID}}/Machines,Mods/{{ModID}}/OddCrows,Mods/{{ModID}}/Objects,Mods/{{ModID}}/Shirts,Mods/{{ModID}}/Crops,Mods/{{ModID}}/Trees,Mods/{{ModID}}/JokeTools,Mods/{{ModID}}/Furniture,Mods/{{ModID}}/Weapons",
+"FromFile": "Assets/Objects/{{TargetWithoutPath}}.png"
+},
+/************************************************
+Load Locational Maps
+************************************************/
+{
+"LogName": "Load Location Maps",
+"Action":"Load",
+"Target":"Maps/{{ModID}}_CottonSpouseRoom,Maps/{{ModID}}_CottonPatio,Maps/{{ModID}}_CottonsHome,Maps/{{ModID}}_Exhibit,Maps/{{ModID}}_BoxysHouse,Maps/{{ModID}}_ValerieSpouseRoom,Maps/{{ModID}}_ValeriePatio,Maps/{{ModID}}_StoneHouse,Maps/{{ModID}}_AlansRoom,Maps/{{ModID}}_AnimalRefuge,Maps/{{ModID}}_BeeNursery,Maps/{{ModID}}_Marketpalooza,Maps/{{ModID}}_NiksRoom,Maps/{{ModID}}_NikolaiSpouseRoom,Maps/{{ModID}}_NikolaiPatio,Maps/{{ModID}}_LeslaHouse,Maps/{{ModID}}_BeeNursery,Maps/{{ModID}}_SecretCave,Maps/{{ModID}}_OldGraveYard,Maps/{{ModID}}_MavericksHouse,Maps/{{ModId}}_GradysRoom,Maps/{{ModId}}_LyellSpouseRoom,Maps/{{ModId}}_LyellPatio,Maps/{{ModId}}_RoswellsCoop,Maps/{{ModId}}_LyellsProperty,Maps/{{ModId}}_LyellsHouse,Maps/{{ModId}}_LyellsBarn,Maps/{{ModId}}_LyellsCoop,Maps/{{ModId}}_LyellsShed",
+"FromFile":"Assets/Maps/Locational Maps/{{TargetWithoutPath}}.tbin",
+},
+       {
+"LogName": "Load Event Maps",
+"Action":"Load",
+"Target":"Maps/{{ModId}}_ZehPhamVillage,Maps/{{ModId}}_WaterGrave,Maps/{{ModId}}_Void,Maps/{{ModId}}_MarnieBarn,Maps/{{ModId}}_GradyLyellReunited,Maps/{{ModID}}_Birthday,Maps/{{ModID}}_FirstDate,Maps/{{ModID}}_FirstDateStars",
+"FromFile":"Assets/Maps/Event Maps/{{TargetWithoutPath}}.tbin"
+},
+/************************************************
+Custom Animals
+************************************************/
+{
+"LogName": "Farmanimals",
+"Action": "Load",
+"Target": "Animals/FC.ArcaGoat_Adult_Brown,Animals/FC.ArcaGoat_Baby_Brown,Animals/FC.ArcaGoat_Adult_Blue,Animals/FC.ArcaGoat_Baby_Blue,Animals/FC.ArcaGoat_Adult_PAle,Animals/FC.ArcaGoat_Baby_Pale,Animals/FC.ArcaGoat_Adult_Black,Animals/FC.ArcaGoat_Baby_Black,Animals/FC.ArcaTapi_Adult_Black,Animals/FC.ArcaTapi_Adult_Brown,Animals/FC.ArcaTapi_Adult_Pale,Animals/FC.ArcaTapi_Adult_Red,Animals/FC.ArcaCow_Adult_Black,Animals/FC.ArcaCow_Adult_Brown,Animals/FC.ArcaCow_Adult_Pale,Animals/FC.ArcaCow_Adult_Red,Animals/FC.ArcaCow_Baby_Black,Animals/FC.ArcaCow_Baby_Brown,Animals/FC.ArcaCow_Baby_Pale,Animals/FC.ArcaCow_Baby_Red,Animals/FC.ArcaHorse_Adult,Animals/FC.ArcaHorse_Baby,Animals/FC.Movoraptor_Blue_Adult,Animals/FC.Movoraptor_Pale_Adult,Animals/FC.Movoraptor_Pink_Adult,Animals/FC.Movoraptor_Purple_Adult,Animals/FC.Movoraptor_Blue_Baby,Animals/FC.Movoraptor_Pale_Baby,Animals/FC.Movoraptor_Pink_Baby,Animals/FC.Movoraptor_Purple_Baby,Animals/FC.ArcaTapi_Baby_Black,Animals/FC.ArcaTapi_Baby_Brown,Animals/FC.ArcaTapi_Baby_Pale,Animals/FC.ArcaTapi_Baby_Red,Mods/{{ModID}}/FC.Fish,Animals/FC.FrenchDodo_Adult_Gray,Animals/FC.FrenchDodo_Baby_Gray,Animals/FC.FrenchDodo_Adult_Black,Animals/FC.FrenchDodo_Baby_Black,Animals/FC.FrenchDodo_Adult_Blue,Animals/FC.FrenchDodo_Baby_Blue",
+"FromFile": "Assets/Animals/{{TargetWithoutPath}}.png", 
+},
+         {
+"LogName": "Shop Icons",
+"Action": "Load",
+"Target": "LooseSprites/FC.FrenchDodo_Icon,LooseSprites/FC.ArcaGoat_Icon,LooseSprites/FC.ArcaCow_Icon,LooseSprites/FC.Movo_Icon,LooseSprites/FC.Tapi_Icon",
+"FromFile": "Assets/Animals/{{TargetWithoutPath}}.png", 
+ },
+          {
+"LogName": "Monster",
+"Action": "Load",
+"Target": "Characters/Monsters/FC.CorruptedGhost",
+"FromFile": "Assets/Monsters/{{TargetWithoutPath}}.png", 
+ },
+/************************************************
+MEEP
+************************************************/
+          {
+// Loading old Image
+"Action": "Load",
+"Target": "{{ModID}}/Thalia,{{ModID}}/Map,{{ModID}}/NikAndKaia,{{ModID}}/Painting,{{ModID}}/StoneRelic,{{ModID}}/Page01,{{ModID}}/Page02,{{ModID}}/Page03,{{ModID}}/Page04,{{ModID}}/MicahValerieAndDezerie,{{ModID}}/ValAndHec",
+"FromFile": "Assets/Meep/{{TargetWithoutPath}}.png"
+},
+  {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/Movies",
+            "FromFile": "Assets/Movies/Movies.png"
+        },
+]
+}
