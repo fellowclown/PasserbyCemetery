@@ -1,0 +1,165 @@
+{
+"Changes": [
+/************************************************
+Dispositions 
+************************************************/
+ {
+"LogName": "Nikolai Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Nikolai": {
+"DisplayName":"{{i18n:FC.Nikolai}}",
+"Breather": true,
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"summer",
+"Birthday":"1",
+"HomeRegion":"Town",
+"IsDarkSkinned":true,
+"CanSocialize":true,
+"CanBeRomanced":true,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":true,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland":"DAY_OF_WEEK Saturday",
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"HiddenUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":null,
+"SpouseWantsChildren":true,
+"SpouseGiftJealousy":false,
+"IntroductionsQuest":"{{AddToPerfection}}",
+"PerfectionScore":"{{AddToPerfection}}",
+"ItemDeliveryQuests":true,
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"28",
+"DumpsterDiveFriendshipEffect":"-1",
+"FlowerDanceCanDance":true,
+"KissSpriteIndex": 28,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+   7
+],
+"SpouseRoom": {
+"MapAsset": "{{ModID}}_NikolaiSpouseRoom"
+},
+"SpousePatio":{
+"MapAsset": "{{ModID}}_NikolaiPatio",
+},
+
+"SpouseFloors": [ 
+      "2",
+      "1",
+      "3",
+      "2",
+      "3",
+      "2",
+      "6",
+      "4",
+      "6",
+      "4",
+      "5",
+      "6",
+      "4",
+      "7",
+      "7",
+      "1",
+      "0",
+      "6",
+      "1",
+      "0",
+      "7"],
+"SpouseWallpapers": [],
+"FriendsAndFamily": null,
+"WinterStarGifts": [
+    {
+        "Condition": null,
+        "Id": "Default",
+        "ItemId": null,
+        "RandomItemId": [
+          "{{ModID}}_SunshineHoney",
+          "{{ModID}}_SnowHoney",
+          "{{ModID}}_SeafoamHoney",
+          "{{ModID}}_LavaHoney",
+          "{{ModID}}_CherryBlossomHoney",
+        ],
+        "MaxItems": null,
+        "MinStack": 2,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "PerItemCondition": null
+      }
+],
+"WinterStarParticipant": true,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_NiksRoom",
+"Tile": {
+"X": 11,
+"Y":11
+},
+"Direction": "right"
+}
+],
+"Appearance": [
+  {
+"ID": "{{ModID}}.Nikolai_SwimWear",
+"IsIslandAttire": true,
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Nikolai/SwimWear.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Nikolai/SwimWear.png}}",
+"Precedence": -10,
+},    
+ {
+"ID": "spring",
+"Condition": "SEASON Spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Nikolai/FC.Nikolai_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Nikolai/FC.Nikolai_spring.png}}"
+},
+{
+"ID": "winter",
+"Condition": "SEASON Winter",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Nikolai/FC.Nikolai_winter.png}}",
+"Sprite": "{{InternalAssetKey: assets/Npcs/Characters/FC.Nikolai/FC.Nikolai_winter.png}}"
+},
+{
+"ID": "flowerfestival",
+"Condition": "EVENT_ID festival_spring24",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Nikolai/Festivals/flower dance.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Nikolai/Festivals/flower dance.png}}",
+"Precedence": -10,
+},
+{
+"ID": "spiritseve",
+"Condition": "EVENT_ID festival_fall3",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Nikolai/Festivals/spirit's eve.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Nikolai/Festivals/spirit's eve.png}}",
+"Precedence": -10,
+},
+],
+}
+}
+},
+]
+}

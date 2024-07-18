@@ -1,0 +1,1829 @@
+{
+    "Changes": [
+                {
+"Action": "EditData",
+"Target": "Data/Shops",
+"Entries": {
+"{{ModID}}_DrinkShop": {
+"Owners": [
+ {
+"Name": "FC.Valerie",
+"Dialogues": [
+    // dialogue any other time
+    {
+  "Id": "{{ModID}}_DrinkShop",
+  "Dialogue": "{{i18n:DrinkShop}}"
+    }
+]
+                        },
+                    ],
+                    "Items": [
+                                                {
+"Id": "{{ModID}}_FairyFingerTea",
+"ItemId": "{{ModID}}_FairyFingerTea",
+"Price": 10,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+                                                {
+"Id": "{{ModID}}_WarpRootTea",
+"ItemId": "{{ModID}}_WarpRootTea",
+"Price": 10,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+                                                {
+"Id": "{{ModID}}_MilkCoffee",
+"ItemId": "{{ModID}}_MilkCoffee",
+"Price": 10,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+                                                {
+"Id": "395",
+"ItemId": "395",
+"Price": 10,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+
+                    ]
+                }
+            }
+        },
+        {
+"Action": "EditData",
+"Target": "Data/Shops",
+"Entries": {
+"{{ModID}}_AlanShop": {
+"Owners": [
+ {
+"Name": "FC.Alan",
+"Dialogues": [
+    // dialogue any other time
+    {
+  "Id": "{{ModID}}_AlanShop",
+  "Dialogue": "{{i18n:PotionShop}}"
+    }
+]
+                        },
+                    ],
+                    "Items": [
+                                                {
+"Id": "{{ModId}}_WarpTotem",
+"ItemId": "{{ModId}}_WarpTotem",
+"Price": 60000,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_EnchantedTonic",
+"ItemId": "{{ModID}}_EnchantedTonic", ///Mailed Recipe
+"Price": 500,
+"AvailableStock":5,
+"AvailableStockLimit": "5",
+},
+                        {
+"Id": "{{ModID}}_EssenceOfLuck",
+"ItemId": "{{ModID}}_EssenceOfLuck", ///Mailed Recipe
+"Price": 800,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_GreenThumbTonic",
+"ItemId": "{{ModID}}_GreenThumbTonic", ///Mailed Recipe
+"Price": 200,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_ProtectiveTonic",
+"ItemId": "{{ModID}}_ProtectiveTonic", ///Mailed Recipe
+"Price": 1000,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_RestingTonic",
+"ItemId": "{{ModID}}_RestingTonic", ///Mailed Recipe
+"Price": 80,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_FireSnapperEssence",
+"ItemId": "{{ModID}}_FireSnapperEssence",
+"Price": 500,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_DefensiveBrew",
+"ItemId": "{{ModID}}_DefensiveBrew",
+"Price": 400,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_RootJuice",
+"ItemId": "{{ModID}}_RootJuice",
+"Price": 150,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_DragaTailTonic",
+"ItemId": "{{ModID}}_DragaTailTonic",
+"Price": 300,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+                     {
+"Id": "{{ModID}}_FairyFingerTonic",
+"ItemId": "{{ModID}}_FairyFingerTonic",
+"Price": 1000,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+                     {
+"Id": "{{ModID}}_DragaEyeTonic",
+"ItemId": "{{ModID}}_DragaEyeTonic",
+"Price": 120,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+
+                     {
+"Id": "{{ModID}}_VultureSkull",
+"ItemId": "{{ModID}}_VultureSkull",
+"Price": 1500,
+"AvailableStock":5,
+"AvailableStockLimit": "5"
+},
+                     {
+"Id": "{{ModID}}_LureBerriesSeeds",
+"ItemId": "{{ModID}}_LureBerriesSeeds",
+"Price": 90,
+"AvailableStock":6,
+"AvailableStockLimit": "6"
+},
+                     {
+"Id": "{{ModID}}_BellPodSeeds",
+"ItemId": "{{ModID}}_BellPodSeeds",
+"Price": 130,
+"AvailableStock":6,
+"AvailableStockLimit": "6"
+},
+                     {
+"Id": "{{ModID}}_CaveFlowerSeeds",
+"ItemId": "{{ModID}}_CaveFlowerSeeds",
+"Price": 160,
+"AvailableStock":6,
+"AvailableStockLimit": "6"
+},
+                     {
+"Id": "{{ModID}}_DarkTuffSeeds",
+"ItemId": "{{ModID}}_DarkTuffSeeds",
+"Price": 150,
+"AvailableStock":6,
+"AvailableStockLimit": "6"
+},
+                     {
+"Id": "{{ModID}}_FirePepperSeeds",
+"ItemId": "{{ModID}}_FirePepperSeeds",
+"Price": 500,
+"AvailableStock":6,
+"AvailableStockLimit": "6"
+},
+                     {
+"Id": "{{ModID}}_StoneShroomExtract",
+"ItemId": "{{ModID}}_StoneShroomExtract",
+"Price": 40,
+"AvailableStock":6,
+"AvailableStockLimit": "6"
+},
+                     {
+"Id": "{{ModID}}_FireSnapperExtract",
+"ItemId": "{{ModID}}_FireSnapperExtract",
+"Price": 40,
+"AvailableStock":6,
+"AvailableStockLimit": "6"
+},
+                     {
+"Id": "{{ModID}}_DragaTailExtract",
+"ItemId": "{{ModID}}_DragaTailExtract",
+"Price": 40,
+"AvailableStock":6,
+"AvailableStockLimit": "6"
+},
+                     {
+"Id": "{{ModID}}_FairyFingersExtract",
+"ItemId": "{{ModID}}_FairyFingersExtract",
+"Price": 40,
+"AvailableStock":6,
+"AvailableStockLimit": "6"
+},
+                     {
+"Id": "{{ModID}}_DragaEyeExtract",
+"ItemId": "{{ModID}}_DragaEyeExtract",
+"Price": 40,
+"AvailableStock":6,
+"AvailableStockLimit": "6"
+},
+                     {
+"Id": "{{ModID}}_BellPodsExtract",
+"ItemId": "{{ModID}}_BellPodsExtract",
+"Price": 40,
+"AvailableStock":6,
+"AvailableStockLimit": "6"
+},
+                     {
+"Id": "{{ModID}}_LureBerriesExtract",
+"ItemId": "{{ModID}}_LureBerriesExtract",
+"Price": 40,
+"AvailableStock":6,
+"AvailableStockLimit": "6"
+},
+                     {
+"Id": "{{ModID}}_DarkTuffExtract",
+"ItemId": "{{ModID}}_DarkTuffExtract",
+"Price": 40,
+"AvailableStock":6,
+"AvailableStockLimit": "6"
+},
+                     {
+"Id": "{{ModID}}_HeavyRootExtract",
+"ItemId": "{{ModID}}_HeavyRootExtract",
+"Price": 40,
+"AvailableStock":6,
+"AvailableStockLimit": "6"
+},
+                     {
+"Id": "{{ModID}}_ChocoFruitExtract",
+"ItemId": "{{ModID}}_ChocoFruitExtract",
+"Price": 40,
+"AvailableStock":6,
+"AvailableStockLimit": "6"
+},
+                       {
+"Id": "{{ModID}}_FireSnapperEssenceRecipe",
+"ItemId": "(O){{ModID}}_FireSnapperEssence",
+"Price": 500,
+"AvailableStock":5,
+"AvailableStockLimit": "5",
+"IsRecipe": true,
+},
+                        {
+"Id": "{{ModID}}_DefensiveBrewRecipe",
+"ItemId": "{{ModID}}_DefensiveBrew",
+"Price": 400,
+"AvailableStock":5,
+"AvailableStockLimit": "5",
+"IsRecipe": true,
+},
+                        {
+"Id": "{{ModID}}_DragaTailTonicRecipe",
+"ItemId": "(O){{ModID}}_DragaTailTonic",
+"Price": 300,
+"AvailableStock":5,
+"AvailableStockLimit": "5",
+"IsRecipe": true,
+},
+                     {
+"Id": "{{ModID}}_FairyFingerTonicRecipe",
+"ItemId": "(O){{ModID}}_FairyFingerTonic",
+"Price": 1000,
+"AvailableStock":5,
+"AvailableStockLimit": "5",
+"IsRecipe": true,
+},
+                     {
+"Id": "{{ModID}}_DragaEyeTonicRecipe",
+"ItemId": "(O){{ModID}}_DragaEyeTonic",
+"Price": 120,
+"AvailableStock":5,
+"AvailableStockLimit": "5",
+"IsRecipe": true,
+},
+                     {
+"Id": "{{ModID}}_ToughenTonicRecipe",
+"ItemId": "(O){{ModID}}_ToughenTonic",
+"Price": 320,
+"AvailableStock":5,
+"AvailableStockLimit": "5",
+"IsRecipe": true,
+},
+                     {
+"Id": "{{ModID}}_PeircingShotRecipe",
+"ItemId": "(O){{ModID}}_PeircingShot",
+"Price": 420,
+"AvailableStock":5,
+"AvailableStockLimit": "5",
+"IsRecipe": true,
+},
+                     {
+"Id": "{{ModID}}_CucaSerumRecipe",
+"ItemId": "(O){{ModID}}_CucaSerum",
+"Price": 420,
+"AvailableStock":5,
+"AvailableStockLimit": "5",
+"IsRecipe": true,
+},
+                     {
+"Id": "{{ModID}}_ExtractorMachine",
+"ItemId": "{{ModID}}_ExtractorMachine",
+"Price": 1500,
+"AvailableStock":5,
+"AvailableStockLimit": "5",
+"IsRecipe": false,
+},
+
+                    ]
+                }
+            }
+        },
+        {
+"Action":"EditData",
+"Target":"Data/Shops",
+"Entries":
+{
+"{{ModID}}_NikolaisShop":{
+"Owners":[
+{
+"Name":"FC.Nikolai",
+"Dialogues":[
+//dialogueanyothertime
+{
+"Id":"{{ModID}}_NikolaisShop",
+"Dialogue":"{{i18n:FC.Honeyshop}}"
+},
+]
+},
+],
+"Items":[
+{
+"Id":"(O){{ModID}}_CherryBlossomHoney",
+"Condition":null,
+"Price":2000,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_CherryBlossomHoney",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_LavaHoney",
+"Condition":null,
+"Price":205,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_LavaHoney",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_SeafoamHoney",
+"Condition":null,
+"Price":2020,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_SeafoamHoney",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_SnowHoney",
+"Condition":null,
+"Price":2030,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_SnowHoney",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_SunshineHoney",
+"Condition":null,
+"Price":3000,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_SunshineHoney",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_VoidHoney",
+"Condition":null,
+"Price":3000,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_VoidHoney",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_ChocoFrog",
+"Condition":null,
+"Price":15,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_ChocoFrog",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_RainbowHoneyPichi",
+"Condition":null,
+"Price":120,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_RainbowHoneyPichi",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+
+{
+"Id":"(O){{ModID}}_JellyBellyBumbleBees",
+"Condition":null,
+"Price":130,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"{{ModID}}_JellyBellyBumbleBees",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+
+{
+"Id":"(O){{ModID}}_HoneyDrops",
+"Condition":null,
+"Price":150,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"{{ModID}}_HoneyDrops",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+
+{
+"Id":"(O){{ModID}}_ChocoBar",
+"Condition":null,
+"Price":160,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"{{ModID}}_ChocoBar",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_BudJelly",
+"Condition":null,
+"Price":170,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"{{ModID}}_BudJelly",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_HoneyGopper",
+"Condition":null,
+"Price":180,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"{{ModID}}_HoneyGopper",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_SnowPop",
+"Condition":null,
+"Price":190,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"{{ModID}}_SnowPop",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"{{ModID}}_BayDrop",
+"Condition":null,
+"Price":1000,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"{{ModID}}_BayDrop",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_GreenAppleHoneyPop",
+"Condition":null,
+"Price":1000,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"{{ModID}}_GreenAppleHoneyPop",
+"AvailableStock":5,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"{{ModID}}_Ring1",
+"Condition":null,
+"Price":1000,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"{{ModID}}_Ring1",
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+
+]
+}
+}
+},
+{
+"Action":"EditData",
+"Target":"Data/Shops",
+"Entries":
+{
+"{{ModID}}_PierreShop":{
+"Owners":[
+{
+"Name":"Pierre",
+"Dialogues":[
+//dialogueanyothertime
+{
+"Id":"{{ModID}}_PierreShop",
+"Dialogue":"{{i18n:FC.PierreShop}}"
+},
+]
+},
+],
+"Items":[
+{
+"Id":"(O){{ModID}}_ChocoFruitSeeds",
+"Condition":null,
+"Price":120,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_ChocoFruitSeeds",
+"AvailableStock":10,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_ButtonFruitSeeds",
+"Condition":null,
+"Price":140,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_ButtonFruitSeeds",
+"AvailableStock":10,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_YohoFruitSeeds",
+"Condition":null,
+"Price":120,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_YohoFruitSeeds",
+"AvailableStock":10,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_DeepCaveFruitSeeds",
+"Condition":null,
+"Price":140,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_DeepCaveFruitSeeds",
+"AvailableStock":10,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"Marketpalooza.FurnitureGroup3",
+"AvaliableStock":1,
+"TradeItemId":null,
+"AvailableStockLimit":"Player",
+"RandomItemId":[
+"{{ModID}}_MarketpaloozaOddCrow1",
+"{{ModID}}_MarketpaloozaOddCrow2",
+"{{ModID}}_MarketpaloozaOddCrow3",
+"{{ModID}}_MarketpaloozaOddCrow4",
+]
+},
+]
+}
+}
+},
+{
+"Action":"EditData",
+"Target":"Data/Shops",
+"Entries":
+{
+"{{ModID}}_RobinsShop":{
+"Owners":[
+{
+"Name":"Robin",
+"Dialogues":[
+//dialogueanyothertime
+{
+"Id":"{{ModID}}_RobinFestival",
+"Dialogue":"{{i18n:FC.RobinsShop}}"
+},
+]
+},
+],
+"Items":[
+{
+"Id":"Marketpalooza.FurnitureGroup1",
+"AvaliableStock":2,
+"TradeItemId":null,
+"AvailableStockLimit":"Player",
+"RandomItemId":[
+"{{ModID}}_BrownCouplesSeat",
+"{{ModID}}_YellowCouplesSeat",
+"{{ModID}}_GreenCouplesSeat",
+"{{ModID}}_PinkCouplesSeat",
+"{{ModID}}_BlueCouplesSeat",
+]
+},
+{
+"Id":"Marketpalooza.FurnitureGroup2",
+"AvaliableStock":2,
+"TradeItemId":null,
+"AvailableStockLimit":"Player",
+"RandomItemId":[
+"{{ModID}}_OakCoffeeTable",
+"{{ModID}}_WalnutCoffeeTable",
+"{{ModID}}_BirchCoffeeTable",
+"{{ModID}}_CherryCoffeeTable",
+]
+},
+{
+"Id":"Marketpalooza.FurnitureGroup3",
+"AvaliableStock":2,
+"TradeItemId":null,
+"AvailableStockLimit":"Player",
+"RandomItemId":[
+"{{ModID}}_SmallOakCoffeeTable",
+"{{ModID}}_SmallWalnutCoffeeTable",
+"{{ModID}}_SmallBirchCoffeeTable",
+"{{ModID}}_SmallCherryCoffeeTable",
+]
+},
+{
+"Id":"Marketpalooza.FurnitureGroup4",
+"AvaliableStock":2,
+"TradeItemId":null,
+"AvailableStockLimit":"Player",
+"RandomItemId":[
+"{{ModID}}_MiniOakCoffeeTable",
+"{{ModID}}_MiniWalnutCoffeeTable",
+"{{ModID}}_MiniBirchCoffeeTable",
+"{{ModID}}_MiniCherryCoffeeTable",
+]
+},
+{
+"Id":"Marketpalooza.FurnitureGroup4",
+"AvaliableStock":2,
+"TradeItemId":null,
+"AvailableStockLimit":"Player",
+"RandomItemId":[
+"{{ModID}}_Toliet0",
+"{{ModID}}_Toliet1",
+"{{ModID}}_Toliet2",
+"{{ModID}}_Toliet3",
+"{{ModID}}_Toliet5",
+]
+},
+{
+"Id":"Marketpalooza.FurnitureGroup5",
+"AvaliableStock":2,
+"TradeItemId":null,
+"AvailableStockLimit":"Player",
+"RandomItemId":[
+"{{ModID}}_Sink0",
+"{{ModID}}_Sink1",
+"{{ModID}}_Sink2",
+"{{ModID}}_Sink3",
+"{{ModID}}_Sink4",
+"{{ModID}}_Sink5",
+]
+},
+{
+"Id":"{{ModID}}_Bathtub",
+"ItemId":"{{ModID}}_Bathtub",
+"AvailableStock":1,
+"AvailableStockLimit":"player"
+},
+]
+}
+}
+},
+{
+"Action":"EditData",
+"Target":"Data/Shops",
+"Entries":
+{
+"{{ModID}}_EmilysShop":{
+"Owners":[
+{
+"Name":"Emily",
+"Dialogues":[
+//dialogueanyothertime
+{
+"Id":"{{ModID}}_EmilysShop",
+"Dialogue":"{{i18n:FC.EmilysShop}}"
+},
+]
+},
+],
+"Items":[
+{
+"Id":"(S){{ModID}}_Shirt0",
+"ItemId":"(S){{ModID}}_Shirt0",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(S){{ModID}}_Shirt1",
+"ItemId":"(S){{ModID}}_Shirt1",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(S){{ModID}}_Shirt2",
+"ItemId":"(S){{ModID}}_Shirt2",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(S){{ModID}}_Shirt3",
+"ItemId":"(S){{ModID}}_Shirt3",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(S){{ModID}}_Shirt4",
+"ItemId":"(S){{ModID}}_Shirt4",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(S){{ModID}}_Shirt5",
+"ItemId":"(S){{ModID}}_Shirt5",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(S){{ModID}}_Shirt6",
+"ItemId":"(S){{ModID}}_Shirt6",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(S){{ModID}}_Shirt7",
+"ItemId":"(S){{ModID}}_Shirt7",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(S){{ModID}}_Shirt8",
+"ItemId":"(S){{ModID}}_Shirt8",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(S){{ModID}}_Shirt9",
+"ItemId":"(S){{ModID}}_Shirt9",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(S){{ModID}}_Shirt10",
+"ItemId":"(S){{ModID}}_Shirt10",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(S){{ModID}}_Shirt11",
+"ItemId":"(S){{ModID}}_Shirt11",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(S){{ModID}}_Shirt12",
+"ItemId":"(S){{ModID}}_Shirt12",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(S){{ModID}}_Shirt13",
+"ItemId":"(S){{ModID}}_Shirt13",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(S){{ModID}}_Shirt14",
+"ItemId":"(S){{ModID}}_Shirt14",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(S){{ModID}}_Shirt15",
+"ItemId":"(S){{ModID}}_Shirt15",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+
+]
+}
+}
+},
+{
+"Action":"EditData",
+"Target":"Data/Shops",
+"Entries":
+{
+"{{ModID}}_GussShop":{
+"Owners":[
+{
+"Name":"Gus",
+"Dialogues":[
+//dialogueanyothertime
+{
+"Id":"{{ModID}}_GussShop",
+"Dialogue":"{{i18n:FC.GussShop}}"
+},
+]
+},
+],
+"Items":[
+{
+"Id":"(O){{ModID}}_KingsRangoonDish",
+"Condition":null,
+"Price":120,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_KingsRangoonDish",
+"AvailableStock":3,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"{{i18n:FC.megawrap}}",
+"Condition":null,
+"Price":120,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_MegaWrap",
+"AvailableStock":3,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_SweetenBreadPudding",
+"Condition":null,
+"Price":100,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_SweetenBreadPudding",
+"AvailableStock":3,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_AcornCake",
+"Condition":null,
+"Price":100,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_AcornCake",
+"AvailableStock":3,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_HoneyCrumble",
+"Condition":null,
+"Price":100,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_HoneyCrumble",
+"AvailableStock":3,
+"AvailableStockLimit":"player"
+},
+
+{
+"Id":"(O){{ModID}}_LemonberryJuice",
+"Condition":null,
+"Price":100,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_LemonberryJuice",
+"AvailableStock":3,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_MidnightBubbly",
+"Condition":null,
+"Price":100,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_MidnightBubbly",
+"AvailableStock":3,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O){{ModID}}_HotChoco",
+"Condition":null,
+"Price":100,
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"(O){{ModID}}_HotChoco",
+"AvailableStock":3,
+"AvailableStockLimit":"player"
+},
+                     {
+"Id": "{{ModID}}_HotChocoRecipe",
+"ItemId": "(O){{ModID}}_HotChoco",
+"Price": 500,
+"AvailableStock":3,
+"AvailableStockLimit": "player",
+"IsRecipe": true,
+"Condition":"PLAYER_FRIENDSHIP_POINTS current FC.Kaia 500",
+},
+                     {
+"Id": "{{ModID}}_MilkCoffeeRecipe",
+"ItemId": "(O){{ModID}}_MilkCoffee",
+"Price": 500,
+"AvailableStock":3,
+"AvailableStockLimit": "player",
+"IsRecipe": true,
+"Condition":"PLAYER_FRIENDSHIP_POINTS current FC.Valerie 500",
+},
+                     {
+"Id": "{{ModID}}_StuffedMidnightCarpRecipe",
+"ItemId": "{{ModID}}_StuffedMidnightCarp",
+"Price": 500,
+"AvailableStock":3,
+"AvailableStockLimit": "player",
+"IsRecipe": true,
+"Condition":"PLAYER_FRIENDSHIP_POINTS current FC.Grady 500",
+},
+                     {
+"Id": "{{ModID}}_DragaTailPuddingRecipe",
+"ItemId": "(O){{ModID}}_DragaTailPudding",
+"Price": 500,
+"AvailableStock":3,
+"AvailableStockLimit": "player",
+"IsRecipe": true,
+"Condition":"PLAYER_FRIENDSHIP_POINTS current FC.Lyell 500",
+},
+                     {
+"Id": "{{ModID}}_FirePepperMeatPieRecipe",
+"ItemId": "(O){{ModID}}_FirePepperMeatPie",
+"Price": 500,
+"AvailableStock":3,
+"AvailableStockLimit": "player",
+"IsRecipe": true,
+"Condition":"PLAYER_FRIENDSHIP_POINTS current FC.Lyell 500",
+},
+                     {
+"Id": "{{ModID}}_DarkTuffWedgesRecipe",
+"ItemId": "(O){{ModID}}_DarkTuffWedges",
+"Price": 500,
+"AvailableStock":3,
+"AvailableStockLimit": "player",
+"IsRecipe": true,
+"Condition":"PLAYER_FRIENDSHIP_POINTS current FC.Alan 500",
+},
+                     {
+"Id": "{{ModID}}_MidnightSurpiseRecipe",
+"ItemId": "(O){{ModID}}_MidnightSurpise",
+"Price": 500,
+"AvailableStock":3,
+"AvailableStockLimit": "player",
+"IsRecipe": true,
+"Condition":"PLAYER_FRIENDSHIP_POINTS current FC.Dezerie 500",
+},
+                     {
+"Id": "{{ModID}}_FarmHandSupperRecipe",
+"ItemId": "(O){{ModID}}_FarmHandSupper",
+"Price": 500,
+"AvailableStock":3,
+"AvailableStockLimit": "player",
+"IsRecipe": true,
+"Condition":"PLAYER_FRIENDSHIP_POINTS current FC.Lyell 750",
+},
+                     {
+"Id": "{{ModID}}_PaneekiStirFryRecipe",
+"ItemId": "(O){{ModID}}_PaneekiStirFry",
+"Price": 500,
+"AvailableStock":3,
+"AvailableStockLimit": "player",
+"IsRecipe": true,
+"Condition":"PLAYER_FRIENDSHIP_POINTS current FC.Lyell 1000",
+},
+                     {
+"Id": "{{ModID}}_ButtonFruitCakeRecipe",
+"ItemId": "(O){{ModID}}_ButtonFruitCake",
+"Price": 500,
+"AvailableStock":3,
+"AvailableStockLimit": "player",
+"IsRecipe": true,
+"Condition":"PLAYER_FRIENDSHIP_POINTS current FC.Nikolai 750",
+},
+                     {
+"Id": "{{ModID}}_YohoHashRecipe",
+"ItemId": "(O){{ModID}}_YohoHash",
+"Price": 500,
+"AvailableStock":3,
+"AvailableStockLimit": "player",
+"IsRecipe": true,
+"Condition":"PLAYER_FRIENDSHIP_POINTS current FC.Nikolai 250",
+},
+                     {
+"Id": "{{ModID}}_ChocoBunRecipe",
+"ItemId": "(O){{ModID}}_ChocoBun",
+"Price": 500,
+"AvailableStock":3,
+"AvailableStockLimit": "player",
+"IsRecipe": true,
+"Condition":"PLAYER_FRIENDSHIP_POINTS current FC.Valerie 750",
+},
+                     {
+"Id": "{{ModID}}_DeepCaveFruitJuiceRecipe",
+"ItemId": "(O){{ModID}}_DeepCaveFruitJuice",
+"Price": 500,
+"AvailableStock":3,
+"AvailableStockLimit": "player",
+"IsRecipe": true,
+"Condition":"PLAYER_FRIENDSHIP_POINTS current FC.Dezerie 250",
+},
+]
+}
+}
+},
+{
+"Action":"EditData",
+"Target":"Data/Shops",
+"Entries":
+{
+"{{ModID}}_ShoeShop":{
+"Owners":[
+{
+"Name":"FC.Maverick",
+"Dialogues":[
+//dialogueanyothertime
+{
+"Id":"{{ModID}}_ShoeShop",
+"Dialogue":"{{i18n:FC.ShoeShop}}"
+},
+]
+},
+],
+"Items":[
+{
+"Id":"{{ModID}}_FrenchDodoEgg",
+"ItemId":"{{ModID}}_FrenchDodoEgg",
+"AvailableStock":2,
+"AvailableStockLimit":"2"
+},
+{
+"Id":"{{ModID}}_Shirt1",
+"ItemId":"{{ModID}}_Shirt1",
+"AvailableStock":2,
+"AvailableStockLimit":"2"
+},
+{
+"Id":"(B)515",
+"ItemId":"(B)515",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(B)504",
+"ItemId":"(B)504",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(B)505",
+"ItemId":"(B)505",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(B)506",
+"ItemId":"(B)506",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(B)507",
+"ItemId":"(B)507",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(B)508",
+"ItemId":"(B)508",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+{
+"Id":"(B)515",
+"ItemId":"(B)515",
+"AvailableStock":4,
+"AvailableStockLimit":"4"
+},
+]
+}
+}
+},
+{
+"Action":"EditData",
+"Target":"Data/Shops",
+"Entries":
+{
+"{{ModID}}_MarlonsShop":{
+"Owners":[
+{
+"Name":"None",
+"Dialogues":[
+//dialogueanyothertime
+{
+"Id":"{{ModID}}_MarlonsShop",
+"Dialogue":"{{i18n:FC.MarlonsShop}}"
+},
+]
+},
+],
+"Items":[
+    {
+"Id":"{{ModID}}_Sword0",
+"ItemId":"{{ModID}}_Sword0",
+"Price":10000,
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+    {
+"Id":"{{ModID}}_Sword1",
+"ItemId":"{{ModID}}_Sword1",
+"Price":10000,
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+    {
+"Id":"{{ModID}}_Sword2",
+"ItemId":"{{ModID}}_Sword2",
+"Price":10000,
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+    {
+"Id":"{{ModID}}_Sword3",
+"ItemId":"{{ModID}}_Sword3",
+"Price":10000,
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+    {
+"Id":"{{ModID}}_Sword4",
+"ItemId":"{{ModID}}_Sword4",
+"Price":10000,
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+    {
+"Id":"{{ModID}}_Sword5",
+"ItemId":"{{ModID}}_Sword5",
+"Price":10000,
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+]
+}
+}
+},
+{
+"Action":"EditData",
+"Target":"Data/Shops",
+"Entries":
+{
+"{{ModID}}_ClintsShop":{
+"Owners":[
+{
+"Name":"Clint",
+"Dialogues":[
+//dialogueanyothertime
+{
+"Id":"{{ModID}}_ClintsShop",
+"Dialogue":"{{i18n:FC.ClintsShop}}"
+},
+]
+},
+],
+"Items":[
+{
+"Id":"(O)66",
+"ItemId":"(O)66",
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O)60",
+"ItemId":"(O)60",
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O)70",
+"ItemId":"(O)70",
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O)68",
+"ItemId":"(O)68",
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O)72",
+"ItemId":"(O)72",
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O)84",
+"ItemId":"(O)84",
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O)78",
+"ItemId":"(O)78",
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O)101",
+"ItemId":"(O)101",
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O)105",
+"ItemId":"(O)105",
+"AvailableStock":2,
+"AvailableStockLimit":"player"
+},
+{
+"Id":"(O)330",
+"ItemId":"(O)330",
+"AvailableStock":999,
+"AvailableStockLimit":"player"
+},
+]
+}
+}
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries":
+                        {
+               "{{ModID}}_LyellsShop": {
+                    "Owners": [
+                        {
+"Name": "FC.Grady",
+"Dialogues": [
+    // dialogue any other time
+    {
+  "Id": "{{ModID}}.LyellsShop",
+  "Dialogue": "{{i18n:Lyells.Shop}}"
+    },
+]
+                        },
+                    ],
+                    "Items": [
+                        {
+"Id": "{{ModID}}_MovoraptorEgg",
+"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_UnlockLyellsAnimals",
+"Price": 1500,
+"ItemId": "{{ModID}}_MovoraptorEgg",
+"AvailableStock":10,
+"AvailableStockLimit": "4"
+},
+                        {
+"Id": "{{ModID}}_TropaTreeSapling",
+"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_UnlockTropaTree",
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 500,
+"ItemId": "{{ModID}}_TropaTreeSapling",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_ReuuSeed",
+"Condition": null,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 500,
+"ItemId": "{{ModID}}_ReuuSeed",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_ZinfazuFruitSeeds",
+"Condition": "SEASON Summer",
+"Price": 50,
+"ItemId": "{{ModID}}_ZinfazuFruitSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_ButterTuffSeeds",
+"Condition": "SEASON Summer",
+"Price": 10,
+"ItemId": "{{ModID}}_ButterTuffSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_PaneekiSeeds",
+"Condition": "SEASON Fall",
+"Price": 16,
+"ItemId": "{{ModID}}_PaneekiSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_PopachiniSeeds",
+"Condition": "SEASON Fall",
+"Price": 30,
+"ItemId": "{{ModID}}_PopachiniSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_IceBerriesSeeds",
+"Condition": "SEASON Winter",
+"Price": 20,
+"ItemId": "{{ModID}}_IceBerriesSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_FairyCapSeeds",
+"Condition": "SEASON Fall",
+"Price": 80,
+"ItemId": "{{ModID}}_FairyCapSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_DragaClawSeeds",
+"Condition": "SEASON Winter",
+"Price": 120,
+"ItemId": "{{ModID}}_DragaClawSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_CucumabaSeeds",
+"Condition": "SEASON Winter",
+"Price": 100,
+"ItemId": "{{ModID}}_CucumabaSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_GaggleShroomsSeeds",
+"Condition": "SEASON Fall",
+"Price": 50,
+"ItemId": "{{ModID}}_GaggleShroomsSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_WarpRootSeeds",
+"Condition": "SEASON Fall",
+"Price": 10,
+"ItemId": "{{ModID}}_WarpRootSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_DragaTongueSeeds",
+"Condition": "SEASON Summer",
+"Price": 150,
+"ItemId": "{{ModID}}_DragaTongueSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_AdauulaStalksSeeds",
+"Condition": "SEASON Spring",
+"Price": 10,
+"ItemId": "{{ModID}}_AdauulaStalksSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_DragaDoughnut",
+"Condition": null,
+"Price": 100,
+"ItemId": "{{ModID}}_DragaDoughnut",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_CapWedges",
+"Condition": null,
+"Price": 110,
+"ItemId": "{{ModID}}_CapWedges",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_LoMaCakes",
+"Condition": null,
+"Price": 110,
+"ItemId": "{{ModID}}_LoMaCakes",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_ZinfazuIcecream",
+"Condition": null,
+"Price": 130,
+"ItemId": "{{ModID}}_ZinfazuIcecream",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_IceBerryWine",
+"Condition": null,
+"Price": 210,
+"ItemId": "{{ModID}}_IceBerryWine",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_FarmHandSupper",
+"Condition": null,
+"Price": 210,
+"ItemId": "{{ModID}}_FarmHandSupper",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+{
+"Id": "{{ModID}}_TropaWine",
+"Condition": null,
+"Price": 20000,
+"ItemId": "{{ModID}}_TropaWine",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},                
+                    ],
+                },
+            },
+        },
+                  {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries":
+                        {
+               "{{ModID}}_LyellsFestivalShop": {
+                    "Owners": [
+                        {
+"Name": "FC.Lyell",
+"Dialogues": [
+    // dialogue any other time
+    {
+  "Id": "{{ModID}}.LyellsShop",
+  "Dialogue": "{{i18n:lyells.shop}}"
+    },
+]
+                        },
+                    ],
+                    "Items": [
+                                                                        {
+"Id": "{{i18n:FC.TraditionalLantern}}",
+"Condition": null,
+"Price": 2000,
+"ItemId": "{{ModID}}_TraditionalLantern",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                                                {
+"Id": "{{ModID}}_DragaWhiskey",
+"Condition": null,
+"Price": 20000,
+"ItemId": "{{ModID}}_DragaWhiskey",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                         {
+"Id": "{{ModID}}_MovoraptorEgg",
+"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_UnlockLyellsAnimals",
+"Price": 1500,
+"ItemId": "{{ModID}}_MovoraptorEgg",
+"AvailableStock":10,
+"AvailableStockLimit": "4"
+},
+                        {
+"Id": "{{ModID}}_TropaTreeSapling",
+"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_UnlockTropaTree",
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 500,
+"ItemId": "{{ModID}}_TropaTreeSapling",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_ReuuSeed",
+"Condition": null,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 500,
+"ItemId": "{{ModID}}_ReuuSeed",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_ZinfazuFruitSeeds",
+"Condition": null,
+"Price": 50,
+"ItemId": "{{ModID}}_ZinfazuFruitSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_ButterTuffSeeds",
+"Condition": null,
+"Price": 10,
+"ItemId": "{{ModID}}_ButterTuffSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_PaneekiSeeds",
+"Price": 16,
+"ItemId": "{{ModID}}_PaneekiSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_PopachiniSeeds",
+"Condition": null,
+"Price": 30,
+"ItemId": "{{ModID}}_PopachiniSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_IceBerriesSeeds",
+"Condition": null,
+"Price": 20,
+"ItemId": "{{ModID}}_IceBerriesSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_FairyCapSeeds",
+"Condition": null,
+"Price": 80,
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_DragaClawSeeds",
+"Condition": null,
+"Price": 120,
+"ItemId": "{{ModID}}_DragaClawSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_CucumabaSeeds",
+"Condition": null,
+"Price": 100,
+"ItemId": "{{ModID}}_CucumabaSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_GaggleShroomsSeeds",
+"Condition": null,
+"Price": 50,
+"ItemId": "{{ModID}}_GaggleShroomsSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_WarpRootSeeds",
+"Condition": null,
+"Price": 10,
+"ItemId": "{{ModID}}_WarpRootSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_DragaTongueSeeds",
+"Price": 150,
+"ItemId": "{{ModID}}_DragaTongueSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_AdauulaStalksSeeds",
+"Condition": null,
+"Price": 10,
+"ItemId": "{{ModID}}_AdauulaStalksSeeds",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_DragaDoughnut",
+"Condition": null,
+"Price": 100,
+"ItemId": "{{ModID}}_DragaDoughnut",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_CapWedges",
+"Condition": null,
+"Price": 110,
+"ItemId": "{{ModID}}_CapWedges",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_LoMaCakes",
+"Condition": null,
+"Price": 110,
+"ItemId": "{{ModID}}_LoMaCakes",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_ZinfazuIcecream",
+"Condition": null,
+"Price": 130,
+"ItemId": "{{ModID}}_ZinfazuIcecream",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_IceBerryWine",
+"Condition": null,
+"Price": 210,
+"ItemId": "{{ModID}}_IceBerryWine",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_FarmHandSupper",
+"Condition": null,
+"Price": 210,
+"ItemId": "{{ModID}}_FarmHandSupper",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+{
+"Id": "{{ModID}}_TropaWine",
+"Condition": null,
+"Price": 20000,
+"ItemId": "{{ModID}}_TropaWine",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},  
+                        
+                    ]
+                }
+            }
+        },
+                {
+"Action": "EditData",
+"Target": "Data/Shops",
+"Entries":
+{
+"Fellowclown.GP_Shop": {
+"Owners": [
+{
+"Name": "None",
+"Dialogues": [
+// dialogue any other time
+{
+"Id": "Fellowclown.GP_Shop",
+"Dialogue": "{{i18n:FC.GP}}"
+},
+]
+},
+],
+"Items": [
+{
+"Id": "{{ModID}}_StatueGem",
+"ItemId": "{{ModID}}_StatueGem",
+"Price": 2000,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "!PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
+"Id": "815",
+"ItemId": "815",
+"Price": 850,
+"AvailableStock":10,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
+"Id": "{{ModID}}_BehatedRing",
+"ItemId": "{{ModID}}_BehatedRing",
+"Price": 1000,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
+"Id": "{{ModID}}_EternalEmbraceRing",
+"ItemId": "{{ModID}}_EternalEmbraceRing",
+"Price": 3000,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
+"Id": "{{ModID}}_BullsFuryRing",
+"ItemId": "{{ModID}}_BullsFuryRing",
+"Price": 4000,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
+"Id": "{{ModID}}_TheStingerRing",
+"ItemId": "{{ModID}}_TheStingerRing",
+"Price": 2000,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
+"Id": "{{ModID}}_ShellRing",
+"ItemId": "{{ModID}}_ShellRing",
+"Price": 800,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
+"Id": "{{ModID}}_VoidlingRing",
+"ItemId": "{{ModID}}_VoidlingRing",
+"Price": 5000,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
+"Id": "{{ModID}}_ElizabethsRing",
+"ItemId": "{{ModID}}_ElizabethsRing",
+"Price": 3000,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
+"Id": "{{ModID}}_RiverBedJelly",
+"ItemId": "{{ModID}}_RiverBedJelly",
+"Price": 1200,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
+"Id": "{{ModID}}_FemaleWarrior",
+"ItemId": "{{ModID}}_FemaleWarrior",
+"Price": 900,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
+"Id": "{{ModID}}_MaleWarrior",
+"ItemId": "{{ModID}}_MaleWarrior",
+"Price": 900,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+]
+}
+}
+},
+]
+}

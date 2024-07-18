@@ -1,0 +1,183 @@
+{
+    "Changes": [
+ {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/WearableData",
+            "Entries":
+            {
+                "(O){{ModID}}_EternalEmbraceRing": { "BuffIdToApply": "{{ModID}}_EternalEmbraceRing.Buff" },
+            },
+
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries":
+            {
+                "{{ModID}}_EternalEmbraceRing.Buff": {
+                    "DisplayName":"{{i18n:FC.EternalEmbraceRing.Buff}}",
+                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconSpriteIndex": 0,
+                    "Effects": { "Defense": 6 }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/WearableData",
+            "Entries":
+            {
+                "(O){{ModID}}_BehatedRing": { "BuffIdToApply": "{{ModID}}_BehatedRing.Buff" },
+              }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries":
+            {
+                     "{{ModID}}_BehatedRing.Buff": {
+                    "DisplayName":"{{i18n:FC.BehatedRing.Buff}}",
+                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconSpriteIndex": 4,
+                    "Effects": { "Attack": 3 }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/WearableData",
+            "Entries":
+            {
+                "(O){{ModID}}_BullsFuryRing": { "BuffIdToApply": "{{ModID}}_BullsFuryRing.Buff" },
+              }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries":
+            {
+                     "{{ModID}}_BullsFuryRing.Buff": {
+                    "DisplayName":"{{i18n:FC.BullsFuryRing.Buff}}",
+                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconSpriteIndex": 2,
+                    "Effects": { 
+                    "Attack": 4,
+                    "Speed": 2,
+                     }
+                }
+            }
+        },
+            {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/WearableData",
+            "Entries":
+            {
+                "(O){{ModID}}_TheStingerRing": { "BuffIdToApply": "{{ModID}}_TheStingerRing.Buff" },
+              }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries":
+            {
+                     "{{ModID}}_TheStingerRing.Buff": {
+                    "DisplayName":"{{i18n:FC.TheStingerRing.Buff}}",
+                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconSpriteIndex": 3,
+                    "Effects": { 
+                    "FarmingLevel": 2,
+                    "Speed": 4,
+                     }
+                }
+            }
+        },
+               {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/WearableData",
+            "Entries":
+            {
+                "(O){{ModID}}_ShellRing": { "BuffIdToApply": "{{ModID}}_ShellRing.Buff" },
+              }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries":
+            {
+                     "{{ModID}}_ShellRing.Buff": {
+                    "DisplayName":"{{i18n:FC.ShellRing.Buff}}",
+                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconSpriteIndex": 6,
+                    "Effects": { 
+                    "Defense": 8,
+                    "Speed": -3,
+                     }
+                }
+            }
+        },
+                       {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/WearableData",
+            "Entries":
+            {
+                "(O){{ModID}}_VoidlingRing": { "BuffIdToApply": "{{ModID}}_VoidlingRing.Buff" },
+              }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries":
+            {
+                     "{{ModID}}_VoidlingRing.Buff": {
+                    "DisplayName":"{{i18n:FC.VoidlingRing.Buff}}",
+                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconSpriteIndex": 5,
+                    "Effects": { 
+                    "Attack": 4,
+                    "Speed": 3,
+                    "Defense": 1,
+                     }
+                }
+            }
+        },
+           {
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries":
+            {
+                     "{{ModID}}_YobasBlessing.Buff": {
+                    "DisplayName":"{{i18n:FC.YobasBlessing.Buff}}",
+                    "Duration": 900000,
+                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconSpriteIndex": 1,
+                    "Effects": { 
+                    "LuckLevel": 2,
+                    "Speed": 1,
+                    "Defense": 1,
+
+                     }
+                }
+            }
+        },
+            {
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries":
+            {
+                    "{{ModID}}_ArahsBlessing.Buff": {
+                    "DisplayName":"{{i18n:FC.ArahsBlessing.Buff}}",
+                    "Duration": 900000,
+                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconSpriteIndex": 7,
+                    "Effects": { 
+                    "MaxStamina": 100,
+                    "Defense": 3,
+                    "Attack": 3,
+
+
+                     }
+                }
+            }
+        },
+  ]
+}
