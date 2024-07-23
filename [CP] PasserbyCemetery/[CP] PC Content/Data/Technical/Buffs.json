@@ -179,5 +179,25 @@
                 }
             }
         },
+           {
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries":
+            {
+                    "{{ModID}}_Illness.Buff": {
+                    "DisplayName":"{{i18n:FC.Illness.Buff}}",
+                    "Duration": 900000,
+                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconSpriteIndex": 8,
+                    "Effects": { 
+                    "Speed": -4,
+                    "Defense": -3,
+                 
+
+
+                     }
+                }
+            }
+        },
   ]
 }

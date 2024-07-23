@@ -36,7 +36,7 @@ Load TempActor Assets
  {
 "LogName": "Base Characters",
 "Action": "Load",
-"Target": "Characters/FC.Coffin,Characters/FC.Monster,Characters/FC.RoswellSwim,Characters/FC.Farmer,Characters/FC.Raptor1,Characters/FC.Raptor2,Characters/FC.Invention,Portraits/FC.Twinkle,Characters/FC.Twinkle,Portraits/FC.Mellie,Characters/FC.Mellie,Portraits/FC.GhostBoy,Characters/FC.StoneFamilyHug,Characters/FC.BoxysHouse,Characters/FC.FamilyPainting,Characters/FC.Objects,Characters/FC.Heart,Characters/FC.River,Characters/FC.Fishgirl,Characters/FC.Willy,Characters/FC.PotionPot,Portraits/FC.Heart,Characters/FC.Emotes,Characters/FC.PopperPC,Characters/FC.Jeremy,Characters/FC.CaveBlock,Characters/FC.Campfire,Characters/FC.GhostBoy,Characters/FC.GradyRide,Characters/FC.Rumple,Characters/FC.Aluua,Portraits/FC.Aluua,Portraits/FC.Arah,Characters/FC.Arah,Characters/FC.Mayo,Characters/FC.BoxyCakeSurprise,Characters/FC.FairyFlock,Characters/FC.BoxyCowRide,Characters/FC.BeeGroup1,Characters/FC.BeeGroup2,Characters/FC.BeeGroup3",
+"Target": "Portraits/FC.VoidTree,Characters/FC.VoidTree,Characters/FC.Coffin,Characters/FC.Monster,Characters/FC.RoswellSwim,Characters/FC.Farmer,Characters/FC.Raptor1,Characters/FC.Raptor2,Characters/FC.Invention,Portraits/FC.Twinkle,Characters/FC.Twinkle,Portraits/FC.Mellie,Characters/FC.Mellie,Portraits/FC.GhostBoy,Characters/FC.StoneFamilyHug,Characters/FC.BoxysHouse,Characters/FC.FamilyPainting,Characters/FC.Objects,Characters/FC.Heart,Characters/FC.River,Characters/FC.Fishgirl,Characters/FC.Willy,Characters/FC.PotionPot,Portraits/FC.Heart,Characters/FC.Emotes,Characters/FC.PopperPC,Characters/FC.Jeremy,Characters/FC.CaveBlock,Characters/FC.Campfire,Characters/FC.GhostBoy,Characters/FC.GradyRide,Characters/FC.Rumple,Characters/FC.Aluua,Portraits/FC.Aluua,Portraits/FC.Arah,Characters/FC.Arah,Characters/FC.Mayo,Characters/FC.BoxyCakeSurprise,Characters/FC.FairyFlock,Characters/FC.BoxyCowRide,Characters/FC.BeeGroup1,Characters/FC.BeeGroup2,Characters/FC.BeeGroup3",
 "FromFile": "Assets/Npcs/TempActors/{{TargetPathOnly}}/{{TargetWithoutPath}}.png", 
  },
  {
@@ -60,7 +60,7 @@ load Custom Items
 ************************************************/
 {
 "Action": "Load",
-"Target": "Mods/{{ModID}}/BuffIcons,Mods/{{ModID}}/WildTree_spring,Mods/{{ModID}}/WildTree_summer,Mods/{{ModID}}/WildTree_fall,Mods/{{ModID}}/WildTree_winter,Mods/{{ModID}}/Machines,Mods/{{ModID}}/OddCrows,Mods/{{ModID}}/Objects,Mods/{{ModID}}/Shirts,Mods/{{ModID}}/Crops,Mods/{{ModID}}/Trees,Mods/{{ModID}}/JokeTools,Mods/{{ModID}}/Furniture,Mods/{{ModID}}/Weapons",
+"Target": "Mods/{{ModID}}/BuffIcons,Mods/{{ModID}}/VoidTree,Mods/{{ModID}}/WildTree_spring,Mods/{{ModID}}/WildTree_summer,Mods/{{ModID}}/WildTree_fall,Mods/{{ModID}}/WildTree_winter,Mods/{{ModID}}/Machines,Mods/{{ModID}}/OddCrows,Mods/{{ModID}}/Objects,Mods/{{ModID}}/Shirts,Mods/{{ModID}}/Crops,Mods/{{ModID}}/Trees,Mods/{{ModID}}/JokeTools,Mods/{{ModID}}/Furniture,Mods/{{ModID}}/Weapons",
 "FromFile": "Assets/Objects/{{TargetWithoutPath}}.png"
 },
 /************************************************

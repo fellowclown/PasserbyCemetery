@@ -4191,8 +4191,6 @@
   "ExcludeFromShippingCollection": "{{AddToPerfection}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
-    "category_fruits",
-    "category_ingredients",
   ],
   "CustomFields": null
   }
@@ -4301,8 +4299,6 @@
   "ExcludeFromShippingCollection": "{{AddToPerfection}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
-    "category_fruits",
-    "category_ingredients",
     "color_blue"
   ],
   "CustomFields": null
@@ -6497,12 +6493,12 @@
       "GlowColor": null,
       "CustomAttributes": {
         "FarmingLevel": 0.0,
-        "FishingLevel": 2.0,
-        "MiningLevel": 2.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
         "LuckLevel": 0.0,
         "ForagingLevel": 0.0,
         "MaxStamina": 0.0,
-        "MagneticRadius": 2.0,
+        "MagneticRadius": 0.0,
         "Speed": 0.0,
         "Defense": 0.0,
         "Attack": 0.0
@@ -8115,6 +8111,332 @@
   }
 }
 },
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_VoidFruit": {
+  "Name": "{{ModID}}_VoidFruit",
+  "DisplayName": "{{i18n:FC.VoidFruit}}",
+  "Description": "{{i18n:FC.VoidFruit.Desc}}",
+  "Type": "Fruit",
+  "Category": -79,
+  "Price": 50,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 167,
+  "Edibility": 20,
+  "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 3.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 1.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "color_purple"
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_LargeGouudCheese": {
+  "Name": "{{ModID}}_LargeGouudCheese",
+  "DisplayName": "{{i18n:FC.LargeGouudCheese}}",
+  "Description": "{{i18n:FC.LargeGouudCheese.Desc}}",
+  "Type": "Basic",
+  "Category": -26,
+  "Price": 340,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 158,
+  "Edibility": 40,
+  "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+     "color_yellow"
+  ],
+  "CustomFields": null
+  }
+}
+},
+  {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_SmallGouudCheese": {
+  "Name": "{{ModID}}_SmallGouudCheese",
+  "DisplayName": "{{i18n:FC.SmallGouudCheese}}",
+  "Description": "{{i18n:FC.SmallGouudCheese.Desc}}",
+  "Type": "Basic",
+  "Category": -26,
+  "Price": 120,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 159,
+  "Edibility": 20,
+  "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+     "color_yellow"
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_AgedLargeGouudCheese": {
+  "Name": "{{ModID}}_AgedLargeGouudCheese",
+  "DisplayName": "{{i18n:FC.AgedLargeGouudCheese}}",
+  "Description": "{{i18n:FC.AgedLargeGouudCheese.Desc}}",
+  "Type": "Artisan Goods",
+  "Category": -26,
+  "Price": 640,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 160,
+  "Edibility": 60,
+  "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+     "color_brown"
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_AgedSmallGouudCheese": {
+  "Name": "{{ModID}}_AgedSmallGouudCheese",
+  "DisplayName": "{{i18n:FC.AgedSmallGouudCheese}}",
+  "Description": "{{i18n:FC.AgedSmallGouudCheese.Desc}}",
+  "Type": "Artisan Goods",
+  "Category": -26,
+  "Price": 640,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 161,
+  "Edibility": 60,
+  "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+     "color_brown"
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_VoidMilk": {
+  "Name": "{{ModID}}_VoidMilk",
+  "DisplayName": "{{i18n:FC.VoidMilk}}",
+  "Description": "{{i18n:FC.VoidMilk.Desc}}",
+  "Type": "Artisan Goods",
+  "Category": -26,
+  "Price": 180,
+  "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 168,
+  "Edibility": 40,
+  "IsDrink": true,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": 0,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 100,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 1.0,
+        "Attack": 2.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+     "color_purple",
+      "drink_item",
+
+  ],
+  "CustomFields": null
+  }
+}
+},
 /************************************************
  Weapons
 ************************************************/
@@ -8774,222 +9096,7 @@
   },
 }
   },
-  {
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries": {
- "{{ModID}}_LargeGouudCheese": {
-  "Name": "{{ModID}}_LargeGouudCheese",
-  "DisplayName": "{{i18n:FC.LargeGouudCheese}}",
-  "Description": "{{i18n:FC.LargeGouudCheese.Desc}}",
-  "Type": "Basic",
-  "Category": -26,
-  "Price": 340,
-   "Texture": "Mods/{{ModID}}/Objects",
-  "SpriteIndex": 158,
-  "Edibility": 40,
-  "IsDrink": false,
-  "CanBeGivenAsGift": true,
-  "CanBeTrashed": true,
-  "Buffs": [
-    {
-      "Id": null,
-      "BuffId": null,
-      "IconTexture": null,
-      "IconSpriteIndex": 0,
-      "Duration": 0,
-      "IsDebuff": false,
-      "GlowColor": null,
-      "CustomAttributes": {
-        "FarmingLevel": 0.0,
-        "FishingLevel": 0.0,
-        "MiningLevel": 0.0,
-        "LuckLevel": 0.0,
-        "ForagingLevel": 0.0,
-        "MaxStamina": 0.0,
-        "MagneticRadius": 0.0,
-        "Speed": 0.0,
-        "Defense": 0.0,
-        "Attack": 0.0
-      },
-      "CustomFields": null
-    }
-  ],
-  "GeodeDropsDefaultItems": false,
-  "GeodeDrops": null,
-  "ArtifactSpotChances": null,
-  "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
-  "ExcludeFromRandomSale": true,
-  "ContextTags": [
-     "color_yellow"
-  ],
-  "CustomFields": null
-  }
-}
-},
-  {
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries": {
- "{{ModID}}_SmallGouudCheese": {
-  "Name": "{{ModID}}_SmallGouudCheese",
-  "DisplayName": "{{i18n:FC.SmallGouudCheese}}",
-  "Description": "{{i18n:FC.SmallGouudCheese.Desc}}",
-  "Type": "Basic",
-  "Category": -26,
-  "Price": 120,
-   "Texture": "Mods/{{ModID}}/Objects",
-  "SpriteIndex": 159,
-  "Edibility": 20,
-  "IsDrink": false,
-  "CanBeGivenAsGift": true,
-  "CanBeTrashed": true,
-  "Buffs": [
-    {
-      "Id": null,
-      "BuffId": null,
-      "IconTexture": null,
-      "IconSpriteIndex": 0,
-      "Duration": 0,
-      "IsDebuff": false,
-      "GlowColor": null,
-      "CustomAttributes": {
-        "FarmingLevel": 0.0,
-        "FishingLevel": 0.0,
-        "MiningLevel": 0.0,
-        "LuckLevel": 0.0,
-        "ForagingLevel": 0.0,
-        "MaxStamina": 0.0,
-        "MagneticRadius": 0.0,
-        "Speed": 0.0,
-        "Defense": 0.0,
-        "Attack": 0.0
-      },
-      "CustomFields": null
-    }
-  ],
-  "GeodeDropsDefaultItems": false,
-  "GeodeDrops": null,
-  "ArtifactSpotChances": null,
-  "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
-  "ExcludeFromRandomSale": true,
-  "ContextTags": [
-     "color_yellow"
-  ],
-  "CustomFields": null
-  }
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries": {
- "{{ModID}}_AgedLargeGouudCheese": {
-  "Name": "{{ModID}}_AgedLargeGouudCheese",
-  "DisplayName": "{{i18n:FC.AgedLargeGouudCheese}}",
-  "Description": "{{i18n:FC.AgedLargeGouudCheese.Desc}}",
-  "Type": "Artisan Goods",
-  "Category": -26,
-  "Price": 640,
-   "Texture": "Mods/{{ModID}}/Objects",
-  "SpriteIndex": 160,
-  "Edibility": 60,
-  "IsDrink": false,
-  "CanBeGivenAsGift": true,
-  "CanBeTrashed": true,
-  "Buffs": [
-    {
-      "Id": null,
-      "BuffId": null,
-      "IconTexture": null,
-      "IconSpriteIndex": 0,
-      "Duration": 0,
-      "IsDebuff": false,
-      "GlowColor": null,
-      "CustomAttributes": {
-        "FarmingLevel": 0.0,
-        "FishingLevel": 0.0,
-        "MiningLevel": 0.0,
-        "LuckLevel": 0.0,
-        "ForagingLevel": 0.0,
-        "MaxStamina": 0.0,
-        "MagneticRadius": 0.0,
-        "Speed": 0.0,
-        "Defense": 0.0,
-        "Attack": 0.0
-      },
-      "CustomFields": null
-    }
-  ],
-  "GeodeDropsDefaultItems": false,
-  "GeodeDrops": null,
-  "ArtifactSpotChances": null,
-  "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
-  "ExcludeFromRandomSale": true,
-  "ContextTags": [
-     "color_brown"
-  ],
-  "CustomFields": null
-  }
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries": {
- "{{ModID}}_AgedSmallGouudCheese": {
-  "Name": "{{ModID}}_AgedSmallGouudCheese",
-  "DisplayName": "{{i18n:FC.AgedSmallGouudCheese}}",
-  "Description": "{{i18n:FC.AgedSmallGouudCheese.Desc}}",
-  "Type": "Artisan Goods",
-  "Category": -26,
-  "Price": 640,
-   "Texture": "Mods/{{ModID}}/Objects",
-  "SpriteIndex": 161,
-  "Edibility": 60,
-  "IsDrink": false,
-  "CanBeGivenAsGift": true,
-  "CanBeTrashed": true,
-  "Buffs": [
-    {
-      "Id": null,
-      "BuffId": null,
-      "IconTexture": null,
-      "IconSpriteIndex": 0,
-      "Duration": 0,
-      "IsDebuff": false,
-      "GlowColor": null,
-      "CustomAttributes": {
-        "FarmingLevel": 0.0,
-        "FishingLevel": 0.0,
-        "MiningLevel": 0.0,
-        "LuckLevel": 0.0,
-        "ForagingLevel": 0.0,
-        "MaxStamina": 0.0,
-        "MagneticRadius": 0.0,
-        "Speed": 0.0,
-        "Defense": 0.0,
-        "Attack": 0.0
-      },
-      "CustomFields": null
-    }
-  ],
-  "GeodeDropsDefaultItems": false,
-  "GeodeDrops": null,
-  "ArtifactSpotChances": null,
-  "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
-  "ExcludeFromRandomSale": true,
-  "ContextTags": [
-     "color_brown"
-  ],
-  "CustomFields": null
-  }
-}
-},
+  
   /************************************************
  Odd Crows
 ************************************************/

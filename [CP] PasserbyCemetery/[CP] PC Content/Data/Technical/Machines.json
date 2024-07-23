@@ -1,5 +1,43 @@
 {
   "Changes": [
+      {
+      "LogName": "TropaWine",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)12",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_VoidMilk": {
+          "Id": "{{ModID}}_VoidMilk",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_VoidFruit",
+              "RequiredCount": 3
+            }
+          ],
+          "OutputItem": [
+            {
+            "Id": "{{ModID}}_VoidMilk",
+            "ItemId": "{{ModID}}_VoidMilk",
+        
+          }
+        ],
+        "MinutesUntilReady": -1,
+        "DaysUntilReady": 5,
+        "InvalidCountMessage": null,
+        "RecalculateOnCollect": false
+  }
+},
+    "MoveEntries": [
+        {
+          "Id": "{{ModID}}_VoidMilk",
+          "BeforeId": "Default_Wine"
+        }
+      ]
+    },
        {
       "LogName": "aged Gouud Large Cheese",
       "Action": "EditData",

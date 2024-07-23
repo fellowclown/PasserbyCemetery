@@ -55,6 +55,17 @@
                     "Value": "FC.Lyell 10 16 2",
                     "Delimiter": "/",
         },
+           {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up{{YearCheck}}", 5],
+             "Value": "/positionOffset FC.Lyell -30 0"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
+             "Value": "/positionOffset FC.Lyell -30 0",
+      
+        },
         ]
     },
             {
@@ -83,6 +94,7 @@
                     "Value": "FC.Lyell 18 31 1",
                     "Delimiter": "/"
                 },
+
         ]
     },  
             {

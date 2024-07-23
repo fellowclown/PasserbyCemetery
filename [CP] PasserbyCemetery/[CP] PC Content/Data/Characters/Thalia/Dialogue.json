@@ -147,25 +147,7 @@ DatingDialogue
 "Saloon":"{{i18n:Saloon.Thalia.Highheart.{{season}}}}",
 },
 "When":{
-"Hearts:FC.John": "{{Range: 9, 10}}" 
-}
-},
-  {
-            "LogName": "Dialogue - Dating",
-            "Action": "EditData",
-  "Target": "Characters/Dialogue/FC.Thalia",
-            "Entries":     { 
-              ///Main Dialogue
-"Mon": "{{i18n:Mon.Thalia.Highheart.{{season}}}}",
-"Tue": "{{i18n:Tue.Thalia.Highheart.{{season}}}}",
-"Wed": "{{i18n:Wed.Thalia.Highheart.{{season}}}}",
-"Thu": "{{i18n:Thu.Thalia.Highheart.{{season}}}}",
-"Fri": "{{i18n:Fri.Thalia.Highheart.{{season}}}}",
-"Sat": "{{i18n:Sat.Thalia.Highheart.{{season}}}}",
-"Sun": "{{i18n:Sun.Thalia.Highheart.{{season}}}}",
-"Saloon": "{{i18n:Saloon.Thalia.Highheart.{{season}}}}",
-},
-"When": {
+"Hearts:FC.Thalia": "{{Range: 9, 10}}" ,
 "Relationship:FC.Thalia": "Dating" 
 }
 },
