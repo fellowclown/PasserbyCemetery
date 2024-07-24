@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="3">
+  <properties>
+    <property name="Warp" type="string" value="5 10 Railroad 10 57" />
+  </properties>
+  <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="12" columns="4">
+    <image source="paths" width="64" height="48" />
+  </tileset>
+  <tileset firstgid="13" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="240" columns="15">
+    <image source="bathhouse_tiles" width="240" height="256" />
+  </tileset>
+  <layer id="1" name="Back" width="10" height="10" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+98,98,98,98,98,98,98,98,98,98,
+98,98,98,98,98,98,98,98,98,98,
+98,98,98,98,98,98,98,98,98,98,
+98,98,98,98,98,98,98,98,98,98,
+98,99,99,99,99,99,99,99,99,98,
+98,113,128,98,98,98,129,98,128,98,
+98,98,98,98,128,98,98,98,98,98,
+98,98,98,98,98,98,98,98,128,98,
+98,98,128,98,98,98,98,98,98,98,
+98,98,98,98,98,221,98,98,98,98
+</data>
+  </layer>
+  <layer id="2" name="Buildings" width="10" height="10" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+163,164,164,164,164,164,164,164,164,165,
+178,100,101,101,101,101,101,101,101,180,
+178,115,217,116,116,116,116,218,116,180,
+178,130,232,131,131,131,131,233,131,180,
+178,0,0,0,0,0,0,0,0,180,
+178,0,0,0,0,0,0,0,0,180,
+178,0,0,0,0,0,0,0,0,180,
+178,0,0,0,0,0,0,0,0,180,
+193,0,0,0,0,0,0,0,0,195,
+169,169,169,169,193,0,195,169,169,169
+</data>
+  </layer>
+  <layer id="3" name="Front" width="10" height="10" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+178,0,0,0,138,139,0,0,0,180,
+178,0,0,0,153,154,0,0,0,180,
+178,0,0,0,0,0,0,0,0,180,
+178,0,0,0,0,0,0,0,0,180,
+178,0,0,0,0,0,0,0,0,180,
+178,0,0,0,0,0,0,0,0,180,
+178,0,0,0,0,0,0,0,0,180,
+193,194,194,194,146,0,147,194,194,195,
+169,169,169,169,193,194,195,169,169,169
+</data>
+  </layer>
+  <layer id="4" name="Paths" width="10" height="10" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,9,0,0,9,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,9,0,0,9,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,9,0,0,9,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup id="5" name="Back" visible="false" locked="false" />
+  <objectgroup id="6" name="Buildings" visible="false" locked="false">
+    <object id="1" name="TileData" x="32" y="48" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="WarpWomensLocker 13 27 BathHouse_WomensLocker" />
+      </properties>
+    </object>
+    <object id="2" name="TileData" x="112" y="48" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="WarpMensLocker 3 27 BathHouse_MensLocker" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="7" name="Front" visible="false" locked="false" />
+  <objectgroup id="8" name="Paths" visible="false" locked="false" />
+</map>

@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="20" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="8">
+  <properties>
+    <property name="DayTiles" type="string" value="Front 3 1 256 Front 3 2 288 Front 9 3 256 Front 9 4 288 Front 14 1 405 Front 15 1 406" />
+    <property name="Doors" type="string" value="6 7 1 120" />
+    <property name="NightTiles" type="string" value="Front 3 1 1253 Front 3 2 1285 Front 9 3 1253 Front 9 4 1285 Front 14 1 1220 Front 15 1 1221" />
+    <property name="Warp" type="string" value="12 10 Town 72 69" />
+  </properties>
+  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+    <image source="townInterior" width="512" height="1088" />
+  </tileset>
+  <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+    <image source="paths" width="64" height="256" />
+  </tileset>
+  <tileset firstgid="2241" name="v15_townInterior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+    <image source="townInterior_2" width="512" height="656" />
+  </tileset>
+  <layer id="1" name="Back" width="20" height="12" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,3146,3147,3147,3147,3147,3147,0,0,0,0,0,0,605,605,605,605,0,0,1,
+1,3178,3179,3179,3179,3179,3179,0,0,0,0,0,0,604,540,540,604,605,605,1,
+1,3210,107,29,29,30,605,605,605,605,605,605,605,113,113,113,113,636,604,1,
+1,62,29,29,29,29,30,0,0,604,636,604,604,832,799,799,800,636,604,1,
+1,27,61,32,61,61,28,605,605,113,113,113,220,831,829,829,831,169,604,1,
+1,27,61,64,28,28,28,636,636,799,799,799,799,831,831,831,831,799,799,799,
+1,27,61,61,28,61,28,799,799,799,799,799,799,831,831,831,831,831,831,1,
+1,27,61,61,28,28,3039,799,799,829,831,831,831,831,831,831,831,799,800,1,
+1,27,61,61,28,1,1,1,1,1,1,1,831,1,1,1,1,1,1,1,
+1,27,61,61,28,1,1,1,1,1,1,1,829,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+  </layer>
+  <layer id="2" name="Buildings" width="20" height="12" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,2485,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+1,74,75,75,75,75,75,0,0,0,0,0,0,81,81,81,81,155,0,1,
+1,106,678,107,107,610,611,0,0,0,0,0,156,1050,1051,1052,1053,155,0,1,
+1,138,710,711,0,642,643,0,0,81,81,81,188,1082,1083,1084,1085,187,81,1,
+1,715,0,0,0,0,0,155,156,601,599,600,602,0,0,0,0,219,113,1,
+1,552,0,0,2770,133,0,187,188,633,631,632,634,0,0,0,0,1087,1088,1,
+1,584,0,0,2802,133,121,219,220,0,0,0,0,0,0,0,0,1119,1120,1,
+1,0,0,357,358,1,0,0,0,0,0,0,0,0,0,0,0,0,496,1,
+1,432,0,0,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,
+1,434,0,321,322,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,
+1,1,1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="3" name="Front" width="20" height="12" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+1,2,3,3,2122,3,11,12,0,0,0,0,10,3,3,2122,3,12,0,0,
+33,42,1345,257,1345,567,568,2154,1,1,1,1,65,1345,406,407,1345,194,4,0,
+65,2517,0,289,0,578,579,69,10,3,3,2122,195,0,0,0,0,0,44,37,
+65,0,676,679,0,0,0,2154,65,226,531,532,827,0,0,0,0,827,757,69,
+2153,683,0,0,0,0,0,194,195,289,563,564,570,0,0,0,0,0,0,69,
+65,0,0,0,2738,101,57,0,0,0,0,0,0,0,0,0,0,1055,1056,2154,
+65,481,0,0,514,133,89,216,0,0,0,0,0,0,0,0,0,0,0,69,
+65,0,0,325,326,133,0,0,0,0,0,0,0,0,0,320,0,0,464,69,
+2153,0,0,359,360,20,166,166,2121,166,166,163,0,164,2864,2865,2866,166,167,168,
+65,0,0,391,392,69,0,0,0,0,0,65,0,69,0,0,0,0,0,0,
+161,162,166,166,167,168,0,0,0,0,0,97,166,131,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="4" name="Front2" width="20" height="12" opacity="1" offsetx="0" offsety="0">
+    <properties>
+      <property name="Draw" type="string" value="Front" />
+    </properties>
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2740,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2772,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,652,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,834,352,514,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="5" name="Front3" width="20" height="12" opacity="1" offsetx="0" offsety="0">
+    <properties>
+      <property name="Draw" type="string" value="Front" />
+    </properties>
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,166,166,2121,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="6" name="Paths" width="20" height="12" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,2185,0,0,0,0,0,2185,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup id="7" name="Back" visible="false" locked="false" />
+  <objectgroup id="8" name="Buildings" visible="false" locked="false">
+    <object id="1" name="TileData" x="32" y="64" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;Trailer.1&quot;" />
+      </properties>
+    </object>
+    <object id="2" name="TileData" x="80" y="64" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;Trailer.2&quot;" />
+      </properties>
+    </object>
+    <object id="3" name="TileData" x="96" y="64" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;Trailer.3&quot;" />
+      </properties>
+    </object>
+    <object id="4" name="TileData" x="160" y="96" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="DropBox PamKitchen" />
+      </properties>
+    </object>
+    <object id="5" name="TileData" x="96" y="112" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Door Penny" />
+      </properties>
+    </object>
+    <object id="6" name="TileData" x="288" y="128" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;Trailer.4&quot;" />
+      </properties>
+    </object>
+    <object id="7" name="TileData" x="16" y="144" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;Trailer.5&quot;" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="9" name="Front" visible="false" locked="false" />
+  <objectgroup id="10" name="Front2" visible="false" locked="false" />
+  <objectgroup id="11" name="Front3" visible="false" locked="false" />
+  <objectgroup id="12" name="Paths" visible="false" locked="false" />
+</map>

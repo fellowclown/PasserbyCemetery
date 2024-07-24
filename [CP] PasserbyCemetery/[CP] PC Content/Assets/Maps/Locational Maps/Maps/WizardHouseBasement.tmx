@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="20" height="8" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="6">
+  <properties>
+    <property name="AmbientLight" type="string" value="170 190 90" />
+  </properties>
+  <tileset firstgid="1" name="indoor2" tilewidth="16" tileheight="16" tilecount="128" columns="32">
+    <image source="townInterior_2" width="512" height="64" />
+  </tileset>
+  <tileset firstgid="129" name="paths" tilewidth="16" tileheight="16" tilecount="32" columns="4">
+    <image source="paths" width="64" height="128" />
+  </tileset>
+  <tileset firstgid="161" name="wizardhouse" tilewidth="16" tileheight="16" tilecount="2112" columns="32">
+    <image source="townInterior" width="512" height="1056" />
+  </tileset>
+  <layer id="1" name="Back" width="20" height="8" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1563,1564,1564,1564,1564,1564,1564,1564,1564,1564,1564,1564,1564,1564,0,1564,1564,1566,0,
+0,1595,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,0,1596,1596,1598,0,
+0,1627,1628,1628,1628,1628,1628,1628,1628,1628,1628,1628,1628,1628,1630,0,0,0,0,0,
+0,1786,1786,1851,1433,1434,1433,1434,1433,1434,1433,1434,83,1434,1434,84,1818,1818,1786,0,
+0,1786,1091,1851,1465,1466,1465,1466,1465,1466,1465,1466,1465,1466,1465,1466,83,1818,2015,0,
+0,1786,1786,1851,1497,1498,1497,1498,1497,1498,1497,1498,1497,1498,1497,1498,83,1786,2015,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="2" name="Buildings" width="20" height="8" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,170,163,163,163,163,163,163,163,163,163,163,163,163,163,163,163,163,172,0,
+193,202,1565,1430,1450,0,1565,0,0,1565,0,0,1565,0,0,1565,0,0,204,197,
+225,0,1597,0,1482,0,1597,0,0,1597,0,0,1597,0,0,1597,0,0,0,229,
+225,0,1629,1628,1514,1628,1629,1628,1628,1629,1628,1628,1629,1628,1628,1629,1628,1628,1630,229,
+225,1659,0,0,0,0,1528,1528,1957,1958,1339,1426,1427,1428,1339,0,51,52,1662,229,
+225,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,229,
+257,0,0,0,1957,1958,0,0,0,0,0,0,0,0,0,0,0,0,0,291,
+161,161,161,161,161,161,161,161,161,161,161,161,161,161,161,161,161,161,161,161
+</data>
+  </layer>
+  <layer id="3" name="Paths" width="20" height="8" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,137,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,137,0,0,0,0,0,0,0,137,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,137,0,137,0,137,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,137,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="4" name="Front" width="20" height="8" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,162,0,0,0,1393,0,0,0,0,0,1393,0,0,0,0,0,0,164,0,
+0,0,0,0,0,1425,0,0,0,0,0,1425,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,1362,1363,1364,0,0,0,0,0,0,
+0,0,0,0,0,0,1496,1496,0,0,0,1394,1395,1396,0,0,19,20,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+321,322,326,326,326,326,326,326,326,326,326,326,326,326,326,326,326,326,327,328,
+161,161,161,161,161,161,161,161,161,161,161,161,161,161,161,161,161,161,161,161
+</data>
+  </layer>
+  <objectgroup id="5" name="Back" visible="false" locked="false">
+    <object id="1" name="TileData" x="32" y="80" width="16" height="16" rotation="0">
+      <properties>
+        <property name="TouchAction" type="string" value="MagicWarp WitchHut 11 11 henchmanGone" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="6" name="Buildings" visible="false" locked="false">
+    <object id="2" name="TileData" x="64" y="48" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Warp 4 5 WizardHouse " />
+      </properties>
+    </object>
+    <object id="3" name="TileData" x="192" y="64" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="WizardShrine" />
+      </properties>
+    </object>
+    <object id="4" name="TileData" x="256" y="64" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="ForestPylon" />
+      </properties>
+    </object>
+    <object id="5" name="TileData" x="272" y="64" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="ForestPylon" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="7" name="Paths" visible="false" locked="false" />
+  <objectgroup id="8" name="Front" visible="false" locked="false" />
+</map>

@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="5" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="2">
+  <properties />
+  <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+    <image source="paths" width="64" height="256" />
+  </tileset>
+  <tileset firstgid="65" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="384" columns="16">
+    <image source="Mines\mine_desert" width="256" height="384" />
+    <tile id="138">
+      <properties>
+        <property name="Type" type="string" value="Stone" />
+      </properties>
+    </tile>
+    <tile id="153">
+      <properties>
+        <property name="Type" type="string" value="Stone" />
+      </properties>
+    </tile>
+    <tile id="352">
+      <animation>
+        <frame tileid="352" duration="100" />
+        <frame tileid="353" duration="100" />
+        <frame tileid="354" duration="100" />
+        <frame tileid="355" duration="100" />
+        <frame tileid="356" duration="100" />
+        <frame tileid="357" duration="100" />
+      </animation>
+    </tile>
+    <tile id="361">
+      <animation>
+        <frame tileid="361" duration="100" />
+        <frame tileid="362" duration="100" />
+        <frame tileid="363" duration="100" />
+        <frame tileid="358" duration="100" />
+        <frame tileid="359" duration="100" />
+        <frame tileid="360" duration="100" />
+      </animation>
+    </tile>
+    <tile id="368">
+      <animation>
+        <frame tileid="368" duration="100" />
+        <frame tileid="369" duration="100" />
+        <frame tileid="370" duration="100" />
+        <frame tileid="371" duration="100" />
+        <frame tileid="372" duration="100" />
+        <frame tileid="373" duration="100" />
+      </animation>
+    </tile>
+    <tile id="377">
+      <animation>
+        <frame tileid="377" duration="100" />
+        <frame tileid="378" duration="100" />
+        <frame tileid="379" duration="100" />
+        <frame tileid="374" duration="100" />
+        <frame tileid="375" duration="100" />
+        <frame tileid="376" duration="100" />
+      </animation>
+    </tile>
+  </tileset>
+  <layer id="1" name="Back" width="5" height="4" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,
+0,0,0,0,0,
+283,283,283,283,0,
+251,299,299,299,299
+</data>
+  </layer>
+  <layer id="2" name="Buildings" width="5" height="4" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+359,360,361,362,363,
+375,376,377,378,379,
+391,392,393,394,395,
+407,408,409,410,411
+</data>
+  </layer>
+  <layer id="3" name="Front" width="5" height="4" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,
+0,417,0,426,0,
+0,433,0,442,0,
+0,0,0,0,0
+</data>
+  </layer>
+  <layer id="4" name="AlwaysFront" width="5" height="4" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+354,355,356,357,358,
+370,371,372,373,374,
+386,387,388,389,390,
+402,403,404,405,406
+</data>
+  </layer>
+  <layer id="5" name="Paths" width="5" height="4" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup id="6" name="Back" visible="false" locked="false" />
+  <objectgroup id="7" name="Buildings" visible="false" locked="false">
+    <object id="1" name="TileData" x="32" y="48" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="none" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="8" name="Front" visible="false" locked="false" />
+  <objectgroup id="9" name="AlwaysFront" visible="false" locked="false" />
+  <objectgroup id="10" name="Paths" visible="false" locked="false" />
+</map>

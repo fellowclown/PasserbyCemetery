@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="12" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="7">
+  <properties>
+    <property name="LocationContext" type="string" value="Island" />
+    <property name="SeasonOverride" type="string" value="summer" />
+    <property name="Warp" type="string" value="6 12 IslandWest 61 5" />
+  </properties>
+  <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+    <image source="paths" width="64" height="144" />
+  </tileset>
+  <tileset firstgid="37" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="48" columns="6">
+    <image source="cave" width="96" height="128" />
+  </tileset>
+  <layer id="1" name="Back" width="12" height="12" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+50,50,50,50,50,50,50,50,50,50,50,50,
+50,50,50,50,50,50,50,50,50,50,50,50,
+50,50,50,50,50,50,50,50,50,50,50,50,
+50,50,50,50,50,50,50,50,50,50,50,50,
+50,50,50,50,50,50,50,50,50,50,50,50,
+50,50,50,50,50,50,50,50,50,50,50,50,
+50,50,50,50,50,50,50,50,50,50,50,50,
+50,50,50,50,50,50,50,50,50,50,50,50,
+50,50,50,50,50,50,50,50,50,50,50,50,
+50,50,50,50,50,50,50,50,50,50,50,50,
+50,50,50,50,50,50,50,50,50,50,50,50,
+50,50,50,50,50,50,50,50,50,50,50,50
+</data>
+  </layer>
+  <layer id="2" name="Buildings" width="12" height="12" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,38,39,40,67,68,69,41,38,41,37,
+37,43,79,80,81,73,74,75,82,83,84,48,
+37,49,0,0,0,0,0,0,0,0,0,54,
+37,55,0,50,0,0,0,0,0,50,0,54,
+37,49,0,0,0,0,0,0,0,0,0,60,
+37,55,0,0,50,0,0,0,50,0,0,54,
+37,61,0,0,0,0,50,0,0,0,0,60,
+37,37,0,0,0,0,0,0,0,0,0,66,
+37,37,37,0,0,0,0,0,0,0,0,37,
+37,37,37,37,0,0,0,0,0,0,37,37,
+37,37,37,37,37,37,0,37,37,37,37,37
+</data>
+  </layer>
+  <layer id="3" name="Front" width="12" height="12" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,37,62,0,0,0,0,0,0,0,0,0,
+0,0,37,62,0,0,0,0,0,0,65,37,
+0,0,0,37,63,62,0,65,63,64,37,0,
+0,37,37,37,37,37,63,37,37,37,37,37
+</data>
+  </layer>
+  <layer id="4" name="Paths" width="12" height="12" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,9,0,0,0,0,0,9,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,9,0,0,0,9,0,0,0,
+0,0,0,0,0,0,9,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup id="5" name="Back" visible="false" locked="false" />
+  <objectgroup id="6" name="Buildings" visible="false" locked="false">
+    <object id="1" name="TileData" x="96" y="32" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="CrystalCaveActivate" />
+      </properties>
+    </object>
+    <object id="2" name="TileData" x="48" y="64" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Crystal 1" />
+      </properties>
+    </object>
+    <object id="3" name="TileData" x="144" y="64" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Crystal 5" />
+      </properties>
+    </object>
+    <object id="4" name="TileData" x="64" y="96" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Crystal 2" />
+      </properties>
+    </object>
+    <object id="5" name="TileData" x="128" y="96" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Crystal 4" />
+      </properties>
+    </object>
+    <object id="6" name="TileData" x="96" y="112" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Crystal 3" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="7" name="Front" visible="false" locked="false" />
+  <objectgroup id="8" name="Paths" visible="false" locked="false" />
+</map>

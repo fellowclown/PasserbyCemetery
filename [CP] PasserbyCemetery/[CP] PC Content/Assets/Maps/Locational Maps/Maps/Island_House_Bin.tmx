@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="2" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+  <properties />
+  <tileset firstgid="1" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="1504" columns="32">
+    <image source="island_tilesheet_1" width="512" height="752" />
+  </tileset>
+  <layer id="1" name="Back" width="2" height="2" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,
+0,0
+</data>
+  </layer>
+  <layer id="2" name="Buildings" width="2" height="2" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,
+1485,1486
+</data>
+  </layer>
+  <layer id="3" name="Front" width="2" height="2" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+1453,1454,
+0,0
+</data>
+  </layer>
+  <layer id="4" name="AlwaysFront" width="2" height="2" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,
+0,0
+</data>
+  </layer>
+  <objectgroup id="5" name="Back" visible="false" locked="false" />
+  <objectgroup id="6" name="Buildings" visible="false" locked="false" />
+  <objectgroup id="7" name="Front" visible="false" locked="false" />
+  <objectgroup id="8" name="AlwaysFront" visible="false" locked="false" />
+</map>

@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="10" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="5">
+  <properties>
+    <property name="LocationContext" type="string" value="Island" />
+    <property name="SeasonOverride" type="string" value="summer" />
+    <property name="Warp" type="string" value="4 11 IslandNorth 46 46" />
+  </properties>
+  <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+    <image source="paths" width="64" height="144" />
+  </tileset>
+  <tileset firstgid="37" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="120" columns="10">
+    <image source="Island_FieldOffice_Tilesheet" width="160" height="192" />
+  </tileset>
+  <layer id="1" name="Back" width="10" height="11" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+37,38,39,40,41,42,43,44,0,0,
+47,48,49,50,51,52,53,54,0,0,
+57,58,59,60,61,62,63,64,65,0,
+67,68,69,70,71,72,73,74,75,76,
+77,78,79,80,81,82,83,84,85,86,
+87,88,89,90,91,92,93,94,95,96,
+97,98,99,100,101,102,103,104,105,106,
+107,108,109,110,111,112,113,114,115,116,
+117,118,119,120,121,122,123,124,125,126,
+127,128,129,130,131,132,133,134,135,136,
+137,138,139,140,141,142,143,144,145,146
+</data>
+  </layer>
+  <layer id="2" name="Buildings" width="10" height="11" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,68,69,70,71,72,73,74,75,76,
+77,78,0,0,0,0,0,0,85,86,
+87,88,0,0,0,0,0,94,0,96,
+97,98,0,100,101,102,0,104,0,106,
+107,108,0,110,111,112,0,114,115,116,
+117,0,0,0,0,0,0,0,0,126,
+127,55,56,0,0,0,0,0,0,136,
+137,37,37,37,0,37,37,37,37,146
+</data>
+  </layer>
+  <layer id="3" name="Front" width="10" height="11" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,66,0,0,
+0,0,0,154,155,156,0,0,0,0,
+0,0,0,0,0,0,0,0,153,106,
+107,0,0,0,0,0,0,0,0,116,
+117,45,46,0,0,0,0,0,0,126,
+127,147,148,149,0,151,148,148,152,136,
+37,37,37,140,150,142,37,37,37,146
+</data>
+  </layer>
+  <layer id="4" name="Paths" width="10" height="11" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,37,37,
+0,0,0,9,0,0,9,0,37,37,
+0,0,0,0,0,0,0,0,0,37,
+0,0,0,0,0,9,0,0,0,0,
+0,9,0,0,0,0,0,0,9,0,
+0,0,0,0,9,0,0,0,0,0,
+0,0,0,0,0,0,0,0,9,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,9,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup id="5" name="Back" visible="false" locked="false" />
+  <objectgroup id="6" name="Buildings" visible="false" locked="false">
+    <object id="1" name="TileData" x="64" y="48" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="FieldOfficeSurvey" />
+      </properties>
+    </object>
+    <object id="2" name="TileData" x="80" y="48" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="FieldOfficeSurvey" />
+      </properties>
+    </object>
+    <object id="3" name="TileData" x="112" y="112" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="FieldOfficeDesk" />
+      </properties>
+    </object>
+    <object id="4" name="TileData" x="128" y="112" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="FieldOfficeDesk" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="7" name="Front" visible="false" locked="false" />
+  <objectgroup id="8" name="Paths" visible="false" locked="false" />
+</map>

@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="5">
+  <properties>
+    <property name="AmbientLight" type="string" value="150 130 90" />
+    <property name="IgnoreLightingTiles" type="string" value="T" />
+    <property name="LocationContext" type="string" value="Island" />
+    <property name="SeasonOverride" type="string" value="summer" />
+    <property name="Warp" type="string" value="7 9 IslandWest 20 23" />
+  </properties>
+  <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+    <image source="paths" width="64" height="144" />
+  </tileset>
+  <tileset firstgid="37" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="154" columns="14">
+    <image source="qiNutRoom_tilesheet" width="224" height="176" />
+    <tile id="16">
+      <animation>
+        <frame tileid="16" duration="100" />
+        <frame tileid="112" duration="100" />
+        <frame tileid="114" duration="100" />
+        <frame tileid="114" duration="100" />
+        <frame tileid="112" duration="100" />
+        <frame tileid="16" duration="100" />
+        <frame tileid="16" duration="100" />
+        <frame tileid="16" duration="100" />
+        <frame tileid="16" duration="100" />
+        <frame tileid="16" duration="100" />
+        <frame tileid="16" duration="100" />
+        <frame tileid="16" duration="100" />
+      </animation>
+    </tile>
+    <tile id="17">
+      <animation>
+        <frame tileid="17" duration="100" />
+        <frame tileid="113" duration="100" />
+        <frame tileid="115" duration="100" />
+        <frame tileid="115" duration="100" />
+        <frame tileid="113" duration="100" />
+        <frame tileid="17" duration="100" />
+        <frame tileid="17" duration="100" />
+        <frame tileid="17" duration="100" />
+        <frame tileid="17" duration="100" />
+        <frame tileid="17" duration="100" />
+        <frame tileid="17" duration="100" />
+        <frame tileid="17" duration="100" />
+      </animation>
+    </tile>
+    <tile id="25">
+      <animation>
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="25" duration="100" />
+        <frame tileid="120" duration="100" />
+        <frame tileid="121" duration="100" />
+        <frame tileid="122" duration="100" />
+        <frame tileid="123" duration="100" />
+        <frame tileid="124" duration="100" />
+        <frame tileid="125" duration="100" />
+      </animation>
+    </tile>
+    <tile id="133">
+      <animation>
+        <frame tileid="133" duration="100" />
+        <frame tileid="133" duration="100" />
+        <frame tileid="133" duration="100" />
+        <frame tileid="133" duration="100" />
+        <frame tileid="133" duration="100" />
+        <frame tileid="133" duration="100" />
+        <frame tileid="133" duration="100" />
+        <frame tileid="133" duration="100" />
+        <frame tileid="133" duration="100" />
+        <frame tileid="133" duration="100" />
+        <frame tileid="133" duration="100" />
+        <frame tileid="134" duration="100" />
+        <frame tileid="135" duration="100" />
+        <frame tileid="136" duration="100" />
+        <frame tileid="137" duration="100" />
+        <frame tileid="137" duration="100" />
+        <frame tileid="137" duration="100" />
+        <frame tileid="137" duration="100" />
+        <frame tileid="138" duration="100" />
+        <frame tileid="138" duration="100" />
+        <frame tileid="138" duration="100" />
+        <frame tileid="138" duration="100" />
+        <frame tileid="137" duration="100" />
+        <frame tileid="137" duration="100" />
+        <frame tileid="137" duration="100" />
+        <frame tileid="137" duration="100" />
+        <frame tileid="139" duration="100" />
+        <frame tileid="139" duration="100" />
+        <frame tileid="139" duration="100" />
+        <frame tileid="139" duration="100" />
+        <frame tileid="137" duration="100" />
+        <frame tileid="136" duration="100" />
+        <frame tileid="135" duration="100" />
+        <frame tileid="134" duration="100" />
+      </animation>
+    </tile>
+    <tile id="147">
+      <properties>
+        <property name="Action" type="string" value="QiCat" />
+      </properties>
+      <animation>
+        <frame tileid="147" duration="100" />
+        <frame tileid="147" duration="100" />
+        <frame tileid="147" duration="100" />
+        <frame tileid="147" duration="100" />
+        <frame tileid="147" duration="100" />
+        <frame tileid="147" duration="100" />
+        <frame tileid="147" duration="100" />
+        <frame tileid="147" duration="100" />
+        <frame tileid="147" duration="100" />
+        <frame tileid="147" duration="100" />
+        <frame tileid="147" duration="100" />
+        <frame tileid="148" duration="100" />
+        <frame tileid="149" duration="100" />
+        <frame tileid="150" duration="100" />
+        <frame tileid="151" duration="100" />
+        <frame tileid="151" duration="100" />
+        <frame tileid="151" duration="100" />
+        <frame tileid="151" duration="100" />
+        <frame tileid="152" duration="100" />
+        <frame tileid="152" duration="100" />
+        <frame tileid="152" duration="100" />
+        <frame tileid="152" duration="100" />
+        <frame tileid="151" duration="100" />
+        <frame tileid="151" duration="100" />
+        <frame tileid="151" duration="100" />
+        <frame tileid="151" duration="100" />
+        <frame tileid="153" duration="100" />
+        <frame tileid="153" duration="100" />
+        <frame tileid="153" duration="100" />
+        <frame tileid="153" duration="100" />
+        <frame tileid="151" duration="100" />
+        <frame tileid="150" duration="100" />
+        <frame tileid="149" duration="100" />
+        <frame tileid="148" duration="100" />
+      </animation>
+    </tile>
+    <tile id="148">
+      <properties>
+        <property name="Action" type="string" value="QiCat" />
+      </properties>
+    </tile>
+    <tile id="149">
+      <properties>
+        <property name="Action" type="string" value="QiCat" />
+      </properties>
+    </tile>
+    <tile id="150">
+      <properties>
+        <property name="Action" type="string" value="QiCat" />
+      </properties>
+    </tile>
+    <tile id="151">
+      <properties>
+        <property name="Action" type="string" value="QiCat" />
+      </properties>
+    </tile>
+    <tile id="152">
+      <properties>
+        <property name="Action" type="string" value="QiCat" />
+      </properties>
+    </tile>
+    <tile id="153">
+      <properties>
+        <property name="Action" type="string" value="QiCat" />
+      </properties>
+    </tile>
+  </tileset>
+  <layer id="1" name="Back" width="15" height="10" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+37,38,39,40,41,42,43,44,45,46,47,48,49,50,0,
+51,52,53,54,55,56,57,58,59,60,61,62,63,64,0,
+65,66,67,68,69,70,71,72,73,74,75,76,77,78,0,
+79,80,81,82,83,84,85,86,87,88,89,90,91,92,0,
+93,94,95,96,97,98,99,100,101,102,103,104,105,106,0,
+107,108,109,110,111,112,113,114,115,116,117,118,119,120,0,
+121,122,123,124,125,126,127,128,129,130,131,132,133,134,0,
+135,136,137,138,139,140,141,142,143,144,145,146,147,148,0,
+149,150,151,152,153,154,37,142,157,158,159,160,161,162,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="2" name="Buildings" width="15" height="10" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+37,38,39,40,41,42,43,44,45,46,47,48,49,50,37,
+51,52,53,54,55,56,57,58,59,60,61,62,63,64,37,
+65,66,67,68,69,70,71,72,73,74,75,76,77,78,37,
+79,80,81,82,83,84,85,86,87,88,89,90,91,92,37,
+93,177,0,0,0,0,0,0,0,0,0,0,0,184,37,
+107,0,0,0,0,0,0,0,0,0,0,0,0,0,37,
+121,0,0,0,0,0,0,0,0,0,0,0,0,0,37,
+135,0,0,0,0,0,0,0,0,0,0,0,0,0,37,
+37,37,37,37,37,37,37,0,37,37,37,37,37,37,37,
+0,0,0,0,0,0,37,0,37,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="3" name="Front" width="15" height="10" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,163,0,0,0,0,0,0,0,0,0,0,0,170,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+154,37,37,37,37,37,37,0,37,37,37,37,37,154,0,
+0,0,0,0,0,0,37,37,37,0,0,0,0,0,0,
+37,37,37,37,37,37,37,37,37,37,37,37,37,37,0
+</data>
+  </layer>
+  <layer id="4" name="Paths" width="15" height="10" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,9,0,0,0,0,9,0,0,0,9,0,0,0,
+0,0,0,9,0,0,9,0,9,0,0,9,0,0,0,
+0,0,9,0,0,0,0,0,0,0,0,9,0,0,0,
+0,0,0,0,0,9,0,0,0,9,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup id="5" name="Back" visible="false" locked="false" />
+  <objectgroup id="6" name="Buildings" visible="false" locked="false">
+    <object id="1" name="TileData" x="32" y="48" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="QiChallengeBoard" />
+      </properties>
+    </object>
+    <object id="2" name="TileData" x="48" y="48" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="QiChallengeBoard" />
+      </properties>
+    </object>
+    <object id="3" name="TileData" x="176" y="48" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="QiGemShop" />
+      </properties>
+    </object>
+    <object id="4" name="TileData" x="16" y="64" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="DropBox QiChallengeBox" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="7" name="Front" visible="false" locked="false" />
+  <objectgroup id="8" name="Paths" visible="false" locked="false" />
+</map>

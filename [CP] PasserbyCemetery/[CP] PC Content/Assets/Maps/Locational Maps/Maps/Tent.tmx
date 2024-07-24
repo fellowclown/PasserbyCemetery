@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="6" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+  <properties>
+    <property name="DayTiles" type="string" value="Back 2 2 1090 Back 3 2 1091 Buildings 2 0 1026 Buildings 3 0 1027 Back 2 5 1186" />
+    <property name="NightTiles" type="string" value="Back 2 2 1122 Back 3 2 1184 Buildings 2 0 1188 Buildings 3 0 1189 Back 2 5 1154" />
+    <property name="Warp" type="string" value="2 6 Mountain 29 7" />
+  </properties>
+  <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="8" columns="4">
+    <image source="paths" width="64" height="32" />
+  </tileset>
+  <tileset firstgid="9" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="1216" columns="32">
+    <image source="townInterior" width="512" height="608" />
+  </tileset>
+  <layer id="1" name="Back" width="6" height="6" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+9,0,0,0,0,9,
+9,0,0,0,0,9,
+9,0,1099,1100,0,9,
+9,1130,1163,1163,1133,9,
+9,1162,1163,1164,1165,1163,
+9,9,1195,9,9,9
+</data>
+  </layer>
+  <layer id="2" name="Buildings" width="6" height="6" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+9,1034,1035,1036,1037,9,
+9,1066,1067,1068,1069,9,
+9,1098,0,0,1101,9,
+9,0,0,0,0,9,
+9,906,0,0,0,9,
+9,9,0,9,9,9
+</data>
+  </layer>
+  <layer id="3" name="Front" width="6" height="6" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+9,0,0,0,0,9,
+1065,0,0,0,0,1070,
+1129,0,0,0,0,1134,
+1129,874,0,0,0,1134,
+1161,1097,0,1102,1132,1166,
+0,1194,0,1196,0,0
+</data>
+  </layer>
+  <layer id="4" name="Paths" width="6" height="6" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup id="5" name="Back" visible="false" locked="false" />
+  <objectgroup id="6" name="Buildings" visible="false" locked="false" />
+  <objectgroup id="7" name="Front" visible="false" locked="false" />
+  <objectgroup id="8" name="Paths" visible="false" locked="false" />
+</map>

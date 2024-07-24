@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="13" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="7">
+  <properties>
+    <property name="Doors" type="string" value="1 3 1 120" />
+    <property name="Warp" type="string" value="1 0 ScienceHouse 12 21" />
+  </properties>
+  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+    <image source="townInterior" width="512" height="1088" />
+  </tileset>
+  <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+    <image source="paths" width="64" height="256" />
+  </tileset>
+  <tileset firstgid="2241" name="v15_townInterior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+    <image source="townInterior_2" width="512" height="656" />
+  </tileset>
+  <layer id="1" name="Back" width="13" height="13" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,1044,0,0,0,0,0,0,0,0,303,303,1,
+1,1044,3095,3095,3095,3095,3095,3095,3095,3095,3095,3096,1,
+1,1044,3127,3127,3127,3127,3127,3127,3127,3127,3127,3128,1,
+1,443,3159,2301,2301,2301,2301,2301,2301,219,219,3160,1,
+1,541,575,576,575,576,575,576,575,576,575,606,1,
+607,608,607,2147,607,608,607,608,607,608,2114,2583,1,
+639,2146,639,2147,639,640,639,640,639,640,2113,2583,1,
+608,2147,607,608,607,608,607,608,607,2115,2145,2583,1,
+640,639,639,640,639,640,639,640,2147,2114,639,2583,1,
+607,608,607,608,607,608,607,608,607,2113,2583,2583,1,
+639,640,639,640,639,640,639,640,639,2145,2583,2583,1,
+607,608,607,608,607,608,607,608,607,2113,2583,2583,1,
+639,640,639,640,639,640,639,640,639,640,639,640,1
+</data>
+  </layer>
+  <layer id="2" name="Back2" width="13" height="13" opacity="1" offsetx="0" offsety="0">
+    <properties>
+      <property name="Draw" type="string" value="Back" />
+    </properties>
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,3408,3409,3410,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2462,2463,2463,2464,0,0,0,
+0,0,0,0,0,0,2494,2495,2495,2496,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="3" name="Buildings" width="13" height="13" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+1,0,1,0,0,0,0,0,0,0,0,0,1,
+1,0,2271,0,0,0,0,0,0,0,0,0,1,
+1,0,2303,2269,2269,2269,2269,2269,2269,2269,2269,2270,1,
+1,121,2335,553,557,558,559,814,1043,2301,2301,2302,1,
+1,0,0,585,589,590,591,1073,1075,887,0,737,1,
+1,0,0,0,0,0,0,743,777,0,0,769,1,
+1,0,0,0,0,0,0,887,0,0,432,801,1,
+1,0,0,554,0,0,0,0,0,0,0,865,1,
+1,0,505,506,507,0,0,0,0,0,421,422,1,
+1,554,537,538,539,554,0,0,0,0,0,0,1,
+1,0,0,0,0,0,0,0,0,0,323,324,1,
+1,434,0,0,0,0,0,0,0,0,580,581,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+  </layer>
+  <layer id="4" name="Front" width="13" height="13" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+65,0,194,2122,11,11,11,2122,11,11,2122,4,0,
+65,0,438,3405,3406,3407,308,244,245,340,827,44,37,
+65,89,0,3437,3438,3439,280,276,277,3440,3441,0,2154,
+65,0,0,3279,0,0,0,1108,744,855,0,0,69,
+2153,0,0,0,0,0,0,1140,1141,0,0,834,69,
+65,0,0,0,0,0,0,855,0,0,0,835,2154,
+65,0,0,0,0,0,0,0,0,0,0,0,69,
+2153,0,473,474,475,0,0,0,0,0,389,390,69,
+65,0,0,1109,0,0,0,0,0,0,417,418,69,
+65,0,0,0,0,0,0,0,0,0,449,450,69,
+65,0,0,0,0,0,0,0,0,0,0,320,2154,
+161,162,166,2121,2864,2866,166,2121,166,166,482,352,168,
+1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+  </layer>
+  <layer id="5" name="Front2" width="13" height="13" opacity="1" offsetx="0" offsety="0">
+    <properties>
+      <property name="Draw" type="string" value="Front" />
+    </properties>
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,3342,0,
+0,0,0,0,0,0,0,0,0,0,0,3374,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,2296,3047,0,0,0,0,166,167,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="6" name="Front3" width="13" height="13" opacity="1" offsetx="0" offsety="0">
+    <properties>
+      <property name="Draw" type="string" value="Fron" />
+    </properties>
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,166,166,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="7" name="Paths" width="13" height="13" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2185,2185,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2185,0,0,0,0,2185,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup id="8" name="Back" visible="false" locked="false" />
+  <objectgroup id="9" name="Back2" visible="false" locked="false" />
+  <objectgroup id="10" name="Buildings" visible="false" locked="false">
+    <object id="1" name="TileData" x="16" y="48" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Door Sebastian" />
+      </properties>
+    </object>
+    <object id="2" name="TileData" x="48" y="64" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;SebastianRoom.1&quot;" />
+      </properties>
+    </object>
+    <object id="3" name="TileData" x="128" y="80" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="playSound mouseClick" />
+      </properties>
+    </object>
+    <object id="4" name="TileData" x="160" y="96" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;SebastianRoom.2&quot;" />
+      </properties>
+    </object>
+    <object id="5" name="TileData" x="176" y="112" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="'The Solarion Chronicles' books 1-13" />
+      </properties>
+    </object>
+    <object id="6" name="TileData" x="48" y="144" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;SebastianRoom.3&quot;" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="11" name="Front" visible="false" locked="false" />
+  <objectgroup id="12" name="Front2" visible="false" locked="false" />
+  <objectgroup id="13" name="Front3" visible="false" locked="false" />
+  <objectgroup id="14" name="Paths" visible="false" locked="false" />
+</map>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="7" height="8" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+  <properties>
+    <property name="AmbientLight" type="string" value="0 180 180" />
+  </properties>
+  <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="12" columns="4">
+    <image source="paths" width="64" height="48" />
+  </tileset>
+  <tileset firstgid="13" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="56" columns="7">
+    <image source="darkroom_tiles" width="112" height="128" />
+  </tileset>
+  <layer id="1" name="Back" width="7" height="8" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+13,14,15,16,17,18,19,
+20,21,22,23,24,25,26,
+27,28,29,30,31,32,33,
+34,35,36,37,38,39,40,
+41,42,43,44,45,46,47,
+48,49,50,51,52,53,54,
+55,56,57,58,59,60,61,
+62,63,64,65,66,67,68
+</data>
+  </layer>
+  <layer id="2" name="Buildings" width="7" height="8" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+13,14,14,14,14,14,19,
+48,21,22,23,24,25,61,
+48,28,29,30,31,32,61,
+48,35,36,37,38,39,61,
+48,42,0,44,45,46,61,
+48,0,0,51,52,53,61,
+48,0,0,0,0,0,61,
+62,63,64,0,66,67,68
+</data>
+  </layer>
+  <layer id="3" name="Front" width="7" height="8" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="4" name="Paths" width="7" height="8" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup id="5" name="Back" visible="false" locked="false" />
+  <objectgroup id="6" name="Buildings" visible="false" locked="false" />
+  <objectgroup id="7" name="Front" visible="false" locked="false" />
+  <objectgroup id="8" name="Paths" visible="false" locked="false" />
+</map>

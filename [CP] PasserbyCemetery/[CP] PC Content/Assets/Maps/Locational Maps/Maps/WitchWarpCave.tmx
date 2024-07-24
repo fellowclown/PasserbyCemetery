@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="2">
+  <properties>
+    <property name="AmbientLight" type="string" value="120 160 80" />
+    <property name="Warp" type="string" value="4 10 Railroad 54 34" />
+  </properties>
+  <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="32" columns="4">
+    <image source="paths" width="64" height="128" />
+  </tileset>
+  <tileset firstgid="33" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+    <image source="Mines\mine_dark" width="256" height="288" />
+  </tileset>
+  <layer id="1" name="Back" width="10" height="10" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+111,171,171,171,171,171,171,171,171,111,
+171,171,171,171,171,171,171,171,171,171,
+171,171,171,171,171,171,171,171,171,171,
+216,251,251,251,251,251,251,251,216,216,
+267,267,267,273,274,275,267,267,267,267,
+200,200,201,289,271,291,199,200,200,200,
+216,216,217,305,306,307,215,216,216,216,
+216,216,184,200,200,200,185,216,216,216,
+216,216,216,216,216,216,216,216,216,216,
+216,216,216,216,216,216,216,216,216,216
+</data>
+  </layer>
+  <layer id="2" name="Buildings" width="10" height="10" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+111,102,103,106,107,108,109,126,127,111,
+101,118,119,98,99,124,125,142,143,144,
+117,134,135,114,115,140,141,158,159,160,
+133,150,151,154,155,156,157,174,175,176,
+149,166,167,0,0,0,0,190,191,192,
+181,0,0,0,0,0,0,0,0,208,
+213,0,0,0,0,0,0,0,0,240,
+229,0,0,0,0,0,0,0,0,239,
+110,110,0,0,0,0,0,0,110,110,
+110,110,110,265,0,269,110,110,110,110
+</data>
+  </layer>
+  <layer id="3" name="Paths" width="10" height="10" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,9,0,0,0,0,0,0,
+0,0,0,0,9,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,9,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="4" name="Front" width="10" height="10" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+79,95,0,0,0,0,0,0,127,79,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,230,0,0,0,0,0,0,238,239,
+112,246,248,249,0,253,248,247,254,96,
+128,96,80,0,0,0,95,96,0,80
+</data>
+  </layer>
+  <objectgroup id="5" name="Back" visible="false" locked="false">
+    <object id="1" name="TileData" x="64" y="80" width="16" height="16" rotation="0">
+      <properties>
+        <property name="TouchAction" type="string" value="MagicWarp WitchSwamp 20 42" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="6" name="Buildings" visible="false" locked="false" />
+  <objectgroup id="7" name="Paths" visible="false" locked="false" />
+  <objectgroup id="8" name="Front" visible="false" locked="false" />
+</map>

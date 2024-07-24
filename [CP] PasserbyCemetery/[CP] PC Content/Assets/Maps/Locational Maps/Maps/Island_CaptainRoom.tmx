@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="8" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+  <properties>
+    <property name="DayTiles" type="string" value="Buildings 2 3 1628 Buildings 3 3 1629 Back 2 2 1596 Back 3 2 1597 Back 2 1 1564 Back 3 1 1565" />
+    <property name="LocationContext" type="string" value="Island" />
+    <property name="NightTiles" type="string" value="Buildings 2 3 1624 Buildings 3 3 1625 Back 2 2 1592 Back 3 2 1593 Back 2 1 1560 Back 3 1 1561" />
+    <property name="SeasonOverride" type="string" value="summer" />
+    <property name="TreatAsOutdoors" type="string" value="T" />
+    <property name="Warp" type="string" value="-1 5 IslandWest 59 92 -1 6 IslandWest 59 92" />
+    <property name="forceLoadObjects" type="string" value="T" />
+  </properties>
+  <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+    <image source="paths" width="64" height="144" />
+  </tileset>
+  <tileset firstgid="37" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="1824" columns="32">
+    <image source="island_tilesheet_1" width="512" height="912" />
+  </tileset>
+  <layer id="1" name="Back" width="6" height="8" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+1567,1568,1569,1570,1571,1572,
+1599,1600,1601,1602,1603,1604,
+1631,1632,1633,1634,1635,1636,
+1663,1664,1665,1666,1667,1668,
+1695,1696,1697,1698,1699,1700,
+1727,1728,1729,1730,1731,1732,
+1760,1760,1761,1762,1763,1764,
+1792,1792,1792,1792,1792,1792
+</data>
+  </layer>
+  <layer id="2" name="Buildings" width="6" height="8" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+1631,0,0,0,0,1636,
+1663,1664,1665,1666,1667,1668,
+1695,0,0,0,0,1700,
+0,0,0,0,0,1732,
+1759,0,0,0,0,1764,
+1792,1792,1792,1792,1792,1792
+</data>
+  </layer>
+  <layer id="3" name="Front" width="6" height="8" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+1793,0,0,0,0,0,
+1793,0,0,0,0,0,
+1759,1824,1825,1826,1827,0,
+0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="4" name="Paths" width="6" height="8" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,9,9,0,0,
+0,0,34,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup id="5" name="Back" visible="false" locked="false" />
+  <objectgroup id="6" name="Buildings" visible="false" locked="false" />
+  <objectgroup id="7" name="Front" visible="false" locked="false" />
+  <objectgroup id="8" name="Paths" visible="false" locked="false" />
+</map>

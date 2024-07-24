@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="7" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="2">
+  <properties>
+    <property name="DayTiles" type="string" value="Back 2 0 2 Buildings 2 1 9" />
+    <property name="NightTiles" type="string" value="Back 2 0 48 Buildings 2 1 55" />
+    <property name="Warp" type="string" value="3 9 Mountain 16 8" />
+  </properties>
+  <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+    <image source="paths" width="64" height="144" />
+  </tileset>
+  <tileset firstgid="37" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="56" columns="7">
+    <image source="LeoTreeHouse_Tilesheet" width="112" height="128" />
+  </tileset>
+  <layer id="1" name="Front" width="7" height="9" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,86,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="2" name="Buildings" width="7" height="9" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+37,0,0,0,0,0,0,
+44,0,46,47,48,0,0,
+51,52,0,0,0,56,0,
+58,0,0,0,0,0,64,
+65,0,0,0,0,0,71,
+72,73,0,0,0,77,0,
+0,0,81,0,83,84,0,
+0,0,88,0,90,0,0,
+0,0,37,0,37,0,0
+</data>
+  </layer>
+  <layer id="3" name="Back" width="7" height="9" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+37,38,39,40,41,42,43,
+44,45,46,47,48,49,50,
+51,52,53,54,55,56,57,
+58,59,60,61,62,63,64,
+65,66,67,68,69,70,71,
+72,73,74,75,76,77,78,
+37,80,81,82,83,84,37,
+37,87,88,89,90,91,37,
+37,37,37,79,37,37,37
+</data>
+  </layer>
+  <layer id="4" name="Paths" width="7" height="9" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,9,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,9,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup id="5" name="Front" visible="false" locked="false" />
+  <objectgroup id="6" name="Buildings" visible="false" locked="false">
+    <object id="1" name="TileData" x="16" y="80" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="LeoParrot" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="7" name="Back" visible="false" locked="false" />
+  <objectgroup id="8" name="Paths" visible="false" locked="false" />
+</map>

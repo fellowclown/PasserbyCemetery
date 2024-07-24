@@ -1,0 +1,840 @@
+<?xml version="1.0"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="113">
+  <properties>
+    <property name="AmbientLight" type="string" value="0 0 0" />
+    <property name="Warp" type="string" value="13 30 Town 95 51 14 30 Town 96 51" />
+  </properties>
+  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+    <image source="paths" width="64" height="64" />
+  </tileset>
+  <tileset firstgid="17" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="2112" columns="32">
+    <image source="townInterior" width="512" height="1056" />
+    <tile id="1910">
+      <animation>
+        <frame tileid="1910" duration="1000" />
+        <frame tileid="1910" duration="1000" />
+        <frame tileid="1910" duration="1000" />
+        <frame tileid="1910" duration="1000" />
+        <frame tileid="1911" duration="1000" />
+        <frame tileid="1910" duration="1000" />
+        <frame tileid="1910" duration="1000" />
+        <frame tileid="1910" duration="1000" />
+        <frame tileid="1910" duration="1000" />
+        <frame tileid="1910" duration="1000" />
+        <frame tileid="1910" duration="1000" />
+        <frame tileid="1911" duration="1000" />
+        <frame tileid="1911" duration="1000" />
+        <frame tileid="1911" duration="1000" />
+      </animation>
+    </tile>
+    <tile id="1942">
+      <animation>
+        <frame tileid="1942" duration="1000" />
+        <frame tileid="1942" duration="1000" />
+        <frame tileid="1942" duration="1000" />
+        <frame tileid="1942" duration="1000" />
+        <frame tileid="1943" duration="1000" />
+        <frame tileid="1942" duration="1000" />
+        <frame tileid="1942" duration="1000" />
+        <frame tileid="1942" duration="1000" />
+        <frame tileid="1942" duration="1000" />
+        <frame tileid="1942" duration="1000" />
+        <frame tileid="1942" duration="1000" />
+        <frame tileid="1943" duration="1000" />
+        <frame tileid="1943" duration="1000" />
+        <frame tileid="1943" duration="1000" />
+      </animation>
+    </tile>
+    <tile id="2039">
+      <animation>
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2040" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2041" duration="500" />
+        <frame tileid="2041" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2040" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+        <frame tileid="2039" duration="500" />
+      </animation>
+    </tile>
+    <tile id="2071">
+      <animation>
+        <frame tileid="2071" duration="1000" />
+        <frame tileid="2071" duration="1000" />
+        <frame tileid="2071" duration="1000" />
+        <frame tileid="2071" duration="1000" />
+        <frame tileid="2071" duration="1000" />
+        <frame tileid="2071" duration="1000" />
+        <frame tileid="2071" duration="1000" />
+        <frame tileid="2073" duration="1000" />
+        <frame tileid="2071" duration="1000" />
+        <frame tileid="2071" duration="1000" />
+        <frame tileid="2071" duration="1000" />
+        <frame tileid="2071" duration="1000" />
+        <frame tileid="2071" duration="1000" />
+        <frame tileid="2071" duration="1000" />
+      </animation>
+    </tile>
+  </tileset>
+  <layer id="1" name="Back" width="30" height="30" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,
+1906,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1906,
+1906,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1906,
+1906,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,2004,1906,
+1906,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,
+1906,1971,1906,1906,1971,1906,1906,1906,1906,1906,1906,1906,1971,1906,1906,1971,1906,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1971,1970,1906,
+1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,
+1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,
+1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,
+1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,
+1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,
+1906,1906,2002,1906,1906,1906,2002,1906,1906,1906,2002,1906,1906,1906,2002,1906,1906,1906,2002,1906,1906,1906,2002,1906,1906,1906,1906,2002,1906,1906,
+1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,1906,2001,1906,1906,
+1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,1906,2001,1906,1906,
+1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,1906,2001,1906,1906,
+1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,1906,2001,1906,1906,
+1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,1906,2001,1906,1906,
+1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,1906,2001,1906,1906,
+1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,1906,2001,1906,1906,
+1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,2041,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,2001,1906,1906,1906,1906,2001,1906,1906,
+1906,1906,2033,1971,1970,1906,2033,1906,1906,1906,2033,1971,1970,1906,2033,1971,1970,1906,2033,1971,1970,1906,2033,1971,1970,1906,1906,2033,1971,1906,
+1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,
+1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,
+1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,
+1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,2002,1971,1971,1971,1971,1971,1906,1906,1906,1906,1906,1906,
+1906,1026,1906,1906,1906,1026,1906,1906,1906,1026,1906,1906,1906,1906,1906,1906,1906,1906,2001,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,
+1906,1026,1906,1906,2001,1026,1906,1906,2001,1026,1906,1906,1906,1906,1906,1906,1906,1906,2033,1971,1971,1971,1971,1971,1970,1906,1906,1906,1906,1906,
+1906,1971,1970,1906,2033,1971,1970,1906,2033,1971,1970,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,
+1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,
+1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906,1906
+</data>
+  </layer>
+  <layer id="2" name="Buildings" width="30" height="30" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+1873,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1874,1875,
+1905,1940,1940,1940,1878,1940,1940,1940,0,1940,1940,1940,1878,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1940,1907,
+1905,1910,1972,1973,1910,0,2034,2035,2036,2037,2038,1973,1910,1972,1973,1910,1972,1983,1984,1985,1986,1985,1986,1985,1986,1985,1986,1987,1988,1907,
+1905,1942,2004,2005,1942,2004,2004,2004,2004,2004,2004,2005,1942,2004,2005,1942,2004,2015,2016,2017,2018,2017,2018,2017,2018,2017,2018,2019,2020,1907,
+1905,1974,2075,2076,1974,2113,2114,0,0,0,0,0,1974,2077,2078,1974,0,2047,2048,2049,2050,2049,2050,2049,2050,2049,2050,2051,2052,1907,
+1905,0,2107,2108,0,0,0,0,0,0,0,0,0,2109,2110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1907,
+1905,0,0,0,0,0,1919,1920,1921,1922,1923,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1907,
+1905,0,0,0,0,0,1951,1952,1953,1954,1955,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2103,1907,
+1905,2103,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2103,1907,
+1905,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1907,
+1905,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,0,1943,1907,
+1905,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,0,1943,1907,
+1905,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,0,1943,1907,
+1905,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,0,1943,1907,
+1905,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,0,1943,1907,
+1905,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,0,0,1943,1944,2115,0,0,1943,1907,
+1905,0,0,1975,1976,0,0,1975,1976,0,0,1975,1976,0,0,1975,1976,0,0,1975,1976,0,0,1975,1976,0,0,0,1975,1907,
+1905,0,0,2007,2008,0,0,2009,2008,0,0,2007,2008,0,0,2009,2008,0,0,2007,2008,0,0,2007,2008,0,0,0,2009,1907,
+1905,0,2115,2007,2008,0,0,2007,2010,0,0,2007,2008,0,0,2007,2010,0,0,2009,2008,0,0,2011,2008,0,0,0,2007,1907,
+1905,0,0,2039,2040,0,0,2039,2040,0,0,2043,2044,0,0,2039,2042,0,0,2043,2040,0,0,2041,2044,0,0,0,2039,1907,
+1905,0,0,0,0,0,0,2103,2104,0,0,0,0,0,0,2013,2014,0,0,0,0,0,0,0,0,0,0,0,0,1907,
+1905,0,0,0,0,0,0,2103,2104,0,0,0,0,0,0,2045,2046,0,0,0,0,0,0,0,0,0,0,0,2103,1907,
+1905,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2079,2080,1907,
+1905,1893,1894,0,0,1893,1894,0,0,1893,1894,0,0,0,0,0,0,0,0,2053,2054,2054,2054,2054,2055,0,0,2111,2112,1907,
+1905,1925,1926,0,1924,1925,1926,0,1924,1925,1926,0,0,0,0,0,0,0,0,2085,0,2088,0,0,2087,0,0,0,0,1907,
+1905,0,1958,0,1956,0,1958,0,1956,1959,1958,0,0,0,0,0,0,0,0,2117,2120,2121,2122,2118,2119,0,0,0,0,1907,
+1905,1989,1990,0,0,1989,1990,0,0,1989,1990,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2113,2114,1907,
+1905,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2073,2074,1907,
+1937,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2105,2106,1939,
+17,17,17,17,17,17,17,17,17,17,17,17,1905,0,0,1907,17,17,17,17,17,17,17,17,17,17,17,17,17,17
+</data>
+  </layer>
+  <layer id="3" name="Paths" width="30" height="30" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="4" name="Front" width="30" height="30" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1878,0,0,0,0,2006,0,0,0,2006,0,0,0,0,1878,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1949,1950,0,0,1917,1918,0,0,1981,1982,0,0,
+0,0,0,0,0,2081,2082,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,1887,1888,1889,1890,1891,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2071,0,
+0,2071,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2071,0,
+0,0,0,1879,1880,0,0,1879,1880,0,0,1879,1880,0,0,1879,1880,0,0,1879,1880,0,0,1879,1880,0,0,0,1879,0,
+0,0,0,1911,1912,0,0,1911,1912,0,0,1911,1912,0,0,1911,1912,0,0,1911,1912,0,0,1911,1912,0,0,0,1911,0,
+0,0,0,0,1980,0,0,0,0,0,0,1913,0,0,0,1945,1914,0,0,0,0,0,0,0,1948,0,0,0,1915,0,
+0,0,0,1915,1948,0,0,1913,1916,0,0,1945,1946,0,0,1915,1916,0,0,1947,1916,0,0,1977,1980,0,0,0,1947,0,
+0,0,0,1913,1946,0,0,1977,1914,0,0,0,1946,0,0,1915,1980,0,0,1913,1948,0,0,0,1914,0,0,0,0,0,
+0,0,0,1947,1916,0,0,1979,1916,0,0,1915,1946,0,0,1977,0,0,0,0,1980,0,0,1947,0,0,0,0,1979,0,
+0,0,0,1947,0,0,0,1945,1948,0,0,1979,1914,0,0,1979,1916,0,0,1947,1914,0,0,0,1980,2083,0,0,1913,0,
+0,0,0,0,1916,0,0,0,1946,0,0,1913,1980,0,0,0,1946,0,0,1979,0,0,0,1915,1948,0,0,0,1977,0,
+0,0,0,1977,1914,0,0,1913,1980,0,0,0,1916,0,0,1947,1948,0,0,1945,1946,0,0,0,1916,0,0,0,1945,0,
+0,0,2083,2097,2098,0,0,2097,2098,0,0,2097,2098,0,0,2097,2098,0,0,2097,2098,0,0,2097,2098,0,0,0,0,0,
+0,0,0,2065,2099,0,0,2066,2099,0,0,2067,2099,0,0,2068,2099,0,0,2069,2099,0,0,2070,2099,0,0,0,0,0,
+0,0,0,0,0,0,0,2071,2072,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,2071,2072,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2071,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1895,0,0,0,1896,0,0,0,1897,0,0,0,0,0,0,0,0,0,2021,2022,2022,2022,2022,2023,0,0,0,0,0,
+0,0,0,0,1892,0,0,0,1892,0,0,0,0,0,0,0,0,0,0,0,0,2056,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,1927,0,0,0,0,0,0,0,0,0,0,2086,2086,2086,2086,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2081,2082,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1938,1938,1938,1938,1938,1938,1938,1938,1938,1938,1938,1876,0,0,1877,1938,1938,1938,1938,1938,1938,1938,1938,1938,1938,1938,1938,1938,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="5" name="AlwaysFront" width="30" height="30" opacity="1" offsetx="0" offsety="0">
+    <properties />
+    <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1945,1914,0,0,1947,1980,0,0,1979,1946,0,0,1913,1978,0,0,1945,1948,0,0,1915,1916,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+  </layer>
+  <objectgroup id="6" name="Back" visible="false" locked="false" />
+  <objectgroup id="7" name="Buildings" visible="false" locked="false">
+    <object id="1" name="TileData" x="64" y="160" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.1&quot;" />
+      </properties>
+    </object>
+    <object id="2" name="TileData" x="240" y="160" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.2&quot;" />
+      </properties>
+    </object>
+    <object id="3" name="TileData" x="256" y="160" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.3&quot;" />
+      </properties>
+    </object>
+    <object id="4" name="TileData" x="304" y="160" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.4&quot;" />
+      </properties>
+    </object>
+    <object id="5" name="TileData" x="320" y="160" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.5&quot;" />
+      </properties>
+    </object>
+    <object id="6" name="TileData" x="48" y="176" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.6&quot;" />
+      </properties>
+    </object>
+    <object id="7" name="TileData" x="128" y="176" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.7&quot;" />
+      </properties>
+    </object>
+    <object id="8" name="TileData" x="176" y="176" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.8&quot;" />
+      </properties>
+    </object>
+    <object id="9" name="TileData" x="192" y="176" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.9&quot;" />
+      </properties>
+    </object>
+    <object id="10" name="TileData" x="240" y="176" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.10&quot;" />
+      </properties>
+    </object>
+    <object id="11" name="TileData" x="256" y="176" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.11&quot;" />
+      </properties>
+    </object>
+    <object id="12" name="TileData" x="304" y="176" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.12&quot;" />
+      </properties>
+    </object>
+    <object id="13" name="TileData" x="368" y="176" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.13&quot;" />
+      </properties>
+    </object>
+    <object id="14" name="TileData" x="384" y="176" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.14&quot;" />
+      </properties>
+    </object>
+    <object id="15" name="TileData" x="48" y="192" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.15&quot;" />
+      </properties>
+    </object>
+    <object id="16" name="TileData" x="64" y="192" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.16&quot;" />
+      </properties>
+    </object>
+    <object id="17" name="TileData" x="112" y="192" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.17&quot;" />
+      </properties>
+    </object>
+    <object id="18" name="TileData" x="128" y="192" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.18&quot;" />
+      </properties>
+    </object>
+    <object id="19" name="TileData" x="192" y="192" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.19&quot;" />
+      </properties>
+    </object>
+    <object id="20" name="TileData" x="240" y="192" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.20&quot;" />
+      </properties>
+    </object>
+    <object id="21" name="TileData" x="256" y="192" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.21&quot;" />
+      </properties>
+    </object>
+    <object id="22" name="TileData" x="304" y="192" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.22&quot;" />
+      </properties>
+    </object>
+    <object id="23" name="TileData" x="320" y="192" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.23&quot;" />
+      </properties>
+    </object>
+    <object id="24" name="TileData" x="368" y="192" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.24&quot;" />
+      </properties>
+    </object>
+    <object id="25" name="TileData" x="384" y="192" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.25&quot;" />
+      </properties>
+    </object>
+    <object id="26" name="TileData" x="448" y="192" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.26&quot;" />
+      </properties>
+    </object>
+    <object id="27" name="TileData" x="48" y="208" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.27&quot;" />
+      </properties>
+    </object>
+    <object id="28" name="TileData" x="64" y="208" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.28&quot;" />
+      </properties>
+    </object>
+    <object id="29" name="TileData" x="112" y="208" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.29&quot;" />
+      </properties>
+    </object>
+    <object id="30" name="TileData" x="176" y="208" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.30&quot;" />
+      </properties>
+    </object>
+    <object id="31" name="TileData" x="192" y="208" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.31&quot;" />
+      </properties>
+    </object>
+    <object id="32" name="TileData" x="240" y="208" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.32&quot;" />
+      </properties>
+    </object>
+    <object id="33" name="TileData" x="256" y="208" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.33&quot;" />
+      </properties>
+    </object>
+    <object id="34" name="TileData" x="304" y="208" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.34&quot;" />
+      </properties>
+    </object>
+    <object id="35" name="TileData" x="320" y="208" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.35&quot;" />
+      </properties>
+    </object>
+    <object id="36" name="TileData" x="368" y="208" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.36&quot;" />
+      </properties>
+    </object>
+    <object id="37" name="TileData" x="384" y="208" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.37&quot;" />
+      </properties>
+    </object>
+    <object id="38" name="TileData" x="448" y="208" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.38&quot;" />
+      </properties>
+    </object>
+    <object id="39" name="TileData" x="48" y="224" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.39&quot;" />
+      </properties>
+    </object>
+    <object id="40" name="TileData" x="64" y="224" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.40&quot;" />
+      </properties>
+    </object>
+    <object id="41" name="TileData" x="128" y="224" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.41&quot;" />
+      </properties>
+    </object>
+    <object id="42" name="TileData" x="176" y="224" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.42&quot;" />
+      </properties>
+    </object>
+    <object id="43" name="TileData" x="192" y="224" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.43&quot;" />
+      </properties>
+    </object>
+    <object id="44" name="TileData" x="240" y="224" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.44&quot;" />
+      </properties>
+    </object>
+    <object id="45" name="TileData" x="256" y="224" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.45&quot;" />
+      </properties>
+    </object>
+    <object id="46" name="TileData" x="304" y="224" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.46&quot;" />
+      </properties>
+    </object>
+    <object id="47" name="TileData" x="320" y="224" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.47&quot;" />
+      </properties>
+    </object>
+    <object id="48" name="TileData" x="368" y="224" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.48&quot;" />
+      </properties>
+    </object>
+    <object id="49" name="TileData" x="384" y="224" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.49&quot;" />
+      </properties>
+    </object>
+    <object id="50" name="TileData" x="64" y="240" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.50&quot;" />
+      </properties>
+    </object>
+    <object id="51" name="TileData" x="112" y="240" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.51&quot;" />
+      </properties>
+    </object>
+    <object id="52" name="TileData" x="128" y="240" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.52&quot;" />
+      </properties>
+    </object>
+    <object id="53" name="TileData" x="176" y="240" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.53&quot;" />
+      </properties>
+    </object>
+    <object id="54" name="TileData" x="192" y="240" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.54&quot;" />
+      </properties>
+    </object>
+    <object id="55" name="TileData" x="240" y="240" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.55&quot;" />
+      </properties>
+    </object>
+    <object id="56" name="TileData" x="256" y="240" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.56&quot;" />
+      </properties>
+    </object>
+    <object id="57" name="TileData" x="304" y="240" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.57&quot;" />
+      </properties>
+    </object>
+    <object id="58" name="TileData" x="320" y="240" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.58&quot;" />
+      </properties>
+    </object>
+    <object id="59" name="TileData" x="368" y="240" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.59&quot;" />
+      </properties>
+    </object>
+    <object id="60" name="TileData" x="448" y="240" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.60&quot;" />
+      </properties>
+    </object>
+    <object id="61" name="TileData" x="48" y="256" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.61&quot;" />
+      </properties>
+    </object>
+    <object id="62" name="TileData" x="64" y="256" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.62&quot;" />
+      </properties>
+    </object>
+    <object id="63" name="TileData" x="112" y="256" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.63&quot;" />
+      </properties>
+    </object>
+    <object id="64" name="TileData" x="128" y="256" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.64&quot;" />
+      </properties>
+    </object>
+    <object id="65" name="TileData" x="192" y="256" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.65&quot;" />
+      </properties>
+    </object>
+    <object id="66" name="TileData" x="240" y="256" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.66&quot;" />
+      </properties>
+    </object>
+    <object id="67" name="TileData" x="256" y="256" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.67&quot;" />
+      </properties>
+    </object>
+    <object id="68" name="TileData" x="304" y="256" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.68&quot;" />
+      </properties>
+    </object>
+    <object id="69" name="TileData" x="320" y="256" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.69&quot;" />
+      </properties>
+    </object>
+    <object id="70" name="TileData" x="368" y="256" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.70&quot;" />
+      </properties>
+    </object>
+    <object id="71" name="TileData" x="384" y="256" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.71&quot;" />
+      </properties>
+    </object>
+    <object id="72" name="TileData" x="448" y="256" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.72&quot;" />
+      </properties>
+    </object>
+    <object id="73" name="TileData" x="48" y="272" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.73&quot;" />
+      </properties>
+    </object>
+    <object id="74" name="TileData" x="64" y="272" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.74&quot;" />
+      </properties>
+    </object>
+    <object id="75" name="TileData" x="112" y="272" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.75&quot;" />
+      </properties>
+    </object>
+    <object id="76" name="TileData" x="128" y="272" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.76&quot;" />
+      </properties>
+    </object>
+    <object id="77" name="TileData" x="176" y="272" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.77&quot;" />
+      </properties>
+    </object>
+    <object id="78" name="TileData" x="192" y="272" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.78&quot;" />
+      </properties>
+    </object>
+    <object id="79" name="TileData" x="240" y="272" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.79&quot;" />
+      </properties>
+    </object>
+    <object id="80" name="TileData" x="256" y="272" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.80&quot;" />
+      </properties>
+    </object>
+    <object id="81" name="TileData" x="304" y="272" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.81&quot;" />
+      </properties>
+    </object>
+    <object id="82" name="TileData" x="320" y="272" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.82&quot;" />
+      </properties>
+    </object>
+    <object id="83" name="TileData" x="368" y="272" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.83&quot;" />
+      </properties>
+    </object>
+    <object id="84" name="TileData" x="448" y="272" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.84&quot;" />
+      </properties>
+    </object>
+    <object id="85" name="TileData" x="64" y="288" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.85&quot;" />
+      </properties>
+    </object>
+    <object id="86" name="TileData" x="112" y="288" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.86&quot;" />
+      </properties>
+    </object>
+    <object id="87" name="TileData" x="128" y="288" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.87&quot;" />
+      </properties>
+    </object>
+    <object id="88" name="TileData" x="176" y="288" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.88&quot;" />
+      </properties>
+    </object>
+    <object id="89" name="TileData" x="192" y="288" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.89&quot;" />
+      </properties>
+    </object>
+    <object id="90" name="TileData" x="240" y="288" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.90&quot;" />
+      </properties>
+    </object>
+    <object id="91" name="TileData" x="256" y="288" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.91&quot;" />
+      </properties>
+    </object>
+    <object id="92" name="TileData" x="304" y="288" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.92&quot;" />
+      </properties>
+    </object>
+    <object id="93" name="TileData" x="320" y="288" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.93&quot;" />
+      </properties>
+    </object>
+    <object id="94" name="TileData" x="368" y="288" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.94&quot;" />
+      </properties>
+    </object>
+    <object id="95" name="TileData" x="384" y="288" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.95&quot;" />
+      </properties>
+    </object>
+    <object id="96" name="TileData" x="448" y="288" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.96&quot;" />
+      </properties>
+    </object>
+    <object id="97" name="TileData" x="48" y="304" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.97&quot;" />
+      </properties>
+    </object>
+    <object id="98" name="TileData" x="64" y="304" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.98&quot;" />
+      </properties>
+    </object>
+    <object id="99" name="TileData" x="112" y="304" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.99&quot;" />
+      </properties>
+    </object>
+    <object id="100" name="TileData" x="128" y="304" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.100&quot;" />
+      </properties>
+    </object>
+    <object id="101" name="TileData" x="176" y="304" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.101&quot;" />
+      </properties>
+    </object>
+    <object id="102" name="TileData" x="192" y="304" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.102&quot;" />
+      </properties>
+    </object>
+    <object id="103" name="TileData" x="240" y="304" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.103&quot;" />
+      </properties>
+    </object>
+    <object id="104" name="TileData" x="256" y="304" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.104&quot;" />
+      </properties>
+    </object>
+    <object id="105" name="TileData" x="304" y="304" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.105&quot;" />
+      </properties>
+    </object>
+    <object id="106" name="TileData" x="320" y="304" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.106&quot;" />
+      </properties>
+    </object>
+    <object id="107" name="TileData" x="368" y="304" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.107&quot;" />
+      </properties>
+    </object>
+    <object id="108" name="TileData" x="384" y="304" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.108&quot;" />
+      </properties>
+    </object>
+    <object id="109" name="TileData" x="448" y="304" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="Message &quot;JojaMart.109&quot;" />
+      </properties>
+    </object>
+    <object id="110" name="TileData" x="160" y="384" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="JojaShop" />
+      </properties>
+    </object>
+    <object id="111" name="TileData" x="160" y="400" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="JojaShop" />
+      </properties>
+    </object>
+    <object id="112" name="TileData" x="336" y="400" width="16" height="16" rotation="0">
+      <properties>
+        <property name="Action" type="string" value="JoinJoja" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="8" name="Paths" visible="false" locked="false" />
+  <objectgroup id="9" name="Front" visible="false" locked="false" />
+  <objectgroup id="10" name="AlwaysFront" visible="false" locked="false" />
+</map>
