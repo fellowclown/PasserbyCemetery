@@ -1308,7 +1308,9 @@
                         {
 "Id": "{{ModID}}_MovoraptorEgg",
 "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_UnlockLyellsAnimals",
-"Price": 1500,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 100,
 "ItemId": "{{ModID}}_MovoraptorEgg",
 "AvailableStock":10,
 "AvailableStockLimit": "4"
@@ -1328,7 +1330,7 @@
 "Condition": null,
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 500,
+"TradeItemAmount": 300,
 "ItemId": "{{ModID}}_ReuuSeed",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1432,7 +1434,9 @@
                         {
 "Id": "{{ModID}}_DragaDoughnut",
 "Condition": null,
-"Price": 100,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 10,
 "ItemId": "{{ModID}}_DragaDoughnut",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1440,7 +1444,9 @@
                         {
 "Id": "{{ModID}}_CapWedges",
 "Condition": null,
-"Price": 110,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 20,
 "ItemId": "{{ModID}}_CapWedges",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1448,7 +1454,9 @@
                         {
 "Id": "{{ModID}}_LoMaCakes",
 "Condition": null,
-"Price": 110,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 30,
 "ItemId": "{{ModID}}_LoMaCakes",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1456,7 +1464,9 @@
                         {
 "Id": "{{ModID}}_ZinfazuIcecream",
 "Condition": null,
-"Price": 130,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 40,
 "ItemId": "{{ModID}}_ZinfazuIcecream",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1464,7 +1474,9 @@
                         {
 "Id": "{{ModID}}_IceBerryWine",
 "Condition": null,
-"Price": 210,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 50,
 "ItemId": "{{ModID}}_IceBerryWine",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1472,7 +1484,9 @@
                         {
 "Id": "{{ModID}}_FarmHandSupper",
 "Condition": null,
-"Price": 210,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 60,
 "ItemId": "{{ModID}}_FarmHandSupper",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1480,7 +1494,9 @@
 {
 "Id": "{{ModID}}_TropaWine",
 "Condition": null,
-"Price": 20000,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 200,
 "ItemId": "{{ModID}}_TropaWine",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1511,7 +1527,9 @@
                                                                         {
 "Id": "{{i18n:FC.TraditionalLantern}}",
 "Condition": null,
-"Price": 2000,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 10,
 "ItemId": "{{ModID}}_TraditionalLantern",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1527,7 +1545,9 @@
                          {
 "Id": "{{ModID}}_MovoraptorEgg",
 "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_UnlockLyellsAnimals",
-"Price": 1500,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 10,
 "ItemId": "{{ModID}}_MovoraptorEgg",
 "AvailableStock":10,
 "AvailableStockLimit": "4"
@@ -1547,7 +1567,7 @@
 "Condition": null,
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 500,
+"TradeItemAmount": 400,
 "ItemId": "{{ModID}}_ReuuSeed",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1648,7 +1668,9 @@
                         {
 "Id": "{{ModID}}_DragaDoughnut",
 "Condition": null,
-"Price": 100,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 10,
 "ItemId": "{{ModID}}_DragaDoughnut",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1656,7 +1678,9 @@
                         {
 "Id": "{{ModID}}_CapWedges",
 "Condition": null,
-"Price": 110,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 20,
 "ItemId": "{{ModID}}_CapWedges",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1664,7 +1688,9 @@
                         {
 "Id": "{{ModID}}_LoMaCakes",
 "Condition": null,
-"Price": 110,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 30,
 "ItemId": "{{ModID}}_LoMaCakes",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1672,7 +1698,9 @@
                         {
 "Id": "{{ModID}}_ZinfazuIcecream",
 "Condition": null,
-"Price": 130,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 40,
 "ItemId": "{{ModID}}_ZinfazuIcecream",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1680,7 +1708,9 @@
                         {
 "Id": "{{ModID}}_IceBerryWine",
 "Condition": null,
-"Price": 210,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 50,
 "ItemId": "{{ModID}}_IceBerryWine",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1688,7 +1718,9 @@
                         {
 "Id": "{{ModID}}_FarmHandSupper",
 "Condition": null,
-"Price": 210,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 60,
 "ItemId": "{{ModID}}_FarmHandSupper",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1696,7 +1728,9 @@
 {
 "Id": "{{ModID}}_TropaWine",
 "Condition": null,
-"Price": 20000,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 200,
 "ItemId": "{{ModID}}_TropaWine",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
