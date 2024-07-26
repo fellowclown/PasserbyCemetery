@@ -70,7 +70,7 @@ Dispositions
 "Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_SummoningRett",
 "Location": "{{ModID}}_StoneHouse",
 "Tile": {
-"X": 18,
+"X": 19,
 "Y":19
 },
 "Direction": "right"

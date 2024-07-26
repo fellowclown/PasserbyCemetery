@@ -526,12 +526,12 @@
 "AvailableStockLimit":"player"
 },
 {
-"Id":"{{ModID}}_Ring1",
+"Id":"{{ModID}}_EternalEmbraceRing",
 "Condition":null,
 "Price":1000,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"{{ModID}}_Ring1",
+"ItemId":"{{ModID}}_EternalEmbraceRing",
 "AvailableStock":2,
 "AvailableStockLimit":"player"
 },

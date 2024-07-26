@@ -14,7 +14,7 @@
     "Action": "EditData",
     "Target": "Data/MoviesReactions",
     "Entries": {
-"Thalia": { //Substitute with your NPC's internal name.
+"FC.Thalia": { //Substitute with your NPC's internal name.
     "NPCName": "FC.Thalia", //Substitute with your NPC's internal name.
     "Reactions": [
 {
@@ -68,7 +68,7 @@
 },
 {
 "Tag": "summer_movie_0", //Prairie King
-"Response": "love",
+"Response": "hate",
 "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {
@@ -115,7 +115,7 @@
 },
 {
 "Tag": "fall_movie_0", //Mysterium
-"Response": "love",
+"Response": "hate",
 "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {
@@ -161,7 +161,7 @@
 },
 {
 "Tag": "winter_movie_0", //Miracle At Coldstar Ranch
-"Response": "love",
+"Response": "hate",
 "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {
@@ -201,6 +201,29 @@
 "ResponsePoint": null,
 "Script": null,
 "Text": "{{i18n:Thalia.movies.7.after}}"
+}
+},
+"ID": "winter0_4",
+    },
+        {
+"Tag": "{{ModID}}_SpiritOfLife", //Spirit Of Life
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Thalia.movies.8.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "/message \"{{i18n:Thalia.movies.8.during}}\"/",
+"Text": null
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Thalia.movies.8.after}}"
 }
 },
 "ID": "winter0_4",

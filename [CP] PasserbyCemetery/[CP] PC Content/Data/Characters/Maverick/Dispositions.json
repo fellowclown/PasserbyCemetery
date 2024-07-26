@@ -50,8 +50,8 @@
 "Condition": null,
 "Location": "{{ModID}}_MavericksHouse",
 "Tile": {
-"X": 8,
-"Y": 12
+"X": 12,
+"Y": 9
 },
 "Direction": "left"
 }

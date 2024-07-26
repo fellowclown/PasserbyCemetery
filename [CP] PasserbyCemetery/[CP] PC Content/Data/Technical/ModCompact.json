@@ -58,6 +58,30 @@
             "When": {
                  "HasSeenEvent |contains={{ModID}}_ConfessionsOfMother": true,
             }
-}
+},
+{
+    "Action": "EditData",
+    "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+     "When": {
+           "HasMod |contains=Bouhm.NPCMapLocations": true
+            },
+    "Entries": {
+        "FC.Lyell": {
+            "MarkerCropOffset": 480,
+        },
+         "FC.Roswell": {
+            "MarkerCropOffset": 327,
+        },
+         "FC.Alan": {
+            "MarkerCropOffset": 5,
+        },
+         "FC.Dezerie": {
+            "MarkerCropOffset": 5,
+        },
+          "FC.Thalia": {
+            "MarkerCropOffset": 4,
+        },
+    }
+},
    ]
 }

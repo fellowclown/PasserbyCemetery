@@ -204,6 +204,29 @@
 }
 },
 "ID": "winter0_4",
+    },
+            {
+"Tag": "{{ModID}}_SpiritOfLife", //Spirit Of Life
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Lyell.movies.8.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "/message \"{{i18n:Lyell.movies.8.during}}\"/",
+"Text": null
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Lyell.movies.8.after}}"
+}
+},
+"ID": "winter0_4",
     }
  ]
   }

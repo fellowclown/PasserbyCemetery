@@ -1,0 +1,39 @@
+{
+    "Changes": [
+{
+    "Action": "EditData",
+    "Target": "Data/MoviesReactions",
+    "Entries": {
+"{{VanillaMovieNpcs}}": { //Substitute with your NPC's internal name.
+    "NPCName": "{{VanillaMovieNpcs}}", //Substitute with your NPC's internal name.
+    "Reactions": [
+ {
+"Tag": "{{ModID}}_SpiritOfLife", //Spirit Of Life
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Default.movies.8.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "/message \"{{i18n:Default.movies.8.during}}\"/",
+"Text": null
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Default.movies.8.after}}"
+}
+},
+"ID": "winter0_4",
+    }
+ ]
+  }
+}
+}, 
+     
+    ]
+}

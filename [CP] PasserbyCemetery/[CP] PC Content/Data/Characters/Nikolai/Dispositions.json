@@ -117,7 +117,7 @@ Dispositions
 "Condition": null,
 "Location": "{{ModID}}_NiksRoom",
 "Tile": {
-"X": 11,
+"X": 12,
 "Y":11
 },
 "Direction": "right"

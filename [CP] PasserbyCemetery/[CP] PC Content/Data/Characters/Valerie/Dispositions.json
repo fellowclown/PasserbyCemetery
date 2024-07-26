@@ -93,7 +93,7 @@ Dispositions
 "Condition": null,
 "Location": "{{ModID}}_StoneHouse",
 "Tile": {
-"X": 18,
+"X": 19,
 "Y":10
 },
 "Direction": "right"

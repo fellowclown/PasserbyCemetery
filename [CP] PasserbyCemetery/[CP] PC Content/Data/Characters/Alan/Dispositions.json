@@ -69,8 +69,8 @@ Dispositions
 "Condition": null,
 "Location": "{{ModID}}_AlansRoom",
 "Tile": {
-"X": 10,
-"Y":6
+"X": 11,
+"Y":7
 },
 "Direction": "right"
 }

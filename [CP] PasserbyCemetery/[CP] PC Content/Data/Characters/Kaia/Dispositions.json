@@ -98,7 +98,7 @@ Dispositions
 "Location": "{{ModID}}_LeslaHouse",
 "Tile": {
 "X": 10,
-"Y": 11
+"Y": 12
 },
 "Direction": "right"
 }

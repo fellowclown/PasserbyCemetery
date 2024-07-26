@@ -14,7 +14,7 @@
     "Action": "EditData",
     "Target": "Data/MoviesReactions",
     "Entries": {
-"Dezerie": { //Substitute with your NPC's internal name.
+"FC.Dezerie": { //Substitute with your NPC's internal name.
     "NPCName": "FC.Dezerie", //Substitute with your NPC's internal name.
     "Reactions": [
 {
@@ -201,6 +201,29 @@
 "ResponsePoint": null,
 "Script": null,
 "Text": "{{i18n:Dezerie.movies.7.after}}"
+}
+},
+"ID": "winter0_4",
+    },
+     {
+"Tag": "{{ModID}}_SpiritOfLife", //Spirit Of Life
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Dezerie.movies.8.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "/message \"{{i18n:Dezerie.movies.8.during}}\"/",
+"Text": null
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Dezerie.movies.8.after}}"
 }
 },
 "ID": "winter0_4",

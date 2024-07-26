@@ -66,6 +66,12 @@ Schedule Strings
 "DesertFestival": "610 Desert 27 66 1 \"Strings\\schedules\\FC.Nikolai:Nikolai.DesertFestival\"",
 "TroutDerby": "1000 Forest 102 33 2 \"Strings\\schedules\\FC.Nikolai:Nikolai.TroutDerby\"",
 "SquidFest": "900 Beach 54 6 2 {{ModID}}_Nikolai_DrinkChair2 14 37 1 \"Strings\\schedules\\FC.Nikolai:Nikolai.SquidFest\"",
+
+"winter_15": "800 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/1100 {{ModID}}_LeslaHouse 20 12 2 {{ModID}}_Nikolai_EatChair2/1300 Beach 8 19 2 \"Strings\\schedules\\FC.Nikolai:Nikolai.NightMarket\"",
+"winter_16": "800 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/1100 {{ModID}}_LeslaHouse 20 12 2 {{ModID}}_Nikolai_EatChair2/1300 Beach 8 19 2\"Strings\\schedules\\FC.Nikolai:Nikolai.NightMarket\"",
+"winter_17": "800 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/1100 {{ModID}}_LeslaHouse 20 12 2 {{ModID}}_Nikolai_EatChair2/1300 Beach 8 19 2 \"Strings\\schedules\\FC.Nikolai:Nikolai.NightMarket\"",
+
+
 }, 
 "When": {
 
