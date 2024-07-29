@@ -29,6 +29,12 @@
     "Entries": {
         "FC.FakeNpc": {
             "Exclude": true
+        },
+          "FC.Mellie": {
+            "Exclude": true
+        },
+          "FC.Twinkle": {
+            "Exclude": true
         }
     },
             "When": {

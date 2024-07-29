@@ -434,6 +434,8 @@ Maverick
 //Incoming Calls
 "Maverick.PhoneCall.1": "Hello? Hello? Did you just call me?#$b#Don't do it again, I don't like scam callers.$3",
 "Maverick.PhoneCall.2": "How do I work this thing...@? You hear me alright? Oh shoot, I dropped the phone in the sink.$3",
+//schedule strings
+    "Maverick.NightMarket": "Lyell always sells pretty interesting stuff.$1",
 /************************************************
 Nikolai
 ************************************************/
@@ -1395,7 +1397,7 @@ Roswell's Information
 "Roswell.winter8.friendly": "Roswell eyes the fishing bin.$3#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 // winter star
 "Roswell.winter25.unmet": "Boxy is her friend, she's there to protect him.$3#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-"Roswell.winter25.friendly": "Roswell preens Boxy’s neck, they seem so happy.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
+"Roswell.winter25.friendly": "Roswell preens at her feathers.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 /************************************************
 Grady's Information
 ************************************************/
@@ -1518,6 +1520,7 @@ Grady's Information
 "Saloon.Grady.MidHeart.fall": "I love Spirit's Eve, mostly the candy but also I love making Lyell dress in funny outfits.$1",
 "Saloon.Grady.MidHeart.winter": "Heey! Glad to see you around, always a delight talking to you, cowpoke.$1",
 //Festival Dialogue
+"Grady.NightMarket": "You should buy something from Lyell and maybe that traveler with the pig.$1#$b3Neat stuff.$1",
 "Grady.GreenRain": "There's historical documentation of green rainstorms. But I never thought I would see it.$1",
 "Grady.DesertFestival": "I can't help but love this gathering, it's so culturally rich in Calico.$1",
 "Grady.TroutDerby": "I cannot wait to try this derby thing out, count me in!$1",
@@ -2150,6 +2153,7 @@ Dezerie's Information
 "Dezerie.movies.8.before": "Hm, this looks like something Valerie would enjoy.",
 "Dezerie.movies.8.during": "She appears perplexed.",
 "Dezerie.movies.8.after": "I don't really understand the beliefs of other countries, but I do find them interesting...It was a decent film, if not a little boring.$2",
+"Dezerie.NightMarket": "It's nice to see Valerie applying herself to something safer...Maybe she could make a career out of selling special drinks.$1",
 /************************************************
 Alan's Information ///Written By Chirps
 ************************************************/
@@ -2168,7 +2172,7 @@ Alan's Information ///Written By Chirps
 "Alan.gift.neutral": "Thanks. I’ll figure out a use for it.",
 "WinterStar_GiveGift_Before.Alan": "Hey, @. You having a wonderful evening?",
 "WinterStar_GiveGift_After.Alan": "Can't believe you were my secret gift giver. Let's have a looksie!",
-"WinterStar_ReceiveGift.Alan": "I-I, umm… Spent a week trying to figure out what to get you. I h-hope you like it!$1",
+"WinterStar_ReceiveGift.Alan": "Oh wow, this is so cool. Thank you for the gift @$1",
 "RejectMovieTicket_AlreadyInvitedBySomeoneElse.Alan": "Sorry buddy, I have obligations today.$2",
 "RejectMovieTicket_AlreadyWatchedThisWeek.Alan": "Oh, no thanks. I just, need some down time I think.$1",
 "RejectMovieTicket_DontWantToSeeThatMovie.Alan": "Oh-oh, look I just...Not to be rude, I just don't like the movie that's playing.$2",
@@ -2320,7 +2324,7 @@ Alan's Information ///Written By Chirps
 "Alan.winter8.friendly": "This festival makes me thankful I can't hear fish.$5",
 // winter star
 "Alan.winter25.unmet": "It feels fitting meeting new people today. @, right? I'm Alan.",
-"Alan.winter25.friendly": "I might grumble about them…But I truly am thankful for my family.$1#$e#And for friends like you, obviously!",
+"Alan.winter25.friendly": "I might grumble about them…But I truly am thankful for my family.$1#$b#And for friends like you, obviously!",
 //Incoming Calls
 "Alan.PhoneCall.1": "I'm slowly figuring out how to synthesize a new iron allotrope with alchemy.$1#$b#I'm trying to make an inexpensive memory metal that can repair itself.#$b#I'll let you know if I manage it, expect a call from me.$1",
 "Alan.PhoneCall.2": "I showed mom a new prototype mortar and pestle I invented to make curry paste with less hassle using quartz.#$b#Turns out the quartz crystal frequency harmonizes with elixir ingredients really well. She was positively beaming!$1#$b#If you want to test it for yourself, let me know.$1#$b#Have to get going for now, talk to you later @.$1",
@@ -2360,6 +2364,7 @@ Alan's Information ///Written By Chirps
 "Alan.movies.8.before": "I hope this isn't scary, I don't like horror movies.$2",
 "Alan.movies.8.during": "Alan's eyes are tearing up.",
 "Alan.movies.8.after": "That was weirdly a very sad story...$2",
+"Alan.NightMarket": "Wonder if jingles likes honey.$1#$b#Maybe I can buy her jar.$1",
 /************************************************
 Cotton
 ************************************************/
@@ -2373,7 +2378,7 @@ Cotton
 "AcceptBirthdayGift_Hated.Cotton": "Whatever, birthdays are stupid. Just like your dumbass gift.#$action spacechase0.SpaceCore_PlaySound grunt",
 "AcceptBirthdayGift_Neutral.Cotton": ".",
 "Cotton.gift.love": "You're really giving this to me?$3#$b#Thanks...$1",
-"Cotton.gift.like": "Hm, not bad for human, guess you've good taste.$1",
+"Cotton.gift.like": "Hm, not bad for a human, guess you've good taste.$1",
 "Cotton.gift.dislike": "What a bad gift this is, what a joke!",
 "Cotton.gift.hate": "Wow, I hate this! How about you get lost.$5#$action spacechase0.SpaceCore_PlaySound grunt",
 "Cotton.gift.neutral": "Eh, I guess I can use this.",
@@ -2423,7 +2428,7 @@ Cotton
 "Tue.Cotton.LowHeart.spring": "You made a mistake freeing me, you humans are in for in now!$1#$b#Teach you assholes to trap people behind waterfalls.$5#$action spacechase0.SpaceCore_PlaySound grunt",
 "Tue.Cotton.LowHeart.summer": "Go mess with that stinky dude, what's his face? Shane? Yeah Shane, leave me alone and fuck with him instead.$1",
 "Tue.Cotton.LowHeart.fall": "Hey don't panic, but I'm not completely human.#$b#Oh you already know?#$b#Hm weird, I didn't realize since you're always bothering me like I am.$5",
-"Tue.Cotton.LowHeart.winter": "Go make a difference somewhere else, I'm not interesting in breaking the social borders of monster and human kind.$5#$action spacechase0.SpaceCore_PlaySound grunt",
+"Tue.Cotton.LowHeart.winter": "Go make a difference somewhere else, I'm not interested in breaking the social borders of monster and human kind.$5#$action spacechase0.SpaceCore_PlaySound grunt",
 "Wed.Cotton.LowHeart.spring": "That one human...Marnie is it?#$b#She seems genuinely kind...even after seeing I wasn't human, she was nice to me...$2#$b#Weird chick...#$action spacechase0.SpaceCore_PlaySound grunt",
 "Wed.Cotton.LowHeart.summer": "You look weird.#$e#Still gonna bug me? Wow, aren't you persistent.$5#$action spacechase0.SpaceCore_PlaySound grunt",
 "Wed.Cotton.LowHeart.fall": "Found out my father is actually nearby...But you know what, screw that guy.$5#$b#He's an asshole anyway.$5#$action spacechase0.SpaceCore_PlaySound grunt",
@@ -2502,6 +2507,9 @@ Cotton
 "Sun.Cotton.HighHeart.winter": "",
 "Cotton.engagement.0": "",
 "Cotton.engagement.1": "",
+//schedule strings
+"Cotton.GreenRain": "Green rain isn't that big a deal, but getting wet sucks so...I'm staying inside as much as possible.$2",
+"Cotton.NightMarket": "Valerie isn't so bad, she gives me void products so...Good in my book.$4",
 //Marriage Dialogue 
 "patio_Cotton": "",
 "spouseRoom_Cotton": "",
@@ -2599,7 +2607,7 @@ Cotton
 
 "Cotton.movies.8.before": "This better be good or I'll be causing issues for you.$1",
 "Cotton.movies.8.during": "Cotton yawns.",
-"Cotton.movies.8.after": "That was boring as hell, doyou really find stories like that interesting?$1#$action spacechase0.SpaceCore_PlaySound grunt",
+"Cotton.movies.8.after": "That was boring as hell, do you really find stories like that interesting?$1#$action spacechase0.SpaceCore_PlaySound grunt",
 /************************************************
 Thalia
 ************************************************/
@@ -2952,13 +2960,12 @@ Thalia
 "Thalia.movies.8.before": "Why, this looks like a Arcanian movie.$1",
 "Thalia.movies.8.during": "There's tear in her eyes.",
 "Thalia.movies.8.after": "I miss my homeland so much now, but that was a beautiful film.$1#$b#Even if it was very simplified.$1",
+//schedule strings
+"Thalia.GreenRain": "I wonder when this rain will stop, it's beautiful but it being green is somewhat concerning.$2",
+"Thalia.NightMarket": "Nikolai has wonderful honey products.$1",
 /************************************************
 Vanilla Editions
 ************************************************/
-///Movies
-"Default.movies.8.before": "Huh, this movie looks different from what's usually playing.$1",
-"Default.movies.8.during": "They appear very focused on the movie.",
-"Default.movies.8.after": "Wow, that was different.$1#$b#But you know, I actually sort of liked it.$1",
 
 "Mon.Abigail":"Valerie is actually really cool, she's pretty knowledgable in the occult you know.$1",
 "Wed.Abigail":"Alan's mom makes me pretty uneasy, have you met her? I'd hate to live with her.$2",
@@ -3108,7 +3115,11 @@ Movie Editions
 "SpiritOfLife.Scene.11": "Lipheum, panicked having felt a part of her flame suddenly go missing…",//6
 "SpiritOfLife.Scene.12": "Lipheum’s starkin was revived from her flame, but the starkin had changed.",//8
 "SpiritOfLife.Scene.13": "Arah was no longer a star, she had been transform into a planet.",//9
-
+/************************************************
+Temp Actors
+************************************************/
+"FC.Mellie": "Mellie",
+"FC.Twinkle": "Twinkle",
 /************************************************
 Meep Image and Text Editions
 ************************************************/
@@ -3593,6 +3604,7 @@ Custom Rings
 "FC.YobasBlessing.Buff": "Enlightened.",
 "FC.ArahsBlessing.Buff": "Ancient Enlightenment.",
 "FC.Illness.Buff": "Sick or Injured.",
+"FC.VoidMilk.Buff": "Void Zoomies",
 /************************************************
 Custom Scarecrows
 ************************************************/
@@ -3933,6 +3945,7 @@ Custom Trees
 /************************************************
 Custom Map Strings
 ************************************************/
+"StoneHome.AlanDoor": "You can't go out onto Alan's terrace.",
 "GraveYard.Waterfall": "You can see something just behind the waterfall...But how do you get to it?",
 "GraveYard.Ladder": "The ladder is just a longer way in probably...",
 "GraveYard.ShroomTable":"Is that a mushroom table?.",
@@ -4342,6 +4355,29 @@ Marketpalooza
 /************************************************
 Custom World Events
 ************************************************/
+"TheBridge.00": "Don't worry!",
+"TheBridge.01": "I'll find a way to fix the bridge!$3",
+"TheBridge.02": "@!",
+"TheBridge.03": "I need your help!$3#$b#There's a poor creature stuck behind the falls!$2",
+"TheBridge.04": "Please! With Twinkle gone to investigate deeper into passerby, I don't have the energy to do this one my own...$2#$b#If I could just have some of your energy, I could fix this bridge and free our friend behind it!",
+"TheBridge.05": "Can you help me?#Yes#No#",
+"TheBridge.06": "What...You really won't help?$2#$b#I guess I can try on my own.$2",
+"TheBridge.07": "You freed me!$6#$b#no thanks to that human...",
+"TheBridge.08": "Stay away, I don't trust you, humans is why I was stuck behind the falls in the first place!$5",
+"TheBridge.09": "I'm happy I could do this for you, I didn't think I could.",
+"TheBridge.10": "Don't underestimate your own power little guy, it's a big mistake.$5",
+"TheBridge.11": "Thank you again...$2.",
+"TheBridge.12": "I'm finally free...$1#$b#And now, no one will ever trap me again.$5",
+"TheBridge.13": "Thank you!",
+"TheBridge.14": "This will only hurt a little bit...$2",
+"TheBridge.15": "Okay, I think I can do this now!$1",
+"TheBridge.16": "You freed me!$6#$b#You both did...",
+"TheBridge.17": "Stay away though!$5#$b#I still don't trust you, humans is why I was stuck behind the falls in the first place!$5",
+"TheBridge.18": "@ is a good human, you can trust them.$2",
+"TheBridge.19": "There's no such thing as a good human-Only one with a goal.$5",
+"TheBridge.20": "Thank you though...$2.",
+"TheBridge.21": "Both of you...",
+
 "TheCreature.00": "Something is loose in the cemetery.",
 "UnlockTropaTree.00": "Look at her go!",
 "UnlockTropaTree.01": "Hey @, we were waiting for you to mosey by.$1",
@@ -5217,4 +5253,18 @@ Lyell's Events
 "TheTwins.35": "It's healed but...Left a pretty bad scar...$2",
 "TheTwins.36": "...$5#$b#Just tell someone who can help, before the restless breach the surface...$7",
 "TheTwins.37": "I better go tell Marlon, he should know what to do...$5",
+/************************************************
+Thalia's Events
+************************************************/
+"ThaliaIntroduction.00": "Howdy @, I'm waiting for a friend arrive.$1#$b#She's coming from Tuuwe, Willy went and picked her up.$1",
+"ThaliaIntroduction.01": "Speak of evil!",
+"ThaliaIntroduction.02": "Lyell! It's so good to see you again!$1",
+"ThaliaIntroduction.03": "Hm, who's this though?$1",
+"ThaliaIntroduction.04": "#My name is @, nice to meet you.#You tell me who you are first.",
+"ThaliaIntroduction.05": "Oh! @! What a interesting name you have.$1#$b#I'm Thalia, it's so nice to finally be here and to meet you as well",
+"ThaliaIntroduction.06": "This is Thalia, she's a good friend of mine.$2#$b#Thalia this is @, they're the owner of %farm.$1",
+"ThaliaIntroduction.07": "You're probably exhuasted, I already have your new home set up for you if you're ready to go settling in.$1",
+"ThaliaIntroduction.08": "I'd love that.$1",
+"ThaliaIntroduction.09": "I'll be seeing you @.",
+
 }

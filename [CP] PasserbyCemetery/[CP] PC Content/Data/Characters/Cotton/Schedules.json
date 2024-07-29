@@ -1,2 +1,57 @@
 {
+"Changes": [
+
+/************************************************
+ ANIMATIONS 
+ ************************************************/
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModID}}_CottonSit2": "16/16/16",
+"{{ModID}}_CottonPout": "19/19 19 19 19 20 20 20 20 20/19",
+}
+},
+ {
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Cotton",
+"Entries": {
+"Cotton.GreenRain": "{{i18n:Cotton.GreenRain}}",
+"Cotton.NightMarket": "{{i18n:Cotton.NightMarket}}",
+}
+},
+/************************************************
+ ** Schedules Default
+ ************************************************/
+ {
+"LogName": "Cotton's Default Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Cotton",
+"Entries": {
+"spring": "GOTO Mon",
+"Mon": "1200 Beach 14 14 2 {{ModID}}_CottonPout/1500 Town 71 91 2 {{ModID}}_CottonSit2/1900 {{ModID}}_OldGraveYard 19 44 2/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
+
+"Tue": "1200 Forest 34 9 2 {{ModID}}_CottonPout/1500 Forest 31 96 1/1900 {{ModID}}_OldGraveYard 19 44 2/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
+
+"Wed": "1200 Animalshop 16 13 2 16 13 2/1500 Town 71 91 2 {{ModID}}_CottonSit2/1900 Mountain 79 31 3/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
+
+"Thu": "1200 Mountai 79 31 3/1500 Mountain 44 8 1/1900 {{ModID}}_OldGraveYard 19 44 2/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
+
+"Fri": "1200 Animalshop 16 13 2 {{ModID}}_CottonPout/1500 Forest 34 9 2/1900 Mountain 44 8 1/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
+
+"Sat": "1200 {{ModID}}_LyellsBarn 3 3 2 {{ModID}}_CottonPout/1500 {{ModID}}_LyellsBarn 3 12 0/1900 {{ModID}}_OldGraveYard 19 44 2 34 40 2/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
+
+"Sun": "1200 {{ModID}}_OldGraveYard 19 44 2/1500 Forest 34 9 2/1500 {{ModID}}_LyellsBarn 3 3 2/1900 {{ModID}}_OldGraveYard 19 44 2/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
+
+"rain": "1200 Animalshop 16 13 2/1500 {{ModID}}_CottonsHome/1900 {{ModID}}_CottonsHome/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
+
+"GreenRain": "1000 {{ModID}}_CottonsHome \"Strings\\schedules\\FC.Cotton:Cotton.GreenRain\"/1800 {{ModID}}_OldGraveYard 19 44 2/1200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
+"winter_16": "1000 Animalshop 16 13 2/1400 Forest 34 9 2/1700 Beach 3 22 1 \"Strings\\schedules\\FC.Cotton:Cotton.NightMarket\"/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
+}, 
+"When": {
+                             "HasSeenEvent |contains={{ModID}}_TheBridge": true,
+}
+},
+]
 }

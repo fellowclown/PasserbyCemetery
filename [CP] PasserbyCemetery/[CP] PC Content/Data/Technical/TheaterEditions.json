@@ -13,7 +13,7 @@
           "Description": "{{i18n:SpiritOfLife.Description}}",
           "Tags": [
             "art",
-            "documentary"
+            "documentary",
             "{{ModID}}_SpiritOfLife"
           ],
           "Scenes": [

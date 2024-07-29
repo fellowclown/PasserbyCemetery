@@ -1,2 +1,12 @@
 {
+    "Changes": [
+{
+"LogName": "Thalias intro",
+"Action": "EditData",
+"Target": "Data/Events/Beach",
+"Entries": {
+ "{{ModID}}_ThaliaIntroduction/w sunny/t 1200 2600": "Cyclops/-1000 -1000/farmer 26 33 2 FC.Thalia -3000 -3000 2 Willy -3000 -3000 2 FC.Lyell 25 36 2/viewport 30 35 clamp true/skippable/addConversationTopic FC.ThaliaIntro 12/positionOffset FC.Lyell -30 0/animate FC.Lyell false true 260 44 45 46 47 47 47 47 47 47 46 45 44 44 44 44 44 44/pause 1000/move farmer 0 3 2/pause 300/speak FC.Lyell \"{{i18n:ThaliaIntroduction.00}}\"/playSound doorOpen/warp Willy 30 34/move Willy 0 1 3/move Willy 1 0 3/playSound doorOpen/warp FC.Thalia 30 34/jump FC.Lyell 6/stopAnimation FC.Lyell 4/pause 1000/textAbovehead FC.Lyell \"{{i18n:ThaliaIntroduction.01}}\"/advancedMove FC.Lyell false 0 -2 1 10 4 0 1 10/pause 1000/emote FC.Thalia 20/faceDirection FC.Thalia 3/pause 400/speak FC.Thalia \"{{i18n:ThaliaIntroduction.02}}\"/advancedMove farmer false 0 -1 1 900 3 0 1 10/pause 500/faceDirection FC.Thalia 2/speak FC.Thalia \"{{i18n:ThaliaIntroduction.03}}\"/pause 1000/quickQuestion {{i18n:ThaliaIntroduction.04}}(break)speak FC.Thalia \"{{i18n:ThaliaIntroduction.05}}\"\\friendship FC.Thalia 3(break)speak FC.Lyell \"{{i18n:ThaliaIntroduction.06}}\"\\friendship FC.Lyell -3/pause 400/speak FC.Lyell \"{{i18n:ThaliaIntroduction.07}}\"/pause 400/faceDirection FC.Thalia 3/speak FC.Thalia \"{{i18n:ThaliaIntroduction.08}}\"/pause 300/faceDirection FC.Thalia 2/speak FC.Thalia \"{{i18n:ThaliaIntroduction.09}}\"/pause 200/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/end" 
+  }
+ },
+]
 }

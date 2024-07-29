@@ -40,7 +40,7 @@
   "Action": "EditMap",
   "Target": "Maps/{{ModID}}_OldGraveYard",
           "When": {
-"HasFlag |contains=landslideDone": true,             },
+      "HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,            },
   "MapTiles": [
     {
       "Position": {
@@ -144,7 +144,7 @@
 "Update": "OnTimeChange, OnLocationChange",
  "ToArea": { "X": 8, "Y": 2, "Width":5, "Height": 5 },
  "When": {
-            "HasSeenEvent |contains={{ModID}}_FixBridge": true,
+            "HasSeenEvent |contains={{ModID}}_TheBridge": true,
 }
         },
           {

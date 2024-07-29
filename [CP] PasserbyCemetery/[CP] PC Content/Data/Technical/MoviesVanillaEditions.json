@@ -15,17 +15,17 @@
 "BeforeMovie": {
 "ResponsePoint": null,
 "Script": null,
-"Text": "{{i18n:Default.movies.8.before}}"
+"Text": null,
 },
 "DuringMovie": {
 "ResponsePoint": null,
-"Script": "/message \"{{i18n:Default.movies.8.during}}\"/",
+"Script":null,
 "Text": null
 },
 "AfterMovie": {
 "ResponsePoint": null,
 "Script": null,
-"Text": "{{i18n:Default.movies.8.after}}"
+"Text": null,
 }
 },
 "ID": "winter0_4",

@@ -8,7 +8,7 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Thalia": "{{i18n:Thalia.gift.love}}/{{ModID}}_SunshineHoney {{ModID}}_CherryBlossomHoney 22 60 340/{{i18n:Thalia.gift.like}}/{{ModID}}_VoidHoney {{ModID}}_ChocoFruit {{ModID}}_ButtonFruit {{ModID}}_YohoFruit 342 346 348/{{i18n:Thalia.gift.dislike}}/16 20 78/{{i18n:Thalia.gift.hate}}/372/{{i18n:Thalia.gift.neutral}}/66 392/",
+"FC.Thalia": "{{i18n:Thalia.gift.love}}/{{ModID}}_DodoMayo {{ModID}}_DeepCaveFruitJuice {{ModID}}_ChocoBun {{ModID}}_PopachiniStew/{{i18n:Thalia.gift.like}}/{{ModID}}_PaneekiStirFry {{ModID}}_RefinedTropaWine {{ModID}}_TropaWine {{ModID}}_WarpRootTea {{ModID}}_ArcaCoin {{ModID}}_AdauulaCakes/{{i18n:Thalia.gift.dislike}}/{{ModID}}_GaggleShrooms {{ModID}}_MovoraptorMayo {{ModID}}_LureBerryJuice/{{i18n:Thalia.gift.hate}}/{{ModID}}_MidnightSurpise {{ModID}}_DarkTuffWedges/{{i18n:Thalia.gift.neutral}}/{{ModID}}_FairyFingerTea {{ModID}}_FirePepperMeatPie/",
 }
  },
 ]
