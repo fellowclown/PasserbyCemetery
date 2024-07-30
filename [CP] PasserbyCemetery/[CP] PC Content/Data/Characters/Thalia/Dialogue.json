@@ -254,8 +254,8 @@ MiscDialogue
 "Target":"Data/IncomingPhoneCalls",
 "Entries":{
 "{{ModID}}_PhoneThalia":{
-"TriggerCondition":null,
-"RingCondition":null,
+"TriggerCondition":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_ThaliaIntroduction",
+"RingCondition":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_ThaliaIntroduction,PLAYER_HEARTS Current FC.Thalia 750 3000",
 "FromNpc":"FC.Thalia",
 "FromPortrait":null,
 "FromDisplayName":null,

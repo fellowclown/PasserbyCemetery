@@ -146,7 +146,7 @@ DatingDialogue
 "Saloon":"{{i18n:Saloon.Valerie.Highheart.{{season}}}}",
 },
 "When":{
-"Hearts:FC.John": "{{Range: 9, 10}}" 
+"Hearts:FC.Valerie": "{{Range: 9, 10}}" 
 }
 },
   {
@@ -271,8 +271,8 @@ MiscDialogue
 "Target":"Data/IncomingPhoneCalls",
 "Entries":{
 "{{ModID}}_PhoneValerie":{
-"TriggerCondition":null,
-"RingCondition":null,
+"TriggerCondition":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_StoneIntroduction",
+"RingCondition":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_StoneIntroduction,PLAYER_HEARTS Current FC.Valerie 750 3000",
 "FromNpc":"FC.Valerie",
 "FromPortrait":null,
 "FromDisplayName":null,

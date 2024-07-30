@@ -274,8 +274,8 @@
 "Target": "Data/IncomingPhoneCalls",
 "Entries": {
   "{{ModID}}_PhoneLyell": {
-"TriggerCondition": null,
-"RingCondition": null,
+"TriggerCondition":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_GradyReunitesWithLyell",
+"RingCondition":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_GradyReunitesWithLyell,PLAYER_HEARTS Current FC.Lyell 750 3000",
 "FromNpc": "FC.Lyell",
 "FromPortrait": null,
 "FromDisplayName": null,

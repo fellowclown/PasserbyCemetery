@@ -103,8 +103,8 @@ MiscDialogue
 "Target":"Data/IncomingPhoneCalls",
 "Entries":{
 "{{ModID}}_PhoneMaverick":{
-"TriggerCondition":null,
-"RingCondition":null,
+"TriggerCondition":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_{{ModID}}_TheStatue",
+"RingCondition":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_{{ModID}}_TheStatue,PLAYER_HEARTS Current FC.Maverick 750 3000",
 "FromNpc":"FC.Maverick",
 "FromPortrait":null,
 "FromDisplayName":null,

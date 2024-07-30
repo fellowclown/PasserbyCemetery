@@ -205,8 +205,8 @@ MiscDialogue
 "Target":"Data/IncomingPhoneCalls",
 "Entries":{
 "{{ModID}}_PhoneCotton":{
-"TriggerCondition":null,
-"RingCondition":null,
+"TriggerCondition":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_TheBridge",
+"RingCondition":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_TheBridge,PLAYER_HEARTS Current FC.Cotton 750 3000",
 "FromNpc":"FC.Cotton",
 "FromPortrait":null,
 "FromDisplayName":null,

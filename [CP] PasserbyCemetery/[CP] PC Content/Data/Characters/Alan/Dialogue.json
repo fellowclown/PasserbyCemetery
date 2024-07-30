@@ -115,8 +115,8 @@ MiscDialogue
 "Target":"Data/IncomingPhoneCalls",
 "Entries":{
 "{{ModID}}_PhoneAlan":{
-"TriggerCondition":null,
-"RingCondition":null,
+"TriggerCondition":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_StoneIntroduction",
+"RingCondition":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_StoneIntroduction,PLAYER_HEARTS Current FC.Alan 750 3000",
 "FromNpc":"FC.Alan",
 "FromPortrait":null,
 "FromDisplayName":null,

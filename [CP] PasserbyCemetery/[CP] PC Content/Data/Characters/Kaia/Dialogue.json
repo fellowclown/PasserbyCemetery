@@ -121,8 +121,8 @@ MiscDialogue
 "Target": "Data/IncomingPhoneCalls",
 "Entries": {
   "{{ModID}}_PhoneKaia": {
-"TriggerCondition": null,
-"RingCondition": null,
+"TriggerCondition":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_LeslaIntroduction",
+"RingCondition":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_LeslaIntroduction,PLAYER_HEARTS Current FC.Kaia 750 3000",
 "FromNpc": "FC.Kaia",
 "FromPortrait": null,
 "FromDisplayName": null,
