@@ -90,6 +90,9 @@ Dispositions
 "Direction": "right"
 }
 ],
+    "CustomFields": {
+                          "StardewDruid.Reactions.Affinity": "-1",
+                    },
 "Appearance": [
   {
 "ID": "{{ModID}}.Boxy_spring",

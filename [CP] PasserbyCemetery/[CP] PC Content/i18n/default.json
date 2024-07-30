@@ -2409,7 +2409,7 @@ Cotton
 "divorced.Cotton.5": "I don't want to be your friend, you've done enough to me.#$action spacechase0.SpaceCore_PlaySound grunt",
 "divorced.Cotton.6": "$action spacechase0.SpaceCore_PlaySound grunt",
 "breakUp.Cotton": "You'll regret hurting me like this, you watch!#$action spacechase0.SpaceCore_PlaySound grunt",
-"Cotton_AfterWedding.Cotton": "You know, there's plenty of me that is human.$4#$b#Want to see.$4",
+"Cotton_AfterWedding.Cotton": "What? Did you expect me to wear a tux? Ha!$1",
 "Cotton_Engaged.Cotton": "Wow, that sure is...A proposal...I mean, of course I will.$4",
 "SpouseStardrop.Cotton": "I heard you humans actually like this fruit so I got you one.$4",
 "HitBySlingshot.Cotton": "You should start running!$5",

@@ -75,7 +75,8 @@ NPCSPAWNS
   "Size": { "X": 32, "Y": 32 },
                     "CustomFields": {
                           "poohnhi.PoohCore/WideCharacter": "true",
-                        "poohnhi.PoohCore/HighCharacter": "true"
+                        "poohnhi.PoohCore/HighCharacter": "true",
+                          "StardewDruid.Reactions.Affinity": "-1",
                     },
                     "Shadow":{ "Visible": true },
 "EmoteOffset": { "X": -35, "Y": 30 },
