@@ -9221,6 +9221,7 @@
 "{{ModID}}_CA1": "{{ModID}}_CA1/painting/1 2/1 2/1/400/-1/{{i18n:FC.CottonsArt}}/93/Mods\\{{ModID}}\\Furniture",
 "{{ModID}}_CA2": "{{ModID}}_CA2/painting/1 2/1 2/1/400/-1/{{i18n:FC.CottonsArt}}/94/Mods\\{{ModID}}\\Furniture",
 "{{ModID}}_CA3": "{{ModID}}_CA3/painting/1 2/1 2/1/400/-1/{{i18n:FC.CottonsArt}}/95/Mods\\{{ModID}}\\Furniture",
+"{{ModID}}_BeyondGotoro": "{{ModID}}_BeyondGotoro/painting/1 2/1 2/1/400/-1/{{i18n:FC.BeyondGotoro}}/128/Mods\\{{ModID}}\\Furniture",
 
   }
 },

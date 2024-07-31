@@ -969,6 +969,9 @@
 "Action": "EditData",
 "Target": "Strings/StringsFromMaps",
 "Entries": {
+  "ThaliaPatio.Statue": "{{i18n:ThaliaPatio.Statue}}",
+    "CottonPatio.TreeSign": "{{i18n:CottonPatio.TreeSign}}",
+  "CottonPatio.TreeCut": "{{i18n:CottonPatio.TreeCut}}",
 "HalkiasProperty.LargeFlower": "{{i18n:HalkiasProperty.LargeFlower}}",
 "HalkiasProperty.LargeCrop": "{{i18n:HalkiasProperty.LargeCrop}}",
 "HalkiasProperty.CropPlot.01": "{{i18n:HalkiasProperty.CropPlot.01.{{season}}}}",

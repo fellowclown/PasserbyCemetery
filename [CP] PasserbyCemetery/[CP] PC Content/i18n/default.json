@@ -3108,7 +3108,7 @@ Movie Editions
 "SpiritOfLife.Scene.1": "Once there was a goddess, who lived peacefully inside the core of a star.",//0
 "SpiritOfLife.Scene.2": "What was her name?",//0
 "SpiritOfLife.Scene.3": "Why, it was Lipheum. She had been placed within the star long ago by her mother.",//1
-"SpiritOfLife.Scene.4": "Who wanted her daughter to grow big and powerful.",//1
+"SpiritOfLife.Scene.4": "She wanted her daughter to grow big and powerful.",//1
 "SpiritOfLife.Scene.5": "Among the other starkin, Lipheum was happy...She spent many hours talking to them and each year she watched them grow larger.",//2
 "SpiritOfLife.Scene.6": "But then one day, the biggest of her friends grew impossibly dark.",//3
 "SpiritOfLife.Scene.7": "The star had lost its flame, the star had died right before Lipheum's eyes. Filled with a grief most overwhelming, Lipheum willed herself forward.",//3
@@ -3953,6 +3953,9 @@ Custom Trees
 /************************************************
 Custom Map Strings
 ************************************************/
+  "ThaliaPatio.Statue": "A statue of Arah.",
+    "CottonPatio.TreeSign": "No Chopping Allowed!",
+  "CottonPatio.TreeCut": "Cotton's Void Tree.",
 "StoneHome.AlanDoor": "You can't go out onto Alan's terrace.",
 "GraveYard.Waterfall": "You can see something just behind the waterfall...But how do you get to it?",
 "GraveYard.Ladder": "The ladder is just a longer way in probably...",

@@ -1,5 +1,23 @@
 {
 "Changes": [
+     {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_CottonPatio",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 1,
+                        "Y": 2
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_VoidTree"
+                    }
+                }
+                ]
+
+                },
         {
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_CottonsHome",

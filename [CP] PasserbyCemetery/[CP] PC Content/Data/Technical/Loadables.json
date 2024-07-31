@@ -110,8 +110,8 @@ MEEP
 },
   {
             "Action": "Load",
-            "Target": "Mods/{{ModID}}/Movies",
-            "FromFile": "Assets/Movies/Movies.png"
+            "Target": "Mods/{{ModID}}/SOL,Mods/{{ModID}}/BG",
+            "FromFile": "Assets/Movies/{{TargetWithoutPath}}.png"
         },
 ]
 }

@@ -7,7 +7,10 @@
       "Entries": {
         "{{ModID}}_SpiritOfLife": {
           "Id": "{{ModID}}_SpiritOfLife",
-          "Texture": "{{InternalAssetKey: Assets/Movies/Movies.png}}",
+          "Seasons": [
+      "Winter"
+    ],
+          "Texture": "{{InternalAssetKey: Assets/Movies/SOL.png}}",
           "SheetIndex": 0,
           "Title": "{{i18n:SpiritOfLife.Title}}",
           "Description": "{{i18n:SpiritOfLife.Description}}",
@@ -16,6 +19,29 @@
             "documentary",
             "{{ModID}}_SpiritOfLife"
           ],
+              "CranePrizes": [
+      {
+        "Rarity": 1,
+        "Condition": null,
+        "Id": "{{ModID}}_SOFLP",
+        "ItemId": "(F){{ModID}}_SOFLP",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      }
+    ],
           "Scenes": [
             {
               "Image": 0,
@@ -183,6 +209,7 @@
           "CustomFields": {}
                  }
             }
-        }
+        },
+
     ]
 }
