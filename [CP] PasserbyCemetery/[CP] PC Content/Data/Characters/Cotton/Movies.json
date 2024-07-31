@@ -19,7 +19,7 @@
     "Reactions": [
 {
 "Tag": "spring_movie_0", //Brave Little Sapling
-"Response": "love", //Responses are love/like/hate.
+"Response": "hate", //Responses are love/like/hate.
 "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": { //What the NPC says in the lobby.
@@ -68,7 +68,7 @@
 },
 {
 "Tag": "summer_movie_0", //Prairie King
-"Response": "love",
+"Response": "like",
 "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {
@@ -91,7 +91,7 @@
 },
 {
 "Tag": "summer_movie_1", //Wumbus
-"Response": "hate",
+"Response": "love",
 "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {
@@ -184,7 +184,7 @@
     },
     {
 "Tag": "winter_movie_1", //Zuzu City Express
-"Response": "hate",
+"Response": "love",
 "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {

@@ -210,6 +210,40 @@
                  }
             }
         },
-
+    {
+      "Action": "EditData",
+      "Target": "Data/Movies",
+      "Entries": {
+        "{{ModID}}_BeyondGotoro": {
+          "Id": "{{ModID}}_BeyondGotoro",
+          "Seasons": [
+      "Fall"
+    ],
+          "Texture": "{{InternalAssetKey: Assets/Movies/BG.png}}",
+          "SheetIndex": 0,
+          "Title": "{{i18n:BeyondGotoro.Title}}",
+          "Description": "{{i18n:BeyondGotoro.Description}}",
+          "Tags": [
+            "art",
+            "documentary",
+            "{{ModID}}_BeyondGotoro"
+          ],
+          "Scenes": [
+            {
+              "Image": 0,
+              "Music": "nightTime",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:BeyondGotoro.Title}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "summer0_1"
+            },  
+          ],
+          "CustomFields": {}
+                 }
+            }
+        }
     ]
 }
