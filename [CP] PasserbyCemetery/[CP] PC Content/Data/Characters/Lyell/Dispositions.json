@@ -49,6 +49,10 @@ NPCSPAWNS
     "SpousePatio": {
       "MapAsset": "{{ModID}}_LyellPatio",
       "MapSourceRect": {
+         "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 4
       },
       "SpriteAnimationFrames": [],
       "SpriteAnimationPixelOffset": {}

@@ -51,11 +51,23 @@ Dispositions
    7
 ],
 "SpouseRoom": {
-"MapAsset": "{{ModID}}_NikolaiSpouseRoom"
-},
+"MapAsset": "{{ModID}}_NikolaiSpouseRoom",
+  "MapSourceRect": {
+        "X": 0,
+        "Y": 0,
+        "Width": 6,
+        "Height": 9
+      }
+    },
 "SpousePatio":{
 "MapAsset": "{{ModID}}_NikolaiPatio",
 },
+ "MapSourceRect": {
+         "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 4
+      },
 
 "SpouseFloors": [ 
       "2",

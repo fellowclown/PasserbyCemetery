@@ -2497,12 +2497,12 @@ Cotton
 "Fri.Cotton.HighHeart.summer": "You look good...I guess, I mean...You know what you do look good, fight me over it.$5",
 "Fri.Cotton.HighHeart.fall": "So, do you like space?$2#$b#I mean, you know outer space? Not physical space...#$b#Nevermind, stop looking at me.$5",
 "Fri.Cotton.HighHeart.winter": "Shut up, I'm thinking.#$b#I'm trying to remember a word.$5#$b#Man, what is that word?!#$b#It means, to cautiously try something? Or whatever...#$b#Screw it, I'm leaving.$5#$action spacechase0.SpaceCore_PlaySound grunt",
-"Sat.Cotton.HighHeart.spring": "I uh...Drew something for you...$4#$b#Don't look at me like that just take the damn drawing.$5[Fellowclown.PC_CottonsArt]#$action spacechase0.SpaceCore_PlaySound grunt",
+"Sat.Cotton.HighHeart.spring": "I uh...Got something for you...$4#$b#Don't look at me like that just take the damn thing.$5[Fellowclown.PC_Shirt14]",
 "Sat.Cotton.HighHeart.summer": "%Cotton glances at you, grunts and then hurries away.#$action spacechase0.SpaceCore_PlaySound grunt",
 "Sat.Cotton.HighHeart.fall": "That Nikolai kid, he gave me a small radio...#$b#It's actually pretty cool, I think I like music.$1",
 "Sat.Cotton.HighHeart.winter": "There's lots of pretty people in this town, it's obnoxious.$5#$b#Where's the ugly people at, I need people I can relate to!$5#$action spacechase0.SpaceCore_PlaySound grunt",
 "Sun.Cotton.HighHeart.spring": "You know...#$b#You're pretty cool, thanks for bothering me so much or whatever.$1",
-"Sun.Cotton.HighHeart.summer": "Let me see, right I got this for you.$4[Fellowclown.PC_BehatedRing]",
+"Sun.Cotton.HighHeart.summer": "Oh hey, I don't really feel up tp talking it's been a hard day...",
 "Sun.Cotton.HighHeart.fall": "I've been keeping my eye on that guild you're part of.$5#$b#I don't like it one bit, but I guess I get it.$2#$b#Some non-humans are really aggressive.$3",
 "Sun.Cotton.HighHeart.winter": "Do you know what electro swing music is?#$b#It's pretty good, it actually makes me feel...excited? I don't know how to explain it.$1",
 "Cotton.engagement.0": "What...$5#$b#I can't beleive this is serious...$4#$b#I mean yeah I'd be down for that.$4",
@@ -3126,6 +3126,8 @@ Temp Actors
 /************************************************
 Meep Image and Text Editions
 ************************************************/
+"FC.Capeer": "Capeer",
+"FC.Capeer.01": "She sniffs your hand.",
 "FC.NikAndKaia": "There's a photo of Nikolai and his mother inside this album.",
 "LyellHouse.StoneRelic.01": "Wonder who this girl is?",
 "LyellHouse.StoneRelic.02": "Lyza was Lyell's first daughter.",
@@ -3618,6 +3620,7 @@ Custom Scarecrows
 /************************************************
 Custom Furniture
 ************************************************/
+"FC.CottonsArt": "Cotton's Art.",
 "FC.BrownCouplesSeat":"Brown Couples Seat",
 "FC.YellowCouplesSeat":"Yellow Couples Seat",
 "FC.GreenCouplesSeat":"Green Couples Seat",
@@ -3693,6 +3696,8 @@ Custom Shirts
 /************************************************
 Custom Mail
 ************************************************/
+"FC.CottonsArt.Mail": "Hey @,^I drew you something.^But Don't make a big deal out of it, don't make it weird.^-Cotton",
+"FC.CottonsArt.Mail.Title": "It's a gift I guess...",
 "FC.UnlockTropaTree.Mail": "Requesting your company.",
 "FC.UnlockTropaTree.Mail.Title": "@,^I have been told that you've gotten your greenhouse repaired.^If you come by driftwood farm, I have a gift to celebrate you achievement.^Hope to see you soon.^-Lyell Halkias",
 "FC.StrawScarecrow.Mail": "As a farmer myself, I just know you'll be needing this.^Good luck this season!^-Lyell Halkias",

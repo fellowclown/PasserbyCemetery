@@ -1,5 +1,91 @@
 {
     "Changes": [
+      {
+ "LogName": "Capeer",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+"{{ModID}}_Capeer": {
+    "DisplayName": null,
+    "House": "Fellowclown.ClownCore_TropicalHutch",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": -1,
+    "SellPrice": -1,
+    "ShopTexture": null,
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 0,
+      "Height": 0
+    },
+    "ShopDisplayName": null,
+    "ShopDescription": null,
+    "ShopMissingBuildingDescription": null,
+    "RequiredBuilding": null,
+    "UnlockCondition": null,
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": null,
+    "DaysToMature": 6,
+    "CanGetPregnant": false,
+    "DaysToProduce": 10,
+    "HarvestType": "HarvestWithTool",
+    "HarvestTool": "Milk Pail",
+    "ProduceItemIds": [
+    ],
+    "DeluxeProduceItemIds": [
+    ],
+    "ProduceOnMature": false,
+    "FriendshipForFasterProduce": -1,
+    "DeluxeProduceMinimumFriendship": -1,
+    "DeluxeProduceCareDivisor": -1,
+    "DeluxeProduceLuckMultiplier":-1,
+    "ProfessionForHappinessBoost": -1,
+    "ProfessionForQualityBoost":-1,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "rabbit",
+    "BabySound": "rabbit",
+    "Texture": "Characters\\FC.Capeer",
+    "HarvestedTexture": null,
+    "BabyTexture": "Characters\\FC.Capeer",
+    "UseFlippedRightForLeft": false,
+    "SpriteWidth": 32,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "Skins": [
+          ],
+    "ShadowWhenBaby" :
+   {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : false, // not actually needed, is true if omitted
+},
+    "CanSwim": false,
+    "BabiesFollowAdults": false,
+    "GrassEatAmount": -1,
+    "HappinessDrain": -1,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+  },
+},
+},
  {
  "LogName": "Bashful",
 "Action": "EditData",

@@ -51,12 +51,23 @@ Dispositions
    7
 ],
 "SpouseRoom": {
-"MapAsset": "{{ModID}}_ThaliaSpouseRoom"
-},
+"MapAsset": "{{ModID}}_ThaliaSpouseRoom",
+  "MapSourceRect": {
+        "X": 0,
+        "Y": 0,
+        "Width": 6,
+        "Height": 9
+      }
+    },
 "SpousePatio":{
 "MapAsset": "{{ModID}}_ThaliaPatio",
 },
-
+ "MapSourceRect": {
+         "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 4
+      },
 "SpouseFloors": [ 
       "2",
       "1",

@@ -1,5 +1,23 @@
 {
 "Changes": [
+	{
+"Action": "EditData",
+"Target": "MEEP/FarmAnimals/SpawnData",
+"Entries": {
+"{{ModID}}_Capeer": {
+"AnimalId": "{{ModID}}_Capeer",
+"Age": 0,
+"LocationId": "{{ModID}}_OldGraveYard",
+"DisplayName": "{{i18n:FC.Capeer}}",
+"PetMessage": [
+"{{i18n:FC.Capeer.01}}"
+],
+"HomeTileX": 21,
+"HomeTileY": 65,
+"Condition": ""
+},
+}
+},
 {
 "Action": "EditData",
 "Target": "MEEP/FarmAnimals/SpawnData",

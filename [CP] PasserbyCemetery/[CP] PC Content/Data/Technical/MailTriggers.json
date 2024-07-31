@@ -40,10 +40,25 @@
 "{{ModID}}_ConfrontingRett.Mail": "{{i18n:FC.ConfrontingRett.Mail}}[#]{{i18n:FC.ConfrontingRett.Mail.Title}}",
 "{{ModID}}_StrawScarecrow.Mail": "{{i18n:FC.StrawScarecrow.Mail}} %item craftingRecipe {{ModID}}_StrawScareCrow %%[#]{{i18n:FC.StrawScarecrow.Mail.Title}}",
 "{{ModID}}_UnlockTropaTree.Mail": "{{i18n:FC.UnlockTropaTree.Mail}}[#]{{i18n:FC.UnlockTropaTree.Mail.Title}}",
-
+"{{ModID}}_CottonsArt.Mail": "{{i18n:FC.CottonsArt.Mail}} %item furniture {{Random:{{ModID}}_CA1,{{ModID}}_CA2,{{ModID}}_CA3}}%%[#]{{i18n:FC.CottonsArt.Mail.Title}}",
 }
 },
-
+{
+"LogName": "ConfrontingRett",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_CottonsArt.Trigger":  {
+"Id": "{{ModID}}_CottonsArt.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Cotton 1500",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_CottonsArt.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
 {
 "LogName": "ConfrontingRett",
 "Action": "EditData",

@@ -52,7 +52,7 @@ Default Schedules
 "rain": "GOTO Fri",
 "GreenRain": "1000 {{ModID}}_LeslaHouse 24 14 1 \"Strings\\schedules\\FC.Kaia:Kaia.GreenRain\"",
 "DesertFestival": "610 Desert 34 63 3 \"Strings\\schedules\\FC.Kaia:Kaia.DesertFestival\"",
-"winter_17": "610 {{ModID}}_LeslaHouse 24 14 1/700 {{ModID}}_LeslaHouse 18 14 1 {{ModID}}_Kaia_SitDrink1/1200 {{ModID}}_OldGraveYard 35 25 2 {{ModID}}_Kaia_Sit2/1300 SeedShop 20 29 1/1600 Beach 4 19 2 \"Strings\\schedules\\FC.Kaia:Kaia.NightMarket\"/2000 {{ModID}}_LeslaHouse 10 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleep\"",
+"winter_17": "610 {{ModID}}_LeslaHouse 24 14 1/700 {{ModID}}_LeslaHouse 18 14 1 {{ModID}}_Kaia_SitDrink1/1200 {{ModID}}_OldGraveYard 35 25 2 {{ModID}}_Kaia_Sit2/1300 SeedShop 20 29 1/1600 Beach 3 19 2 \"Strings\\schedules\\FC.Kaia:Kaia.NightMarket\"/2000 {{ModID}}_LeslaHouse 10 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleep\"",
 },
     "When": {
   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
