@@ -76,7 +76,7 @@
               "Text": "{{i18n:SpiritOfLife.Scene.2}}",
               "Shake": false,
               "ResponsePoint": "",
-              "Id": "winterwinter0_3"
+              "Id": "winter0_3"
             },    
             {
               "Image": 1,
@@ -231,15 +231,114 @@
           "Scenes": [
             {
               "Image": 0,
-              "Music": "nightTime",
+              "Music": "SunRoom",
               "Sound": null,
               "MessageDelay": 500,
               "Script": null,
-              "Text": "{{i18n:BeyondGotoro.Title}}",
+              "Text": "{{i18n:BeyondGotoro.Scene.1}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "summer0_1"
+              "Id": "fall0_1"
             },  
+                {
+              "Image": 1,
+              "Music": "SunRoom",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:BeyondGotoro.Scene.2}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "fall0_2"
+            }, 
+                {
+              "Image": 2,
+              "Music": "SunRoom",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:BeyondGotoro.Scene.3}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "fall0_3"
+            }, 
+                     {
+              "Image": 3,
+              "Music": "SunRoom",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:BeyondGotoro.Scene.4}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "fall0_4"
+            }, 
+                       {
+              "Image": 4,
+              "Music": "SunRoom",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:BeyondGotoro.Scene.5}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "fall0_5"
+            },
+                       {
+              "Image": 5,
+              "Music": "SunRoom",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:BeyondGotoro.Scene.6}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "fall0_6"
+            },  
+                       {
+              "Image": 6,
+              "Music": "SunRoom",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:BeyondGotoro.Scene.7}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "fall0_7"
+            }, 
+                       {
+              "Image":7,
+              "Music": "SunRoom",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:BeyondGotoro.Scene.8}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "fall0_1"
+            }, 
+                       {
+              "Image": 8,
+              "Music": "SunRoom",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:BeyondGotoro.Scene.9}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "fall0_8"
+            }, 
+                       {
+              "Image": 9,
+              "Music": "SunRoom",
+              "Sound": null,
+              "MessageDelay": 500,
+              "Script": null,
+              "Text": "{{i18n:BeyondGotoro.Scene.10}}",
+              "Shake": false,
+              "ResponsePoint": null,
+              "Id": "fall0_9"
+            }, 
           ],
           "CustomFields": {}
                  }

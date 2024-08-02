@@ -1,0 +1,281 @@
+{
+"Changes": [
+        /////COTTON Babies
+            {
+         "Action": "EditImage",
+         "Target": "Characters/Baby, Characters/Baby_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/Baby_Cotton.png",
+             "When": {
+                "Relationship:FC.Cotton": "Engaged, Married",
+
+}
+        }, 
+             {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/GirlToddler_Cotton.png",
+         "When": {
+            "Relationship:FC.Cotton": "Engaged, Married",
+
+}
+        },  
+                     {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/BoyToddler_Cotton.png",
+         "When": {
+            "Relationship:FC.Cotton": "Engaged, Married",
+
+}
+        },
+
+    ///Lyell
+                {
+         "Action": "EditImage",
+         "Target": "Characters/Baby, Characters/Baby_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBaby_Lyell.png",
+             "When": {
+                "Relationship:FC.Lyell": "Engaged, Married",
+                 "Skin Color": "Pale",
+
+}
+        }, 
+             {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleGirlToddler_Lyell.png",
+         "When": {
+            "Relationship:FC.Lyell": "Engaged, Married",
+             "Skin Color": "Pale",
+
+}
+        },  
+                     {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBoyToddler_Lyell.png",
+         "When": {
+            "Relationship:FC.Lyell": "Engaged, Married",
+             "Skin Color": "Pale",
+
+}
+        },  
+                        {
+         "Action": "EditImage",
+         "Target": "Characters/Baby, Characters/Baby_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkBaby_Lyell.png",
+             "When": {
+                "Relationship:FC.Lyell": "Engaged, Married",
+                 "Skin Color": "Darker",
+
+}
+        },  
+                   {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerGirlToddler_Lyell.png",
+         "When": {
+            "Relationship:FC.Lyell": "Engaged, Married",
+             "Skin Color": "Darker",
+
+}
+        },  
+                     {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerBoyToddler_Lyell.png",
+         "When": {
+            "Relationship:FC.Lyell": "Engaged, Married",
+             "Skin Color": "Darker",
+
+}
+        },  
+
+    ///Nikolai
+                {
+         "Action": "EditImage",
+         "Target": "Characters/Baby, Characters/Baby_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBaby_Nikolai.png",
+             "When": {
+                "Relationship:FC.Nikolai": "Engaged, Married",
+                 "Skin Color": "Pale",
+
+}
+        }, 
+             {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleGirlToddler_Nikolai.png",
+         "When": {
+            "Relationship:FC.Nikolai": "Engaged, Married",
+             "Skin Color": "Pale",
+
+}
+        },  
+                     {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBoyToddler_Nikolai.png",
+         "When": {
+            "Relationship:FC.Nikolai": "Engaged, Married",
+             "Skin Color": "Pale",
+
+}
+        },  
+                        {
+         "Action": "EditImage",
+         "Target": "Characters/Baby, Characters/Baby_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerBaby_Nikolai.png",
+             "When": {
+                "Relationship:FC.Nikolai": "Engaged, Married",
+                 "Skin Color": "Darker",
+
+}
+        },  
+                   {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerGirlToddler_Nikolai.png",
+         "When": {
+            "Relationship:FC.Nikolai": "Engaged, Married",
+             "Skin Color": "Darker",
+
+}
+        },  
+                     {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerBoyToddler_Nikolai.png",
+         "When": {
+            "Relationship:FC.Nikolai": "Engaged, Married",
+             "Skin Color": "Darker",
+
+}
+        },  
+        
+    ///Thalia
+                {
+         "Action": "EditImage",
+         "Target": "Characters/Baby, Characters/Baby_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBaby_Thalia.png",
+             "When": {
+                "Relationship:FC.Thalia": "Engaged, Married",
+                 "Skin Color": "Pale",
+
+}
+        }, 
+             {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleGirlToddler_Thalia.png",
+         "When": {
+            "Relationship:FC.Thalia": "Engaged, Married",
+             "Skin Color": "Pale",
+
+}
+        },  
+                     {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBoyToddler_Thalia.png",
+         "When": {
+            "Relationship:FC.Thalia": "Engaged, Married",
+             "Skin Color": "Pale",
+
+}
+        },  
+                        {
+         "Action": "EditImage",
+         "Target": "Characters/Baby, Characters/Baby_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerBaby_Thalia.png",
+             "When": {
+                "Relationship:FC.Thalia": "Engaged, Married",
+                 "Skin Color": "Darker",
+
+}
+        },  
+                   {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerGirlToddler_Thalia.png",
+         "When": {
+            "Relationship:FC.Thalia": "Engaged, Married",
+             "Skin Color": "Darker",
+
+}
+        },  
+                     {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerBoyToddler_Thalia.png",
+         "When": {
+            "Relationship:FC.Thalia": "Engaged, Married",
+             "Skin Color": "Darker",
+
+}
+        },  
+        ////Valerie 
+        
+    ///Valerie
+                {
+         "Action": "EditImage",
+         "Target": "Characters/Baby, Characters/Baby_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBaby_Valerie.png",
+             "When": {
+                "Relationship:FC.Valerie": "Engaged, Married",
+                 "Skin Color": "Pale",
+
+}
+        }, 
+             {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleGirlToddler_Valerie.png",
+         "When": {
+            "Relationship:FC.Valerie": "Engaged, Married",
+             "Skin Color": "Pale",
+
+}
+        },  
+                     {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBoyToddler_Valerie.png",
+         "When": {
+            "Relationship:FC.Valerie": "Engaged, Married",
+             "Skin Color": "Pale",
+
+}
+        },  
+                        {
+         "Action": "EditImage",
+         "Target": "Characters/Baby, Characters/Baby_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerBaby_Valerie.png",
+             "When": {
+                "Relationship:FC.Valerie": "Engaged, Married",
+                 "Skin Color": "Darker",
+
+}
+        },  
+                   {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerGirlToddler_Valerie.png",
+         "When": {
+            "Relationship:FC.Valerie": "Engaged, Married",
+             "Skin Color": "Darker",
+
+}
+        },  
+                     {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerBoyToddler_Valerie.png",
+         "When": {
+            "Relationship:FC.Valerie": "Engaged, Married",
+             "Skin Color": "Darker",
+
+}
+        },
+]
+}

@@ -79,7 +79,7 @@ NPCSPAWNS
                           "StardewDruid.Reactions.Affinity": "-1",
                     },
                     "Shadow":{ "Visible": true },
-"EmoteOffset": { "X": -35, "Y": 30 },
+"EmoteOffset": { "X": 35, "Y": 20 },
 "MugShotSourceRect": { "X": 7, "Y": 0, "Width": 17, "Height": 24 },
     "TextureName": null,
     "Appearance": [

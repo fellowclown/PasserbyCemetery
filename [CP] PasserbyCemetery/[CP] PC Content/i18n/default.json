@@ -3120,6 +3120,19 @@ Movie Editions
 "SpiritOfLife.Scene.11": "Lipheum, panicked having felt a part of her flame suddenly go missing…",//6
 "SpiritOfLife.Scene.12": "Lipheum’s starkin was revived from her flame, but the starkin had changed.",//8
 "SpiritOfLife.Scene.13": "Arah was no longer a star, she had been transform into a planet.",//9
+
+"BeyondGotoro.Title": "Beyond Gotoro",
+"BeyondGotoro.Description": "Come see the wonderful wildlife of Arcania.",
+"BeyondGotoro.Scene.1": "Beyond Gotoro",
+"BeyondGotoro.Scene.2": "Pass the boarders of the Gotoro empire and hidden among the misty waves of the Gem Sea.",
+"BeyondGotoro.Scene.3": "Is the Arcania Islands, Which is home to strange and interesting wildlife.",
+"BeyondGotoro.Scene.4": "They're bovines have hard heads and spiked backs.",
+"BeyondGotoro.Scene.5": "Some of their animals are elusive and larger then average.",
+"BeyondGotoro.Scene.6": "Some don't even look like the spieces they come from, like this goat that looks like a deer.",
+"BeyondGotoro.Scene.7": "The islands are home to animals that we thought were exinct, here they are hanging on and some are thriving.",
+"BeyondGotoro.Scene.8": "Among the wildlife, there are also pets...Like the cat sized Shevit's that protect the homesteads of the human population.",
+"BeyondGotoro.Scene.9": "Like everywhere else, they even have chickens...Though techincally they're more like raptors...The islands are home to so many creatures and there are some that have yet to be discovered...",
+"BeyondGotoro.Scene.10": "The End.",
 /************************************************
 Temp Actors
 ************************************************/
@@ -3622,6 +3635,7 @@ Custom Scarecrows
 /************************************************
 Custom Furniture
 ************************************************/
+
 "FC.CottonsArt": "Cotton's Art.",
 "FC.BrownCouplesSeat":"Brown Couples Seat",
 "FC.YellowCouplesSeat":"Yellow Couples Seat",
@@ -5227,7 +5241,9 @@ Lyell's Events
 "ConfrontingRett.63": "Oh Yoba...Now what do we do.$5",
 "ConfrontingRett.64": "Keep ourselves ready...We don't know if he'll come to hurt us in the future.$2",
 "ConfrontingRett.65": "I'm sorry mom...$3",
-
+/************************************************
+Alan's Events
+************************************************/
 "TheTwins.00": "Honest!",
 "TheTwins.01": "I do want to believe you both, but...How do I know you're not trying to trick me again?$2#$b#Out of your sibling's, you two are the worst little prankster's around.$1",
 "TheTwins.02": "Believe us!",
@@ -5266,6 +5282,29 @@ Lyell's Events
 "TheTwins.35": "It's healed but...Left a pretty bad scar...$2",
 "TheTwins.36": "...$5#$b#Just tell someone who can help, before the restless breach the surface...$7",
 "TheTwins.37": "I better go tell Marlon, he should know what to do...$5",
+"BoxysInjury.00": "@!$1#$b#I've been wondering when I'd seen you again.$2#$b#I ended up talking to Marlon about the mines.$2#$b#He said the creatures in the deeper areas of the mines have been more aggressive but he wasn't sure why.$5#$b#Until the guild figures out what's going on, he's advising everyone to only enter the mines if they have expereince in combat.$2#$b#Guess that means I won't be looking for Cave Flowers anymore for a while.$2",
+"BoxysInjury.01": "I think I have seeds though, if anything I can grow some.$1",
+"BoxysInjury.02": "Good Girl...Be nice...",
+"BoxysInjury.03": "She seems upset...$2",
+"BoxysInjury.04": "Do...Do you want us to follow you?$2",
+"BoxysInjury.05": "Roswell is nodding her head, does she understand Alan?",
+"BoxysInjury.06": "Something is wrong with Boxy, let's follow her to him.$2",
+"BoxysInjury.07": "#How did you know what Roswell was saying?#Looks like Boxy is tangled up in some rope.",
+"BoxysInjury.08": "I can tell you later okay, we need to help Boxy.$2#$b#He's all tangled up in rope, I don't think I have anything to cut it.$2#$b#It's wrapped pretty tightly around his paw too, that can end badly for him...$2",
+"BoxysInjury.09": "Oh no, I don't know if I have anything that can cut this rope.$2#$b#It's wrapped pretty tightly around his paw too, that can end badly for him...$5",
+"BoxysInjury.10": "#I know, let's use my shears!#Let's try and untangle the rope by hand.",
+"BoxysInjury.11": "That's a great idea!",
+"BoxysInjury.12": "Poor little guy, that must hurt.$2",
+"BoxysInjury.13": "I'll heal him up.$1",
+"BoxysInjury.14": "There! Perfect!",
+"BoxysInjury.15": "Hopefully that won't happen again, people really need to keep their trash off the ground.$2#$b#Well listen, I really should be going.$2#$b#I promised my mother I would help with some brewing today.$1",
+"BoxysInjury.16": "See you later.",
+"BoxysInjury.17": "Okay let's try that!",
+"BoxysInjury.18": "Poor little guy, that must hurt.$2",
+"BoxysInjury.19": "Maybe I can heal him.$1",
+"BoxysInjury.20": "It worked...I think...",
+"BoxysInjury.21": "People really need to keep their trash off the ground.$2#$b#I really should be going, I'm sort of late.$2#$b#I promised my mother I would help with some brewing today.$1",
+"BoxysInjury.22": "See you later.",
 /************************************************
 Thalia's Events
 ************************************************/

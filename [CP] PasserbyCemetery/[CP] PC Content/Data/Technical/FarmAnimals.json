@@ -91,7 +91,7 @@
          {
               "ID": "{{ModID}}_ArcaGoatBrown",
                "Weight": 3.00,
-              "Texture": "Animals\\FC.FC.ArcaGoat_Adult_Brown",
+              "Texture": "Animals\\FC.ArcaGoat_Adult_Brown",
               "BabyTexture": "Animals\\FC.ArcaGoat_Baby_Brown"
             },
             {
@@ -297,7 +297,7 @@
     "ShopDisplayName": "{{i18n:FC.ArcaCow}}",
     "ShopDescription": "{{i18n:FC.ArcaCow.desc}}",
     "ShopMissingBuildingDescription":  "{{ShopDesc}}",
-    "RequiredBuilding":"{{AnimalHouse}}",
+    "RequiredBuilding":null,
     "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
     "AlternatePurchaseTypes": null,
     "EggItemIds": null,
