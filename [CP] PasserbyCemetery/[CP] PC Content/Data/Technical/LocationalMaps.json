@@ -1,5 +1,30 @@
 {
 "Changes": [
+       {
+"LogName": "BoatHouse",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_BoatHouse": {
+"DisplayName": "{{i18n:FC.MapName.BoatHouse}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_BoatHouse"
+},
+"DefaultArrivalTile": {
+"X": 12,
+"Y":19
+},
+"ExcludeFromNpcPathfinding": true,
+ "CanPlantHere": true,
+"AlwaysActive": true,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage": [],
+"CustomFields": {}
+}
+}
+},
      {
 "LogName": "CottonsHouse",
 "Action": "EditData",

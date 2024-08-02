@@ -1,5 +1,6 @@
 {
 "Changes": [
+
     {
             "LogName": "begone Tile",
             "Action": "EditMap",
@@ -35,10 +36,32 @@
                 "HasMod": "FlashShifter.StardewValleyExpandedCP",
             },
         },
+                {
+  "LogName": "Exhibit open",
+  "Action": "EditMap",
+  "Target": "Maps/{{ModID}}_OldGraveYard",
+  "Update": "OnTimeChange, OnLocationChange",
+          "When": {
+      "HasSeenEvent |contains={{ModID}}_GiftFromDezerie": true,            },
+  "MapTiles": [
+    {
+      "Position": {
+        "X": 37,
+        "Y": 60
+      },
+      "Layer": "Buildings",
+      "SetProperties": {
+        "Action": "LockedDoorWarp 12 19 {{ModID}}_BoatHouse 600 2600"
+      },
+
+           }
+  ]
+},
         {
   "LogName": "Exhibit open",
   "Action": "EditMap",
   "Target": "Maps/{{ModID}}_OldGraveYard",
+  "Update": "OnTimeChange, OnLocationChange",
           "When": {
       "HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,            },
   "MapTiles": [
@@ -59,6 +82,7 @@
   "LogName": "LyellDoorOpen",
   "Action": "EditMap",
   "Target": "Maps/{{ModID}}_LyellsProperty",
+  "Update": "OnTimeChange, OnLocationChange",
           "When": {
       "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
              },
@@ -80,6 +104,7 @@
   "LogName": "StoneDoorOpen",
   "Action": "EditMap",
   "Target": "Maps/{{ModID}}_OldGraveYard",
+  "Update": "OnTimeChange, OnLocationChange",
       "When": {
       "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
                    },
@@ -100,6 +125,7 @@
   "LogName": "LeslaDoorOpen",
   "Action": "EditMap",
   "Target": "Maps/{{ModID}}_OldGraveYard",
+  "Update": "OnTimeChange, OnLocationChange",
           "When": {
       "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
                     },
@@ -119,6 +145,7 @@
   {
   "LogName": "MaverickDoorOpen",
   "Action": "EditMap",
+  "Update": "OnTimeChange, OnLocationChange",
   "Target": "Maps/{{ModID}}_OldGraveYard",
           "When": {
       "HasSeenEvent |contains={{ModID}}_TheStatue": true,

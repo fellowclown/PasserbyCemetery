@@ -61,6 +61,12 @@ Five Hearts
 /************************************************
 9 Hearts
 ************************************************/ 
-
+   {
+            "Action": "EditData",
+            "Target": "Data/Events/{{ModID}}_OldGraveYard",
+            "Entries": {
+                "{{ModID}}_GiftFromDezerie/t 600 2600/f FC.Dezerie 2250/n {{ModID}}_DezeriesGift.Mail": "none/-1000 -1000/farmer 31 63 1 FC.Dezerie 37 63 0/skippable/viewport 37 62 clamp true/addConversationTopic FC.BoatHouse 12/end",
+}
+        }, 
 ]
 }

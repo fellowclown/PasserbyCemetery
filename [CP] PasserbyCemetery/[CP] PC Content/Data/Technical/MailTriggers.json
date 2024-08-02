@@ -41,6 +41,23 @@
 "{{ModID}}_StrawScarecrow.Mail": "{{i18n:FC.StrawScarecrow.Mail}} %item craftingRecipe {{ModID}}_StrawScareCrow %%[#]{{i18n:FC.StrawScarecrow.Mail.Title}}",
 "{{ModID}}_UnlockTropaTree.Mail": "{{i18n:FC.UnlockTropaTree.Mail}}[#]{{i18n:FC.UnlockTropaTree.Mail.Title}}",
 "{{ModID}}_CottonsArt.Mail": "{{i18n:FC.CottonsArt.Mail}} %item furniture {{Random:{{ModID}}_CA1,{{ModID}}_CA2,{{ModID}}_CA3}}%%[#]{{i18n:FC.CottonsArt.Mail.Title}}",
+"{{ModID}}_DezeriesGift.Mail": "{{i18n:FC.DezeriesGift.Mail}}[#]{{i18n:FC.DezeriesGift.Mail.Title}}",
+}
+},
+{
+"LogName": "ConfrontingRett",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_DezeriesGift.Trigger":  {
+"Id": "{{ModID}}_DezeriesGift.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Dezerie 2250",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_DezeriesGift.Mail",
+"Actions": null,
+"CustomFields": {}
+}
 }
 },
 {
