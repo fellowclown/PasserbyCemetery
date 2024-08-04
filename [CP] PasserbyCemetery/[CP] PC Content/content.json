@@ -23,12 +23,6 @@
       "AllowBlank": false,
      
     },
-       "AltFeed": {
-       "Description": "Switch between Hay and Custom feed",
-      "AllowValues": "true, false",
-      "Default": "true",
-      "AllowBlank": false,
-    },
         "MatchingBabies": {
     "Description": "Turn on The matching Baby edits.",
     "AllowValues": "True, False",

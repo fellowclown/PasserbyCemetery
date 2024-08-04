@@ -8,7 +8,8 @@
 "{{ModID}}_BoatHouse": {
 "DisplayName": "{{i18n:FC.MapName.BoatHouse}}",
 "CreateOnLoad": {
-"MapPath": "Maps/{{ModID}}_BoatHouse"
+"MapPath": "Maps/{{ModID}}_BoatHouse",
+"AlwaysActive": true,
 },
 "DefaultArrivalTile": {
 "X": 12,

@@ -1,5 +1,41 @@
 {
    "Changes": [
+          {
+         "Action":"EditData",
+         "Target":"UnlockableBundles/WalletCurrencies",
+              "When": {
+                "HasMod": "DLX.Bundles"
+            },
+         "Entries":{
+            "{{ModID}}_ArcaCoin":{
+               "Shared":false,
+               "HoldItemUpOnDiscovery":false,
+               "DrawOverheadPickupAnimation":true,
+               "OverheadPickupTexture":"Mods/{{ModID}}/Objects",
+               "OverheadPickupAnimation":"0@800",
+               "OverheadPickupTextureWidth":16,
+               "BillboardTexture":"Mods/{{ModID}}/Wallet",
+               "BillboardAnimation":"0@800",
+               "BillboardTextureWidth":16,
+               "BillboardDigits":4,
+               "PlayMoneyRollSound":true,
+               "Items":[
+                  {
+                     "ItemId":"(O){{ModID}}_ArcaCoin",
+                     "Value":1
+                  }
+               ],
+               "PowersData":{
+                  "DisplayName":"{{i18n:FC.Ancient.ArcaCoin}}",
+                  "TexturePath":"Mods/{{ModID}}/Wallet",
+                  "TexturePosition":{
+                     "X":0,
+                     "Y":0
+                  }
+               }
+            }
+         }
+      },
      {
             "Action": "Load",
             "FromFile": "Assets/Maps/Tilesheets/PC_Icon.png",

@@ -15,7 +15,8 @@
           "Fellowclown.PC_FairyFingers"
         ],
         "FallItemIndex": [
-          "Fellowclown.PC_ArcaCoin"
+          "Fellowclown.PC_ArcaCoin",
+          "Fellowclown.PC_FireSnapper"
         ],
         "WinterItemIndex": [
           "Fellowclown.PC_ArcaCoin",
@@ -64,7 +65,8 @@
           "Fellowclown.PC_FairyFingers"
         ],
         "FallItemIndex": [
-          "Fellowclown.PC_ArcaCoin"
+          "Fellowclown.PC_ArcaCoin",
+          "Fellowclown.PC_FireSnapper"
         ],
         "WinterItemIndex": [
           "Fellowclown.PC_ArcaCoin",

@@ -1,21 +1,5 @@
 {
     "Changes": [
-      
-      {
- "LogName": "Movoraptor",
-"Action": "EditData",
-"Target": "selph.ExtraAnimalConfig/AnimalExtensionData",
-"Entries": {
-"{{ModID}}_Movoraptor": {
-"FeedItemId": "(O)Fellowclown.ClownCore_CarnivoreFeed",
-  },
-  "When": {
-        "AnimalHouse": true,
-         "HasMod |contains=selph.ExtraAnimalConfig": true,
-         "AltFeed": true,
-            }
-        },
-},
  {
  "LogName": "ArcaGoat",
 "Action": "EditData",
@@ -256,8 +240,8 @@
 },
     "CanSwim": true,
     "BabiesFollowAdults": true,
-    "GrassEatAmount":-1,
-    "HappinessDrain":-1,
+    "GrassEatAmount":4,
+    "HappinessDrain":2,
     "UpDownPetHitboxTileSize": "1.5, 2",
     "LeftRightPetHitboxTileSize": "2, 2",
     "BabyUpDownPetHitboxTileSize": "1, 1",

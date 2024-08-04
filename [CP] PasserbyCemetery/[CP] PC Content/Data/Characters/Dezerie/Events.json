@@ -65,7 +65,7 @@ Five Hearts
             "Action": "EditData",
             "Target": "Data/Events/{{ModID}}_OldGraveYard",
             "Entries": {
-                "{{ModID}}_GiftFromDezerie/t 600 2600/f FC.Dezerie 2250/n {{ModID}}_DezeriesGift.Mail": "none/-1000 -1000/farmer 31 63 1 FC.Dezerie 37 63 0/skippable/viewport 37 62 clamp true/addConversationTopic FC.BoatHouse 12/end",
+                "{{ModID}}_GiftFromDezerie/t 600 2600/f FC.Dezerie 2250/n {{ModID}}_DezeriesGift.Mail": "none/-1000 -1000/farmer 31 63 1 FC.Dezerie 37 63 0/skippable/viewport 37 62 clamp true/addConversationTopic FC.BoatHouse 12/move farmer 4 0 1/pause 1000/faceDirection FC.Dezerie 3/pause 200/emote FC.Dezerie 32/pause 200/speak FC.Dezerie \"{{i18n:GiftFromDezerie.00}}\"/pause 300/speak FC.Dezerie \"{{i18n:GiftFromDezerie.01}}\"/pause 100/move FC.Dezerie -1 0 3/move FC.Dezerie 1 0 3/pause 500/speak FC.Dezerie \"{{i18n:GiftFromDezerie.02}}\"/textAbovehead FC.Dezerie \"{{i18n:GiftFromDezerie.03}}\"/pause 200/viewport move 1 0 8000000/globalFade/viewport -1000 -1000/end warpOut",
 }
         }, 
 ]

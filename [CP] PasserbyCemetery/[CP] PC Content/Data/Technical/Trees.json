@@ -34,7 +34,6 @@
                     }
                 }
                 ]
-
                 },
             {
         "Action": "EditMap",
@@ -48,7 +47,7 @@
                     "Layer": "Paths",
                     "SetIndex": "34",
                     "SetProperties": {
-                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                        "SpawnTree": "wild {{ModID}}_LyellsReuuTree"
                     }
                 }
                 ]
@@ -66,7 +65,7 @@
                     "Layer": "Paths",
                     "SetIndex": "34",
                     "SetProperties": {
-                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                        "SpawnTree": "wild {{ModID}}_LyellsReuuTree"
                      }
                 }
                 ]
@@ -216,9 +215,83 @@
                     ],
                       "ChopItems": [],
                     "TapItems": [
-                    ]
-                }
+                    ],
+               "CustomFields": {"DH_MEEP_Invulnerable_Tree": ""}
+                  },
             }
-        }
+        },
+                        {
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "Entries": {
+                "{{ModID}}_LyellsReuuTree": {
+                    "Textures": [
+                        {
+                            "Texture": "Mods/{{ModID}}/WildTree_spring",
+                            "Season": "spring"
+                        },
+                        {
+                            "Texture": "Mods/{{ModID}}/WildTree_summer",
+                            "Season": "summer"
+                        },
+                        {
+                            "Texture": "Mods/{{ModID}}/WildTree_fall",
+                            "Season": "fall"
+                        },
+                        {
+                            "Texture": "Mods/{{ModID}}/WildTree_winter",
+                            "Season": "winter"
+                        }
+                    ],
+                    "SeedItemId": "(O){{ModID}}_ReuuSeed",
+                    "IsLeafyInWinter": false,
+                    "UseAlternateSpriteWhenNotShaken": true,
+                     "DropWoodOnChop": false,
+                     "DropHardwoodOnLumberChop": false,
+                        "AllowWoodpeckers": true,
+                        "SeedDropItems": [
+      {
+        "ContinueOnDrop": false,
+        "Season": "Fall",
+        "Chance": 1.0,
+        "Condition": "!SEASON winter",
+        "Id": "(O){{ModID}}_ReuuSeed",
+        "ItemId": "(O){{ModID}}_ReuuSeed",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      }
+    ],
+                    "ShakeItems": [
+                        {
+                            "ItemId": "(O){{ModID}}_ReuuNut",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Season": "fall",
+                            "Chance": 3
+                        }
+                    ],
+                    "TapItems": [
+                        {
+                            "ItemId": "(O){{ModID}}_ReuuResin",
+                            "DaysUntilReady": 6
+                            }
+                    ],
+               "CustomFields": {"DH_MEEP_Invulnerable_Tree": ""}
+                  },
+            }
+        },
     ]
 }
