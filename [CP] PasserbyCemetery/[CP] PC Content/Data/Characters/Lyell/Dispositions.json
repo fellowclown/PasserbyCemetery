@@ -119,7 +119,7 @@ NPCSPAWNS
       11,14
     ],
     "KissSpriteIndex": 42,
-    "KissSpriteFacingRight": 52,
+    "KissSpriteFacingRight": true,
     "HiddenProfileEmoteSound": null,
     "HiddenProfileEmoteDuration": -1,
     "HiddenProfileEmoteStartFrame": 16,

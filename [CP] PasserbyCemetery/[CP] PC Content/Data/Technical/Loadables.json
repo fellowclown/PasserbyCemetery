@@ -60,7 +60,7 @@ load Custom Items
 ************************************************/
 {
 "Action": "Load",
-"Target": "Mods/{{ModID}}/Wallet,Mods/{{ModID}}/BuffIcons,Mods/{{ModID}}/VoidTree,Mods/{{ModID}}/WildTree_spring,Mods/{{ModID}}/WildTree_summer,Mods/{{ModID}}/WildTree_fall,Mods/{{ModID}}/WildTree_winter,Mods/{{ModID}}/Machines,Mods/{{ModID}}/OddCrows,Mods/{{ModID}}/Objects,Mods/{{ModID}}/Shirts,Mods/{{ModID}}/Crops,Mods/{{ModID}}/Trees,Mods/{{ModID}}/JokeTools,Mods/{{ModID}}/Furniture,Mods/{{ModID}}/Weapons",
+"Target": "Mods/{{ModID}}/Wallet,Mods/{{ModID}}/BuffIcons,Mods/{{ModID}}/VoidTree,Mods/{{ModID}}/WildTree_spring,Mods/{{ModID}}/WildTree_summer,Mods/{{ModID}}/WildTree_fall,Mods/{{ModID}}/WildTree_winter,Mods/{{ModID}}/Machines,Mods/{{ModID}}/OddCrows,Mods/{{ModID}}/Objects,Mods/{{ModID}}/Shirts,Mods/{{ModID}}/Crops,Mods/{{ModID}}/Trees,Mods/{{ModID}}/JokeTools,Mods/{{ModID}}/Furniture,Mods/{{ModID}}/FurnitureFront,Mods/{{ModID}}/Weapons",
 "FromFile": "Assets/Objects/{{TargetWithoutPath}}.png"
 },
 /************************************************
