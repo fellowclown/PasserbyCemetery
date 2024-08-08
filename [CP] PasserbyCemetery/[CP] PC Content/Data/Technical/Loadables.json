@@ -3,7 +3,7 @@
     {
         "LogName": "SummonCircle",
         "Action": "Load",
-        "Target": "{{ModID}}/FC.SummonCircle,{{ModID}}/FC.BrokenBoat,{{ModID}}/FC.Bridge",
+        "Target": "{{ModID}}/FC.SummonCircle,{{ModID}}/FC.BrokenBoat,{{ModID}}/FC.Bridge,{{ModID}}/FC.Lift",
         "FromFile": "Assets/Npcs/TempActors/Characters/{{TargetWithoutPath}}.png"
     },
 /************************************************
