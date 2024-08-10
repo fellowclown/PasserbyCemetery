@@ -8733,6 +8733,25 @@
 }
 },
 /************************************************
+ Hats
+************************************************/
+     {
+            "Logname": "Hats",
+            "Action": "EditData",
+            "Target": "Data/hats",
+            "Entries": {
+                "{{ModID}}_ArcaHat": "{{ModID}}_ArcaHat/{{i18n:FC.ArcaHat.Desc}}/true/true//{{i18n:FC.ArcaHat}}/0/Mods\\{{ModID}}\\Hats",
+                "{{ModID}}_TurtleHat": "{{ModID}}_TurtleHat/{{i18n:FC.TurtleHat.Desc}}/true/true//{{i18n:FC.TurtleHat}}/1/Mods\\{{ModID}}\\Hats",
+                "{{ModID}}_CatHat": "{{ModID}}_CatHat/{{i18n:FC.CatHat.Desc}}/true/true//{{i18n:FC.CatHat}}/2/Mods\\{{ModID}}\\Hats",
+                "{{ModID}}_ChickenHatBrown": "{{ModID}}_ChickenHatBrown/{{i18n:FC.ChickenHat.Desc}}/true/true//{{i18n:FC.ChickenHatBrown}}/3/Mods\\{{ModID}}\\Hats",
+                "{{ModID}}_ChickenHatBlue": "{{ModID}}_ChickenHatBlue/{{i18n:FC.ChickenHat.Desc}}/true/true//{{i18n:FC.ChickenHatBlue}}/4/Mods\\{{ModID}}\\Hats",
+                "{{ModID}}_ChickenHatWhite": "{{ModID}}_ChickenHatWhite/{{i18n:FC.ChickenHat.Desc}}/true/true//{{i18n:FC.ChickenHatWhite}}/5/Mods\\{{ModID}}\\Hats",
+                "{{ModID}}_ChickenHatGroup": "{{ModID}}_ChickenHatGroup/{{i18n:FC.ChickenHat.Desc}}/true/true//{{i18n:FC.ChickenHatGroup}}/6/Mods\\{{ModID}}\\Hats",
+                "{{ModID}}_PinkPirateHat": "{{ModID}}_PinkPirateHat/{{i18n:FC.PinkPirateHat.Desc}}/false/true//{{i18n:FC.PinkPirateHat}}/7/Mods\\{{ModID}}\\Hats",
+                "{{ModID}}_CaveFlowerHairPiece": "{{ModID}}_CaveFlowerHairPiece/{{i18n:FC.CaveFlowerHairPiece.Desc}}/true/true//{{i18n:FC.CaveFlowerHairPiece}}/8/Mods\\{{ModID}}\\Hats",
+            }
+        },
+/************************************************
  Shirts
 ************************************************/
 {
@@ -9096,7 +9115,26 @@
   },
 }
   },
-  
+  {
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"{{ModID}}_Shirt18": {
+"Name": "{{ModID}}_Shirt18",
+"DisplayName": "{{i18n:FC.Shirt18}}",
+"Description": "{{i18n:FC.Shirt18.Desc}}",
+"Price": 50,
+"Texture": "Mods/{{ModID}}/Shirts",
+"SpriteIndex": 18,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": false,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
   /************************************************
  Odd Crows
 ************************************************/

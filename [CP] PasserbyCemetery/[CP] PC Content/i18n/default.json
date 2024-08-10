@@ -7,9 +7,7 @@
 /// % This is a action command that removes the portrait
 /// # This is a question command, it’s used when asking the player a question.
 /// $action spacechase0.SpaceCore is part of a custom command don't remove them
-/************************************************
-Boxy
-************************************************/
+///Boxy
 //Display Name
 "FC.Boxy":"Boxy",
 //Gift Related Dialogue
@@ -50,62 +48,50 @@ Boxy
 "Tue.Boxy.LowHeart.summer":"Boxy bites your ankle! Is he angry? Or playful?$3",
 "Tue.Boxy.LowHeart.fall":"Boxy makes a series of strange meowing sounds, before shaking his head.$1",
 "Tue.Boxy.LowHeart.winter":"Boxy makes a warbling sound.$1",
-
 "Wed.Boxy.LowHeart.spring": "There's a look of murder in his gaze, wonder what's got him so worked up?$3",
 "Wed.Boxy.LowHeart.summer":"He bites your ankles!$3",
 "Wed.Boxy.LowHeart.fall":"What can he do? Besides meow at you very loudly and with great desperation.$2",
 "Wed.Boxy.LowHeart.winter":"You try to pet Boxy, but he shrinks away and hisses.$3",
-
 "Thu.Boxy.LowHeart.spring": "He stares right through you, what's on his mind? Nothing? Probably not a thing.",
 "Thu.Boxy.LowHeart.summer":"Boxy kicks dirt at you, he doesn't seem to like you very much.$3",
 "Thu.Boxy.LowHeart.fall":"Boxy meows? But it sort of sounds like a bark? That's pretty weird.$1",
 "Thu.Boxy.LowHeart.winter":"He was chewing something, but it seems he's swallowed it before you could see what it was.$7",
-
 "Fri.Boxy.LowHeart.spring": "Boxy licks your shoe and then tries to take a bite out of it. He seems pretty hungry.$7",
 "Fri.Boxy.LowHeart.summer":"Boxy isn't that happy to see you, but he is getting used to you being around.$6",
 "Fri.Boxy.LowHeart.fall":"Boxy is beaming with energy, wonder what has him so happy today?$1",
 "Fri.Boxy.LowHeart.winter":"Boxy just ate a cricket, now he's the happiest kitty alive.$7",
-
 "Sat.Boxy.LowHeart.spring": "Mew?$1",
 "Sat.Boxy.LowHeart.summer":"Mow wow wow!",
 "Sat.Boxy.LowHeart.fall":"Boxy has something in his mouth, he starts to chew very quickly when you look at him.$7",
 "Sat.Boxy.LowHeart.winter":"Boxy is growling, he's not feeling safe or happy.$3",
-
 "Sun.Boxy.LowHeart.spring": "Mrrp!$1",
 "Sun.Boxy.LowHeart.summer":"He chirps at you, are cats supposed to chirp like that?$1",
 "Sun.Boxy.LowHeart.fall":"Boxy bounces in place, wonder what he's up to.$7",
 "Sun.Boxy.LowHeart.winter":"Boxy bends down and gobbles up some snow.$7",
-
 "Mon.Boxy.MidHeart.spring": "He's so happy to see you he starts to chirp.$1",
 "Mon.Boxy.MidHeart.summer":"Boxy has missed you, so he tugs at your pant leg.$2",
 "Mon.Boxy.MidHeart.fall":"You go to pick up Boxy, but he growls at you with warning.",
 "Mon.Boxy.MidHeart.winter":"Boxy accepts your attention. He is happy to see you.$1",
-
 "Tue.Boxy.MidHeart.spring": "His nose is wet as he sniffs you, is he feeling okay?$2",
 "Tue.Boxy.MidHeart.summer":"Boxy meows at you desperately, maybe he wants food?$2",
 "Tue.Boxy.MidHeart.fall":"Boxy rubs against your ankles, he's happy you're here.$1",
 "Tue.Boxy.MidHeart.winter":"Boxy loves you so much he's brought you something.$7[116]",
-
 "Wed.Boxy.MidHeart.spring": "Boxy brought you something to eat.$1[142]",
 "Wed.Boxy.MidHeart.summer":"Boxy is eating grass...$7",
 "Wed.Boxy.MidHeart.fall":"Meow!$3#$b#He has so much to say!$7",
 "Wed.Boxy.MidHeart.winter":"Sniff, sniff...He smells something on you that he likes, wonder what it is?",
-
 "Thu.Boxy.MidHeart.spring": "Boxy looks a little sick today...$2",
 "Thu.Boxy.MidHeart.summer":"Boxy is wet, is it sweat??? Do cats even sweat?",
 "Thu.Boxy.MidHeart.fall":"You reach down and give his little toe beans a squeeze...#$b#%You've been bitten.",
 "Thu.Boxy.MidHeart.winter":"He's shivering from the cold.",
-
 "Fri.Boxy.MidHeart.spring": "He meows at you for attention.",
 "Fri.Boxy.MidHeart.summer":"Boxy looks thirsty.$2",
 "Fri.Boxy.MidHeart.fall":"There's candy stuck to his tail.",
 "Fri.Boxy.MidHeart.winter":"Boxy has snow stuck to his whiskers.",
-
 "Sat.Boxy.MidHeart.spring": "He stares blankly at you with his big, blue eyes.",
 "Sat.Boxy.MidHeart.summer":"Boxy paws at your ankle.",
 "Sat.Boxy.MidHeart.fall":"Boxy looks frantically from side to side, wonder what's going on.",
 "Sat.Boxy.MidHeart.winter":"There's not a thought in that head of his.$7",
-
 "Sun.Boxy.MidHeart.spring": "Boxy has brought you a present.[170]",
 "Sun.Boxy.MidHeart.summer":"Boxy has brought you a present.[176]",
 "Sun.Boxy.MidHeart.fall":"Boxy is pleased to see you, he meows happily.",
@@ -140,12 +126,8 @@ Boxy
 // winter star
 "Boxy.winter25.unmet":"%The present is his, none can have it.",
 "Boxy.winter25.friendly":"%Boxy has chewed a hole in the present.",
-/************************************************
-Kaia
-************************************************/
-//Display Name
+///Kaia
 "FC.Kaia":"Kaia",
-//Gift Related Dialogue
 "AcceptGift_StardropTea.Kaia": "This tea is amazing, I love the taste of it.$1",
 "AcceptBirthdayGift_Loved.Kaia": "Did Nikolai tell you it's my birthday?$1#$b#That little sneak.$1",
 "AcceptBirthdayGift_Liked.Kaia": "What a nice birthday gift.$1",
@@ -158,7 +140,6 @@ Kaia
 "Kaia.gift.hate":"This is awful, why would you give me this?$5",
 "Kaia.gift.neutral":"I bet Nikolai could use this, thank you @.$1",
 "reject_809.Kaia": "Erm, no thanks.$2#$b#Not really a big fan of movies, I prefer audio books.$1",
-//Special Dialogue
 "Introduction.Kaia":"Hm?#$b#Oh hello, I didn't know there was a new soul in town.$1#$b#That landslide really cut us off from everything for a while there.$2",
 "Resort_Entering.Kaia":"This place reminds me of home, the gem islands are a lot like this.$1",
 "Resort_Leaving.Kaia":"I better get home, if I don't start dinner Nikolai will just completely forget to eat.$2",
@@ -203,7 +184,6 @@ Kaia
 "Kaia.Sleep": "%She's in a deep sleep.",
 "Kaia.GreenRain": "This rain, Nikolai said it's a weird color...I told him to stay inside but that kid is so stubborn sometimes.$5",
 "Kaia.DesertFestival": "The weather here, it reminds me of home, I couldn't not come visit! Plus, I love shopping.$1",
-//Everyday Dialogue
 "Mon.Kaia.LowHeart.spring":"People in town, they all have real good hearts.$1#$b#Sometimes they mess up but they've got the spirit.$1",
 "Mon.Kaia.LowHeart.summer":"I never considered myself much of an artist, but Nikolai has really been encouraging me to create things and sing more.$1#$b#I wish he treated himself the way he treats me.$2",
 "Mon.Kaia.LowHeart.fall":"When I was little girl, I used to sing at the temple every Sunday.$1#$b#I used to be pretty religious, but over time I guess things changed $1",
@@ -269,179 +249,30 @@ Kaia
 "Saloon.Kaia.MidHeart.fall": "I heard the guild is going to buying more land to the north and east, not to expand the graveyard but to expand the neighborhood.$1#$b#That's pretty exciting honestly.$1",
 "Saloon.Kaia.MidHeart.winter": "Winter is a really hard month for me, I can't help be grow really tired and depressed.$2",
 "FC.TheStray.Kaia": "I feel so guilty not letting my son catch and keep that little kitten...But I am so scared I'll step on the poor thing, being newly blind I really need to know my surroundings at home and a moving animal might be too hard right now...$2",
-//Festival Dialogue
-// text shown if nothing else matches
 "Kaia.festival-default":"I can always get behind a nice celebration.$1", // TODO
-// egg festival
 "Kaia.spring13.unmet":"I don't quite understand this festival but it's adorable.$1",
 "Kaia.spring13.friendly":"Nikolai stayed up all night painting eggs, I could hear him mumbling well into the evening.$2",
-// flower festival
 "Kaia.spring24.unmet":"I used to dance all the time when I was younger, I personally feel that I was pretty good at it too.$1",
 "Kaia.spring24.friendly":"I hope everyone has the option to dance this year. Not just the single kids.$2",
-// luau
 "Kaia.summer11.unmet":"The potluck is probably my favorite gathering to attend. I'm a woman who loves food after all.$1",
 "Kaia.summer11.friendly":"I added some spicy honey to the pot, should give it a nice kick.$1",
-// jellies
 "Kaia.summer28.unmet":"Do you think the jellies wonder why we watch them?",
 "Kaia.summer28.friendly":"The journey those little jellies take every year is so inspiring.$1",
-// Marketpalooza (from Fellowclown.Nikolai mod)
 "Kaia.fall3.unmet":"Nikolai worked so hard to organize this event. If you like it, maybe you could show him some support.$1",
 "Kaia.fall3.friendly":"I help Nikolai with his bees, but most of the work is done by him. He’s such a bee charmer.$1",
-// fair
 "Kaia.fall16.unmet":"Have you seen the animals?#$b#There are some really strange looking ones this year.$1",
 "Kaia.fall16.friendly":"I thought the Dodo was long gone, but apparently there was this big effort to save them after someone found a flock a few years ago.#$b#They had been kept safe by geographic isolation.$1",
-// spirit's eve
 "Kaia.fall27.unmet":"Hope you enjoy the evening. I think Nikolai ran off into the maze.$1",
 "Kaia.fall27.friendly":"I would try the maze, but I’m pretty certain I’d regret it.$2",
-// festival of ice
 "Kaia.winter8.unmet":"This town is so weird about fishing, I don’t understand the big deal.",
 "Kaia.winter8.friendly":"I think I might buy a fish off Willy. Wouldn’t mind fried catfish for dinner tonight, honestly.$1",
-// winter star
 "Kaia.winter25.Unmet":"This holiday is pretty wholesome, but the food is pretty terrible. What even is a fruit cake?.$1",
 "Kaia.winter25.friendly":"I really am starting to enjoy living in Pelican Town, all the town gatherings are so sweet.$1",
 //Incoming Calls
 "Kaia.PhoneCall.1":"Hello?#$b#Is this John?$1#$b#Oh no, wait this is the wrong number isn't it?$2#$b#The braille on the phone buttons are so worn I can't tell my numbers apart.$2#$b#Sorry about that @.#$b#I'll get out of your hair now.$1",
 "Kaia.PhoneCall.2":"Hey there friend, just calling to check in on you.#$b#Nikolai was kind enough to dial up you number for me!$1#$b#This is @ right?#$b#I hope you're doing well.#$b#Oh beans, I need to get going.#$b#I think Nikolai caught the kitchen on fire again.$5",
-
-/************************************************
-Maverick
-************************************************/
-//Display Name
-"FC.Maverick": "Maverick",
-//Gift Related Dialogue
-"AcceptGift_StardropTea.Maverick": "Tea?$2#$b#Well, it's pretty decent tea.#$b#Thanks$1",
-"AcceptBirthdayGift_Loved.Maverick": "Oh, this is very unexpected...How did you know it's my birthday?$1",
-"AcceptBirthdayGift_Liked.Maverick": "Thank you, very thoughtful birthday gift @.$1",
-"AcceptBirthdayGift_Disliked.Maverick": "I'm not too fond of it but, I'll hold onto it I guess.$2",
-"AcceptBirthdayGift_Hated.Maverick": "I don't want this, it's a bad birthday gift.$3",
-"AcceptBirthdayGift_Neutral.Maverick": "I could find something to do with this.",
-"Maverick.gift.love": "Wonderful, this is exactly what I need.$1",
-"Maverick.gift.like": "This is quite good, thank you.$1",
-"Maverick.gift.dislike": "Hm, are you sure? Did you really think through this gift @?$3",
-"Maverick.gift.hate": "Oh, for me? Here you can have this, it's what I think of your attitude.[368]",
-"Maverick.gift.neutral": "Oh, well the thought means a lot to me.$1",
-"reject_StatueGem.Maverick": "You actually found it, why don't you go ahead and keep it. You can go put it in the statue and you can have anything you find inside the cave.$1",
-//Special Dialogue
-"Introduction.Maverick": "Remember to pick up after yourself, I might keep the graveyard clean but I'm no butler.$3",
-"Fair_Judging.Maverick": "You see Lewis over there? I think he's full of it. Man doesn't know a Mandrake from a Turnip.$1",
-"Fair_Judged_PlayerLost_PurpleShorts.Maverick": "You're an idiot, but a funny idiot at least.$1",
-"Fair_Judged_PlayerLost_Skipped.Maverick": "I get it, sometimes you want to attend a festival not be part of it.$1",
-"Fair_Judged_PlayerLost.Maverick": "Tough luck, maybe next year you'll get that prize.$2",
-"Fair_Judged_PlayerWon.Maverick": "You've got pretty good stuff on display, I'm not surprised you won.$1",
-"Fair_Judged.Maverick": "I'll probably be packing up soon, usually the festival dies down after the display judging is done.",
-"HitBySlingshot.Maverick": "Hey, that's no way to treat a old man!$3",
-"DumpsterDiveComment.Maverick": "@...Don't worry, I get it...I was struggling for a few years back in the day, anything helps.$2",
-"cc_Complete.Maverick": "Good to finally have that old building back, I missed what the community center had to offer this town.$1",
-"cc_Boulder.Maverick": "Thinking of that boulder that was removed, Hope it doesn't bring anything unsavory. What with the new current and all traveling right through the mines...$2",
-"cc_Bridge.Maverick": "That bridge was better off busted.$3#$b#So much nonsense has happened over the bridge, why did you fix it?$3",
-"cc_Bus.Maverick": "Looking forward to Pam having a job again, maybe she'll stop being so negative.$1",
-"cc_Greenhouse.Maverick": "Who built your greenhouse? Robin?$2",
-"cc_Minecart.Maverick": "I wouldn't ride those minecart's, might lose a limb.$3",
-"joja_Begin.Maverick": "Really, you bought a membership? What a waste of time and money.$3",
-"movieTheater.Maverick": "Movie theater? We need a decent grocery store. Pierre's produce is overpriced.$3",
-"dumped_Guys.Maverick": "Yoba doesn't smile at the unfaithful...You really shouldn't cheat on your partners.$3",
-"secondChance_Guys.Maverick": "I guess a second chance is okay, just hope you've learned your lesson. Because next time I'll come to those kids’ aid.$5",
-"dumped_Girls.Maverick": "...$3#$b#Don't talk to me.$5",
-"secondChance_Girls.Maverick": "I don't know, I would have knocked you out for cheating.$3",
-"pamHouseUpgrade.Maverick": "You bought Pam a home...Very generous.$1",
-"pamHouseUpgradeAnonymous.Maverick": "Someone has a real kind soul, buying Pam a decent home like that.$1",
-"GreenRainFinished.Maverick": "I'm glad that green down pour is finally gone...I'm sure the entire town is on edge because of it.$2",
-"GreenRain.Maverick": "I don't know if the rain will make me sick, but I can't just take a day off.$2",
-"GreenRain_2.Maverick": "Rain or Shine, I need to get my duties done before the sun sets.$5",
-"Saloon.Maverick.LowHeart.spring": "Hm, trying to enjoy myself you know.$2",
-"Saloon.Maverick.LowHeart.summer": "I've never been one to drink and talk.",
-"Saloon.Maverick.LowHeart.fall": "Careful on Spirit’s Eve. It's not a bad holiday, but the history of it runs deep and there are aspects of tradition that most people do not understand.$5",
-"Saloon.Maverick.LowHeart.winter": "At night, I can hear that ghost boy calling out. But I can't understand a word he's saying. Sounds almost like a different language entirely.",
-//Everyday Dialogue
-"Mon.Maverick.LowHeart.spring": "There's always a big fuss over that flower dancing get together.$3#$b#Never did understand it, but I've never been one for partying.$1",
-"Mon.Maverick.LowHeart.summer": "I wouldn't consider myself the most social person, but at least I'm generally polite to everyone.#$b#If they treat me the same...$2",
-"Mon.Maverick.LowHeart.fall": "You’d think I'd want more friends, but honestly, why bother with people? I rather deal with plants.$1",
-"Mon.Maverick.LowHeart.winter": "You know, I have a son. Two, actually.$1#$b#You'd think they'd get along on account of them being twins.#$b#But they seem to hate each other.$2#$b#John's over in East Scarp and Roger, well...He's somewhere. Haven't heard from him in a while.$5",
-"Tue.Maverick.LowHeart.spring": "People always say that graveyards give them the creeps.$2#$b#I never felt that way, I think it's peaceful. There's nothing to fear, all the spirits are resting.",
-"Tue.Maverick.LowHeart.summer": "That altar at the shop in Pelican town, it's pretty pathetic in comparison to a real house of worship.",
-"Tue.Maverick.LowHeart.fall": "Watch your step.$3#$b#It's pretty bad karma to go stomping over gravesites.#$e#I'm being serious, that's a quick way to wake up a spirit.$2",
-"Tue.Maverick.LowHeart.winter": "I know I really should be making friends and putting myself out there.#$b#But frankly, I like being alone.$1#$e#Don't like dating either, it's pretty uncomfortable for me. That's why my wife and I split actually, we both are happier now.$1",
-"Wed.Maverick.LowHeart.spring": "If you see any litter around, be a friend and pick it up would you?$2#$b#I know it's my job, but everyone should want a clean planet yeah?",
-"Wed.Maverick.LowHeart.summer": "I don't spend all my time cleaning up the graveyard you know.#$b#I like to hike and fish in my free time too.$1#$e#Keeping this property clean is a full time job though, always something that needs doing.$1",
-"Wed.Maverick.LowHeart.fall": "If you come on a rainy day, you can see the spirits of the graveyard wandering.#$b#It's safe, but something about the rain makes the restless more active.$2",
-"Wed.Maverick.LowHeart.winter": "There's always property for sale here.#$b#Cause it's next to a graveyard it's real cheap too.$1#$b#People rather not deal with the dead I guess.",
-"Thu.Maverick.LowHeart.spring": "If there's any reason to be interested in this town, it's the guild. Those folks, they're good people and get up to some crazy shenanigans.$1",
-"Thu.Maverick.LowHeart.summer": "It's hot today, but I don't mind it.#$b#I always liked the heat, makes my bones feel better then the cold.$1#$e#You sure are a talkative type huh...$1",
-"Thu.Maverick.LowHeart.fall": "I love animals, you know, I used to want to own a ranch and everything.#$b#But it's okay I enjoy what I do.$1#$e#You're looking pretty red in the face, maybe you should find some shade.$2",
-"Thu.Maverick.LowHeart.winter": "I usually keep my home locked up, never know who will end up being a thief.$3",
-"Fri.Maverick.LowHeart.spring": "Love is always in the air isn't it?#$b#Well I'm always seeing it.$1#$b#You see it in everything really, if you just pay attention.$2",
-"Fri.Maverick.LowHeart.summer": "Wait...Close your eyes and listen very carefully.#$b#You hear that? I keep hearing some kind of bird sound.#$b#I think it's a bird, sounds sort of weird though.",
-"Fri.Maverick.LowHeart.fall": "It's pretty common to see people hiding who they really are.#$b#But it's never fooled me, I can see through the masks people wear.",
-"Fri.Maverick.LowHeart.winter": "Overheard Alex today saying I'm a 'creepy dude'.$2#$b#I guess a lot of people think that on account of my work.#$b#But you know, someone has to do it.$1",
-"Sat.Maverick.LowHeart.spring": "My whole family is really religious, I think that's why I love my work so much.#$b#I feel like I'm serving Yoba in my own way.",
-"Sat.Maverick.LowHeart.summer": "Spirit's Eve is just around the corner.#$b#I usually drop off some candy before the festival starts, not really into sticking around though.$1",
-"Sat.Maverick.LowHeart.fall": "I don't go to the saloon at all.#$b#I feel maybe I should, just to make some friends but I don't know.#$b#Never been too good at making friends.$1",
-"Sat.Maverick.LowHeart.winter": "Winter is the easiest time of the year, no one’s outside making any messes.$1#$b#Miss being warm though.",
-"Sun.Maverick.LowHeart.spring": "Passerby Cemetery was founded by the guild a very long time ago. Somewhere in the woods there's an even older graveyard too...I've seen spirits wandering around. If you keep your eyes peeled you will too.$2",
-"Sun.Maverick.LowHeart.summer": "Some of the grave markers are ridiculous, but at least some people have a decent sense of humor.$1",
-"Sun.Maverick.LowHeart.fall": "The morgue is under my house, in my basement.#$b#I'm happy it's been a while since I've had to use it.",
-"Sun.Maverick.LowHeart.winter": "I used to watch a lot of cartoons as a kid, and have been thinking about those shows a lot these days.#$b#Maybe I could watch a few for old times sake.$1",
-"Saloon.Maverick.LowHeart.spring": "I gotta admit, Gus brews a good beer.$1",
-"Saloon.Maverick.LowHeart.summer": "I really enjoy coming here, I'm not one to mingle but, getting out is nice.$1",
-"Saloon.Maverick.LowHeart.fall": "Working as a Graveyard keeper, I've seen a lot of strange happenings at night.#$b#I may not go to temple anymore, but the spirits I've seen? It's just strengthened my belief in Yoba.$1",
-"Saloon.Maverick.LowHeart.winter": "When I was younger, I never really had much to do with love...I did meet a real wonderful woman at one point, but she wasn't one to settle down...$2",
-"Mon.Maverick.MidHeart.spring": "I've been attempting to read a little bit of a book every night.#$b#But I really have no clue how to focus on reading for longer than five minutes.$1",
-"Mon.Maverick.MidHeart.summer": "I heard they found a new type of rat in East Scarp, John keeps bitching’ about it stealing his stuff.$1#$b#Pretty funny to me.$1",
-"Mon.Maverick.MidHeart.fall": "I don't really listen to music, but that woman, Rosa? She has pretty good taste.$1",
-"Mon.Maverick.MidHeart.winter": "When John was a little boy, he would insist that he was part wolf.$1#$b#He was such a silly kid back then, before he got real sick.$2",
-"Tue.Maverick.MidHeart.spring": "You're looking tired, but well worked.$1#$b#It's a good thing, having things to do. Give us a purpose yeah?$1",
-"Tue.Maverick.MidHeart.summer": "I've never really thought about doing anything more than what I'm doing, but recently I have...Go figure.$2",
-"Tue.Maverick.MidHeart.fall": "I'm in a real good mood.$1#$b#Oh, just because I spoke to my ex wife this morning.$1#$b#We're still good friends, and she's real happy over seas.$1",
-"Tue.Maverick.MidHeart.winter": "I was asked out, it was the worst feeling.$2#$b#I don't really want to date anymore, it all seems so overwhelming.$2",
-"Wed.Maverick.MidHeart.spring": "Don't come to the graveyard after dark, I saw something real unbelievable and I don't think it's kind hearted.$5",
-"Wed.Maverick.MidHeart.summer": "I could use a shot of whiskey and a bowl of banana pudding...$2",
-"Wed.Maverick.MidHeart.fall": "Ah hell, I think your shirt is inside out.#$b#Don't worry, I'll keep a lookout, while you turn it right side in.$1",
-"Wed.Maverick.MidHeart.winter": "I nearly walked out without pants on this morning, don't think the morning wants to be greeted like that, huh?$1",
-"Thu.Maverick.MidHeart.spring": "The best part about my work is the peace I feel.#$b#This job, it's very low stress for me.$1",
-"Thu.Maverick.MidHeart.summer": "Both my boys went to a college to become priests, but only one actually followed through...Roger just ended up hating being there, kid was crying damn near everyday.$3",
-"Thu.Maverick.MidHeart.fall": "I saw some raccoons, they seem odd...Like they’re more intelligent than the others, so be kind with them...",
-"Thu.Maverick.MidHeart.winter": "I once met a man that raised these six foot birds. He called them raptors, they sure seemed like it too, with how mean those things were.$1",
-"Fri.Maverick.MidHeart.spring": "I think I might be the youngest old person in this town...Feels pretty odd.$1",
-"Fri.Maverick.MidHeart.summer": "The moon is looking different...Maybe more lively than before, not sure why.$2",
-"Fri.Maverick.MidHeart.fall": "I've been thinking about working with more wood types, I like to whittle sometimes when it suits me.$1",
-"Fri.Maverick.MidHeart.winter": "I never really attend festivals, I dislike the crowds.#$b#Bunch of loud, sweaty people being close together.#$b#Makes me feel closed in.$2",
-"Sat.Maverick.MidHeart.spring": "If you've ever thought about heading east out of town, you'll find a real cozy neighborhood over there. It's called East Scarp.",
-"Sat.Maverick.MidHeart.summer": "You know, John and Roger are twins...But they don't look identical, which I feel is a blessing...I would hate to get them mixed up and risk hurting their feelings.$2",
-"Sat.Maverick.MidHeart.fall": "I feel with fall being here, it's time I stock up on the candy and get ready for the trunk party in Zuzu...Every year, I come by with a trunk full of candy for the temple I used to go to.$1#$b#Though I don’t go on the regular anymore, not my thing.$2",
-"Sat.Maverick.MidHeart.winter": "I've been needing to stock up on black beans, it's a staple in my diet.$1",
-"Sun.Maverick.MidHeart.spring": "Someone commented on my clothes, something about wearing the same thing too often.#$b#It's not the same suit you know, I just like buying multiples of the same outfit.$1",
-"Sun.Maverick.MidHeart.summer": "That Abigail sure is interesting, asked me what my pronouns are. Wasn't sure what she meant until she explained it to me...Now I can't stop thinking about it, what ARE my pronouns.#$e#I mean, I always felt a man? ButJinx....I never thought about it either....$2",
-"Sun.Maverick.MidHeart.fall": "The youth from that neighborhood on the east side are pretty weird. I went into town for a bit and those kids seem so normal in comparison.",
-"Sun.Maverick.MidHeart.winter": "I really wish people would pick up their litter, it's so depressing seeing all that trash everywhere.$3",
-"Saloon.Maverick.MidHeart.spring": "I've been talking a lot more with my sons, it's a nice change...I raised those boys all on my own and it was sort of hard not hearing from them.$2",
-"Saloon.Maverick.MidHeart.summer": "Marlon, he's a good man. He might be a little rough around the edges but I know deep down he's a real softy.#$b#I've seen him interact with Boxy, about the only person that stray has ever instantly liked.$1",
-"Saloon.Maverick.MidHeart.fall": "I was born and raised in this valley, I love it here. I know there's a good amount of kids these days who wanna leave this place behind, but I think one day they'll realize how wonderful it really is here.$1",
-"Saloon.Maverick.MidHeart.winter": "The guild actually owns much more of this land then they let on.#$b#They've been buying the deep forest bit by bit for years now. I asked Gil how come and he said it's ‘cause those shrouded by darkness need more protection than those who bask in the light.#$b#Not sure I get him.$1",
-"reject_809.Maverick": "No thanks, I don't like how loud those places get.$2",
-
-//Festival Dialogue
-"Maverick.GreenRain": "This rain is...Odd, but it's sort of beautiful.$1",
-"Maverick.TroutDerby": "Hell yes, I love Trout Derby.$1",
-"Maverick.SquidFest": "I hope I catch some squid, I love frying them up.$1",
-// text shown if nothing else matches
-"Maverick.festival-default": "If I gotta be here, I'll at least sell something.$2", // TODO
-// Marketpalooza 
-"Maverick.fall3": "Hope you're enjoying yourself...",
-"Maverick.fall3.friendly": "I'm so full of festival food, so much for healthy eating.$1",
-// fair
-"Maverick.fall16": "I only really sell dodo eggs, the refuge is trying to get more people interested in raising them.",
-"Maverick.fall16.friendly": "Want to raise a birdy @? I've an egg for ya for a trade.$1",
-//Incoming Calls
-"Maverick.PhoneCall.1": "Hello? Hello? Did you just call me?#$b#Don't do it again, I don't like scam callers.$3",
-"Maverick.PhoneCall.2": "How do I work this thing...@? You hear me alright? Oh shoot, I dropped the phone in the sink.$3",
-//schedule strings
-    "Maverick.NightMarket": "Lyell always sells pretty interesting stuff.$1",
-/************************************************
-Nikolai
-************************************************/
-//Display Name
+//Nikolai
 "FC.Nikolai":"Nikolai",
-//Gift Related Dialogue
 "AcceptGift_StardropTea.Nikolai": "Oh hey, my mom loves this tea. I mean I do too but I think she loves it more then me.$1",
 "AcceptBirthdayGift_Loved.Nikolai":"Did I tell you it's my birthday today?$3#$b#I can't recall actually.#$b#Thanks so much though, this is one of my favorite things.$6",
 "AcceptBirthdayGift_Liked.Nikolai":"You shouldn't have!$1#$b#Thank you @, this is becoming a great birthday.$6",
@@ -477,7 +308,6 @@ Nikolai
 "RejectGift_Divorced.Nikolai":"You can't make this better with presents @.$3",
 "SpouseGiftJealous.Nikolai":"I'm not jealous when you give things to other people...Well, not a whole lot.$3#$b#Okay I am jealous, but I'm working through it.$2",
 "MovieInvitation.Nikolai":"Oh man, yeah I would love too.$6#$b#I love going to the theater's so much.$1",
-//Special Dialogue
 "Introduction.Nikolai":"Oh hey, you must be @!#$e#I'm Nikolai, pleased to meet you!$6",
 "danceRejection.Nikolai":"Oh jeez, no thank you.$2#$b#Maybe another time.$6",
 "divorced.Nikolai.1":"Hey, just leave me alone, alright.$5#$e#I just can't deal with seeing you, okay?$6#$e#Please just stop, leave me alone.$2",
@@ -529,11 +359,8 @@ Nikolai
 "GreenRainFinished.Nikolai": "Finally the rain stopped, I can finally go outside!$6",
 "GreenRain.Nikolai": "This green rain is crazy weird.$6",
 "GreenRain_2.Nikolai": "Wonder how the rain became green, wonder if Demetrius knows.$3",
-//Mod Crossovers
 "Nikolai.AND.A":"I like coming by occasionally to hang out with Barron, she's really nice and I love playing with Jinx.$1",
 "Nikolai.AND.B":"I'm not so great at reading, not because I can't but just because focusing is really  hard...$6",
-
-//Everyday Dialogue
 "Mon.Nikolai.LowHeart.spring":"There's something calming about this time of year.#$e#I guess it's pretty weird, but my thoughts just relax during spring.$2",
 "Mon.Nikolai.LowHeart.summer":"I wasn't born here. I actually come from the islands near here.$1#$e#It's really pretty there, you should visit if you ever have the chance.",
 "Mon.Nikolai.LowHeart.fall":"Huh?$3#$e#Oh, it's nothing, I just...Thought I saw something.$1#$e#So anyway, you look tired. Maybe take a break if you can.",
@@ -702,63 +529,51 @@ Nikolai
 "Bad_6.Nikolai":"%He looks very depressed, but he won't say why.",
 "Bad_7.Nikolai":"%Nikolai looks like he wants to say something, but then he looks away and doesn't say a word.",
 "Bad_8.Nikolai":"%There's a empty look in his gaze, Nikolai is here, but at the same time he isn’t",
-
-//Festival Dialogue
 "Nikolai.GreenRain": "Mom said not to go out in the rain, but I'm not scared of it...Plus I have to care for my bees.$3",
 "Nikolai.DesertFestival": "This guy has really pretty cacti! You should check it out.$1",
 "Nikolai.TroutDerby": "I loved the derby, it's so much fun!$1",
 "Nikolai.SquidFest": "This is actually pretty nice, I'm not really into squid though...But maybe I should be.$1",
-// text shown if nothing else matches
 "Nikolai.festival-default":"I love most of the festivals, tt's so much fun gathering like this.$1", // TODO
-// egg festival
 "Nikolai.spring13":"I hope all the eggs are found.$3#$e#It would start smelling pretty bad around here if they're not...$2",
 "Nikolai.spring13.friendly": "Oh hey @, looking forward to egg hunting?#$b#I'm excited to watch people scramble.$6",
 "Nikolai.spring13.dating":"Good luck out there, baby.$3",
 "Nikolai.spring13.married":"I hope you win!$1$e#They really don't stand a chance.$1",
 "Nikolai.spring13.divorced":"Hey...$2$e#You look...Well.$2",
-// flower festival
 "Nikolai.spring24":"The flower dance is packed, try not to bump elbows with anyone, stranger.$6",
 "Nikolai.spring24.friendly":"I hope someone asks me to dance, I love dancing",
 "Nikolai.spring24.dating":"Don't worry about dancing with me, you just go have fun.$1",
 "Nikolai.spring24.married":"If you decide not to dance this year it's okay, I actually really enjoy watching too.$1",
 "Nikolai.spring24.divorced":"Could you please just...$5$e#Just leave me alone, okay.$",
-// luau
 "Nikolai.summer11":"I put hot peppers in the soup.$1",
 "Nikolai.summer11.friendly":"I hope you like artichokes because I put some in the soup.$3",
 "Nikolai.summer11.dating":"Hey, you wanna dance or something?#$b#Or maybe eat, I'm starving.$6",
 "Nikolai.summer11.married":"With your crops, the soup should taste really awesome this year.$1",
 "Nikolai.summer11.divorced":"I'm trying to have a good time @, leave me alone.$2",
-// jellies
 "Nikolai.summer28":"I was stung by a jellyfish once.$3#$e#It hurt pretty bad now that I think of it.$2",
 "Nikolai.summer28.friendly":"This night is so magical, there's something really familiar about seeing these jellies come by every year.$1#$b#Not just because I see it every year, but because it feels a part of me somehow.",
 "Nikolai.summer28.dating":"It would be pretty cool to swim with the jellies, but I'm not sting proof.$6",
 "Nikolai.summer28.married":"We should celebrate here, maybe a renewing of our vows?#$b#That would be so romantic.$4",
 "Nikolai.summer28.divorced":"There's a lot of memories here, isn't there?$2$e#Let me forget them.$2",
-// Marketpalooza 
 "Nikolai.fall3":"Don't forget to enter your raffle ticket!$3",
 "Nikolai.fall3.friendly":"Hey, I've been working hard all year on these honeys.$1#$b#If you buy something tell me what you think.$6",
 "Nikolai.fall3.dating":"Here you go, try a sample darling.[Fellowclown.PC_SnowHoney]",
 "Nikolai.fall3.married":"I made this one just for you, I hope you like it.[Fellowclown.PC_SunshineHoney]",
 "Nikolai.fall3.divorced":"Expecting a sample?$2#$b#Sorry I just don't give those out to people who hurt me.$3#$b#But I'll still sell to you if you want.$2",
-// fair
 "Nikolai.fall16":"Wow, check out the animals!#$b#I've never seen some of these breeds before.$1",
 "Nikolai.fall16.friendly":"Maverick is selling a dodo egg, I am so tempted to buy it but my ma might kill me.$6",
 "Nikolai.fall16.dating":"I wonder if I can pet the dodos, maybe I should tempt one with some bread.$1",
 "Nikolai.fall16.married":"Do you think we could get another animal?#$b#Like maybe a dodo, they're really adorable.$6",
 "Nikolai.fall16.divorced":"%He's ignoring you.",
-// spirit's eve
 "Nikolai.fall27":"Boo!#$e#Did I scare you?#$e#I think my costume is pretty spooky.#$b#Everyone's nervous about clowns right?$6",
 "Nikolai.fall27.friendly": "I think Spirit's Eve is my favorite festival.#$e#Dressing up is just so much fun!",
 "Nikolai.fall27.dating":"You can hold my hand if you want to...$#$b#Huh?No of course I'm not scared...%He's visibly shaking with fear.",
 "fall27.married":"The monsters in that cage, do they look real?#$b#But, they wouldn't really bring actual monsters to the festival would they?$2",
 "fall27.divorced":"I don't really want to talk to you.$2#$e#I'll be civil just for tonight, though.$2",
-// festival of ice
 "Nikolai.winter8":"Maybe we can make a snowman together.$1$e#I might be too cold to move though.$3",
 "Nikolai.winter8.friendly": "Better watch your back, snowballs have been flying left and right!$3",
 "Nikolai.winter8.dating":"Wanna penguin hug to stay warm?$6",
 "Nikolai.winter8.married":"I'm not really into fishing, but I do like spending time with Willy.#$b#He's really sweet, he's like a father to me you know.",
 "Nikolai.winter.divorced":"%He looks at you with confusion at first but then looks away to ignore you instead.",
-// winter star
 "Nikolai.winter25":"Man, everyone's so happy today.$e#It's pretty great.$1",
 "Nikolai.winter25.friendly":"@, it's great to see you!$1#$b#I was really hoping you'd show up honestly.$6",
 "Nikolai.winter25.dating":"Don't let me catch you under the mistletoe.$4",
@@ -768,7 +583,6 @@ Nikolai
 "Nikolai.Nightmarket.A":"I love this, being underwater is so cool!$1",
 "Nikolai.Nightmarket.B":"I hope we see a weird fish soon, I've been wanting to spot something odd.$6",
 "Nikolai.Nightmarket.C":"Wow I'm getting really tired, I should head home soon I think.",
-//Incoming Calls
 "Nikolai.PhoneCall.1":"Hey @, hope you're doing well.$1#$b#I saw this weird looking egg?#$b#Found it on the beach, I think it's an egg but my ma insist it's some kind of shell.$1#$b#I'll have to show you sometime.#$b#Well I gotta go, I'm supposed to be cleaning but I had to call before I forgot.$1#$b#Bye now.",
 "Nikolai.PhoneCall.2":"There's something outside my house.$1#$b#I know there is, I can hear it walking around at night.#$b#If you come by and see something weird, let me know okay?$2#$b#I need to prove to my ma there's something out there.$2#$b#Talk later okay, I gotta go look for myself one more time.$5",
 //Movies
@@ -799,26 +613,20 @@ Nikolai
 "Nikolai.movies.8.before": "Whoa, is this a foreign movie? That's so cool.$1",
 "Nikolai.movies.8.during": "He seems enthralled.",
 "Nikolai.movies.8.after": "That was really cool, it gave me so many story telling ideas too.$1",
-/************************************************
-Zuuie
-************************************************/
-//Display Name
+//Zuuie
 "FC.Zuuie": "Zuuie",
-//Gift Related Dialogue
 "AcceptGift_StardropTea.Zuuie": "It is called tea?#@#$b#Oh, that's really nice actually!$1",
 "Zuuie.gift.love": "Wow, wow! Amazing, thank you!$1",
 "Zuuie.gift.like": "Ooh, this is so nice, you're such a sweet human!$1",
 "Zuuie.gift.dislike": "Ack, terrible, awful, go away now.$3",
 "Zuuie.gift.hate": "Horrendous! You're nothing but a bully!$3",
 "Zuuie.gift.neutral": "Aw, very kind, very sweet thank you!$1",
-//Special Dialogue
 "Introduction.Zuuie": "This is my secret place...But, you can stay I guess. I won't hide anymore...$1",
 "HitBySlingshot.Zuuie": "%She hits you back.",
 "cc_Complete.Zuuie": "You helped the other spirits...You're so kind!$1",
 "GreenRainFinished.Zuuie": "The rain, the rain! It's gone away, I hope it comes back another day!$1",
 "GreenRain.Zuuie": "It's pours, the rain. It feeds the land, bringing life with a gentle hand!$1",
 "GreenRain_2.Zuuie": "Rain, oh rain. You are my friend, thank the gods you've come again!$1",
-//Everyday Dialogue
 "Mon.Zuuie.LowHeart.spring": "I'm a Zuut! I protect the forest of the Tropa...But where are the Tropa?$2",
 "Mon.Zuuie.LowHeart.summer": "Animals love the fruit off my branches, but they're not ready to fall yet. Maybe come winter, you may have one!$1",
 "Mon.Zuuie.LowHeart.fall": "Spirits sleep soundly in the valley graveyard, but outside of it? I can hear them crying.$2",
@@ -876,12 +684,8 @@ Zuuie
 "Sun.Zuuie.MidHeart.fall": "I hope my baby is okay, you better be taking care of them.$2",
 "Sun.Zuuie.MidHeart.winter": "I did it, I got close to a human today...Maverick is his name, he's really nice!$1",
 "reject_809.Zuuie": "No! I can't go into town, there are too many humans!$2",
-/************************************************
-Lyell's Information
-************************************************/
-//Display Name
+//Lyell's Information
 "FC.Lyell": "Lyell",
-//Gift Related Dialogue
 "AcceptGift_StardropTea.Lyell": "This is so thoughtful, thank you @.$1",
 "AcceptBirthdayGift_Loved.Lyell": "You...Did you know it's my birthday?#$b#I don't recall telling you that...#$b#This is so kind of you @.$1",
 "AcceptBirthdayGift_Liked.Lyell": "Oh...Thank you, this is so nice.#$b#Sorry, still getting used to people acknowledging my birthday.$1",
@@ -926,7 +730,6 @@ Lyell's Information
 "RejectGift_Divorced.Lyell": "This is sweet, but no thank you...I can't accept this.$2",
 "SpouseGiftJealous.Lyell": "In my culture, gift giving has a pretty significant meaning.#$b#I love you StarShine, I really do.$4[Fellowclown.PC_TwistedBread] ",
 "MovieInvitation.Lyell": "Oh, thank you. A movie break sounds really nice.$1",
-//Special Dialogue
 "Introduction.Lyell": "If you could...Not tell people about Roswell attacking Sam, I would be very grateful.#$b#She already has such a terrible reputation...$2",
 "danceRejection.Lyell": "That's so sweet of you, but maybe not this time.",
 "divorced.Lyell.1": "I would prefer you give me enough time to grieve what we had.$2#$b#You were...My StarShine remember?$12",
@@ -988,7 +791,6 @@ Lyell's Information
 "Lyell.SquidFest": "I've already caught a couple squid, but I let them go afterward.$3",
 "Lyell.Grave": "I'm just, visiting someone...$2",
 "Lyell.Prayer": "%He's softly muttering in a language you don't understand.",
-//Everyday Dialogue
 "Mon.Lyell.LowHeart.spring": "Already you can hear the birds singing. It never gets old.$1#$e#Fall is actually my favorite season, but I love spring just as much.$1#$e#Arcania had really great seasons. I miss it a lot.$2#$e#I'm not really used to talking this much.$2#$e#I'm sorry, I don't feel like talking much anymore.",
 "Mon.Lyell.LowHeart.summer": "I came here from Zuzu as well about three years ago. It's lovely here.$1#$e#Zuzu was a pretty bad place for me.$2#$e#I guess I've never really been one for city life anyway.#$e#During my time at war, most of the places we grouped in were large villages.#$b#Or we would travel the countryside to a new location.#$b#It was pretty nice, in a way.$1#$e#%He seems lost in thought now.",
 "Mon.Lyell.LowHeart.fall": "If you look around the forest and even in town, you can find a lot of good food growing in nature. Just don't overpick the poor plants.$1#$e#Nature is one of the most important things in this world.$1#$b#It deserves respect.$2#$e#I think that's why I love my small home so much - it's surrounded by nature.$1#$e#You've got a pretty big place yourself. I don't think I would like all that open space.#$e#Well, I really need to get going.#$b#$3#$b#%He looks annoyed. Better leave him alone.",
@@ -1086,10 +888,8 @@ Lyell's Information
 "Saloon.Lyell.HighHeart.summer": "Yoba is such an interesting concept, pretty similar to one of the three gods I worship, but still significantly different too.$1#$b#Sometimes I hear Pam praising Yoba, but usually she's drunk in the Saloon.$2",
 "Saloon.Lyell.HighHeart.fall": "Pam is a beautiful woman deep down, I've been learning about her a bit more...I really wish she would do better for herself though.$2",
 "Saloon.Lyell.HighHeart.winter": "Marnie is so sweet, I always enjoy spending some time with her even if it's short.",
-//Engagement Dialogue 
 "Lyell.engagement.0": "You asked before I could, I would be happy to marry you.$4",
 "Lyell.engagement.1": "I was going to ask you, but I guess you're too quick.$4#$b#I would love to marry you @.$4",
-//Marriage Dialogue 
 "patio.Lyell": "Roswell seems to love her new coop and she seems even happier being away from her babies too.$1",
 "spouseRoom.Lyell": "You're welcome to join me in my room, I know it's supposed to be my space, but I would love to share with you.$4",
 "Rainy_Day_0.Lyell": "Being here reminds me so much of my childhood. I was raised on a little farm located in a village and it was really wonderful like it is here.$1",
@@ -1158,32 +958,26 @@ Lyell's Information
 "Bad_6.Lyell": "I've had people fall out of love with me before.$2#$b#It's never a good feeling, but I understand that it just happens sometimes.$2#$e#It's okay, if that's happening to us, to you...I would understand StarShine.$1",
 "Bad_7.Lyell": "I had a relationship a long time ago, she was beautiful but the fire died quickly...She realized she wanted more and I respected that.$2#$e#Do you want more @?",
 "Bad_8.Lyell": "%He looks depressed and maybe a little drunk.",
-//Festival Dialogue
 "Lyell.GreenRain": "%He's soaked with green rain but beaming with happiness.",
 "Lyell.DesertFestival": "I've found some neat trinkets here, you should look around too.$1",
 "Lyell.TroutDerby": "Grady goes crazy for this event, he loves trout derby way too much.$3",
 "Lyell.SquidFest": "Grady won't let me jump in and catch fish, he said it's too cold.$2",
-// text shown if nothing else matches
 "Lyell.festival-default": "These festivals are great.#$e#I'd love to organize one myself.", // TODO
-// egg festival
 "Lyell.spring13.unmet": "Oh, hey there. You look new, I'm Lyell.#$e#Enjoy the festival.$1",
 "Lyell.spring13.friendly": "I love boiled eggs. They’re a great snack.$1",
 "Lyell.spring13.dating": "Find plenty of eggs for me.$1#$b#But leave more for the kids.$1",
 "Lyell.spring13.married": "Abigail is hard to beat$1$e#Good luck, my love.$1",
 "Lyell.spring13.divorced": "Oh, @...$2#$e#How's the farm?$2",
-// flower festival
 "Lyell.spring24.unmet": "Everyone's so happy. Really raises my spirits.$1",
 "Lyell.spring24.friendly": "Watching everyone dance makes me feel young again.$1",
 "Lyell.spring24.dating": "I would love to dance with you StarShine, if you'll have me this year.$4",
 "Lyell.spring24.married": "Don't worry, you can still dance with whoever you like StarShine.$1",
 "Lyell.spring24.divorced": "Please stop joking, it really hurts...$2",
-// luau
 "Lyell.summer11.unmet": "I was sneaky and put in some spices from the Gotoro Empire. I brought some with me when I moved here.$1",
 "Lyell.summer11.friendly": "Pam tried to sneak something... Inappropriate into the potluck.$5#$e#I stopped her though, don't worry.",
 "Lyell.summer11.dating": "Join me, sweetheart, we'll eat together.$4",
 "Lyell.summer11.married": "I wasn't sure what to put in the soup.$2#$b#So I put in some hot peppers.$1",
 "Lyell.summer11.divorced": "Hope you're well...#$e#*sigh* Please, I don't feel like talking.$2",
-// jellies
 "Lyell.summer28.unmet": "I'm a grown man, I'll swim with jellyfish I want.",
 "Lyell.summer28.friendly": "Grady says I’m an adult and should know not to swim with Jyellyfish. But really, why would that stop me.",
 "Lyell.summer28.dating": "@, tell Grady it's fine, I wanna swim with the jellyfish...$2",
@@ -1195,75 +989,58 @@ Lyell's Information
 "Lyell.fall3.dating": "I'm looking for something nice for you.$1",
 "Lyell.fall3.married": "I think I might go buy some honey from Nikolai.$1",
 "Lyell.fall3.divorced": "Please go enjoy the market.#$b#Instead of talking to me.$2",
-// fair
 "Lyell.fall16": "The fair is one of my favorite festivals of the year!$1#$b#I love the games and winning prizes.$3",
 "Lyell.fall16.friendly": "I love petting the animals. I know it's for kids but I can't help it.$1",
 "Lyell.fall16.dating": "You should try this, it's really good. [612 236 241]$1",
 "Lyell.fall16.married": "Hello, love, I won this for you. [446 113 279 444 581]$1",
 "Lyell.fall16.divorced": "What is it?$2#$e#Please go away.$5",
-// spirit's eve
 "Lyell.fall27.unmet": "Good evening.$e#For me it's the festival of harvest.#$e#Spirit's Eve is such a fun festival but I guess I'm a little traditional in that regard…$1",
 "Lyell.fall27.friendly": "Valerie mentioned that maybe monsters are offended by this holiday.$3#$b#Do you think the supernatural is offended?",
 "Lyell.fall27.dating": "Happy Spirit's Eve.#$e#Do you want to try the maze together?",
 "fall27.married": "Don't get too frightened tonight.$1#$e#Did you see Jas and Vincent? They look cute, don't they?$1",
 "fall27.divorced": "@, it's nice to see you...Enjoy the festival.$1",
-// festival of ice
 "Lyell.winter8": "I try to go to every festival throughout the year.#$b#I enjoy the company, even if I don't talk to anyone.$1#$e#I don't join the events though, I get.... Nervous.$2",
 "Lyell.winter8.friendly": "I could use something hot to drink.$1#$e#Catch lots of fish this year.",
 "Lyell.winter8.dating": "Would you like to build a snowman with me?$4#$b#I was thinking either that or we can pelt the kids with snowballs.$1",
 "Lyell.winter8.married": "I got hit in the face with a snowball.$1#$e#Kids, right?$1",
 "Lyell.winter.divorced": "%He throws a snowball at you! It hits your chest.",
-// winter star
 "Lyell.winter25.unmet": "A long time ago, the 'Winter Star Festival' was something completely different.#$b#Even so, I still enjoy it all the same.$1",
 "Lyell.winter25.friendly": "It's always hard figuring out what to get people.",
 "Lyell.winter25.dating": "The tree's beautiful, isn't it?#$e#I love the decorations.$1",
 "Lyell.winter25.spouse": "I got this for you.$4[# # #]",
 "Lyell.winter25.divorced": "...Hope you're well.$2#$e#I still don't want to talk to you, @.$2",
-//Incoming Calls
 "Lyell.PhoneCall.1": "Hello?!$2#$b#Can you hear me?!#$b#Grady, how do I know if this is working? I can't tell if-$5",
 "Lyell.PhoneCall.2": "Heyo! I figured out the phone situation, it was a real doozy honestly.$1#$b#Turns out I was holding it upside down.$3#$b#But hey, I wanted to let you know I have some new seeds in stock for the season.#$b#Well, if you come by holler my way okay, be happy and stay shapely my friend.$1",
-//Movies
 "Lyell.movies.0.before": "Gus has told me a lot about this picture show.$1#$e#I'm hoping it's good.", 
 "Lyell.movies.0.during": "Lyell looks sad.",   //sapling
 "Lyell.movies.0.after": "The picture show was so sad.$2#$e#I've never liked sad stories...",
-
 "Lyell.movies.1.before": "Seeing a picture show is always a great treat.#$e#Thank you for letting me tag along.", 
 "Lyell.movies.1.during": "Lyell looks invested.",   //Natural Wonders
 "Lyell.movies.1.after": "That was a great picture show.$1#$e#We should do it again soon.",
-
 "Lyell.movies.2.before": "I heard the kids talking about this one.$1#$e#Hoping it's good.",
 "Lyell.movies.2.during": "What a face to remember.$1",   //Prairie King
 "Lyell.movies.2.after": "That wasn't so bad. I really enjoyed it.",
-
 "Lyell.movies.3.before": "I love to laugh, so this is going to be good.$1#$e#Hopefully...",
 "Lyell.movies.3.during": "Oh goodness...",   //Wumbus
 "Lyell.movies.3.after": "That was...Odd.$1#$b#But I liked it!$1",
-
 "Lyell.movies.4.before": "I suppose we can watch this one, for you at least...$2",
 "Lyell.movies.4.during": "...",   //Mysterium
 "Lyell.movies.4.after": "I'm sorry I didn't quite enjoy this one...",
-
 "Lyell.movies.5.before": "I don't suppose we could watch something else, could we?#$e#I just... don't enjoy getting scared.",
 "Lyell.movies.5.during": "I feel sick. Maybe I should step out.", //It Howls In The Rain
 "Lyell.movies.5.after": "That was... I'm sorry, I hated it.$2",
-
 "Lyell.movies.6.before": "Gus said this picture show was really worth watching.",
 "Lyell.movies.6.during": "Lyell is on the edge of his seat.",   //Miracle At Coldstar Ranch
 "Lyell.movies.6.after": "Gus was right, I thoroughly enjoyed that picture show.$1",    
-
 "Lyell.movies.7.before": "This one is good, I could watch it again I think.$1",
 "Lyell.movies.7.during": "Lyell looks a little invested.",    //Zuzu City Express
 "Lyell.movies.7.after": "It could be better, but it's not a bad picture show at all.",
-
 "Lyell.movies.8.before": "I know this story, I've never seen it as a film though.$1",
 "Lyell.movies.8.during": "He looks deep in thought.",
 "Lyell.movies.8.after": "That was a very touching film, makes me miss home though.$2",
-/************************************************
-Roswell's Information
-************************************************/
-//Display Name
+"CT.Lyell.FC.GaveCoin": "",
+///Roswell's Information
 "FC.Roswell": "Roswell",
-//Gift Related Dialogue
 "AcceptGift_StardropTea.Roswell": "%Roswell sips from the offered cup. She seems to enjoy the tea.#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "AcceptBirthdayGift_Loved.Roswell": "Roswell doesn't know what a birthday is, but she loves the present.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "AcceptBirthdayGift_Liked.Roswell": "Roswell doesn't know what a birthday is, but she liked the present.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
@@ -1284,7 +1061,6 @@ Roswell's Information
 "Resort_Wander.Roswell":"%Roswell has a starfish between her teeth-Wait, she has teeth?#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Resort_Bar.Roswell": "%Roswell is damp, like someone spilled something on her...#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Resort.Roswell": "Roswell looks very content.#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-//Special Dialogue
 "DumpsterDiveComment.Roswell": "She looks at you with confusion, humans eat off plates? Not from cans? Right?$2#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "RejectBouquet_NotDatable.Roswell": "Roswell is not interested in dating a human, she's disgusted with you.$3#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "HitBySlingshot.Roswell": "Roswell cries out, she was surprised by your attack.$3#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
@@ -1294,116 +1070,87 @@ Roswell's Information
 "GreenRain_2.Roswell": "Roswell appears unsettled, she doesn't like this green rain.$2#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 //schedule dialogue 
 "Roswell.Sleep": "%She's sleeping soundly.#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-//Everyday Dialogue
 "Mon.Roswell.LowHeart.spring": "She squints at you, she's wondering what you want.$3#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Mon.Roswell.LowHeart.summer": "Roswell is feeling shy today, she skitters away anxiously.$2#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Mon.Roswell.LowHeart.fall": "Her gaze is bright with intelligent thought, what could she be plotting?$3#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Mon.Roswell.LowHeart.winter": "Why must you bother her? Roswell doesn't like strangers. She starts to feel unsettled.#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-
 "Tue.Roswell.LowHeart.spring": "Her feathers ruffle up, her feet scratch the ground and with a low growl she warns you to stay away!$3#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Tue.Roswell.LowHeart.summer": "There's a look to her gaze, Roswell has been lost in thought. She's conflicted and confused by you.$2#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Tue.Roswell.LowHeart.fall": "Roswell narrows her eyes but then drops something at your feet.[Fellowclown.PC_TropaFruit]#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Tue.Roswell.LowHeart.winter": "Roswell is ridged, but she nudges your leg gently anyway. She's curious about you.#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-
 "Wed.Roswell.LowHeart.spring": "Roswell chirps at you in warning, she doesn't want you to come closer. But, before she flees she drops something for you to have.[Fellowclown.PC_GaggleShrooms]#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Wed.Roswell.LowHeart.summer": "She looks up at you with wide eyes, Roswell look happier today.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Wed.Roswell.LowHeart.fall": "A brightness shines in her gaze, Roswell is so happy today. Something good must have happened recently for her.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Wed.Roswell.LowHeart.winter": "Roswell has a bit of white fur clinging to her feathers...#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-
 "Thu.Roswell.LowHeart.spring": "She's happily on her way, what crimes will she commit?$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Thu.Roswell.LowHeart.summer": "Roswell's bowtie has been freshly cleaned, she is feeling very snazzy.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Thu.Roswell.LowHeart.fall": "She's been preening her feathers, Roswell looks well groomed and ready for the day.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Thu.Roswell.LowHeart.winter": "Roswell glares at you, she seems to be in a bad mood. Clinging to her feathers is something sticky, what happened?$3#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-
 "Fri.Roswell.LowHeart.spring": "Roswell holds out her wing, is she greeting you? Or warning you?#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Fri.Roswell.LowHeart.summer": "Something wet and red is staining her feathers. Did she eat something, maybe a fruit?$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Fri.Roswell.LowHeart.fall": "There's something on her mind and by the look in her eye it's nothing good.$3#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Fri.Roswell.LowHeart.winter": "Roswell makes a loud, angry noise before pecking at your ankle.$3#$action spacechase0.SpaceCore_DamageCurrentFarmer 1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-
 "Sat.Roswell.LowHeart.spring": "She's not impressed today, in fact she downright agitated. She's tired of people bothering her...$3#$b#Yet, she craves the affection so badly.$2#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Sat.Roswell.LowHeart.summer": "Roswell doesn't quite understand what she is or what you are, all she knows is instinct.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Sat.Roswell.LowHeart.fall": "She's pretty happy today, her head seems to bounce with her walk, like she's nodding in agreement.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Sat.Roswell.LowHeart.winter": "She scratches at the ground, then she pecks at the spot she scratched. Once more she scratches then once she's done digging she walks away, leaving what she dug up for you take.[Fellowclown.PC_ArcaCoin]#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-
 "Sun.Roswell.LowHeart.spring": "Roswell sharply looks away, head held high and then she walks away without much interaction.$3#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Sun.Roswell.LowHeart.summer": "Roswell is pleased to see you today, even though she doesn't quite trust you yet.#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Sun.Roswell.LowHeart.fall": "She pecks at your leg, but not hard. She's more curious than aggressive.#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Sun.Roswell.LowHeart.winter": "Wonder why she's not home, how does she keep escaping the coop?$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-
 "Mon.Roswell.MidHeart.spring": "There is certainly a poshness to her composure. This animal is spoiled rotten, you can just tell.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Mon.Roswell.MidHeart.summer": "You wonder why Roswell wears a bowtie, but none of the other raptors do.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Mon.Roswell.MidHeart.fall": "She's interested in something buried in the ground.[Fellowclown.PC_ArcaCoin]#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Mon.Roswell.MidHeart.winter": "Roswell is thinking, what is she thinking of? Food? Violence? Tax fraud?$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-
 "Tue.Roswell.MidHeart.spring": "Roswell looks at you with wonder, she's becoming fond of seeing you around.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Tue.Roswell.MidHeart.summer": "Like a child seeing their hero, Roswell bounces and flaps with excitement. She's missed you!$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Tue.Roswell.MidHeart.fall": "Roswell wants to follow you, but she has things to do, dirt to scratch and fruit to nibble on.$2#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Tue.Roswell.MidHeart.winter": "You are her friend, this much is true.#$b#She loves you so much, right up to the moon.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-
 "Wed.Roswell.MidHeart.spring": "You light up her day, Roswell wonders where you go but she understands you probably have a coop of your own.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Wed.Roswell.MidHeart.summer": "Roswell shakes her body, her wings stretching out before she chirps sleepily. Her day has been so busy @, she needs to rest soon.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Wed.Roswell.MidHeart.fall": "You reach down and carefully pull off something that's stuck to her feathers.[Fellowclown.PC_LavaPop]#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Wed.Roswell.MidHeart.winter": "She smells like coffee today, why though?$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-
 "Thu.Roswell.MidHeart.spring": "Roswell bows her head, she respects you and sees you as an authority figure.#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Thu.Roswell.MidHeart.summer": "Roswell nudges your leg, she feels bad for being so mean in the beginning.$2#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Thu.Roswell.MidHeart.fall": "She's thinking of her babies, they're growing so fast. Becoming taller than her, she wonders why...Why isn't she as big as her own young?$2#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Thu.Roswell.MidHeart.winter": "Roswell looks tired...$2#$b#Little Roswell what's wrong?#$b#But she can't answer, but she wants to.$2#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-
 "Fri.Roswell.MidHeart.spring": "Roswell has been freshly cleaned, her feathers are so shiny and fresh!$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Fri.Roswell.MidHeart.summer": "She preens you, nibbling at your legs as if they were covered in feathers.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Fri.Roswell.MidHeart.fall": "You give Roswell many scratches and pats, she's so happy to be loved.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Fri.Roswell.MidHeart.winter": "There's white strands of fur stuck to her body and she looks like she just woke up.#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-
 "Sat.Roswell.MidHeart.spring": "Roswell wants to show you something special.[Fellowclown.PC_FemaleWarrior]#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Sat.Roswell.MidHeart.summer": "Roswell has something in her beak, you go to take it from her but she gobbles it up before you can.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Sat.Roswell.MidHeart.fall": "She makes a sound, it sounds like one a dinosaur would make.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Sat.Roswell.MidHeart.winter": "Roswell wants to show you something special.[Fellowclown.PC_MaleWarrior]#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-
 "Sun.Roswell.MidHeart.spring": "You notice that Roswell has teeth. But unlike a normal bird, they stick out like a croc...Is that normal?$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Sun.Roswell.MidHeart.summer": "She bounces as she walks, Roswell has somewhere exciting to be.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Sun.Roswell.MidHeart.fall": "Roswell wants to show you something important...She looks so sad...[Fellowclown.PC_ElizabethsRing]#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Sun.Roswell.MidHeart.winter": "Roswell has something for you, but she doesn't want to let it go just yet. She has a tight hold on it with her beak.#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-
-//Festival Dialogue
 "Roswell.GreenRain": "She's shivering, Roswell is scared of storms.$2#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-// text shown if nothing else matches
 "Roswell.festival-default": "She's excited, everyone’s happiness has brightened her mood.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor", // TODO
-// egg festival
 "Roswell.spring13.unmet": "Roswell is waiting patiently, she's excited for the hunt.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Roswell.spring13.friendly": "Roswell nudges your leg, she is happy you came.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-// flower festival
 "FlowerDance_Accept.Roswell": "Roswell accepts, she would love to dance. Even if Lewis has forbidden her to.#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "FlowerDance_Decline.Roswell": "Roswell fluffs up in warning, she doesn't want to dance with you.$3#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Roswell.spring24.unmet": "She wishes she could dance too...$2#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Roswell.spring24.friendly": "Roswell is in high spirits, she hopes you are too $1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-// luau
 "Roswell.summer11.unmet": "Roswell is staring at the pot from where she sits. She looks hungry.$6#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Roswell.summer11.friendly": "She hopes you eat with her and Lyell.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-// jellies
 "Roswell.summer28.unmet": "Roswell has jumped into the water, she's happy now.#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Roswell.summer28.friendly": "Roswell loves to swim with the jellies, they're a tasty snack.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 // Marketpalooza
 "Roswell.fall3": "She's uninterested in you #$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Roswell.fall3.friendly": "Roswell is content, she has a bit of honey in her beak.#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-// fair
 "Roswell.fall16.unmet": "Roswell is there for pets, she wants them dang it!$3#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Roswell.fall16.friendly": "You give Roswell many pats.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-// spirit's eve
 "Roswell.fall27": "Wonder if she wore her outfit willing?$3#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Roswell.fall27.friendly": "She makes a cute little red riding hood.#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-// festival of ice
 "Roswell.winter8.unmet": "She wants a fish but Lyell has told her to sit.#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Roswell.winter8.friendly": "Roswell eyes the fishing bin.$3#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-// winter star
 "Roswell.winter25.unmet": "Boxy is her friend, she's there to protect him.$3#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
 "Roswell.winter25.friendly": "Roswell preens at her feathers.$1#$action spacechase0.SpaceCore_PlaySound Fellowclown.PC_Movoraptor",
-/************************************************
-Grady's Information
-************************************************/
-//Display Name
+///Grady's Information
 "FC.Grady": "Grady",
-//Gift Related Dialogue
 "AcceptGift_StardropTea.Grady": "Well, ain't that sweet of you! Just needs a bit of sugar.$1",
 "AcceptBirthdayGift_Loved.Grady": "Oh hell, how'd you know it was my birthday?$1#$b#Thanks so much, this is great.$6",
 "AcceptBirthdayGift_Liked.Grady": "Aw, ain't that just the sweetest, you know it's my birthday right?$1#$b#Thank you very much friend.$1",
@@ -1415,7 +1162,6 @@ Grady's Information
 "Grady.gift.dislike": "Erm, well we can't all be good at gift giving. I know I'm not.$6",
 "Grady.gift.hate": "You know, now I think you're trying to bully me here.$6",
 "Grady.gift.neutral": "I think I can use this actually, thank you friend.$1",
-//Special Dialogue
 "Introduction.Grady": "Howdy! I remember you, it's good to see you around again.$1",
 "Resort_Entering.Grady": "This is a real dandy place ain't it?",
 "Resort_Leaving.Grady": "I would love to stick around, but I got things I need to attend to. Lots of business.$1",
@@ -1454,7 +1200,6 @@ Grady's Information
 "GreenRain.Grady": "Gods above, this rain is terrible...It looks toxic.$2",
 "GreenRain_2.Grady": "I saw Lyell outside working in this rain, the man is absolutely insane going out in this.$2#$b#I mean it's green...$7",
 "movieTheater.Grady": "The new theater looks snazzy don't it? I can't wait to go see a movie.$1",
-//Everyday Dialogue
 "Mon.Grady.LowHeart.spring": "Today's the day, I gotta head over to Calico and talk to a shady man about an artifact.$1",
 "Mon.Grady.LowHeart.summer": "Life is interesting ain't it? One moment you're digging up human remains the next you're reassembling an ancient vase.#$b#Gotta love it though, this area is ripe with ancient history!$1",
 "Mon.Grady.LowHeart.fall": "Is it okay to have a hero that is actually much younger then you?$6#$b#I mean, M. Jasper is just an amazing researcher, I really admire him.$4",
@@ -1519,7 +1264,6 @@ Grady's Information
 "Saloon.Grady.MidHeart.summer": "Oh hey, cool beans. I was actually hoping to see you around here today.#$b#I was snooping around your property, looking for mixed seeds for that girl Valerie, and I wanted to say how great your farm is looking so far.#$b#I can tell you've been working hard over there.$3",
 "Saloon.Grady.MidHeart.fall": "I love Spirit's Eve, mostly the candy but also I love making Lyell dress in funny outfits.$1",
 "Saloon.Grady.MidHeart.winter": "Heey! Glad to see you around, always a delight talking to you, cowpoke.$1",
-//Festival Dialogue
 "Grady.NightMarket": "You should buy something from Lyell and maybe that traveler with the pig.$1#$b3Neat stuff.$1",
 "Grady.GreenRain": "There's historical documentation of green rainstorms. But I never thought I would see it.$1",
 "Grady.DesertFestival": "I can't help but love this gathering, it's so culturally rich in Calico.$1",
@@ -1527,80 +1271,56 @@ Grady's Information
 "Grady.SquidFest": "Look I need your help, don't let Lyell jump into the water. He's driving me crazy, he keeps wanting to jump in with a net!$7",
 "Grady.Sleep": "%He's snoring loudly.",
 "Grady.Work": "%Grady is deep in thought.",
-// text shown if nothing else matches
 "Grady.festival-default": "These festivals are so crowded these days, but it's real fun regardless.$1", // TODO
-// egg festival
 "Grady.spring13.unmet": "Personally, I hate the taste of eggs.$7",
 "Grady.spring13.friendly": "I don't think eating boiled eggs off the ground is very hygienic…$7",
-// flower festival
 "Grady.spring24.unmet": "Such a charming dance, ain't it?#$b#I love seeing the kids so happy.",
 "Grady.spring24.friendly": "I'd love to dance, but I don't know if the person I would ask would say yes...$6",
-// luau
 "Grady.summer11.unmet": "Hey there @, wanna join me and Lyell? We're embarrassing the kids on purpose.$1",
 "Grady.summer11.friendly": "I always wondered how they keep the soup tasting decent but I have a feeling there's magic afoot.$1",
-// jellies
 "Grady.summer28.unmet": "Don't be a brat Lyell, you can't swim with the jellyfish.$7",
 "Grady.summer28.friendly": "Lyell, no don't you dare, jellyfish can sting you remember?$6",
-// Marketpalooza 
 "Grady.fall3.unmet": "I am going to get so fat because of all these festivals, the food is just perfect.$1",
 "Grady.fall3.friendly": "Have you tried that mega wrap? Have mercy on me gods, it was way too good.$1",
-// fair
 "Grady.fall16.unmet": "The cute little bunnies are sort of mean, I got bit pretty hard.$7",
 "Grady.fall16.friendly": "Will I gamble or will I prove my manliness with the strength game? Hmmm.$7",
-// spirit's eve
 "Grady.fall27.unmet": "I figured I may as well dress my age.$1",
 "Grady.fall27.friendly": "You see, Lyell he matches me.$1",
-// festival of ice
 "Grady.winter8.unmet": "I would like to join the fishing event, but you know, competitive fishing makes zero sense to me.$7",
 "Grady.winter8.friendly": "I'm gonna hit George with a snowball, just you watch.$1",
-// winter star
 "Grady.winter25.unmet": "Hey there! Happy holidays, hope you enjoy the celebration!$1",
 "Grady.winter25.friendly": "I actually like fruit cake, I don't know why people don't.$7",
-//Incoming Calls
 "Grady.PhoneCall.1": "Hey, just calling to let you know, I saw a shadow brute sneaking through your farm's entrance. Be careful alright, I know some of them are kind but...Well anyway, talk to you later scrub!$1",
 "Grady.PhoneCall.2": "@! Sorry to call out of the blue but I wanted to tell you how amazing your farm is looking. I may have peaked in today.$6#$b#Keep up the good work!$1",
-//Movies
 "Grady.movies.0.before": "Isn't this a children’s movie?...#$b#Count me in! I love cartoons.$1", 
 "Grady.movies.0.during": "Poor critter, since when do cartoons have plots...$2",   //sapling
 "Grady.movies.0.after": "That was real good, real sad though but I liked the happy ending.$1",
-
 "Grady.movies.1.before": "There's new natural wonders playing! I'm so excited I love those movies!$1", 
 "Grady.movies.1.during": "Just a little dude! Look at him!$1",   //Natural Wonders
 "Grady.movies.1.after": "That was great, I would love to watch the other ones now.$1",
-
 "Grady.movies.2.before": "Lyell loves cowboy stuff, man has the heart of a real redneck honestly.$1",
 "Grady.movies.2.during": "That man...Why is he sort of cute?$7",   //Prairie King
 "Grady.movies.2.after": "That was a good one, I liked the part where the villain comes in.$1",
-
 "Grady.movies.3.before": "Hm, don’t know about it but let’s give the movie a shot!$1",
 "Grady.movies.3.during": "He looks completely enthralled.",   //Wumbus
 "Grady.movies.3.after": "That movie was engrossing, but I don't know what I watched...$6",
-
 "Grady.movies.4.before": "Ooh, one of those experimental movies? Hope it's really interesting.$1",
 "Grady.movies.4.during": "He's watching with wide eyes.",   //Mysterium
 "Grady.movies.4.after": "Okay, maybe it was too interesting, I have some questions for the writer.$1",
-
 "Grady.movies.5.before": "A good horror movie is always great, I look forward to getting scared.$1",
 "Grady.movies.5.during": "He looks bored.",  //It Howls In The Rain
 "Grady.movies.5.after": "Why, that wasn't scary at all.$2",
-
 "Grady.movies.6.before": "I love holiday movies! They're always so cute and heart warming.$1",
 "Grady.movies.6.during": "Grady looks surprised and maybe even disturbed?",   //Miracle At Coldstar Ranch
 "Grady.movies.6.after": "It was a wonderful movie, but Yoba was is a sad one.$2",    
-
 "Grady.movies.7.before": "Romance? What am I a teenager?$7",
 "Grady.movies.7.during": "Grady is softly snoring.",    //Zuzu City Express
 "Grady.movies.7.after": "I uh, I think I took a power nap in there. Wasn't the most engaging movie if I'm honest.$6",
-
 "Grady.movies.8.before": "Oh! I know this story, I wonder how much detail the producers managed to fit into the showing!$1",
 "Grady.movies.8.during": "He looks disappointed.",
 "Grady.movies.8.after": "It was a good film, but it was so simplified compared to the original tale.$2",
-/************************************************
-Valerie's Information
-************************************************/
-//Display Name
+///Valerie's Information
 "FC.Valerie": "Valerie",
-//Gift Related Dialogue
 "AcceptGift_StardropTea.Valerie": "Wow, this is so good. What's it called?$1",
 "AcceptBirthdayGift_Loved.Valerie": "Wow, I haven't gotten a birthday present in years. Thank you!$1",
 "AcceptBirthdayGift_Liked.Valerie": "This is pretty wonderful, thank you. I didn't think anyone would remember my birthday.$1",
@@ -1636,7 +1356,6 @@ Valerie's Information
 "RejectGift_Divorced.Valerie": "Don't bother with that, you can keep it.$2",
 "SpouseGiftJealous.Valerie": "I'm totally not jealous that someone else got a present, not at all.$1#$b#Okay maybe a little bit, but it's not a huge deal.$1",
 "MovieInvitation.Valerie": "I would love to, it's been a while since I've been to the movies!$1",
-//Special Dialogue
 "Introduction.Valerie": "Oh hello, I'm Valerie.#$b#I don't have time to chat really, but maybe later.$1#$e#I'm sorry but I really am busy.$2#$e#Listen, please stop bothering me.$5",
 "danceRejection.Valerie": "Oh jeez, listen I'm not really interested in dancing.$2",
 "divorced.Valerie.1": "Why are you talking to me?$5#$e#I honestly don't care about what you have to say @.$5#$e#Back off okay, I don't wanna talk.#$e#I...$2#$b#Can't you see how much you're hurting me?$2",
@@ -1689,14 +1408,12 @@ Valerie's Information
 "GreenRainFinished.Valerie": "Aw, the green rain stopped...$3#$b#It was so pretty while it lasted.$1",
 "GreenRain.Valerie": "I hear people are gathering at the saloon, wonder how many people think the world's ending.$3",
 "GreenRain_2.Valerie": "I've read about green rain in old books, apparently it's occurrence is very rare.$1",
-//schedule dialogue
 "Valerie.CastMagic":"%She's chanting rhythmically.",
 "Valerie.GreenRain": "I need to get outside and collect some of that fresh green rain.$1",
 "Valerie.DesertFestival": "The cook here, I don't trust him. He looks like a serial killer...$3",
 "Valerie.TroutDerby": "I want to try the derby thing out, but I just know I'll bust my ass somehow.$1",
 "Valerie.SquidFest": "Mom wants me to buy a squid, she's going to buy one too?$2#$b#I mean, I guess it's quite a compliment, how much she loves my cooking.$1",
 "Valerie.Sleeping": "%She's snoring softly.",
-//Everyday Dialogue
 "Mon.Valerie.LowHeart.spring": "For the elemental arts, spring is one of the most powerful seasons.#$b#There's something about spring that when channeled correctly can really increase your abilities.#$e#I don't specialize in the elements though, I prefer more unconventional practices.$1#$e#Alan is the element expert in the family.$2#$b#He's always been really good at it too.$1",
 "Mon.Valerie.LowHeart.summer": "With how skittish the towns people are around Alan I'm not surprised they haven't warmed up to me.$2#$e#It's sad really, I wish people weren't so scared of magic users.$2#$b#But I suppose I don't blame them in the end.#$e#Still though, it gets lonely.$2#$b#Alan is great though, he's one of my best friends as well as my little brother.$1",
 "Mon.Valerie.LowHeart.fall": "The valley has quite a bit of spiritual energy.#$b#I go to bed everyday restless because of it.$2#$e#But this is a good thing for me, spiritual energy is just what I'm interested in.$1#$e#Huh?#$b#Oh well, I'm not at liberty to go into too much detail, but the magic I dabble in is of the spiritual sort.$3",
@@ -1793,10 +1510,8 @@ Valerie's Information
 "Saloon.Valerie.HighHeart.summer": "Have I asked Alan if he can turn me into a mermaid? Yes I have, but he refused to when we were children so most likely he still would say no.$1",
 "Saloon.Valerie.HighHeart.fall": "The urge to grab and tickle the closest person to me is very strong...But I must resist, because being tickled is terrible.$1#$b#Plus, it's probably just the amount of beer I've had...$1",
 "Saloon.Valerie.HighHeart.winter": "My mother woke up on the wrong side of the bed, she's been a total asshole all morning.$5#$b#I know she means well, usually, but she treats me like a child even on her good days.$5",
-//Engagement Dialogue 
 "Valerie.engagement.0": "You really want to? Of course I will! The answer is yes!$4",
 "Valerie.engagement.1": "I was going to ask you!$3#$b#You beat me to it, of course I'll marry you.",
-//Marriage Dialogue 
 "patio_Valerie": "I never thought I'd be living the farm life.$1#$e#I'm not unhappy though, it's very peaceful.",
 "spouseRoom_Valerie": "Don't worry I won't make you drink anything this time.$1#$e#I'm trying to make a potion, hoping to increase my focus.$1",
 "Rainy_Day_0.Valerie": "It's storming pretty hard outside.#$b#Be safe and wear a coat okay?$1",
@@ -1865,9 +1580,6 @@ Valerie's Information
 "Bad_6.Valerie": "Look I don't want to fight with you, can we just enjoy each other in silence tonight?$5",
 "Bad_7.Valerie": "I was happy living with my mother.$2",
 "Bad_8.Valerie": "I feel like you've tricked me, you're nothing like I thought you were.$2",
-//Festival Dialogue
-
-// text shown if nothing else matches
 "Valerie.festival-default": "I love these little festivals, they're so cute.$1", // TODO
     // egg festival
 "Valerie.spring13.unmet": "I cracked a raw egg on my brother’s head this morning.$1#$b#Figured we had to celebrate together some way right?$1",
@@ -1923,12 +1635,9 @@ Valerie's Information
 "Valerie.winter25.dating": "Hey sweetheart, I wasn't sure what to get you so I got you this.$4[###]",
 "Valerie.winter25.spouse": "Hey honey, I got this for you.[###]",
 "Valerie.winter25.divorced": "Why don't you just leave me alone!$5",
-//Passive Festivals
 "Valerie.Nightmarket.A": "I've been looking everywhere for a Riverbed Jellyfish, I just need one so badly for a project I'm working on.",
-//Incoming Calls
 "Valerie.PhoneCall.1": "Listen, if my mom calls about her recipes, just tell her you've no idea, okay.#$b#She doesn't need to know I borrowed them.$2#$b#Oh shoot!$3#$b#She's home.$#",
 "Valerie.PhoneCall.2": "Keep an eye out for jellies.$3#$b#Even if they're dead they can sting you, but if you come by one please consider selling it to me okay?#$b#Alright I'll talk with you later. Bye bye.$1",
-//Movies
 "Valerie.movies.0.before": "I'm really looking forward to this.#$e#It'll be really nice watching with you.",
 "Valerie.movies.0.during": "Valerie seems enthralled by the movie...",
 "Valerie.movies.0.after": "That movie was really great, I wish I could see it again.$1",
@@ -1954,16 +1663,11 @@ Valerie's Information
 "Valerie.movies.7.during": "This doesn't look like my kind of movie...$2",
 "Valerie.movies.7.during": "She looks thoughtful.",
 "Valerie.movies.7.after": "I'm actually surprised, it wasn't all that bad.$1",
-
 "Valerie.movies.8.before": "This one looks interesting, wonder what it's about.",
 "Valerie.movies.8.during": "She's paying close attention.",
 "Valerie.movies.8.after": "I recall hearing about Arah in Tuuwe, the people of Arcania worship differently now but it was interesting learning more about the ancient beliefs they had.$1",
-/************************************************
-Dezerie's Information
-************************************************/
-//Display Name
+///Dezerie's Information
 "FC.Dezerie": "Dezerie",
-//Gift Related Dialogue
 "AcceptGift_StardropTea.Dezerie": "Oh how wonderful, I love this tea.$1",
 "AcceptBirthdayGift_Loved.Dezerie": "This meets my expectations, thank you @. This will be a lovely birthday for me this year.$1",
 "AcceptBirthdayGift_Liked.Dezerie": "How...Adequate. It is sweet of you to remember my birthday.$1",
@@ -1979,7 +1683,6 @@ Dezerie's Information
 "RejectMovieTicket_AlreadyWatchedThisWeek.Dezerie": "We’ve spent time together already, I have other duties to attend to.",
 "RejectMovieTicket_DontWantToSeeThatMovie.Dezerie": "I would, but that movie is horrendously terrible, so no.",
 "MovieInvitation.Dezerie": "Hm, I do have time. I will be happy to join you.$1",
-//Special Dialogue
 "Introduction.Dezerie": "Hm? Oh it’s you, we met in the saloon remember?#$b#It’s @ right? I’m Dezerie, in case you forgot.$1",
 "Resort_Entering.Dezerie": "The sun feels very nice, sometimes I forget how much I love the heat of it.$1",
 "Resort_Leaving.Dezerie": "I could stay forever, but I have to go home…There are things I must attend to.$2",
@@ -2024,7 +1727,6 @@ Dezerie's Information
 "Dezerie.TroutDerby": "Trout Derby...Alan dragged me out for a fish festival?$2",
 "Dezerie.SquidFest": "I'm only here to buy a squid off someone, Valerie can fry up some amazing squid dishes.$2",
 "Dezerie.Sleeping": "%Dezerie looks mad even while she is sleeping.",
-//Everyday Dialogue
 "Mon.Dezerie.LowHeart.spring": "Valerie, she studies the afterlife, where all things that pass reside.$3#$b#It's a very unstable spiritual plane.#$e#In other words, if you're going to play with her don't say you didn't know about the risk.$2",
 "Mon.Dezerie.LowHeart.summer": "This little town is quaint.#$b#I lived here years ago in a house boat.",
 "Mon.Dezerie.LowHeart.fall": "I do not go out to socialize often.#$b#If I need anything I just have Valerie go get it.#$e#She's happy too I'm sure.",
@@ -2089,43 +1791,28 @@ Dezerie's Information
 "Saloon.Dezerie.MidHeart.summer": "I've never been good at cooking, I can mix tonics and potions just fine. But get me to fry an egg and you may as well eat charcoal for breakfast.#$b#Luckily my children understand this, Valerie has been cooking the meals. She's excellent at it.$1",
 "Saloon.Dezerie.MidHeart.fall": "I feel so jealous sometimes, I'd love to have a beer like everyone else.#$b#My body just won't allow it though.",
 "Saloon.Dezerie.MidHeart.winter": "Do you think Lewis would like a drink? Maybe I could talk him into joining.$4",
-//Festival Dialogue
-
-// text shown if nothing else matches
 "Dezerie.festival-default": "Why do I let my kids talk me into coming to these celebrations...$2", // TODO
-// egg festival
 "Dezerie.spring13.unmet": "Abigail and yourself should not be joining the egg hunt, that is for young children.$5",
 "Dezerie.spring13.friendly": "Good luck, but please leave something for those kids.$2",
-// flower festival
 "Dezerie.spring24.unmet": "Everyone is so pretty, have you seen Valerie? She cleans up so well, you should go talk to her.$1",
 "Dezerie.spring24.friendly": "I love this festival, it's very charming.$1",
-// luau
 "Dezerie.summer11.unmet": "What a horrible idea, this soup with be terrible!#$b#I'll sneak in something that will make it taste good no matter what's inside it...$3",
 "Dezerie.summer11.friendly": "I'm ready with what I'll be adding...Yes, it's the same thing as last year.$1",
-// jellies
 "Dezerie.summer28.unmet": "The jellyfish are beautiful, I actually am looking forward to seeing them.",
 "Dezerie.summer28.friendly": "Would you like to watch the jellyfish pass by with me? I do enjoy good company after all.$1",
-// Marketpalooza 
 "Dezerie.fall3.unmet": "This event is adequate. I'm happy to see Nikolai applying himself, instead of goofing around all the time.$1",
 "Dezerie.fall3.friendly": "I do hope you win the raffle, I won before and it was quite entertaining.$1",
-// fair
 "Dezerie.fall16.unmet": "This is horrendous, it smells like cows and the food is atrocious.$5",
 "Dezerie.fall16.friendly": "At least Lewis is here, he's always such lovely company.$4",
-// spirit's eve
 "Dezerie.fall27": "Ah Spirit’s Eve, such a silly holiday for something so serious.#$b#Spirit’s Eve celebrates the power of spiritual entities and whatever else goes bump in the night.$1",
 "Dezerie.fall27.friendly": "I raised my children to eat healthily, but I doubt they will stick to those lessons tonight.$5",
-// festival of ice
 "Dezerie.winter8.unmet": "Fish are nasty little creatures.#$e#I rather they be left in the water but this town loves their ice festival.",
 "Dezerie.winter8.friendly": "Do enjoy the festival, I won't but at least I can find good company.$1",
-// winter star
 "Dezerie.winter25.unmet": "The Winter Star festival was taken and changed from a different culture you know.#$e#I still like the holiday but it makes you think.$2",
 "Dezerie.winter25.friendly": "The gatherings in this town are odd...#$b#But cute as well.",
-//Passive Festivals
 "Dezerie.Nightmarket.A": "This is dull...$2",
-//Incoming Calls
 "Dezerie.PhoneCall.1": "Yes hello? I was noticing that a large amount of my recipes have gone missing, you wouldn't know who has them would you? No? Well, if you find out, call me. Goodbye.$2",
 "Dezerie.PhoneCall.2": "You've been dabbling in magic, I heard from Rasmodius. I wanted to wish you luck in your studies.$1#$b#So good luck and goodbye for now.$1",
-//Movies
 "Dezerie.movies.0.before": "It was rather kind of you to invite me.#$b#Hopefully the movie is decent.$1",
 "Dezerie.movies.0.during": "There's a glint of interest in her eyes.",
 "Dezerie.movies.0.after": "That was...Actually good enough.#$e#Thank you for bringing me.$1",
@@ -2154,12 +1841,8 @@ Dezerie's Information
 "Dezerie.movies.8.during": "She appears perplexed.",
 "Dezerie.movies.8.after": "I don't really understand the beliefs of other countries, but I do find them interesting...It was a decent film, if not a little boring.$2",
 "Dezerie.NightMarket": "It's nice to see Valerie applying herself to something safer...Maybe she could make a career out of selling special drinks.$1",
-/************************************************
-Alan's Information ///Written By Chirps
-************************************************/
-//Display Name
+///Alan's Information
 "FC.Alan": "Alan",
-//Gift Related Dialogue
 "AcceptGift_StardropTea.Alan": "After my heart @?$4#$b#I'm just kidding, thanks for the tea.$1",
 "AcceptBirthdayGift_Loved.Alan": "Oh, this is perfect!$1#$b#I can't thank you enough, @. I'll have to return the favor - wait, when IS your birthday?$5",
 "AcceptBirthdayGift_Liked.Alan": "Oooh. Just what I needed. Thanks pal!$1",
@@ -2177,7 +1860,6 @@ Alan's Information ///Written By Chirps
 "RejectMovieTicket_AlreadyWatchedThisWeek.Alan": "Oh, no thanks. I just, need some down time I think.$1",
 "RejectMovieTicket_DontWantToSeeThatMovie.Alan": "Oh-oh, look I just...Not to be rude, I just don't like the movie that's playing.$2",
 "MovieInvitation.Alan": "Oh, I would really like that actually. I'll meet you there.$2",
-//Special Dialogue
 "Introduction.Alan": "O-oh. Hey there. You're the new farmer, aren't you? What's your name?#$b#@, right? I'm Alan. I'll, uh, catch you later.$1",
 "Resort_Entering.Alan": "This beach has a lifeguard on duty, right?$5",
 "Resort_Leaving.Alan": "I can literally feel my skin peeling like an onion. I need a shower.$3",
@@ -2213,8 +1895,6 @@ Alan's Information ///Written By Chirps
 "GreenRainFinished.Alan": "Finally the rain has stopped, I hope everyone in town is okay.$2",
 "GreenRain.Alan": "The rain is really coming down, I wonder how the rest of town is handling this green down pour.$5",
 "GreenRain_2.Alan": "Oh wow, green rain is really rare.#$b#Maybe I could collect some.$1",
-//schedule dialogue
-//Schedules Dialogue
 "Alan.Working": "Oh, I'm just...Fiddling with a gadget, that's all...Just for fun.$4",
 "Alan.BeeNursery.00":"Nikolai really knows a lot about bees, he loves them more then I do.$1#$b#And I can talk to them!$1",
 "Alan.BeeNursery.01":"I don't really help when I come to visit, Nikolai is a bit protective of his bees. But he likes it when I keep him company at least.$1",
@@ -2226,7 +1906,6 @@ Alan's Information ///Written By Chirps
 "Alan.DesertFestival": "I'm staying far from that cave, the sounds that come from are terrible!$2",
 "Alan.TroutDerby": "This town has such interesting gatherings, I love it though.$1",
 "Alan.SquidFest": "I feel bad for the squid, they're just chilling...$2",
-//Everyday Dialogue
 "Mon.Alan.LowHeart.spring": "The weather really is nice this time of the year. Perfect for gathering supplies without breaking a sweat.",
 "Mon.Alan.LowHeart.summer":"%Alan is muttering to himself about something called 'structural engineering theory.'",
 "Mon.Alan.LowHeart.fall":"%He seems to be preoccupied..",
@@ -2295,82 +1974,57 @@ Alan's Information ///Written By Chirps
 "Saloon.Alan.MidHeart.summer": "I swear I can smell maple syrup somewhere.$5#$b#Hmm? Why’s that an issue? Don’t worry about it.$2",
 "Saloon.Alan.MidHeart.fall": "This is the best time of year to tinker around with the forge…$2#$b#I wish my mother would approve. I can’t pick up the tongs without seeing her face in my head.$2.#$e#Things used to be simpler.",
 "Saloon.Alan.MidHeart.winter": "Winter always makes me feel nostalgic, and a bit lonely.$2.#$b#But lately, I’m starting to think…#$b#It’ll be easier with a friend like you around$1",
-//Festival Dialogue
-// text shown if nothing else matches
 "Alan.festival-default": "This is pretty fun actually.$1", // TODO
-// egg festival
 "Alan.spring13.unmet": "I’m Alan, nice to meet you. Bet unpacking was rough, hunh?#$b#You going to join in on the festivities?",
 "Alan.spring13.friendly": "I hope Jingles doesn't rehome the missing eggs this year.$1",
-// flower festival
 "Alan.spring24.unmet": "Oh, you're the new farmer, r-right? You should grab some punch. I'm Alan, by the way.",
 "Alan.spring24.friendly": "Oh-oh. He-hey. I'm us-using my two left feet as an excuse to stay in the sidelines.",
-// luau
 "Alan.summer11": "Oh hey there, I'm Alan, Hope you enjoy the festival new comer.$1",
 "Alan.summer11.friendly": "This is pretty great, even if the crowd is a little jarring.$1",
-// jellies
 "Alan.summer28.unmet": "@, right? I've seen you around before. I'm Alan! Beautiful, isn't it?$1",
 "Alan.summer28.friendly": "It's… beautiful. I can hear their voices. They're singing as they float along without a care.$1",
-// Marketpalooza
 "Alan.fall3.unmet": "Wait, are you @? I’m Alan. Fancy meeting you here. Nikolai’s honey is to die for!$1",
 "Alan.fall3.friendly": "Think I can sneak past the crowd to get some honey? I don’t do too well with crowds, but sometimes you gotta make sacrifices.$5",
-// fair
 "Alan.fall16.unmet": "You're @, right? From %farm farm? I'm Alan! Guess I get to see what all the buzz is about.$1",
 "Alan.fall16.friendly": "Ohoho! I love seeing all the displays.$1#$e…Even if Willy's stall is a little… Too fresh.$2",
-// spirit's eve
 "Alan.fall27.unmet": "Eep!...That's not funny. You can't introduce yourself today.#$b#@, right? I'm Alan… And I need a heart check.$5",
 "Alan.fall27.friendly": "This was all fun and games…Until the skeletons arrived.$2",
-// festival of ice
 "Alan.winter8.unmet": "%Alan nearly slips on ice reaching forward to introduce himself.#$b#Oh Yoba, that was close! I'm A-Alan. Nice to meet you, @.$5",
 "Alan.winter8.friendly": "This festival makes me thankful I can't hear fish.$5",
-// winter star
 "Alan.winter25.unmet": "It feels fitting meeting new people today. @, right? I'm Alan.",
 "Alan.winter25.friendly": "I might grumble about them…But I truly am thankful for my family.$1#$b#And for friends like you, obviously!",
-//Incoming Calls
 "Alan.PhoneCall.1": "I'm slowly figuring out how to synthesize a new iron allotrope with alchemy.$1#$b#I'm trying to make an inexpensive memory metal that can repair itself.#$b#I'll let you know if I manage it, expect a call from me.$1",
 "Alan.PhoneCall.2": "I showed mom a new prototype mortar and pestle I invented to make curry paste with less hassle using quartz.#$b#Turns out the quartz crystal frequency harmonizes with elixir ingredients really well. She was positively beaming!$1#$b#If you want to test it for yourself, let me know.$1#$b#Have to get going for now, talk to you later @.$1",
-//Movies
 "Alan.movies.0.before": "This movie looks very wholesome, I hope it is too.$1",
 "Alan.movies.0.during": "Alan looks distressed.", //Brave Little Sapling
 "Alan.movies.0.after": "That was way more intense then I expected.$5",
-
 "Alan.movies.1.before": "I do love a good nature documentary.$1",
 "Alan.movies.1.during": "He looks invested.", //Natural Wonders
 "Alan.movies.1.after": "That was great, I love that little racoon shot the filmers got.$1",
-
 "Alan.movies.2.before": "I love the video games, really hoping the movie is just as good!$1",
 "Alan.movies.2.during": "Whoa, that dude looks just like the baddie in the game!$1",//Prairie King
 "Alan.movies.2.after": "I would love to watch that again, we should come back for a round two sometime.$1",
-
 "Alan.movies.3.before": "I don't know what this movie is about, but it looks pretty interesting.$1",
 "Alan.movies.3.during": "I feel like, this might be one of those experimental movies?$2",//Wumbus
 "Alan.movies.3.after": "That was definitely experimental, but I did like it!$1",
-
 "Alan.movies.4.before": "The poster looked really unnerving. You're not taking me to see a scary movie are you?$5",
 "Alan.movies.4.during": "Alan looks uncomfortable.",//Mysterium
 "Alan.movies.4.after": "That wasn't a good watch, I really disliked it...$5",
-
 "Alan.movies.5.before": "I don't know about this, I really don't like scary movies. They give me pretty intense night terrors...$5",
 "Alan.movies.5.during": "He's covering his face in terror.",//It Howls In The Rain
 "Alan.movies.5.after": "Never again, I never wanna see that movie again.",
-
 "Alan.movies.6.before": "I love the history behind the winter star story, so maybe I'll like this movie too.$1",
 "Alan.movies.6.during": "Alan looks a bit sleepy.",//Miracle At Coldstar Ranch
 "Alan.movies.6.after": "It was okay, not really accurate to history but I can appreciate a wholesome story.$1",
-
 "Alan.movies.7.before": "A romance movie? This isn't a date right?$5",
 "Alan.movies.7.during": "Alan's face is bright red.", //Zuzu City Express
 "Alan.movies.7.after": "That was...Erm, a good movie...I think.$5",
-
 "Alan.movies.8.before": "I hope this isn't scary, I don't like horror movies.$2",
 "Alan.movies.8.during": "Alan's eyes are tearing up.",
 "Alan.movies.8.after": "That was weirdly a very sad story...$2",
 "Alan.NightMarket": "Wonder if jingles likes honey.$1#$b#Maybe I can buy her jar.$1",
-/************************************************
-Cotton
-************************************************/
-//Display Name
+//Cotton
 "FC.Cotton": "Cotton",
-//Gift Related Dialogue
 "AcceptGift_StardropTea.Cotton": "Oh....$2#$b#This is really nice, thanks...I guess.$3",
 "AcceptBirthdayGift_Loved.Cotton": "You remembered my birthday?$3#$b#No one does that.$1",
 "AcceptBirthdayGift_Liked.Cotton": "Oh, this is pretty good actually...Erm, did you know it's my birthday today or something?$2",
@@ -2401,7 +2055,6 @@ Cotton
 "RejectGift_Divorced.Cotton": "No, but here you can have this.$5[168]",
 "SpouseGiftJealous.Cotton": "I know it's a normal human thing to give gifts to each other, so I'll let your little friendly displays slide.#$action spacechase0.SpaceCore_PlaySound grunt",
 "MovieInvitation.Cotton": "Hm...I guess I could just keep my hood up and my head down.#$b#Sure I'll go.$1",
-//Special Dialogue
 "divorced.Cotton.1": "If I could marry anyone again, you'd be the option I choose if there were no other options left.#$action spacechase0.SpaceCore_PlaySound grunt",
 "divorced.Cotton.2": "I'm not even close to kidding, do not talk to me.$5#$action spacechase0.SpaceCore_PlaySound grunt",
 "divorced.Cotton.3": "%He glares at you.#$action spacechase0.SpaceCore_PlaySound grunt",
@@ -2420,7 +2073,6 @@ Cotton
 "GreenRainFinished.Cotton": "Aw man, the rain stopped...#$action spacechase0.SpaceCore_PlaySound grunt",
 "GreenRain.Cotton": "Isn't it beautiful...The rain I mean, I love the rain.$1#$b#The only time I feel calm is on rainy days, even when it's green.",
 "GreenRain_2.Cotton": "Green rain is beautiful, reminds me of my mother.#$b#She loved playing in the rain.$1",
-//Everyday Dialogue
 "Mon.Cotton.LowHeart.spring": "Interesting, now leave me alone.$5#$b#Look, you don't want to buddy up with me.#$action spacechase0.SpaceCore_PlaySound grunt",
 "Mon.Cotton.LowHeart.summer": "It's a beautiful day to stay inside isn't it?#$b#This heatwave has my whole ass sweating.#$action spacechase0.SpaceCore_PlaySound grunt",
 "Mon.Cotton.LowHeart.fall": "Do all humans see something unsettling and want to befriend it or are you just...different?#$action spacechase0.SpaceCore_PlaySound grunt",
@@ -2507,10 +2159,8 @@ Cotton
 "Sun.Cotton.HighHeart.winter": "Do you know what electro swing music is?#$b#It's pretty good, it actually makes me feel...excited? I don't know how to explain it.$1",
 "Cotton.engagement.0": "What...$5#$b#I can't beleive this is serious...$4#$b#I mean yeah I'd be down for that.$4",
 "Cotton.engagement.1": "No kidding?$4#$b#Shit, I mean yeah I'd be down for that.$4",
-//schedule strings
 "Cotton.GreenRain": "Green rain isn't that big a deal, but getting wet sucks so...I'm staying inside as much as possible.$2",
 "Cotton.NightMarket": "Valerie isn't so bad, she gives me void products so...Good in my book.$4",
-//Marriage Dialogue 
 "patio_Cotton": "It's pretty nice out today, figured I would check on my tree.$3",
 "spouseRoom_Cotton": "",
 "patio_Cotton": "It's surprising this tree is managing to grow out here.$1",
@@ -2581,10 +2231,8 @@ Cotton
 "Bad_6.Cotton": "Maybe you should marry someone else, seems like you prefer talking to anyone but me anyway.$5",
 "Bad_7.Cotton": "%He looks sad, like he might cry.",
 "Bad_8.Cotton": "I learned what divorce is, maybe we should do that.$5",
-//Incoming Calls
 "Cotton.PhoneCall.1": "There's a weird creature walking around the cemetery at night, I wanted to call and warn you.#$b#Be careful okay.",
 "Cotton.PhoneCall.2": "Yo, just calling to see what you're up to.$1#$b#I'm just bored is all, don't be weird about it...$4#$b#Alright it's weird now, I'm off, Bye.$5",
-//Movies
 "Cotton.movies.0.before": "This looks stupid.",
 "Cotton.movies.0.during": "Wow this is....Stupid.$5",
 "Cotton.movies.0.after": "I hated that actually, don't bring me again.$5",
@@ -2609,16 +2257,11 @@ Cotton
 "Cotton.movies.7.before": "Oh bard, a romance?$2",
 "Cotton.movies.7.during": "He seems to be blushing...",
 "Cotton.movies.7.after": "I can't beleive I watched that completely...$4",
-
 "Cotton.movies.8.before": "This better be good or I'll be causing issues for you.$1",
 "Cotton.movies.8.during": "Cotton yawns.",
 "Cotton.movies.8.after": "That was boring as hell, do you really find stories like that interesting?$1#$action spacechase0.SpaceCore_PlaySound grunt",
-/************************************************
-Thalia
-************************************************/
-//Display Name
+///Thalia
 "FC.Thalia": "Thalia",
-//Gift Related Dialogue
 "AcceptGift_StardropTea.Thalia": "This is so thoughtful, thank you @.#$b#Stardrop tea is a favorite of mine.$1",
 "AcceptBirthdayGift_Loved.Thalia": "What a lovely birthday this is turning out, thank you  @.$1",
 "AcceptBirthdayGift_Liked.Thalia": "Thank you @, what a sweet birthday gift.$1",
@@ -2654,7 +2297,6 @@ Thalia
 "RejectGift_Divorced.Thalia": "I can't accept this @, I don't trust you enough.$2",
 "SpouseGiftJealous.Thalia": "You love me right?$2#$b#I know it's silly I just, feel insecure...$2",
 "MovieInvitation.Thalia": "Oh I would love to join, I'll meet you there!$5",
-//Special Dialogue
 "Introduction.Thalia": "Hey there I'm Thalia! It's a pleasure to meet you.$1",
 "danceRejection.Thalia": "That's so sweet, but I'm not really wanting to dance today.$4",
 "divorced.Thalia.1": "It's nice to see you @, I hope you're doing well.$2",
@@ -2706,8 +2348,6 @@ Thalia
 "GreenRainFinished.Thalia": "The rain has finished falling and the world has been cleaned. Isn't it wonderful.$1",
 "GreenRain.Thalia": "This rain is amazing, I've never witness green rain before!$1",
 "GreenRain_2.Thalia": "You've gone out in this rain? You are so brave, it's so pretty but I worry about it being green.$2",
-
-//Everyday Dialogue
 "Mon.Thalia.LowHeart.spring": "I know what you're thinking, why open a exhibit in the graveyard?$1#$b#Well, honestly?$2#$b#There's not much sellable land in this area and the guild has some of the cheapest prices I've ever seen.$2#$b#I figured I could share my property with the deceased if it means I have a safe place to sleep at night.$1",
 "Mon.Thalia.LowHeart.summer": "I have many siblings back in Arcania, six brothers and four sisters.#$b#I would have stayed to care for all of them, but Mister Halkias talked me into coming to the Valley.$1#$b#He said there was a lot of old Arcanian artifacts in Pelican town and he was actually right.$1",
 "Mon.Thalia.LowHeart.fall": "Lyell and I have plans to import more Arcanian animals to the valley, the enviroment here is so safe, I think many different speices would intergrate perfectly with the ecosystem.$1#$b#Maybe more speices will have a chance to surivive, since the weather and predators here are less hostile.$2",
@@ -2804,10 +2444,8 @@ Thalia
 "Saloon.Thalia.HighHeart.summer": "I was reading about spirit twins last night. There's this beleif that two people can actually be twins in spirit. It's when one soul splits in two and becomes two seperate minds.$1#$b#Isn't that interesting?$1",
 "Saloon.Thalia.HighHeart.fall": "I'm starving, I think I might order a pizza.$1#$b#It's really one of my favorite foods now.$1",
 "Saloon.Thalia.HighHeart.winter": "I tried non non-alcoholic wine today.$1#$b#It was surprisingly good!$1",
-//Engagement Dialogue 
 "Thalia.engagement.0": "You want to-Really, you want to get married?$4#$b#Of course I want to, this is so exciting!$4",
 "Thalia.engagement.1": "Yes! A hundred times yes, I would love to marry you!$4",
-//Marriage Dialogue 
 "patio_Thalia": "The farm is so beautiful, I'm so happy to be here.$1",
 "spouseRoom_Thalia": "I was thinking of changing the color of the walls in here, it's supposed to be my own little space right? So why not?$1",
 "Rainy_Day_0.Thalia": "Days like this I really start missing Arcania.$2#$b#The rainshows there were daily usually, one of the wettest places on the planet.$1",
@@ -2876,66 +2514,54 @@ Thalia
 "Bad_6.Thalia": "%She looks at you with sadness in her gaze.#$b#Hey sweetheart, I'm happy to see you around.$1",
 "Bad_7.Thalia": "Do you want to do something together maybe, I really miss us time.$2",
 "Bad_8.Thalia": "Wouldn't it be nice to just, take a vacation together? Reconnect? Maybe it's what we need.$2",
-// text shown if nothing else matches
 "Thalia.festival-default": "These festivals are nice, but I can't help but feel a little out of place.$3", // TODO
-// egg festival
 "Thalia.spring13.unmet": "Oh hello, it's nice to see you here.$1#$b#I can't wait to see the kids hunt for eggs, it's so cute.$1",
 "Thalia.spring13.friendly": "Hey there! Are you excited? I'm pretty excited honestly.$1",
 "Thalia.spring13.dating": "What happens to all the eggs the children can't find? Do adults go and find it for them?$2",
 "Thalia.spring13.married": "I'm so happy to be here, it's so nice to be in town with everyone for a fun little egg hunt.$1",
 "Thalia.spring13.divorced": "",
-// flower festival
 "Thalia.spring24.unmet": "I hope I look okay, I wasn't exactly sure how to dress for this.$2",
 "Thalia.spring24.friendly": "Hey there, you look so nice.#$b#The dance is so cute isn't it?$1",
 "Thalia.spring24.dating": "Sweetheart you look wonderful, do you feel like dancing with me? I hope so.$4",
 "Thalia.spring24.married": "It's so sweet seeing the couples dance together, I know not all of them are romantically invovled but it's still adorable.$1",
 "Thalia.spring24.divorced": "It's nice seeing you again, I hope you're enjoying the dance.$2",
-// luau
 "Thalia.summer11.unmet": "The soup smells so good doesn't it? I hope it taste as great as it smells.$1",
 "Thalia.summer11.friendly": "I added something sweet to the pot, I'm hoping it combats whatever spicy thing Lyell just put in.$1",
 "Thalia.summer11.dating": "Hey love, did you already add in your ingredient to the pot?$1#$b#I hope it's tasty.$1",
 "Thalia.summer11.married": "I hope the govnor likes the pot this year.$1#$b#I know it doesn't really matter, but I like it when the town looks good.$1",
 "Thalia.summer11.divorced": "It's a good day, the festival is really bustling isn't it?$1",
-// jellies
 "Thalia.summer28.unmet": "This festival is important all over the world know, every country near the ocean has a version of this festival.$1",
 "Thalia.summer28.friendly": "I wonder if I could sell some Jelly themed hats here!#$b#I bet people would love them.$1",
 "Thalia.summer28.dating": "I can't wait for the Jellies to arrive, it's so beautiful.$1",
 "Thalia.summer28.married": "Do you think we could have a pet jelly? They're so pretty.$1",
 "Thalia.summer28.divorced": "I'm just here for the Jellies, I...Don't feel like talking much though.$2",
-// Marketpalooza 
 "Thalia.fall3": "Such a thoughtful gathering this is, charity work is such a generous thing for Nikolai to do.$1",
 "Thalia.fall3.friendly": "I'm so full of food right now, but I can't help it Gus is such a wonderful cook!$1",
 "Thalia.fall3.dating": "I've been looking for something special, but I don't know if anyone would be selling it. It's called Curi Pops, it's like a spicy candy.$1",
 "Thalia.fall3.married": "Hey sweetheart, I got this for you.$1[Fellowclown.PC_IceBerryWine]",
 "Thalia.fall3.divorced": "Oh, it's nice to see you...$2#$b#I hope you enjoy your evening.$1",
-// fair
 "Thalia.fall16.unmet": "I spent all day trying to win that spinning, wheel game? I don't think it's actually winnable.$2",
 "Thalia.fall16.friendly": "Are you joining the display contest, I think you should. I think you'll win!$1",
 "Thalia.fall16.dating": "I learned that pierre takes credit for produce he doesn't even grow. I just feel so angry at him now, I hope he loses.$5",
 "Thalia.fall16.married": "I think the display contest should be up for a collective vote. Lewis I think may be a little bias?#$b#Besides, what does he know?$2",
 "Thalia.fall16.divorced": "Hope you're enjoying yourself, think you'll enter this year?$1",
-// spirit's eve
 "Thalia.fall27.unmet": "This festival is so crowded isn't it? Maybe they should expand it more into town so people have elbow room...$2",
 "Thalia.fall27.friendly": "I'm feeling a bit over overstimulated, but I'm loving it.$1",
 "Thalia.fall27.dating": "You ready for a scare? Try the maze out, it's very unsettling.$1",
 "fall27.married": "Want to walk the maze together? I think we could make it a romantic affair.$4",
 "fall27.divorced": "Oh.$2#$b#Erm, no I'm fine. Don't eat too much candy okay, don't want a stomachache right?",
-// festival of ice
 "Thalia.winter 8.unmet": "The ice festival is interesting, a little weird but I can appreciate a nice day of fishing.$1#$e#It's way too cold though.$2",
 "Thalia.winter8.friendly": "Valerie is selling really nice drinks, you should try the warp root tea, it's really good.$1",
 "Thalia.winter8.dating": "What can I say, it might be cold but I do love a nice town gathering.$1",
 "Thalia.winter8.married": "Lyell is absoutely crazy, he keeps trying to jump into the water with the fish.$2#$b3I swear, he just keeps getting more impulsive as time goes by.$3",
 "Thalia.winter.divorced": "Boxy nearly fell into the water, Roswell is over there keeping the poor thing warm. It's so sweet.$1",
-// winter star
 "Thalia.winter25.unmet": "Are you excited for the gift exchange?$1",
 "Thalia.winter25.friendly": "I wonder who is my gifter, I'm so curious!$1",
 "Thalia.winter25.dating": "You'll be getting two presents today, hope you know that.$4",
 "Thalia.winter25.spouse": "Hello sweetheart, I got you this. It's just a little extra gift for you.$4[###]",
 "Thalia.winter25.divorced": "Happy holidays...$2#$b#I um...I really miss-Nevermind.$2",
-//Incoming Calls
 "Thalia.PhoneCall.1": "@, I thought I might give you a call!$1#$b#I was thinking of throwing a party here soon, just for fun! I'll keep you updated on it okay, I would love for you to join me.$1#$b3Well, I gotta go there's someone knocking at my door.",
 "Thalia.PhoneCall.2": "@, I know this is a weird request...But if you see Dezerie, could you give her something nice to help cheer her up? She's been so sad lately.$2#$b#I hope you can help her smile today, I'll talk to you later okay. Be well!$1",
-//Movies
 "Thalia.movies.0.before": "A movie about a plant?$2#$b#That sounds weird...$1",
 "Thalia.movies.0.during": "Oh my, the poor thing...$1",
 "Thalia.movies.0.after": "That was wonderful, I really liked the ending and the drama of it all.$1",
@@ -2945,11 +2571,9 @@ Thalia
 "Thalia.movies.2.before": "I've never seen a cowboy movie before, is it as violent as I've heard?",
 "Thalia.movies.2.during": "Oh dear...This is violent.$2",
 "Thalia.movies.2.after": "That was exhuasting, I don't like action movies so much...$2",
-
 "Thalia.movies.3.before": "Are you sure about this one?$2",
 "Thalia.movies.3.during": "This is odd...",
 "Thalia.movies.3.after": "I don't think I liked that one, it was a little unsettling.$2",
-
 "Thalia.movies.4.before": "I don't know about this one, it looks...Really odd.$2",
 "Thalia.movies.4.during": "Oh jeez, I don't think I'm following the plot...What's going on?$2",
 "Thalia.movies.4.after": "I don't think I liked that one, it was a little strange.$2",
@@ -2965,148 +2589,110 @@ Thalia
 "Thalia.movies.8.before": "Why, this looks like a Arcanian movie.$1",
 "Thalia.movies.8.during": "There's tear in her eyes.",
 "Thalia.movies.8.after": "I miss my homeland so much now, but that was a beautiful film.$1#$b#Even if it was very simplified.$1",
-//schedule strings
 "Thalia.GreenRain": "I wonder when this rain will stop, it's beautiful but it being green is somewhat concerning.$2",
 "Thalia.NightMarket": "Nikolai has wonderful honey products.$1",
-/************************************************
-Vanilla Editions
-************************************************/
-
+///Vanilla Editions
 "Mon.Abigail":"Valerie is actually really cool, she's pretty knowledgable in the occult you know.$1",
 "Wed.Abigail":"Alan's mom makes me pretty uneasy, have you met her? I'd hate to live with her.$2",
 "Fri.Abigail":"Lyell's raptors are so pretty, but they're pretty vicious.$1",
-
 "Mon.Alex":"Mister Lovejoy just freaks me the hell out...I don't if it's cause he lives in the cemetery or what, but I don't trust him.$2",
 "Wed.Alex":"Alan is such a nerdy dude, but at least he's nice to my grandparents.$1",
 "Fri.Alex":"Do you think Lyell misses his arm?$2#$b#I can't help but be curious about that...",
-
 "Mon.Caroline":"Have you seen Kaia around? She's such a treat to talk to. Just the sweetest thing.$1",
 "Wed.Caroline":"Grady is a strange character, but I do love talking to him.#$b#He's so fun and friendly.$1",
 "Fri.Caroline":"Do you think Lyell would mind if I visit, I was wanting to buy some ice berry wine.$1",
-
 "Mon.Clint":"Kaia passes by the forge sometimes, she should replace her guide cane...It's wearing down pretty fast...#$b#I want to help out, but I'm worried about offending her.$2",
 "Wed.Clint":"Hope Nikolai visit's sometime this week, he always helps me unload shipments.#$b#I really need to figure out how to reward him.$1",
 "Fri.Clint":"That Dezerie really gives me the creeps, everytime I see her she's just glaring at me.$2",
-
 "Mon.Demetrius":"Lyell grows some fascinating foliage, some of which I thought were extinct.$1#$b#Such a curious thing.$1",
 "Wed.Demetrius":"Grady should have remained a anthropologist...$2#$b#His inventions are rather unstable.#$b#He asked me some questions about engineering, but I'm not specialized in that field.$2",
 "Fri.Demetrius":"I may need to redirect Doctor Talon to my daughter, she's the engineer in our family.$1",
-
 "Mon.Elliott":"It's simply beautiful how Maverick dedicates so much of his life to caring for the cemetery.$1#$b#Though, that wouldn't be a career I would choose if I can be honest.$2",
 "Wed.Elliott":"The cemetery is gorgeous, a bit saddening to visit but the scenery inspires me.#$b#Especially the epitaphs on the gravestones..$1",
 "Fri.Elliott":"Valerie has such a refined sense of taste, if you're interested in dabbling in the art of Winery and dining. I strongly recommended asking her opinion on where to start.$1",
-
 "Mon.Emily":"There are others powers in this valley, powers that come from far away.$2#$b#I can feel it in my bones.$2",
 "Wed.Emily":"The corrupted souls have been visiting my dreams, I worry about the implications.$2",
 "Fri.Emily":"Valerie is on a entirely different level, her spiritual energy is powerful.",
-
 "Mon.Evelyn":"Alan is such a sweetheart, I do love it when he visits.",
 "Wed.Evelyn":"Do you think Dezerie would like some cookies?#$b#She's always in such a grumpy mood maybe she needs a pick me up.$1",
 "Fri.Evelyn":"That Lyell, he's such a looker isn't he?$1#$b#If I was younger and didn't have my George.$1",
-
 "Mon.George":"He's a ball of nerves Alan, kid is gonna get sick one day from all that worrying.$3",
 "Wed.George":"It's about time Alex made some smart friends, boy needs some good influences in his life.$3",
 "Fri.George":"I've been told the eyes are window to the soul, Lyell looks like his soul been through hell.$2",
-
 "Mon.Haley":"Valerie would be so pretty if she wasn't into such creepy things.$2#$b#She might get alone with emily though...$2",
 "Wed.Haley":"Nikolai is so sweet, I can't be annoyed with him for too long...Even though he's obnoxiously dressed.$1",
 "Fri.Haley":"Dezerie is the only person in that weird family of hers that I can stand.$1",
-
 "Mon.Harvey":"With how poorly Lyell cares for himself, I worry I'll be signing his death certificate soon.$2",
 "Wed.Harvey":"I usually don't try odd foods, but Grady makes taste testing things so fun.$1#$b#I actually really love pickled Popachini!$1",
 "Fri.Harvey":"Valerie got me to try this imported coffee brand, it was delicious but really gave me the jitters.$1",
-
 "Mon.Jas":"Roswell is very smart for a chicken, she helped me find my way home after I got lost playing in the forest.$1",
 "Wed.Jas":"Boxy is a very bitey kitty, but I love him anyway.$1#$b#I asked aunt Marnie if I could leave food out for him, but he's too picky.$2",
 "Fri.Jas":"I thought all kitties liked fish, but Boxy seems to like bugs more...Yuck!$2",
-
 "Mon.Jodi":"Lyell is a veteran as well I heard, but honestly it's easy to tell too. He has that look to him...$2",
 "Wed.Jodi":"I tried some Yoho Hash at Kaia's the other day, it was so good!$1",
 "Fri.Jodi":"Draga Doughnut's are so good. You should buy some from Grady.$1",
-
 "Mon.Kent":"I recognize Lyell's accent, Arcania is part of the Gotoro Empire...#$b#But it's one of the only places not directly influenced by it.",
 "Wed.Kent":"That Grady, he needs to realize I'm married...#$b#Such a flirt.$3",
 "Fri.Kent":"Nikolai has been helping my wife around the house...Apparently even when I was gone, I appreciate that...$1",
-
 "Mon.Leah":"I overheard Dezerie playing her violin at the beach. She's incredibly talented.$1",
 "Wed.Leah":"Do you think Maverick realizes he can be sort of...Off putting?$2#$b#I hope he does...$2",
 "Fri.Leah":"Kaia is such a mom, I love seeing her and Nikolai interact.$1",
-
 "Mon.LeoMainland":"Mister Halkias is really big, it's scary.#$b#But he act like he love birds.$1",
 "Wed.LeoMainland":"Do you think Roswell is a really big parrot?#$b#She looks different, but she acts like one.$1",
 "Fri.LeoMainland":"Nikolai played with me yesterday, it was so fun.#$b#I really like video games.$1",
-
 "Mon.Lewis":"I swear, if Grady keeps up his shenanigans. I'm pretty sure I'll start losing more hair.$5",
 "Wed.Lewis":"Lyell is just as bad as Grady, he's impulsive and unhinged! What is wrong with this town!$5",
 "Fri.Lewis":"Dezerie is very sweet, I like it when she comes to visit but I do worry what people will think.$2",
-
 "Mon.Linus":"Whenever Lyell is near, I can feel just how connected he is with nature.#$b#As well as how old his heart really is...I really hope he's doing well.$1",
 "Wed.Linus":"Valerie sometimes brings me warm drinks, she says she makes too much but I can tell that's not the case. She's so kind.$1",
 "Fri.Linus":"I see Alan sometimes talking with animals, it's really heartwarming to see the youth interested in nature.$1",
-
 "Mon.Marnie":"I really respect Lyell's love for his animals’.#$b#He really seems to put a lot of effort into caring for them properly, makes me proud to work with the man.$1",
 "Wed.Marnie":"I overheard Maverick baby talking one of my cows, it was adorable.$1",
 "Fri.Marnie":"The cows love it when Nikolai visit's, he's always spoiling them with treats.$1",
-
 "Mon.Maru":"Grady comes by the lab sometimes, he's really wanting to get into engineering.#$b#I can respect his determination.$1",
 "Wed.Maru":"Boxy bit me really hard this morning, I just wanted to pet him.$2",
 "Fri.Maru":"Did you notice...Roswell has teeth...$2",
-
 "Mon.Pam":"Lyell makes some of the best whiskey around.$1#$b#Talk about a real heart throb.$1",
 "Wed.Pam":"That Dezerie needs to piss off, she's so judgemental.$3",
 "Fri.Pam":"Penny seems to really like that Lesla boy.#$b#He's a sweet kid but there's something weird about him.$2",
-
 "Mon.Penny":"I really wish my mom would stop it with the whiskey, she acts different when she drinks it.$2",
 "Wed.Penny":"Do you think Valerie would like to join me on a trip to Zuzu, I can't find anyone who will go with me.$2",
 "Fri.Penny":"Kaia is wonderful to be around and she's really great with the kids too.$1",
-
 "Mon.Pierre":"Grady and Lyell are gonna run me out of business...$2#$b#Their prices are too low to compete with.$3",
 "Wed.Pierre":"That dang cat, he keeps finding his way inside my store!$3",
 "Fri.Pierre":"I wonder how Boxy keeps getting inside my home...Maybe someone is letting him inside.$3",
-
 "Mon.Robin":"Do you think Maverick could use some home upgrades? His place is sure run down.$1",
 "Wed.Robin":"Kaia and I have been working on some home alterations for her.#$b#I hope we can make it safer for her.$1",
 "Fri.Robin":"I tried chomping down a Tropa tree, that wood is so hard it nearly broke my axe!$2",
-
 "Mon.Sam":"I traded some games with Nikolai, I can't wait to try them.$1",
 "Wed.Sam":"Do you think Roswell will ever warm up to me?#$b#She's always so murderous.$2",
 "Fri.Sam":"Aw man, I'm really craving Kaia's Yoho Hash right now.$1",
-
 "Mon.Sebstian":"Valerie really seems to get it, probably because her mom and my dad are sort of similar.$2",
 "Wed.Sebstian":"I should invite Alan and Nikolai to DND sometime.$1",
 "Fri.Sebstian":"",
-
 "Mon.Shane":"I don't know what Dezerie is thinking, it's annoying how she bothers me. But I can't be bothered to chase her off...$5",
 "Wed.Shane":"Sometimes Lyell looks at me and I get this feeling of being seen...#$b#I don't understand it, but it's not...awful.$2",
 "Fri.Shane":"Nikolai is such a sweet kid, he's always able to see the bright side of things.$2",
-
 "Mon.Vincent":"When do you think, Mister Halkias arm will grow back?$2#$b#My brother told me it would...$2",
 "Wed.Vincent":"Roswell is the biggest chicken in the world! I can ride her like a horse!$1",
 "Fri.Vincent":"I love Boxy, he's so silly. Always chewing on my shoe.$1",
-
 "Mon.Wizard":"Dezerie needs to allow her children to explode outside the limits of family tradition.",
 "Wed.Wizard":"Alan has great potential, he's practically a prodigy.",
 "Fri.Wizard":"Valerie toys with magic that can be highly unstable, but I can respect her desire to help the valley's lost souls move on.",
-
 "Mon.Krobus":"Zuuie is nice, I like it when she sings.",
 "Wed.Krobus":"Someone in town is older than they appear, I can remember them from the elemental war.$2",
 "Fri.Krobus":"Zuuie sometimes brings me fruit, it is sweet of her.",
-
 "Mon.Mister Qi":"Sometimes even people are more than what they appear.",
 "Wed.Mister Qi":"I see you've been talking to Lyell, such a curious man. Be careful not to mirror him.",
 "Fri.Mister Qi":"Watch yourself but watch your neighbors more intently.#$b#Some of them are guilty of things you don't realize.",
-
 //Wedding Event 
 "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite them both in the bonds of marriage.",
 "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite to unite them both in the bonds of marriage.",
 "Utility.cs.5371": "As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you partners for life!$h",
 "Utility.cs.5377": "As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you partners for life!$h",
-/************************************************
-Movie Editions
-************************************************/
+///Movie Editions
 "SpiritOfLife.Title": "Spirit Of Life",
 "SpiritOfLife.Description": "Learn the ancient Arcanian story of our planet's creation.",
-
 "SpiritOfLife.Scene.1": "Once there was a goddess, who lived peacefully inside the core of a star.",//0
 "SpiritOfLife.Scene.2": "What was her name?",//0
 "SpiritOfLife.Scene.3": "Why, it was Lipheum. She had been placed within the star long ago by her mother.",//1
@@ -3120,7 +2706,6 @@ Movie Editions
 "SpiritOfLife.Scene.11": "Lipheum, panicked having felt a part of her flame suddenly go missing…",//6
 "SpiritOfLife.Scene.12": "Lipheum’s starkin was revived from her flame, but the starkin had changed.",//8
 "SpiritOfLife.Scene.13": "Arah was no longer a star, she had been transform into a planet.",//9
-
 "BeyondGotoro.Title": "Beyond Gotoro",
 "BeyondGotoro.Description": "Come see the wonderful wildlife of Arcania.",
 "BeyondGotoro.Scene.1": "Beyond Gotoro",
@@ -3133,14 +2718,10 @@ Movie Editions
 "BeyondGotoro.Scene.8": "Among the wildlife, there are also pets...Like the cat sized Shevit's that protect the homesteads of the human population.",
 "BeyondGotoro.Scene.9": "Like everywhere else, they even have chickens...Though techincally they're more like raptors...The islands are home to so many creatures and there are some that have yet to be discovered...",
 "BeyondGotoro.Scene.10": "The End.",
-/************************************************
-Temp Actors
-************************************************/
+///Temp Actors
 "FC.Mellie": "Mellie",
 "FC.Twinkle": "Twinkle",
-/************************************************
-Meep Image and Text Editions
-************************************************/
+///Meep Image and Text Editions
 "FC.Capeer": "Capeer",
 "FC.Capeer.01": "She sniffs your hand.",
 "FC.NikAndKaia": "There's a photo of Nikolai and his mother inside this album.",
@@ -3158,7 +2739,6 @@ Meep Image and Text Editions
 "LyellHouse.Page03.02": "Some have passed a long time ago.",
 "LyellHouse.Page04.02": "But they will live on within him, in the memories he loves.",
 "LyellHouse.Painting.01": "It's a painting of Lyell's sister and parents. He really tried to remember how they looked for this piece.",
-
 "Exhibit.Stairs": "You're not allowed up stairs.",
 "Exhibit.00": "While similar to burial practices of Ferngill, the key difference between Arcanian and Ferngill tradition. In Arcania the body of the deceased is coated in a special tree resin and Adauula based linen.^After the wrapping is completed, the body is placed in a clay coffin and buried. Above the coffin a Tropa or Reuu tree is planted, which is nourished by sap, clay and deceased.",///Coffin
 "Exhibit.01": "Dating back to the middle of the Arcanian stone age, Movoraptor's have been successfully domesticated and used for their eggs, meat and territorial nature. This Movoraptor talon was harvested and taxidermy as a charm of strength for someone's loved one. The natives of Arcania believe that the talons of the Movoraptor attract power and strength for whoever carries the charm.",///Movoraptor Foot
@@ -3197,10 +2777,7 @@ Meep Image and Text Editions
 "Exhibit.34": "Arkanian natives believe that Arah, the earth goddess, created them from the body of a sea snake named Fuurios, Furrios was her son born from her relationship with a fallen star called Sarui. The concept is that Fuurios kept destroying all of Arah's creations out of jealousy, having wanted all her love to himself, so she took him, split his body into two, and created the first humanoids from his flesh as if it were clay.",///Arcanian Books 2
 "Exhibit.35": "Arah the Goddess of earth is both male and female. In Arcania she is both the offeror and giver of life. Her mother, Lipheum, is the goddess of our sun. The Arcanian people believe there are many gods and goddesses that all rein over different galaxies. It is unsure how, but the people of Arcania have had knowledge of far off galaxies since the start of the bronze age.",///Arcanian Books 3
 "Exhibit.36": "An ancient map of Arcania. There's villages marked down as well as the direction of north and south.",///Arcanian Map
-
-/************************************************
-Meep Animals
-************************************************/
+///Meep Animals
 "GhostBoy": "Mysterious Ghost.",
 "GhostBoy.1": "You can hear the spirit wailing.",
 "GhostBoy.2": "A sense of dread fills your heart.",
@@ -3231,9 +2808,7 @@ Meep Animals
 "FC.Peaches.01":"She pecks at your foot.",
 "FC.Puddin":"Puddin",
 "FC.Puddin.01":"She squawks angrily at you..",
-/************************************************
-Custom Animals
-************************************************/
+///Custom Animals
 "FC.CorruptedGhost": "Corrupted Ghost",
 "FC.DodoHatch": "A Dodo hatched in the night.",
 "FC.FrenchDodo": "Raphus",
@@ -3252,13 +2827,9 @@ Custom Animals
 "FC.ArcaTapi": "Tapirus",
 "FC.ArcaTapi.desc": "An strange animal that originally came from Arcania.",
 "FC.ArcaTapiBirth": "An Arcanian Tapi was born in the night.",
-/************************************************
-Custom Animal Buildings
-************************************************/
+///Custom Animal Buildings
 "FC.MissingTropicalHutch": "You need a Tropical Hutch to buy this animal",
-/************************************************
-Custom Fish
-************************************************/
+///Custom Fish
 "FC.BoneyHeadedGraveFish": "Boney Head Gravefish",
 "FC.BoneyHeadedGraveFish.Desc": "This hard headed fish is believed to swim in waters that lead to the afterlife.",
 "FC.IficusFish.Desc": "This fish is believed to bring good luck when caught.",
@@ -3271,9 +2842,7 @@ Custom Fish
 "FC.GraveCrab": "Grave Crab",
 "FC.GulpFish": "Gulp Fish",
 "FC.GulpFish.Desc": "The gulp fish is a riverbed dwelling fish that feeds by opening its mouth wide and sucking in it's prey.",
-/************************************************
-Quest
-************************************************/
+///Quest
 "FC.ChocoFruit.Quest.Title": "Hot Choco for Ma.",
 "FC.ChocoFruit.Quest.Desc": "Nikolai needs Choco Fruit to make Hot Choco for his mother.",
 "FC.ChocoFruit.Quest.Obj": "Deliver one Choco Fruit to Nikolai.",
@@ -3331,9 +2900,7 @@ Quest
 "FC.Bat.Quest.Desc": "Valerie is creating something and needs ten Bat Wings.",
 "FC.Bat.Quest.Obj": "Collect and deliver ten Bat Wings to Valerie.",
 "FC.Bat.Quest.Reaction": "I really hope you collected these from deceased bats...Instead of living ones? Oh...#$b#Well, here's what I owe you, thank you for doing this for me regardless.$2",
-/************************************************
-Custom Quest Items
-************************************************/
+///Custom Quest Items
 "FC.WalkMan": "Nikolai's Walkman.",
 "FC.WalkMan.Desc": "The lost walkman.",
 "FC.BlueHog": "Blue Hog Plushie",
@@ -3346,7 +2913,6 @@ Custom Quest Items
 "FC.LostPipe.Desc": "Grady's precious pipe.",
 "FC.StoneRelic": "Stone Relic",
 "FC.StoneRelic.Desc": "An ancient stone artifact, there's a portrait carved into it.",
-"FC.MovoraptorEgg": "Movoraptor Egg",
 "FC.MovoraptorEgg.Desc": "The large, sturdy egg of the movoraptor.",
 "FC.Vultureskull": "Skull Display",
 "FC.Vultureskull.Desc": "The skull of some type of bird, placed upon a stand.",
@@ -3356,9 +2922,7 @@ Custom Quest Items
 "FC.GlowJellyfish.Desc": "The ocean’s most beautiful creature.",
 "FC.Rettnote": "Worn Journal Page",
 "FC.Rettnote.Desc": "A worn page with smudge writing on it, better bring it to Valerie...",
-/************************************************
-Custom Food Items
-************************************************/
+///Custom Food Items
 "FC.VoidMilk": "Void Milk",
 "FC.VoidMilk.Desc": "Milk made from the calcium rich fruit of a void tree.",
 "FC.AgedLargeGouudCheese": "Large Aged Gouud Cheese",
@@ -3529,15 +3093,11 @@ Custom Food Items
 "FC.RefinedTropaWine.Desc": "A rich wine made from Ancient Tropa Fruit.",
 "FC.TropaWine": "Tropa Wine",
 "FC.TropaWine.Desc": "Deliciously sweet with a tangy aftertaste.",
-/************************************************
-Custom Machines
-************************************************/
+///Custom Machines
 "FC.ExtractorMachine": "Extractor",
 "FC.ExtractorMachine.Desc": "Boil down special ingredients into a usable extract.",
 "FC.ReuuResinError": "You need one container of Reuu resin.",
-/************************************************
-Custom Artifact and World Items
-************************************************/
+///Custom Artifact and World Items
 "FC.StatueGem": "Mysterious GemStone",
 "FC.StatueGem.Desc": "A Mysterious GemStone, wonder what you can use it for?",
 "FC.WarpTotem": "Passerby Warp Totem",
@@ -3550,9 +3110,23 @@ Custom Artifact and World Items
 "FC.TwistedBread.Desc": "A gift that shows your romantic interest.",
 "FC.Elizabethsring": "Elizabeth's Ring",
 "FC.Elizabethsring.Desc": "Lyell's treasured object, take good care of it.",
-/************************************************
-Custom Tools
-************************************************/
+///Hats
+"FC.ArcaHat": "Ancient Arcanian Headband",
+"FC.ArcaHat.Desc": "Garb yourself with the same head gear worn by the same people of Ancient Arcania.",
+"FC.TurtleHat": "Turtle Hat",
+"FC.TurtleHat.Desc": "Just put a turtle on your head.",
+"FC.CatHat": "Kitty Ears",
+"FC.CatHat.Desc": "Dress up like the feline you know you are.",
+"FC.ChickenHatBrown": "Brown Chicken Hat",
+"FC.ChickenHatBlue": "Blue Chicken Hat",
+"FC.ChickenHatWhite": "White Chicken Hat",
+"FC.ChickenHatGroup": "Group of Chicks",
+"FC.ChickenHat.Desc": "Show everyone your parenting skills by putting a chick on your head.",
+"FC.PinkPirateHat": "Pink Pirate Hat",
+"FC.PinkPirateHat.Desc": "The Pirate Hat but it's pink!",
+"FC.CaveFlowerHairPiece.Desc": "Put a cave flower in your hair.",
+"FC.CaveFlowerHairPiece": "Cave Flower Hair Piece",
+///Custom Tools
 "FC.ColorfulAxe": "Colorful Axe",
 "FC.ColorfulAxe.Desc": "A colorful Axe.",
 "FC.ColorfulPickaxe": "Colorful Pickaxe",
@@ -3585,9 +3159,7 @@ Custom Tools
 "FC.ColorfulSwordUpgrade2.Desc": "A colorful Lemon Stone Sword",
 "FC.TraditionalLantern": "Traditional Lantern",
 "FC.TraditionalLantern.Desc": "Light up your surroundings with this traditional lantern.",
-/************************************************
-Custom Weapons
-************************************************/
+///Custom Weapons
 "FC.Sword0": "Sword Of Ambers",
 "FC.Sword0.Desc": "Crafted from amber mined from the Ginger Islands.",
 "FC.Sword1": "Copper Sword",
@@ -3600,9 +3172,7 @@ Custom Weapons
 "FC.Sword4.Desc": "Made from steel, forged in the volcano of Ginger Island.",
 "FC.Sword5": "Dagger Of Light",
 "FC.Sword5.Desc": "A dagger infused with the venom of Riverbed Jellyfish.",
-/************************************************
-Custom Rings
-************************************************/
+///Custom Rings
 "FC.EternalEmbraceRing": "Eternal Embrace",
 "FC.EternalEmbraceRing.Desc": "A ring to give to a platonic partner.",
 "FC.EternalEmbraceRing.Buff": "Their Eternal Embrace.",
@@ -3625,17 +3195,12 @@ Custom Rings
 "FC.ArahsBlessing.Buff": "Ancient Enlightenment.",
 "FC.Illness.Buff": "Sick or Injured.",
 "FC.VoidMilk.Buff": "Void Zoomies",
-/************************************************
-Custom Scarecrows
-************************************************/
+///Custom Scarecrows
 "FC.MarketpaloozaOddCrow":"OddCrow",
 "FC.MarketpaloozaOddCrow.Desc": "Collect them all! (1 of 4)",
 "FC.StrawScareCrow": "Straw scarecrow",
 "FC.StrawScareCrow.Desc": "An old fashion scarecrow.",
-/************************************************
-Custom Furniture
-************************************************/
-
+///Custom Furniture
 "FC.CottonsArt": "Cotton's Art.",
 "FC.BrownOakSeat":"Brown Oak Seat",
 "FC.YellowOakSeat":"Yellow Oak Seat",
@@ -3643,28 +3208,24 @@ Custom Furniture
 "FC.PinkOakSeat":"Pink Oak Seat",
 "FC.BlueOakSeat":"Blue Oak Seat",
 "FC.BlackOakSeat":"Black Oak Seat",
-
 "FC.BrownWalnutSeat":"Brown Walnut Seat",
 "FC.YellowWalnutSeat":"Yellow Walnut Seat",
 "FC.GreenWalnutSeat":"Green Walnut Seat",
 "FC.PinkWalnutSeat":"Pink Walnut Seat",
 "FC.BlueWalnutSeat":"Blue Walnut Seat",
 "FC.BlackWalnutSeat":"Black Walnut Seat",
-
 "FC.BrownBirchSeat":"Brown Birch Seat",
 "FC.YellowBirchSeat":"Yellow Birch Seat",
 "FC.GreenBirchSeat":"Green Birch Seat",
 "FC.PinkBirchSeat":"Pink Birch Seat",
 "FC.BlueBirchSeat":"Blue Birch Seat",
 "FC.BlackBirchSeat":"Black Birch Seat",
-
 "FC.BrownCherrySeat":"Brown Cherry Seat",
 "FC.YellowCherrySeat":"Yellow Cherry Seat",
 "FC.GreenCherrySeat":"Green Cherry Seat",
 "FC.PinkCherrySeat":"Pink Cherry Seat",
 "FC.BlueCherrySeat":"Blue Cherry Seat",
 "FC.BlackCherrySeat":"Black Cherry Seat",
-
 "FC.OakCoffeeTable":"Wide Oak Table",
 "FC.WalnutCoffeeTable":"Wide Walnut Table",
 "FC.BirchCoffeeTable":"Wide Birch Table",
@@ -3708,13 +3269,7 @@ Custom Furniture
 "FC.SinkCherry4":"Blue Curtained Cherry Sink",
 "FC.SinkCherry5":"Black Curtained Cherry Sink",
 "FC.Bathtub":"Bathtub",
-/************************************************
-Custom Children’s toys
-************************************************/
-
-/************************************************
-Custom Shirts
-************************************************/
+///Custom Shirts
 "FC.Shirt1": "Moonlight Shirt",
 "FC.ClownCore.Shirt1": "Save The Dodo shirt",
 "FC.ClownCore.Shirt1.Desc": "Buy a shirt to benefit the Dodo Foundation.",
@@ -3734,6 +3289,7 @@ Custom Shirts
 "FC.Shirt13": "Crimson Shirt",
 "FC.Shirt14": "Obscure Shirt",
 "FC.Shirt15": "Rare Shirt",
+"FC.Shirt18": "Ancient Arcanian Vest",
 "FC.Shirt0.Desc": "The look of a fruit pop without the sugar and color.",
 "FC.Shirt1.Desc": "Medically Proven Fashion Sense.",
 "FC.Shirt2.Desc": "The warmth of a desert sunrise.",
@@ -3750,9 +3306,8 @@ Custom Shirts
 "FC.Shirt13.Desc": "Crimson like the scales of legends.",
 "FC.Shirt14.Desc": "An odd shirt with no origin.",
 "FC.Shirt15.Desc": "It's a common design but it's rarely found.",
-/************************************************
-Custom Mail
-************************************************/
+"FC.Shirt18.Desc": "Garb yourself with the same design worn by the same people of Ancient Arcania.",
+///Custom Mail
 "FC.DezeriesGift.Mail": "Dearest @,^I've been contemplating our friendship for a while now and I wanted to give you something to show my appreciation. If you could join me at Passerby Cemetery, I will be thrilled to finally pass on a treasured object to you.^-Your friend, Dezerie Stone.",
 "FC.DezeriesGift.Mail.Title": "Part of the family.",
 "FC.CottonsArt.Mail": "Hey @,^I drew you something.^But Don't make a big deal out of it, don't make it weird.^-Cotton",
@@ -3831,9 +3386,7 @@ Custom Mail
 "FC.ConfessionalHelp.Mail.Title": "Confession assistance.",
 "FC.ConfrontingRett.Mail": "Dear @^Due to Rett's spirit being interested in you. We will be needing your assistance in confronting his spirit for the last time. Please consider meeting us at the beach at 6pm to put this entire situation at rest.^-Valerie Stone",
 "FC.ConfrontingRett.Mail.Title": "Confronting Rett.",
-/************************************************
-Custom Recipes
-************************************************/
+///Custom Recipes
 "FC.WarpTotemRecipe.Title": "Warp Totem Recipe",
 "FC.EnchantedTonicRecipe.Title": "Enchanted Tonic Recipe",
 "FC.EssenceOfLuckRecipe.Title": "Essence Of Luck Recipe",
@@ -3872,9 +3425,7 @@ Custom Recipes
 "FC.YohoHashRecipe.Title":"Yoho Hash Recipe",
 "FC.ChocoBunRecipe.Title":"Choco Bun Recipe",
 "FC.DeepCaveFruitJuiceRecipe.Title":"Deep Cave Fruit Juice Recipe",
-/************************************************
-Custom Shops
-************************************************/
+///Custom Shops
 "Lyells.Shop": "Everything I sell is from Arcania-It's all legal I promise...",
 "FC.GP": "Hey, want something pretty?",
 "FC.DodoShop": "My profits benefit the Dodo Foundation.",
@@ -3890,9 +3441,7 @@ Custom Shops
 "FC.PierreShop": "Got something new for you.",
 "PotionShop":"What are you looking for?",
 "DrinkShop": "You look cold, need a hot drink?",
-/************************************************
-Custom Crops
-************************************************/
+///Custom Crops
 "FC.VoidFruit": "Void Fruit",
 "FC.VoidFruit.Desc": "Having a strong taste of dairy, this fruit can be made into a great milk substitute.",
 "FC.ChocoFruit":"Choco Fruit",
@@ -3991,9 +3540,7 @@ Custom Crops
 "FC.FirePepper.Desc":"One of the hottest peppers in the world.",
 "FC.FirePepperSeeds":"Fire Pepper Seeds",
 "FC.FirePepperSeeds.Desc":"Plant these in spring. Takes 15 days to mature and continues producing after that.",
-/************************************************
-Custom Trees
-************************************************/
+///Custom Trees
 "FC.TropaFruit": "Tropa Fruit",
 "FC.TropaFruit.Desc": "This fruit is covered in fuzz.",
 "FC.TropaTree": "Ancient Tropa Tree",
@@ -4008,10 +3555,7 @@ Custom Trees
 "FC.ReuuResin.Desc": "A very sticky and multi purposed white sap.",
 "FC.RoastedReuuNut": "Roasted Reuu nut",
 "FC.RoastedReuuNut.Desc": "Reuu nut that's been carefully roasted inside a brick furnace.",
-
-/************************************************
-Custom Map Strings
-************************************************/
+///Custom Map Strings
   "ThaliaPatio.Statue": "A statue of Arah.",
     "CottonPatio.TreeSign": "No Chopping Allowed!",
   "CottonPatio.TreeCut": "Cotton's Void Tree.",
@@ -4037,7 +3581,6 @@ Custom Map Strings
 "GraveYard.LargeFlower": "Is it a flower? It smells strange, like sugar and iron.",
 "GraveYard.Squid": "Here lies his hopes and his dreams. You'll be missed.",
 "GraveYard.TreeGuest": "There's something inside this tree...",
-
 "GraveYard.01": "Sherry will never forget you, rest in peace Terry.",
 "GraveYard.02": "Blessed Are Those Who Hunger And Thirst For Righteousness.",
 "GraveYard.03": "The best is yet to come.",
@@ -4324,8 +3867,6 @@ Custom Map Strings
 "StoneHome.SpecimenWallMounts": "There's animal heads mounted on the wall, but they all look pretty weird.",
 "StoneHome.CoffeePot": "The coffee maker is still warm.",
 "StoneHome.ClusterShrooms": "This smells spicy.",
-"Marketpalooza.NPC.1": "He sneers at you, looks like he wants to be left alone.",
-"Marketpalooza.NPC.2": "She smiles shyly at you and begins to blush.",
 "HalkiasCoop.Planter": "Fruit for the Movoraptors.",
 "HalkiasProperty.Bathroom":"Driftwood Bath House",
 "StoneHome.DezeriesDodo": "The dodo is sleeping.",
@@ -4342,10 +3883,7 @@ Custom Map Strings
 "StoneHome.PottedHerbs": "More plants are being grown, wonder what they'll used for?",
 "StoneHome.MixingTable": "This looks like a chemistry set.",
 "StoneHome.DezeriesViolin": "Dezerie’s Violin.",
-
-/************************************************
-Custom Map Names
-************************************************/
+///Custom Map Names
 "FC.MapName.Marketpalooza": "Marketpalooza",
 "FC.MapName.BeeNursery": "Bee Nursery",
 "FC.MapName.LeslaProperty": "Lesla Property",
@@ -4366,10 +3904,7 @@ Custom Map Names
 "FC.FakeNpc": "the Stone Residence.",
 "FC.MapName.Exhibit": "Lost Visitor's Exhibit",
 "FC.MapName.CottonsHouse": "Behind The Waterfall",
-
-/************************************************
-Marketpalooza
-************************************************/
+///Marketpalooza
 "Event.cs.1531": "Don't forget to enter a raffle ticket to win a prize at the end.$6#$e#$q -1 null#Should I start the raffle?#$r -1 0 yes#Yes.#$r -1 0 no#Not yet.",
 "mainEvent.01": "Thank you everyone for coming!$1",
 "mainEvent.02": "This year's Marketpalooza, I feel, was a big success!",
@@ -4422,9 +3957,7 @@ Marketpalooza
 "Marketpalooza.041": "Mama promised me money if I'm good!#$e#I wonder how much she'll give me.",
 "Marketpalooza.042": "It's a treat to see so many smiling faces.$1",
 "Marketpalooza.043": "I wanted to sell some of my best weapons at this festival.",
-/************************************************
-Custom World Events
-************************************************/
+///Custom World Events
 "TheBridge.00": "Don't worry!",
 "TheBridge.01": "I'll find a way to fix the bridge!$3",
 "TheBridge.02": "@!",
@@ -4447,7 +3980,6 @@ Custom World Events
 "TheBridge.19": "There's no such thing as a good human-Only one with a goal.$5",
 "TheBridge.20": "Thank you though...$2.",
 "TheBridge.21": "Both of you...",
-
 "TheCreature.00": "Something is loose in the cemetery.",
 "UnlockTropaTree.00": "Look at her go!",
 "UnlockTropaTree.01": "Hey @, we were waiting for you to mosey by.$1",
@@ -4463,10 +3995,8 @@ Custom World Events
 "UnlockTropaTree.11": "Right, I forgot about the Reu seeds...$3#$b#Let's take care of that.",
 "UnlockTropaTree.12": "Be happy!",
 "UnlockTropaTree.13": "And stay shapely!",
-
 "ArahOffering.00": "Will you leave 300 gold pieces as an offering?#Yes#No#",
 "ArahOffering.01": "You've been blessed by a ancient goddess.",
-
 "BlessedFruitEvent.1": "Will you leave 200 gold pieces as an offering to Yoba?",
 "BlessedFruitEvent.2": "Yes.",
 "BlessedFruitEvent.3": "No.",
@@ -4487,13 +4017,10 @@ Custom World Events
 "CaveBlockUnlock.13": "But wait...I don't know how to take care of baby.$2",
 "CaveBlockUnlock.14": "I know, I know!$1#$b#You take her for now, human care for animals all the time! When I learn how, I will come get her!$1#$b#But you treat baby right please, she's my baby you know.$2",
 "CaveBlockUnlock.15": "You've a lot to sleep on...",
-
 "TheStatue.00":"You there, did you see anyone else near here?$3",
 "TheStatue.01":"I can't believe it, someone stole the gem right out of this statue!$3",
 "TheStatue.02":"No one can get inside without it, I've been using it for years now in place of using the mine entrance.$3#$b#The mine entrance is way too dangerous to use-This isn't good.#$b#I left something important in there too.$2#$b#Say, you're always out and about. If you come across a small, pink gem. Return it to me would you, I'll reward you if you do...",
 "TheStatue.03":"Keep an eye out, maybe the thief will return to the scene of the crime?$3",
-
-
 "MavericksProblem.00": "Damn pest!",
 "MavericksProblem.01": "Eek!",
 "MavericksProblem.02": "What are you doing here?$3#$b#Erm, I mean...I'm all worked up right now.$2",
@@ -4503,7 +4030,6 @@ Custom World Events
 "MavericksProblem.06": "Whoa!",
 "MavericksProblem.07": "I think I need to buy a weapon from Marlon, these pests are out of control! And they're getting bigger!$5#$b#I gotta go make a few phone calls!$3",
 "MavericksProblem.08": "These bigger critter's don't usually come up to the cemetery so be safe out there.$3",
-
 "UnlockLyellsAnimals.00": "So, I can expect you to return in three days to set up the tropical expansion of the barn?$2",
 "UnlockLyellsAnimals.01": "Of course.",
 "UnlockLyellsAnimals.02": "The animals should be fine until then.$1#$b#They need a different environment to be happy but they won't get sick just from three days without it.$3",
@@ -4524,10 +4050,7 @@ Custom World Events
 "UnlockLyellsAnimals.17": "Perhaps, I wouldn't mind that at all.$1",
 "UnlockLyellsAnimals.18": "Well, I better get going, thank you again Marnie. I'm glad I can rely on you.$1",
 "UnlockLyellsAnimals.19": "Anytime Mister Halkias.",
-/************************************************
-Lesla events
-************************************************/
-
+//Lesla events
 "LeslaIntroduction.00": "There he is!",
 "LeslaIntroduction.01": "Wait!#$b#Don't be scared.$2",
 "LeslaIntroduction.02": "Yoowl!",
@@ -4547,7 +4070,6 @@ Lesla events
 "LeslaIntroduction.16": "Did you remember the list?$1",
 "LeslaIntroduction.17": "Yes Mama.",
 "LeslaIntroduction.18": "Oh good, let's get going then Nikki, I don't want to be too tardy.$1",
-
 "SavingBoxy.00": "Get back here!",
 "SavingBoxy.01": "Hey!$5#$b#Leave Boxy alone!$5",
 "SavingBoxy.02": "Is that your cat?$3#$b#Get that animal out of here!$3#$b#I sell food here, it's unsanitary. And it was trying to eat my produce!$3",
@@ -4562,7 +4084,6 @@ Lesla events
 "SavingBoxy.11": "There he goes...",
 "SavingBoxy.12": "I hope one day I can get Boxy to be an indoor kitty, I worry about him. It's not safe for a kitten to be outside like that, but I don't want to just capture him...$2#$b#I'm scared that if I do, he'll just end up more temperamental.$3",
 "SavingBoxy.13": "I'll figure it out though, at least he's letting me help him now.$1",
-
 "NikolaisBirthday.00": "Happy Birthday Nikolai! You're a whole year older!$1",
 "NikolaisBirthday.01": "Yeah, I can't believe it honestly.$1#$b#I don't even feel any different.#$b#I'm happy you all came too, I was a little worried no one would show up.$2",
 "NikolaisBirthday.02": "Nikki...",
@@ -4582,7 +4103,6 @@ Lesla events
 "NikolaisBirthday.16": "This is the best surprise ever!$6",
 "NikolaisBirthday.17": "Well, I'm happy if you're happy Nikki.$1",
 "NikolaisBirthday.18": "The cake was ruined, but you all had lots of fun despite it.",
-
 "AnimalRefuge.00": "You made it!$1",
 "AnimalRefuge.01": "I was just getting ready to board the bus too, hope you're prepared for the trip.$6",
 "AnimalRefuge.02": "I'm ready to go when you are.",
@@ -4611,7 +4131,6 @@ Lesla events
 "AnimalRefuge.25": "Oh, I didn't realize, I guess not everyone likes volunteering.$3",
 "AnimalRefuge.26": "Of course!$1#$b#Sorry for the short notice to begin with.$3",
 "AnimalRefuge.27": "Catch you later then.$1",
-
 "GettingProof.00": "Gotcha!",
 "GettingProof.01": "Oh, it's just you.$2#$b#Sorry @, I was just...I thought you were...$3",
 "GettingProof.02": "Nikolai seems nervous...",
@@ -4629,7 +4148,6 @@ Lesla events
 "GettingProof.14": "No, that can't be...",
 "GettingProof.15": "I can't stand the thought of it being fake, I gotta think this over.$2",
 "GettingProof.16": "He got pretty upset, wonder what the truth is?",
-
 "NightTerrors.00": "Who's there?!",
 "NightTerrors.01": "Get away!",
 "NightTerrors.02": "No! Don't come any closer!$8",
@@ -4667,7 +4185,6 @@ Lesla events
 "NightTerrors.34": "Sigh",
 "NightTerrors.35": "This has been really tiring, I need to get home.$3",
 "NightTerrors.36": "Hopefully he can get some rest tonight...",
-
 "CheckingNikolai.00": "Nikolai?",
 "CheckingNikolai.01": "Yes, Mama?",
 "CheckingNikolai.02": "How are you feeling",
@@ -4702,7 +4219,6 @@ Lesla events
 "CheckingNikolai.31": "I know a good psychologist you can see...He's the same one I used to see.$1",
 "CheckingNikolai.32": "Thank you mama.",
 "CheckingNikolai.33": "That went well!",
-
 "FairyFlock.00": "So pretty!",
 "FairyFlock.01": "Weren't they amazing? I had no idea that fairies were real!$1#$b#I saw that the statue was moved from the entrance and I had to come inside and investigate.",
 "FairyFlock.02": "It's beautiful in here!$4",
@@ -4717,7 +4233,6 @@ Lesla events
 "FairyFlock.11": "It's not real...If it were real, I could get photos of it...Other people would see it too.$3#$b#Now that I know it never existed, I feel so much safer.",
 "FairyFlock.12": "If I keep up with my medications, maybe I can even get a job.$1#$b#And honestly, it's thanks to you @...If you hadn't showed up in my life, I wouldn't have ever gotten help.$3",
 "FairyFlock.13": "Thank you...",
-
 "TheBeesAndKeeper.00": "@, it's great to see you.",
 "TheBeesAndKeeper.01": "Don't be anxious.$6#$b#Bees are actually really gentle creatures, they only really attack when provoked.$3",
 "TheBeesAndKeeper.02": "Here, take a look.",
@@ -4736,7 +4251,6 @@ Lesla events
 "TheBeesAndKeeper.15": "I'm sure she'll be happy you're joining us too, my ma really likes having you around.$4",
 "TheBeesAndKeeper.16": "Oh, shoot.$2#$b#Sorry about that, maybe next time then.$6",
 "TheBeesAndKeeper.17": "Life has gotten better for Nikolai, you can tell.",
-
 "FirstDateNikolai.00": "Hey!",
 "FirstDateNikolai.01": "I'm glad you're here, I was hoping you'd come by.",
 "FirstDateNikolai.02": "The spot I wrote about, it's hidden just behind my house, so it's not too far away!$1#$b#It's the perfect spot for hanging out together.$4",
@@ -4761,7 +4275,6 @@ Lesla events
 "FirstDateNikolai.21": "Yeah...I guess it is sort of dangerous isn't it?$3#$b#Maybe another time then...$2",
 "FC.FirstDateNikolai.22": "I would really like that actually, there's even two beds if you don't want to share...But I wouldn't mind keeping close you know.$6",
 "FC.FirstDateNikolai.23": "The houseboat was well stocked with food and drinks. Like Nikolai had planned ahead.",
-
 "BoxysAdventure.00": "Have you seen Sunshine? I can't find that cow anywhere.$2",
 "BoxysAdventure.01": "Oh, no I haven't seen her...You think maybe she escaped again?$2",
 "BoxysAdventure.02": "Oh, welcome...I'm sorry but I'm closed for the moment, we're trying to find our cow.$1",
@@ -4783,7 +4296,6 @@ Lesla events
 "BoxysAdventure.18": "What is wrong with you?! Scaring away that poor kitten like that, you should be ashamed of yourself.$3",
 "BoxysAdventure.19": "Yeah, that was a dick move.$5",
 "BoxysAdventure.20": "You've scared away Boxy, but at what cost?",
-
 "BoxysFall.00": "You hear the desperate sound of a kitten's cry.",
 "BoxysFall.01": "Oh no, isn't that Boxy? Is he stuck in that tree?",
 "BoxysFall.02": "Boxy looks pretty shaken up.",
@@ -4798,7 +4310,6 @@ Lesla events
 "BoxysFall.11": "Boxy sniffs at your fingers and then gives them a small lick.",
 "BoxysFall.12": "Boxy looks better, he's stopped shaking completely.",
 "BoxysFall.13": "Maybe one day, Boxy will let you pick him up.",
-
 "BoxysStory.00": "You can hear Maverick praying.",
 "BoxysStory.01": "Sigh.",
 "BoxysStory.02": "Amen...$2",
@@ -4817,7 +4328,6 @@ Lesla events
 "BoxysStory.15": "Boxy makes a noise, it's almost like he's agreeing with Maverick.",
 "BoxysStory.16": "Well, I'm turning in. Be careful @.$2",
 "BoxysStory.17": "You've a lot to sleep on...",
-
 "BoxysRebellion.00": "Aw, a kitty.$1#$b#Dad would flip if he saw you, he's allergic to cats.$2",
 "BoxysRebellion.01": "Lets go outside, you can't be in here kitty...Wonder how you even got inside.$1",
 "BoxysRebellion.02": "Oh! A cat?$1",
@@ -4835,7 +4345,6 @@ Lesla events
 "BoxysRebellion.14": "Okay...",
 "BoxysRebellion.15": "I'll try to catch him.$2",
 "BoxysRebellion.16": "Caroline struggled to catch Boxy, the entire situation stressed the animal out.",
-
 "BoxysHouse.00": "Hey @!#$b#You're just in time for the big reveal!$1",
 "BoxysHouse.01": "It was all Nikolai's idea.$1",
 "BoxysHouse.02": "Let's show it then, I'm sure @ want's to see what Nikki's idea was.$1",
@@ -4850,7 +4359,6 @@ Lesla events
 "BoxysHouse.11": "Animals are so loyal...such wonderful creatures. I hope Boxy feels as happy as he looks.$1",
 "BoxysHouse.12": "I'm sure he does Nikki.$1",
 "BoxysHouse.13": "And their bond will stay strong, Boxy can stay by his humans side in comfort now.",
-
 "KaiaMoms.00": "Nikolai, your room is a mess...I can't navigate in here.$2",
 "KaiaMoms.01": "Sorry Mama.",
 "KaiaMoms.02": "It's just really hard keeping it clean-I don't have the motivation.$2",
@@ -4862,7 +4370,6 @@ Lesla events
 "KaiaMoms.08": "I didn't really think of that, I guess if he wants a messy room that's up to him.#$b#But it's difficult for me coming in here, I need a clear floor so I can navigate.",
 "KaiaMoms.09": "Mama, I'll try harder to keep it clean...I promise.$2",
 "KaiaMoms.10": "That's all I want Nikki, is for you to try a little more.$1#$b#You don't need to do it perfect, just keep a trail so I can get to you if something happens, okay?$1",
-
 "KaiasPurpose.00": "Who's there?",
 "KaiasPurpose.01": "Oh, good evening @...$2#$b#I'm enjoying the waterfall, the sound of it is so relaxing.$1",
 "KaiasPurpose.02": "Sigh",
@@ -4873,7 +4380,6 @@ Lesla events
 "KaiasPurpose.07": "Yeah.$1#$b#I will always be Nikki's mama won't I?$1#$b#...But that's just in the title isn't it? How good of mother can I be, if he's taking care of me?$2",
 "KaiasPurpose.08": "A new purpose? I guess I never considered it.$2#$b#What am I if not Nikki's mother?#$b#Even in the military I was a caretaker, I worked as a nurse.#$b#I don't know how to do anything but take care of others...$2",
 "KaiasPurpose.09": "Kaia has a lot going on right now...",
-
 "KaiasDate.00": "Who's there?",
 "KaiasDate.01": "Oh it’s you, @. Did Nikolai let you in? He’s looking for my bracelet.#$b#He gave it to me for my birthday but I don’t remember where I stored it.$2",
 "KaiasDate.02": "#You look nice!#You look nervous.",
@@ -4887,7 +4393,6 @@ Lesla events
 "KaiasDate.10": "Ma I found it! Now you can take a little bit of me as your good luck charm.$1",
 "KaiasDate.11": "Oh hi @! I didn’t hear you come in.",
 "KaiasDate.12": "@! What have I told you about walking into our house uninvited!?$3",
-
 "KaiasHobby.00": "She should be here soon.",
 "KaiasHobby.01": "This is so exciting.",
 "KaiasHobby.02": "@! It's great to see you.$1",
@@ -4923,10 +4428,7 @@ Lesla events
 "KaiasHobby.32": "This was the most fun I've had in a long time, I have a lot to think about now.$1",
 "KaiasHobby.33": "Think you'll take up more cooking?$6",
 "KaiasHobby.34": "Who knows, lets see what happens.$1",
-
-/************************************************
-Lyell's Events
-************************************************/
+//Lyell's Events
 // INTRO
 "LyellIntroduction.01": "Help!$7",
 "LyellIntroduction.02": "Someone help!$8",
@@ -4940,20 +4442,16 @@ Lyell's Events
 "LyellIntroduction.10": "Oh, what type is she?",
 "LyellIntroduction.11": "She's technically a type of raptor, a movoraptor actually.$1#$b#They can be very territorial.$2#$b#Speaking of which, I'm wondering why you two were near my coop anyway?$2",
 "LyellIntroduction.12": "That's my fault, I was curious about your birds.$1#$b#Guess I got too close.$2",
-
-
 "LyellIntroduction.13": "It's okay Abby.$1#$b#Just next time come get me, I'm happy to show you two the girls.$1#$b#You as well...#$b#@? Right?$2#$b#If you do visit just be cautious alright.$1#$b#I need to get Roswell back to the coop now.$1",
 "LyellIntroduction.14": "#Tell Lyell Grady came home.#Wish him a good day.",
 "LyellIntroduction.15": "Oh hell, Grady's finally home?$2#$b#I didn't see him come in.$3#$b#With the landslide gone though, maybe I can can find him.$1#$b#Thanks for telling me @.$1",
 "LyellIntroduction.16": "Thank you, you have a good day as well @.$1",
 "LyellIntroduction.17": "That was interesting.",
-
 "GradyIntroduction.00": "Hey, you?$7#$b#Have you seen a real big fella?#$b#Long black hair? He was supposed to meet me here.",
 "GradyIntroduction.01": "Well, that's really unlike him, Lyell isn't ever late to anything.$1",
 "GradyIntroduction.02": "I hope everything's okay...$2#$b#Maverick mentioned last night there was a landslide, but I didn't think anything of it.$2",
 "GradyIntroduction.03": "I better go see what's going on.$3#$b#Hopefully no one is hurt.$2",
 "GradyIntroduction.04": "If you see Lyell though, tell him Grady's home, would ya?$1",
-
 "GradyReunitesWithLyell.00": "Grady?",
 "GradyReunitesWithLyell.01": "Lyell!",
 "GradyReunitesWithLyell.02": "Boxy! Wait!",
@@ -4974,7 +4472,6 @@ Lyell's Events
 "GradyReunitesWithLyell.17": "More like Lyell started it, I just moved in and started raiding his pantry.$1",
 "GradyReunitesWithLyell.18": "Well hey, Lyell let's go grab those supplies and my refund.$1#$b#I'm aching to get home finally.$1",
 "GradyReunitesWithLyell.19": "I'll see you around @, a happy friend is a happy home after all.$3",
-
 "LyellsShopVist.00": "No, thank you.",
 "LyellsShopVist.01": "Hey it's okay, it's only a coin.$1",
 "LyellsShopVist.02": "Your father would be very angry with you, I won't be the cause of that.$2",
@@ -4994,7 +4491,6 @@ Lyell's Events
 "LyellsShopVist.16": "Be happy.",
 "LyellsShopVist.17": "And stay shapely.",
 "LyellsShopVist.18": "And truly thank you @, I appreciate the kindness.$1",
-
 "StrugglesWithLyell.00": "Damn it.",
 "StrugglesWithLyell.01": "Sorry for my bad language.$2#$b#I'm trying to patch up my old boat, but actually doing so is alot harder then I remember.$2#$b#Before getting myself blown up, It was easy to do little projects like this.$12#$b#But nowadays I don't have the hands to hammer a nail in correctly.$5",
 "StrugglesWithLyell.02": "Sorry, I don't mean to be so negative...#What do you mean you got blown up?!#It's understandable, you've been through a lot.",
@@ -5012,13 +4508,11 @@ Lyell's Events
 "StrugglesWithLyell.14": "I'll be seeing you @, be happy and stay shapely now.$1",
 "StrugglesWithLyell.15": "Right, sorry I always forget that's not exactly a normal thing to say.$2#$b#I was in the military, was sent home after I pushed someone away from a landmine.$2#$b#The explosion took my arm.$5#$b#I'm not too bothered by it, but sometimes it does stretch my nerves.$2",
 "StrugglesWithLyell.16": "Like when people stare or when I can't do the things I used to be able to do.$5",
-
 "RoswellsEscape.00": "She makes a low, angry sound at you.$3",
 "RoswellsEscape.01": "Give Roswell a dancer fish?#Yes#No",
 "RoswellsEscape.02": "She's getting ready to charge.",
 "RoswellsEscape.03": "You made Roswell very happy, you've earned her favor for the time being.$1",
 "RoswellsEscape.04": "Hm...",
-
 "GradyAttempt.00": "Oh, Hey @.$1#$b#I've been working on this for a while now, it's our own seed maker!$1",
 "GradyAttempt.01": "You just put the produce up top.$1",
 "GradyAttempt.02": "Uh-Oh",
@@ -5033,7 +4527,6 @@ Lyell's Events
 "GradyAttempt.11": "This isn't something to brush off Grady, please be more careful, Agapi?$2",
 "GradyAttempt.12": "And maybe...Do this work in the shed?$2#$b#It's getting way too smokey in here.$3",
 "GradyAttempt.13": "Yeah alright, I'll move production to the work shed.$2",
-
 "StoneIntroduction.00": "This rain...",
 "StoneIntroduction.01": "You just invited her to stay? Without even considering to ask me first?!$5",
 "StoneIntroduction.02": "Yeah, it's real bad.",
@@ -5055,7 +4548,6 @@ Lyell's Events
 "StoneIntroduction.18": "Oh gods, I better get home before she messes up everything.$5",
 "StoneIntroduction.19": "Oh no...This is going to be bad...$2",
 "StoneIntroduction.20": "What a tense family gathering...",
-
 "ThePotion.00": "Oh, if you're wanting to visit the shop, it's closed right now.$1#$b#Alan had some important duties to attend to.",
 "ThePotion.01": "#What are you up to?#What is that awful smell?",
 "ThePotion.02": "Oh, I'm practicing my potion and tonic mixing.$1#$b#I've never been good at getting the measurements right, but I think I really did well this time.",
@@ -5071,7 +4563,6 @@ Lyell's Events
 "ThePotion.12": "I am so sorry...$3#$b#I guess I still have way more to learn then I thought...I'll get you a drink, an actual drink, I hope it helps.$2",
 "ThePotion.13": "You've become sick, seek medical attention...",
 "ThePotion.14": "Oh...Well that's okay though, I understand why you wouldn't want to.$1#$b#I really have to get back to this though, maybe come visit another time and we can talk then.",
-
 "ResearchingRett.00": "@, hey it's Valerie.$1",
 "ResearchingRett.01": "Look into the crystal ball silly, I'm on my way okay. Don't go anywhere.",
 "ResearchingRett.02": "I'm so excited, I'm honestly shocked you were able to find it!",
@@ -5087,7 +4578,6 @@ Lyell's Events
 "ResearchingRett.12": "Thanks, I consider that a compliment.$5",
 "ResearchingRett.13": "Awful Child.",
 "ResearchingRett.14": "Valerie gave you the reward, but she asked you to leave the Stone residence...",
-
 "TheLostSoul.00": "Remind me again why we're forcing the spirit to reveal themselves?$2#$b#Don't you usually let them come to you?$5#$b#And why am I needed?$5",
 "TheLostSoul.01": "I need a second person to work as an anchor for me.$3#$b#I can sense this spirit's suffering, they’re missing enough of their humanity that they wouldn't be capable of contacting me on their own.$3#$b#Summoning a spirit that is missing humanity like this, it's dangerous.$2#$b#They could reach into me and take my spirit with them into the realm between life and the afterlife.$3",
 "TheLostSoul.02": "No way then, I can't let you do this.$5",
@@ -5105,7 +4595,6 @@ Lyell's Events
 "TheLostSoul.14": "I'm so sorry @...$3",
 "TheLostSoul.15": "You're probably feeling really light headed...Just rest for a bit and maybe you can tell me after it passes.$3",
 "TheLostSoul.16": "You tell Valerie everything, hopefully she can make sense of it.",
-
 "RettVisits.00": "@, finally I can talk to you...$2#$b#But not for long, I feel so weak.$3#$b#Please, join me in my memory...$3",
 "RettVisits.01": "That's me...It's been so long, I can't remember what exactly happened...$2#$b#But this is the night I left this realm.$3#$b#I can remember a serious pair of dark eyes...And the sparkle of a necklace...Of an amulet.$3#$b#I had been pushed and no one came.$3",
 "RettVisits.02": "I just wanted to feel better-The amulet was the key.$2",
@@ -5113,7 +4602,6 @@ Lyell's Events
 "RettVisits.04": "You hear a familiar voice, but can't make out the words...",
 "RettVisits.05": "Your ears fill with the sound of water.",
 "RettVisits.06": "You feel something in your hand...",
-
 "WillysInformation.00": "Thank you for coming Willy, I was hoping you would stop by soon.$3",
 "WillysInformation.01": "I couldn't deny such a kind-hearted visit...Even with the matter at hand.$2",
 "WillysInformation.02": "#Stay and listen.#Leave before you hear anything else.",
@@ -5137,7 +4625,6 @@ Lyell's Events
 "WillysInformation.20": "I'm taking Willy home now, you should head home too @. Before you get hurt out here, or worse.$3",
 "WillysInformation.21": "Maybe listening in was a bad idea...",
 "WillysInformation.22": "You don't know what was talked about, but no one can call you nosey.",
-
 "NightMarket.00": "Really?",
 "NightMarket.01": "Relax.",
 "NightMarket.02": "How about 10g?",
@@ -5159,7 +4646,6 @@ Lyell's Events
 "NightMarket.18": "It was hard when the family lost him...But, it was hardest on my mother.$3#$b#It's why she's so against me working with spirits...$2#$b#My father dabbled in the same things I do and one day he made a mistake and his soul was pulled into the afterlife by an angry spirit.$3",
 "NightMarket.19": "I know she's scared it'll happen to me too, that's why she's so unbearable about my work.$3#$b#But she won't stop me, I know what I'm doing...Way more then my father ever did, I think that's why I'm so determined to help Rett.$3#$b#I'm going to prove to her how skilled I really am...#$b#Maybe then she might be proud of me...$2",
 "NightMarket.20": "She's looking right at me...$6#$b#She's so beautiful.$4",
-
 "SummoningRett.00": "What?!",
 "SummoningRett.01": "What are you doing here, don't you know it's dangerous to be out in this weather!$3",
 "SummoningRett.02": "#What are you doing?#I'm sorry, I thought maybe I could help?",
@@ -5193,7 +4679,6 @@ Lyell's Events
 "SummoningRett.30": "I can't believe you agreed to not tell me about this.$5#$b#She could have gotten seriously hurt @, you need to take this more seriously.$3",
 "SummoningRett.31": "Whatever though.$5#$b#I...I need to find my mother...$3#$b#She's never acted like this before...My mom, she's hard headed but she's honest.$2#$b#She's never blatantly kept something from me before...I think...$3",
 "SummoningRett.32": "I hope she's okay...$2",
-
 "ConfessionsOfMother.00": "Evening Dezerie.",
 "ConfessionsOfMother.01": "Evening, Dr.Talon.",
 "ConfessionsOfMother.02": "Come on Roswell.",
@@ -5226,7 +4711,6 @@ Lyell's Events
 "ConfessionsOfMother.29": "It's not your fault!$3#$b#Rett could have just asked for help, but instead he chose a violent path.$3",
 "ConfessionsOfMother.30": "He's right, it's not your fault mom...$3#$b#I think with the full story...We can put Rett to rest, we can end this once and for all.$3",
 "ConfessionsOfMother.31": "I don't know what to say...Thank you, everyone.$7",
-
 "TheFamiliar.00": "Jingles...You must be more careful.$2#$b#You know better too, I can handle myself just fine.$2",
 "TheFamiliar.01": "But...Thank you for protecting me.$1",
 "TheFamiliar.02": "Oh, it's you...Hello @.#$b#I just returned from the deeper areas of the mines.#$b#You can find valuable resources down there, though I suggest bringing a weapon or even a companion.",
@@ -5235,7 +4719,6 @@ Lyell's Events
 "TheFamiliar.05": "There you go...",
 "TheFamiliar.06": "Thank you @.$1#$b#Hopefully next time she doesn't play the hero....I doubt it though, Jingles tends to jump between me and anything threatening.$2",
 "TheFamiliar.07": "I think she might like you now.$1#$b#It's time for us to head home though, I'm sure Jingles is just as tired as I am under all that affection and excitement.$1",
-
 "Betrayal.00":"@, you've come during my hour of reflection.$2#$b#But I suppose it's acceptable, since you are more of a friend than foe.$1",
 "Betrayal.01":"Friends are difficult to come by...Well, for me they are.$2",
 "Betrayal.02":"It used to be simple friendships, I thought I had well intentioned friends in the past.#$b#Now though, it's harder then ever to trust anyone.$2",
@@ -5252,13 +4735,10 @@ Lyell's Events
 "Betrayal.13":"Jingles!",
 "Betrayal.14":"You.$3#$b#Silly bird...$1#$b#There's no danger here...",
 "Betrayal.15":"I apologize for Jingles, she's very protective, as I said in the mines.$2#$b#I should take her home, before she tries that again.#$b#Farewell @, until next time.$1",
-
 "GiftFromDezerie.00": "I'm really happy you came @, I've been thinking about doing this for a while now.$1",
 "GiftFromDezerie.01": "Before Valerie was born, my late husband and I lived in this boat.#$b#But after the passing of my dear Trevor, I couldn't stand to live there any longer...So it has been sitting here ever since...#$b#Some people have wanted to buy it, but I keep...retracting...$2#$b#After we met though, I felt inspired to make it into something different and now that we're so close...$1#$b#I really want you to have this boat as a token of my friendship.$1#$b#I never thought I would have another friend in this world, but you proved me wrong...$1#$b#Thank you for that...$1#$b#Here' take these.$1",
 "GiftFromDezerie.02": "With these keys and deed, I now name you the owner @.$1",
 "GiftFromDezerie.03": "Take good care of her okay?",
-
-
 "ConfrontingRett.00": "Good, you're here.",
 "ConfrontingRett.01": "It's good to see you @.$1",
 "ConfrontingRett.02": "I hope this goes well...$5",
@@ -5325,9 +4805,7 @@ Lyell's Events
 "ConfrontingRett.63": "Oh Yoba...Now what do we do.$5",
 "ConfrontingRett.64": "Keep ourselves ready...We don't know if he'll come to hurt us in the future.$2",
 "ConfrontingRett.65": "I'm sorry mom...$3",
-/************************************************
-Alan's Events
-************************************************/
+///Alan's Events
 "TheTwins.00": "Honest!",
 "TheTwins.01": "I do want to believe you both, but...How do I know you're not trying to trick me again?$2#$b#Out of your sibling's, you two are the worst little prankster's around.$1",
 "TheTwins.02": "Believe us!",
@@ -5389,7 +4867,6 @@ Alan's Events
 "BoxysInjury.20": "It worked...I think...",
 "BoxysInjury.21": "People really need to keep their trash off the ground.$2#$b#I really should be going, I'm sort of late.$2#$b#I promised my mother I would help with some brewing today.$1",
 "BoxysInjury.22": "See you later.",
-
 "AlansAccident.00": "What the hell?",
 "AlansAccident.01": "Whoa!",
 "AlansAccident.02": "Alan! What happened!$3#$b#Grady!$3#$b#Outside! Now!$3",
@@ -5420,7 +4897,6 @@ Alan's Events
 "AlansAccident.27": "But...",
 "AlansAccident.28": "We'll pay for the damages ma'am, I promise you that.$2",
 "AlansAccident.29": "Yes, well...I sure hope so...$2#$b#Come now Alan, let's go inside.#$b#I think I've a spell to reverse at least the door being destoryed...$2",
-
 "GeorgesLift.00": "@! Welcome to the big reveal!$1#$b#Alan had this great idea to build a lift for George.$1#$b#Kid has a natural talent for engineering.$1",
 "GeorgesLift.01": "I only managed because of your help Grady.$1",
 "GeorgesLift.02": "Can we get this over with, I'm gonna miss my programs.$2",
@@ -5459,9 +4935,7 @@ Alan's Events
 "GeorgesLift.35": "We know Georgie, we're moving it.$1",
 "GeorgesLift.36": "Georgie?",
 "GeorgesLift.37": "Gah! Don't call me that!",
-/************************************************
-Thalia's Events
-************************************************/
+///Thalia's Events
 "ThaliaIntroduction.00": "Howdy @, I'm waiting for a friend arrive.$1#$b#She's coming from Tuuwe, Willy went and picked her up.$1",
 "ThaliaIntroduction.01": "Speak of evil!",
 "ThaliaIntroduction.02": "Lyell! It's so good to see you again!$1",
@@ -5472,5 +4946,4 @@ Thalia's Events
 "ThaliaIntroduction.07": "You're probably exhuasted, I already have your new home set up for you if you're ready to go settling in.$1",
 "ThaliaIntroduction.08": "I'd love that.$1",
 "ThaliaIntroduction.09": "I'll be seeing you @.",
-
 }

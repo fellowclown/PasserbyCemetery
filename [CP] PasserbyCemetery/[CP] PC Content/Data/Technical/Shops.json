@@ -611,6 +611,22 @@
 "{{ModID}}_MarketpaloozaOddCrow4",
 ]
 },
+{
+"Id":"Marketpalooza.FurnitureGroup3",
+"AvaliableStock":2,
+"TradeItemId":null,
+"AvailableStockLimit":"Player",
+"RandomItemId":[
+"{{ModID}}_TurtleHat",
+ "{{ModID}}_CatHat"
+ "{{ModID}}_ChickenHatBrown",
+"{{ModID}}_ChickenHatBlue",
+"{{ModID}}_ChickenHatWhite",
+"{{ModID}}_ChickenHatGroup",
+ "{{ModID}}_PinkPirateHat",
+"{{ModID}}_CaveFlowerHairPiece"
+]
+},
 ]
 }
 }
@@ -1565,6 +1581,24 @@
 "TradeItemAmount": 10,
 "ItemId": "{{ModID}}_TraditionalLantern",
 "AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                                                {
+"Id": "{{ModID}}_ArcaHat",
+"Condition": null,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 10,
+"ItemId": "{{ModID}}_ArcaHat",
+"AvailableStock":1,
+"AvailableStockLimit": "5"
+},
+                                                {
+"Id": "{{ModID}}_Shirt18",
+"Condition": null,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 20,
+"ItemId": "{{ModID}}_Shirt18",
+"AvailableStock":1,
 "AvailableStockLimit": "5"
 },
                                                 {
