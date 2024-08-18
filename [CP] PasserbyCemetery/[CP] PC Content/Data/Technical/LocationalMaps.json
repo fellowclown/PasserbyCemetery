@@ -1322,6 +1322,7 @@
 "Exhibit.Stairs": "{{i18n:Exhibit.Stairs}}",
 "GraveYard.CoffinOpened": "{{i18n:GraveYard.CoffinOpened}}",
 "StoneHome.AlanDoor": "{{i18n:StoneHome.AlanDoor}}",
+"GraveYard.TreeHouseSign": "{{i18n:GraveYard.TreeHouseSign}}",
 }
  },
 ]

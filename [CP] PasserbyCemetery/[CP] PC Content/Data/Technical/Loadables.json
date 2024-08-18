@@ -30,6 +30,7 @@ Load Character Event Sprite Assets
 "Target": "Portraits/FC.Kaia_FC.DateNight,Characters/FC.Kaia_FC.DateNight",
 "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Kaia/FC.DateNight.png", 
  },
+
 /************************************************
 Load TempActor Assets
 ************************************************/
@@ -45,13 +46,19 @@ Load TempActor Assets
 "Target": "Characters/FC.LyellRoswellCare",
 "FromFile": "Assets/Npcs/TempActors/{{TargetPathOnly}}/{{TargetWithoutPath}}_{{season}}.png",
 },
+{
+"LogName": "Shop Protraits",
+"Action": "Load",
+"Target": "Mods/{{ModID}}/FC.SunshineShop",
+"FromFile": "Assets/Npcs/TempActors/Portraits/{{TargetWithoutPath}}.png", 
+},
 /************************************************
 Load Empty Json 
 ************************************************/
 {
 "LogName": "Load Empty Json",
 "Action": "Load",
-"Target": "Data/Events/{{ModID}}_CottonsHome,Data/Events/{{ModID}}_LyellsProperty,Data/Events/{{ModID}}_LeslaHouse,Data/Events/{{ModID}}_StoneHouse,Characters/schedules/FC.Alan,strings/schedules/FC.Alan,Characters/schedules/FC.Dezerie,strings/schedules/FC.Dezerie,strings/schedules/FC.Valerie,Characters/schedules/FC.Valerie,Characters/Dialogue/MarriageDialogueFC.Valerie,Characters/Dialogue/FC.Dezerie,Characters/Dialogue/FC.Alan,Characters/Dialogue/FC.Valerie,Characters/schedules/FC.Kaia,strings/schedules/FC.Kaia,Characters/schedules/FC.Boxy,strings/schedules/FC.Boxy,strings/schedules/FC.Nikolai,Characters/schedules/FC.Nikolai,Data/Events/{{ModID}}_NiksRoom,Data/Events/{{ModID}}_LeslaProperty,Data/Events/{{ModID}}_BeeNursery,Characters/Dialogue/MarriageDialogueFC.Nikolai,Characters/Dialogue/FC.Boxy,Characters/Dialogue/FC.Kaia,Characters/Dialogue/FC.Nikolai,Data/Events/{{ModID}}_LyellsHouse,Data/Events/{{ModID}}_LyellsBarn,Data/Events/{{ModID}}_LyellsCoop,Data/Events/{{ModID}}_LyellsShed,strings/schedules/FC.Roswell,strings/schedules/FC.Lyell,strings/schedules/FC.Grady,Characters/schedules/FC.Roswell,Characters/schedules/FC.Lyell,Characters/schedules/FC.Grady,Characters/schedules/FC.Thalia,Characters/Dialogue/FC.Roswell,Characters/Dialogue/FC.Lyell,Characters/Dialogue/MarriageDialogueFC.Lyell,Characters/Dialogue/FC.Grady,Data/Events/{{ModID}}_SecretCave,Characters/schedules/FC.Zuuie,Strings/schedules/FC.Zuuie,Characters/schedules/FC.Maverick,Characters/Dialogue/FC.Zuuie,Characters/Dialogue/FC.Maverick,Data/Events/{{ModID}}_OldGraveYard,Data/Events/{{ModID}}_MavericksHouse,Data/Events/{{ModID}}_SecretCave,Data/Events/{{ModID}}_Exhibit,strings/schedules/FC.Cotton,Characters/schedules/FC.Cotton,Characters/Dialogue/MarriageDialogueFC.Cotton,Characters/Dialogue/FC.Cotton,strings/schedules/FC.Thalia,Characters/schedules/FC.Thalia,Characters/Dialogue/MarriageDialogueFC.Thalia,Characters/Dialogue/FC.Thalia,Characters/schedules/FC.Cotton",
+"Target": "Data/Events/{{ModID}}_AlansRoom,Data/Events/{{ModID}}_CottonsHome,Data/Events/{{ModID}}_LyellsProperty,Data/Events/{{ModID}}_LeslaHouse,Data/Events/{{ModID}}_StoneHouse,Characters/schedules/FC.Alan,strings/schedules/FC.Alan,Characters/schedules/FC.Dezerie,strings/schedules/FC.Dezerie,strings/schedules/FC.Valerie,Characters/schedules/FC.Valerie,Characters/Dialogue/MarriageDialogueFC.Valerie,Characters/Dialogue/FC.Dezerie,Characters/Dialogue/FC.Alan,Characters/Dialogue/FC.Valerie,Characters/schedules/FC.Kaia,strings/schedules/FC.Kaia,Characters/schedules/FC.Boxy,strings/schedules/FC.Boxy,strings/schedules/FC.Nikolai,Characters/schedules/FC.Nikolai,Data/Events/{{ModID}}_NiksRoom,Data/Events/{{ModID}}_LeslaProperty,Data/Events/{{ModID}}_BeeNursery,Characters/Dialogue/MarriageDialogueFC.Nikolai,Characters/Dialogue/FC.Boxy,Characters/Dialogue/FC.Kaia,Characters/Dialogue/FC.Nikolai,Data/Events/{{ModID}}_LyellsHouse,Data/Events/{{ModID}}_LyellsBarn,Data/Events/{{ModID}}_LyellsCoop,Data/Events/{{ModID}}_LyellsShed,strings/schedules/FC.Roswell,strings/schedules/FC.Lyell,strings/schedules/FC.Grady,Characters/schedules/FC.Roswell,Characters/schedules/FC.Lyell,Characters/schedules/FC.Grady,Characters/schedules/FC.Thalia,Characters/Dialogue/FC.Roswell,Characters/Dialogue/FC.Lyell,Characters/Dialogue/MarriageDialogueFC.Lyell,Characters/Dialogue/FC.Grady,Data/Events/{{ModID}}_SecretCave,Characters/schedules/FC.Zuuie,Strings/schedules/FC.Zuuie,Characters/schedules/FC.Maverick,Characters/Dialogue/FC.Zuuie,Characters/Dialogue/FC.Maverick,Data/Events/{{ModID}}_OldGraveYard,Data/Events/{{ModID}}_MavericksHouse,Data/Events/{{ModID}}_SecretCave,Data/Events/{{ModID}}_Exhibit,strings/schedules/FC.Cotton,Characters/schedules/FC.Cotton,Characters/Dialogue/MarriageDialogueFC.Cotton,Characters/Dialogue/FC.Cotton,strings/schedules/FC.Thalia,Characters/schedules/FC.Thalia,Characters/Dialogue/MarriageDialogueFC.Thalia,Characters/Dialogue/FC.Thalia,Characters/schedules/FC.Cotton",
 "FromFile": "Data/Empty.json",
 },
 
@@ -105,7 +112,7 @@ MEEP
           {
 // Loading old Image
 "Action": "Load",
-"Target": "{{ModID}}/Map,{{ModID}}/NikAndKaia,{{ModID}}/Painting,{{ModID}}/StoneRelic,{{ModID}}/Page01,{{ModID}}/Page02,{{ModID}}/Page03,{{ModID}}/Page04,{{ModID}}/MicahValerieAndDezerie,{{ModID}}/ValAndHec",
+"Target": "{{ModID}}/Map,{{ModID}}/Painting,{{ModID}}/StoneRelic,{{ModID}}/HalkiasPage01,{{ModID}}/HalkiasPage02,{{ModID}}/HalkiasPage03,{{ModID}}/HalkiasPage04,{{ModID}}/LeslaPage01,{{ModID}}/StonePage01",
 "FromFile": "Assets/Meep/{{TargetWithoutPath}}.png"
 },
   {

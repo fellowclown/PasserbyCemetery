@@ -52,13 +52,13 @@
                     "Layer": "Buildings",
                     "SetProperties": {
                          "Action": "MEEP_CloseupInteractionReel",
-                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Page01",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/HalkiasPage01",
                         "MEEP_CloseupInteraction_Text_1": "{{i18n:LyellHouse.Page01.01}}",
-                      "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Page02",
+                      "MEEP_CloseupInteraction_Image_2": "{{ModID}}/HalkiasPage02",
                         "MEEP_CloseupInteraction_Text_2": "{{i18n:LyellHouse.Page02.01}}",
-                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Page03",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/HalkiasPage03",
                         "MEEP_CloseupInteraction_Text_3": "{{i18n:LyellHouse.Page03.01}}",
-                          "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Page04",
+                          "MEEP_CloseupInteraction_Image_4": "{{ModID}}/HalkiasPage04",
                         "MEEP_CloseupInteraction_Text_4": "{{i18n:LyellHouse.Page04.01}}",
                         "MEEP_SetMailFlag": "HasSeenPhotoAlbum"
                     }
@@ -78,13 +78,13 @@
                     "Layer": "Buildings",
                     "SetProperties": {
                          "Action": "MEEP_CloseupInteractionReel",
-                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Page01",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/HalkiasPage01",
                         "MEEP_CloseupInteraction_Text_1": "{{i18n:LyellHouse.Page01.02}}",
-                         "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Page02",
+                         "MEEP_CloseupInteraction_Image_2": "{{ModID}}/HalkiasPage02",
                         "MEEP_CloseupInteraction_Text_2": "{{i18n:LyellHouse.Page02.02}}",
-                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Page03",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/HalkiasPage03",
                         "MEEP_CloseupInteraction_Text_3": "{{i18n:LyellHouse.Page03.02}}",
-                          "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Page04",
+                          "MEEP_CloseupInteraction_Image_4": "{{ModID}}/HalkiasPage04",
                         "MEEP_CloseupInteraction_Text_4": "{{i18n:LyellHouse.Page04.02}}",
                     }
                 }
@@ -138,26 +138,8 @@
     },
     "Layer": "Buildings",
     "SetProperties": {
- "Action": "MEEP_CloseupInteraction_Image {{ModID}}/NikAndKaia",
-"MEEP_CloseupInteraction_Text_1": "{{i18n:FC.NikAndKaia}}",   
-    }
-}
-]
-},
-{
-//  Tile Properties
-"Action": "EditMap",
-"Target": "Maps/{{ModID}}_StoneHouse",
-"MapTiles": [
-{
-    "Position": {
-"X": 17,
-"Y": 9
-    },
-    "Layer": "Buildings",
-    "SetProperties": {
- "Action": "MEEP_CloseupInteraction_Image {{ModID}}/ValAndHec",
-"MEEP_CloseupInteraction_Text_1": "{{i18n:FC.ValAndHec}}",   
+ "Action": "MEEP_CloseupInteraction_Image {{ModID}}/LeslaPage01",
+"MEEP_CloseupInteraction_Text_1": "{{i18n:FC.LeslaPage01}}",   
     }
 }
 ]
@@ -174,8 +156,8 @@
     },
     "Layer": "Buildings",
     "SetProperties": {
- "Action": "MEEP_CloseupInteraction_Image {{ModID}}/MicahValerieAndDezerie",
-"MEEP_CloseupInteraction_Text_1": "{{i18n:FC.MicahValerieAndDezerie}}",   
+ "Action": "MEEP_CloseupInteraction_Image {{ModID}}/StonePage01",
+"MEEP_CloseupInteraction_Text_1": "{{i18n:FC.StonePage01}}",   
     }
 }
 ]

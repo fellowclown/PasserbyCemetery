@@ -9,7 +9,6 @@ NoneChangingDialogue
 "Entries":{
 "Introduction":"{{i18n:Introduction.Zuuie}}",
 "HitBySlingshot":"{{i18n:HitBySlingshot.Zuuie}}",
-"cc_Complete":"{{i18n:cc_Complete.Zuuie}}",
 "reject_809":"{{i18n:reject_809.Zuuie}}",
 "GreenRainFinished": "{{i18n:GreenRainFinished.Zuuie}}",
 "GreenRain": "{{i18n:GreenRain.Zuuie}}",

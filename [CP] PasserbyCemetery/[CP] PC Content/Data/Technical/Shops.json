@@ -1842,7 +1842,8 @@
 "Fellowclown.GP_Shop": {
 "Owners": [
 {
-"Name": "None",
+"Name": "AnyOrNone",
+"Portrait": "Mods/{{ModID}}/FC.SunshineShop",
 "Dialogues": [
 // dialogue any other time
 {
@@ -1853,6 +1854,30 @@
 },
 ],
 "Items": [
+    {
+"Id": "{{ModID}}_StoneRelic",
+"ItemId": "{{ModID}}_StoneRelic",
+"Price": 3000,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_StoneRelic.Mail,PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+    {
+"Id": "{{ModID}}_LostJournal",
+"ItemId": "{{ModID}}_LostJournal",
+"Price": 3000,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_LostJournal.Mail,PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+    {
+"Id": "{{ModID}}_WalkMan",
+"ItemId": "{{ModID}}_WalkMan",
+"Price": 3000,
+"AvailableStock":1,
+"AvailableStockLimit": "player",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_WalkMan.Mail,PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
 {
 "Id": "{{ModID}}_StatueGem",
 "ItemId": "{{ModID}}_StatueGem",

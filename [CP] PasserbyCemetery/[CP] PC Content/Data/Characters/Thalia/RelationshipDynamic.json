@@ -1,0 +1,36 @@
+{
+"Changes": [
+{
+"Action": "EditData",
+"Target": "EnderTedi.Polyamory/PolyamoryData",
+"Entries": {
+"FC.Thalia": {
+"IsPolyamorous": true,
+"PositiveChemistry":
+[
+"Abigail",
+"Elliott",
+"Emily",
+"Haley",
+"Leah",
+"Maru",
+"Penny",
+"FC.Lyell",
+"FC.Barron",
+"FC.Cotton",
+"FC.Valerie",
+],
+"NegativeChemistry": [ 
+"Alex",
+"Harvey",
+"Sam",
+"Sebastian",
+"Shane",
+"FC.Nikolai",
+"FC.John",
+]
+},
+}
+}
+]
+}

@@ -51,7 +51,13 @@ Three Hearts
 /************************************************
 Five Hearts
 ************************************************/ 
-
+{
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_StoneHouse",
+"Entries" : {
+    "{{ModID}}_FamilyFight/t 1200 2300/f FC.Alan 1250/e {{ModID}}_GeorgesLift/A cc_Bus": "Crystal Bells/-1000 -1000/FC.Alan -3000 -3000 2 FC.Dezerie 10 21 3 farmer 7 24 0 FC.Valerie 18 10 3/viewport 10 21 clamp true/skippable/addConversationTopic FC.FamilyFight/pause 100000/end",
+ }
+      },
 /************************************************
 6 Hearts
 ************************************************/ 
