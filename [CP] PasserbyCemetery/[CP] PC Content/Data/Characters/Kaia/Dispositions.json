@@ -3,66 +3,71 @@
 /************************************************
 Dispositions 
 ************************************************/
-   {
+ {
 "LogName": "Kaia Dispositions",
 "Action": "EditData",
 "Target": "Data/Characters",
 "Entries": {
 "FC.Kaia": {
+///Basic Info
 "DisplayName":"{{i18n:FC.Kaia}}",
-"Breather": true,
 "Language":"Default",
 "Gender":"Female",
 "Age":"Adult",
 "Manner":"Polite",
 "SocialAnxiety":"Outgoing",
 "Optimism":"Positive",
-"BirthSeason":"summer",
-"Birthday":"12",
+"BirthSeason":"Summer",
+"BirthDay":12,
 "HomeRegion":"Town",
 "IsDarkSkinned":true,
+///Social Features
 "CanSocialize":true,
 "CanBeRomanced":false,
 "CanReceiveGifts":true,
-"CanCommentOnPurchasedShopItems":true,
+"CanCommentOnPurchasedShopItems":false,
 "CanGreetNearbyCharacters":true,
-"CanVisitIsland":"DAY_OF_WEEK Saturday",
+"CanVisitIsland": "DAY_OF_WEEK Saturday",
 "LoveInterest":null,
-"Calendar":"HiddenUntilMet",
-"SocialTab":"HiddenUntilMet",
-"SocialTabIconSourceRect":null,
+"Calendar": "HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
 "SpouseAdopts":null,
-"SpouseWantsChildren":null,
+"SpouseWantsChildren":false,
 "SpouseGiftJealousy":false,
-"IntroductionsQuest":"{{AddToPerfection}}",
-"PerfectionScore":"{{AddToPerfection}}",
-"ItemDeliveryQuests":true,
-"EndSlideShow":"TrailingGroup",
-"DumpsterDiveEmote":"28",
-"DumpsterDiveFriendshipEffect":"-3",
-"FlowerDanceCanDance":false,
-"KissSpriteIndex": 28,
-"HiddenProfileEmoteSound": null,
-"HiddenProfileEmoteDuration": -1,
-"HiddenProfileEmoteStartFrame": 37,
-"HiddenProfileEmoteFrameCount": 3,
-"HiddenProfileEmoteFrameDuration": 360.0,
-"ShakePortraits": [
-   7
-],
+"SpouseGiftJealousyFriendshipChange":-6,
 "SpouseRoom": {
 "MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 6,
+"Height": 9
+}
 },
-"SpousePatio":{
+"SpousePatio": {
 "MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 4,
+"Height": 4
+}
 },
-
-"SpouseFloors": [ 
-    ],
+"SpouseFloors": [],
 "SpouseWallpapers": [],
-"FriendsAndFamily": null,
+"IntroductionsQuest":"{{IncludeIntro}}",
+"ItemDeliveryQuests":true,
+"PerfectionScore":"{{IncludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"FriendsAndFamily":null,
+///Dumpster Diving
+"DumpsterDiveEmote":12,
+"DumpsterDiveFriendshipEffect":-5,
+///Festivals
+"FlowerDanceCanDance":false,
+"WinterStarParticipant":true,
 "WinterStarGifts": [
-    {
+{
         "Condition": null,
         "Id": "Default",
         "ItemId": null,
@@ -86,11 +91,31 @@ Dispositions
         "QualityModifiers": null,
         "QualityModifierMode": "Stack",
         "PerItemCondition": null
-      }
+      },
+      {
+"Condition": null,
+"Id": "{{ModID}}_WinterStarGifts",
+"ItemId": "RANDOM_ITEMS (O)",
+"RandomItemId": null,
+"MaxItems": null,
+"MinStack": -1,
+"MaxStack": -1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+"ModData": null,
+"PerItemCondition": null
+},
 ],
-"WinterStarParticipant": true,
-"UnlockConditions": null,
-"SpawnIfMissing": true,
+//Spawn Rules
+"UnlockConditions":null,
+"SpawnIfMissing":true,
 "Home": [
 {
 "Id": "Default",
@@ -103,6 +128,8 @@ Dispositions
 "Direction": "right"
 }
 ],
+///Appearance & Sprites
+"TextureName":null,
 "Appearance": [
       
  {
@@ -132,8 +159,28 @@ Dispositions
 "Precedence": -10,
 },
 ],
-}
-}
+"MugShotSourceRect": { "X": 0, "Y": 0, "Width": 16, "Height": 24 },
+"Size": { "X": 16, "Y": 32 },
+"Breather":false,
+"BreathChestRect":null,
+"BreathChestPosition":null,
+"Shadow":{ "Visible": true },
+"EmoteOffset": {},
+"ShakePortraits":[],
+"KissSpriteIndex":"46",
+"KissSpriteFacingDirection":null,
+///Hidden Gift Log Emote
+"HiddenProfileEmoteSound":null,
+"HiddenProfileEmoteDuration":-1,
+"HiddenProfileEmoteStartFrame":0,
+"HiddenProfileEmoteFrameCount":4,
+"HiddenProfileEmoteFrameDuration":200.0,
+///Advanced
+"CustomFields":{
 },
+"FormerCharacterNames": [],
+}
+}
+}
 ]
 }

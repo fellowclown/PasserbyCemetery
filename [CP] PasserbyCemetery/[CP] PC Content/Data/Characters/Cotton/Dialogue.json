@@ -7,6 +7,7 @@ NoneChangingDialogue
 "Action":"EditData",
 "Target":"Characters/Dialogue/FC.Cotton",
 "Entries":{
+"Introduction": "{{i18n:Introduction.Cotton}}",
 "AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Cotton}}",
 "divorced":"{{i18n:divorced.Cotton.{{Random:{{Range:1,6}}}}}}",
 "breakUp":"{{i18n:breakUp.Cotton}}",
@@ -105,7 +106,6 @@ DatingDialogue
 "Sun":"{{i18n:Sun.Cotton.Highheart.{{season}}}}",
 },
 "When":{
-"Hearts:FC.Thalia": "{{Range: 9, 10}}",
 "Relationship:FC.Cotton": "Dating" 
 
 }

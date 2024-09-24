@@ -1,0 +1,279 @@
+{
+"Changes": [
+   /************************************************
+ **  Dialogue Keys
+ ************************************************/ 
+  {
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/FC.John",
+  "Entries": {
+// Special Keys
+"Introduction": "{{i18n:Introduction.John}}",
+"danceRejection": "{{i18n:danceRejection.John}}",
+"divorced": "{{i18n:divorced.John.{{Random:{{Range: 1, 6}}}}}}",
+"breakUp": "{{i18n:breakUp.John}}",
+"AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.John}}",
+// RESORT
+"Resort_Entering": "{{i18n:Resort_Entering.John}}",
+"Resort_Leaving": "{{i18n:Resort_Leaving.John}}",
+"Resort_Shore": "{{i18n:Resort_Shore.John}}",
+"Resort_Umbrella": "{{i18n:Resort_Umbrella.John}}",
+"Resort_Wander": "{{i18n:Resort_Wander.John}}",
+"Resort_Bar": "{{i18n:Resort_Bar.John.}}",
+"Resort": "{{i18n:Resort.John}}",
+"Saloon_FC.John_RareGreeting": "Saloon_John_RareGreeting.John",
+"AcceptBirthdayGift_Loved": "{{i18n:AcceptBirthdayGift_Loved.John}}",
+"AcceptBirthdayGift_Liked": "{{i18n:AcceptBirthdayGift_Liked.John}}",
+"AcceptBirthdayGift_Disliked": "{{i18n:AcceptBirthdayGift_Disliked.John}}",
+"AcceptBirthdayGift_Hated": "{{i18n:AcceptBirthdayGift_Hated.John}}",
+"AcceptBirthdayGift_Neutral": "{{i18n:AcceptBirthdayGift_Neutral.John}}",
+"Fair_Judging": "{{i18n:Fair_Judging.John}}",
+"Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Fair_Judged_PlayerLost_PurpleShorts.John}}",
+"Fair_Judged_PlayerLost_Skipped": "{{i18n:Fair_Judged_PlayerLost_Skipped.John}}",
+"Fair_Judged_PlayerLost": "{{i18n:Fair_Judged_PlayerLost.John}}",
+"Fair_Judged_PlayerWon": "{{i18n:Fair_Judged_PlayerWon.John}}",
+"Fair_Judged": "{{i18n:Fair_Judged.John}}",
+"WinterStar_GiveGift_Before": "{{i18n:WinterStar_GiveGift_Before.John}}",
+"WinterStar_GiveGift_After": "{{i18n:WinterStar_GiveGift_After.John}}",
+"WinterStar_ReceiveGift": "{{i18n:WinterStar_ReceiveGift.John}}",
+"WinterStar_GiveGift_Before_Spouse": "{{i18n:WinterStar_GiveGift_Before_Spouse.John}}",
+"WinterStar_GiveGift_After_Spouse": "{{i18n:WinterStar_GiveGift_After_Spouse.John}}",
+"FlowerDance_Accept_Spouse": "{{i18n:FlowerDance_Accept_Spouse.John}}",
+"FlowerDance_Accept": "{{i18n:FlowerDance_Accept.John}}",
+"FlowerDance_Decline": "{{i18n:FlowerDance_Decline.John}}",
+"FC.John_AfterWedding": "{{i18n:John_AfterWedding.John}}",
+"FC.John_Engaged": "{{i18n:John_Engaged.John}}",
+"FC.John_Stardrop": "{{i18n:John_Stardrop.John}}",
+"RejectBouquet_NpcAlreadyMarried": "{{i18n:RejectBouquet_NpcAlreadyMarried.John}}",
+"RejectBouquet_Divorced": "{{i18n:RejectBouquet_Divorced.John}}",
+"RejectBouquet_VeryLowHeart": "{{i18n:RejectBouquet_VeryLowHeart.John}}",
+"RejectBouquet_LowHeart": "{{i18n:RejectBouquet_LowHeart.John}}",
+"AcceptBouquet": "{{i18n:AcceptBouquet.John}}",
+"HitBySlingshot": "{{i18n:HitBySlingshot.John}}",
+"DumpsterDiveComment": "{{i18n:DumpsterDiveComment.John}}",
+"reject_199": "{{i18n:John.reject_ParsnipSoup}}",
+"reject_24": "{{i18n:reject_Parship.John}}",
+"reject_472": "{{i18n:reject_ParshipSeeds.John}}",
+"AcceptGift_Fellowclown.TW_ArkaCoin": "{{i18n:John.accept_ArkaCoin}}",
+"AcceptGift_Fellowclown.TW_DragaWhiskey": "{{i18n:John.accept_DragaWhiskey}}",
+"AcceptGift_{{ModID}}_SeaglassFlowerDisplay": "{{i18n:John.accept_SeaglassFlowerDisplay}}",
+"AcceptGift_{{ModID}}_Seaglass": "{{i18n:GiftedSeaglass.John}}",
+"RejectMermaidPendant_Divorced": "{{i18n:RejectMermaidPendant_Divorced.John}}",
+"RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:RejectMermaidPendant_NeedHouseUpgrade.John}}",
+"RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:RejectMermaidPendant_NpcWithSomeoneElse.John}}",
+"RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:RejectMermaidPendant_PlayerWithSomeoneElse.John}}",
+"RejectMermaidPendant_Under8Hearts": "{{i18n:RejectMermaidPendant_Under8Hearts.John}}",
+"RejectMermaidPendant_Under10Hearts": "{{i18n:RejectMermaidPendant_Under10Hearts.John}}",
+"RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:RejectMermaidPendant_Under10Hearts_AskedAgain.John}}",
+"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:RejectMovieTicket_AlreadyInvitedBySomeoneElse.John}}",
+"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek.John}}",
+"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie.John}}",
+"RejectMovieTicket_Divorced": "{{i18n:RejectMovieTicket_Divorced.John}}",
+"RejectGift_Divorced": "{{i18n:RejectGift_Divorced.John}}",
+"MovieInvitation": "{{i18n:MovieInvitation.John}}",
+"SpouseGiftJealous": "{{i18n:SpouseGiftJealous.John}}",
+"Spouse_MonstersInHouse": "{{i18n:Spouse_MonstersInHouse.John}}",
+"SpouseFarmhouseClutter": "{{i18n:SpouseFarmhouseClutter.John}}",
+"AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:John.AcceptGift_(O)WWWA.AutographedPhoto}}",
+  }
+},
+
+       {
+            "LogName": "Dialogue - 0-4",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.John",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.John.LowHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.John.LowHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.John.LowHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.John.LowHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.John.LowHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.John.LowHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.John.LowHeart.{{season}}}}",
+"Saloon":"{{i18n:Saloon.John.LowHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.John": "{{Range: 0, 4}}" 
+}
+},
+  {
+            "LogName": "Dialogue - 5-8",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.John",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.John.MidHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.John.MidHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.John.MidHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.John.MidHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.John.MidHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.John.MidHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.John.MidHeart.{{season}}}}",
+"Saloon":"{{i18n:Saloon.Nikolai.MidHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.John": "{{Range: 5, 8}}" 
+}
+},
+  {
+            "LogName": "Dialogue - Dating",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.John",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.John.Highheart.{{season}}}}",
+"Tue": "{{i18n:Tue.John.Highheart.{{season}}}}",
+"Wed": "{{i18n:Wed.John.Highheart.{{season}}}}",
+"Thu": "{{i18n:Thu.John.Highheart.{{season}}}}",
+"Fri": "{{i18n:Fri.John.Highheart.{{season}}}}",
+"Sat": "{{i18n:Sat.John.Highheart.{{season}}}}",
+"Sun": "{{i18n:Sun.John.Highheart.{{season}}}}",
+"Saloon":"{{i18n:Saloon.Phoebe.HighHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.John": "{{Range: 9, 10}}" 
+}
+},
+  {
+            "LogName": "Dialogue - Dating",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.John",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.John.Highheart.{{season}}}}",
+"Tue": "{{i18n:Tue.John.Highheart.{{season}}}}",
+"Wed": "{{i18n:Wed.John.Highheart.{{season}}}}",
+"Thu": "{{i18n:Thu.John.Highheart.{{season}}}}",
+"Fri": "{{i18n:Fri.John.Highheart.{{season}}}}",
+"Sat": "{{i18n:Sat.John.Highheart.{{season}}}}",
+"Sun": "{{i18n:Sun.John.Highheart.{{season}}}}",
+"Saloon":"{{i18n:Saloon.Phoebe.HighHeart.{{season}}}}",
+},
+"When": {
+"Relationship:FC.John": "Dating" 
+}
+},
+        //Marriage Dialogue
+{
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/MarriageDialogueFC.John",
+  "Entries": {
+"patio_FC.John": "{{i18n:patio.John}}",
+"spouseRoom_FC.John": "{{i18n:spouseroom_John}}",
+"Rainy_Day_0": "{{i18n:Rainyday_0.John}}",
+"Rainy_Day_1": "{{i18n:Rainyday_1.John}}",
+"Rainy_Day_2": "{{i18n:Rainyday_2.John}}",
+"Rainy_Day_3": "{{i18n:Rainyday_3.John}}",
+"Rainy_Day_4": "{{i18n:Rainyday_4.John}}",
+"Rainy_Night_0": "{{i18n:Rainynight_0.John}}",
+"Rainy_Night_1": "{{i18n:Rainynight_1.John}}",
+"Rainy_Night_2": "{{i18n:Rainynight_2.John}}",
+"Rainy_Night_3": "{{i18n:Rainynight_3.John}}",
+"Rainy_Night_4": "{{i18n:Rainynight_4.John}}",
+"Rainy_Night_5": "{{i18n:Rainynight_5.John}}",
+"Indoor_Day_0": "{{i18n:IndoorDay_0.John}}",
+"Indoor_Day_1": "{{i18n:IndoorDay_1.John}}",
+"Indoor_Day_2": "{{i18n:IndoorDay_2.John}}",
+"Indoor_Day_3": "{{i18n:IndoorDay_3.John}}",
+"Indoor_Day_4": "{{i18n:IndoorDay_4.John}}",
+"Indoor_Night_0": "{{i18n:IndoorNight_0.John}}",
+"Indoor_Night_1": "{{i18n:IndoorNight_1.John}}",
+"Indoor_Night_2": "{{i18n:IndoorNight_2.John}}",
+"Indoor_Night_3": "{{i18n:IndoorNight_3.John}}",
+"Indoor_Night_4": "{{i18n:IndoorNight_4.John}}",
+"Outdoor_0": "{{i18n:Outdoor_0.John}}",
+"Outdoor_1": "{{i18n:Outdoor_1.John}}",
+"Outdoor_2": "{{i18n:Outdoor_3.John}}",
+"Outdoor_3": "{{i18n:Outdoor_3.John}}",
+"Outdoor_4": "{{i18n:Outdoor_4.John}}",
+"funLeave_FC.John": "{{i18n:funleave.John}}",
+"funReturn_FC.John": "{{i18n:funreturn.John}}",
+"jobLeave_FC.John": "{{i18n:jobleave.John}}",
+"jobReturn_FC.John": "{{i18n:jobreturn.John}}",
+"OneKid_0": "{{i18n:Onekids_0.John}}",
+"OneKid_1": "{{i18n:Onekids_1.John}}",
+"OneKid_2": "{{i18n:Onekids_2.John}}",
+"OneKid_3": "{{i18n:Onekids_3.John}}",
+"Twokids_0": "{{i18n:Twokids_0.John}}",
+"Twokids_1": "{{i18n:Twokids_1.John}}",
+"Twokids_2": "{{i18n:Twokids_2.John}}",
+"Twokids_3": "{{i18n:Twokids_3.John}}",
+"Good_0": "{{i18n:Good_0.John}}",
+"Good_1": "{{i18n:Good_1.John}}",
+"Good_2": "{{i18n:Good_2.John}}",
+"Good_3": "{{i18n:Good_3.John}}",
+"Good_4": "{{i18n:Good_4.John}}",
+"Good_5": "{{i18n:Good_5.John}}",
+"Good_6": "{{i18n:Good_6.John}}",
+"Good_7": "{{i18n:Good_7.John}}",
+"Good_8": "{{i18n:Good_8.John}}",
+"Good_9": "{{i18n:Good_9.John}}",
+"Neutral_0": "{{i18n:Neutral_0.John}}",
+"Neutral_2": "{{i18n:Neutral_2.John}}",
+"Neutral_3": "{{i18n:Neutral_3.John}}",
+"Neutral_4": "{{i18n:Neutral_4.John}}",
+"Neutral_5": "{{i18n:Neutral_5.John}}",
+"Neutral_6": "{{i18n:Neutral_6.John}}",
+"Neutral_7": "{{i18n:Neutral_7.John}}",
+"Neutral_8": "{{i18n:Neutral_8.John}}",
+"Neutral_9": "{{i18n:Neutral_9.John}}",
+"Bad_0": "{{i18n:Bad_0.John}}",
+"Bad_1": "{{i18n:Bad_1.John}}",
+"Bad_2": "{{i18n:Bad_2.John}}",
+"Bad_3": "{{i18n:Bad_3.John}}",
+"Bad_4": "{{i18n:Bad_4.John}}",
+"Bad_5": "{{i18n:Bad_5.John}}",
+"Bad_6": "{{i18n:Bad_6.John}}",
+"Bad_7": "{{i18n:Bad_7.John}}",
+"Bad_8": "{{i18n:Bad_8.John}}",
+"NoBed_0": "{{i18n:NoBed_0.John}}",
+}
+},
+    // Creates engagement dialgoue, you need this to marry them.Its set up for easy translation. The actual dialgoue goes into the translation file.
+ {
+"LogName": "Engagement Dialogue",
+"Action": "EditData",
+"Target": "Data/EngagementDialogue",
+"Entries": {
+"FC.John0": "{{i18n:John.engagement.0}}",
+"FC.John1": "{{i18n:John.engagement.1}}",
+
+}
+ },
+  /************************************************
+ ** Dialogues
+ ************************************************/
+  {
+"LogName": "Festival dialogue",
+"Action": "EditData",
+"Target": "Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/fall27,Data/Festivals/winter8,Data/Festivals/winter25",
+"Entries": {
+// show the first translation found from 'spring13.dating', 'spring13', or 'festival-default'
+"FC.John{{YearCheck}}": "{{i18n:John.{{TargetWithoutPath}}.{{Relationship:FC.John}} |default={{i18n:John.{{TargetWithoutPath}} |default={{i18n:John.festival-default}} }} }}",
+} 
+ },
+{
+"LogName": "Incoming Calls",
+"Action": "EditData",
+"Target": "Data/IncomingPhoneCalls",
+"Entries": {
+  "{{ModId}}_PhoneJohn": {
+"TriggerCondition": null,
+"RingCondition": null,
+"FromNpc": "FC.John",
+"FromPortrait": null,
+"FromDisplayName": null,
+"Dialogue": "{{i18n:John.PhoneCall.{{Random:1,2,3}}}}",
+"IgnoreBaseChance": false,
+"SimpleDialogueSplitBy": null,
+"MaxCalls": 100,
+"CustomFields": {}
+  }
+},
+     "When": {
+ "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
+}
+},
+]
+}

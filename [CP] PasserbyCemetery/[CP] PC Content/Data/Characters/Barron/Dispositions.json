@@ -1,0 +1,168 @@
+{
+"Changes": [
+
+ {
+"LogName": "Barron Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Barron": {
+///Basic Info
+"DisplayName":"{{i18n:FC.Barron}}",
+"Language":"Default",
+"Gender":"Female",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"Winter",
+"BirthDay":16,
+"HomeRegion":"Town",
+"IsDarkSkinned":true,
+///Social Features
+"CanSocialize":true,
+"CanBeRomanced":true,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland": true,
+"LoveInterest":null,
+"Calendar": "HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SpouseAdopts":null,
+"SpouseWantsChildren":true,
+"SpouseGiftJealousy":true,
+"SpouseGiftJealousyFriendshipChange":-1,
+"SpouseRoom": {
+"MapAsset": "{{ModID}}_BarronSpouseRoom",
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 6,
+"Height": 9
+}
+},
+"SpousePatio": {
+"MapAsset": "{{ModID}}_BarronPatio",
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 4,
+"Height": 4
+}
+},
+"SpouseFloors": [],
+"SpouseWallpapers": [],
+"IntroductionsQuest":"{{IncludeIntro}}",
+"ItemDeliveryQuests":true,
+"PerfectionScore":"{{IncludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"FriendsAndFamily":null,
+///Dumpster Diving
+"DumpsterDiveEmote":28,
+"DumpsterDiveFriendshipEffect":-3,
+///Festivals
+"FlowerDanceCanDance":true,
+"WinterStarParticipant":true,
+"WinterStarGifts": [
+{
+"Condition": null,
+"Id": "{{ModID}}_WinterStarGifts",
+"ItemId": "RANDOM_ITEMS (O)",
+"RandomItemId": null,
+"MaxItems": null,
+"MinStack": -1,
+"MaxStack": -1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+"ModData": null,
+"PerItemCondition": null
+},
+],
+//Spawn Rules
+"UnlockConditions":null,
+"SpawnIfMissing":true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_TravelingTrailerDecker",
+"Tile": {
+"X": 23,
+"Y": 12
+},
+"Direction": "right"
+}
+],
+///Appearance & Sprites
+"TextureName":null,
+ "Appearance": [
+      
+{
+"ID": "spring",
+"Condition": "SEASON Spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Barron/FC.Barron_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/FC.Barron_spring.png}}"
+},
+{
+"ID": "winter",
+"Condition": "SEASON Winter",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Barron/FC.Barron_winter.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/FC.Barron_winter.png}}"
+},
+{
+"ID": "SwimWear",
+"IsIslandAttire": true,
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Barron/SwimWear.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/SwimWear.png}}",
+"Precedence": -10,
+},
+{
+"ID": "flowerfestival",
+"Condition": "EVENT_ID festival_spring24",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Barron/Festivals/flower dance.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/Festivals/flower dance.png}}",
+"Precedence": -10,
+},
+{
+"ID": "spiritseve",
+"Condition": "EVENT_ID festival_fall3",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Barron/Festivals/spirit's eve.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Barron/Festivals/spirit's eve.png}}",
+"Precedence": -10,
+},
+    ],
+"MugShotSourceRect": { "X": 7, "Y": 0, "Width": 16, "Height": 24 },
+"Size": { "X": 32, "Y": 32 },
+"Breather":false,
+"BreathChestRect":null,
+"BreathChestPosition":null,
+"Shadow":{ "Visible": true },
+"EmoteOffset": { "X": -35, "Y": 30 },
+"ShakePortraits":[],
+"KissSpriteIndex":"28",
+"KissSpriteFacingDirection":null,
+///Hidden Gift Log Emote
+"HiddenProfileEmoteSound":null,
+"HiddenProfileEmoteDuration":-1,
+"HiddenProfileEmoteStartFrame":0,
+"HiddenProfileEmoteFrameCount":4,
+"HiddenProfileEmoteFrameDuration":200.0,
+///Advanced
+"CustomFields":{
+"poohnhi.PoohCore/WideCharacter": "true",
+"poohnhi.PoohCore/HighCharacter": "true",
+},
+"FormerCharacterNames": [],
+}
+}
+}
+]
+}

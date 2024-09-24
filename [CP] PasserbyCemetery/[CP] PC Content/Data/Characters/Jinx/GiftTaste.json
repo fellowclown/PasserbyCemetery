@@ -1,0 +1,15 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Jinx": "{{i18n:Jinx.gift.love}}/139 140 142/{{i18n:Jinx.gift.like}}/143 144 145/{{i18n:Jinx.gift.dislike}}/146 147/{{i18n:Jinx.gift.hate}}/148/{{i18n:Jinx.gift.neutral}}/150/ ",
+}
+ },
+]
+}

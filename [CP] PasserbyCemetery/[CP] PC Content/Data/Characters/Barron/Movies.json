@@ -1,0 +1,272 @@
+{
+    "Changes": [
+
+ ///John Movie reactions and dialogue
+  //spring_movie_0 Brave Little Sapling - family, comedy
+//spring_movie_1 NAtural Wonders - documentary, family
+//summer_movie_0 Prairie King - action
+//summer_movie_1 Wumbus - sci-fi, comedy, family
+//fall_movie_0 Mysterium - horror, art
+//fall_movie_1 Howls in the rain - horror
+//winter_movie_0 Miracle at Coldstar Ranch - family, romance
+//winter_movie_1 Zuzu City Express - classic, romance
+
+ {
+"Action": "EditData",
+"Target": "Data/ConcessionTastes",
+"Entries": { 
+"FC.Barron": {
+ "Name": "FC.Barron",
+"LovedTags": [ "Apple Slices", "Jasmine Tea" ],
+ "LikedTags": [ "Ice Cream Sandwich" ],
+ "DislikedTags": [ "fatty" ]
+}
+}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/MoviesReactions",
+    "Entries": {
+"FC.Barron": { //Substitute with your NPC's internal name.
+    "NPCName": "FC.Barron", //Substitute with your NPC's internal name.
+    "Reactions": [
+{
+"Tag": "spring_movie_0", //Brave Little Sapling
+"Response": "love", //Responses are love/like/hate.
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": { //What the NPC says in the lobby.
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.0.before}}"
+},
+"DuringMovie": { //What the NPC says during the actual movie. You can change ResponsePoint to a specific part of the movie to react to.
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:BarrBarronon.movies.0.during}}",
+},
+"AfterMovie": { //What the NPC says in the lobby after the movie.
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.0.after}}"
+}
+},
+"ID": "spring0_4" //Each reaction has its own ID. But since I've done this for you, you shouldn't need to change it. I hope.
+
+//Repeat for the other movies.
+
+},
+{
+"Tag": "spring_movie_1", //Natural Wonders
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": { 
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.1.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.1.during}}"
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.1.after}}"
+}
+},
+"ID": "spring0_6"
+},
+{
+"Tag": "summer_movie_0", //Prairie King
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.2.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "",
+"Text": "{{i18n:Barron.movies.2.during}}",
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.2.after}}"
+} 
+},
+"ID": "summer0_3"
+},
+{
+"Tag": "summer_movie_1", //Wumbus
+"Response": "hate",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.3.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.3.during}}",
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.3.after}}" 
+}
+
+},
+"ID": "summer0_2"
+},
+{
+"Tag": "fall_movie_0", //Mysterium
+"Response": "hate",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.4.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.4.during}}",
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.4.after}}"
+}
+},
+"ID": "fall0_4"
+},
+{
+"Tag": "fall_movie_1", //It Howls In The Rain
+"Response": "love", 
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": "",
+"Text": "{{i18n:Barron.movies.5.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.6.during}}",
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": "",
+"Text": "{{i18n:Barron.movies.5.after}}"
+}
+},
+"ID": "fall0_6",
+},
+{
+"Tag": "winter_movie_0", //Miracle At Coldstar Ranch
+"Response": "like",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.6.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "/message \"{{i18n:Barron.movies.6.during}}\"/",
+"Text": ""
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.6.after}}"
+}
+},
+"ID": "winter0_8",
+    },
+    {
+"Tag": "winter_movie_1", //Zuzu City Express
+"Response": "hate",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.7.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "/message \"{{i18n:Barron.movies.7.during}}\"/",
+"Text": null
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.7.after}}"
+}
+},
+"ID": "winter0_5",
+    },
+ {
+"Tag": "{{ModID}}_SpiritOfLife", //Spirit Of Life
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.8.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "/message \"{{i18n:Barron.movies.8.during}}\"/",
+"Text": null
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.8.after}}"
+}
+},
+"ID": "winter0_4",
+    },
+              {
+"Tag": "{{ModID}}_BeyondGotoro", //_BeyondGotoro
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.9.before}}"
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script": "/message \"{{i18n:Barron.movies.9.during}}\"/",
+"Text": null
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": "{{i18n:Barron.movies.9.after}}"
+}
+},
+"ID": "fall0_3",
+    }
+ ]
+  }
+}
+},
+]
+}

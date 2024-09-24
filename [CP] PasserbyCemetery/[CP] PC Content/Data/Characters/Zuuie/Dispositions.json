@@ -3,29 +3,39 @@
  /************************************************
 NPCSPAWNS
 ************************************************/
+
  {
 "LogName": "Zuuie Dispositions",
 "Action": "EditData",
 "Target": "Data/Characters",
 "Entries": {
 "FC.Zuuie": {
-"DisplayName": "{{i18n:FC.Zuuie}}",
-"CanBeRomanced": false,
-"LoveInterest": null,
-"BirthSeason":"winter",
-"Birthday":"1",
-"Calendar": "HiddenAlways",
-"SocialTab": "HiddenAlways",
-"SocialTabIconSourceRect": null,
-"CanSocialize": true,
-"CanReceiveGifts": true,
-"CanGreetNearbyCharacters": true,
-"CanCommentOnPurchasedShopItems": false,
+///Basic Info
+"DisplayName":"{{i18n:FC.Zuuie}}",
+"Language":"Default",
+"Gender":"Female",
+"Age":"Child",
+"Manner":"Polite",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"Spring",
+"BirthDay":1,
+"HomeRegion":"Town",
+"IsDarkSkinned":true,
+///Social Features
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":true,
 "CanVisitIsland": false,
-"IntroductionsQuest": false,
-"ItemDeliveryQuests": false,
-"PerfectionScore": false,
-"EndSlideShow": "TrailingGroup",
+"LoveInterest":null,
+"Calendar": "HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SpouseAdopts":null,
+"SpouseWantsChildren":false,
+"SpouseGiftJealousy":false,
+"SpouseGiftJealousyFriendshipChange":0,
 "SpouseRoom": {
 "MapAsset": null,
 "MapSourceRect": {
@@ -38,17 +48,29 @@ NPCSPAWNS
 "SpousePatio": {
 "MapAsset": null,
 "MapSourceRect": {
-},
-"SpriteAnimationFrames": [],
-"SpriteAnimationPixelOffset": {}
+"X": 0,
+"Y": 0,
+"Width": 4,
+"Height": 4
+}
 },
 "SpouseFloors": [],
 "SpouseWallpapers": [],
+"IntroductionsQuest":"{{IncludeIntro}}",
+"ItemDeliveryQuests":false,
+"PerfectionScore":"{{IncludePerfection}}",
+"EndSlideShow":"TrailingGroup",
 "FriendsAndFamily":null,
+///Dumpster Diving
+"DumpsterDiveEmote":28,
+"DumpsterDiveFriendshipEffect":-5,
+///Festivals
+"FlowerDanceCanDance":false,
+"WinterStarParticipant":false,
 "WinterStarGifts": [],
-"WinterStarParticipant": false,
-"UnlockConditions": null,
-"SpawnIfMissing": true,
+//Spawn Rules
+"UnlockConditions":null,
+"SpawnIfMissing":true,
 "Home": [
 {
 "Id": "Default",
@@ -61,7 +83,8 @@ NPCSPAWNS
 "Direction": "down"
 }
 ],
-"TextureName": null,
+///Appearance & Sprites
+"TextureName":null,
 "Appearance": [
  {
 "ID": "{{ModID}}.Zuuie_spring",
@@ -88,23 +111,28 @@ NPCSPAWNS
 "Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Zuuie/FC.Zuuie_winter.png}}"
 },
 ],
-"Size": {
-"X": 16,
-"Y": 32
+"MugShotSourceRect": { "X": 0, "Y": 0, "Width": 16, "Height": 24 },
+"Size": { "X": 16, "Y": 32 },
+"Breather":false,
+"BreathChestRect":null,
+"BreathChestPosition":null,
+"Shadow":{ "Visible": true },
+"EmoteOffset": {},
+"ShakePortraits":[],
+"KissSpriteIndex":"28",
+"KissSpriteFacingDirection":null,
+///Hidden Gift Log Emote
+"HiddenProfileEmoteSound":null,
+"HiddenProfileEmoteDuration":-1,
+"HiddenProfileEmoteStartFrame":0,
+"HiddenProfileEmoteFrameCount":4,
+"HiddenProfileEmoteFrameDuration":200.0,
+///Advanced
+"CustomFields":{
 },
-"Breather": false,
-"ShakePortraits": [
-],
-"KissSpriteIndex": 42,
-"KissSpriteFacingRight": 52,
-"HiddenProfileEmoteSound": null,
-"HiddenProfileEmoteDuration": -1,
-"HiddenProfileEmoteStartFrame": 16,
-"HiddenProfileEmoteFrameCount": 4,
-"HiddenProfileEmoteFrameDuration": 200.0,
-"CustomFields": {},
+"FormerCharacterNames": [],
 }
 }
-},
+}
 ]
 }

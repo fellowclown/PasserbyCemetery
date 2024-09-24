@@ -1,0 +1,89 @@
+{
+"Changes": [
+   /************************************************
+ **  Dialogues
+ ************************************************/ 
+ {
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/FC.Amanda",
+  "Entries": {
+// Special Keys
+"Introduction": "{{i18n:Introduction.Amanda}}",
+"AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Amanda}}",
+"Saloon_FC.Amanda_RareGreeting": "Saloon_Amanda_RareGreeting.Amanda",
+"AcceptBirthdayGift_Loved": "{{i18n:AcceptBirthdayGift_Loved.Amanda}}",
+"AcceptBirthdayGift_Liked": "{{i18n:AcceptBirthdayGift_Liked.Amanda}}",
+"AcceptBirthdayGift_Disliked": "{{i18n:AcceptBirthdayGift_Disliked.Amanda}}",
+"AcceptBirthdayGift_Hated": "{{i18n:AcceptBirthdayGift_Hated.Amanda}}",
+"AcceptBirthdayGift_Neutral": "{{i18n:AcceptBirthdayGift_Neutral.Amanda}}",
+"HitBySlingshot": "{{i18n:HitBySlingshot.Amanda}}",
+"DumpsterDiveComment": "{{i18n:DumpsterDiveComment.Amanda}}",
+"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:RejectMovieTicket_AlreadyInvitedBySomeoneElse.Amanda}}",
+"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek.Amanda}}",
+"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie.Amanda}}",
+"MovieInvitation": "{{i18n:MovieInvitation.Amanda}}",
+"AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Amanda.AcceptGift_(O)WWWA.AutographedPhoto}}",
+
+  }
+},
+
+       {
+            "LogName": "Dialogue - 0-4",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.Amanda",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Amanda.LowHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Amanda.LowHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Amanda.LowHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Amanda.LowHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Amanda.LowHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Amanda.LowHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Amanda.LowHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Amanda": "{{Range: 0, 4}}" 
+}
+},
+  {
+            "LogName": "Dialogue - 5-8",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.Amanda",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Amanda.MidHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Amanda.MidHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Amanda.MidHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Amanda.MidHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Amanda.MidHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Amanda.MidHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Amanda.MidHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Amanda": "{{Range: 5, 10}}" 
+}
+},
+{
+"LogName": "Incoming Calls",
+"Action": "EditData",
+"Target": "Data/IncomingPhoneCalls",
+"Entries": {
+  "{{ModID}}_PhoneAmanda": {
+"TriggerCondition": null,
+"RingCondition": null,
+"FromNpc": "FC.Amanda",
+"FromPortrait": null,
+"FromDisplayName": null,
+"Dialogue": "{{i18n:Amanda.PhoneCall.{{Random:1,2,3}}}}",
+"IgnoreBaseChance": false,
+"SimpleDialogueSplitBy": null,
+"MaxCalls": 100,
+"CustomFields": {}
+  }
+},
+     "When": {
+ "HasSeenEvent |contains={{ModID}}_AmandasIntroduction": true,
+}
+},
+]
+}

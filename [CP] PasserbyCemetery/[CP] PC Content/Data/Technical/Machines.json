@@ -1,5 +1,40 @@
 {
   "Changes": [
+    {
+      "LogName": "smoked Gem Bird",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)FishSmoker",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_GemBirdMeat": {
+          "Id": "{{ModID}}_GemBirdMeat",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_GemBirdMeat",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "{{ModID}}_SmokedGemBirdMeat",
+              "ItemId": "{{ModID}}_SmokedGemBirdMeat"
+            }
+          ],
+          "MinutesUntilReady": 180
+        },
+      },
+        
+      "MoveEntries": [
+        {
+          "Id": "{{ModID}}_GemBirdMeat",
+          "BeforeId": "SmokedFish"
+        },
+      ]
+    },
       {
       "LogName": "TropaWine",
       "Action": "EditData",
@@ -15,7 +50,7 @@
             {
               "Trigger": "ItemPlacedInMachine",
               "RequiredItemId": "{{ModID}}_VoidFruit",
-              "RequiredCount": 3
+              "RequiredCount": 1
             }
           ],
           "OutputItem": [
@@ -254,6 +289,150 @@
       "MoveEntries": [
         {
           "Id": "{{ModID}}_LargeGouudCheese",
+          "BeforeId": "Default_LargeGoatMilk"
+        }
+      ]
+    },
+    {
+      "LogName": "aged Galeabison Large Cheese",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)163",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_AgedLargeGaleabisonCheese": {
+          "Id": "{{ModID}}_AgedLargeGaleabisonCheese",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_LargeGaleabisonCheese",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+            "Id": "{{ModID}}_AgedLargeGaleabisonCheese",
+            "ItemId": "{{ModID}}_AgedLargeGaleabisonCheese",
+        
+          }
+        ],
+        "MinutesUntilReady": -1,
+        "DaysUntilReady": 5,
+        "InvalidCountMessage": null,
+        "RecalculateOnCollect": false
+  }
+},
+    "MoveEntries": [
+        {
+          "Id": "{{ModID}}_AgedLargeGaleabisonCheese",
+          "BeforeId": "Wine"
+        }
+      ]
+    },
+{
+      "LogName": "aged Galeabison Small Cheese",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)163",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_AgedSmallGaleabisonCheese": {
+          "Id": "{{ModID}}_AgedSmallGaleabisonCheese",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_SmallGaleabisonCheese",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+            "Id": "{{ModID}}_AgedSmallGaleabisonCheese",
+            "ItemId": "{{ModID}}_AgedSmallGaleabisonCheese",
+        
+          }
+        ],
+        "MinutesUntilReady": -1,
+        "DaysUntilReady": 5,
+        "InvalidCountMessage": null,
+        "RecalculateOnCollect": false
+  }
+},
+    "MoveEntries": [
+        {
+          "Id": "{{ModID}}_AgedSmallGaleabisonCheese",
+          "BeforeId": "Wine"
+        }
+      ]
+  },
+        {
+      "LogName": "Galeabison Large Cheese",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)16",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_SmallGaleabisonCheese": {
+          "Id": "{{ModID}}_SmallGaleabisonCheese",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_SmallGaleabisonMilk",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "{{ModID}}_SmallGaleabisonCheese",
+              "ItemId": "{{ModID}}_SmallGaleabisonCheese"
+            }
+          ],
+          "MinutesUntilReady": 1800
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "{{ModID}}_SmallGaleabisonCheese",
+          "BeforeId": "Default_LargeGoatMilk"
+        }
+      ]
+    },
+    {     
+     "LogName": "Galeabison Large Cheese",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)16",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_LargeGaleabisonCheese": {
+          "Id": "{{ModID}}_LargeGaleabisonCheese",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_LargeGaleabisonMilk",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "{{ModID}}_LargeGaleabisonCheese",
+              "ItemId": "{{ModID}}_LargeGaleabisonCheese"
+            }
+          ],
+          "MinutesUntilReady": 1800
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "{{ModID}}_LargeGaleabisonCheese",
           "BeforeId": "Default_LargeGoatMilk"
         }
       ]

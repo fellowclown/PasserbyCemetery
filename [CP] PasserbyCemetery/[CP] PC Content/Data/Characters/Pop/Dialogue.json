@@ -1,0 +1,74 @@
+{
+"Changes": [
+   /************************************************
+ **  Dialogues
+ ************************************************/ 
+         {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/FC.Popper",
+      "Entries": {
+        // Speical Keys
+"Introduction": "{{i18n:intro.Popper}}",
+"Resort_Entering": "{{i18n:Resort_Entering.Popper}}",
+"Resort_Leaving": "{{i18n:Resort_Leaving.Popper}}",
+"Resort_Shore": "{{i18n:Resort_Shore.Popper}}",
+"Resort_Umbrella": "{{i18n:Resort_Umbrella.Popper}}",
+"Resort_Wander": "{{i18n:Resort_Wander.Popper}}",
+"Resort_Bar": "{{i18n:Resort_Bar.Popper}}",
+"Resort": "{{i18n:Resort.Popper}}",
+"reject_809": "{{i18n:reject_809.Popper}}",
+"reject_116": "{{i18n:Popper.reject_116}}",
+"AcceptGift_Fellowclown.TW_ArkaCoin": "{{i18n:Popper.accept_ArkaCoin}}",
+"reject_Fellowclown.TW_DragaWhiskey": "{{i18n:Popper.reject_Fellowclown.TW_DragaWhiskey}}",
+"AcceptGift_91": "{{i18n:Popper.AcceptGift_91}}",
+"AcceptGift_{{ModID}}_Button": "{{i18n:Popper.AcceptGift_Button}}",
+"DumpsterDiveComment": "{{i18n:DumpsterDiveComment.Popper}}",
+"RejectBouquet_NotDatable": "{{i18n:RejectBouquet_NotDatable.Popper}}",
+"HitBySlingshot": "{{i18n:HitBySlingshot.Popper}}",
+"AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Popper}}",
+/// Eveyday Dialogue
+"Mon": "{{i18n:mon.Popper.{{season}}}}",
+"Tue": "{{i18n:tue.Popper.{{season}}}}",    
+"Wed": "{{i18n:wed.Popper.{{season}}}}",
+"Thu": "{{i18n:thu.Popper.{{season}}}}",
+"Fri": "{{i18n:fri.Popper.{{season}}}}",
+"Sat": "{{i18n:sat.Popper.{{season}}}}",
+"Sun": "{{i18n:sun.Popper.{{season}}}}",
+      }
+        },
+  /************************************************
+ ** Dialogues
+ ************************************************/
+  {
+"LogName": "Festival dialogue",
+"Action": "EditData",
+"Target": "Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/fall27,Data/Festivals/winter8,Data/Festivals/winter25",
+"Entries": {
+// show the first translation found from 'spring13.dating', 'spring13', or 'festival-default'
+"FC.Popper{{YearCheck}}": "{{i18n:Popper.{{TargetWithoutPath}}.{{Relationship:FC.Popper}} |default={{i18n:Popper.{{TargetWithoutPath}} |default={{i18n:Popper.festival-default}} }} }}",
+} 
+ },
+{
+"LogName": "Incoming Calls",
+"Action": "EditData",
+"Target": "Data/IncomingPhoneCalls",
+"Entries": {
+  "{{ModId}}_PhonePopper": {
+"TriggerCondition": null,
+"RingCondition": null,
+"FromNpc": "FC.Popper",
+"FromPortrait": null,
+"FromDisplayName": null,
+"Dialogue": "{{i18n:Popper.PhoneCall.{{Random:1,2,3}}}}",
+"IgnoreBaseChance": false,
+"SimpleDialogueSplitBy": null,
+"MaxCalls": 100,
+"CustomFields": {}
+  }
+},
+     "When": {
+ "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": true,
+}
+},
+]
+}

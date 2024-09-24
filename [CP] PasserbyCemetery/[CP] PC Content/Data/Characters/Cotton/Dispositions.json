@@ -3,80 +3,74 @@
 /************************************************
 Dispositions 
 ************************************************/
+
  {
 "LogName": "Cotton Dispositions",
 "Action": "EditData",
 "Target": "Data/Characters",
 "Entries": {
 "FC.Cotton": {
+///Basic Info
 "DisplayName":"{{i18n:FC.Cotton}}",
-"Breather": true,
 "Language":"Default",
 "Gender":"Male",
 "Age":"Adult",
 "Manner":"Rude",
 "SocialAnxiety":"Outgoing",
-"Optimism":"Positive",
-"BirthSeason":"summer",
-"Birthday":"4",
+"Optimism":"Negative",
+"BirthSeason":"Summer",
+"BirthDay":4,
 "HomeRegion":"Town",
 "IsDarkSkinned":false,
+///Social Features
 "CanSocialize":true,
 "CanBeRomanced":true,
 "CanReceiveGifts":true,
 "CanCommentOnPurchasedShopItems":false,
-"CanGreetNearbyCharacters":true,
-"CanVisitIsland":false,
+"CanGreetNearbyCharacters":false,
+"CanVisitIsland": false,
 "LoveInterest":null,
-"Calendar":"HiddenUntilMet",
-"SocialTab":"HiddenUntilMet",
-"SocialTabIconSourceRect":null,
+"Calendar": "HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
 "SpouseAdopts":null,
 "SpouseWantsChildren":true,
 "SpouseGiftJealousy":true,
-"IntroductionsQuest":false,
-"PerfectionScore":false,
-"ItemDeliveryQuests":true,
-"EndSlideShow":"TrailingGroup",
-"DumpsterDiveEmote":"28",
-"DumpsterDiveFriendshipEffect":"-1",
-"FlowerDanceCanDance":false,
-"KissSpriteIndex": 28,
-"HiddenProfileEmoteSound": null,
-"HiddenProfileEmoteDuration": -1,
-"HiddenProfileEmoteStartFrame": 37,
-"HiddenProfileEmoteFrameCount": 3,
-"HiddenProfileEmoteFrameDuration": 360.0,
-"ShakePortraits": [
-   7
-],
+"SpouseGiftJealousyFriendshipChange":-10,
 "SpouseRoom": {
-"MapAsset": "{{ModID}}_CottonSpouseRoom"
+"MapAsset": "{{ModID}}_CottonSpouseRoom",
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 6,
+"Height": 9
+}
 },
-"SpousePatio":{
+"SpousePatio": {
 "MapAsset": "{{ModID}}_CottonPatio",
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 4,
+"Height": 4
+}
 },
-
-"SpouseFloors": [ 
-      "2",
-      "1",
-      "3",
-      "2",
-      "3",
-      "2",
-      "6",
-      "6",
-      "1",
-      "0",
-      "7"
-  ],
+"SpouseFloors": [],
 "SpouseWallpapers": [],
-"FriendsAndFamily": null,
-"WinterStarGifts": [
-],
-"WinterStarParticipant": false,
-"UnlockConditions": null,
-"SpawnIfMissing": true,
+"IntroductionsQuest":false,
+"ItemDeliveryQuests":false,
+"PerfectionScore":false,
+"EndSlideShow":"TrailingGroup",
+"FriendsAndFamily":null,
+///Dumpster Diving
+"DumpsterDiveEmote":12,
+"DumpsterDiveFriendshipEffect":-2,
+///Festivals
+"FlowerDanceCanDance":false,
+"WinterStarParticipant":false,
+"WinterStarGifts": [],
+//Spawn Rules
+"UnlockConditions":null,
+"SpawnIfMissing":true,
 "Home": [
 {
 "Id": "Default",
@@ -89,6 +83,8 @@ Dispositions
 "Direction": "right"
 }
 ],
+///Appearance & Sprites
+"TextureName":null,
 "Appearance": [  
  {
 "ID": "{{ModID}}_Cotton",
@@ -96,8 +92,27 @@ Dispositions
 "Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Cotton/FC.Cotton.png}}"
 },
 ],
+"MugShotSourceRect": { "X": 0, "Y": 0, "Width": 16, "Height": 24 },
+"Size": { "X": 16, "Y": 32 },
+"Breather":false,
+"BreathChestRect":null,
+"BreathChestPosition":null,
+"Shadow":{ "Visible": true },
+"EmoteOffset": {},
+"ShakePortraits":[],
+"KissSpriteIndex":"28",
+"KissSpriteFacingDirection":null,
+///Hidden Gift Log Emote
+"HiddenProfileEmoteSound":null,
+"HiddenProfileEmoteDuration":-1,
+"HiddenProfileEmoteStartFrame":0,
+"HiddenProfileEmoteFrameCount":4,
+"HiddenProfileEmoteFrameDuration":200.0,
+///Advanced
+"CustomFields":{},
+"FormerCharacterNames": [],
 }
 }
-},
+}
 ]
 }

@@ -1,0 +1,188 @@
+{
+"Changes": [
+
+ {
+"LogName": "John Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.John": {
+///Basic Info
+"DisplayName":"{{i18n:FC.John}}",
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Shy",
+"Optimism":"Positive",
+"BirthSeason":"Fall",
+"BirthDay":17,
+"HomeRegion":"Town",
+"IsDarkSkinned":true,
+///Social Features
+"CanSocialize":true,
+"CanBeRomanced":true,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland": true,
+"LoveInterest":null,
+"Calendar": "HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SpouseAdopts":null,
+"SpouseWantsChildren":true,
+"SpouseGiftJealousy":true,
+"SpouseGiftJealousyFriendshipChange":-6,
+"SpouseRoom": {
+"MapAsset": "{{ModID}}_JohnSpouseRoom",
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 6,
+"Height": 9
+}
+},
+"SpousePatio": {
+"MapAsset": "{{ModID}}_JohnPatio",
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 4,
+"Height": 4
+}
+},
+"SpouseFloors": [],
+"SpouseWallpapers": [],
+"IntroductionsQuest":"{{IncludeIntro}}",
+"ItemDeliveryQuests":true,
+"PerfectionScore":"{{IncludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"FriendsAndFamily":null,
+///Dumpster Diving
+"DumpsterDiveEmote":12,
+"DumpsterDiveFriendshipEffect":-5,
+///Festivals
+"FlowerDanceCanDance":true,
+"WinterStarParticipant":true,
+"WinterStarGifts": [
+{
+"Condition": null,
+"Id": "{{ModID}}_WinterStarGifts",
+"ItemId": "RANDOM_ITEMS (O)",
+"RandomItemId": null,
+"MaxItems": null,
+"MinStack": -1,
+"MaxStack": -1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+"ModData": null,
+"PerItemCondition": null
+},	
+],
+//Spawn Rules
+"UnlockConditions":null,
+"SpawnIfMissing":true,
+"Home": [
+{
+"Id": "Default",
+"Condition": "!PLAYER_HAS_MAIL current {{ModID}}_Temple.Mail",
+"Location": "{{ModID}}_JohnsTempRoom",
+"Tile": {
+"X": 3,
+"Y": 7
+},
+"Direction": "right"
+},
+{
+"Id": "MovedToTempleJohn",
+"Condition": "PLAYER_HAS_MAIL current {{ModID}}_Temple.Mail",
+"Location": "{{ModID}}_Temple",
+"Tile": { "X": 15, "Y": 8 
+},
+"Direction": "down"
+},
+],
+///Appearance & Sprites
+"TextureName":null,
+"Appearance": [
+{
+"ID": "spring",
+"Condition": "SEASON Spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/FC.John_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/FC.John_spring.png}}"
+},
+{
+"ID": "winter",
+"Condition": "SEASON Winter",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/FC.John_winter.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/FC.John_winter.png}}"
+},
+{
+"ID": "eggfestival",
+"Condition": "EVENT_ID festival_spring13",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/Festivals/egg festival.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/Festivals/egg festival.png}}",
+"Precedence": -10,
+
+},
+{
+"ID": "flowerfestival",
+"Condition": "EVENT_ID festival_spring24",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/Festivals/flower dance.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/Festivals/flower dance.png}}",
+"Precedence": -10,
+},
+{
+"ID": "spiritseve",
+"Condition": "EVENT_ID festival_fall3",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/Festivals/spirit's eve.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/Festivals/spirit's eve.png}}",
+"Precedence": -10,
+},
+{
+"ID": "SwimWear",
+"IsIslandAttire": true,
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/FC.John_SwimWear.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/FC.John_SwimWear.png}}",
+"Precedence": -10,
+},
+{
+"ID": "JohnJob",
+"Condition": "LOCATION_NAME Here {{ModID}}_Temple", 
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.John/FC.John_Job.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.John/FC.John_Job.png}}",
+"Precedence": -10,
+},
+],
+"MugShotSourceRect": { "X": 0, "Y": 0, "Width": 16, "Height": 24 },
+"Size": { "X": 16, "Y": 32 },
+"Breather":false,
+"BreathChestRect":null,
+"BreathChestPosition":null,
+"Shadow":{ "Visible": true },
+"EmoteOffset": {},
+"ShakePortraits":[],
+"KissSpriteIndex":46,
+"KissSpriteFacingDirection":null,
+///Hidden Gift Log Emote
+"HiddenProfileEmoteSound":null,
+"HiddenProfileEmoteDuration":-1,
+"HiddenProfileEmoteStartFrame":0,
+"HiddenProfileEmoteFrameCount":4,
+"HiddenProfileEmoteFrameDuration":200.0,
+///Advanced
+"CustomFields":{
+},
+"FormerCharacterNames": [],
+}
+}
+}
+ ]
+}

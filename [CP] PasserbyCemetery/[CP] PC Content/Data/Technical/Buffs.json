@@ -6,6 +6,12 @@
             "Entries":
             {
                 "(O){{ModID}}_EternalEmbraceRing": { "BuffIdToApply": "{{ModID}}_EternalEmbraceRing.Buff" },
+                "(O){{ModID}}_BehatedRing": { "BuffIdToApply": "{{ModID}}_BehatedRing.Buff" },
+                "(O){{ModID}}_BullsFuryRing": { "BuffIdToApply": "{{ModID}}_BullsFuryRing.Buff" },
+                "(O){{ModID}}_TheStingerRing": { "BuffIdToApply": "{{ModID}}_TheStingerRing.Buff" },
+                "(O){{ModID}}_VoidlingRing": { "BuffIdToApply": "{{ModID}}_VoidlingRing.Buff" },
+                "(O){{ModID}}_ShellRing": { "BuffIdToApply": "{{ModID}}_ShellRing.Buff" },
+
             },
 
         },
@@ -24,14 +30,6 @@
         },
         {
             "Action": "EditData",
-            "Target": "spacechase0.SpaceCore/WearableData",
-            "Entries":
-            {
-                "(O){{ModID}}_BehatedRing": { "BuffIdToApply": "{{ModID}}_BehatedRing.Buff" },
-              }
-        },
-        {
-            "Action": "EditData",
             "Target": "Data/Buffs",
             "Entries":
             {
@@ -42,14 +40,6 @@
                     "Effects": { "Attack": 3 }
                 }
             }
-        },
-        {
-            "Action": "EditData",
-            "Target": "spacechase0.SpaceCore/WearableData",
-            "Entries":
-            {
-                "(O){{ModID}}_BullsFuryRing": { "BuffIdToApply": "{{ModID}}_BullsFuryRing.Buff" },
-              }
         },
         {
             "Action": "EditData",
@@ -67,14 +57,6 @@
                 }
             }
         },
-            {
-            "Action": "EditData",
-            "Target": "spacechase0.SpaceCore/WearableData",
-            "Entries":
-            {
-                "(O){{ModID}}_TheStingerRing": { "BuffIdToApply": "{{ModID}}_TheStingerRing.Buff" },
-              }
-        },
         {
             "Action": "EditData",
             "Target": "Data/Buffs",
@@ -91,14 +73,6 @@
                 }
             }
         },
-               {
-            "Action": "EditData",
-            "Target": "spacechase0.SpaceCore/WearableData",
-            "Entries":
-            {
-                "(O){{ModID}}_ShellRing": { "BuffIdToApply": "{{ModID}}_ShellRing.Buff" },
-              }
-        },
         {
             "Action": "EditData",
             "Target": "Data/Buffs",
@@ -114,14 +88,6 @@
                      }
                 }
             }
-        },
-                       {
-            "Action": "EditData",
-            "Target": "spacechase0.SpaceCore/WearableData",
-            "Entries":
-            {
-                "(O){{ModID}}_VoidlingRing": { "BuffIdToApply": "{{ModID}}_VoidlingRing.Buff" },
-              }
         },
         {
             "Action": "EditData",

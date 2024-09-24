@@ -71,7 +71,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Kaia 20 33 2",
+                    "Value": "FC.Kaia 17 29 2",
                     "Delimiter": "/"
                 },
                      {
@@ -80,7 +80,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Kaia 20 33 2",
+                    "Value": "FC.Kaia 17 29 2",
                     "Delimiter": "/"
                 },
             
@@ -100,7 +100,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Kaia 16 33 2",
+                    "Value": "FC.Kaia 17 29 2",
                     "Delimiter": "/",
                 },
                      {
@@ -109,7 +109,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Kaia 16 33 2",
+                    "Value": "FC.Kaia 17 29 2",
                     "Delimiter": "/"
                 },
         ]
@@ -212,7 +212,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Kaia 24 74 0",
+                    "Value": "FC.Kaia 46 89 1",
                     "Delimiter": "/"
                 },
                      {
@@ -221,7 +221,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Kaia 24 74 0",
+                    "Value": "FC.Kaia 46 89 1",
                     "Delimiter": "/"
                  },
         ]

@@ -35,42 +35,6 @@
                 }
                 ]
                 },
-            {
-        "Action": "EditMap",
-            "Target": "Maps/{{ModID}}_LyellsProperty",
-            "MapTiles": [
-                {
-                    "Position": {
-                        "X": 42,
-                        "Y": 50
-                    },
-                    "Layer": "Paths",
-                    "SetIndex": "34",
-                    "SetProperties": {
-                        "SpawnTree": "wild {{ModID}}_LyellsReuuTree"
-                    }
-                }
-                ]
-
-                },
-     {
-        "Action": "EditMap",
-            "Target": "Maps/{{ModID}}_LyellsProperty",
-            "MapTiles": [
-                {
-                    "Position": {
-                        "X": 45,
-                        "Y": 50
-                    },
-                    "Layer": "Paths",
-                    "SetIndex": "34",
-                    "SetProperties": {
-                        "SpawnTree": "wild {{ModID}}_LyellsReuuTree"
-                     }
-                }
-                ]
-
-                },
   {
             "Action": "EditData",
             "Target": "Data/FruitTrees",
@@ -84,10 +48,13 @@
                         }
                     ],
                     "Texture": "Mods/{{ModID}}/Trees",
-                    "TextureSpriteRow": 0
-                }
-            }
-        },
+                    "TextureSpriteRow": 0,
+         "CustomFields": {
+      "ClownSharpAnimalSpawner": "{{ModID}}_Zoot"
+    }
+  },
+}
+},
                 {
             "Action": "EditData",
             "Target": "Data/WildTrees",

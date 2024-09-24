@@ -1,0 +1,211 @@
+{
+    "Changes": [
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+                           "When": {
+          "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 34 71 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 34 71 1",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+           {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+                            "When": {
+          "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 6 18 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 9 18 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+               {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+                           "When": {
+          "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 15 34 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 15 34 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+                   {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+                     "When": {
+          "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 15 34 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 15 34 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+                   {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3",
+                       "When": {
+          "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 9 15 2",
+                    "Delimiter": "/"
+                },
+                                 {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 9 15 2",
+                    "Delimiter": "/",
+        },
+        ]
+    },
+                       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+                   "When": {
+          "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 55 95 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+                   {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+                             "When": {
+          "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 94 20 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 94 20 1",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+                    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+                             "When": {
+          "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 40 73 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 40 73 1",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+  ]
+}

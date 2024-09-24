@@ -7,19 +7,15 @@
     "Areas": [
       {
         "SpringItemIndex": [
-          "Fellowclown.PC_ArcaCoin",
           "Fellowclown.PC_HeavyRoot"
         ],
         "SummerItemIndex": [
-          "Fellowclown.PC_ArcaCoin",
           "Fellowclown.PC_FairyFingers"
         ],
         "FallItemIndex": [
-          "Fellowclown.PC_ArcaCoin",
           "Fellowclown.PC_FireSnapper"
         ],
         "WinterItemIndex": [
-          "Fellowclown.PC_ArcaCoin",
           "Fellowclown.PC_StoneShroom"
         ],
         "UniqueAreaID": "Fellowclown.PC_OldGraveYard forage area 1",
@@ -57,19 +53,15 @@
       },
       {
         "SpringItemIndex": [
-          "Fellowclown.PC_ArcaCoin",
           "Fellowclown.PC_HeavyRoot"
         ],
         "SummerItemIndex": [
-          "Fellowclown.PC_ArcaCoin",
           "Fellowclown.PC_FairyFingers"
         ],
         "FallItemIndex": [
-          "Fellowclown.PC_ArcaCoin",
           "Fellowclown.PC_FireSnapper"
         ],
         "WinterItemIndex": [
-          "Fellowclown.PC_ArcaCoin",
           "Fellowclown.PC_StoneShroom"
         ],
         "UniqueAreaID": "Forest forage area 1",
@@ -354,8 +346,8 @@
           {
             "MonsterName": "Ghost",
             "Settings": {
-              "SpawnWeight": 5,
-              "HP": 800,
+              "SpawnWeight": 3,
+              "HP": 550,
               "Damage": 30,
               "Defense": 10,
               "EXP": 35,

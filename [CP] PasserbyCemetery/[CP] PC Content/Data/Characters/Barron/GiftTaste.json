@@ -1,0 +1,26 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Barron": "{{i18n:Barron.gift.love}}/Fellowclown.TD_GemBirdPatties 60 84 208/{{i18n:Barron.gift.like}}/211 307 340/{{i18n:Barron.gift.dislike}}/399 403 416/{{i18n:Barron.gift.hate}}/426 445 542/{{i18n:Barron.gift.neutral}}/346 350/ ",
+}
+ },
+   {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+             "When": {
+"HasMod |contains=TheFrenchDodo.RodneyOBrien": true,
+ },
+"Entries": {
+"FC.Barron": "{{i18n:Barron.gift.love}}/(O)WWWA.AutographedPhoto Fellowclown.TD_GemBirdPatties 60 84 208/{{i18n:Barron.gift.like}}/211 307 340/{{i18n:Barron.gift.dislike}}/399 403 416/{{i18n:Barron.gift.hate}}/426 445 542/{{i18n:Barron.gift.neutral}}/346 350/ ",
+}
+ },
+]
+}

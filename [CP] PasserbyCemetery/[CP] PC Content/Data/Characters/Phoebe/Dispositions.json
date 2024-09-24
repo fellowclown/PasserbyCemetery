@@ -1,0 +1,161 @@
+{
+"Changes": [
+ 
+ {
+"LogName": "Phoebe Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Phoebe": {
+///Basic Info
+"DisplayName":"{{i18n:FC.Phoebe}}",
+"Language":"Default",
+"Gender":"Female",
+"Age":"Adult",
+"Manner":"Rude",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"Summer",
+"BirthDay":6,
+"HomeRegion":"Town",
+"IsDarkSkinned":true,
+///Social Features
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland": "DAY_OF_WEEK Saturday",
+"LoveInterest":null,
+"Calendar": "HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SpouseAdopts":null,
+"SpouseWantsChildren":true,
+"SpouseGiftJealousy":true,
+"SpouseGiftJealousyFriendshipChange":-1,
+"SpouseRoom": {
+"MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 6,
+"Height": 9
+}
+},
+"SpousePatio": {
+"MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 4,
+"Height": 4
+}
+},
+"SpouseFloors": [],
+"SpouseWallpapers": [],
+"IntroductionsQuest":"{{IncludeIntro}}",
+"ItemDeliveryQuests":true,
+"PerfectionScore":"{{IncludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"FriendsAndFamily":null,
+///Dumpster Diving
+"DumpsterDiveEmote":12,
+"DumpsterDiveFriendshipEffect":-5,
+///Festivals
+"FlowerDanceCanDance":false,
+"WinterStarParticipant":true,
+"WinterStarGifts": [
+{
+"Condition": null,
+"Id": "{{ModID}}_WinterStarGifts",
+"ItemId": "RANDOM_ITEMS (O)",
+"RandomItemId": null,
+"MaxItems": null,
+"MinStack": -1,
+"MaxStack": -1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+"ModData": null,
+"PerItemCondition": null
+},
+],
+//Spawn Rules
+"UnlockConditions":null,
+"SpawnIfMissing":true,
+"Home": [
+{
+"Id": "WaitingRoomDefault",
+"Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PhoebesIntroduction",
+"Location": "{{ModID}}_TravelingTrailer",
+"Tile": {
+"X": -3000,
+"Y": -3000
+},
+"Direction": "right"
+},
+{
+"Id": "DefaultHome",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PhoebesIntroduction",
+"Location": "{{ModID}}_TravelingTrailerDecker",
+"Tile": {
+"X": 23,
+"Y": 16
+},
+"Direction": "right"
+}
+],
+///Appearance & Sprites
+"TextureName":null,
+"Appearance": [
+    {
+"ID": "{{ModID}}.Phoebe_spring",
+"Season": "spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Phoebe/FC.Phoebe_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Phoebe/FC.Phoebe_spring.png}}"
+},
+{
+"ID": "{{ModID}}.Phoebe_winter",
+"Season": "winter",
+"Portrait": "{{InternalAssetKey:Assets/Npcs/Portraits/FC.Phoebe/FC.Phoebe_winter.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Phoebe/FC.Phoebe_winter.png}}"
+},
+{
+"ID": "{{ModID}}.Phoebe_SwimWear",
+"IsIslandAttire": true,
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Phoebe/FC.Phoebe_SwimWear.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Phoebe/FC.Phoebe_SwimWear.png}}",
+"Precedence": -10,
+},
+],
+"MugShotSourceRect": { "X": 0, "Y": 5, "Width": 16, "Height": 24 },
+"Size": { "X": 16, "Y": 32 },
+"Breather":false,
+"BreathChestRect":null,
+"BreathChestPosition":null,
+"Shadow":{ "Visible": true },
+"EmoteOffset": {},
+"ShakePortraits":[],
+"KissSpriteIndex":"28",
+"KissSpriteFacingDirection":null,
+///Hidden Gift Log Emote
+"HiddenProfileEmoteSound":null,
+"HiddenProfileEmoteDuration":-1,
+"HiddenProfileEmoteStartFrame":0,
+"HiddenProfileEmoteFrameCount":4,
+"HiddenProfileEmoteFrameDuration":200.0,
+///Advanced
+"CustomFields":{
+},
+"FormerCharacterNames": [],
+}
+}
+}
+]
+}

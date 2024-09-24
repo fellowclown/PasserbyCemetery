@@ -10,6 +10,8 @@
           "Seasons": [
       "Winter"
     ],
+"YearModulus": 2,
+"YearRemainder": 1,
           "Texture": "{{InternalAssetKey: Assets/Movies/SOL.png}}",
           "SheetIndex": 0,
           "Title": "{{i18n:SpiritOfLife.Title}}",
@@ -52,7 +54,7 @@
               "Text": "{{i18n:SpiritOfLife.Title}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "winter0_1"
+              "Id": "SOL0_1"
             },  
          
             {
@@ -64,7 +66,7 @@
               "Text": "{{i18n:SpiritOfLife.Scene.1}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "winter0_2"
+              "Id": "SOL0_2"
             },   
     
             {
@@ -76,7 +78,7 @@
               "Text": "{{i18n:SpiritOfLife.Scene.2}}",
               "Shake": false,
               "ResponsePoint": "",
-              "Id": "winter0_3"
+              "Id": "SOL0_3"
             },    
             {
               "Image": 1,
@@ -87,7 +89,7 @@
               "Text": "{{i18n:SpiritOfLife.Scene.3}}",
               "Shake": false,
               "ResponsePoint": "",
-              "Id": "winter0_4"
+              "Id": "SOL0_4"
             },   
             {
               "Image": 2,
@@ -98,7 +100,7 @@
               "Text": ".{{i18n:SpiritOfLife.Scene.4}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "winter0_5"
+              "Id": "SOL0_5"
             }, 
             {
               "Image": 2,
@@ -109,7 +111,7 @@
               "Text": "{{i18n:SpiritOfLife.Scene.5}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "winter0_6"
+              "Id": "SOL0_6"
             }, 
             {
               "Image": 3,
@@ -120,7 +122,7 @@
               "Text": "{{i18n:SpiritOfLife.Scene.6}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "winter0_7"
+              "Id": "SOL0_7"
             },
       
              {
@@ -132,7 +134,7 @@
               "Text": "{{i18n:SpiritOfLife.Scene.7}}",
               "Shake": true,
               "ResponsePoint": null,
-              "Id": "winter0_8"
+              "Id": "SOL0_8"
             },
       
                   {
@@ -144,7 +146,7 @@
               "Text": "{{i18n:SpiritOfLife.Scene.8}}",
               "Shake": true,
               "ResponsePoint": null,
-              "Id": "winter0_9"
+              "Id": "SOL0_9"
             },
     
                   {
@@ -156,7 +158,7 @@
               "Text": "{{i18n:SpiritOfLife.Scene.9}}",
               "Shake": true,
               "ResponsePoint": null,
-              "Id": "winter0_10"
+              "Id": "SOL0_10"
             },
              {
               "Image": 6,
@@ -167,7 +169,7 @@
               "Text": "{{i18n:SpiritOfLife.Scene.10}}",
               "Shake": true,
               "ResponsePoint": null,
-              "Id": "winter0_11"
+              "Id": "SOL0_11"
             },
 
                   {
@@ -179,7 +181,7 @@
               "Text": "{{i18n:SpiritOfLife.Scene.11}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "winter0_12"
+              "Id": "SOL0_12"
             },
       
                   {
@@ -191,7 +193,7 @@
               "Text": "{{i18n:SpiritOfLife.Scene.12}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "winter0_13"
+              "Id": "SOL0_13"
             },
       
                      {
@@ -203,7 +205,7 @@
               "Text": "{{i18n:SpiritOfLife.Scene.13}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "winter0_14"
+              "Id": "SOL0_14"
             },
           ],
           "CustomFields": {}
@@ -219,6 +221,8 @@
           "Seasons": [
       "Fall"
     ],
+          "YearModulus": 3,
+          "YearRemainder": 1,
           "Texture": "{{InternalAssetKey: Assets/Movies/BG.png}}",
           "SheetIndex": 0,
           "Title": "{{i18n:BeyondGotoro.Title}}",
@@ -238,7 +242,7 @@
               "Text": "{{i18n:BeyondGotoro.Scene.1}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "fall0_1"
+              "Id": "BG0_1"
             },  
                 {
               "Image": 1,
@@ -249,7 +253,7 @@
               "Text": "{{i18n:BeyondGotoro.Scene.2}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "fall0_2"
+              "Id": "BG0_2"
             }, 
                 {
               "Image": 2,
@@ -260,7 +264,7 @@
               "Text": "{{i18n:BeyondGotoro.Scene.3}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "fall0_3"
+              "Id": "BG0_3"
             }, 
                      {
               "Image": 3,
@@ -271,7 +275,7 @@
               "Text": "{{i18n:BeyondGotoro.Scene.4}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "fall0_4"
+              "Id": "BG0_4"
             }, 
                        {
               "Image": 4,
@@ -282,7 +286,7 @@
               "Text": "{{i18n:BeyondGotoro.Scene.5}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "fall0_5"
+              "Id": "BG0_5"
             },
                        {
               "Image": 5,
@@ -293,7 +297,7 @@
               "Text": "{{i18n:BeyondGotoro.Scene.6}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "fall0_6"
+              "Id": "BG0_6"
             },  
                        {
               "Image": 6,
@@ -304,7 +308,7 @@
               "Text": "{{i18n:BeyondGotoro.Scene.7}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "fall0_7"
+              "Id": "BG0_7"
             }, 
                        {
               "Image":7,
@@ -315,7 +319,7 @@
               "Text": "{{i18n:BeyondGotoro.Scene.8}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "fall0_1"
+              "Id": "BG0_1"
             }, 
                        {
               "Image": 8,
@@ -326,7 +330,7 @@
               "Text": "{{i18n:BeyondGotoro.Scene.9}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "fall0_8"
+              "Id": "BG0_8"
             }, 
                        {
               "Image": 9,
@@ -337,7 +341,7 @@
               "Text": "{{i18n:BeyondGotoro.Scene.10}}",
               "Shake": false,
               "ResponsePoint": null,
-              "Id": "fall0_9"
+              "Id": "BG0_9"
             }, 
           ],
           "CustomFields": {}

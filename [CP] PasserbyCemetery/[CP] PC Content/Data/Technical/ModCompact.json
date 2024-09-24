@@ -123,6 +123,24 @@
           "FC.Thalia": {
             "MarkerCropOffset": 4,
         },
+              "FC.Barron": {
+            "MarkerCropOffset": 320,
+        },
+         "FC.Jinx": {
+            "MarkerCropOffset": 224,
+        },
+         "FC.Jinx": {
+            "MarkerCropOffset": 160,
+        },
+         "FC.Popper": {
+            "MarkerCropOffset": 16,
+        },
+          "FC.Phoebe": {
+            "MarkerCropOffset": 5,
+        },
+             "FC.Boxy": {
+            "MarkerCropOffset": 15,
+        },
     }
 },
    ]

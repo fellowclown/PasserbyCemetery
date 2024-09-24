@@ -1,0 +1,15 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Phoebe": "{{i18n:Phoebe.gift.love}}/Fellowclown.TD_GemBirdPatties 86 90 110/{{i18n:Phoebe.gift.like}}/149 202 205/{{i18n:Phoebe.gift.dislike}}/215 218 224/{{i18n:Phoebe.gift.hate}}/239 397 307/{{i18n:Phoebe.gift.neutral}}/303 346/",
+}
+ },
+]
+}

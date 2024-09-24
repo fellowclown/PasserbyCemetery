@@ -1,5 +1,12 @@
 {
     "Changes": [
+        {
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Robin,Characters/Dialogue/Marnie,Characters/Dialogue/Jodi,Characters/Dialogue/Harvey",
+  "Entries": {
+"FC.FaintingIncident": "{{i18n:FaintingIncident.{{TargetWithoutPath}}}}",
+  }
+},
 {
 "Action": "EditData",
 "Priority": "Late",
@@ -11,9 +18,9 @@
 },
  "When": {
 "Query: {{Random: {{Range: 1,10}}}} = 1": true,
- }
+}
 },
-   {
+{
 "Action": "EditData",
 "Target": "strings/StringsFromCSFiles",
 "Entries": {
@@ -28,6 +35,9 @@
 "Relationship:FC.Valerie": "Engaged, Married",
 "Relationship:FC.Cotton": "Engaged, Married",
 "Relationship:FC.Thalia": "Engaged, Married",
+"Relationship:FC.John": "Engaged, Married",
+"Relationship:FC.Barron": "Engaged, Married",
+"Relationship:FC.Alan": "Engaged, Married",
 }
 },
 /************************************************
@@ -36,10 +46,10 @@ NoneChangingDialogue
 {
 "LogName": "Custom Conversation Topics",
 "Action":"EditData",
-"Target":"Characters/Dialogue/FC.Alan,Characters/Dialogue/FC.Cotton,Characters/Dialogue/FC.Dezerie,Characters/Dialogue/FC.Kaia,Characters/Dialogue/FC.Lyell,Characters/Dialogue/FC.Maverick,Characters/Dialogue/FC.Nikolai,Characters/Dialogue/FC.Thalia",
+"Target":"Characters/Dialogue/FC.Alan,Characters/Dialogue/FC.Cotton,Characters/Dialogue/FC.Dezerie,Characters/Dialogue/FC.Kaia,Characters/Dialogue/FC.Lyell,Characters/Dialogue/FC.Maverick,Characters/Dialogue/FC.Nikolai,Characters/Dialogue/FC.John,Characters/Dialogue/FC.Barron,Characters/Dialogue/FC.Phoebe,Characters/Dialogue/FC.Popper",
 "Entries":{
 // A NEW DREAM
-"JohnsArrival": "{{i18n:CT.{{TargetWithoutPath}}.JohnsArrival}}",
+"FC.JohnsArrival": "{{i18n:CT.{{TargetWithoutPath}}.FC.JohnsArrival}}",
 "FC.BusFire":"{{i18n:CT.{{TargetWithoutPath}}.FC.BusFire}}",
 "FC.FindingPhoebe":"{{i18n:CT.{{TargetWithoutPath}}.FC.FindingPhoebe}}",
 "FC.PesterMaverick":"{{i18n:CT.{{TargetWithoutPath}}.FC.PesterMaverick}}",
@@ -59,10 +69,12 @@ NoneChangingDialogue
 "FC.VillainInTheValley":"{{i18n:CT.{{TargetWithoutPath}}.FC.VillainInTheValley}}",
 "FC.ChasePopOff":"{{i18n:CT.{{TargetWithoutPath}}.FC.ChasePopOff}}",
 "FC.EncouragePop":"{{i18n:CT.{{TargetWithoutPath}}.FC.EncouragePop}}",
-"FC.BarronsGoodSide":"{{i18n:CT.{{TargetWithoutPath}}. FC.BarronsGoodSide}}",
+"FC.BarronsGoodSide":"{{i18n:CT.{{TargetWithoutPath}}.FC.BarronsGoodSide}}",
 "FC.BarronsBadSide":"{{i18n:CT.{{TargetWithoutPath}}.FC.BarronsBadSide}}",
 "FC.JohnsBadSide":"{{i18n:CT.{{TargetWithoutPath}}.FC.JohnsBadSide}}",
 "FC.JohnsGoodSide":"{{i18n:CT.{{TargetWithoutPath}}.FC.JohnsGoodSide}}",
+"FC.AmandaIntro": "{{i18n:CT.{{TargetWithoutPath}}.FC.AmandaIntro}}",
+"FC.LittleFamily": "{{i18n:CT.{{TargetWithoutPath}}.FC.LittleFamily}}",
 ///PASSERBY CEMETERY
 "FC.TheTwins":"{{i18n:CT.{{TargetWithoutPath}}.FC.TheTwins}}",
 "FC.LieToreAlan":"{{i18n:CT.{{TargetWithoutPath}}.FC.LieToreAlan}}",
@@ -132,21 +144,21 @@ NoneChangingDialogue
 "FC.UnlockTropaTree":"{{i18n:CT.{{TargetWithoutPath}}.FC.UnlockTropaTree}}",
 "FC.TheCreature":"{{i18n:CT.{{TargetWithoutPath}}.FC.TheCreature}}",
 //Vanilla
-"cc_Complete": "{{i18n:cc_Complete.{{TargetWithoutPath}}}}",
-"cc_Boulder": "{{i18n:cc_Boulder.{{TargetWithoutPath}}}}",
-"cc_Bridge": "{{i18n:cc_Bridge.{{TargetWithoutPath}}}}",
-"cc_Bus": "{{i18n:cc_Bus.{{TargetWithoutPath}}}}",
-"cc_Greenhouse": "{{i18n:cc_Greenhouse.{{TargetWithoutPath}}}}",
-"cc_Minecart": "{{i18n:cc_Minecart.{{TargetWithoutPath}}}}",
-"joja_Begin": "{{i18n:joja_Begin.{{TargetWithoutPath}}}}",
-"movieTheater": "{{i18n:movieTheater.{{TargetWithoutPath}}}}",
-"dumped_Guys": "{{i18n:dumped_Guys.{{TargetWithoutPath}}}}",
-"secondChance_Guys": "{{i18n:secondChance_Guys.{{TargetWithoutPath}}}}",
-"dumped_Girls": "{{i18n:dumped_Girls.{{TargetWithoutPath}}}}",
-"secondChance_Girls": "{{i18n:secondChance_Girls.{{TargetWithoutPath}}}}",
-"pamHouseUpgrade": "{{i18n:pamHouseUpgrade.{{TargetWithoutPath}}}}",
-"pamHouseUpgradeAnonymous": "{{i18n:pamHouseUpgradeAnonymous.{{TargetWithoutPath}}}}",
+"cc_Complete": "{{i18n:CT.cc_Complete.{{TargetWithoutPath}}}}",
+"cc_Boulder": "{{i18n:CT.cc_Boulder.{{TargetWithoutPath}}}}",
+"cc_Bridge": "{{i18n:CT.cc_Bridge.{{TargetWithoutPath}}}}",
+"cc_Bus": "{{i18n:CT.cc_Bus.{{TargetWithoutPath}}}}",
+"cc_Greenhouse": "{{i18n:CT.cc_Greenhouse.{{TargetWithoutPath}}}}",
+"cc_Minecart": "{{i18n:CT.cc_Minecart.{{TargetWithoutPath}}}}",
+"joja_Begin": "{{i18n:CT.joja_Begin.{{TargetWithoutPath}}}}",
+"movieTheater": "{{i18n:CT.movieTheater.{{TargetWithoutPath}}}}",
+"dumped_Guys": "{{i18n:CT.dumped_Guys.{{TargetWithoutPath}}}}",
+"secondChance_Guys": "{{i18n:CT.secondChance_Guys.{{TargetWithoutPath}}}}",
+"dumped_Girls": "{{i18n:CT.dumped_Girls.{{TargetWithoutPath}}}}",
+"secondChance_Girls": "{{i18n:CT.secondChance_Girls.{{TargetWithoutPath}}}}",
+"pamHouseUpgrade": "{{i18n:CT.pamHouseUpgrade.{{TargetWithoutPath}}}}",
+"pamHouseUpgradeAnonymous": "{{i18n:CT.pamHouseUpgradeAnonymous.{{TargetWithoutPath}}}}",
 }
 },
-  ]
+]
 }

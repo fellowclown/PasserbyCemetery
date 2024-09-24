@@ -1,0 +1,91 @@
+{
+"Changes": [
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModID}}_BarronSleep": "16/16/16//offset 36 0",
+"{{ModID}}_BarronType": "16/16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 16 16 16 16 16 16 16 16 17 17 17 17 17 17/17//offset 16 0",
+"{{ModID}}_BarronCook": "18/18 18 18 18 18 19 19 19 19 19 20 20 20 20 20 20 19 19 19 19 19/19",
+"{{ModID}}_BarronBath": "17/17 18 18 18 17 17 17 18 18 18 18 18 18 17 17 17 18 18 18 18 18 18 17 17 17 18 18 18 18 18 18 17 17 17 18 18 18 18 18 18 17 17 17 18 18 18 20 20 20 20 20 19 19 19 19 20 20 20 20 20 19 19 19 19 20 20 20 20 20 19 19 19 19/17",
+"{{ModID}}_BarronWater": "26/26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 27 27 27 27 27 27 27 27 27 27 27 27/27",
+"{{ModID}}_BarronBenchSit2": "21/21 21 21 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22/22",
+"{{ModID}}_BarronBenchDrink1": "23/24 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23/23",
+"{{ModID}}_BarronRead": "21/22 22 22 22 22 22 22 22 22 22 22 22 22 22 21 21 21/21//offset -8 8",
+"{{ModID}}_BarronSit0": "39/39/30",
+}
+ },
+ {
+"LogName": "Barron Schedule Dialogue Default",
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Barron",
+  "Entries": {
+"Barron.GreenRain": "{{i18n:Barron.GreenRain}}",
+"Barron.DesertFestival": "{{i18n:Barron.DesertFestival}}",
+"Barron.TroutDerby": "{{i18n:Barron.TroutDerby}}",
+"Barron.SquidFest": "{{i18n:Barron.SquidFest}}",
+"Barron.Temple": "{{i18n:Barron.Temple}}",
+}
+ },
+ ////Tuesday, Thursday,Saturday,Sunday at east scarp  7am-1pm
+ ////Monday, Wednesday,Friday at the pelican town 7am-1pm
+        {
+            "LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Barron",
+"Update": "OnTimeChange, OnLocationChange",
+"Entries": {
+"spring": "GOTO Mon",
+
+"Mon": "700 {{ModID}}_OldGraveYard 41 38 2 {{ModID}}_BarronRead/1030 {{ModID}}_TravelingTrailer 23 17 2 {{ModID}}_BarronType/1200 {{ModID}}_TravelingTrailer 4 18 1 {{ModID}}_BarronCook/1500 Beach 50 20 3/1900 {{ModID}}_TravelingTrailerDecker 10 14 0/2300 {{ModID}}_TravelingTrailerDecker 23 12 3 {{ModID}}_BarronSleep",
+
+"Tue": "700 Mountain 34 25 2 {{ModID}}_BarronRead/1000 {{ModID}}_TravelingTrailer 13 15 2 {{ModID}}_BarronRead/1100 {{ModID}}_TravelingTrailer 23 17 2 {{ModID}}_BarronType/1500 Saloon 13 20 1 {{ModID}}_BarronBenchDrink1/1900 {{ModID}}_TravelingTrailerDecker 18 11 2/2300 {{ModID}}_TravelingTrailerDecker 23 12 3 {{ModID}}_BarronSleep",
+
+"Wed": "800 Forest 95 40 2 {{ModID}}_BarronRead/1300 Town 15 12 2 {{ModID}}_BarronRead/1500 {{ModID}}_TravelingTrailer 22 18 3 {{ModID}}_BarronWater/1900 {{ModID}}_TravelingTrailer 23 17 2 {{ModID}}_BarronType/2300 {{ModID}}_TravelingTrailerDecker 23 12 3 {{ModID}}_BarronSleep",
+
+"Thu": "700 {{ModID}}_OldGraveYard 29 52 2/830 {{ModID}}_TravelingTrailer 23 17 2 {{ModID}}_BarronType/1100 Forest 95 40 2 {{ModID}}_BarronRead/1500 Saloon 13 20 1 {{ModID}}_BarronBenchDrink1/1900 {{ModID}}_Exhibit 4 5 1/2300 {{ModID}}_TravelingTrailerDecker 23 12 3 {{ModID}}_BarronSleep",
+
+"Fri": "700 {{ModID}}_BeeNursery 7 10 3/1000 {{ModID}}_Exhibit 15 6 3/1500 Saloon 13 20 1 {{ModID}}_BarronBenchDrink1/1900 {{ModID}}_TravelingTrailerDecker 2 16 1 {{ModID}}_BarronBenchDrink1/2300 {{ModID}}_TravelingTrailerDecker 23 12 3 {{ModID}}_BarronSleep",
+
+"Sat": "800 Beach 50 20 3/1300 Town 15 12 2 {{ModID}}_BarronRead/1500 {{ModID}}_TravelingTrailer 23 17 2 {{ModID}}_BarronType/1900 {{ModID}}_TravelingTrailer 23 17 2 {{ModID}}_BarronType/2300 {{ModID}}_TravelingTrailerDecker 23 12 3 {{ModID}}_BarronSleep",
+
+"Sun": "700 {{ModID}}_BeeNursery 7 10 3/1200 {{ModID}}_TravelingTrailer 13 15 2 {{ModID}}_BarronRead/1500 {{ModID}}_TravelingTrailer 4 18 1 {{ModID}}_BarronCook/1900 {{ModID}}_TravelingTrailerDecker 2 16 1 {{ModID}}_BarronBenchDrink1/2300 {{ModID}}_TravelingTrailerDecker 23 12 3 {{ModID}}_BarronSleep",
+
+"rain": "830 {{ModID}}_TravelingTrailer 13 15 2 {{ModID}}_BarronRead/1200 {{ModID}}_TravelingTrailer 4 18 1 {{ModID}}_BarronCook/1500 {{ModID}}_TravelingTrailer 23 17 2 {{ModID}}_BarronType/1900 {{ModID}}_TravelingTrailerDecker 2 16 1 {{ModID}}_BarronBenchDrink1/2300 {{ModID}}_TravelingTrailerDecker 23 12 3 {{ModID}}_BarronSleep",
+
+"marriage_Tue": "830 {{ModID}}_TravelingTrailer 23 17 2 {{ModID}}_BarronType/1200 {{ModID}}_TravelingTrailer 22 18 3 {{ModID}}_BarronWater/1500 {{ModID}}_BeeNursery 7 10 3/1900 {{ModID}}_TravelingTrailerDecker 2 16 1 {{ModID}}_BarronBenchDrink1/2100 bed",
+
+"marriage_Thu": "GOTO marriage_Tue",
+
+"marriage_Sun": "GOTO marriage_Tue",
+
+"GreenRain": "700 {{ModID}}_TravelingTrailer 23 12 2/800 {{ModID}}_TravelingTrailerDecker 10 14 0/900 {{ModID}}_TravelingTrailerDecker 6 11 0/1200 {{ModID}}_TravelingTrailer 3 18 1 {{ModID}}_BarronCook/1500 {{ModID}}_TravelingTrailer 22 18 3 {{ModID}}_BarronWater/1800 {{ModID}}_TravelingTrailerDecker 2 16 1 {{ModID}}_BarronBenchDrink1 \"Strings\\schedules\\FC.Barron:Barron.GreenRain\"/2100 {{ModID}}_TravelingTrailerDecker 24 12 3 {{ModID}}_BarronSleep",
+
+"SquidFest": "700 {{ModID}}_TravelingTrailer 3 18 1 {{ModID}}_BarronCook/800 {{ModID}}_TravelingTrailer 23 17 1 {{ModID}}_Barron_Type/900 SeedShop 15 17 2/ 1200 Beach 50 19 3 \"Strings\\schedules\\FC.Barron:Barron.SquidFest\"/1500 {{ModID}}_TravelingTrailer 22 18 3 {{ModID}}_BarronWater/2100 {{ModID}}_TravelingTrailerDecker 24 12 3 {{ModID}}_BarronSleep",
+"TroutDerby": "1200 Forest 91 63 3 \"Strings\\schedules\\FC.Barron:Barron.TroutDerby\"/1800 Town 15 12 2 {{ModID}}_BarronRead \"Strings\\schedules\\FC.Barron:Barron.TroutDerby\"/2100 {{ModID}}_TravelingTrailerDecker 24 12 3 {{ModID}}_BarronSleep",
+"DesertFestival": "1200 Desert 3 18 1 \"Strings\\schedules\\FC.Barron:Barron.DesertFestival\"/1400 Desert 8 24 0/1440 {{ModID}}_TravelingTrailer 23 12 2/800 {{ModID}}_TravelingTrailerDecker 10 14 0/2100 {{ModID}}_TravelingTrailerDecker 24 12 3 {{ModID}}_BarronSleep",
+},
+
+     "When": {
+ "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+}
+},  
+   {
+            "LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Barron",
+"Update": "OnTimeChange, OnLocationChange",
+"Entries": {
+
+"Sun":"700 {{ModID}}_TravelingTrailer 23 12 2 {{ModID}}_BarronSit0/800 {{ModID}}_TravelingTrailerDecker 10 14 0/900 {{ModID}}_TravelingTrailerDecker 6 11 0/930 {{ModID}}_Temple 4 24 1 \"Strings\\schedules\\FC.Barron:Barron.Temple\"/1300 {{ModID}}_TravelingTrailer 23 12 2/1600 {{ModID}}_TravelingTrailer 3 18 1 {{ModID}}_BarronCook/1900 {{ModID}}_TravelingTrailer 22 18 3 {{ModID}}_BarronWater/2000 {{ModID}}_TravelingTrailerDecker 24 12 3 {{ModID}}_BarronSleep",
+    },
+
+     "When": {
+"HasSeenEvent |contains={{ModID}}_TheTemple": true,
+"HasFlag |contains={{ModID}}_Temple.Mail": true,
+ "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+}
+},
+]
+}

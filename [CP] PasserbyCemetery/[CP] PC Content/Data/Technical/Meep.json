@@ -3,6 +3,971 @@
 /************************************************
    MEEP
  ************************************************/
+ /************************************************
+Trailer Floor One
+ ************************************************/
+ {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailerDecker",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 5,
+                        "Y": 13
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_ForageOfFall",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.ForageOfFall.Cover}}",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.ForageOfFall.01}}",
+                          "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.ForageOfFall.02}}",
+                             "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.ForageOfFall.03}}",
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Banner",
+
+                    }
+                }
+            ]
+        },
+         {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailerDecker",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 7,
+                        "Y": 13
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_TheDeepestDark",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.TheDeepestDark.Cover}}",
+                       "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.TheDeepestDark.01}}",
+                          "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.TheDeepestDark.02}}",
+                             "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.TheDeepestDark.03}}",
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Banner",
+
+                    }
+                }
+            ]
+        },
+         {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailerDecker",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 9,
+                        "Y": 13
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_HouseOnTheMountains",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.HouseOnTheMountains.Cover}}",
+                                  "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.HouseOnTheMountains.01}}",
+                          "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.HouseOnTheMountains.02}}",
+                             "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.HouseOnTheMountains.03}}",
+                           "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Banner",
+                    }
+                }
+            ]
+        },
+         {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailerDecker",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 5,
+                        "Y": 10
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_TurtleThatCould",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.TurtleThatCould.Cover}}",
+                                     "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.TurtleThatCould.01}}",
+                          "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.TurtleThatCould.02}}",
+                             "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.TurtleThatCould.03}}",
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Banner",
+                    }
+                }
+            ]
+        },
+    
+ {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 9,
+                        "Y": 10
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_Arcania",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Guide.Cover}}",
+
+                         "MEEP_CloseupInteraction_Image_2": "{{ModID}}/GuideBook.01",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Guide.01}}",
+
+                         "MEEP_CloseupInteraction_Image_3": "{{ModID}}/GuideBook.02",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Guide.02}}",
+
+                            "MEEP_CloseupInteraction_Image_4": "{{ModID}}/GuideBook.03",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Guide.03}}",
+
+                         "MEEP_CloseupInteraction_Image_5": "{{ModID}}/GuideBook.04",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:FC.Guide.04}}",
+
+                         "MEEP_CloseupInteraction_Image_6": "{{ModID}}/GuideBook.05",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:FC.Guide.05}}",
+
+                            "MEEP_CloseupInteraction_Image_7": "{{ModID}}/GuideBook.06",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:FC.Guide.06}}",
+
+                         "MEEP_CloseupInteraction_Image_8": "{{ModID}}/GuideBook.07",
+                        "MEEP_CloseupInteraction_Text_8": "{{i18n:FC.Guide.07}}",
+
+                         "MEEP_CloseupInteraction_Image_9": "{{ModID}}/GuideBook.08",
+                        "MEEP_CloseupInteraction_Text_9": "{{i18n:FC.Guide.08}}",
+
+                         "MEEP_CloseupInteraction_Image_10": "{{ModID}}/GuideBook.09",
+                        "MEEP_CloseupInteraction_Text_10": "{{i18n:FC.Guide.09}}",
+
+
+                         "MEEP_CloseupInteraction_Image_11": "{{ModID}}/GuideBook.10",
+                        "MEEP_CloseupInteraction_Text_11": "{{i18n:FC.Guide.10}}",
+
+
+                         "MEEP_CloseupInteraction_Image_12": "{{ModID}}/GuideBook.11",
+                        "MEEP_CloseupInteraction_Text_12": "{{i18n:FC.Guide.11}}",
+
+
+                         "MEEP_CloseupInteraction_Image_13": "{{ModID}}/GuideBook.12",
+                        "MEEP_CloseupInteraction_Text_13": "{{i18n:FC.Guide.12}}",
+
+
+                         "MEEP_CloseupInteraction_Image_14": "{{ModID}}/GuideBook.13",
+                        "MEEP_CloseupInteraction_Text_14": "{{i18n:FC.Guide.13}}",
+
+
+                         "MEEP_CloseupInteraction_Image_15": "{{ModID}}/GuideBook.14",
+                        "MEEP_CloseupInteraction_Text_15": "{{i18n:FC.Guide.14}}",
+
+
+                         "MEEP_CloseupInteraction_Image_16": "{{ModID}}/GuideBook.15",
+                        "MEEP_CloseupInteraction_Text_16": "{{i18n:FC.Guide.15}}",
+
+                          "MEEP_CloseupInteraction_Image_17": "{{ModID}}/GuideBook.16",
+                        "MEEP_CloseupInteraction_Text_17": "{{i18n:FC.Guide.16}}",
+
+                          "MEEP_CloseupInteraction_Image_18": "{{ModID}}/GuideBook.17",
+                        "MEEP_CloseupInteraction_Text_18": "{{i18n:FC.Guide.17}}",
+
+                           "MEEP_CloseupInteraction_Image_19": "{{ModID}}/GuideBook.18",
+                        "MEEP_CloseupInteraction_Text_19": "{{i18n:FC.Guide.18}}",
+
+                           "MEEP_CloseupInteraction_Image_20": "{{ModID}}/GuideBook.19",
+                        "MEEP_CloseupInteraction_Text_20": "{{i18n:FC.Guide.19}}",
+
+
+                    }
+                }
+            ]
+        },
+ {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+             "When": {
+                      "HasSeenEvent |contains={{ModID}}_TheBooksKey": false,
+            },
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 10,
+                        "Y": 12
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                       "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Book_Cover_Lyell",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:FC.Bookcase.Lyell.CoverClosed}}",
+                         "MEEP_SetMailFlag": "HasSeenLockedJournal"
+                    }
+                }
+            ]
+        },
+        
+ {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+            "Update": "OnTimeChange, OnLocationChange",
+             "When": {
+                      "HasSeenEvent |contains={{ModID}}_TheBooksKey": true,
+            },
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 10,
+                        "Y": 12
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_Lyell",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Bookcase.Lyell.CoverOpen}}",
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.Lyell.01}}",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.Lyell.03}}",
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.Lyell.04}}",
+                        "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:FC.Bookcase.Lyell.05}}",
+                         "MEEP_CloseupInteraction_Image_6": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:FC.Bookcase.Lyell.06}}",
+                         "MEEP_CloseupInteraction_Image_7": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:FC.Bookcase.Lyell.07}}",
+                         "MEEP_CloseupInteraction_Image_8": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_8": "{{i18n:FC.Bookcase.Lyell.08}}",
+                         "MEEP_CloseupInteraction_Image_9": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_9": "{{i18n:FC.Bookcase.Lyell.09}}",
+                         "MEEP_CloseupInteraction_Image_10": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_10": "{{i18n:FC.Bookcase.Lyell.10}}",
+                         "MEEP_CloseupInteraction_Image_11": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_11": "{{i18n:FC.Bookcase.Lyell.11}}",
+                         "MEEP_CloseupInteraction_Image_12": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_12": "{{i18n:FC.Bookcase.Lyell.12}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+             "Update": "OnTimeChange",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 10,
+                        "Y": 10
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                          "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_BigBook",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Bookcase.BigBookOfArt.00}}",
+
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Painting1",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.BigBookOfArt.01}}",
+
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Painting2",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.BigBookOfArt.02}}",
+
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Painting3",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.BigBookOfArt.03}}",
+
+                        "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Painting4",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:FC.Bookcase.BigBookOfArt.04}}",
+
+                        "MEEP_CloseupInteraction_Image_6": "{{ModID}}/Painting5",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:FC.Bookcase.BigBookOfArt.05}}",
+
+                        "MEEP_CloseupInteraction_Image_7": "{{ModID}}/Painting6",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:FC.Bookcase.BigBookOfArt.06}}",
+
+                        "MEEP_CloseupInteraction_Image_8": "{{ModID}}/Painting7",
+                        "MEEP_CloseupInteraction_Text_8": "{{i18n:FC.Bookcase.BigBookOfArt.07}}",
+
+                        "MEEP_CloseupInteraction_Image_9": "{{ModID}}/Painting8",
+                        "MEEP_CloseupInteraction_Text_9": "{{i18n:FC.Bookcase.BigBookOfArt.08}}",
+
+                        "MEEP_CloseupInteraction_Image_10": "{{ModID}}/Painting9",
+                        "MEEP_CloseupInteraction_Text_10": "{{i18n:FC.Bookcase.BigBookOfArt.09}}",
+
+                        "MEEP_CloseupInteraction_Image_11": "{{ModID}}/Painting10",
+                        "MEEP_CloseupInteraction_Text_11": "{{i18n:FC.Bookcase.BigBookOfArt.10}}",
+
+                        "MEEP_CloseupInteraction_Image_12": "{{ModID}}/Painting11",
+                        "MEEP_CloseupInteraction_Text_12": "{{i18n:FC.Bookcase.BigBookOfArt.11}}",
+
+                        "MEEP_CloseupInteraction_Image_13": "{{ModID}}/Painting12",
+                        "MEEP_CloseupInteraction_Text_13": "{{i18n:FC.Bookcase.BigBookOfArt.12}}",
+
+                        "MEEP_CloseupInteraction_Image_14": "{{ModID}}/Painting13",
+                        "MEEP_CloseupInteraction_Text_14": "{{i18n:FC.Bookcase.BigBookOfArt.13}}",
+
+                            "MEEP_CloseupInteraction_Image_15": "{{ModID}}/Painting14",
+                        "MEEP_CloseupInteraction_Text_15": "{{i18n:FC.Bookcase.BigBookOfArt.14}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 14,
+                        "Y": 13
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                          "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_Goblins",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Bookcase.Goblins.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.Goblins.01}}",
+                         "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.Goblins.02}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailerDecker",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 11,
+                        "Y": 10
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                         "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Book_Cover_RogerLovejoy",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:FC.Bookcase.RogerLovejoy}}",
+
+                    }
+                }
+            ]
+        },
+             {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailerDecker",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 12,
+                        "Y": 10
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                       "Action": "MEEP_CloseupInteractionReel",
+                          "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_OldestMan",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Bookcase.OldestMan}}",
+                          "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.OldestMan.01}}",
+                         "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.OldestMan.02}}",
+                             "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.OldestMan.03}}",
+                    }
+                }
+            ]
+        },
+              {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 17,
+                        "Y": 16
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                         "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Book_Cover_Bubblegum",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:FC.Bookcase.Bubblegum}}",
+                    }
+                }
+            ]
+        },
+          {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 12,
+                        "Y": 15
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                          "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_DevelopingConfidence",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Bookcase.DevelopingConfidence}}",
+                          "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.DevelopingConfidence.01}}",
+                          "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.DevelopingConfidence.02}}",
+                             "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.DevelopingConfidence.03}}",
+                           "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Banner",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailerDecker",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 6,
+                        "Y": 10
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                  "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Book_Cover_WolfsBane",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:FC.Bookcase.WolfsBane}}",
+                    }
+                }
+            ]
+        },
+                 {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailerDecker",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 7,
+                        "Y": 10
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                          "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Book_Cover_Cyclops",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:FC.Bookcase.Cyclops}}",
+                    }
+                }
+            ]
+        },
+                 {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailerDecker",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 8,
+                        "Y": 10
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Book_Cover_RockCrab",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:FC.Bookcase.RockCrab}}",
+                    }
+                }
+            ]
+        },
+           {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 16,
+                        "Y": 16
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                         "Action": "MEEP_CloseupInteractionReel",
+                      "MEEP_CloseupInteraction_Image_1": " {{ModID}}/Book_Cover_OneEyedMan",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Bookcase.Book_OneEyedMan}}",
+                             "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.OneEyedMan.01}}",
+                         "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.OneEyedMan.02}}",
+                             "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.OneEyedMan.03}}",
+
+                    }
+                }
+            ]
+        },
+          {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 17,
+                        "Y": 16
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteractionReel {{ModID}}/Book_Cover_AdventuresOfJumba",
+                      "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_AdventuresOfJumba",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Bookcase.Book_AdventuresOfJumba}}",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.AdventuresOfJumba.01}}",
+                          "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.AdventuresOfJumba.02}}",
+                             "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.AdventuresOfJumba.03}}",
+                     "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Banner",
+
+                    }
+                }
+            ]
+        },
+          {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 18,
+                        "Y": 10
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Book_Cover_RodneyOBrien",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:FC.Bookcase.Book_RodneyOBrien}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 16,
+                        "Y": 13
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Book_Cover_FoliageOfArcania",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:FC.Bookcase.Book_FoliageOfArcania}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 17,
+                        "Y": 13
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                          "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_Arah",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Bookcase.Book_Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Liphum_Embrace.Book",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.Liphum_Embrace.Book}}",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Arah_Awareness.book",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.Arah_Awareness.Book}}",
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Arah_Embedded_Book",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.Arah_Embedded_Book}}",
+                        "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Arah_Birth_Book",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:FC.Bookcase.Arah_Birth_Book}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X":15,
+                        "Y": 10
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_AggieTheLoved",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Bookcase.LovedAggie.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.LovedAggie.01}}",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.LovedAggie.02}}",
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.LovedAggie.03}}",
+                        "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:FC.Bookcase.LovedAggie.04}}",
+                        "MEEP_CloseupInteraction_Image_6": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:FC.Bookcase.LovedAggie.05}}",
+                        "MEEP_CloseupInteraction_Image_7": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:FC.Bookcase.LovedAggie.06}}",
+               
+              
+                    }
+                }
+            ]
+        },
+     {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 14,
+                        "Y": 16
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                          "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_LillyPirates",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Bookcase.LillyPirates.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.LillyPirates.01}}",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.LillyPirates.03}}",
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.LillyPirates.04}}",
+                        "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:FC.Bookcase.LillyPirates.05}}",
+                    }
+                }
+            ]
+        },
+        /////MARRIED
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_BarronSpouseRoom",
+            "When": {
+"Relationship:FC.Barron": "Engaged, Married",
+},
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 0,
+                        "Y": 2
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                          "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_Lyell",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Bookcase.Lyell.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.Lyell.01}}",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.Lyell.03}}",
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.Lyell.04}}",
+                        "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:FC.Bookcase.Lyell.05}}",
+                         "MEEP_CloseupInteraction_Image_6": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:FC.Bookcase.Lyell.06}}",
+                         "MEEP_CloseupInteraction_Image_7": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:FC.Bookcase.Lyell.07}}",
+                         "MEEP_CloseupInteraction_Image_8": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_8": "{{i18n:FC.Bookcase.Lyell.08}}",
+                         "MEEP_CloseupInteraction_Image_9": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_9": "{{i18n:FC.Bookcase.Lyell.09}}",
+                         "MEEP_CloseupInteraction_Image_10": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_10": "{{i18n:FC.Bookcase.Lyell.10}}",
+                         "MEEP_CloseupInteraction_Image_11": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_11": "{{i18n:FC.Bookcase.Lyell.11}}",
+                         "MEEP_CloseupInteraction_Image_12": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_12": "{{i18n:FC.Bookcase.Lyell.12}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_BarronSpouseRoom",
+                     "When": {
+"Relationship:FC.Barron": "Engaged, Married",
+},
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 1,
+                        "Y": 2
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_Goblins",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Bookcase.Goblins.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.Goblins.01}}",
+                         "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.Goblins.02}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_BarronSpouseRoom",
+"When": {
+"Relationship:FC.Barron": "Engaged, Married",
+},
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 2,
+                        "Y": 2
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                          "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_Arah",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Bookcase.Book_Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Liphum_Embrace.Book",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.Liphum_Embrace.Book}}",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Arah_Awareness.book",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.Arah_Awareness.book}}",
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Arah_Embedded_Book",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.Arah_Embedded_Book}}",
+                        "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Arah_Birth_Book",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:FC.Bookcase.Arah_Birth_Book}}",
+                    }
+                }
+            ]
+        },
+         {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_BarronSpouseRoom",
+                     "When": {
+"Relationship:FC.Barron": "Engaged, Married",
+},
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X":3,
+                        "Y": 2
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                          "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_AggieTheLoved",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Bookcase.LovedAggie.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.LovedAggie.01}}",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.LovedAggie.02}}",
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.LovedAggie.03}}",
+                        "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:FC.Bookcase.LovedAggie.04}}",
+                        "MEEP_CloseupInteraction_Image_6": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:FC.Bookcase.LovedAggie.05}}",
+                        "MEEP_CloseupInteraction_Image_7": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:FC.Bookcase.LovedAggie.06}}",
+               
+              
+                    }
+                }
+            ]
+        },
+     {
+            // Demonstration of a multiple image reel (option one).
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_BarronSpouseRoom",
+                     "When": {
+"Relationship:FC.Barron": "Engaged, Married",
+},
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 2,
+                        "Y": 4
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                          "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_LillyPirates",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.Bookcase.LillyPirates.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.Bookcase.LillyPirates.01}}",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.Bookcase.LillyPirates.03}}",
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.Bookcase.LillyPirates.04}}",
+                        "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:FC.Bookcase.LillyPirates.05}}",
+                    }
+                }
+            ]
+        },
+              {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 13,
+                        "Y": 10
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                         "Action": "MEEP_Letter {{i18n:FC.Bookcase.Spells}}",
+                        "MEEP_Letter_Type": "1"
+                    }
+                }
+            ]
+        },
+          /************************************************
+Trailer Floor Two
+ ************************************************/
+ /************************************************
+  Inside The Inn Room
+ ************************************************/
+ {
+//  Tile Properties
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_JohnsTempRoom",
+"MapTiles": [
+{
+    "Position": {
+"X": 11,
+"Y": 9
+    },
+    "Layer": "Buildings",
+    "SetProperties": {
+ "Action": "MEEP_CloseupInteraction_Image {{ModID}}/LoveJoyPage01",
+"MEEP_CloseupInteraction_Text": "{{i18n:FC.LovejoyFamily}}"
+    }
+}
+]
+},
+ {
+//  Tile Properties
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_JohnsTempRoom",
+"MapTiles": [
+{
+    "Position": {
+"X": 10,
+"Y": 6
+},
+"Layer": "Buildings",
+"SetProperties": {
+  "HasFlag |contains={{ModID}}_Temple.Mail": true,
+"MEEP_CloseupInteraction_Text": "{{i18n:FC.Noodles}}"
+}
+}
+]
+},
+ /************************************************
+  Inside The Temple
+ ************************************************/
+ {
+//  Tile Properties
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_Temple",
+"When": {
+  "HasFlag |contains={{ModID}}_Temple.Mail": true,
+},
+"MapTiles": [
+{
+"Position": {
+"X": 16,
+"Y": 11
+},
+"Layer": "Buildings",
+"SetProperties": {
+"Action": "MEEP_CloseupInteraction_Image {{ModID}}/LoveJoyPage01",
+"MEEP_CloseupInteraction_Text": "{{i18n:FC.LovejoyFamily}}"
+    }
+}
+]
+},
+{
+//  Tile Properties
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_Temple",
+  "When": {
+  "HasFlag |contains={{ModID}}_Temple.Mail": true,
+
+            },
+"MapTiles": [
+{
+    "Position": {
+"X": 12,
+"Y": 6
+    },
+    "Layer": "Buildings",
+    "SetProperties": {
+ "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Noodles",
+"MEEP_CloseupInteraction_Text": "{{i18n:FC.Noodles}}"
+    }
+}
+]
+},
+  /************************************************
+  Inside The Spouse Room
+ ************************************************/
+ {
+//  Tile Properties
+"Action": "EditMap",
+"Target": "Maps/JohnsRoom",
+"MapTiles": [
+{
+    "Position": {
+"X": 16,
+"Y": 10
+    },
+    "Layer": "Buildings",
+    "SetProperties": {
+ "Action": "MEEP_CloseupInteraction_Image {{ModID}}/LoveJoyPage01",
+"MEEP_CloseupInteraction_Text": "{{i18n:FC.LovejoyFamily}}"
+    }
+}
+]
+},
+{
+//  Tile Properties
+"Action": "EditMap",
+"Target": "Maps/JohnsRoom",
+"MapTiles": [
+{
+    "Position": {
+"X": 3,
+"Y": 2
+    },
+    "Layer": "Buildings",
+    "SetProperties": {
+ "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Noodles",
+"MEEP_CloseupInteraction_Text": "{{i18n:FC.Noodles}}"
+    }
+},
+]
+},
  {
             // Demonstration of a multiple image reel (option one).
             "Action": "EditMap",
@@ -10,14 +975,14 @@
             "MapTiles": [
                 {
                     "Position": {
-                        "X": 25,
-                        "Y": 11
+"X": 25,
+"Y": 11
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
 
-                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/StoneRelic",
-                        "MEEP_CloseupInteraction_Text_1": "{{i18n:LyellHouse.StoneRelic.01}}",
+"Action": "MEEP_CloseupInteraction_Image {{ModID}}/StoneRelic",
+"MEEP_CloseupInteraction_Text_1": "{{i18n:LyellHouse.StoneRelic.01}}",
                     }
                 }
             ]
@@ -28,13 +993,13 @@
             "MapTiles": [
                 {
                     "Position": {
-                        "X": 14,
-                        "Y": 19
+"X": 14,
+"Y": 19
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:GradysNotes.{{Random:01,02,03}}}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
@@ -46,21 +1011,21 @@
             "MapTiles": [
                 {
                     "Position": {
-                        "X": 20,
-                        "Y": 9
+"X": 20,
+"Y": 9
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                         "Action": "MEEP_CloseupInteractionReel",
-                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/HalkiasPage01",
-                        "MEEP_CloseupInteraction_Text_1": "{{i18n:LyellHouse.Page01.01}}",
+"Action": "MEEP_CloseupInteractionReel",
+"MEEP_CloseupInteraction_Image_1": "{{ModID}}/HalkiasPage01",
+"MEEP_CloseupInteraction_Text_1": "{{i18n:LyellHouse.Page01.01}}",
                       "MEEP_CloseupInteraction_Image_2": "{{ModID}}/HalkiasPage02",
-                        "MEEP_CloseupInteraction_Text_2": "{{i18n:LyellHouse.Page02.01}}",
-                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/HalkiasPage03",
-                        "MEEP_CloseupInteraction_Text_3": "{{i18n:LyellHouse.Page03.01}}",
-                          "MEEP_CloseupInteraction_Image_4": "{{ModID}}/HalkiasPage04",
-                        "MEEP_CloseupInteraction_Text_4": "{{i18n:LyellHouse.Page04.01}}",
-                        "MEEP_SetMailFlag": "HasSeenPhotoAlbum"
+"MEEP_CloseupInteraction_Text_2": "{{i18n:LyellHouse.Page02.01}}",
+"MEEP_CloseupInteraction_Image_3": "{{ModID}}/HalkiasPage03",
+"MEEP_CloseupInteraction_Text_3": "{{i18n:LyellHouse.Page03.01}}",
+ "MEEP_CloseupInteraction_Image_4": "{{ModID}}/HalkiasPage04",
+"MEEP_CloseupInteraction_Text_4": "{{i18n:LyellHouse.Page04.01}}",
+"MEEP_SetMailFlag": "HasSeenPhotoAlbum"
                     }
                 }
             ]
@@ -72,20 +1037,20 @@
             "MapTiles": [
                 {
                     "Position": {
-                        "X": 0,
-                        "Y": 6,
+"X": 0,
+"Y": 6,
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                         "Action": "MEEP_CloseupInteractionReel",
-                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/HalkiasPage01",
-                        "MEEP_CloseupInteraction_Text_1": "{{i18n:LyellHouse.Page01.02}}",
-                         "MEEP_CloseupInteraction_Image_2": "{{ModID}}/HalkiasPage02",
-                        "MEEP_CloseupInteraction_Text_2": "{{i18n:LyellHouse.Page02.02}}",
-                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/HalkiasPage03",
-                        "MEEP_CloseupInteraction_Text_3": "{{i18n:LyellHouse.Page03.02}}",
-                          "MEEP_CloseupInteraction_Image_4": "{{ModID}}/HalkiasPage04",
-                        "MEEP_CloseupInteraction_Text_4": "{{i18n:LyellHouse.Page04.02}}",
+"Action": "MEEP_CloseupInteractionReel",
+"MEEP_CloseupInteraction_Image_1": "{{ModID}}/HalkiasPage01",
+"MEEP_CloseupInteraction_Text_1": "{{i18n:LyellHouse.Page01.02}}",
+"MEEP_CloseupInteraction_Image_2": "{{ModID}}/HalkiasPage02",
+"MEEP_CloseupInteraction_Text_2": "{{i18n:LyellHouse.Page02.02}}",
+"MEEP_CloseupInteraction_Image_3": "{{ModID}}/HalkiasPage03",
+"MEEP_CloseupInteraction_Text_3": "{{i18n:LyellHouse.Page03.02}}",
+ "MEEP_CloseupInteraction_Image_4": "{{ModID}}/HalkiasPage04",
+"MEEP_CloseupInteraction_Text_4": "{{i18n:LyellHouse.Page04.02}}",
                     }
                 }
             ]
@@ -129,17 +1094,20 @@
 {
 //  Tile Properties
 "Action": "EditMap",
-"Target": "Maps/{{ModID}}_Niksroom",
+"Target": "Maps/{{ModID}}_LeslaHouse",
 "MapTiles": [
 {
     "Position": {
-"X": 7,
-"Y": 13
+"X": 6,
+"Y": 12
     },
-    "Layer": "Buildings",
-    "SetProperties": {
- "Action": "MEEP_CloseupInteraction_Image {{ModID}}/LeslaPage01",
-"MEEP_CloseupInteraction_Text_1": "{{i18n:FC.LeslaPage01}}",   
+ "Layer": "Buildings",
+"SetProperties": {
+"Action": "MEEP_CloseupInteractionReel",
+"MEEP_CloseupInteraction_Image_1": "{{ModID}}/LeslaPage01",
+"MEEP_CloseupInteraction_Text_1": "{{i18n:FC.LeslaPage01}}",
+"MEEP_CloseupInteraction_Image_2": "{{ModID}}/LeslaPage02",
+"MEEP_CloseupInteraction_Text_2": "{{i18n:FC.LeslaPage01}}",  
     }
 }
 ]
@@ -154,10 +1122,13 @@
 "X": 16,
 "Y": 18
     },
-    "Layer": "Buildings",
-    "SetProperties": {
- "Action": "MEEP_CloseupInteraction_Image {{ModID}}/StonePage01",
-"MEEP_CloseupInteraction_Text_1": "{{i18n:FC.StonePage01}}",   
+  "Layer": "Buildings",
+"SetProperties": {
+"Action": "MEEP_CloseupInteractionReel",
+"MEEP_CloseupInteraction_Image_1": "{{ModID}}/StonePage01",
+"MEEP_CloseupInteraction_Text_1": "{{i18n:FC.StonePage01}}",
+"MEEP_CloseupInteraction_Image_2": "{{ModID}}/StonePage02",
+"MEEP_CloseupInteraction_Text_2": "{{i18n:FC.StonePage01}}",   
     }
 }
 ]
@@ -169,13 +1140,13 @@
             "MapTiles": [
                 {
                     "Position": { ///Coffin
-                        "X": 7,
-                        "Y": 5
+"X": 7,
+"Y": 5
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.00}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
@@ -186,30 +1157,30 @@
             "MapTiles": [
                 {
                     "Position": { ///Movoraptor Foot
-                        "X": 9,
-                        "Y": 5
+"X": 9,
+"Y": 5
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.01}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                         {
+{
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Movoraptor Egg
-                        "X": 9,
-                        "Y": 6
+"X": 9,
+"Y": 6
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.02}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
@@ -220,13 +1191,13 @@
             "MapTiles": [
                 {
                     "Position": { ///Stone Cow Toy
-                        "X": 9,
-                        "Y": 7
+"X": 9,
+"Y": 7
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.03}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
@@ -237,13 +1208,13 @@
             "MapTiles": [
                 {
                     "Position": { ///Half Moon ritiual Weapon
-                        "X": 9,
-                        "Y": 8
+"X": 9,
+"Y": 8
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.04}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
@@ -254,13 +1225,13 @@
             "MapTiles": [
                 {
                     "Position": { ///Arcarnian coins
-                        "X": 6,
-                        "Y": 7
+"X": 6,
+"Y": 7
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.05}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
@@ -271,506 +1242,506 @@
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Boots
-                        "X": 6,
-                        "Y": 8
+"X": 6,
+"Y": 8
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.06}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                          {
+ {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Golden Necklace
-                        "X": 6,
-                        "Y": 9
+"X": 6,
+"Y": 9
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.07}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                             {
+    {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Golden Nuggets
-                        "X": 6,
-                        "Y": 10
+"X": 6,
+"Y": 10
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.08}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                {
+       {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Petrified Golden Sap
-                        "X": 5,
-                        "Y": 11
+"X": 5,
+"Y": 11
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.09}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                {
+       {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Harp
-                        "X": 4,
-                        "Y": 10
+"X": 4,
+"Y": 10
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.10}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                       {
+              {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Jar
-                        "X": 4,
-                        "Y": 9
+"X": 4,
+"Y": 9
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.11}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                          {
+                 {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Book
-                        "X": 4,
-                        "Y": 8
+"X": 4,
+"Y": 8
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.12}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                {
+                       {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Spears
-                        "X": 4,
-                        "Y": 7
+"X": 4,
+"Y": 7
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.13}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                {
+                       {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Male warrior
-                        "X": 3,
-                        "Y": 5
+"X": 3,
+"Y": 5
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.14}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                     {
+   {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Female warrior
-                        "X": 2,
-                        "Y": 5
+"X": 2,
+"Y": 5
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.15}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                      {
+    {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Stone Picture Carving
-                        "X": 1,
-                        "Y": 5
+"X": 1,
+"Y": 5
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.16}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                      {
+    {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Ritiualistic Rattle
-                        "X": 1,
-                        "Y": 6
+"X": 1,
+"Y": 6
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.17}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                              {
+            {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian sythes
-                        "X": 1,
-                        "Y": 7
+"X": 1,
+"Y": 7
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.18}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                              {
+            {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian  female Marriage outfit
-                        "X": 1,
-                        "Y": 9
+"X": 1,
+"Y": 9
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.19}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                    {
+                  {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Everyday outfit
-                        "X": 1,
-                        "Y": 10
+"X": 1,
+"Y": 10
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.20}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                        {
+                      {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Fishing outfit
-                        "X": 1,
-                        "Y": 11
+"X": 1,
+"Y": 11
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.21}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                                {
+     {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian stove
-                        "X": 8,
-                        "Y": 13
+"X": 8,
+"Y": 13
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.22}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                                        {
+             {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian everyday outfit
-                        "X": 12,
-                        "Y": 12
+"X": 12,
+"Y": 12
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.23}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                                           {
+                {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian everyday outfit with hat
-                        "X": 13,
-                        "Y": 12
+"X": 13,
+"Y": 12
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.24}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                                           {
+                {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian preist outfit
-                        "X": 14,
-                        "Y": 12
+"X": 14,
+"Y": 12
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.25}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                                               {
+                    {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Scholar outfit
-                        "X": 16,
-                        "Y": 11
+"X": 16,
+"Y": 11
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.26}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                                                 {
+                      {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Blacksmith outfit
-                        "X": 16,
-                        "Y": 10
+"X": 16,
+"Y": 10
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.27}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                                                  {
+                       {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian mens wedding outfit
-                        "X": 16,
-                        "Y": 9
+"X": 16,
+"Y": 9
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.28}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                                                      {
+  {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian sword
-                        "X": 16,
-                        "Y": 7
+"X": 16,
+"Y": 7
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.29}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                                                      {
+  {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian death flute
-                        "X": 16,
-                        "Y": 6
+"X": 16,
+"Y": 6
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.30}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                                                      {
+  {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///forest spirit statue
-                        "X": 14,
-                        "Y":8
+"X": 14,
+"Y":8
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.31}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                                                            {
+        {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Cyclops Mummy Shrine
-                        "X": 14,
-                        "Y":5
+"X": 14,
+"Y":5
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.32}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                                                                    {
+                {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Books 1
-                        "X": 6,
-                        "Y":4
+"X": 6,
+"Y":4
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.33}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                                                                       {
+                   {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Books 2
-                        "X": 5,
-                        "Y":4
+"X": 5,
+"Y":4
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.34}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
         },
-                                                                                                                       {
+                   {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_Exhibit",
             "MapTiles": [
                 {
                     "Position": { ///Arcanian Books 3
-                        "X": 4,
-                        "Y":4
+"X": 4,
+"Y":4
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
                        "Action": "MEEP_Letter {{i18n:Exhibit.35}}",
-                        "MEEP_Letter_Type": "1"
+"MEEP_Letter_Type": "1"
                     }
                 }
             ]
@@ -787,7 +1758,7 @@
     },
     "Layer": "Buildings",
 "SetProperties": {
-"Action": "MEEP_CloseupInteraction_Image {{ModID}}/Map",
+"Action": "MEEP_CloseupInteraction_Image {{ModID}}/FC.Map",
 "MEEP_CloseupInteraction_Text": "{{i18n:Exhibit.36}}"
     }
 }

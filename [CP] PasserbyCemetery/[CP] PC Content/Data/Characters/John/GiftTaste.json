@@ -1,0 +1,15 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.John": "{{i18n:John.gift.love}}/{{ModID}}_Seaglass {{ModID}}_SeaglassFlowerDisplay 715 720 524/{{i18n:John.gift.like}}/66 68 608 610/{{i18n:John.gift.dislike}}/597 219 238 238/{{i18n:John.gift.hate}}/199 242 284/{{i18n:John.gift.neutral}}/-4 279/ ",
+}
+ },
+]
+}

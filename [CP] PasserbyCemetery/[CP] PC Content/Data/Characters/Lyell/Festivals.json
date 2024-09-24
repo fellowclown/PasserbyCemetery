@@ -82,7 +82,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Lyell 18 31 1",
+                    "Value": "FC.Lyell 17 27 1",
                     "Delimiter": "/"
                 },
                      {
@@ -91,7 +91,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Lyell 18 31 1",
+                    "Value": "FC.Lyell 17 27 1",
                     "Delimiter": "/"
                 },
 
@@ -111,7 +111,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Lyell 18 33 2",
+                    "Value": "FC.Lyell 17 27 1",
                     "Delimiter": "/",
                 },
                      {
@@ -120,7 +120,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Lyell 18 33 2",
+                    "Value": "FC.Lyell 17 27 2",
                     "Delimiter": "/"
                 },
         ]

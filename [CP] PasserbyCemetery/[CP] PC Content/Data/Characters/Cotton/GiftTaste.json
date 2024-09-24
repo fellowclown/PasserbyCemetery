@@ -8,7 +8,7 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Cotton": "{{i18n:Cotton.gift.love}}/{{ModID}}_FirePepperMeatPie {{ModID}}_VoidHoney {{ModID}}_VoidMilk 305 308/{{i18n:Cotton.gift.like}}/{{ModID}}_VoidFruit 769 795/{{i18n:Cotton.gift.dislike}}/303 {{ModID}}_DodoMayo {{ModID}}_DeepCaveFruitJuice/{{i18n:Cotton.gift.hate}}/346 {{ModID}}_LargeArcaGoatMilk {{ModID}}_SmallArcaGoatMilk/{{i18n:Cotton.gift.neutral}}/206/",
+"FC.Cotton": "{{i18n:Cotton.gift.love}}/203 {{ModID}}_FirePepperMeatPie {{ModID}}_VoidHoney {{ModID}}_VoidMilk 305 308/{{i18n:Cotton.gift.like}}/{{ModID}}_VoidFruit 769 795/{{i18n:Cotton.gift.dislike}}/303 {{ModID}}_DodoMayo {{ModID}}_DeepCaveFruitJuice/{{i18n:Cotton.gift.hate}}/346 {{ModID}}_LargeArcaGoatMilk {{ModID}}_SmallArcaGoatMilk/{{i18n:Cotton.gift.neutral}}/206/",
 }
  },
 ]

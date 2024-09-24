@@ -1,44 +1,93 @@
 {
 "Changes": [
-{
+ {
 "LogName": "Grady Dispositions",
 "Action": "EditData",
 "Target": "Data/Characters",
 "Entries": {
 "FC.Grady": {
-"DisplayName": "{{i18n:FC.Grady}}",
-"BirthSeason": "fall",
-"BirthDay": 23,
-"HomeRegion": "Other",
-"Language": "Default",
-"Gender": "Male",
-"Age": "Adult",
-"Manner": "Polite",
-"SocialAnxiety": "Outgoing",
-"Optimism": "Positive",
-"CanSocialize": true,
-"IsDarkSkinned": false,
-"CanBeRomanced": false,
-"FlowerDanceCanDance ": false,
-"LoveInterest": "FC.Lyell",
-"Calendar": "AlwaysShown",
-"SocialTab": "UnknownUntilMet",
-"SocialTabIconSourceRect": null,
-"SocializeConditions": null,
-"CanVisitIslandCondition": true,
-"IntroductionsQuest":"{{AddToPerfection}}",
-"PerfectionScore":"{{AddToPerfection}}",
-"ItemDeliveryQuests":true,
-"EndSlideShow": "TrailingGroup",
-"SpouseRoom": {},
-"SpousePatio":{},
+///Basic Info
+"DisplayName":"{{i18n:FC.Grady}}",
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"Fall",
+"BirthDay":23,
+"HomeRegion":"Town",
+"IsDarkSkinned":false,
+///Social Features
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland": true,
+"LoveInterest":null,
+"Calendar": "HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SpouseAdopts":null,
+"SpouseWantsChildren":false,
+"SpouseGiftJealousy":false,
+"SpouseGiftJealousyFriendshipChange":-10,
+"SpouseRoom": {
+"MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 6,
+"Height": 9
+}
+},
+"SpousePatio": {
+"MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 4,
+"Height": 4
+}
+},
 "SpouseFloors": [],
 "SpouseWallpapers": [],
+"IntroductionsQuest":"{{IncludeIntro}}",
+"ItemDeliveryQuests":false,
+"PerfectionScore":"{{IncludePerfection}}",
+"EndSlideShow":"TrailingGroup",
 "FriendsAndFamily":null,
-"WinterStarGifts": [],
-"WinterStarParticipant": true,
-"UnlockConditions": null,
-"SpawnIfMissing": true,
+///Dumpster Diving
+"DumpsterDiveEmote":12,
+"DumpsterDiveFriendshipEffect":-2,
+///Festivals
+"FlowerDanceCanDance":false,
+"WinterStarParticipant":true,
+"WinterStarGifts": [
+{
+"Condition": null,
+"Id": "{{ModID}}_WinterStarGifts",
+"ItemId": "RANDOM_ITEMS (O)",
+"RandomItemId": null,
+"MaxItems": null,
+"MinStack": -1,
+"MaxStack": -1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+"ModData": null,
+"PerItemCondition": null
+},
+],
+//Spawn Rules
+"UnlockConditions":null,
+"SpawnIfMissing":true,
 "Home": [
 {
 "Id": "Default",
@@ -51,17 +100,8 @@
 "Direction": "right"
 }
 ],
-"Breather": false,
-"ShakePortraits": [
-  11,14
-],
-"KissSpriteIndex": 28,
-"KissSpriteFacingRight": 28,
-"HiddenProfileEmoteSound": null,
-"HiddenProfileEmoteDuration": -1,
-"HiddenProfileEmoteStartFrame": 37,
-"HiddenProfileEmoteFrameCount": 3,
-"HiddenProfileEmoteFrameDuration": 360.0,
+///Appearance & Sprites
+"TextureName":null,
 "Appearance": [
 
  {
@@ -91,8 +131,27 @@
 "Precedence": -10,
 },
 ],
+"MugShotSourceRect": { "X": 0, "Y": 0, "Width": 16, "Height": 24 },
+"Size": { "X": 16, "Y": 32 },
+"Breather":false,
+"BreathChestRect":null,
+"BreathChestPosition":null,
+"Shadow":{ "Visible": true },
+"EmoteOffset": {},
+"ShakePortraits":[],
+"KissSpriteIndex":"28",
+"KissSpriteFacingDirection":null,
+///Hidden Gift Log Emote
+"HiddenProfileEmoteSound":null,
+"HiddenProfileEmoteDuration":-1,
+"HiddenProfileEmoteStartFrame":0,
+"HiddenProfileEmoteFrameCount":4,
+"HiddenProfileEmoteFrameDuration":200.0,
+///Advanced
+"CustomFields":{},
+"FormerCharacterNames": [],
 }
 }
-},
+}
 ]
 }

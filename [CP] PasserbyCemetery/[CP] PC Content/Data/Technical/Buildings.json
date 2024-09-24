@@ -1,0 +1,137 @@
+{
+"Changes": [
+{
+"Action": "EditData",
+"Target": "Data/Buildings",
+"Entries": {
+"{{ModId}}_ElderTropaTree": {
+"Name": "{{i18n:FC.ElderTropaTree}}",
+"Description": "{{i18n:FC.ElderTropaTree.Desc}}",
+"Texture": "Buildings\\FC.ElderTropaTree",
+"Skins": [],
+"DrawShadow": false,
+"UpgradeSignTile": "2, 2",
+"UpgradeSignHeight": 18.0,
+"Size": {
+"X": 6,
+"Y":3
+},
+"FadeWhenBehind": true,
+"SourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 96,
+"Height": 112
+},
+"SeasonOffset": {
+"X": 0,
+"Y": 0
+},
+"DrawOffset": "0, 0",
+"SortTileOffset": 0.0,
+"CollisionMap":  "OOOO\nOXXX\nOXXX\nOOXX\n",
+"AdditionalPlacementTiles": null,
+"BuildingType": "StardewValley.Buildings.AnimalHouse",
+"Builder": "Wizard",
+"BuildCondition": null,
+"BuildDays": 0,
+"BuildCost": 25000,
+"BuildMaterials": [
+{
+"ItemId": "(O){{ModID}}_TropaTreeSapling",
+"Amount": 2
+},
+{
+"ItemId": "(O)768",
+"Amount": 300
+}
+],
+"BuildingToUpgrade": null,
+"MagicalConstruction": true,
+"BuildMenuDrawOffset": {
+"X": 20,
+"Y": 0
+},
+"HumanDoor": {
+"X":-3000,
+"Y": -3000
+},
+"AnimalDoor": {
+"X": 1,
+"Y": 2,
+"Width": 2,
+"Height": 2
+},
+"AnimalDoorOpenDuration": 0.4,
+"AnimalDoorOpenSound": "doorCreak",
+"AnimalDoorCloseDuration": 0.6,
+"AnimalDoorCloseSound":"doorCreakReverse",
+"IndoorMap": "FC.TropicalAnimalHouseMapSmall",
+"IndoorMapType": "StardewValley.AnimalHouse",
+"MaxOccupants": 6,
+"ValidOccupantTypes": [
+"{{ModId}}_ElderTropaTree",
+],
+"AllowAnimalPregnancy": true,
+"IndoorItems": [
+],
+"AddMailOnBuild": null,
+"Metadata": {},
+"ModData": {},
+"HayCapacity": 0,
+"Chests": null,
+"DefaultAction": null,
+"AdditionalTilePropertyRadius": 0,
+"ActionTiles": [],
+"TileProperties": [],
+"ItemConversions": null,
+ "DrawLayers": [
+      {
+        "Id": "Default_AnimalDoor",
+        "Texture": null,
+        "SourceRect": {
+          "X": 0,
+          "Y": 112,
+          "Width": 16,
+          "Height": 32
+        },
+        "DrawPosition": "31, 96",
+        "DrawInBackground": false,
+        "SortTileOffset": 0.02,
+        "OnlyDrawIfChestHasContents": null,
+        "FrameDuration": 90,
+        "FrameCount": 1,
+        "FramesPerRow": -1,
+        "AnimalDoorOffset": {
+          "X": 0,
+          "Y":  -13
+        }
+      },
+      {
+        "Id": "Default_AnimalDoor_Open",
+        "Texture": null,
+        "SourceRect": {
+          "X": 0,
+          "Y": 128,
+          "Width": 16,
+          "Height": 32
+        },
+        "DrawPosition": "31, 96",
+        "DrawInBackground": false,
+        "SortTileOffset": 1.0,
+        "OnlyDrawIfChestHasContents": null,
+        "FrameDuration": 90,
+        "FrameCount": 1,
+        "FramesPerRow": -1,
+        "AnimalDoorOffset": {
+          "X": 0,
+          "Y":0
+        }
+      }
+    ],
+"CustomFields": {}
+},
+}
+},
+]
+}

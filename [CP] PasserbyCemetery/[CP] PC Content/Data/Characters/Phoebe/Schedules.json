@@ -1,0 +1,76 @@
+{
+"Changes": [
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+    "{{ModID}}_PhoebeKneel3":"16/16/16",
+    "{{ModID}}_PhoebeSit2":"18/18/18",
+     "{{ModID}}_PhoebeSleep":"12/12/12",
+}
+ },
+  {
+"LogName": "Phoebe Schedule Dialogue Default",
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Phoebe",
+  "Entries": {
+"Phoebe.GreenRain": "{{i18n:Phoebe.GreenRain}}",
+"Phoebe.DesertFestival": "{{i18n:Phoebe.DesertFestival}}",
+"Phoebe.TroutDerby": "{{i18n:Phoebe.TroutDerby}}",
+"Phoebe.SquidFest": "{{i18n:Phoebe.SquidFest}}",
+}
+ },
+ ////Tuesday, Thursday,Saturday,Sunday at east scarp
+ ////Monday, Wednesday,Friday at the refuge
+         {
+            "LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Phoebe",
+"Update": "OnTimeChange, OnLocationChange",
+"Entries": {
+"spring": "GOTO Mon",
+
+"Mon": "700 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/1200 {{ModID}}_MavericksHouse 7 11 2 {{ModID}}_PhoebeSit2/1400 {{ModID}}_OldGraveYard 48 33 2/1900 {{ModID}}_OldGraveYard 7 35 1/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep",
+
+"Tue": "700 Town 71 91 2 {{ModID}}_PhoebeSit2/1200 Saloon 7 19 2 {{ModID}}_PhoebeSit2/1400 Beach 43 34 2 {{ModID}}_PhoebeSit2/1900 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep",
+
+"Wed": "700 Beach 43 34 2 {{ModID}}_PhoebeSit2/1200 {{ModID}}_MavericksHouse 7 11 2 {{ModID}}_PhoebeSit2/1700 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/1900 {{ModID}}_TravelingTrailerDecker 3 15 3/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep",
+
+"Thu": "700 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/1200 Town 71 91 2 {{ModID}}_PhoebeSit2/1400 Saloon 7 19 2 {{ModID}}_PhoebeSit2/1900 {{ModID}}_TravelingTrailerDecker 5 11 0/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep",
+
+"Fri": "700 {{ModID}}_TravelingTrailer 22 13 2/1200 {{ModID}}_OldGraveYard 48 33 2/1400 {{ModID}}_TravelingTrailer 22 13 2/1900 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep", ///work day
+
+"Sat": "700 {{ModID}}_TravelingTrailer 22 13 2/1200 {{ModID}}_OldGraveYard 48 33 2/1400 {{ModID}}_TravelingTrailer 22 13 2/1900 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep", ///work day
+
+"Sun": "700 {{ModID}}_TravelingTrailer 22 13 2/1200 {{ModID}}_OldGraveYard 7 35 1/1400 {{ModID}}_TravelingTrailer 22 13 2/1900 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep", ///work day
+
+"rain": "700 {{ModID}}_TravelingTrailer 22 13 2/1200 {{ModID}}_TravelingTrailerDecker 20 18 0/1400 {{ModID}}_TravelingTrailer 22 13 2/1900 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep", ///work day
+
+"GreenRain": "700 {{ModID}}_TravelingTrailer 22 13 2 \"Strings\\schedules\\FC.Phoebe:Phoebe.GreenRain\"/1200 {{ModID}}_TravelingTrailerDecker 3 15 3/1400 {{ModID}}_TravelingTrailer 22 13 2/1900 {{ModID}}_TravelingTrailer/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.GreenRain\"",
+"DesertFestival": "610 Desert 16 9 2 \"Strings\\schedules\\FC.Phoebe:Phoebe.DesertFestival\"/2130 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep",
+"TroutDerby": "610 Forest 84 49 3 \"Strings\\schedules\\FC.Phoebe:Phoebe.TroutDerby\"/2130 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep",
+"SquidFest": "610 Beach 12 9 0 \"Strings\\schedules\\FC.Phoebe:Phoebe.SquidFest\"/2130 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep",
+},
+
+     "When": {
+ "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
+}
+},
+         {
+            "LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Phoebe",
+"Update": "OnTimeChange, OnLocationChange",
+"Entries": {
+"Sun": "",
+    },
+
+     "When": {
+"HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
+"HasSeenEvent |contains={{ModID}}_TheTemple": true,
+"HasFlag |contains={{ModID}}_Temple": true,
+}
+},
+]
+}

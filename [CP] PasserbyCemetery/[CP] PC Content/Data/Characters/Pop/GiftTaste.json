@@ -1,0 +1,15 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Popper": "{{i18n:Popper.gift.love}}/{{ModID}}_Button 78 105 138 167/{{i18n:Popper.gift.like}}/174 229 118/{{i18n:Popper.gift.dislike}}/143 157 152 222/{{i18n:Popper.gift.hate}}/248 260 264 284/{{i18n:Popper.gift.neutral}}/250 256/ ",
+}
+ },
+]
+}

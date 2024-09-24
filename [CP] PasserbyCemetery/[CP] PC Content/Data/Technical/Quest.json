@@ -19,6 +19,14 @@
 "{{ModID}}_Arrowhead.Quest": "ItemDelivery/{{i18n:FC.Arrowhead.Quest.Title}}/{{i18n:FC.Arrowhead.Quest.Desc}}/{{i18n:FC.Arrowhead.Quest.Obj}}/FC.Valerie 101 2/-1/150/-1/true/{{i18n:FC.Arrowhead.Quest.Reaction}}",
 "{{ModID}}_Bat.Quest": "ItemDelivery/{{i18n:FC.Bat.Quest.Title}}/{{i18n:FC.Bat.Quest.Desc}}/{{i18n:FC.Bat.Quest.Obj}}/FC.Valerie 767 10/-1/150/-1/true/{{i18n:FC.Bat.Quest.Reaction}}",
 "{{ModID}}_RettNote.Quest": "LostItem/{{i18n:FC.RettNote.Quest.Title}}/{{i18n:FC.RettNote.Quest.Desc}}/{{i18n:FC.RettNote.Quest.Obj}}/FC.FakeNpc {{ModID}}_RettNote {{ModID}}_OldGraveYard 17 4/-1/500/-1/true/",
+
+"{{ModID}}_BagOfSeaglass.Quest": "ItemDelivery/{{i18n:FC.BagOfSeaglass.Quest.Title}}/{{i18n:FC.BagOfSeaglass.Quest.Desc}}/{{i18n:FC.BagOfSeaglass.Quest.Obj}}/FC.John {{ModID}}_BagOfSeaglass 1/-1/250/-1/true/{{i18n:FC.BagOfSeaglass.Quest.Reaction}}",
+"{{ModID}}_JohnsWine.Quest": "ItemDelivery/{{i18n:FC.JohnsWine.Quest.Title}}/{{i18n:FC.JohnsWine.Quest.Desc}}/{{i18n:FC.JohnsWine.Quest.Obj}}/FC.John {{ModID}}_JohnsWine 1/-1/400/-1/true/{{i18n:FC.JohnsWine.Quest.Reaction}}",
+"{{ModID}}_JohnsRing.Quest": "ItemDelivery/{{i18n:FC.JohnsRing.Quest.Title}}/{{i18n:FC.JohnsRing.Quest.Desc}}/{{i18n:FC.JohnsRing.Quest.Obj}}/FC.John {{ModID}}_JohnsRing 1/-1/620/-1/true/{{i18n:FC.JohnsRing.Quest.Reaction}}",
+"{{ModID}}_JohnsNecklace.Quest": "ItemDelivery/{{i18n:FC.JohnsNecklace.Quest.Title}}/{{i18n:FC.JohnsNecklace.Quest.Desc}}/{{i18n:FC.JohnsNecklace.Quest.Obj}}/FC.John {{ModID}}_JohnsNecklace 1/-1/500/-1/true/{{i18n:FC.JohnsNecklace.Quest.Reaction}}",
+"{{ModID}}_BarronsBook": "ItemDelivery/{{i18n:Quest.BarronsBook.Title}}/{{i18n:Quest.BarronsBook.Description}}/{{i18n:Quest.BarronsBook.Objective}}/FC.Barron {{ModID}}_BarronsBook 1/-1/1000/-1/true/{{i18n:Quest.BarronsBook.Reaction}}",
+"{{ModID}}_TheCuff": "ItemDelivery/{{i18n:Quest.TheCuff.Title}}/{{i18n:Quest.TheCuff.Description}}/{{i18n:Quest.TheCuff.Objective}}/FC.Phoebe {{ModID}}_TheCuff 1/-1/1000/-1/true/{{i18n:Quest.TheCuff.Reaction}}",
+"{{ModID}}_PhoebesPackage": "LostItem/{{i18n:Quest.PhoebesPackage.Title}}/{{i18n:Quest.PhoebesPackage.Description}}/{{i18n:Quest.PhoebesPackage.Objective}}/FC.Phoebe {{ModID}}_PhoebesPackage ManorHouse 2 6/-1/500/-1/true/{{i18n:Quest.PhoebesPackage.Reaction}}",
 }
 },
 ]

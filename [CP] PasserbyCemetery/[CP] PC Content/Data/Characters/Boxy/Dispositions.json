@@ -3,71 +3,74 @@
 /************************************************
 Dispositions 
 ************************************************/
-   {
+  
+ {
 "LogName": "Boxy Dispositions",
 "Action": "EditData",
 "Target": "Data/Characters",
 "Entries": {
 "FC.Boxy": {
+///Basic Info
 "DisplayName":"{{i18n:FC.Boxy}}",
-"Breather": false,
 "Language":"Default",
 "Gender":"Male",
-"Age":"Adult",
+"Age":"Child",
 "Manner":"Rude",
-"SocialAnxiety":"Shy",
+"SocialAnxiety":"shy",
 "Optimism":"Negative",
-"BirthSeason":"fall",
-"Birthday":"16",
+"BirthSeason":"Fall",
+"BirthDay":16,
 "HomeRegion":"Town",
 "IsDarkSkinned":false,
+///Social Features
 "CanSocialize":true,
 "CanBeRomanced":false,
 "CanReceiveGifts":true,
 "CanCommentOnPurchasedShopItems":false,
 "CanGreetNearbyCharacters":false,
-"CanVisitIsland":true,
+"CanVisitIsland": false,
 "LoveInterest":null,
-"Calendar":"HiddenUntilMet",
-"SocialTab":"HiddenUntilMet",
-"SocialTabIconSourceRect":null,
+"Calendar": "HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
 "SpouseAdopts":null,
 "SpouseWantsChildren":null,
-"SpouseGiftJealousy":false,
-"IntroductionsQuest":"{{AddToPerfection}}",
-"PerfectionScore":"{{AddToPerfection}}",
-"ItemDeliveryQuests":false,
-"EndSlideShow":"TrailingGroup",
-"DumpsterDiveEmote":"28",
-"DumpsterDiveFriendshipEffect":"0",
-"FlowerDanceCanDance":false,
-"KissSpriteIndex": 28,
-"HiddenProfileEmoteSound": null,
-"HiddenProfileEmoteDuration": -1,
-"HiddenProfileEmoteStartFrame": 37,
-"HiddenProfileEmoteFrameCount": 3,
-"HiddenProfileEmoteFrameDuration": 360.0,
-"ShakePortraits": [
-   7
-],
+"SpouseGiftJealousy":null,
+"SpouseGiftJealousyFriendshipChange":-1,
 "SpouseRoom": {
 "MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 6,
+"Height": 9
+}
 },
-"SpousePatio":{
+"SpousePatio": {
 "MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 4,
+"Height": 4
+}
 },
-
-"SpouseFloors": [ 
-    ],
+"SpouseFloors": [],
 "SpouseWallpapers": [],
-"FriendsAndFamily": null,
-"WinterStarGifts": [
-],
-"WinterStarParticipant": false,
-"UnlockConditions": null,
-"SpawnIfMissing": true,
-"EmoteOffset": { "X": 0, "Y": 45 },
-"MugShotSourceRect": { "X": 0, "Y": 144, "Width": 16, "Height": 16 },
+"IntroductionsQuest":"{{IncludeIntro}}",
+"ItemDeliveryQuests":false,
+"PerfectionScore":"{{IncludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"FriendsAndFamily":null,
+///Dumpster Diving
+"DumpsterDiveEmote":20,
+"DumpsterDiveFriendshipEffect":2,
+///Festivals
+"FlowerDanceCanDance":false,
+"WinterStarParticipant":false,
+"WinterStarGifts": [],
+//Spawn Rules
+"UnlockConditions":null,
+"SpawnIfMissing":true,
 "Home": [
 {
 "Id": "Default",
@@ -90,9 +93,8 @@ Dispositions
 "Direction": "right"
 }
 ],
-    "CustomFields": {
-                          "StardewDruid.Reactions.Affinity": "-1",
-                    },
+///Appearance & Sprites
+"TextureName":null,
 "Appearance": [
   {
 "ID": "{{ModID}}.Boxy_spring",
@@ -140,8 +142,27 @@ Dispositions
 "Precedence": -10,
 },
 ],
+"MugShotSourceRect": { "X": 2, "Y":9, "Width": 16, "Height": 24 },
+"Size": { "X": 16, "Y": 32 },
+"Breather":false,
+"BreathChestRect":null,
+"BreathChestPosition":null,
+"Shadow":{ "Visible": true },
+"EmoteOffset": { "X": 0, "Y": 45 },
+"ShakePortraits":[],
+"KissSpriteIndex":"28",
+"KissSpriteFacingDirection":null,
+///Hidden Gift Log Emote
+"HiddenProfileEmoteSound":null,
+"HiddenProfileEmoteDuration":-1,
+"HiddenProfileEmoteStartFrame":37,
+"HiddenProfileEmoteFrameCount":3,
+"HiddenProfileEmoteFrameDuration":200.0,
+///Advanced
+"CustomFields":{},
+"FormerCharacterNames": [],
 }
 }
-},
+}
 ]
 }

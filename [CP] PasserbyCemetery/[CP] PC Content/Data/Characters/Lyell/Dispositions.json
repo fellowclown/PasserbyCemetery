@@ -10,82 +10,104 @@ NPCSPAWNS
 "Target": "Data/Characters",
 "Entries": {
 "FC.Lyell": {
-    "DisplayName": "{{i18n:FC.Lyell}}",
-    "BirthSeason": "Winter",
-    "BirthDay": 6,
-    "HomeRegion": "Town",
-    "Language": "Default",
-    "Gender": "Male",
-    "Age": "Adult",
-    "Manner": "Polite",
-    "SocialAnxiety": "Shy",
-    "Optimism": "Neutral",
-    "IsDarkSkinned": true,
-    "CanBeRomanced": true,
-    "FlowerDanceCanDance": true,
-    "LoveInterest": null,
-    "Calendar": "AlwaysShown",
-    "SocialTab": "UnknownUntilMet",
-    "SocialTabIconSourceRect": null,
-    "CanSocialize": true,
-    "CanReceiveGifts": true,
-    "CanGreetNearbyCharacters": true,
-    "CanCommentOnPurchasedShopItems": true,
-    "CanVisitIsland": true,
-"IntroductionsQuest":"{{AddToPerfection}}",
-"PerfectionScore":"{{AddToPerfection}}",
-    "ItemDeliveryQuests": true,
-    "PerfectionScore": "{{AddToPerfection}}",
-    "EndSlideShow": "TrailingGroup",
-    "SpouseRoom": {
-      "MapAsset": "{{ModID}}_LyellSpouseRoom",
-      "MapSourceRect": {
-        "X": 0,
-        "Y": 0,
-        "Width": 6,
-        "Height": 9
-      }
-    },
-    "SpousePatio": {
-      "MapAsset": "{{ModID}}_LyellPatio",
-      "MapSourceRect": {
-         "X": 0,
-        "Y": 0,
-        "Width": 4,
-        "Height": 4
-      },
-      "SpriteAnimationFrames": [],
-      "SpriteAnimationPixelOffset": {}
-    },
-    "SpouseFloors": [],
-    "SpouseWallpapers": [],
-    "FriendsAndFamily": null,
-    "WinterStarGifts": [],
-    "WinterStarParticipant": true,
-    "UnlockConditions": null,
-    "SpawnIfMissing": true,
-    "Home": [
+///Basic Info
+"DisplayName":"{{i18n:FC.Lyell}}",
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Shy",
+"Optimism":"Neutral",
+"BirthSeason":"Winter",
+"BirthDay":6,
+"HomeRegion":"Town",
+"IsDarkSkinned":true,
+///Social Features
+"CanSocialize":true,
+"CanBeRomanced":true,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland":true,
+"LoveInterest":null,
+"Calendar": "HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SpouseAdopts":null,
+"SpouseWantsChildren":true,
+"SpouseGiftJealousy":true,
+"SpouseGiftJealousyFriendshipChange":-3,
+
+"SpouseRoom": {
+"MapAsset": "{{ModID}}_LyellSpouseRoom",
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 6,
+"Height": 9
+}
+},
+"SpousePatio": {
+"MapAsset": "{{ModID}}_LyellPatio",
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 4,
+"Height": 4
+}
+},
+"SpouseFloors": [],
+"SpouseWallpapers": [],
+"IntroductionsQuest":"{{IncludeIntro}}",
+"ItemDeliveryQuests":true,
+"PerfectionScore":"{{IncludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"FriendsAndFamily":null,
+///Dumpster Diving
+"DumpsterDiveEmote":28,
+"DumpsterDiveFriendshipEffect":-3,
+///Festivals
+"FlowerDanceCanDance":true,
+"WinterStarParticipant":true,
+"WinterStarGifts": [
+{
+"Condition": null,
+"Id": "{{ModID}}_WinterStarGifts",
+"ItemId": "RANDOM_ITEMS (O)",
+"RandomItemId": null,
+"MaxItems": null,
+"MinStack": -1,
+"MaxStack": -1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+"ModData": null,
+"PerItemCondition": null
+},      
+],
+//Spawn Rules
+"UnlockConditions":null,
+"SpawnIfMissing":true,
+"Home": [
       {
-        "Id": "Default",
-        "Condition": null,
-        "Location": "{{ModID}}_LyellsHouse",
-        "Tile": {
-          "X": 12,
-          "Y":10
-        },
-        "Direction": "left"
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_LyellsHouse",
+"Tile": {
+"X":12,
+"Y":10,
+},
+"Direction": "left"
       }
     ],
-  "Size": { "X": 32, "Y": 32 },
-                    "CustomFields": {
-                          "poohnhi.PoohCore/WideCharacter": "true",
-                        "poohnhi.PoohCore/HighCharacter": "true"
-                    },
-                    "Shadow":{ "Visible": true },
-"EmoteOffset": { "X": 35, "Y": 20 },
-"MugShotSourceRect": { "X": 7, "Y": 0, "Width": 17, "Height": 24 },
-    "TextureName": null,
-    "Appearance": [
+///Appearance & Sprites
+"TextureName":null,
+ "Appearance": [
       
 {
 "ID": "spring",
@@ -114,17 +136,28 @@ NPCSPAWNS
 "Precedence": -10,
 },
     ],
-    "Breather": false,
-    "ShakePortraits": [
-      11,14
-    ],
-    "KissSpriteIndex": 42,
-    "KissSpriteFacingRight": true,
-    "HiddenProfileEmoteSound": null,
-    "HiddenProfileEmoteDuration": -1,
-    "HiddenProfileEmoteStartFrame": 16,
-    "HiddenProfileEmoteFrameCount": 4,
-    "HiddenProfileEmoteFrameDuration": 200.0,
+"MugShotSourceRect":{ "X": 8, "Y": 1, "Width": 16, "Height": 24 },
+"Size": { "X": 32, "Y": 32 },
+"Breather":false,
+"BreathChestRect":null,
+"BreathChestPosition":null,
+"Shadow":{ "Visible": true },
+"EmoteOffset":{ "X": 35, "Y": 20 },
+"ShakePortraits":[11,14],
+"KissSpriteIndex":"42",
+"KissSpriteFacingDirection":null,
+///Hidden Gift Log Emote
+"HiddenProfileEmoteSound":null,
+"HiddenProfileEmoteDuration":-1,
+"HiddenProfileEmoteStartFrame":0,
+"HiddenProfileEmoteFrameCount":4,
+"HiddenProfileEmoteFrameDuration":200.0,
+///Advanced
+"CustomFields":{
+"poohnhi.PoohCore/WideCharacter": "true",
+"poohnhi.PoohCore/HighCharacter": "true"
+},
+"FormerCharacterNames": [ "Lyell" ],
 }
 }
 },

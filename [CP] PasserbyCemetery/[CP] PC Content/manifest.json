@@ -2,7 +2,7 @@
   "Name": "Passerby Cemetery",
    "Author": "Fellowclown",
    "Description": "Fellowclown's expansion mod",
-   "Version": "1.69.0", ///Version of your mod
+   "Version": "1.84.0", ///Version of your mod
    "UniqueID": "Fellowclown.PC", 
  
    "ContentPackFor": {
@@ -10,9 +10,12 @@
        "MinimumVersion": "1.30.4"
     },
     "DH.MEEP": "2.0.0",
+    "DH.MEEP.InvulnerableTrees": "",
     "DH.MEEP.CloseupInteractions": "",
     "DH.MEEP.VanillaLetters": "",
     "DH.MEEP.SetMailFlag": "",
+    "DH.MEEP.FarmAnimalSpawns": "",
+    "DH.MEEP.AddConversationTopic": "",
    "UpdateKeys": [ "Nexus:22600" ],
   "Dependencies": [
       {
@@ -49,7 +52,7 @@
             "UniqueID": "DLX.Bundles",  "IsRequired": true 
         },
                      {
-            "UniqueID": "EnderTedi.Polyamory",  "IsRequired": true 
+            "UniqueID": "EnderTedi.Polyamory",  "IsRequired": false 
         },
     ]
 }

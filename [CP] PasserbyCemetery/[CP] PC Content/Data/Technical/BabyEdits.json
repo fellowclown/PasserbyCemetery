@@ -36,7 +36,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBaby_Lyell.png",
              "When": {
                 "Relationship:FC.Lyell": "Engaged, Married",
-                 "Skin Color": "Pale",
+                 "SkinColor": "Pale",
 
 }
         }, 
@@ -46,7 +46,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleGirlToddler_Lyell.png",
          "When": {
             "Relationship:FC.Lyell": "Engaged, Married",
-             "Skin Color": "Pale",
+             "SkinColor": "Pale",
 
 }
         },  
@@ -56,7 +56,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBoyToddler_Lyell.png",
          "When": {
             "Relationship:FC.Lyell": "Engaged, Married",
-             "Skin Color": "Pale",
+             "SkinColor": "Pale",
 
 }
         },  
@@ -66,7 +66,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkBaby_Lyell.png",
              "When": {
                 "Relationship:FC.Lyell": "Engaged, Married",
-                 "Skin Color": "Darker",
+                 "SkinColor": "Darker",
 
 }
         },  
@@ -76,7 +76,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerGirlToddler_Lyell.png",
          "When": {
             "Relationship:FC.Lyell": "Engaged, Married",
-             "Skin Color": "Darker",
+             "SkinColor": "Darker",
 
 }
         },  
@@ -86,7 +86,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerBoyToddler_Lyell.png",
          "When": {
             "Relationship:FC.Lyell": "Engaged, Married",
-             "Skin Color": "Darker",
+             "SkinColor": "Darker",
 
 }
         },  
@@ -98,7 +98,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBaby_Nikolai.png",
              "When": {
                 "Relationship:FC.Nikolai": "Engaged, Married",
-                 "Skin Color": "Pale",
+                 "SkinColor": "Pale",
 
 }
         }, 
@@ -108,7 +108,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleGirlToddler_Nikolai.png",
          "When": {
             "Relationship:FC.Nikolai": "Engaged, Married",
-             "Skin Color": "Pale",
+             "SkinColor": "Pale",
 
 }
         },  
@@ -118,7 +118,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBoyToddler_Nikolai.png",
          "When": {
             "Relationship:FC.Nikolai": "Engaged, Married",
-             "Skin Color": "Pale",
+             "SkinColor": "Pale",
 
 }
         },  
@@ -128,7 +128,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerBaby_Nikolai.png",
              "When": {
                 "Relationship:FC.Nikolai": "Engaged, Married",
-                 "Skin Color": "Darker",
+                 "SkinColor": "Darker",
 
 }
         },  
@@ -138,7 +138,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerGirlToddler_Nikolai.png",
          "When": {
             "Relationship:FC.Nikolai": "Engaged, Married",
-             "Skin Color": "Darker",
+             "SkinColor": "Darker",
 
 }
         },  
@@ -148,7 +148,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerBoyToddler_Nikolai.png",
          "When": {
             "Relationship:FC.Nikolai": "Engaged, Married",
-             "Skin Color": "Darker",
+             "SkinColor": "Darker",
 
 }
         },  
@@ -160,7 +160,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBaby_Thalia.png",
              "When": {
                 "Relationship:FC.Thalia": "Engaged, Married",
-                 "Skin Color": "Pale",
+                 "SkinColor": "Pale",
 
 }
         }, 
@@ -170,7 +170,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleGirlToddler_Thalia.png",
          "When": {
             "Relationship:FC.Thalia": "Engaged, Married",
-             "Skin Color": "Pale",
+             "SkinColor": "Pale",
 
 }
         },  
@@ -180,7 +180,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBoyToddler_Thalia.png",
          "When": {
             "Relationship:FC.Thalia": "Engaged, Married",
-             "Skin Color": "Pale",
+             "SkinColor": "Pale",
 
 }
         },  
@@ -190,7 +190,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerBaby_Thalia.png",
              "When": {
                 "Relationship:FC.Thalia": "Engaged, Married",
-                 "Skin Color": "Darker",
+                 "SkinColor": "Darker",
 
 }
         },  
@@ -200,7 +200,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerGirlToddler_Thalia.png",
          "When": {
             "Relationship:FC.Thalia": "Engaged, Married",
-             "Skin Color": "Darker",
+             "SkinColor": "Darker",
 
 }
         },  
@@ -210,7 +210,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerBoyToddler_Thalia.png",
          "When": {
             "Relationship:FC.Thalia": "Engaged, Married",
-             "Skin Color": "Darker",
+             "SkinColor": "Darker",
 
 }
         },  
@@ -223,7 +223,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBaby_Valerie.png",
              "When": {
                 "Relationship:FC.Valerie": "Engaged, Married",
-                 "Skin Color": "Pale",
+                 "SkinColor": "Pale",
 
 }
         }, 
@@ -233,7 +233,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleGirlToddler_Valerie.png",
          "When": {
             "Relationship:FC.Valerie": "Engaged, Married",
-             "Skin Color": "Pale",
+             "SkinColor": "Pale",
 
 }
         },  
@@ -243,7 +243,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/PaleBoyToddler_Valerie.png",
          "When": {
             "Relationship:FC.Valerie": "Engaged, Married",
-             "Skin Color": "Pale",
+             "SkinColor": "Pale",
 
 }
         },  
@@ -253,7 +253,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerBaby_Valerie.png",
              "When": {
                 "Relationship:FC.Valerie": "Engaged, Married",
-                 "Skin Color": "Darker",
+                 "SkinColor": "Darker",
 
 }
         },  
@@ -263,7 +263,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerGirlToddler_Valerie.png",
          "When": {
             "Relationship:FC.Valerie": "Engaged, Married",
-             "Skin Color": "Darker",
+             "SkinColor": "Darker",
 
 }
         },  
@@ -273,7 +273,7 @@
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/DarkerBoyToddler_Valerie.png",
          "When": {
             "Relationship:FC.Valerie": "Engaged, Married",
-             "Skin Color": "Darker",
+             "SkinColor": "Darker",
 
 }
         },

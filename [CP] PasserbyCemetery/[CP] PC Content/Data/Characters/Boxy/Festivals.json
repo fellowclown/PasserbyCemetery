@@ -71,7 +71,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Boxy 17 28 2",
+                    "Value": "FC.Boxy 17 33 2",
                     "Delimiter": "/"
                 },
                      {
@@ -80,7 +80,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Boxy 17 28 2",
+                    "Value": "FC.Boxy 17 33 2",
                     "Delimiter": "/"
                 },
                  {
@@ -109,7 +109,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Boxy 21 28 2",
+                    "Value": "FC.Boxy 17 33 2",
                     "Delimiter": "/",
                 },
                      {
@@ -118,9 +118,19 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Boxy 21 28 2",
+                    "Value": "FC.Boxy 17 33 2",
                     "Delimiter": "/"
                 },
+                     {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up{{YearCheck}}", 5],
+             "Value": "/animate FC.Boxy false true 360 32 32 33 33 34 34 33 33"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
+             "Value": "/animate FC.Boxy false true 360 32 32 33 33 34 34 33 33"
+            },
         ]
     },
     {

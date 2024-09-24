@@ -1,0 +1,122 @@
+
+{
+"Changes": [
+   /************************************************
+ **  Dialogues
+ ************************************************/ 
+ {
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/FC.Phoebe",
+  "Entries": {
+// Special Keys
+"Introduction": "{{i18n:Introduction.Phoebe}}",
+"RejectBouquet_NotDatable": "{{i18n:RejectBouquet_NotDatable.Phoebe}}",
+"AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Phoebe}}",
+// RESORT
+"Resort_Entering": "{{i18n:Resort_Entering.Phoebe}}",
+"Resort_Leaving": "{{i18n:Resort_Leaving.Phoebe}}",
+"Resort_Shore": "{{i18n:Resort_Shore.Phoebe}}",
+"Resort_Umbrella": "{{i18n:Resort_Umbrella.Phoebe}}",
+"Resort_Wander": "{{i18n:Resort_Wander.Phoebe}}",
+"Resort_Bar": "{{i18n:Resort_Bar.Phoebe}}",
+"Resort": "{{i18n:Resort.Phoebe}}",
+"Saloon_FC.Phoebe_RareGreeting": "Saloon_Phoebe_RareGreeting.Phoebe",
+"AcceptBirthdayGift_Loved": "{{i18n:AcceptBirthdayGift_Loved.Phoebe}}",
+"AcceptBirthdayGift_Liked": "{{i18n:AcceptBirthdayGift_Liked.Phoebe}}",
+"AcceptBirthdayGift_Disliked": "{{i18n:AcceptBirthdayGift_Disliked.Phoebe}}",
+"AcceptBirthdayGift_Hated": "{{i18n:AcceptBirthdayGift_Hated.Phoebe}}",
+"AcceptBirthdayGift_Neutral": "{{i18n:AcceptBirthdayGift_Neutral.Phoebe}}",
+"Fair_Judging": "{{i18n:Fair_Judging.Phoebe}}",
+"Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Fair_Judged_PlayerLost_PurpleShorts.Phoebe}}",
+"Fair_Judged_PlayerLost_Skipped": "{{i18n:Fair_Judged_PlayerLost_Skipped.Phoebe}}",
+"Fair_Judged_PlayerLost": "{{i18n:Fair_Judged_PlayerLost.Phoebe}}",
+"Fair_Judged_PlayerWon": "{{i18n:Fair_Judged_PlayerWon.Phoebe}}",
+"Fair_Judged": "{{i18n:Fair_Judged.Phoebe}}",
+"WinterStar_GiveGift_Before": "{{i18n:WinterStar_GiveGift_Before.Phoebe}}",
+"WinterStar_GiveGift_After": "{{i18n:WinterStar_GiveGift_After.Phoebe}}",
+"WinterStar_ReceiveGift": "{{i18n:WinterStar_ReceiveGift.Phoebe}}",
+"HitBySlingshot": "{{i18n:HitBySlingshot.Phoebe}}",
+"DumpsterDiveComment": "{{i18n:DumpsterDiveComment.Phoebe}}",
+"AcceptGift_Fellowclown.TW_DragaWhiskey": "{{i18n:Phoebe.accept_DragaWhiskey}}",
+"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:RejectMovieTicket_AlreadyInvitedBySomeoneElse.Phoebe}}",
+"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek.Phoebe}}",
+"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie.Phoebe}}",
+"AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Phoebe.AcceptGift_(O)WWWA.AutographedPhoto}}",
+},
+},
+       {
+            "LogName": "Dialogue - 0-4",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.Phoebe",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Phoebe.LowHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Phoebe.LowHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Phoebe.LowHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Phoebe.LowHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Phoebe.LowHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Phoebe.LowHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Phoebe.LowHeart.{{season}}}}",
+"Saloon":"{{i18n:Saloon.Phoebe.LowHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Phoebe": "{{Range: 0, 4}}",
+
+}
+},
+  {
+            "LogName": "Dialogue - 5-8",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.Phoebe",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Phoebe.MidHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Phoebe.MidHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Phoebe.MidHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Phoebe.MidHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Phoebe.MidHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Phoebe.MidHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Phoebe.MidHeart.{{season}}}}",
+"Saloon":"{{i18n:Saloon.Phoebe.MidHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Phoebe": "{{Range: 5,10}}",
+}
+},
+  /************************************************
+ ** Dialogues
+ ************************************************/
+  {
+"LogName": "Festival dialogue",
+"Action": "EditData",
+"Target": "Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/fall27,Data/Festivals/winter8,Data/Festivals/winter25",
+"Entries": {
+// show the first translation found from 'spring13.dating', 'spring13', or 'festival-default'
+"FC.Phoebe{{YearCheck}}": "{{i18n:Phoebe.{{TargetWithoutPath}}.{{Relationship:FC.Phoebe}} |default={{i18n:Phoebe.{{TargetWithoutPath}} |default={{i18n:Phoebe.festival-default}} }} }}",
+
+} 
+ },
+{
+"LogName": "Incoming Calls",
+"Action": "EditData",
+"Target": "Data/IncomingPhoneCalls",
+"Entries": {
+  "{{ModID}}_PhonePhoebe": {
+"TriggerCondition": null,
+"RingCondition": null,
+"FromNpc": "FC.Phoebe",
+"FromPortrait": null,
+"FromDisplayName": null,
+"Dialogue": "{{i18n:Phoebe.PhoneCall.{{Random:1,2,3}}}}",
+"IgnoreBaseChance": false,
+"SimpleDialogueSplitBy": null,
+"MaxCalls": 100,
+"CustomFields": {}
+  }
+},
+     "When": {
+ "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
+}
+},
+]
+}

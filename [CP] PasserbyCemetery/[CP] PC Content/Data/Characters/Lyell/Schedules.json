@@ -15,7 +15,7 @@
 "{{ModId}}_LyellWater2":"34/34 34 34 34 34 34 35 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 36 35 34/34",
 "{{ModId}}_LyellGunGuard":"37/37 37 37 37 37 38 38 38 38 38 38 38 38 38 38 39 39 39 39 39 39 39 38 38 38 38 38 38 37/37",
 "{{ModId}}_LyellSmokeStand":"44/44 44 44 44 44 44 44 45 46 47 47 47 47 47 46 45 44 44 44 44 44 44 44 44 44 44 44 44 44/44",
-"{{ModId}}_LyellSleep": "55/55/55//offset 30 0",
+"{{ModId}}_LyellSleep": "55/55/55//offset 40 0",
 }
  },
 {
@@ -29,6 +29,7 @@
 "Lyell.SquidFest": "{{i18n:Lyell.SquidFest}}",
 "Lyell.Grave": "{{i18n:Lyell.Grave}}",
 "Lyell.Prayer": "{{i18n:Lyell.Prayer}}",
+"Lyell.NightMarket": "{{i18n:Lyell.NightMarket}}",
 }
 },
    

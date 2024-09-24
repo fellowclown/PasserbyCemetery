@@ -1,0 +1,241 @@
+{
+    "Changes": [
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+                           "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 38 73 3",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 38 73 3",
+                    "Delimiter": "/"
+                },
+                     {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up{{YearCheck}}", 5],
+             "Value": "/animate FC.John false true 360 16 16 16 16 16 16 16 16 16 16 17 17 18 18 19 19 19 19 18 18 17 17 16 16 16 16 16"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
+             "Value": "/animate FC.John false true 360 16 16 16 16 16 16 16 16 16 16 17 17 18 18 19 19 19 19 18 18 17 17 16 16 16 16 16"
+            },
+        ]
+    },
+           {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+                            "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 8 18 3",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 7 18 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+               {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+                           "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 19 28 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 19 28 2",
+                    "Delimiter": "/"
+                },
+                                            {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up{{YearCheck}}", 5],
+             "Value": "/animate FC.John false true 360 31 31 31"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
+             "Value": "/animate FC.John false true 360 31 31 31",
+        },
+        ]
+    },
+                   {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+                     "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 24 36 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 24 36 2",
+                    "Delimiter": "/"
+                },
+                                     {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up{{YearCheck}}", 5],
+             "Value": "/animate FC.John false true 360 31 31 31"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
+             "Value": "/animate FC.John false true 360 31 31 31",
+        },
+        ]
+    },
+                   {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3",
+                       "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 26 24 3",
+                    "Delimiter": "/"
+                },
+                                 {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 33 27 3",
+                    "Delimiter": "/",
+        },
+        ]
+    },
+                       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+                   "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 54 96 1",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+                   {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+                             "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 103 21 3",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 103 21 3",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+                    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+                             "When": {
+          "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 43 72 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 43 72 1",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+  ]
+}

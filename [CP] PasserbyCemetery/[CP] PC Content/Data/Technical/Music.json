@@ -1,5 +1,109 @@
 {
 "Changes": [
+            {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_ZootSong": {
+"ID": "{{ModID}}_ZootSong",
+"Category": "Sound",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.ZootSong.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": false
+}
+}
+},
+    {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Poppy": {
+"ID": "{{ModID}}_Poppy",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Poppy.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": true
+}
+}
+},
+         {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Wumbus": {
+"ID": "{{ModID}}_Wumbus",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Wumbus.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": true
+}
+}
+},
+     {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Tensions": {
+"ID": "{{ModID}}_Tensions",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Tensions.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": true
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Game": {
+"ID": "{{ModID}}_Game",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.CraneGame.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": true
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Thylacine": {
+"ID": "{{ModID}}_Thylacine",
+"Category": "Sound",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Thylacine.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": false
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_ShevitSqueak": {
+"ID": "{{ModID}}_ShevitSqueak",
+"Category": "Sound",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.ShevitSqueak.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": false
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_FamilyTies": {
+"ID": "{{ModID}}_FamilyTies",
+"Category": "Sound",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.FamilyTies.ogg}}" ],
+"StreamedVorbis": true,
+"Looped": true
+}
+}
+},
      {
 "Action": "EditData",
 "Target": "Data/AudioChanges",

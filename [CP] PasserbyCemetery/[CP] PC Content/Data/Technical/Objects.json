@@ -1,5 +1,574 @@
 {
     "Changes": [
+      {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_GemBirdMeat": {
+    "Name": "{{ModID}}_GemBirdMeat",
+    "DisplayName": "{{i18n:FC.GemBirdMeat}}",
+    "Description": "{{i18n:FC.GemBirdMeat.Desc}}",
+    "Type": "Animal Product",
+    "Category": -14,
+     "Price": 400,
+    "Edibility": -10,
+    "IsDrink": false,
+     "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 201
+  },
+}
+},
+      {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_TastyPastry": {
+    "Name": "{{ModID}}_TastyPastry",
+    "DisplayName": "{{i18n:FC.TastyPastry}}",
+    "Description": "{{i18n:FC.TastyPastry.Desc}}",
+    "Type": "Cooking",
+    "Category": -7,
+     "Price": 60,
+    "Edibility": 20,
+    "IsDrink": false,
+     "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "Buff": {
+        "Duration": 3,
+        "IsDebuff": false,
+        "GlowColor": null,
+        "CustomAttributes": {
+          "FarmingLevel": 0.0,
+          "FishingLevel": 0.0,
+          "MiningLevel": 0.0,
+          "LuckLevel": 1.0,
+          "ForagingLevel": 0.0,
+          "MaxStamina": 50.0,
+          "MagneticRadius": 3.0,
+          "Speed": 0.0,
+          "Defense": 0.0,
+          "Attack": 0.0
+        },
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 186
+  },
+}
+}, 
+      {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_GemBirdPatties": {
+    "Name": "{{ModID}}_GemBirdPatties",
+    "DisplayName": "{{i18n:FC.GemBirdPatties}}",
+    "Description": "{{i18n:FC.GemBirdPatties.Desc}}",
+   "Type": "Cooking",
+    "Category": -7,
+     "Price": 700,
+    "Edibility": 10,
+    "IsDrink": false,
+     "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"Buff": {
+       
+        "Duration": 4,
+        "IsDebuff": false,
+        "GlowColor": null,
+        "CustomAttributes": {
+          "FarmingLevel": 0.0,
+          "FishingLevel": 0.0,
+          "MiningLevel": 0.0,
+          "LuckLevel": 0.0,
+          "ForagingLevel": 1.0,
+          "MaxStamina": 20.0,
+          "MagneticRadius": 0.0,
+          "Speed": 2.0,
+          "Defense": 0.0,
+          "Attack": 0.0
+        },
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 187
+  },
+}
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_SmokedGemBirdMeat": {
+    "Name": "{{ModID}}_SmokedGemBirdMeat",
+    "DisplayName": "{{i18n:FC.SmokedGemBirdMeat}}",
+    "Description": "{{i18n:FC.SmokedGemBirdMeat.Desc}}",
+   "Type": "Artisan Goods",
+    "Category": -26,
+     "Price": 800,
+    "Edibility": 10,
+    "IsDrink": false,
+     "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"Buff": {
+       
+        "Duration": 4,
+        "IsDebuff": false,
+        "GlowColor": null,
+        "CustomAttributes": {
+          "FarmingLevel": 0.0,
+          "FishingLevel": 0.0,
+          "MiningLevel": 0.0,
+          "LuckLevel": 0.0,
+          "ForagingLevel": 1.0,
+          "MaxStamina": 20.0,
+          "MagneticRadius": 0.0,
+          "Speed": 2.0,
+          "Defense": 0.0,
+          "Attack": 0.0
+        },
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 171
+  },
+}
+},
+      {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_VoidJuice": {
+    "Name": "{{ModID}}_VoidJuice",
+    "DisplayName": "{{i18n:FC.VoidJuice}}",
+    "Description": "{{i18n:FC.VoidJuice.Desc}}",
+   "Type": "Cooking",
+    "Category": -7,
+     "Price": 65,
+    "Edibility": 10,
+    "IsDrink": false,
+     "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "Buff": {
+        "Duration": 3,
+        "IsDebuff": false,
+        "GlowColor": null,
+        "CustomAttributes": {
+          "FarmingLevel": 0.0,
+          "FishingLevel": 0.0,
+          "MiningLevel": 0.0,
+          "LuckLevel": 0.0,
+          "ForagingLevel": 1.0,
+          "MaxStamina": 2,
+          "MagneticRadius": 5.0,
+          "Speed": -2.0,
+          "Defense": 0.0,
+          "Attack": 0.0
+        },
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 200
+  },
+}
+},
+       {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+    "{{ModID}}_LostKey": {
+    "Name": "{{ModID}}_LostKey",
+    "DisplayName": "{{i18n:FC.LostKey}}",
+    "Description": "{{i18n:FC.LostKey.Desc}}",
+    "Type": "Quest",
+    "Category": -24,
+     "Price": 0,
+     "CanBeGivenAsGift": false,
+    "CanBeTrashed": false,
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    "CustomAttributes": {
+      }
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 188
+}
+},
+},
+ {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+    "{{ModID}}_BarronsBook": {
+    "Name": "{{ModID}}_BarronsBook",
+    "DisplayName": "{{i18n:FC.BarronsBook}}",
+    "Description": "{{i18n:FC.BarronsBook.Desc}}",
+    "Type": "Quest",
+    "Category": -24,
+     "Price": 0,
+     "CanBeGivenAsGift": true,
+    "CanBeTrashed": false,
+    "ExcludeFromShippingCollection": true,
+    "Buff": {
+    "CustomAttributes": {
+      }
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 209
+}
+},
+},
+ {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+    "{{ModID}}_TheCuff": {
+    "Name": "{{ModID}}_TheCuff",
+    "DisplayName": "{{i18n:FC.TheCuff}}",
+    "Description": "{{i18n:FC.TheCuff.Desc}}",
+    "Type": "Quest",
+    "Category": -24,
+     "Price": 0,
+     "CanBeGivenAsGift": true,
+    "CanBeTrashed": false,
+    "ExcludeFromShippingCollection": true,
+    "Buff": {
+    "CustomAttributes": {
+      }
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 184
+}
+},
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+    "{{ModID}}_PhoebesPackage": {
+    "Name": "{{ModID}}_PhoebesPackage",
+    "DisplayName": "{{i18n:FC.PhoebesPackage}}",
+    "Description": "{{i18n:FC.PhoebesPackage.Desc}}",
+    "Type": "Quest",
+    "Category": -24,
+     "Price": 0,
+     "CanBeGivenAsGift": true,
+    "CanBeTrashed": false,
+    "ExcludeFromShippingCollection": true,
+    "Buff": {
+    "CustomAttributes": {
+      }
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 185
+}
+},
+},
+ {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_BagOfSeaglass": {
+    "Name": "{{ModID}}_BagOfSeaglass",
+    "DisplayName": "{{i18n:FC.BagOfSeaglass}}",
+    "Description": "{{i18n:FC.BagOfSeaglass.Desc}}",
+    "Type": "Quest",
+    "Category": -24,
+       "Price": 0,
+     "CanBeGivenAsGift": true,
+    "CanBeTrashed": false,
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 204
+  },
+},
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_Button": {
+    "Name": "{{ModID}}_Button",
+    "DisplayName": "{{i18n:FC.Button}}",
+    "Description": "{{i18n:FC.Button.Desc}}",
+    "Type": "Quest",
+    "Category": -24,
+    "Price": 2,
+      "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+     "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 189
+  },
+},
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_JohnsNecklace": {
+    "Name": "{{ModID}}_JohnsNecklace",
+    "DisplayName": "{{i18n:FC.JohnsNecklace}}",
+    "Description": "{{i18n:FC.JohnsNecklace.Desc}}",
+       "Type": "Quest",
+    "Category": -24,
+       "Price": -300,
+     "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+     "CanBeGivenAsGift": true,
+    "CanBeTrashed": false,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 202
+  },
+},
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_JohnsRing": {
+    "Name": "{{ModID}}_JohnsRing",
+    "DisplayName": "{{i18n:FC.JohnsRing}}",
+    "Description": "{{i18n:FC.JohnsRing.Desc}}",
+      "Type": "Quest",
+    "Category": -24,
+       "Price": 0,
+       "CanBeGivenAsGift": true,
+    "CanBeTrashed": false,
+     "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 203
+  },
+},
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_JohnsWine": {
+    "Name": "{{ModID}}_JohnsWine",
+    "DisplayName": "{{i18n:FC.JohnsWine}}",
+    "Description": "{{i18n:FC.JohnsWine.Desc}}",
+      "Type": "Quest",
+    "Category": -24,
+    "IsDrink": false,
+       "CanBeGivenAsGift": true,
+    "CanBeTrashed": false,
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex":205
+  },
+},
+},
+ {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_FrostedCake": {
+    "Name": "{{ModID}}_FrostedCake",
+    "DisplayName": "{{i18n:FC.FrostedCake}}",
+    "Description": "{{i18n:FC.FrostedCake.Desc}}",
+    "Type": "Cooking",
+    "Category": -7,
+     "Price": 150,
+    "Edibility": 30,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+    "Buff": {
+        "Duration": 2,
+        "IsDebuff": false,
+        "GlowColor": null,
+        "CustomAttributes": {
+          "FarmingLevel": 1.0,
+          "FishingLevel": 0.0,
+          "MiningLevel": 0.0,
+          "LuckLevel": 3,
+          "ForagingLevel": 0.0,
+          "MaxStamina": 3,
+          "MagneticRadius": 0.0,
+          "Speed": 0.0,
+          "Defense": 0.0,
+          "Attack": 0.0
+        },
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 192
+  },
+}
+}, 
+ {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_HotCereal": {
+    "Name": "{{ModID}}_HotCereal",
+    "DisplayName": "{{i18n:FC.HotCereal}}",
+    "Description": "{{i18n:FC.HotCereal.Desc}}",
+    "Type": "Cooking",
+    "Category": -7,
+     "Price": 50,
+    "Edibility": 30,
+    "IsDrink": false,
+     "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+    "Buff": {
+        "Duration": 3,
+        "IsDebuff": false,
+        "GlowColor": null,
+        "CustomAttributes": {
+          "FarmingLevel": 0.0,
+          "FishingLevel": 0.0,
+          "MiningLevel": 0.0,
+          "LuckLevel": 0.0,
+          "ForagingLevel": 0.0,
+          "MaxStamina": 10.0,
+          "MagneticRadius": 3.0,
+          "Speed": 0.0,
+          "Defense": 0.0,
+          "Attack": 0.0
+        },
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 193
+  },
+}
+}, 
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+    "{{ModID}}_WhiteTruffleOil": {
+    "Name": "{{ModID}}_WhiteTruffleOil",
+    "DisplayName": "{{i18n:FC.WhiteTruffleOil}}",
+    "Description": "{{i18n:FC.WhiteTruffleOil.Desc}}",
+    "Type": "Artisan Goods",
+    "Category": 26,
+     "Price": 8000,
+    "Edibility": 10,
+    "IsDrink": false,
+     "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex":170
+  },
+}
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+    "{{ModID}}_WhiteTruffle": {
+    "Name": "{{ModID}}_WhiteTruffle",
+    "DisplayName": "{{i18n:FC.WhiteTruffle}}",
+    "Description": "{{i18n:FC.WhiteTruffle.Desc}}",
+    "Type": "Vegetable",
+    "Category": -75,
+     "Price": 4000,
+    "Edibility": 10,
+    "IsDrink": false,
+     "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex":194
+  },
+}
+},
+ {
+      "LogName": "WhiteTruffleOil",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)19",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_WhiteTruffle": {
+          "Id": "{{ModID}}_WhiteTruffle",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_WhiteTruffle",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "{{ModID}}_WhiteTruffleOil",
+              "ItemId": "{{ModID}}_WhiteTruffleOil"
+            }
+          ],
+          "MinutesUntilReady": 180
+        },
+      },
+        
+      "MoveEntries": [
+        {
+          "Id": "{{ModID}}_WhiteTruffle",
+          "BeforeId": "Default_Truffle"
+        },
+      ]
+    },
+{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+   "{{ModID}}_CheesyWhiteRisotto": {
+    "Name": "{{ModID}}_CheesyWhiteRisotto",
+    "DisplayName": "{{i18n:FC.CheesyWhiteRisotto}}",
+    "Description": "{{i18n:FC.CheesyWhiteRisotto.Desc}}",
+    "Type": "Cooking",
+    "Category": -7,
+     "Price": 1600,
+    "Edibility": 20,
+    "IsDrink": false,
+     "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+    "Buff": {
+        "Duration": 4,
+        "IsDebuff": false,
+        "GlowColor": null,
+        "CustomAttributes": {
+          "FarmingLevel": 0.0,
+          "FishingLevel": 0.0,
+          "MiningLevel": 0.0,
+          "LuckLevel": 1.0,
+          "ForagingLevel": 5.0,
+          "MaxStamina": 50.0,
+          "MagneticRadius": 0.0,
+          "Speed": 0.0,
+          "Defense": 0.0,
+          "Attack": 0.0
+        },
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 195
+  },
+}
+},
          {
 "Action": "EditData",
 "Target": "Data/Objects",
@@ -45,7 +614,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_red",
@@ -100,7 +669,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_brown",
@@ -155,7 +724,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_brown",
@@ -210,7 +779,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_blue",
@@ -265,7 +834,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_purple",
@@ -320,7 +889,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_purple",
@@ -375,7 +944,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_purple",
@@ -430,7 +999,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_red",
@@ -485,7 +1054,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_yellow",
@@ -540,7 +1109,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_yellow",
@@ -595,7 +1164,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_purple",
@@ -812,7 +1381,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_white",
@@ -867,7 +1436,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_purple",
@@ -922,7 +1491,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_red",
@@ -978,7 +1547,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_gray",
@@ -1035,7 +1604,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_gray",
@@ -1092,7 +1661,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_blue",
@@ -1149,7 +1718,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_pink",
@@ -1206,7 +1775,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_purple",
@@ -1263,7 +1832,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_red",
@@ -1320,7 +1889,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_red",
@@ -1377,7 +1946,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_purple",
@@ -1846,7 +2415,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_orange",
@@ -1901,7 +2470,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_orange",
@@ -1956,7 +2525,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_ingredients",
@@ -2011,7 +2580,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_ingredients",
@@ -2066,7 +2635,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_artisan_goods",
@@ -2121,7 +2690,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_artisan_goods",
@@ -2176,7 +2745,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_artisan_goods",
@@ -2231,7 +2800,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_artisan_goods",
@@ -2286,7 +2855,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_artisan_goods",
@@ -2341,7 +2910,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_artisan_goods",
@@ -2396,7 +2965,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_artisan_goods",
@@ -2451,7 +3020,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_artisan_goods",
@@ -2506,7 +3075,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -2560,7 +3129,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -2614,7 +3183,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -2668,7 +3237,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -2722,7 +3291,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -2776,7 +3345,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -2830,7 +3399,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -3011,7 +3580,7 @@
   "Description": "{{i18n:FC.MovoraptorEgg.Desc}}",
   "Type": "Animal Product",
   "Category": -5,
-  "Price":350,
+  "Price":150,
    "Texture": "Mods/{{ModID}}/Objects",
   "SpriteIndex": 59,
   "Edibility": 2,
@@ -3046,7 +3615,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_egg",
@@ -3100,7 +3669,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_artisan_goods",
@@ -3154,7 +3723,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_ingredients",
@@ -3209,7 +3778,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -3263,7 +3832,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_furniture",
@@ -3372,7 +3941,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -3426,7 +3995,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -3642,7 +4211,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_vegetable",
@@ -3697,7 +4266,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fruits",
@@ -3752,7 +4321,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fruits",
@@ -3807,7 +4376,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_vegetable",
@@ -4078,7 +4647,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fruits",
@@ -4133,7 +4702,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fruits",
@@ -4188,7 +4757,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
   ],
@@ -4241,7 +4810,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fruits",
@@ -4296,7 +4865,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_blue"
@@ -4350,7 +4919,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_vegetable",
@@ -4406,7 +4975,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_vegetable",
@@ -4462,7 +5031,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_vegetable",
@@ -4518,7 +5087,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -4573,7 +5142,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -4628,7 +5197,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -4683,7 +5252,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -4738,7 +5307,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -4793,7 +5362,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_artisan_goods",
@@ -4848,7 +5417,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -4957,7 +5526,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_seeds",
@@ -5065,7 +5634,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_seeds",
@@ -5335,7 +5904,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -5389,7 +5958,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -5443,7 +6012,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -5604,7 +6173,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_artisan_goods",
@@ -5658,7 +6227,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_artisan_goods",
@@ -5712,7 +6281,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -5766,7 +6335,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -6722,7 +7291,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
   "category_fruits",
@@ -6778,7 +7347,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fruits",
@@ -6833,7 +7402,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fruits",
@@ -6888,7 +7457,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fruits",
@@ -7159,7 +7728,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -7643,7 +8212,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -7697,7 +8266,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -7716,7 +8285,7 @@
   "Description": "{{i18n:FC.ChocoBun.Desc}}",
   "Type": "Cooking",
   "Category": -7,
-  "Price": 0,
+  "Price": 30,
    "Texture": "Mods/{{ModID}}/Objects",
   "SpriteIndex": 149,
   "Edibility": 50,
@@ -7751,7 +8320,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -7770,7 +8339,7 @@
   "Description": "{{i18n:FC.DeepCaveFruitJuice.Desc}}",
   "Type": "Cooking",
   "Category": -7,
-  "Price": 0,
+  "Price": 40,
    "Texture": "Mods/{{ModID}}/Objects",
   "SpriteIndex": 150,
   "Edibility": 30,
@@ -7805,7 +8374,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_cooking",
@@ -7824,7 +8393,7 @@
   "Description": "{{i18n:FC.FrenchDodoEgg.Desc}}",
   "Type": "Animal Product",
   "Category": -5,
-  "Price": 0,
+  "Price": 300,
    "Texture": "Mods/{{ModID}}/Objects",
   "SpriteIndex": 151,
   "Edibility": 1,
@@ -7859,7 +8428,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_egg",
@@ -7988,7 +8557,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_artisan_goods",
@@ -8042,7 +8611,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
      "color_white",
@@ -8099,7 +8668,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
      "color_white",
@@ -8156,7 +8725,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "color_purple"
@@ -8210,7 +8779,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
      "color_yellow"
@@ -8264,7 +8833,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
      "color_yellow"
@@ -8318,7 +8887,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
      "color_brown"
@@ -8372,7 +8941,7 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
      "color_brown"
@@ -8426,12 +8995,342 @@
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
   "ExcludeFromFishingCollection": true,
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
      "color_purple",
       "drink_item",
 
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_SmallGaleabisonMilk": {
+  "Name": "{{ModID}}_SmallGaleabisonMilk",
+  "DisplayName": "{{i18n:FC.SmallGaleabisonMilk}}",
+  "Description": "{{i18n:FC.SmallGaleabisonMilk.Desc}}",
+  "Type": "Basic",
+  "Category": -6,
+  "Price": 180,
+  "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 190,
+  "Edibility": 30,
+  "IsDrink": true,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": 0,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 100,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+     "color_white",
+      "cow_milk_item",
+      "drink_item",
+      "milk_item"
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_LargeGaleabisonMilk": {
+  "Name": "{{ModID}}_LargeGaleabisonMilk",
+  "DisplayName": "{{i18n:FC.LargeGaleabisonMilk}}",
+  "Description": "{{i18n:FC.LargeGaleabisonMilk.Desc}}",
+  "Type": "Basic",
+  "Category": -6,
+  "Price": 480,
+  "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 191,
+  "Edibility": 40,
+  "IsDrink": true,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": 0,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 100,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+     "color_white",
+      "cow_milk_item",
+      "drink_item",
+      "milk_item"
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_LargeGaleabisonCheese": {
+  "Name": "{{ModID}}_LargeGaleabisonCheese",
+  "DisplayName": "{{i18n:FC.LargeGaleabisonCheese}}",
+  "Description": "{{i18n:FC.LargeGaleabisonCheese.Desc}}",
+  "Type": "Basic",
+  "Category": -26,
+  "Price": 340,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 213,
+  "Edibility": 40,
+  "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+     "color_yellow"
+  ],
+  "CustomFields": null
+  }
+}
+},
+  {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_SmallGaleabisonCheese": {
+  "Name": "{{ModID}}_SmallGaleabisonCheese",
+  "DisplayName": "{{i18n:FC.SmallGaleabisonCheese}}",
+  "Description": "{{i18n:FC.SmallGaleabisonCheese.Desc}}",
+  "Type": "Basic",
+  "Category": -26,
+  "Price": 120,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 212,
+  "Edibility": 20,
+  "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+     "color_yellow"
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_AgedLargeGaleabisonCheese": {
+  "Name": "{{ModID}}_AgedLargeGaleabisonCheese",
+  "DisplayName": "{{i18n:FC.AgedLargeGaleabisonCheese}}",
+  "Description": "{{i18n:FC.AgedLargeGaleabisonCheese.Desc}}",
+  "Type": "Artisan Goods",
+  "Category": -26,
+  "Price": 640,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 215,
+  "Edibility": 60,
+  "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+     "color_brown"
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_AgedSmallGaleabisonCheese": {
+  "Name": "{{ModID}}_AgedSmallGaleabisonCheese",
+  "DisplayName": "{{i18n:FC.AgedSmallGaleabisonCheese}}",
+  "Description": "{{i18n:FC.AgedSmallGaleabisonCheese.Desc}}",
+  "Type": "Artisan Goods",
+  "Category": -26,
+  "Price": 640,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 214,
+  "Edibility": 60,
+  "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+     "color_brown"
   ],
   "CustomFields": null
   }
@@ -8622,8 +9521,8 @@
     "Description": "{{i18n:FC.BehatedRing.Desc}}",
     "Type": "Ring",
     "Category": -96,
-    "Price": 0,
-    "ExcludeFromPerfectionShipping": true,
+    "Price": 3000,
+    "ExcludeObjectsShipping": true,
     "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
     "Buff": {},
@@ -8642,8 +9541,8 @@
     "Description": "{{i18n:FC.EternalEmbraceRing.Desc}}",
     "Type": "Ring",
     "Category": -96,
-    "Price": 0,
-    "ExcludeFromPerfectionShipping": true,
+    "Price": 1000,
+    "ExcludeObjectsShipping": true,
     "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
     "Buff": {},
@@ -8662,8 +9561,8 @@
     "Description": "{{i18n:FC.BullsFuryRing.Desc}}",
     "Type": "Ring",
     "Category": -96,
-    "Price": 0,
-    "ExcludeFromPerfectionShipping": true,
+    "Price": 1250,
+    "ExcludeObjectsShipping": true,
     "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
     "Buff": {},
@@ -8682,8 +9581,8 @@
     "Description": "{{i18n:FC.TheStingerRing.Desc}}",
     "Type": "Ring",
     "Category": -96,
-    "Price": 0,
-    "ExcludeFromPerfectionShipping": true,
+    "Price": 1900,
+    "ExcludeObjectsShipping": true,
     "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
     "Buff": {},
@@ -8702,8 +9601,8 @@
     "Description": "{{i18n:FC.ShellRing.Desc}}",
     "Type": "Ring",
     "Category": -96,
-    "Price": 0,
-    "ExcludeFromPerfectionShipping": true,
+    "Price": 1800,
+    "ExcludeObjectsShipping": true,
     "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
     "Buff": {},
@@ -8722,8 +9621,8 @@
     "Description": "{{i18n:FC.VoidlingRing.Desc}}",
     "Type": "Ring",
     "Category": -96,
-    "Price": 0,
-    "ExcludeFromPerfectionShipping": true,
+    "Price": 1450,
+    "ExcludeObjectsShipping": true,
     "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
     "Buff": {},
@@ -8749,11 +9648,33 @@
                 "{{ModID}}_ChickenHatGroup": "{{ModID}}_ChickenHatGroup/{{i18n:FC.ChickenHat.Desc}}/true/true//{{i18n:FC.ChickenHatGroup}}/6/Mods\\{{ModID}}\\Hats",
                 "{{ModID}}_PinkPirateHat": "{{ModID}}_PinkPirateHat/{{i18n:FC.PinkPirateHat.Desc}}/false/true//{{i18n:FC.PinkPirateHat}}/7/Mods\\{{ModID}}\\Hats",
                 "{{ModID}}_CaveFlowerHairPiece": "{{ModID}}_CaveFlowerHairPiece/{{i18n:FC.CaveFlowerHairPiece.Desc}}/true/true//{{i18n:FC.CaveFlowerHairPiece}}/8/Mods\\{{ModID}}\\Hats",
+                "{{ModID}}_JohnsHat": "{{ModID}}_JohnsHat/{{i18n:FC.JohnsHat.Desc}}/false/true//{{i18n:FC.JohnsHat}}/9/Mods\\{{ModID}}\\Hats",
+
             }
         },
 /************************************************
  Shirts
 ************************************************/
+{
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries": {
+"{{ModID}}_SaveTheTazzy": {
+"Name": "{{ModID}}_SaveTheTazzy",
+"DisplayName": "{{i18n:FC.SaveTheTazzy}}",
+"Description": "{{i18n:FC.SaveTheTazzy.Desc}}",
+"Price": 50,
+"Texture": "Mods/{{ModID}}/Shirts",
+"SpriteIndex": 19,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields": {}
+  },
+}
+  },
 {
 "Action": "EditData",
 "Target": "Data/ClothingInformation",
@@ -9307,7 +10228,62 @@
 "{{ModID}}_CA3": "{{ModID}}_CA3/painting/1 2/1 2/1/400/-1/{{i18n:FC.CottonsArt}}/22/Mods\\{{ModID}}\\Furniture",
 "{{ModID}}_BeyondGotoro": "{{ModID}}_BeyondGotoro/painting/1 2/1 2/1/400/-1/{{i18n:BeyondGotoro.Title}}/18/Mods\\{{ModID}}\\Furniture",
 
+"{{ModID}}_BigCar": "{{ModID}}_BigCar/armchair/2 2/2 2/1/5000/2/{{i18n:FC.BigCar}}/100/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_SmallTruck": "{{ModID}}_SmallTruck/decor/1 2/1 2/1/300/2/{{i18n:FC.SmallTruck}}/99/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_SmallCar": "{{ModID}}_SmallCar/decor/1 2/1 2/1/300/2/{{i18n:FC.SmallCar}}/98/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_PinkShroomTable": "{{ModID}}_PinkShroomTable/long table/3 2/3 1/1/5000/2/{{i18n:FC.PinkShroomTable}}/112/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_PinkShroomStool": "{{ModID}}_PinkShroomStool/chair/1 1/1 1/1/4000/2/{{i18n:FC.PinkShroomStool}}/198/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_RedShroomTable": "{{ModID}}_RedShroomTable/long table/3 2/3 1/1/5000/2/{{i18n:FC.RedShroomTable}}/115/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_RedShroomStool": "{{ModID}}_RedShroomStool/chair/1 1/1 1/1/4000/2/{{i18n:FC.RedShroomStool}}/199/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_PurpleShroomTable": "{{ModID}}_PurpleShroomTable/long table/3 2/3 1/1/5000/2/{{i18n:FC.PurpleShroomTable}}/106/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_PurpleShroomStool": "{{ModID}}_PurpleShroomStool/chair/1 1/1 1/1/4000/2/{{i18n:FC.PurpleShroomStool}}/196/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_BlueShroomTable": "{{ModID}}_BlueShroomTable/long table/3 2/3 1/1/5000/2/{{i18n:FC.BlueShroomTable}}/109/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_BlueShroomStool": "{{ModID}}_BlueShroomStool/chair/1 1/1 1/1/4000/2/{{i18n:FC.BlueShroomStool}}/197/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_PinkSquid": "{{ModID}}_PinkSquid/decor/1 1/1 1/1/120/0/{{i18n:FC.PinkSquid}}/172/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_BlueWarthog": "{{ModID}}_BlueWarthog/decor/1 1/1 1/1/140/0/{{i18n:FC.BlueWarthog}}/173/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_PinkWarthog": "{{ModID}}_PinkWarthog/decor/1 1/1 1/1/140/0/{{i18n:FC.PinkWarthog}}/174/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_Dino": "{{ModID}}_Dino/decor/1 1/1 1/1/140/0/{{i18n:FC.Dino}}/175/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_TheCroc": "{{ModID}}_TheCroc/decor/1 1/1 1/1/140/0/{{i18n:FC.TheCroc}}/206/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_Spider": "{{ModID}}_Spider/decor/1 1/1 1/1/140/0/{{i18n:FC.Spider}}/207/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_Trex": "{{ModID}}_Trex/decor/1 1/1 1/1/140/0/{{i18n:FC.Trex}}/176/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_KittyPlush": "{{ModID}}_KittyPlush/decor/1 1/1 1/1/140/0/{{i18n:FC.KittyPlush}}/177/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_BaseBallBat": "{{ModID}}_BaseBallBat/decor/1 1/1 1/1/140/0/{{i18n:FC.BaseBallBat}}/178/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_Spyglass": "{{ModID}}_Spyglass/decor/1 1/1 1/1/140/0/{{i18n:FC.Spyglass}}/210/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_WoodenSword": "{{ModID}}_WoodenSword/decor/1 1/1 1/1/140/0/{{i18n:FC.WoodenSword}}/179/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_RobotSteve": "{{ModID}}_RobotSteve/decor/1 1/1 1/1/200/0/{{i18n:FC.RobotSteve}}/211/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_Teaset": "{{ModID}}_Teaset/decor/1 1/1 1/1/200/0/{{i18n:FC.Teaset}}/180/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_BuildingBlocks": "{{ModID}}_BuildingBlocks/decor/1 1/1 1/1/50/0/{{i18n:FC.BuildingBlocks}}/181/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_GameConsole": "{{ModID}}_GameConsole/decor/1 1/1 1/1/5000/0/{{i18n:FC.GameConsole}}/182/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_Dolls": "{{ModID}}_Dolls/decor/1 1/1 1/1/300/0/{{i18n:FC.Dolls}}/183/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_ChildernsCookStation": "{{ModID}}_ChildernsCookStation/decor/3 3/3 1/1/60000/2/{{i18n:FC.ChildernsCookStation}}/102/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_ChildernsMiniFridge": "{{ModID}}_ChildernsMiniFridge/decor/1 1/1 1/1/50000/2/{{i18n:FC.ChildernsMiniFridge}}/208/Mods\\{{ModID}}\\Objects",
+"{{ModID}}_ChildernsPlayHouse": "{{ModID}}_ChildernsPlayHouse/decor/3 4/3 2/1/80000/2/{{i18n:FC.ChildernsPlayHouse}}/280/Mods\\{{ModID}}\\BigToys",
 
+"{{ModID}}_CherryHighChair": "{{ModID}}_CherryHighChair/chair/1 3/1 1/4/30000/2/{{i18n:FC.CherryHighChair}}/6/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_BirchHighChair": "{{ModID}}_BirchHighChair/chair/1 3/1 1/4/30000/2/{{i18n:FC.BirchHighChair}}/9/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_GothHighChair": "{{ModID}}_GothHighChair/chair/1 3/1 1/4/30000/2/{{i18n:FC.GothHighChair}}/0/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_BlueHighChair": "{{ModID}}_BlueHighChair/chair/1 3/1 1/4/30000/2/{{i18n:FC.BlueHighChair}}/3/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_OakHighChair": "{{ModID}}_OakHighChair/chair/1 3/1 1/4/30000/2/{{i18n:FC.OakHighChair}}/12/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_WalnutHighChair": "{{ModID}}_WalnutHighChair/chair/1 3/1 1/4/30000/2/{{i18n:FC.WalnutHighChair}}/15/Mods\\{{ModID}}\\BigToys",
+
+"{{ModID}}_PinkBearRight": "{{ModID}}_PinkBearRight/decor/2 3/2 1/1/10000/2/{{i18n:FC.PinkBearRight}}/24/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_YellowBearRight": "{{ModID}}_YellowBearRight/decor/2 3/2 1/1/10000/2/{{i18n:FC.YellowBearRight}}/22/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_BrownBearRight": "{{ModID}}_BrownBearRight/decor/2 3/2 1/1/10000/2/{{i18n:FC.BrownBearRight}}/20/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_BlueBearRight": "{{ModID}}_BlueBearRight/decor/2 3/2 1/1/10000/2/{{i18n:FC.BlueBearRight}}/18/Mods\\{{ModID}}\\BigToys",
+
+"{{ModID}}_PinkBearLeft": "{{ModID}}_PinkBearLeft/decor/2 3/2 1/1/10000/2/{{i18n:FC.PinkBearLeft}}/96/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_YellowBearLeft": "{{ModID}}_YellowBearLeft/decor/2 3/2 1/1/10000/2/{{i18n:FC.YellowBearLeft}}/30/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_BrownBearLeft": "{{ModID}}_BrownBearLeft/decor/2 3/2 1/1/10000/2/{{i18n:FC.BrownBearLeft}}/28/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_BlueBearLeft": "{{ModID}}_BlueBearLeft/decor/2 3/2 1/1/10000/2/{{i18n:FC.BlueBearLeft}}/26/Mods\\{{ModID}}\\BigToys",
+
+"{{ModID}}_Fort": "{{ModID}}_Fort/decor/4 3/4 1/1/40000/2/{{i18n:FC.Fort}}/119/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_Bike": "{{ModID}}_Bike/decor/3 2/3 1/1/60000/2/{{i18n:FC.Bike}}/123/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_MiniPiano": "{{ModID}}_MiniPiano/decor/2 2/2 1/1/80000/2/{{i18n:FC.MiniPiano}}/126/Mods\\{{ModID}}\\BigToys",
+
+"{{ModID}}_BlueChungus": "{{ModID}}_BlueChungus/couch/3 2/3 1/4/60000/0/{{i18n:FC.BlueChungus}}/192/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_PurpleChungus": "{{ModID}}_PurpleChungus/couch/3 2/3 1/4/60000/0/{{i18n:FC.PurpleChungus}}/200/Mods\\{{ModID}}\\BigToys",
+"{{ModID}}_PinkChungus": "{{ModID}}_PinkChungus/couch/3 2/3 1/4/60000/0/{{i18n:FC.PinkChungus}}/208/Mods\\{{ModID}}\\BigToys",
+  
   }
 },
    {

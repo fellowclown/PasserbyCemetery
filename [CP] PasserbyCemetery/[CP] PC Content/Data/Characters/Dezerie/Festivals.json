@@ -71,7 +71,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Dezerie 15 30 3",
+                    "Value": "FC.Dezerie 15 34 1",
                     "Delimiter": "/"
                 },
                      {
@@ -80,7 +80,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Dezerie 15 30 3",
+                    "Value": "FC.Dezerie 15 34 1",
                     "Delimiter": "/"
                 },
         ]
@@ -99,7 +99,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Dezerie 15 30 3",
+                    "Value": "FC.Dezerie 15 34 1",
                     "Delimiter": "/",
                 },
                      {
@@ -108,7 +108,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Dezerie 15 30 3",
+                    "Value": "FC.Dezerie 15 34 2",
                     "Delimiter": "/"
                 },
         ]
@@ -127,7 +127,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Dezerie 17 27 1",
+                    "Value": "FC.Dezerie 17 27 3",
                     "Delimiter": "/"
                 },
                      {

@@ -5,6 +5,23 @@
 "Action": "EditData",
 "Target": "data/mail",
 "Entries": {
+"{{ModID}}_BagOfSeaglass.Mail": "{{i18n:FC.BagOfSeaglass.Mail}} %item quest {{ModID}}_BagOfSeaglass.Quest true %%[#]{{i18n:FC.BagOfSeaglass.Title}}",
+"{{ModID}}_JohnsWine.Mail": "{{i18n:FC.JohnsWine.Mail}} %item quest {{ModID}}_JohnsWine.Quest true %%[#]{{i18n:FC.JohnsWine.Title}}",
+"{{ModID}}_JohnsRing.Mail": "{{i18n:FC.JohnsRing.Mail}} %item quest {{ModID}}_JohnsRing.Quest true %%[#]{{i18n:FC.JohnsRing.Title}}",
+"{{ModID}}_JohnsNecklace.Mail": "{{i18n:FC.JohnsNecklace.Mail}} %item quest {{ModID}}_JohnsNecklace.Quest true %%[#]{{i18n:FC.JohnsNecklace.Title}}",
+"{{ModID}}_FrostedCake.Mail": "{{i18n:FC.FrostedCake.Mail}}%item cookingRecipe {{ModID}}_FrostedCake %%[#]{{i18n:FC.FrostedCake.Title}}",
+"{{ModID}}_HotCereal.Mail": "{{i18n:FC.HotCereal.Mail}}%item cookingRecipe {{ModID}}_HotCereal %%[#]{{i18n:FC.HotCereal.Title}}",
+"{{ModID}}_CheesyWhiteRisotto.Mail": "{{i18n:FC.CheesyWhiteRisotto.Mail}}%item cookingRecipe {{ModID}}_CheesyWhiteRisotto %%[#]{{i18n:FC.CheesyWhiteRisotto.Title}}",
+"{{ModID}}_BarronsBook.Mail": "{{i18n:Mail.BarronsBook}} %item quest {{ModID}}_BarronsBook true %%",
+"{{ModID}}_TheCuff.Mail": "{{i18n:Mail.TheCuff}} %item quest {{ModID}}_TheCuff true %%",
+"{{ModID}}_PhoebesPackage.Mail": "{{i18n:Mail.PhoebesPackage}} %item quest {{ModID}}_PhoebesPackage true %%",
+"{{ModID}}_TastyPasty.Mail": "{{i18n:Mail.TastyPastry}}%item cookingRecipe {{ModID}}_TastyPastry%%[#]{{i18n:BarronsTastyPastry}}",
+"{{ModID}}_GemBirdPatties.Mail": "{{i18n:Mail.GemBirdPatties}} %item cookingRecipe {{ModID}}_GemBirdPatties%%[#]{{i18n:PhoebesGemBirdPatties}}",
+"{{ModID}}_VoidJuice.Mail": "{{i18n:Mail.VoidJuice}}%item cookingRecipe {{ModID}}_VoidJuice%%[#]{{i18n:BarronsVoidJuice}}",
+"{{ModID}}_Temple.Mail": "{{i18n:FC.Temple.Mail}}[#]{{i18n:FC.Temple.Title}}",
+"{{ModID}}_BubbasBirth.Mail": "{{i18n:FC.BubbasBirth.Mail}}[#]{{i18n:FC.BubbasBirth.Title}}",
+"{{ModID}}_PoppersSiblings.Mail": "{{i18n:FC.PoppersSiblings.Mail}}[#]{{i18n:FC.PoppersSiblings.Title}}",
+"{{ModID}}_JohnsHat.Mail": "{{i18n:FC.JohnsHat.Mail}} %item id (H){{ModID}}_JohnsHat%%[#]{{i18n:FC.JohnsHat.Title}}",
 "{{ModID}}_LostJournal.Mail": "{{i18n:FC.LostJournal.Mail}} %item quest {{ModID}}_LostJournal.Quest true %%[#]{{i18n:FC.LostJournal.Mail.Title}}",
 "{{ModID}}_StoneRelic.Mail": "{{i18n:FC.StoneRelic.Mail}} %item quest {{ModID}}_StoneRelic.Quest true %%[#]{{i18n:FC.StoneRelic.Mail.Title}}",
 "{{ModID}}_LostPipe.Mail": "{{i18n:FC.LostPipe.Mail}} %item quest {{ModID}}_LostPipe.Quest true %%[#]{{i18n:FC.LostPipe.Mail.Title}}",
@@ -42,6 +59,22 @@
 "{{ModID}}_UnlockTropaTree.Mail": "{{i18n:FC.UnlockTropaTree.Mail}}[#]{{i18n:FC.UnlockTropaTree.Mail.Title}}",
 "{{ModID}}_CottonsArt.Mail": "{{i18n:FC.CottonsArt.Mail}} %item furniture {{Random:{{ModID}}_CA1,{{ModID}}_CA2,{{ModID}}_CA3}}%%[#]{{i18n:FC.CottonsArt.Mail.Title}}",
 "{{ModID}}_DezeriesGift.Mail": "{{i18n:FC.DezeriesGift.Mail}}[#]{{i18n:FC.DezeriesGift.Mail.Title}}",
+}
+},
+{
+"LogName": "ConfrontingRett",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_JohnsWine.Trigger":  {
+"Id": "{{ModID}}_JohnsWine.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.John 2250",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_JohnsWine.Mail",
+"Actions": null,
+"CustomFields": {}
+}
 }
 },
 {
@@ -304,12 +337,15 @@
 "LogName": "GiveGem",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
+ "When": {
+              "HasMod |contains=Fellowclown.WE": false,
+            },
 "Update": "OnTimeChange, OnLocationChange",
 "Entries": {
 "{{ModID}}_GemGive.Trigger":  {
 "Id": "{{ModID}}_GemGive.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_HAS_MAIL current {{ModID}}_Graveyard.Mail",
+"Condition": "PLAYER_HAS_SEEN_EVENT current Fellowclown.PC_TheStatue",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_GemGive.Mail",
 "Actions": null,
@@ -321,6 +357,9 @@
 "LogName": "GotGem",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
+ "When": {
+              "HasMod |contains=Fellowclown.WE": false,
+            },
 "Update": "OnTimeChange, OnLocationChange",
 "Entries": {
 "{{ModID}}_GotGem.Trigger":  {
@@ -392,7 +431,7 @@
 "{{ModID}}_NikolaisBirthday.Trigger":  {
 "Id": "{{ModID}}_NikolaisBirthday.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Nikolai 500,SEASON spring",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Nikolai 500,SEASON spring,PLAYER_HAS_MAIL Host ccVault Received",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_BirthdayInvite.Mail",
 "Actions": null,
@@ -682,6 +721,247 @@
 "Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Dezerie 2000,PLAYER_HAS_SEEN_EVENT Current 100162",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_EnchantedTonic.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_PoppersSiblings.Trigger":  {
+"Id": "{{ModID}}_PoppersSiblings.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Popper 1750",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_PoppersSiblings.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_JohnsHat.Trigger":  {
+"Id": "{{ModID}}_JohnsHat.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.John 750",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_JohnsHat.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_BubbasBirth.Trigger":  {
+"Id": "{{ModID}}_BubbasBirth.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_JinxSituation,SEASON_DAY Winter 27",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_BubbasBirth.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_VoidJuice.Trigger":  {
+"Id": "{{ModID}}_VoidJuice.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Barron 800",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_VoidJuice.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_GemBirdPatties.Trigger":  {
+"Id": "{{ModID}}_GemBirdPatties.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Phoebe 250,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PhoebesIntroduction",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_GemBirdPatties.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_TastyPastry.Trigger":  {
+"Id": "{{ModID}}_TastyPastry.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Barron 500",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_TastyPasty.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_BarronsBook.Trigger":  {
+"Id": "{{ModID}}_BarronsBook.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Barron 1000",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_BarronsBook.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_TheCuff.Trigger":  {
+"Id": "{{ModID}}_TheCuff.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Phoebe 1500,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PhoebesIntroduction",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_TheCuff.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_PhoebesPackage.Trigger":  {
+"Id": "{{ModID}}_PhoebesPackage.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Phoebe 500,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PhoebesIntroduction",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_PhoebesPackage.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_CheesyWhiteRisotto":  {
+"Id": "{{ModID}}_CheesyWhiteRisotto",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_MotherHog",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_CheesyWhiteRisotto.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_HotCereal.Trigger":  {
+"Id": "{{ModID}}_HotCereal.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.John 250",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_HotCereal.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_FrostedCake.Trigger":  {
+"Id": "{{ModID}}_FrostedCake.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.John 500",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_FrostedCake.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_BagOfSeaglass.Trigger":  {
+"Id": "{{ModID}}_BagOfSeaglass.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_MotherHog",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_BagOfSeaglass.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+    "{{ModID}}_JohnsRing.Trigger": {
+"Id": "{{ModID}}_JohnsRing.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.John 750",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_JohnsRing.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+    "{{ModID}}_JohnsNecklace.Trigger": {
+"Id": "{{ModID}}_JohnsNecklace.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.John 1500",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_JohnsNecklace.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+    "{{ModID}}_Temple.Trigger":{
+"Id": "{{ModID}}_Temple.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_TheTemple,YEAR 2",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_Temple.Mail",
 "Actions": null,
 "CustomFields": {}
 }

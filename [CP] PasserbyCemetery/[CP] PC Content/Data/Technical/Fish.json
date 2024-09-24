@@ -54,6 +54,7 @@
 }
 }
 },
+//// EXCLUDE FISH
 {
 "Action": "EditData",
 "Target": "Data/Objects",
@@ -98,8 +99,8 @@
   "GeodeDropsDefaultItems": false,
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
-  "ExcludeFromFishingCollection": "{{AddToPerfection}}",
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": true,
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fish",
@@ -152,8 +153,8 @@
   "GeodeDropsDefaultItems": false,
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
-  "ExcludeFromFishingCollection": "{{AddToPerfection}}",
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromFishingCollection": "{{IncludeFish}}",
+  "ExcludeFromShippingCollection": "{{IncludeFish}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fish",
@@ -206,8 +207,8 @@
   "GeodeDropsDefaultItems": false,
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
-  "ExcludeFromFishingCollection": "{{AddToPerfection}}",
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromFishingCollection": "{{IncludeFish}}",
+  "ExcludeFromShippingCollection": "{{IncludeFish}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fish",
@@ -260,8 +261,8 @@
   "GeodeDropsDefaultItems": false,
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
-  "ExcludeFromFishingCollection": "{{AddToPerfection}}",
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromFishingCollection": "{{IncludeFish}}",
+  "ExcludeFromShippingCollection": "{{IncludeFish}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fish",
@@ -314,8 +315,8 @@
   "GeodeDropsDefaultItems": false,
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
-  "ExcludeFromFishingCollection": "{{AddToPerfection}}",
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromFishingCollection": "{{IncludeFish}}",
+  "ExcludeFromShippingCollection": "{{IncludeFish}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fish",
@@ -368,8 +369,8 @@
   "GeodeDropsDefaultItems": false,
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
-  "ExcludeFromFishingCollection": "{{AddToPerfection}}",
-  "ExcludeFromShippingCollection": "{{AddToPerfection}}",
+  "ExcludeFromFishingCollection": "{{IncludeFish}}",
+  "ExcludeFromShippingCollection": "{{IncludeFish}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fish",

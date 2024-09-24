@@ -1,0 +1,124 @@
+{
+"Changes": [
+
+ {
+"LogName": "Popper Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Popper": {
+///Basic Info
+"DisplayName":"{{i18n:FC.Popper}}",
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Rude",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"Winter",
+"BirthDay":13,
+"HomeRegion":"Town",
+"IsDarkSkinned":false,
+///Social Features
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland": true,
+"LoveInterest":null,
+"Calendar": "HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SpouseAdopts":null,
+"SpouseWantsChildren":false,
+"SpouseGiftJealousy":false,
+"SpouseGiftJealousyFriendshipChange":-1,
+"SpouseRoom": {
+"MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 6,
+"Height": 9
+}
+},
+"SpousePatio": {
+"MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 4,
+"Height": 4
+}
+},
+"SpouseFloors": [],
+"SpouseWallpapers": [],
+"IntroductionsQuest":"{{IncludeIntro}}",
+"ItemDeliveryQuests":true,
+"PerfectionScore":"{{IncludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"FriendsAndFamily":null,
+///Dumpster Diving
+"DumpsterDiveEmote":12,
+"DumpsterDiveFriendshipEffect":-5,
+///Festivals
+"FlowerDanceCanDance":false,
+"WinterStarParticipant":false,
+"WinterStarGifts": [],
+//Spawn Rules
+"UnlockConditions":null,
+"SpawnIfMissing":true,
+"Home": [
+{
+"Id": "Default",
+"Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PopsNewHome",
+"Location": "{{ModID}}_TempleRuins",
+"Tile": {
+"X": 12,
+"Y": 11
+},
+"Direction": "right"
+},
+{
+"Id": "MovePopperToTemple",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PopsNewHome",
+"Location": "{{ModID}}_TempleRuins",
+"Tile": { "X": 12, "Y": 11 
+},
+"Direction": "left"
+},
+],
+///Appearance & Sprites
+"TextureName":null,
+"Appearance": [
+ {
+"ID": "FC.PopperAssets",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Popper/FC.Popper.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Popper/FC.Popper.png}}"
+},
+],
+"MugShotSourceRect": { "X": 0, "Y": 48, "Width": 16, "Height": 16 },
+"Size": { "X": 16, "Y": 32 },
+"Breather":false,
+"BreathChestRect":null,
+"BreathChestPosition":null,
+"Shadow":{ "Visible": true },
+"EmoteOffset": {},
+"ShakePortraits":[5,11],
+"KissSpriteIndex":"28",
+"KissSpriteFacingDirection":null,
+///Hidden Gift Log Emote
+"HiddenProfileEmoteSound":null,
+"HiddenProfileEmoteDuration":-1,
+"HiddenProfileEmoteStartFrame":0,
+"HiddenProfileEmoteFrameCount":4,
+"HiddenProfileEmoteFrameDuration":200.0,
+///Advanced
+"CustomFields":{
+},
+"FormerCharacterNames": [],
+}
+}
+}
+]
+}

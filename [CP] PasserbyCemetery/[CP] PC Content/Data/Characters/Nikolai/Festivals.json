@@ -71,7 +71,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Nikolai 22 33 2",
+                    "Value": "FC.Nikolai 16 29 2",
                     "Delimiter": "/"
                 },
                      {
@@ -80,7 +80,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Nikolai 22 33 2",
+                    "Value": "FC.Nikolai 16 29 2",
                     "Delimiter": "/"
                 },
         ]
@@ -99,7 +99,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Nikolai 15 33 2",
+                    "Value": "FC.Nikolai 16 29 2",
                     "Delimiter": "/",
                 },
                      {
@@ -108,7 +108,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Nikolai 15 33 2",
+                    "Value": "FC.Nikolai 16 29 2",
                     "Delimiter": "/"
                 },
         ]

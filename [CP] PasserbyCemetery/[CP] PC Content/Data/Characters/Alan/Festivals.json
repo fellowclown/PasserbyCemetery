@@ -45,7 +45,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Alan 14 17 3",
+                    "Value": "FC.Alan 15 17 3",
                     "Delimiter": "/"
                 },
                      {
@@ -54,7 +54,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "14 17 3",
+                    "Value": "FC.Alan 15 17 3",
                     "Delimiter": "/",
         },
         ]
@@ -74,7 +74,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Alan 22 31 3",
+                    "Value": "FC.Alan 21 29 3",
                     "Delimiter": "/"
                 },
                      {
@@ -83,7 +83,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Alan 22 31 3",
+                    "Value": "FC.Alan 21 29 3",
                     "Delimiter": "/"
                 },
         ]
@@ -103,7 +103,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Alan 16 30 2",
+                    "Value": "FC.Alan 21 29 2",
                     "Delimiter": "/",
                 },
                      {
@@ -112,7 +112,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Alan 16 30 2",
+                    "Value": "FC.Alan 21 29 2",
                     "Delimiter": "/"
                 },
         ]

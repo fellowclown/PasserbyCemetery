@@ -1,0 +1,56 @@
+{
+"Changes": [
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModID}}_AmandaSleep": "28/28/28",
+"{{ModID}}_AmandaKnit": "16/16 16 17 17 17 18 18 18 19 19 19 18 18 18 17 17/17//offset 10 0",
+"{{ModID}}_AmandaKnitSecond": "16/16 16 17 17 17 18 18 18 19 19 19 18 18 18 17 17/17//offset 10 30",
+"{{ModID}}_AmandaCook": "20/20 20 21 21 21 22 22 22 23 23 23 22 22 22 21 21/21",
+"{{ModID}}_AmandaPeer": "24/24 24 25 25 26 26 26 26 26 26 26 26 26 27 27 27 26 26 26 26 26 26 26 26 26 26 26 26 25 25 25 25 25/25",
+"{{ModID}}_AmandaSit2": "29/29/29",
+}
+ },
+ {
+"LogName": "Amanda Schedule Dialogue Default",
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Amanda",
+  "Entries": {
+"Amanda.GreenRain": "{{i18n:Amanda.GreenRain}}",
+}
+ },
+        {
+"LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Amanda",
+"Update": "OnTimeChange, OnLocationChange",
+
+"Entries": {
+"spring": "GOTO Mon",
+
+"Mon": "800 {{ModID}}_TravelingTrailer 2 17 1 {{ModID}}_AmandaCook/1200 {{ModID}}_TravelingTrailer 12 17 2 {{ModID}}_AmandaKnit/1500 {{ModID}}_OldGraveYard 8 37 2 {{ModID}}_AmandaKnitSecond/1900 {{ModID}}_TravelingTrailer 18 18 3/2300 {{ModID}}_TravelingTrailer 2 12 1 {{ModID}}_AmandaSleep",
+
+"Tue": "800 {{ModID}}_TravelingTrailer 11 13 3/1200 Town 44 77 2 {{ModID}}_AmandaKnit/1500 SeedShop 16 20 3/1900 {{ModID}}_TravelingTrailerDecker 19 11 1 {{ModID}}_Amanda_Peer/2300 {{ModID}}_TravelingTrailer 2 12 1 {{ModID}}_AmandaSleep",
+
+"Wed": "800 JoshHouse 6 18 3/1200 Town 70 11 2 {{ModID}}_AmandaKnit/1500 {{ModID}}_TravelingTrailer 2 17 1 {{ModID}}_AmandaCook/1900 {{ModID}}_TravelingTrailer 12 17 2 {{ModID}}_AmandaKnit/2300 {{ModID}}_TravelingTrailer 2 12 1 {{ModID}}_AmandaSleep",
+
+"Thu": "800 Town 70 11 2 {{ModID}}_AmandaKnit/1200 AnimalShop 11 16 1/1500 {{ModID}}_TravelingTrailer 2 17 1 {{ModID}}_AmandaCook/1900 {{ModID}}_TravelingTrailerDecker 19 11 1 {{ModID}}_Amanda_Peer/2300 {{ModID}}_TravelingTrailer 2 12 1 {{ModID}}_AmandaSleep",
+
+"Fri": "800 {{ModID}}_TravelingTrailer 2 17 1 {{ModID}}_AmandaCook/1200 Beach 47 21 1/1500 Mountain 27 5 2 {{ModID}}_AmandaKnit/1900 {{ModID}}_TravelingTrailer 12 17 2 {{ModID}}_AmandaKnit/2300 {{ModID}}_TravelingTrailer 2 12 1 {{ModID}}_AmandaSleep",
+
+"Sat": "800 Beach 43 34 2 {{ModID}}_AmandaKnit/1200 Beach 47 21 1/1500 Town 70 11 2 {{ModID}}_AmandaKnit/1900 Mountain 27 5 2 {{ModID}}_AmandaKnit/2300 {{ModID}}_TravelingTrailer 2 12 1 {{ModID}}_AmandaSleep",
+
+"Sun": "800 {{ModID}}_TravelingTrailer 12 17 2 {{ModID}}_AmandaKnit/1200 Beach 47 21 1/1500 Town 70 11 2 {{ModID}}_AmandaKnit/1900 {{ModID}}_OldGraveYard 8 37 2 {{ModID}}_AmandaKnitSecond/2300 {{ModID}}_TravelingTrailer 2 12 1 {{ModID}}_AmandaSleep",
+
+"rain": "800 {{ModID}}_TravelingTrailer 12 17 2 {{ModID}}_AmandaKnit/1200 {{ModID}}_TravelingTrailer 2 17 1 {{ModID}}_AmandaCook/1500 {{ModID}}_TravelingTrailerDecker 19 11 1 {{ModID}}_Amanda_Peer/1900 {{ModID}}_TravelingTrailer 12 17 2 {{ModID}}_AmandaKnit/2300 {{ModID}}_TravelingTrailer 2 12 1 {{ModID}}_AmandaSleep",
+
+"GreenRain": "610 {{ModID}}_TravelingTrailer 2 17 1 {{ModID}}_Amanda_Cook \"Strings\\schedules\\FC.Amanda:Amanda.GreenRain\"/900 {{ModID}}_TravelingTrailer 11 13 3/1300 {{ModID}}_TravelingTrailerDecker 19 11 1 {{ModID}}_Amanda_Peer/1900 {{ModID}}_TravelingTrailer 2 17 1 {{ModID}}_Amanda_Cook/2200 {{ModID}}_TravelingTrailer 2 12 2 {{ModID}}_Amanda_sleep",
+},
+"When": {
+        "HasSeenEvent |contains={{ModID}}_AmandasIntroduction": true,
+            },
+},  
+]
+}

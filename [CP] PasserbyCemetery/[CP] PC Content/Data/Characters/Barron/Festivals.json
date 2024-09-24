@@ -1,0 +1,238 @@
+{
+    "Changes": [
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 43 61 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 43 61 2",
+                    "Delimiter": "/"
+                },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up{{YearCheck}}", 5],
+             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron -16 0"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
+             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron -16 0",
+      
+        },
+        ]
+    },
+           {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 6 17 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 6 17 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+               {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 15 31 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 15 31 1",
+                    "Delimiter": "/"
+                },
+                       {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up{{YearCheck}}", 5],
+             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron -16 0"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
+             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron -16 0",
+      
+        },
+        ]
+    },
+               {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 15 31 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 15 31 1",
+                    "Delimiter": "/"
+                },
+                                {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up{{YearCheck}}", 5],
+             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron -16 0"
+            },
+            {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
+             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron -16 0",
+      
+        },
+        ]
+    },
+                   {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer20",
+                                    "When": {
+            "HasMod |contains=violetlizabet.CP.FireworksFestival": true,
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 82 24 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 82 24 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+                   {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 28 29 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+                       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 55 97 0",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+                   {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 100 21 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 100 21 1",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+                    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 41 74 0",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Barron 41 74 0",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+  ]
+}

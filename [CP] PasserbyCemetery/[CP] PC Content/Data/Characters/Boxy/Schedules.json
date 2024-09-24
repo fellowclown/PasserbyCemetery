@@ -23,10 +23,10 @@
 "Action": "EditData",
 "Target": "Characters/schedules/FC.Boxy",
 "Entries": {
-"spring": "700 {{ModID}}_OldGraveYard 34 65 2 {{ModID}}_BoxyClean/1000 Mountain 89 26 2 {{ModID}}_BoxyClean/1400 Town 48 70 3 {{ModID}}_BoxyBeg3/2200 {{ModID}}_OldGraveYard 9 52 2 {{ModID}}_BoxyRest",
+"spring": "700 {{ModID}}_OldGraveYard 35 65 2 {{ModID}}_BoxyClean/1000 Mountain 89 26 2 {{ModID}}_BoxyClean/1400 Town 48 70 3 {{ModID}}_BoxyBeg3/2200 {{ModID}}_OldGraveYard 9 52 2 {{ModID}}_BoxyRest",
 "summer": "700 Mountain 89 26 2 {{ModID}}_BoxyClean/1200 Forest 115 35 2 {{ModID}}_BoxyRest/1500 Town 48 70 3 {{ModID}}_BoxyBeg3/2200 {{ModID}}_OldGraveYard 9 52 2 {{ModID}}_BoxyRest",
 "fall": "700 Forest 87 40 2 {{ModID}}_BoxyRest/1200 Town 48 70 3 {{ModID}}_BoxyBeg3/1500 Beach 50 21 3 {{ModID}}_BoxyClean/2200 {{ModID}}_OldGraveYard 9 52 2 {{ModID}}_BoxyRest",
-"winter": "700 {{ModID}}_OldGraveYard 34 65 2 {{ModID}}_BoxyClean/1200 {{ModID}}_OldGraveYard 9 52 2 {{ModID}}_BoxyRest/1500 Mountain 89 26 2 {{ModID}}_BoxyClean/2000 {{ModID}}_OldGraveYard 9 52 2 {{ModID}}_BoxyRest",
+"winter": "700 {{ModID}}_OldGraveYard 35 65 2 {{ModID}}_BoxyClean/1200 {{ModID}}_OldGraveYard 9 52 2 {{ModID}}_BoxyRest/1500 Mountain 89 26 2 {{ModID}}_BoxyClean/2000 {{ModID}}_OldGraveYard 9 52 2 {{ModID}}_BoxyRest",
 },
     "When": {
       "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
@@ -38,10 +38,10 @@
 "Action": "EditData",
 "Target": "Characters/schedules/FC.Boxy",
 "Entries": {
-"spring": "700 {{ModID}}_OldGraveYard 34 65 2 {{ModID}}_BoxyClean/1000 Mountain 89 26 2 {{ModID}}_BoxyClean/1400 Town 48 70 3 {{ModID}}_BoxyBeg3/2200 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest",
+"spring": "700 {{ModID}}_OldGraveYard 35 65 2 {{ModID}}_BoxyClean/1000 Mountain 89 26 2 {{ModID}}_BoxyClean/1400 Town 48 70 3 {{ModID}}_BoxyBeg3/2200 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest",
 "summer": "700 Mountain 89 26 2 {{ModID}}_BoxyClean/1200 Forest 115 35 2 {{ModID}}_BoxyRest/1500 Town 48 70 3 {{ModID}}_BoxyBeg3/2200 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest",
 "fall": "700 Forest 87 40 2 {{ModID}}_BoxyRest/1200 Town 48 70 3 {{ModID}}_BoxyBeg3/1500 Beach 50 21 3 {{ModID}}_BoxyClean/2200 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest",
-"winter": "700 {{ModID}}_OldGraveYard 34 65 2 {{ModID}}_BoxyClean/1200 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest/1500 Mountain 89 26 2 {{ModID}}_BoxyClean/2000 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest",
+"winter": "700 {{ModID}}_OldGraveYard 35 65 2 {{ModID}}_BoxyClean/1200 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest/1500 Mountain 89 26 2 {{ModID}}_BoxyClean/2000 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest",
 },
     "When": {
          "HasSeenEvent |contains={{ModID}}_BoxysHouse": true,

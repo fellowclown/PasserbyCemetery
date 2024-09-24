@@ -1,0 +1,15 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Amanda": "{{i18n:Amanda.gift.love}}/Fellowclown.TD_GemBirdPatties {{ModID}}_SeaglassFlowerDisplay {{ModID}}_Seaglass {{ModID}}_TastyPastry/{{i18n:Amanda.gift.like}}/{{ModID}}_Button {{ModID}}_FrostedCake {{ModID}}_HotCereal/{{i18n:Amanda.gift.dislike}}/{{ModID}}_VoidJuice 64 84/{{i18n:Amanda.gift.hate}}/308 340 342/{{i18n:Amanda.gift.neutral}}/344 346/ ",
+}
+ },
+]
+}

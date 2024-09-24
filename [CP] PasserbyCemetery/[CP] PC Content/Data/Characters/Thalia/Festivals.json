@@ -5,7 +5,7 @@
             "Target": "Data/Festivals/spring13",
             "When": {
  "HasFlag|contains=landslideDone": true,
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+   "HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
 },
             "TextOperations": [
                 {
@@ -14,7 +14,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 43 78 2",
+                    "Value": "FC.Thalia 42 88 0",
                     "Delimiter": "/"
                 },
                      {
@@ -23,7 +23,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 43 78 2",
+                    "Value": "FC.Thalia 42 88 0",
                     "Delimiter": "/"
                 },
         ]
@@ -34,7 +34,7 @@
             "Target": "Data/Festivals/spring24",
                         "When": {
  "HasFlag|contains=landslideDone": true,
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+   "HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
 },
             "TextOperations": [
                 {
@@ -43,7 +43,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 20 17 2",
+                    "Value": "FC.Thalia 13 19 2",
                     "Delimiter": "/"
                 },
                      {
@@ -52,7 +52,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 20 17 2",
+                    "Value": "FC.Thalia 13 19 2",
                     "Delimiter": "/",
         },
         ]
@@ -62,7 +62,7 @@
             "Target": "Data/Festivals/summer11",
                         "When": {
  "HasFlag|contains=landslideDone": true,
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+   "HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
 },
             "TextOperations": [
                 {
@@ -71,7 +71,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 22 33 2",
+                    "Value": "FC.Thalia 20 34 2",
                     "Delimiter": "/"
                 },
                      {
@@ -80,7 +80,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 22 33 2",
+                    "Value": "FC.Thalia 20 34 2",
                     "Delimiter": "/"
                 },
         ]
@@ -90,7 +90,7 @@
             "Target": "Data/Festivals/summer28",
                         "When": {
  "HasFlag|contains=landslideDone": true,
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+   "HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
 },
             "TextOperations": [
                 {
@@ -99,7 +99,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 15 33 2",
+                    "Value": "FC.Thalia 20 34 2",
                     "Delimiter": "/",
                 },
                      {
@@ -108,7 +108,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 15 33 2",
+                    "Value": "FC.Thalia 20 34 2",
                     "Delimiter": "/"
                 },
         ]
@@ -118,7 +118,7 @@
             "Target": "Data/Festivals/fall3",
                         "When": {
  "HasFlag|contains=landslideDone": true,
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+   "HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
 },
             "TextOperations": [
                 {
@@ -127,7 +127,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 6 27 2",
+                    "Value": "FC.Thalia 23 28 2",
                     "Delimiter": "/"
                 },
                      {
@@ -136,7 +136,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 24 28 2",
+                    "Value": "FC.Thalia 14 27 1",
                     "Delimiter": "/"
                 },
         ]
@@ -146,7 +146,7 @@
             "Target": "Data/Festivals/fall16",
                         "When": {
  "HasFlag|contains=landslideDone": true,
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+   "HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
 },
             "TextOperations": [
                 {
@@ -155,7 +155,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 70 100 1",
+                    "Value": "FC.Thalia 73 96 3",
                     "Delimiter": "/"
                 },
                      {
@@ -164,7 +164,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 70 100 1",
+                    "Value": "FC.Thalia 73 96 3",
                     "Delimiter": "/"
                 },
         ]
@@ -174,7 +174,7 @@
             "Target": "Data/Festivals/winter8",
                         "When": {
  "HasFlag|contains=landslideDone": true,
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+   "HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
 },
             "TextOperations": [
                 {
@@ -183,7 +183,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 100 17 2",
+                    "Value": "FC.Thalia 96 20 3",
                     "Delimiter": "/"
                 },
                      {
@@ -192,7 +192,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 100 17 2",
+                    "Value": "FC.Thalia 96 20 3",
                     "Delimiter": "/"
                 },
         ]
@@ -202,7 +202,7 @@
             "Target": "Data/Festivals/winter25",
                         "When": {
  "HasFlag|contains=landslideDone": true,
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+   "HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
 },
             "TextOperations": [
                 {
@@ -211,7 +211,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 48 89 2",
+                    "Value": "FC.Thalia 54 96 2",
                     "Delimiter": "/"
                 },
                      {
@@ -220,7 +220,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Thalia 48 89 2",
+                    "Value": "FC.Thalia 54 96 2",
                     "Delimiter": "/"
                  },
         ]

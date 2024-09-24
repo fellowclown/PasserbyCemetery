@@ -4,7 +4,7 @@
 "Action": "EditData",
 "Target": "Strings/schedules/FC.Kaia",
 "Entries": {
-"Kaia.AND.A": "{{i18n:Kaia.AND.A}}",
+"Kaia.Temple": "{{i18n:Kaia.Temple}}",
 "Kaia.Sleep": "{{i18n:Kaia.Sleep}}",
 "Kaia.GreenRain": "{{i18n:Kaia.GreenRain}}",
 "Kaia.DesertFestival": "{{i18n:Kaia.DesertFestival}}",
@@ -25,6 +25,7 @@
 "{{ModID}}_Kaia_SitKick":"23/23 23 23 24 24 24 25 25 25 24 24 24 23 23 23/23",
 "{{ModID}}_Kaia_TalkWithHands":"26/26 26 26 26 26 26 27 27 27 27 27 27/27",
 "{{ModID}}_Kaia_Sleep":"32/32/32//offset -30 0",
+"{{ModID}}_Kaia_Sit0":"33/33/33",
 }
 },
 /************************************************
@@ -62,19 +63,18 @@ Default Schedules
 A New Dream / John
  ************************************************/
 {
-"LogName": "Kaia's and Johns Schedule",
+"LogName": "Kaia's Schedule",
 "Action": "EditData",
 "Target": "Characters/schedules/FC.Kaia",
 "Entries": {
-"Sun": "610 Fellowclown.AND_Temple 10 21 0 \"Strings\\schedules\\FC.Kaia:Kaia.AND.A\"/1430 ArchaeologyHouse 11 12 1 \"Strings\\schedules\\FC.Kaia:Kaia.Job\"/2200 {{ModID}}_LeslaHouse 11 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleep\"",
+"Sun": "800 {{ModID}}_TempleRuins 10 21 0 {{ModID}}_Kaia_Sit0 \"Strings\\schedules\\FC.Kaia:Kaia.Temple\"/1430 ArchaeologyHouse 11 12 1 \"Strings\\schedules\\FC.Kaia:Kaia.Job\"/2200 {{ModID}}_LeslaHouse 11 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleep\"",
 
 },
 "When": {
-"HasMod: |contains=Fellowclown.AND": true, 
-"HasSeenEvent |contains=Fellowclown.AND_TheTemple": true,
-"HasFlag |contains=Fellowclown.AND_Temple": true,
+"HasSeenEvent |contains={{ModID}}_TheTemple": true,
+"HasFlag |contains={{ModID}}_Temple.Mail": true,
 "HasFlag|contains=landslideDone": true,
-  "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+"HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
 
  }
   },

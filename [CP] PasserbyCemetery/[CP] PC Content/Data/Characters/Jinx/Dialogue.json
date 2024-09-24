@@ -1,0 +1,35 @@
+{
+"Changes": [
+   /************************************************
+ **  Dialogues
+ ************************************************/ 
+         {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/FC.Jinx",
+      "Entries": {
+        // Speical Keys
+"Introduction": "{{i18n:intro.Jinx}}",
+"reject_809": "{{i18n:reject_809.Jinx}}",
+"DumpsterDiveComment": "{{i18n:DumpsterDiveComment.Jinx}}",
+"RejectBouquet_NotDatable": "{{i18n:RejectBouquet_NotDatable.Jinx}}",
+"HitBySlingshot": "{{i18n:HitBySlingshot.Jinx}}",
+"AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Jinx.AcceptGift_(O)WWWA.AutographedPhoto}}",
+"AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Jinx}}",
+"AcceptBirthdayGift_Loved": "{{i18n:AcceptBirthdayGift_Loved.Jinx}}",
+"AcceptBirthdayGift_Liked": "{{i18n:AcceptBirthdayGift_Liked.Jinx}}",
+"AcceptBirthdayGift_Disliked": "{{i18n:AcceptBirthdayGift_Disliked.Jinx}}",
+"AcceptBirthdayGift_Hated": "{{i18n:AcceptBirthdayGift_Hated.Jinx}}",
+"AcceptBirthdayGift_Neutral": "{{i18n:AcceptBirthdayGift_Neutral.Jinx}}",
+/// Eveyday Dialogue
+"Mon": "{{i18n:mon.Jinx.{{season}}}}",
+"Tue": "{{i18n:tue.Jinx.{{season}}}}",    
+"Wed": "{{i18n:wed.Jinx.{{season}}}}",
+"Thu": "{{i18n:thu.Jinx.{{season}}}}",
+"Fri": "{{i18n:fri.Jinx.{{season}}}}",
+"Sat": "{{i18n:sat.Jinx.{{season}}}}",
+"Sun": "{{i18n:sun.Jinx.{{season}}}}",
+      }
+        },
+
+]
+}

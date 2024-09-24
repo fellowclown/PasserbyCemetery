@@ -1,0 +1,317 @@
+
+  {
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "Entries": {
+        "{{ModID}}_OldGraveYard": {
+          // The main map background to draw.
+          "BaseTexture": [
+            {
+              "Id": "Default",
+              "Texture": "{{InternalAssetKey: Assets/Maps/Tilesheets/WorldMap/worldmap_{{season}}.png}}"
+            }
+          ],
+          // The map areas that can provide tooltips, scroll text, texture overlays, and world positions.
+          "MapAreas": [
+            {
+              "Id": "{{ModID}}_PasserbyCemetery",
+              "PixelArea": {
+                "X": 75,
+                "Y": 0,
+                "Width": 140,
+                "Height": 180
+              },
+              "ScrollText": "{{i18n:FC.PasserbyCemetery}}",
+              "Tooltips": [
+                {
+                  "Id": "{{ModID}}_PasserbyCemetery",
+                  "PixelArea": {
+                    "X": 182,
+                    "Y": 174,
+                    "Width": 19,
+                    "Height": 14
+                  },
+                  "Text": "{{i18n:FC.PasserbyCemetery}}"
+                },
+                {
+                  "Id": "{{ModID}}_StoneHouse",
+                  "PixelArea": {
+                    "X": 102,
+                    "Y": 118,
+                    "Width": 19,
+                    "Height": 14
+                  },
+                  "Text": "{{i18n:FC.StoneResidence}}"
+                },
+                {
+                  "Id": "{{ModID}}_LeslaHouse",
+                  "PixelArea": {
+                    "X": 159,
+                    "Y": 12,
+                    "Width": 20,
+                    "Height": 16
+                  },
+                  "Text": "{{i18n:FC.LeslaResidence}}"
+                },
+                {
+                  "Id": "{{ModID}}_BeeNursery",
+                  "PixelArea": {
+                    "X": 116,
+                    "Y": 10,
+                    "Width": 21,
+                    "Height": 16
+                  },
+                  "Text": "{{i18n:FC.BeeNursery}}"
+                },
+                {
+                  "Id": "{{ModID}}_MavericksHouse",
+                  "PixelArea": {
+                    "X": 90,
+                    "Y": 80,
+                    "Width": 24,
+                    "Height": 15
+                  },
+                  "Text": "{{i18n:FC.LovejoyResidence}}"
+                },
+                   {
+                  "Id": "{{ModID}}_TravelingTrailer",
+                  "PixelArea": {
+                   "X": 207,
+                    "Y": 67,
+                  "Width": 14,
+                    "Height": 5
+                  },
+                  "Text": "{{i18n:FC.BookWormMobile}}"
+                },
+                    {
+                  "Id": "{{ModID}}_TravelingTrailerDecker",
+                  "PixelArea": {
+                  "X": 208,
+                    "Y": 60,
+                    "Width": 12,
+                    "Height": 6
+                  },
+                  "Text": "{{i18n:FC.BookWormMobileDecker}}",
+                },
+                       {
+                  "Id": "{{ModID}}_Exhibit",
+                  "PixelArea": {
+                  "X": 102,
+                    "Y": 139,
+                    "Width": 10,
+                    "Height": 9
+                  },
+                  "Text": "{{i18n:FC.PasserbyExhibit}}",
+                },
+                     {
+                  "Id": "{{ModID}}_Temple",
+                  "PixelArea": {
+                   "X": 188,
+                    "Y": 40,
+                    "Width": 14,
+                    "Height": 11
+                  },
+                  "Text": "{{i18n:FC.PasserbyTemple}}",
+                },
+                      {
+                  "Id": "{{ModID}}_TempleRuins",
+                  "PixelArea": {
+                   "X": 188,
+                    "Y": 40,
+                    "Width": 14,
+                    "Height": 11
+                  },
+                  "Text": "{{i18n:FC.PasserbyTemple}}",
+                },
+              ],
+              // Match location names & tile positions to this map area. For example, when the player is
+              // in the 'Lumisteria.MtVapius_Inn' location, their marker on the map is shown on top of the
+              // inn building.
+              "WorldPositions": [
+                 {
+                  "Id": "{{ModID}}_Temple",
+                  "LocationName": "{{ModID}}_Temple",
+                  "MapPixelArea": {
+                 "X": 188,
+                    "Y": 40,
+                    "Width": 14,
+                    "Height": 11
+                  },
+                  "ScrollText": "{{i18n:FC.PasserbyTemple}}"
+                },
+                {
+                  "Id": "{{ModID}}_Default",
+                  "LocationName": "{{ModID}}_OldGraveYard"
+                }
+              ]
+            },
+                           {
+                  "Id": "{{ModID}}_TempleRuins",
+                  "LocationName": "{{ModID}}_TempleRuins",
+                  "MapPixelArea": {
+                 "X": 188,
+                    "Y": 40,
+                    "Width": 14,
+                    "Height": 11
+                  },
+                  "ScrollText": "{{i18n:FC.PasserbyTemple}}"
+                },
+                {
+                  "Id": "{{ModID}}Default",
+                  "LocationName": "{{ModID}}_OldGraveYard"
+                },
+                {
+                  "Id": "{{ModID}}_PasserbyCemetery",
+                  "LocationName": "{{ModID}}_PasserbyCemetery",
+                  "MapPixelArea": {
+                    "X": 182,
+                    "Y": 174,
+                    "Width": 198,
+                    "Height": 180
+                  },
+                  "ScrollText": "Stone Residents" // optional, defaults to parent area's scroll text (if any)
+                },
+                {
+                  "Id": "{{ModID}}_StoneHouse",
+                  "LocationName": "{{ModID}}_StoneHouse",
+                  "MapPixelArea": {
+                    "X": 102,
+                    "Y": 118,
+                    "Width": 19,
+                    "Height": 14
+                  },
+                  "ScrollText": "{{i18n:FC.StoneResidence}}" // optional, defaults to parent area's scroll text (if any)
+                },
+                {
+                  "Id": "{{ModID}}_LeslaHouse",
+                  "LocationName": "{{ModID}}_LeslaHouse",
+                  "MapPixelArea": {
+                    "X": 159,
+                    "Y": 12,
+                    "Width": 20,
+                    "Height": 16
+                  },
+                  "ScrollText": "{{i18n:FC.LeslaResidence}}" // optional, defaults to parent area's scroll text (if any)
+                },
+                {
+                  "Id": "{{ModID}}_BeeNursery",
+                  "LocationName": "{{ModID}}_BeeNursery",
+                  "MapPixelArea": {
+                    "X": 116,
+                    "Y": 10,
+                    "Width": 21,
+                    "Height": 16
+                  },
+                  "ScrollText": "{{i18n:FC.BeeNursery}}" // optional, defaults to parent area's scroll text (if any)
+                },
+                {
+                  "Id": "{{ModID}}_MavericksHouse",
+                  "LocationName": "{{ModID}}_MavericksHouse",
+                  "MapPixelArea": {
+                    "X": 90,
+                    "Y": 80,
+                    "Width": 24,
+                    "Height": 15
+                  },
+                  "ScrollText": "{{i18n:FC.LoveJoyResidence}}" // optional, defaults to parent area's scroll text (if any)
+                },
+                {
+                  "Id": "{{ModID}}_LyellsHouse",
+                  "LocationName": "{{ModID}}_LyellsHouse",
+                  "MapPixelArea": {
+                    "X": 32,
+                    "Y": 37,
+                    "Width": 17,
+                    "Height": 18
+                  },
+                  "ScrollText": "{{i18n:FC.HalkiasResidence}}" // optional, defaults to parent area's scroll text (if any)
+                },
+                      {
+                  "Id": "{{ModID}}_TravelingTrailerDecker",
+                  "LocationName": "{{ModID}}_TravelingTrailerDecker",
+                  "MapPixelArea": {
+                    "X": 208,
+                    "Y": 60,
+                   "Width": 12,
+                    "Height": 6
+                  },
+                  "ScrollText": "{{i18n:FC.BookWormMobileDecker}}",
+                },
+                     {
+                  "Id": "{{ModID}}_TravelingTrailer",
+                  "LocationName": "{{ModID}}_TravelingTrailer",
+                  "MapPixelArea": {
+                    "X": 207,
+                    "Y": 67,
+                    "Width": 14,
+                    "Height": 5
+                  },
+                  "ScrollText": "{{i18n:FC.BookWormMobile}}"
+                },
+                       {
+                  "Id": "{{ModID}}_Exhibit",
+                  "LocationName": "{{ModID}}_Exhibit",
+                  "MapPixelArea": {
+                 "X": 102,
+                    "Y": 139,
+                    "Width": 10,
+                    "Height": 9
+                  },
+                  "ScrollText": "{{i18n:FC.PasserbyExhibit}}"
+                },
+           
+            {
+              "Id": "{{ModID}}_LyellsProperty",
+              "PixelArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 74,
+                "Height": 80
+              },
+              "ScrollText": "{{i18n:FC.LyellsProperty}}",
+              "Tooltips": [
+
+                {
+                  "Id": "{{ModID}}_LyellsHouse",
+                  "PixelArea": {
+                    "X": 32,
+                    "Y": 37,
+                    "Width": 17,
+                    "Height": 18
+                  },
+                  "Text": "{{i18n:FC.HalkiasResidence}}"
+                },     
+                {
+                  "Id": "{{ModID}}_Default",
+                  "LocationName": "{{ModID}}_OldGraveYard"
+                },
+              ],
+              // Match location names & tile positions to this map area. For example, when the player is
+              // in the 'Lumisteria.MtVapius_Inn' location, their marker on the map is shown on top of the
+              // inn building.
+              "WorldPositions": [
+                {
+                  "Id": "{{ModID}}_LyellsHouse",
+                  "LocationName": "{{ModID}}_LyellsHouse",
+                  "MapPixelArea": {
+                    "X": 32,
+                    "Y": 37,
+                    "Width": 17,
+                    "Height": 18
+                  },
+                  "ScrollText": "{{i18n:FC.HalkiasResidence}}" // optional, defaults to parent area's scroll text (if any)
+                },
+                {
+                  "Id": "{{ModID}}_DefaultLyell",
+                  "LocationName": "{{ModID}}_LyellsProperty"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+  ]
+}

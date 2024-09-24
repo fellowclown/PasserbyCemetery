@@ -1,0 +1,97 @@
+{
+"Changes": [
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModID}}_JohnSit2": "31/31/31",
+"{{ModID}}_JohnSit3": "30/30/30//offset -20 26",
+"{{ModID}}_JohnDrink": "21/21 21 21 21 21 21 21 22 22 23 23 24 24 24 24 24 24 24 24 23 23 22 22/21",
+"{{ModID}}_John_beach_umbrella": "0/0/0/Strings\\animationDescriptions:John_beach_umbrella",
+"{{ModID}}_John_beach_towel": "0/0/0/Strings\\animationDescriptions:John_beach_towel",
+"{{ModID}}_JohnSleep": "40/40/40",
+}
+ },
+  {
+"LogName": "John Schedule Dialogue Default",
+"Action": "EditData",
+"Target": "Strings/schedules/FC.John",
+  "Entries": {
+"John.GreenRain": "{{i18n:John.GreenRain}}",
+"John.DesertFestival": "{{i18n:John.DesertFestival}}",
+"John.TroutDerby": "{{i18n:John.TroutDerby}}",
+"John.SquidFest": "{{i18n:John.SquidFest}}",
+}
+ },
+  {
+"Action": "EditData",
+"Target": "Characters/schedules/FC.John",
+"Update": "OnTimeChange, OnLocationChange",
+"Entries": {
+"spring": "Mon",
+
+"Mon": "900 {{ModID}}_OldGraveYard 20 44 3 {{ModID}}_JohnSit3/1200 Saloon 1 18 1 {{ModID}}_JohnDrink/1500 {{ModID}}_OldGraveYard 16 48 1/1900 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_JohnsTempRoom 3 7 1 {{ModID}}_JohnSleep",
+
+"Wed": "900 Beach 38 36 2/1200 Town 70 11 2 {{ModID}}_JohnSit2/1500 Saloon 1 18 1 {{ModID}}_JohnDrink/1900 {{ModID}}_Exhibit 14 9 3/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_JohnsTempRoom 3 7 1 {{ModID}}_JohnSleep",
+
+"Fri": "900 {{ModID}}_OldGraveYard 16 48 1/1200 Saloon 1 18 1 {{ModID}}_JohnDrink/1500 {{ModID}}_Exhibit 14 9 3/1900 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_JohnsTempRoom 3 7 1 {{ModID}}_JohnSleep",
+
+"Tue": "900 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2/1200 Saloon 1 18 1 {{ModID}}_JohnDrink/1500 Mountain 35 20 2/1900 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_JohnsTempRoom 3 7 1 {{ModID}}_JohnSleep",
+
+"Thu": "900 {{ModID}}_OldGraveYard 20 44 3 {{ModID}}_JohnSit3/1200 Mountain 35 20 2/1500 Town 70 11 2 {{ModID}}_JohnSit2/1900 {{ModID}}_OldGraveYard 20 44 3 {{ModID}}_JohnSit3/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_JohnsTempRoom 3 7 1 {{ModID}}_JohnSleep",
+
+"Sat": "900 Forest 80 42 1/1200 Town 70 11 2 {{ModID}}_JohnSit2/1500 Saloon 1 18 1 {{ModID}}_JohnDrink/1900 {{ModID}}_Exhibit 14 9 3/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_JohnsTempRoom 3 7 1 {{ModID}}_JohnSleep",
+
+"Sun": "900 {{ModID}}_OldGraveYard 20 44 3 {{ModID}}_JohnSit3/1200 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2/1500 Mountain 35 20 2/1900 {{ModID}}_JohnsTempRoom 9 7 2 {{ModID}}_JohnSit2/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_JohnsTempRoom 3 7 1 {{ModID}}_JohnSleep",
+
+"rain": "900 {{ModID}}_JohnsTempRoom 9 7 2 {{ModID}}_JohnSit2/1200 {{ModID}}_JohnsTempRoom 7 7 1 {{ModID}}_JohnDrink/1500 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2/1900 Mountain 35 20 2/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_JohnsTempRoom 3 7 1 {{ModID}}_JohnSleep",
+"marriage_Sun": "900 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2/1200 {{ModID}}_Exhibit 14 9 3/1500 Town 70 11 2 {{ModID}}_JohnSit2/1900 {{ModID}}_OldGraveYard 20 44 3 {{ModID}}_JohnSit3/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200bed",
+
+"GreenRain": "700 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2 \"Strings\\schedules\\FC.John:John.GreenRain\"/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_JohnsTempRoom 3 7 1 {{ModID}}_JohnSleep",
+"DesertFestival": "610 Desert 24 15 1 \"Strings\\schedules\\FC.John:John.DesertFestival\"/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_JohnsTempRoom 3 7 1 {{ModID}}_JohnSleep",
+"TroutDerby": "610 Forest 80 42 1 \"Strings\\schedules\\FC.John:John.TroutDerby\"/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_JohnsTempRoom 3 7 1 {{ModID}}_JohnSleep",
+"SquidFest": "1000 Beach 28 5 3 \"Strings\\schedules\\FC.John:John.SquidFest\"/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_JohnsTempRoom 3 7 1 {{ModID}}_JohnSleep",
+ },
+
+     "When": {
+ "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
+ "HasFlag |contains={{ModID}}_Temple.Mail": false,
+}
+},
+ {
+"Action": "EditData",
+"Target": "Characters/schedules/FC.John",
+"Update": "OnTimeChange, OnLocationChange",
+"Entries": {
+
+"Mon": "900 {{ModID}}_OldGraveYard 20 44 3 {{ModID}}_JohnSit3/1200 Saloon 1 18 1 {{ModID}}_JohnDrink/1500 {{ModID}}_OldGraveYard 16 48 1/1900 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_Temple 16 8 3 {{ModID}}_JohnSleep",
+
+"Wed": "900 Beach 38 36 2/1200 Town 70 11 2 {{ModID}}_JohnSit2/1500 Saloon 1 18 1 {{ModID}}_JohnDrink/1900 {{ModID}}_Exhibit 14 9 3/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_Temple 16 8 3 {{ModID}}_JohnSleep",
+
+"Fri": "900 {{ModID}}_OldGraveYard 16 48 1/1200 Saloon 1 18 1 {{ModID}}_JohnDrink/1500 {{ModID}}_Exhibit 14 9 3/1900 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_Temple 16 8 3 {{ModID}}_JohnSleep",
+
+"Tue": "900 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2/1200 Saloon 1 18 1 {{ModID}}_JohnDrink/1500 Mountain 35 20 2/1900 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_Temple 16 8 3 {{ModID}}_JohnSleep",
+
+"Thu": "900 {{ModID}}_OldGraveYard 20 44 3 {{ModID}}_JohnSit3/1200 Mountain 35 20 2/1500 Town 70 11 2 {{ModID}}_JohnSit2/1900 {{ModID}}_OldGraveYard 20 44 3 {{ModID}}_JohnSit3/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_Temple 16 8 3 {{ModID}}_JohnSleep",
+
+"Sat": "900 Forest 80 42 1/1200 Town 70 11 2 {{ModID}}_JohnSit2/1500 Saloon 1 18 1 {{ModID}}_JohnDrink/1900 {{ModID}}_Exhibit 14 9 3/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_Temple 16 8 3 {{ModID}}_JohnSleep",
+
+"Sun": "900 {{ModID}}_Temple 10 17 2/1200 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2/1500 Mountain 35 20 2/1900 {{ModID}}_Temple 13 9 2 {{ModID}}_JohnSit2/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_Temple 16 8 3 {{ModID}}_JohnSleep",
+
+"rain": "900 {{ModID}}_Temple 13 9 2 {{ModID}}_JohnSit2/1200 {{ModID}}_Temple 8 8 1 {{ModID}}_JohnDrink/1500 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2/1900 Mountain 35 20 2/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_Temple 16 8 3 {{ModID}}_JohnSleep",
+"marriage_Sun": "900 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2/1200 {{ModID}}_Exhibit 14 9 3/1500 Town 70 11 2 {{ModID}}_JohnSit2/1900 {{ModID}}_OldGraveYard 20 44 3 {{ModID}}_JohnSit3/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200bed",
+
+"GreenRain": "700 {{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2 \"Strings\\schedules\\FC.John:John.GreenRain\"/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_Temple 16 8 3 {{ModID}}_JohnSleep",
+"DesertFestival": "610 Desert 24 15 1 \"Strings\\schedules\\FC.John:John.DesertFestival\"/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_Temple 16 8 3 {{ModID}}_JohnSleep",
+"TroutDerby": "610 Forest 80 42 1 \"Strings\\schedules\\FC.John:John.TroutDerby\"/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_Temple 16 8 3 {{ModID}}_JohnSleep",
+"SquidFest": "1000 Beach 28 5 3 \"Strings\\schedules\\FC.John:John.SquidFest\"/2000 {{ModID}}_JohnsTempRoom 3 7 1/2200 {{ModID}}_Temple 16 8 3 {{ModID}}_JohnSleep",
+     },
+
+     "When": {
+"HasFlag |contains={{ModID}}_Temple.Mail": true,
+
+}
+},
+]
+}
