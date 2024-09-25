@@ -858,5 +858,75 @@
 }
 }
 },
+{
+        "LogName": "MiniPhant",
+        "Action": "EditData",
+        "Target": "Data/FarmAnimals",
+        "Entries": { 
+            "{{ModID}}_MiniPhant": {
+"DisplayName": "{{i18n:FC.MiniPhant}}",
+"House": "{{AnimalHouseValue}}",
+"Gender": "Male",
+"PurchasePrice": 1000,
+"SellPrice": 600,
+"ShopTexture": "LooseSprites\\FC.MiniPhant_Icon",
+"ShopSourceRect": {
+"X": 0,
+"Y": 0,
+"Width":32,
+"Height": 16
+},
+"ShopMissingBuildingDescription": "{{MarnieShopDescription}}",
+"RequiredBuilding": null,
+"UnlockCondition":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+"EggItemIds": [ "{{ModID}}_MiniPhant" ],
+"IncubationTime": -1,
+"IncubatorParentSheetOffset": -1,
+"BirthText": "{{i18n:FC.MiniPhantBirth}}",
+"DaysToMature": 5,
+"DaysToProduce": 3,
+"HarvestType": "DropOvernight",
+"ProduceItemIds": [
+                      {
+  "Id": "Default",
+  "Condition": null,
+  "MinimumFriendship": 500,
+  "ItemId": "{{ModID}}_FairyCap"
+                      },
+                    ],
+"ProduceOnMature": true,
+"ProfessionForHappinessBoost": 11,
+"ProfessionForQualityBoost": 11,
+"ProfessionForFasterProduce": 11,
+"Sound": "toolSwap",
+"BabySound": "toolSwap",
+"Texture": "Animals\\FC.MiniPhant_Gray",
+"BabyTexture": "Animals\\FC.MiniPhant_Gray",
+"Skins":[
+],
+"UseFlippedRightForLeft": false,
+"UseDoubleUniqueAnimationFrames": false,
+"SleepFrame": 23,
+"SpriteWidth": 16,
+"SpriteHeight": 32,
+"ShadowWhenBaby": { "Visible": true },
+"ShadowWhenBabySwims": { "Visible": false },
+"ShadowWhenAdult": { "Visible": true },
+"ShadowWhenAdultSwims": { "Visible": false },
+"CanSwim": false,
+"BabiesFollowAdults": true,
+"GrassEatAmount": 4,
+"HappinessDrain": 2,
+"UpDownPetHitboxTileSize": "1, 1",
+"LeftRightPetHitboxTileSize": "1, 1",
+"BabyUpDownPetHitboxTileSize": "1, 1",
+"BabyLeftRightPetHitboxTileSize": "1, 1",
+   "StatToIncrementOnProduce": [
+],
+"ShowInSummitCredits": false,
+"CustomFields": {}
+}
+}
+},
 ],
 }

@@ -46,7 +46,29 @@ NoneChangingDialogue
 {
 "LogName": "Custom Conversation Topics",
 "Action":"EditData",
-"Target":"Characters/Dialogue/FC.Alan,Characters/Dialogue/FC.Cotton,Characters/Dialogue/FC.Dezerie,Characters/Dialogue/FC.Kaia,Characters/Dialogue/FC.Lyell,Characters/Dialogue/FC.Maverick,Characters/Dialogue/FC.Nikolai,Characters/Dialogue/FC.John,Characters/Dialogue/FC.Barron,Characters/Dialogue/FC.Phoebe,Characters/Dialogue/FC.Popper",
+"Target":"Characters/Dialogue/FC.Popper",
+"Entries":{
+//Vanilla
+"cc_Complete": "{{i18n:CT.cc_Complete.{{TargetWithoutPath}}}}",
+"cc_Boulder": "{{i18n:CT.cc_Boulder.{{TargetWithoutPath}}}}",
+"cc_Bridge": "{{i18n:CT.cc_Bridge.{{TargetWithoutPath}}}}",
+"cc_Bus": "{{i18n:CT.cc_Bus.{{TargetWithoutPath}}}}",
+"cc_Greenhouse": "{{i18n:CT.cc_Greenhouse.{{TargetWithoutPath}}}}",
+"cc_Minecart": "{{i18n:CT.cc_Minecart.{{TargetWithoutPath}}}}",
+"joja_Begin": "{{i18n:CT.joja_Begin.{{TargetWithoutPath}}}}",
+"movieTheater": "{{i18n:CT.movieTheater.{{TargetWithoutPath}}}}",
+"dumped_Guys": "{{i18n:CT.dumped_Guys.{{TargetWithoutPath}}}}",
+"secondChance_Guys": "{{i18n:CT.secondChance_Guys.{{TargetWithoutPath}}}}",
+"dumped_Girls": "{{i18n:CT.dumped_Girls.{{TargetWithoutPath}}}}",
+"secondChance_Girls": "{{i18n:CT.secondChance_Girls.{{TargetWithoutPath}}}}",
+"pamHouseUpgrade": "{{i18n:CT.pamHouseUpgrade.{{TargetWithoutPath}}}}",
+"pamHouseUpgradeAnonymous": "{{i18n:CT.pamHouseUpgradeAnonymous.{{TargetWithoutPath}}}}",
+}
+},
+{
+"LogName": "Custom Conversation Topics",
+"Action":"EditData",
+"Target":"Characters/Dialogue/FC.Alan,Characters/Dialogue/FC.Cotton,Characters/Dialogue/FC.Dezerie,Characters/Dialogue/FC.Kaia,Characters/Dialogue/FC.Lyell,Characters/Dialogue/FC.Maverick,Characters/Dialogue/FC.Nikolai,Characters/Dialogue/FC.John",
 "Entries":{
 // A NEW DREAM
 "FC.JohnsArrival": "{{i18n:CT.{{TargetWithoutPath}}.FC.JohnsArrival}}",

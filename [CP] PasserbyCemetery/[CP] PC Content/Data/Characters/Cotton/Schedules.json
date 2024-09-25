@@ -28,6 +28,7 @@
 "LogName": "Cotton's Default Schedule",
 "Action": "EditData",
 "Target": "Characters/schedules/FC.Cotton",
+"Update": "OnTimeChange, OnLocationChange",
 "Entries": {
 "spring": "GOTO Mon",
 "Mon": "1200 Beach 14 14 2 {{ModID}}_CottonPout/1500 Town 71 91 2 {{ModID}}_CottonSit2/1900 {{ModID}}_OldGraveYard 19 44 2/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
@@ -50,7 +51,7 @@
 "winter_16": "1000 Animalshop 16 13 2/1400 Forest 34 9 2/1700 Beach 3 22 1 \"Strings\\schedules\\FC.Cotton:Cotton.NightMarket\"/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
 }, 
 "When": {
-                             "HasSeenEvent |contains={{ModID}}_TheBridge": true,
+"HasConversationTopic": "FC.CottonsFreedom",
 }
 },
 ]
