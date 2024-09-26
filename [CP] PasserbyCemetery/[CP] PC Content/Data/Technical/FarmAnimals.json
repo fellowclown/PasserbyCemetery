@@ -406,7 +406,7 @@
         "Id": "Default",
         "Condition": null,
         "MinimumFriendship": 0,
-        "ItemId": "2"
+        "ItemId": "{{ModID}}_ArcaCoin"
       }
     ],
     "DeluxeProduceItemIds": [
@@ -539,9 +539,15 @@
     "DeluxeProduceItemIds": [
       {
         "Id": "Default",
+        "Condition": "RANDOM 0.2 @addDailyLuck",
+        "MinimumFriendship": 500,
+        "ItemId": "{{ModID}}_MaleMovoraptorEgg"
+      },
+      {
+        "Id": "Default",
         "Condition": null,
         "MinimumFriendship": 500,
-        "ItemId": "{{Random:{{ModID}}_MaleMovoraptorEgg,{{ModID}}_MovoraptorEgg}}"
+        "ItemId": "{{ModID}}_MovoraptorEgg"
       }
     ],
     "ProduceOnMature": true,
@@ -1029,35 +1035,35 @@
 "ProfessionForFasterProduce": 11,
 "Sound": "wind",
 "BabySound": "wind",
-"Texture": "Animals\\FC.MiniPhant_Gray",
-"BabyTexture": "Animals\\FC.MiniPhant_Gray",
+"Texture": "Animals\\FC.MiniPhant_Adult_Gray",
+"BabyTexture": "Animals\\FC.MiniPhant_Baby_Gray",
 "Skins":[
   {
 "ID": "FC.MiniPhant_Gray",
 "Weight": 3.0,
-"Texture": "Animals\\FC.MiniPhant_Gray",
-"BabyTexture": "Animals\\FC.MiniPhant_Gray"
+"Texture": "Animals\\FC.MiniPhant_Adult_Gray",
+"BabyTexture": "Animals\\FC.MiniPhant_Baby_Gray"
 },
  {
 "ID": "FC.MiniPhant_Blue",
 "Weight": 2.0,
-"Texture": "Animals\\FC.MiniPhant_Blue",
-"BabyTexture": "Animals\\FC.MiniPhant_Blue"
+"Texture": "Animals\\FC.MiniPhant_Adult_Blue",
+"BabyTexture": "Animals\\FC.MiniPhant_Baby_Blue"
 },
 {
 "ID": "FC.MiniPhant_Pale",
 "Weight": 1.0,
-"Texture": "Animals\\FC.MiniPhant_Pale",
-"BabyTexture": "Animals\\FC.MiniPhant_Pale"
+"Texture": "Animals\\FC.MiniPhant_Adult_Pale",
+"BabyTexture": "Animals\\FC.MiniPhant_Baby_Pale"
 },
 {
 "ID": "FC.MiniPhant_Pink",
 "Weight": 1.0,
-"Texture": "Animals\\FC.MiniPhant_Pink",
-"BabyTexture": "Animals\\FC.MiniPhant_Pink"
+"Texture": "Animals\\FC.MiniPhant_Adult_Pink",
+"BabyTexture": "Animals\\FC.MiniPhant_Baby_Pink"
 },
 ],
-"UseFlippedRightForLeft": false,
+"UseFlippedRightForLeft": true,
 "UseDoubleUniqueAnimationFrames": false,
 "SleepFrame": 23,
 "SpriteWidth": 16,
