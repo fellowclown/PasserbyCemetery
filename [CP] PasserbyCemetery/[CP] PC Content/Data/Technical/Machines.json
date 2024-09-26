@@ -1,5 +1,60 @@
 {
   "Changes": [
+     {
+      "LogName": "MiniPhantTusk",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)90",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_MiniPhantTusk": {
+          "Id": "{{ModID}}_MiniPhantTusk",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_MiniPhantTusk",
+              "RequiredCount": 5
+            }
+          ],
+          "OutputItem": [
+            {
+              "CustomData": null,
+            "OutputMethod": null,
+            "CopyColor": false,
+            "CopyPrice": false,
+            "CopyQuality": false,
+            "PreserveType": null,
+            "PreserveId": null,
+            "IncrementMachineParentSheetIndex": 0,
+            "PriceModifiers": null,
+            "PriceModifierMode": "Stack",
+            "Condition": null,
+            "Id": "(O)466",
+            "ItemId": "(O)466",
+            "RandomItemId": null,
+            "MaxItems": null,
+            "MinStack": 3,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ObjectInternalName": null,
+            "ObjectDisplayName": null,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            }
+          ],
+          "MinutesUntilReady": 240
+        },
+      },
+        
+      "MoveEntries": [
+        {
+          "Id": "{{ModID}}_MiniPhantTusk",
+          "BeforeId": "Default"
+        },
+      ]
+    },
     {
       "LogName": "smoked Gem Bird",
       "Action": "EditData",

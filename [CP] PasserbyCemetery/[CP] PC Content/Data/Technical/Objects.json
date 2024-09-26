@@ -1,6 +1,60 @@
 {
     "Changes": [
       {
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_MovoraptorFeather": {
+  "Name": "{{ModID}}_MovoraptorFeather",
+  "DisplayName": "{{i18n:FC.MovoraptorFeather}}",
+  "Description": "{{i18n:FC.MovoraptorFeather.Desc}}",
+  "Type": "Animal Product",
+    "Category": -14,
+  "Price": 40,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 217,
+  "Edibility": -300,
+  "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+      "color_white",
+  ],
+  "CustomFields": null
+  }
+}
+},
+      {
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
@@ -3565,6 +3619,60 @@
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_furniture",
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_MaleMovoraptorEgg": {
+  "Name": "{{ModID}}_MovoraptorEgg",
+  "DisplayName": "{{i18n:FC.MovoraptorEgg}}",
+  "Description": "{{i18n:FC.MovoraptorEgg.Desc}}",
+  "Type": "Animal Product",
+  "Category": -5,
+  "Price":150,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 218,
+  "Edibility": 2,
+  "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.01
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "category_egg",
   ],
   "CustomFields": null
   }
@@ -9331,6 +9439,61 @@
   "ExcludeFromRandomSale": true,
   "ContextTags": [
      "color_brown"
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_MiniPhantTusk": {
+  "Name": "{{ModID}}_MiniPhantTusk",
+  "DisplayName": "{{i18n:FC.MiniPhantTusk}}",
+  "Description": "{{i18n:FC.MiniPhantTusk.Desc}}",
+  "Type": "Minerals",
+  "Category": -28,
+  "Price": 50,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 216,
+  "Edibility": -300,
+  "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 0.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 0.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+      "bone_item",
+      "color_white",
   ],
   "CustomFields": null
   }

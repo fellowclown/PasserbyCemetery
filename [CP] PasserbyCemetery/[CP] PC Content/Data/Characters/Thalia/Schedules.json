@@ -30,11 +30,11 @@
 
 "Thu": "610 {{ModID}}_StoneHouse 10 23 1/900 Mountain 88 22 1/1200 {{ModID}}_OldGraveYard 46 60 2/1600 {{ModID}}_Exhibit 3 9 1/1800 {{ModID}}_Exhibit 5 5 2/2000 {{ModID}}_Exhibit 13 8 2",
 
-"Fri": "1000 {{ModID}}_Exhibit 3 9 1/1800 {{ModID}}_Exhibit 5 5 2/1200 {{ModID}}_Exhibit 13 8 2/1300 Town 45 57 2/1600 Beach 34 36 2/2000 {{ModID}}_Exhibit 13 8 2",
+"Fri": "1000 {{ModID}}_Exhibit 3 9 1/1800 {{ModID}}_Exhibit 5 5 2/1200 {{ModID}}_Exhibit 13 8 2/1300 Town 45 57 2/1600 Beach 48 19 2/2000 {{ModID}}_Exhibit 13 8 2",
 
 "Sat": "900 ArchaeologyHouse 44 14 2/1200 Town 29 27 3/1500 Mountain 68 14 2/1800 {{ModID}}_Exhibit 5 5 2/2000 {{ModID}}_Exhibit 13 8 2",
 
-"Sun": "610 {{ModID}}_OldGraveYard 29 79 3/1200 Mountain 68 14 2/1600 Town 45 57 2/1900 Beach 34 36 2/2200 {{ModID}}_Exhibit 13 8 2",
+"Sun": "610 {{ModID}}_OldGraveYard 29 79 3/1200 Mountain 68 14 2/1600 Town 45 57 2/1900 Beach 48 19 2/2200 {{ModID}}_Exhibit 13 8 2",
 
 "rain": "1000 {{ModID}}_Exhibit 3 9 1/1800 {{ModID}}_Exhibit 5 5 2/1200 {{ModID}}_Exhibit 13 8 2/1700 {{ModID}}_OldGraveYard 29 79 3/2200 {{ModID}}_Exhibit 13 8 2",
 

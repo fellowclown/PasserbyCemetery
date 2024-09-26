@@ -1792,7 +1792,7 @@
 "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_UnlockLyellsAnimals",
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 50,
+"TradeItemAmount": 10,
 "ItemId": "{{ModID}}_MovoraptorEgg",
 "AvailableStock":10,
 "AvailableStockLimit": "4"
@@ -1822,7 +1822,7 @@
 "Condition": "SEASON Summer",
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 20,
+"TradeItemAmount": 5,
 "ItemId": "{{ModID}}_ZinfazuFruitSeeds",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1842,7 +1842,7 @@
 "Condition": "SEASON Fall",
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 16,
+"TradeItemAmount": 15,
 "ItemId": "{{ModID}}_PaneekiSeeds",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1852,7 +1852,7 @@
 "Condition": "SEASON Fall",
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 30,
+"TradeItemAmount": 5,
 "ItemId": "{{ModID}}_PopachiniSeeds",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1862,7 +1862,7 @@
 "Condition": "SEASON Winter",
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 20,
+"TradeItemAmount": 10,
 "ItemId": "{{ModID}}_IceBerriesSeeds",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1872,7 +1872,7 @@
 "Condition": "SEASON Fall",
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 80,
+"TradeItemAmount": 15,
 "ItemId": "{{ModID}}_FairyCapSeeds",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1882,7 +1882,7 @@
 "Condition": "SEASON Winter",
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 150,
+"TradeItemAmount": 20,
 "ItemId": "{{ModID}}_DragaClawSeeds",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1892,7 +1892,7 @@
 "Condition": "SEASON Winter",
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 100,
+"TradeItemAmount": 5,
 "ItemId": "{{ModID}}_CucumabaSeeds",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1902,7 +1902,7 @@
 "Condition": "SEASON Fall",
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 50,
+"TradeItemAmount": 2,
 "ItemId": "{{ModID}}_GaggleShroomsSeeds",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1922,7 +1922,7 @@
 "Condition": "SEASON Summer",
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 60,
+"TradeItemAmount": 10,
 "ItemId": "{{ModID}}_DragaTongueSeeds",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1932,7 +1932,7 @@
 "Condition": "SEASON Spring",
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 10,
+"TradeItemAmount": 5,
 "ItemId": "{{ModID}}_AdauulaStalksSeeds",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1952,7 +1952,7 @@
 "Condition": null,
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 20,
+"TradeItemAmount": 5,
 "ItemId": "{{ModID}}_CapWedges",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1962,7 +1962,7 @@
 "Condition": null,
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 30,
+"TradeItemAmount": 5,
 "ItemId": "{{ModID}}_LoMaCakes",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1972,7 +1972,7 @@
 "Condition": null,
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 40,
+"TradeItemAmount": 5,
 "ItemId": "{{ModID}}_ZinfazuIcecream",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1982,7 +1982,7 @@
 "Condition": null,
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 50,
+"TradeItemAmount": 20,
 "ItemId": "{{ModID}}_IceBerryWine",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -1992,7 +1992,7 @@
 "Condition": null,
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 60,
+"TradeItemAmount": 10,
 "ItemId": "{{ModID}}_FarmHandSupper",
 "AvailableStock":10,
 "AvailableStockLimit": "5"

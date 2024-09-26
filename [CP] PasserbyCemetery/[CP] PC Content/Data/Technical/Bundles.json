@@ -11,7 +11,7 @@
 					"BundleIconAsset": "Mods/{{ModID}}/CottonsBundleIcon",
 					"JunimoNoteTexture": "Mods/{{ModID}}/CottonsBundleBackgroundImage",
 					"ShopPosition": "7, 6",
-					"ShopEvent": "XOR/-1000 -1000/farmer 7 7 0 FC.Cotton -3000 -3000 2/pause 1000/viewport 10 9 clamp true/addConversationTopic FC.CottonsFreedom 7/pause 1000/warp FC.Cotton 10 6/move FC.Cotton -2 0 3/pause 1000/faceDirection FC.Cotton 2/speak FC.Cotton \"You...You freed me.$2\"/pause 400/speak FC.Cotton \"I don't know what your angle is...$2\"/move FC.Cotton -1 0 2/pause 200/pause 300/speak FC.Cotton \"But thank you, I've been stuck in there for years...$2\"/pause 300/speak FC.Cotton \"But this doesn't mean I owe you anything, it's humans who put me behind those falls in the first place.$5#$b#And I'm pretty sure you're human...$2#$b#I think, I don't remember what humans look like anymore.#$b#No matter, I'll never be captured again.$5#$b#I'd rather die and anyone who tries to trap me, they're going down with me!$5\"/pause 600 true/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/end warpOut",
+					"ShopEvent": "XOR/-1000 -1000/farmer 7 7 0 FC.Cotton -3000 -3000 2/pause 1000/viewport 10 9 clamp true/addConversationTopic FC.CottonsFreedom 7/pause 1000/warp FC.Cotton 10 6/move FC.Cotton -2 0 3/pause 1000/faceDirection FC.Cotton 2/speak FC.Cotton \"{{i18n:TheBridge.00}}\"/pause 400/speak FC.Cotton \"{{i18n:TheBridge.01}}\"/move FC.Cotton -1 0 2/pause 200/pause 300/speak FC.Cotton \"{{i18n:TheBridge.02}}\"/pause 300/speak FC.Cotton \"{{i18n:TheBridge.03}}\"/pause 600 true/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/end warpOut",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
 					"BundleSlots": 2, 
