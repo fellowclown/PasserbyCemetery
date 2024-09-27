@@ -182,6 +182,8 @@ Trailer Floor One
 
                            "MEEP_CloseupInteraction_Image_20": "{{ModID}}/GuideBook.19",
                         "MEEP_CloseupInteraction_Text_20": "{{i18n:FC.Guide.19}}",
+                  "MEEP_CloseupInteraction_Image_21": "{{ModID}}/GuideBook.20",
+                        "MEEP_CloseupInteraction_Text_21": "{{i18n:FC.Guide.20}}",
 
 
                     }
