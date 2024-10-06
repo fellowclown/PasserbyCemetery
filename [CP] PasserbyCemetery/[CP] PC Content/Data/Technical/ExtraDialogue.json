@@ -68,7 +68,7 @@ NoneChangingDialogue
 {
 "LogName": "Custom Conversation Topics",
 "Action":"EditData",
-"Target":"Characters/Dialogue/FC.Alan,Characters/Dialogue/FC.Cotton,Characters/Dialogue/FC.Dezerie,Characters/Dialogue/FC.Kaia,Characters/Dialogue/FC.Lyell,Characters/Dialogue/FC.Maverick,Characters/Dialogue/FC.Nikolai,Characters/Dialogue/FC.John",
+"Target":"Characters/Dialogue/FC.Alan,Characters/Dialogue/FC.Cotton,Characters/Dialogue/FC.Dezerie,Characters/Dialogue/FC.Kaia,Characters/Dialogue/FC.Lyell,Characters/Dialogue/FC.Maverick,Characters/Dialogue/FC.Nikolai,Characters/Dialogue/FC.John,Characters/Dialogue/FC.Barron,Characters/Dialogue/FC.Phoebe",
 "Entries":{
 // A NEW DREAM
 "FC.JohnsArrival": "{{i18n:CT.{{TargetWithoutPath}}.FC.JohnsArrival}}",
@@ -118,9 +118,9 @@ NoneChangingDialogue
 "FC.Betrayal":"{{i18n:CT.{{TargetWithoutPath}}.FC.Betrayal}}",
 "FC.TheAmulet":"{{i18n:CT.{{TargetWithoutPath}}.FC.TheAmulet}}",
 "FC.BoatHouse":"{{i18n:CT.{{TargetWithoutPath}}.FC.BoatHouse}}",
-"FC.{{TargetWithoutPath}}sRide":"{{i18n:CT.{{TargetWithoutPath}}.FC.{{TargetWithoutPath}}sRide}}",
+"FC.{{TargetWithoutPath}}sRide":"{{i18n:CT.{{TargetWithoutPath}}.FC.GradysRide}}",
 "FC.Reunite":"{{i18n:CT.{{TargetWithoutPath}}.FC.Reunite}}",
-"FC.{{TargetWithoutPath}}sAttempt":"{{i18n:CT.{{TargetWithoutPath}}.FC.{{TargetWithoutPath}}sAttempt}}",
+"FC.{{TargetWithoutPath}}sAttempt":"{{i18n:CT.{{TargetWithoutPath}}.FC.GradysAttempt}}",
 "FC.KaiaMoms":"{{i18n:CT.{{TargetWithoutPath}}.FC.KaiaMoms}}",
 "FC.KaiasPurpose":"{{i18n:CT.{{TargetWithoutPath}}.FC.KaiasPurpose}}",
 "FC.KaiasDate":"{{i18n:CT.{{TargetWithoutPath}}.FC.KaiasDate}}",
@@ -128,7 +128,7 @@ NoneChangingDialogue
 "FC.LyellsIntro":"{{i18n:CT.{{TargetWithoutPath}}.FC.LyellsIntro}}",
 "FC.LyellsShopVisit":"{{i18n:CT.{{TargetWithoutPath}}.FC.LyellsShopVisit}}",
 "FC.GaveCoin":"{{i18n:CT.{{TargetWithoutPath}}.FC.GaveCoin}}",
-"FC.StrugglesWithLyell":"{{i18n:CT.{{TargetWithoutPath}}.FC.StrugglesWith{{TargetWithoutPath}}}}",
+"FC.StrugglesWithLyell":"{{i18n:CT.{{TargetWithoutPath}}.FC.StrugglesWithLyell}}",
 "FC.ElizabethSetting":"{{i18n:CT.{{TargetWithoutPath}}.FC.ElizabethSetting}}",
 "FC.TheStatue":"{{i18n:CT.{{TargetWithoutPath}}.FC.TheStatue}}",
 "FC.MavericksProblem":"{{i18n:CT.{{TargetWithoutPath}}.FC.MavericksProblem}}",

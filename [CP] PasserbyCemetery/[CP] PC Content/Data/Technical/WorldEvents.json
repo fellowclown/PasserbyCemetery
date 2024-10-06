@@ -20,10 +20,10 @@
 },
 {
 "Action": "EditData",
-"Target": "Data/Events/{{ModID}}_LyellsProperty",
+"Target": "Data/Events/{{ModID}}_AncientGraveYard",
 "Entries": {
-"{{ModID}}_ArahOffering": "none/-1000 -1000/farmer 23 30 2/viewport 23 30 clamp true/pause 900/question fork0 \"{{i18n:ArahOffering.00}}\"/fork FC.YesArah/end position 23 30",
-"FC.YesArah": "showFrame farmer 3/playSound stardrop/glow 220 20 60/action spacechase0.SpaceCore_ApplyBuff {{ModID}}_ArahsBlessing.Buff \"{{i18n:FC.ArahsBlessing.Buff}}\"/message \"{{i18n:ArahOffering.01}}\"/action addmoney -300/end position 23 30",
+"{{ModID}}_ArahOffering": "none/-1000 -1000/farmer 33 15 2/viewport 33 15 clamp true/pause 900/question fork0 \"{{i18n:ArahOffering.00}}\"/fork FC.YesArah/end position 23 30",
+"FC.YesArah": "showFrame farmer 3/playSound stardrop/glow 220 20 60/action spacechase0.SpaceCore_ApplyBuff {{ModID}}_ArahsBlessing.Buff \"{{i18n:FC.ArahsBlessing.Buff}}\"/message \"{{i18n:ArahOffering.01}}\"/action addmoney -300/end position 33 15",
 }, 
 },
 ///Heart 3

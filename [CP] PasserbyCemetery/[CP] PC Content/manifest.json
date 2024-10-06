@@ -2,7 +2,7 @@
   "Name": "Passerby Cemetery",
    "Author": "Fellowclown",
    "Description": "Fellowclown's expansion mod",
-   "Version": "1.84.0", ///Version of your mod
+   "Version": "1.87.0", ///Version of your mod
    "UniqueID": "Fellowclown.PC", 
  
    "ContentPackFor": {
@@ -31,9 +31,6 @@
             "UniqueID": "FlashShifter.StardewValleyExpandedCP",  "IsRequired": false 
         },
           {
-            "UniqueID": "Fellowclown.AND",  "IsRequired": false 
-        },
-          {
             "UniqueID": "Bouhm.NPCMapLocations",  "IsRequired": false 
         },
           {
@@ -53,6 +50,9 @@
         },
                      {
             "UniqueID": "EnderTedi.Polyamory",  "IsRequired": false 
+        },
+                      {
+            "UniqueID": "ichortower.SecretNoteFramework",  "IsRequired": false 
         },
     ]
 }

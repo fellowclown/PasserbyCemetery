@@ -1,32 +1,38 @@
 {
     "Changes": [
  {
+           "LogName": "Wearable Data",
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/WearableData",
             "Entries":
             {
-                "(O){{ModID}}_EternalEmbraceRing": { "BuffIdToApply": "{{ModID}}_EternalEmbraceRing.Buff" },
-                "(O){{ModID}}_BehatedRing": { "BuffIdToApply": "{{ModID}}_BehatedRing.Buff" },
-                "(O){{ModID}}_BullsFuryRing": { "BuffIdToApply": "{{ModID}}_BullsFuryRing.Buff" },
-                "(O){{ModID}}_TheStingerRing": { "BuffIdToApply": "{{ModID}}_TheStingerRing.Buff" },
-                "(O){{ModID}}_VoidlingRing": { "BuffIdToApply": "{{ModID}}_VoidlingRing.Buff" },
-                "(O){{ModID}}_ShellRing": { "BuffIdToApply": "{{ModID}}_ShellRing.Buff" },
-
+                "{{ModID}}_EternalEmbraceRing": { "BuffIdToApply": "{{ModID}}_EternalEmbraceRing.Buff" },
+                "{{ModID}}_BehatedRing": { "BuffIdToApply": "{{ModID}}_BehatedRing.Buff" },
+                "{{ModID}}_BullsFuryRing": { "BuffIdToApply": "{{ModID}}_BullsFuryRing.Buff" },
+                "{{ModID}}_TheStingerRing": { "BuffIdToApply": "{{ModID}}_TheStingerRing.Buff" },
+                "{{ModID}}_VoidlingRing": { "BuffIdToApply": "{{ModID}}_VoidlingRing.Buff" },
             },
 
         },
         {
+            "LogName": "EternalEmbraceRing",
             "Action": "EditData",
             "Target": "Data/Buffs",
             "Entries":
             {
-                "{{ModID}}_EternalEmbraceRing.Buff": {
-                    "DisplayName":"{{i18n:FC.EternalEmbraceRing.Buff}}",
-                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
-                    "IconSpriteIndex": 0,
-                    "Effects": { "Defense": 6 }
-                }
-            }
+              "{{ModID}}_EternalEmbraceRing.Buff": {
+    "DisplayName": "{{i18n:FC.EternalEmbraceRing.Buff}}",
+    "Description": null,
+    "IsDebuff": true,
+    "GlowColor": "#243B243F",
+    "Duration": 600000,
+    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
+    "IconSpriteIndex": 0,
+    "Effects": {"Defense": 6 },
+    "ActionsOnApply": null,
+    "CustomFields": null
+  },
+            },
         },
         {
             "Action": "EditData",
@@ -35,9 +41,10 @@
             {
                      "{{ModID}}_BehatedRing.Buff": {
                     "DisplayName":"{{i18n:FC.BehatedRing.Buff}}",
-                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
                     "IconSpriteIndex": 4,
-                    "Effects": { "Attack": 3 }
+                    "Effects": { "Attack": 3
+                     }
                 }
             }
         },
@@ -48,7 +55,7 @@
             {
                      "{{ModID}}_BullsFuryRing.Buff": {
                     "DisplayName":"{{i18n:FC.BullsFuryRing.Buff}}",
-                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
                     "IconSpriteIndex": 2,
                     "Effects": { 
                     "Attack": 4,
@@ -64,7 +71,7 @@
             {
                      "{{ModID}}_TheStingerRing.Buff": {
                     "DisplayName":"{{i18n:FC.TheStingerRing.Buff}}",
-                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
                     "IconSpriteIndex": 3,
                     "Effects": { 
                     "FarmingLevel": 2,
@@ -73,6 +80,14 @@
                 }
             }
         },
+               {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/WearableData",
+            "Entries":
+            {
+                "{{ModID}}_ShellRing": { "BuffIdToApply": "{{ModID}}_ShellRing.Buff" },
+              }
+        },
         {
             "Action": "EditData",
             "Target": "Data/Buffs",
@@ -80,7 +95,7 @@
             {
                      "{{ModID}}_ShellRing.Buff": {
                     "DisplayName":"{{i18n:FC.ShellRing.Buff}}",
-                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
                     "IconSpriteIndex": 6,
                     "Effects": { 
                     "Defense": 8,
@@ -96,7 +111,7 @@
             {
                      "{{ModID}}_VoidlingRing.Buff": {
                     "DisplayName":"{{i18n:FC.VoidlingRing.Buff}}",
-                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
                     "IconSpriteIndex": 5,
                     "Effects": { 
                     "Attack": 4,
@@ -114,7 +129,7 @@
                      "{{ModID}}_YobasBlessing.Buff": {
                     "DisplayName":"{{i18n:FC.YobasBlessing.Buff}}",
                     "Duration": 900000,
-                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
                     "IconSpriteIndex": 1,
                     "Effects": { 
                     "LuckLevel": 2,
@@ -133,7 +148,7 @@
                     "{{ModID}}_ArahsBlessing.Buff": {
                     "DisplayName":"{{i18n:FC.ArahsBlessing.Buff}}",
                     "Duration": 900000,
-                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
                     "IconSpriteIndex": 7,
                     "Effects": { 
                     "MaxStamina": 100,
@@ -153,18 +168,14 @@
                     "{{ModID}}_Illness.Buff": {
                     "DisplayName":"{{i18n:FC.Illness.Buff}}",
                     "Duration": 900000,
-                    "IconTexture": "Mods/{{ModID}}/BuffIcons",
+                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
                     "IconSpriteIndex": 8,
                     "Effects": { 
                     "Speed": -4,
                     "Defense": -3,
-                 
-
-
                      }
                 }
             }
-        },
-        
+        },  
   ]
 }

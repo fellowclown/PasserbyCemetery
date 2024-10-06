@@ -30,26 +30,168 @@
 "Action": "EditData",
 "Target": "Data/FishPondData",
 "Entries": {
-"{{ModID}}_IficusFish": {
-"ID": "{{ModID}}_IficusFish",
+"{{ModID}}_GulpFish": {
+"ID": "{{ModID}}_GulpFish",
 "RequiredTags": [
-"fish_IficusFish"
+"fish_GulpFish",
 ],
 "Precedence": 0,
-"SpawnTime": -1,
+"SpawnTime": 5,
 "ProducedItems": [
 {
-"RequiredPopulation": 10,
-"Chance": 0.08,
-"ItemID": "(O)422",
+"RequiredPopulation": 2,
+"Chance": 0.2,
+"ItemID": "(O)881",
 "MinQuantity": 1,
-"MaxQuantity": 1 
+"MaxQuantity": 3 
+},
+{
+"RequiredPopulation": 4,
+"Chance": 0.2,
+"ItemID": "(O){{ModID}}_ArcaCoin",
+"MinQuantity": 1,
+"MaxQuantity": 4 
 },
 ],
 "PopulationGates": {
-"3": [ 
-"(O)86 2",
+"2": [ "(O)393 3","(O)397 1"],
+"4": [ "(O)72 2","(O)30 3", "(O)852 1" ],
+}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/FishPondData",
+"Entries": {
+"{{ModID}}_GraveCrab": {
+"ID": "{{ModID}}_GraveCrab",
+"RequiredTags": [
+"fish_GraveCrab", "fish_crab_pot","fish_freshwater",
 ],
+"Precedence": 0,
+"SpawnTime": 2,
+"ProducedItems": [
+{
+"RequiredPopulation": 2,
+"Chance": 0.2,
+"ItemID": "(O)881",
+"MinQuantity": 1,
+"MaxQuantity": 3 
+},
+{
+"RequiredPopulation": 4,
+"Chance": 0.2,
+"ItemID": "(O)684",
+"MinQuantity": 1,
+"MaxQuantity": 4 
+},
+],
+"PopulationGates": {
+"2": [  "(O)330 5","(O)771 15" ],
+"4": [ "(O)709 5","(O)78","(O)684 10", ],
+}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/FishPondData",
+"Entries": {
+"{{ModID}}_RiverBedJelly": {
+"ID": "{{ModID}}_RiverBedJelly",
+"RequiredTags": [
+"fish_RiverBedJelly",
+],
+"Precedence": 0,
+"SpawnTime": 6,
+"ProducedItems": [
+{
+"RequiredPopulation": 4,
+"Chance": 0.2,
+"ItemID": "(O)812",
+"MinQuantity": 1,
+"MaxQuantity": 3 
+},
+{
+"RequiredPopulation": 8,
+"Chance": 0.2,
+"ItemID": "(O)SeaJelly",
+"MinQuantity": 1,
+"MaxQuantity": 4 
+},
+],
+"PopulationGates": {
+"4": ["(O)306","(O)433 5","(O)206"],
+"8": [  "(O)348","(O)614","(O)223" ],
+}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/FishPondData",
+"Entries": {
+"{{ModID}}_DancerFish": {
+"ID": "{{ModID}}_DancerFish",
+"RequiredTags": [
+"fish_DancerFish",
+],
+"Precedence": 0,
+"SpawnTime": 2,
+"ProducedItems": [
+{
+"RequiredPopulation": 5,
+"Chance": 0.2,
+"ItemID": "(O)812",
+"MinQuantity": 1,
+"MaxQuantity": 3 
+},
+{
+"RequiredPopulation": 10,
+"Chance": 0.2,
+"ItemID": "(O)565",
+"MinQuantity": 1,
+"MaxQuantity": 4 
+},
+],
+"PopulationGates": {
+"5": ["(O)98","(O)570","(O)72 2" ],
+"10": [ "(O)288 2" ],
+}
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/FishPondData",
+"Entries": {
+"{{ModID}}_IficusFish": {
+"ID": "{{ModID}}_IficusFish",
+"RequiredTags": [
+"fish_IficusFish",
+],
+"Precedence": 0,
+"SpawnTime": 3,
+"ProducedItems": [
+{
+"RequiredPopulation": 3,
+"Chance": 0.2,
+"ItemID": "(O)812",
+"MinQuantity": 1,
+"MaxQuantity": 3 
+},
+{
+"RequiredPopulation": 6,
+"Chance": 0.2,
+"ItemID": "(O)330",
+"MinQuantity": 1,
+"MaxQuantity": 4 
+},
+],
+"PopulationGates": {
+"3": [ "(O)404 2 3","(O)420 2 3" ],
+"6": [  "(O)334 4","(O)338 5" ],
 }
 }
 }
@@ -99,11 +241,14 @@
   "GeodeDropsDefaultItems": false,
   "GeodeDrops": null,
   "ArtifactSpotChances": null,
-  "ExcludeFromFishingCollection": true,
+  "ExcludeFromFishingCollection": "{{IncludeFish}}",
   "ExcludeFromShippingCollection": true,
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fish",
+  "color_green",
+  "fish_BoneyHeadedGraveFish",
+
   ],
   "CustomFields": null
   }
@@ -158,6 +303,9 @@
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fish",
+    "color_brown",
+    "fish_IficusFish",
+
   ],
   "CustomFields": null
   }
@@ -212,6 +360,8 @@
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fish",
+      "color_orange",
+      "fish_DancerFish",
   ],
   "CustomFields": null
   }
@@ -266,6 +416,8 @@
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fish",
+      "color_blue",
+      "fish_RiverBedJelly",
   ],
   "CustomFields": null
   }
@@ -320,6 +472,8 @@
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fish",
+      "color_pink",
+      "fish_GraveCrab",
   ],
   "CustomFields": null
   }
@@ -374,6 +528,8 @@
   "ExcludeFromRandomSale": true,
   "ContextTags": [
     "category_fish",
+      "color_orange",
+      "fish_GulpFish"
   ],
   "CustomFields": null
   }

@@ -1,57 +1,37 @@
 {
   "Changes": [
-     {
-      "LogName": "MiniPhantTusk",
+  {
+      "LogName": "WhiteTruffleOil",
       "Action": "EditData",
       "Target": "Data/Machines",
       "TargetField": [
-        "(BC)90",
+        "(BC)19",
         "OutputRules"
       ],
       "Entries": {
-        "{{ModID}}_MiniPhantTusk": {
-          "Id": "{{ModID}}_MiniPhantTusk",
+        "{{ModID}}_WhiteTruffle": {
+          "Id": "{{ModID}}_WhiteTruffle",
           "Triggers": [
             {
               "Trigger": "ItemPlacedInMachine",
-              "RequiredItemId": "{{ModID}}_MiniPhantTusk",
-              "RequiredCount": 5
+              "RequiredItemId": "{{ModID}}_WhiteTruffle",
+              "RequiredCount": 1
             }
           ],
           "OutputItem": [
             {
-              "CustomData": null,
-            "OutputMethod": null,
-            "CopyColor": false,
-            "CopyPrice": false,
-            "CopyQuality": false,
-            "PreserveType": null,
-            "PreserveId": null,
-            "IncrementMachineParentSheetIndex": 0,
-            "PriceModifiers": null,
-            "PriceModifierMode": "Stack",
-            "Condition": null,
-            "Id": "(O)466",
-            "ItemId": "(O)466",
-            "RandomItemId": null,
-            "MaxItems": null,
-            "MinStack": 3,
-            "MaxStack": -1,
-            "Quality": -1,
-            "ObjectInternalName": null,
-            "ObjectDisplayName": null,
-            "ToolUpgradeLevel": -1,
-            "IsRecipe": false,
+              "Id": "{{ModID}}_WhiteTruffleOil",
+              "ItemId": "{{ModID}}_WhiteTruffleOil"
             }
           ],
-          "MinutesUntilReady": 240
+          "MinutesUntilReady": 180
         },
       },
         
       "MoveEntries": [
         {
-          "Id": "{{ModID}}_MiniPhantTusk",
-          "BeforeId": "Default"
+          "Id": "{{ModID}}_WhiteTruffle",
+          "BeforeId": "Default_Truffle"
         },
       ]
     },

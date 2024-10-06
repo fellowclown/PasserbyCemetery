@@ -45,7 +45,7 @@
 "Target": "Characters/schedules/FC.Alan",
 "Entries": {
 "spring": "GOTO Mon",
-"Mon": "730 {{ModID}}_OldGraveYard 43 75 3/1000 {{ModID}}_AlansRoom 6 7 0 {{ModID}}_Alan_Work0/1200 {{ModID}}_AlansRoom 6 8 2 {{ModID}}_AlanWork2 \"Strings\\schedules\\FC.Alan:Alan.Working\"/1400 Saloon 20 12 1 {{ModID}}_AlanSit1/2000 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+"Mon": "730 {{ModID}}_OldGraveYard 43 75 3/1000 {{ModID}}_AlansRoom 6 7 0 {{ModID}}_Alan_Work0/1200 {{ModID}}_AlansRoom 6 8 2 {{ModID}}_AlanWork2 \"Strings\\schedules\\FC.Alan:Alan.Working\"/1400 Saloon 9 21 1 {{ModID}}_AlanSit1/2000 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 
 "Tue": "610 {{ModID}}_OldGraveYard 23 64 1/1000 {{ModID}}_OldGraveYard 43 75 3/1400 {{ModID}}_StoneHouse 12 18 2/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2130 {{ModID}}_AlansRoom 6 8 2 {{ModID}}_AlanWork2 \"Strings\\schedules\\FC.Alan:Alan.Working\"/2300 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 
@@ -57,9 +57,9 @@
 
 "Sat": "1200 {{ModID}}_BeeNursery 7 8 1 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.00\"/1300 {{ModID}}_BeeNursery 5 8 2 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.01\"/1330 {{ModID}}_BeeNursery 9 15 1 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.02\"/1400 {{ModID}}_BeeNursery 15 16 3 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.03\"/1600 {{ModID}}_OldGraveYard 15 44 1 {{ModID}}_AlanSit1/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2200 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 
-"Sun": "730 {{ModID}}_OldGraveYard 43 75 3/1000 {{ModID}}_AlansRoom 6 7 0 {{ModID}}_Alan_Work0/1200 {{ModID}}_AlansRoom 6 8 2 {{ModID}}_AlanWork2 \"Strings\\schedules\\FC.Alan:Alan.Working\"/1400 Saloon 20 12 1 {{ModID}}_AlanSit1/2000 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+"Sun": "730 {{ModID}}_OldGraveYard 43 75 3/1000 {{ModID}}_AlansRoom 6 7 0 {{ModID}}_Alan_Work0/1200 {{ModID}}_AlansRoom 6 8 2 {{ModID}}_AlanWork2 \"Strings\\schedules\\FC.Alan:Alan.Working\"/1400 Saloon 9 21 1 {{ModID}}_AlanSit1/2000 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 
-"rain": "1200 AnimalShop 5 16 1 \"Strings\\schedules\\FC.Alan:Alan.AnimalShop\"/1400 Saloon 20 12 1 {{ModID}}_AlanSit1/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2300 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+"rain": "1200 AnimalShop 5 16 1 \"Strings\\schedules\\FC.Alan:Alan.AnimalShop\"/1400 Saloon 9 21 1 {{ModID}}_AlanSit1/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2300 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 "winter_16": "1200 AnimalShop 5 16 1 \"Strings\\schedules\\FC.Alan:Alan.AnimalShop\"/1400 Beach 6 20 0 1 \"Strings\\schedules\\FC.Alan:Alan.NightMarket\"/2000 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 
 "GreenRain": "1400 {{ModID}}_StoneHouse 12 18 2 \"Strings\\schedules\\FC.Alan:Alan.GreenRain\"/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2300 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
@@ -78,7 +78,7 @@
 "Update": "OnTimeChange, OnLocationChange",
 "Entries": {
 
-"Sun":"900 {{ModID}}_Temple 10 23 0 {{ModID}}_AlanSit0 \"Strings\\schedules\\FC.Alan:Alan.Temple\"/1000 {{ModID}}_AlansRoom 6 7 0 {{ModID}}_Alan_Work0/1200 {{ModID}}_AlansRoom 6 8 2 {{ModID}}_AlanWork2 \"Strings\\schedules\\FC.Alan:Alan.Working\"/1400 Saloon 20 12 1 {{ModID}}_AlanSit1/2000 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+"Sun":"900 {{ModID}}_Temple 10 23 0 {{ModID}}_AlanSit0 \"Strings\\schedules\\FC.Alan:Alan.Temple\"/1000 {{ModID}}_AlansRoom 6 7 0 {{ModID}}_Alan_Work0/1200 {{ModID}}_AlansRoom 6 8 2 {{ModID}}_AlanWork2 \"Strings\\schedules\\FC.Alan:Alan.Working\"/1400 Saloon 9 21 1 {{ModID}}_AlanSit1/2000 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
     },
 
      "When": {

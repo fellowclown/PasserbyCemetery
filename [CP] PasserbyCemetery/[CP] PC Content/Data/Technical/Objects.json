@@ -1,5 +1,462 @@
 {
     "Changes": [
+            {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_Pot1": {
+    "Name": "{{ModID}}_Pot1",
+    "DisplayName": "{{i18n:FC.Pot}}",
+    "Description": "{{i18n:FC.Pot.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 218
+  },
+}
+},
+      {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_Pot2": {
+    "Name": "{{ModID}}_Pot2",
+    "DisplayName": "{{i18n:FC.Pot}}",
+    "Description": "{{i18n:FC.Pot.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 219
+  },
+}
+},
+      {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_LipheumTablet": {
+    "Name": "{{ModID}}_LipheumTablet",
+    "DisplayName": "{{i18n:FC.AncientTablet}}",
+    "Description": "{{i18n:FC.AncientTablet.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 220
+  },
+}
+},
+      {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_ArahTablet": {
+    "Name": "{{ModID}}_ArahTablet",
+    "DisplayName": "{{i18n:FC.AncientTablet}}",
+    "Description": "{{i18n:FC.AncientTablet.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 221
+  },
+}
+},
+      {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_AluuaTablet": {
+    "Name": "{{ModID}}_AluuaTablet",
+    "DisplayName": "{{i18n:FC.AncientTablet}}",
+    "Description": "{{i18n:FC.AncientTablet.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 222
+  },
+}
+},
+     {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_MiniphantFigure": {
+    "Name": "{{ModID}}_MiniphantFigure",
+    "DisplayName": "{{i18n:FC.Ancientstatue}}",
+    "Description": "{{i18n:FC.Ancientstatue.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 223
+  },
+}
+},
+   {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_LifeTablet": {
+    "Name": "{{ModID}}_LifeTablet",
+    "DisplayName": "{{i18n:FC.AncientTablet}}",
+    "Description": "{{i18n:FC.AncientTablet.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 224
+  },
+}
+},
+
+     {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_FamilyTablet": {
+    "Name": "{{ModID}}_FamilyTablet",
+    "DisplayName": "{{i18n:FC.AncientTablet}}",
+    "Description": "{{i18n:FC.AncientTablet.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 225
+  },
+}
+},
+     {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_Rattler": {
+    "Name": "{{ModID}}_Rattler",
+    "DisplayName": "{{i18n:FC.Rattler}}",
+    "Description": "{{i18n:FC.Rattler.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 226
+  },
+}
+},
+     {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_Necklace1": {
+    "Name": "{{ModID}}_Necklace1",
+    "DisplayName": "{{i18n:FC.Necklace}}",
+    "Description": "{{i18n:FC.Necklace.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 227
+  },
+}
+},
+     {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_Necklace2": {
+    "Name": "{{ModID}}_Necklace1",
+    "DisplayName": "{{i18n:FC.Necklace}}",
+    "Description": "{{i18n:FC.Necklace.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 228
+  },
+}
+},
+     {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_Hairclip": {
+    "Name": "{{ModID}}_Hairclip",
+    "DisplayName": "{{i18n:FC.Hairclip}}",
+    "Description": "{{i18n:FC.Hairclip.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 229
+  },
+}
+},
+     {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_ShevitFigure": {
+    "Name": "{{ModID}}_ShevitFigure",
+    "DisplayName": "{{i18n:FC.Ancientstatue}}",
+    "Description": "{{i18n:FC.Ancientstatue.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 230
+  },
+}
+},
+     {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_Guardian1": {
+    "Name": "{{ModID}}_Guardian1",
+    "DisplayName": "{{i18n:FC.Ancientstatue}}",
+    "Description": "{{i18n:FC.Ancientstatue.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 231
+  },
+}
+},
+     {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_Guardian2": {
+    "Name": "{{ModID}}_Guardian2",
+    "DisplayName": "{{i18n:FC.Ancientstatue}}",
+    "Description": "{{i18n:FC.Ancientstatue.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 232
+  },
+}
+},
+     {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_Guardian3": {
+    "Name": "{{ModID}}_Guardian3",
+    "DisplayName": "{{i18n:FC.Ancientstatue}}",
+    "Description": "{{i18n:FC.Ancientstatue.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 233
+  },
+}
+},
+   {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_HammerAndPick": {
+    "Name": "{{ModID}}_HammerAndPick",
+    "DisplayName": "{{i18n:FC.HammerAndPick}}",
+    "Description": "{{i18n:FC.HammerAndPick.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 234
+  },
+}
+},
+   {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_GemmedCuff": {
+    "Name": "{{ModID}}_GemmedCuff",
+    "DisplayName": "{{i18n:FC.GemmedCuff}}",
+    "Description": "{{i18n:FC.GemmedCuff.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 235
+  },
+}
+},
+   {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+  "{{ModID}}_OldShoes": {
+    "Name": "{{ModID}}_OldShoes",
+    "DisplayName": "{{i18n:FC.OldShoes}}",
+    "Description": "{{i18n:FC.OldShoes.Desc}}",
+    "Type": "Mineral",
+    "Category": -12,
+     "Price": 100,
+    "Edibility": -300,
+    "IsDrink": false,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+     "ContextTags": [],
+     "ExcludeFromShippingCollection": true,
+    "Buff": {
+    },
+    "Texture": "Mods/{{ModID}}/Objects",
+    "SpriteIndex": 236
+  },
+}
+},
       {
 "Action": "EditData",
 "Target": "Data/Objects",
@@ -9,7 +466,7 @@
   "DisplayName": "{{i18n:FC.MovoraptorFeather}}",
   "Description": "{{i18n:FC.MovoraptorFeather.Desc}}",
   "Type": "Animal Product",
-    "Category": -14,
+    "Category": -18,
   "Price": 40,
    "Texture": "Mods/{{ModID}}/Objects",
   "SpriteIndex": 217,
@@ -63,12 +520,15 @@
     "DisplayName": "{{i18n:FC.GemBirdMeat}}",
     "Description": "{{i18n:FC.GemBirdMeat.Desc}}",
     "Type": "Animal Product",
-    "Category": -14,
+    "Category": -18,
      "Price": 400,
     "Edibility": -10,
     "IsDrink": false,
      "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
+     "ContextTags": [
+  "color_red",
+  ],
      "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
     "Buff": {
     },
@@ -93,6 +553,9 @@
      "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
      "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+          "ContextTags": [
+  "color_white",
+  ],
   "Buff": {
         "Duration": 3,
         "IsDebuff": false,
@@ -131,6 +594,9 @@
      "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
      "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+              "ContextTags": [
+  "color_red",
+  ],
 "Buff": {
        
         "Duration": 4,
@@ -170,6 +636,9 @@
      "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
      "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+              "ContextTags": [
+  "color_brown",
+  ],
 "Buff": {
        
         "Duration": 4,
@@ -209,6 +678,9 @@
      "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
      "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+              "ContextTags": [
+  "color_purple",
+  ],
   "Buff": {
         "Duration": 3,
         "IsDebuff": false,
@@ -444,6 +916,9 @@
     "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
      "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+              "ContextTags": [
+  "color_yellow",
+  ],
     "Buff": {
         "Duration": 2,
         "IsDebuff": false,
@@ -482,6 +957,9 @@
      "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
      "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ContextTags": [
+  "color_white",
+  ],
     "Buff": {
         "Duration": 3,
         "IsDebuff": false,
@@ -520,6 +998,9 @@
      "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
      "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+   "ContextTags": [
+  "color_white",
+  ],
     "Buff": {
     },
     "Texture": "Mods/{{ModID}}/Objects",
@@ -543,6 +1024,9 @@
      "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
      "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+        "ContextTags": [
+  "color_white",
+  ],
     "Buff": {
     },
     "Texture": "Mods/{{ModID}}/Objects",
@@ -550,41 +1034,7 @@
   },
 }
 },
- {
-      "LogName": "WhiteTruffleOil",
-      "Action": "EditData",
-      "Target": "Data/Machines",
-      "TargetField": [
-        "(BC)19",
-        "OutputRules"
-      ],
-      "Entries": {
-        "{{ModID}}_WhiteTruffle": {
-          "Id": "{{ModID}}_WhiteTruffle",
-          "Triggers": [
-            {
-              "Trigger": "ItemPlacedInMachine",
-              "RequiredItemId": "{{ModID}}_WhiteTruffle",
-              "RequiredCount": 1
-            }
-          ],
-          "OutputItem": [
-            {
-              "Id": "{{ModID}}_WhiteTruffleOil",
-              "ItemId": "{{ModID}}_WhiteTruffleOil"
-            }
-          ],
-          "MinutesUntilReady": 180
-        },
-      },
-        
-      "MoveEntries": [
-        {
-          "Id": "{{ModID}}_WhiteTruffle",
-          "BeforeId": "Default_Truffle"
-        },
-      ]
-    },
+ 
 {
             "Action": "EditData",
             "Target": "Data/Objects",
@@ -601,6 +1051,10 @@
      "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
      "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+         "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+        "ContextTags": [
+  "color_white",
+  ],
     "Buff": {
         "Duration": 4,
         "IsDebuff": false,
@@ -3636,7 +4090,7 @@
   "Category": -5,
   "Price":150,
    "Texture": "Mods/{{ModID}}/Objects",
-  "SpriteIndex": 218,
+  "SpriteIndex": 216,
   "Edibility": 2,
   "IsDrink": false,
   "CanBeGivenAsGift": true,
@@ -3741,7 +4195,7 @@
   "DisplayName": "{{i18n:FC.MovoraptorMayo}}",
   "Description": "{{i18n:FC.MovoraptorMayo.Desc}}",
   "Type": "Artisan Goods",
-  "Category": -5,
+  "Category": -26,
   "Price": 1500,
    "Texture": "Mods/{{ModID}}/Objects",
   "SpriteIndex": 60,
@@ -9079,7 +9533,7 @@
     {
       "Id": 0,
       "BuffId": "{{i18n:FC.VoidMilk.Buff}}",
-      "IconTexture": "Mods/{{ModID}}/BuffIcons",
+      "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
       "IconSpriteIndex": 9,
       "Duration": 1000,
       "IsDebuff": false,
@@ -9621,7 +10075,7 @@
 ************************************************/
 {
             "Action": "EditData",
-            "Target": "Data/Objects", ///Platonic Ring
+            "Target": "Data/Objects", ///Hate Ring
             "Entries": {
   "{{ModID}}_BehatedRing": {
     "Name": "{{ModID}}_BehatedRing",
@@ -9633,7 +10087,7 @@
     "ExcludeObjectsShipping": true,
     "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
-    "Buff": {},
+   "Buffs": [],
     "Texture": "Mods/{{ModID}}/Weapons",
     "SpriteIndex": 6
   },
@@ -9653,7 +10107,7 @@
     "ExcludeObjectsShipping": true,
     "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
-    "Buff": {},
+   "Buffs": [],
     "Texture": "Mods/{{ModID}}/Weapons",
     "SpriteIndex": 7
   },
@@ -9673,7 +10127,7 @@
     "ExcludeObjectsShipping": true,
     "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
-    "Buff": {},
+   "Buffs": [],
     "Texture": "Mods/{{ModID}}/Weapons",
     "SpriteIndex": 8
   },
@@ -9693,7 +10147,7 @@
     "ExcludeObjectsShipping": true,
     "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
-    "Buff": {},
+   "Buffs": [],
     "Texture": "Mods/{{ModID}}/Weapons",
     "SpriteIndex": 9
   },
@@ -9713,7 +10167,7 @@
     "ExcludeObjectsShipping": true,
     "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
-    "Buff": {},
+   "Buffs": [],
     "Texture": "Mods/{{ModID}}/Weapons",
     "SpriteIndex":10
   },
@@ -9733,7 +10187,7 @@
     "ExcludeObjectsShipping": true,
     "CanBeGivenAsGift": true,
     "CanBeTrashed": true,
-    "Buff": {},
+   "Buffs": [],
     "Texture": "Mods/{{ModID}}/Weapons",
     "SpriteIndex":11
   },

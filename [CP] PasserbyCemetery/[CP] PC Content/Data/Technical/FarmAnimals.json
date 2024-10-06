@@ -24,7 +24,7 @@
     "ShopDescription": "{{i18n:FC.Thylacine.Desc}}",
     "ShopMissingBuildingDescription": "{{MarnieShopDescription}}",
     "RequiredBuilding": null,
-    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+    "UnlockCondition": "PBUILDINGS_CONSTRUCTED All Fellowclown.ClownCore_MediumTropicalHutch 1 5",
     "AlternatePurchaseTypes": null,
     "EggItemIds": null,
     "IncubationTime": -1,
@@ -141,7 +141,7 @@
     "ShopDescription": "{{i18n:FC.Warthog.Desc}}",
     "ShopMissingBuildingDescription": "{{MarnieShopDescription}}",
     "RequiredBuilding": null,
-    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+    "UnlockCondition": "BUILDINGS_CONSTRUCTED All Fellowclown.ClownCore_TropicalHutch 1 5",
     "AlternatePurchaseTypes": null,
     "EggItemIds": null,
     "IncubationTime": -1,
@@ -262,7 +262,7 @@
     "ShopDescription": "{{i18n:FC.ArcaGoat.Desc}}",
     "ShopMissingBuildingDescription": "{{MarnieShopDescription}}",
     "RequiredBuilding": null,
-    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+    "UnlockCondition": "BUILDINGS_CONSTRUCTED All Fellowclown.ClownCore_SmallTropicalHutch 1 5",
     "AlternatePurchaseTypes": null,
     "EggItemIds": null,
     "IncubationTime": -1,
@@ -288,8 +288,6 @@
         "MinimumFriendship": 350,
         "ItemId": "{{ModID}}_LargeArcaGoatMilk"
       }
-
-
     ],
     "ProduceOnMature": true,
     "FriendshipForFasterProduce": 250,
@@ -425,7 +423,7 @@
     "ProfessionForHappinessBoost": 3,
     "ProfessionForQualityBoost": 3,
     "ProfessionForFasterProduce": -1,
-    "Sound": "cow",
+    "Sound": "{{ModID}}_Movoraptor",
     "BabySound": null,
     "Texture": "Animals\\FC.Movoraptor_Male_Adult_Green",
     "HarvestedTexture": null,
@@ -465,10 +463,10 @@
           ],
     "ShadowWhenBaby" :
    {
-  "Visible" : true, // not actually needed, is true if omitted
+  "Visible" : false, // not actually needed, is true if omitted
 },
   "ShadowWhenAdult" : {
-  "Visible" : true, // not actually needed, is true if omitted
+  "Visible" : false, // not actually needed, is true if omitted
 },
   "ShadowWhenBabySwims" : {
   "Visible" : false, // not actually needed, is true if omitted
@@ -516,7 +514,7 @@
     "ShopDescription": "{{i18n:FC.Movoraptor.desc}}",
     "ShopMissingBuildingDescription":  "{{MarnieShopDescription}}",
     "RequiredBuilding": null,
-    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+    "UnlockCondition": "BUILDINGS_CONSTRUCTED All Fellowclown.ClownCore_TropicalHutch 1 5",
     "AlternatePurchaseTypes": [
     ],
   "EggItemIds": [ "{{ModID}}_MovoraptorEgg" ],
@@ -669,7 +667,7 @@
     "ShopDescription": "{{i18n:FC.ArcaCow.desc}}",
     "ShopMissingBuildingDescription":  "{{MarnieShopDescription}}",
     "RequiredBuilding":null,
-    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+    "UnlockCondition": "BUILDINGS_CONSTRUCTED All Fellowclown.ClownCore_SmallTropicalHutch 1 5",
     "AlternatePurchaseTypes": null,
     "EggItemIds": null,
     "IncubationTime": -1,
@@ -720,8 +718,8 @@
          {
               "ID": "{{ModID}}_BlackArcaCow",
                "Weight": 2.0,
-              "Texture": "Animals\\ArcaCow_Adult_Black",
-              "BabyTexture": "Animals\\ArcaCow_Baby_Black"
+              "Texture": "Animals\\FC.ArcaCow_Adult_Black",
+              "BabyTexture": "Animals\\FC.ArcaCow_Baby_Black"
             },
              {
               "ID": "{{ModID}}_BrownArcaCow",
@@ -791,7 +789,7 @@
     "ShopDescription": "{{i18n:FC.ArcaTapi.desc}}",
     "ShopMissingBuildingDescription":  "{{MarnieShopDescription}}",
     "RequiredBuilding": null,
-    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+    "UnlockCondition": "BUILDINGS_CONSTRUCTED All Fellowclown.ClownCore_MediumTropicalHutch 1 5",
     "AlternatePurchaseTypes": null,
     "EggItemIds": null,
     "IncubationTime": -1,
@@ -807,7 +805,7 @@
         "Id": "Default",
         "Condition": null,
         "MinimumFriendship": 0,
-        "ItemId": "200"
+        "ItemId": "390"
       }
     ],
     "DeluxeProduceItemIds": [

@@ -59,6 +59,24 @@
 "{{ModID}}_UnlockTropaTree.Mail": "{{i18n:FC.UnlockTropaTree.Mail}}[#]{{i18n:FC.UnlockTropaTree.Mail.Title}}",
 "{{ModID}}_CottonsArt.Mail": "{{i18n:FC.CottonsArt.Mail}} %item furniture {{Random:{{ModID}}_CA1,{{ModID}}_CA2,{{ModID}}_CA3}}%%[#]{{i18n:FC.CottonsArt.Mail.Title}}",
 "{{ModID}}_DezeriesGift.Mail": "{{i18n:FC.DezeriesGift.Mail}}[#]{{i18n:FC.DezeriesGift.Mail.Title}}",
+"{{ModID}}_Exhibit.Mail": "{{i18n:FC.Exhibit.Mail}}[#]{{i18n:FC.Exhibit.Mail.Title}}",
+
+}
+},
+{
+"LogName": "ConfrontingRett",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_Exhibit.Trigger":  {
+"Id": "{{ModID}}_Exhibit.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_HAS_CONVERSATION_TOPIC current FC.ExhibitBundle1,PLAYER_HAS_CONVERSATION_TOPIC current FC.ExhibitBundle2,PLAYER_HAS_CONVERSATION_TOPIC current FC.ExhibitBundle3,PLAYER_HAS_CONVERSATION_TOPIC current FC.ExhibitBundle4,PLAYER_HAS_CONVERSATION_TOPIC current FC.ExhibitBundle5,PLAYER_HAS_CONVERSATION_TOPIC current FC.ExhibitBundle6",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_Exhibit.Mail",
+"Actions": null,
+"CustomFields": {}
+}
 }
 },
 {
@@ -431,7 +449,7 @@
 "{{ModID}}_NikolaisBirthday.Trigger":  {
 "Id": "{{ModID}}_NikolaisBirthday.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Nikolai 500,SEASON spring,PLAYER_HAS_MAIL Host ccVault Received",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Nikolai 500,SEASON spring",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_BirthdayInvite.Mail",
 "Actions": null,
@@ -463,7 +481,7 @@
 "{{ModID}}_Marketpalooza.Trigger":  {
 "Id": "{{ModID}}_Marketpalooza.Trigger",
 "Trigger": "DayStarted",
-"Condition": "SEASON Summer,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_LeslaIntroduction,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_GradyReunitesWithLyell,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_StoneIntroduction",
+"Condition": "SEASON Summer",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_Marketpalooza.Mail",
 "Actions": null,

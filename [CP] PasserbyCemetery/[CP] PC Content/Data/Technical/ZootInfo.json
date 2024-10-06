@@ -1,5 +1,96 @@
 {
 "Changes": [
+        {
+ "LogName": "Zoot",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": {
+"{{ModID}}_Zoot": {
+    "DisplayName": "Zoot",
+    "House": "{{ModId}}_ElderTropaTree",
+    "Gender": "MaleOrFemale",
+    "PurchasePrice": -1,
+    "SellPrice": -1,
+    "ShopTexture": null,
+    "ShopSourceRect": {
+      "X": 0,
+      "Y": 0,
+     "Width": 0,
+      "Height": 0
+    },
+    "ShopDisplayName": null,
+    "ShopDescription": null,
+    "ShopMissingBuildingDescription": null,
+    "RequiredBuilding": "{{ModId}}_ElderTropaTree",
+    "UnlockCondition": null,
+    "AlternatePurchaseTypes": null,
+    "EggItemIds": null,
+    "IncubationTime": -1,
+    "IncubatorParentSheetOffset": 1,
+    "BirthText": null,
+    "DaysToMature": 6,
+    "CanGetPregnant": false,
+    "DaysToProduce": 10,
+    "HarvestType": "DigUp",
+    "HarvestTool": null,
+    "ProduceItemIds": [],
+    "DeluxeProduceItemIds": [
+       {
+        "Id": "Default",
+        "Condition": null,
+        "MinimumFriendship": 250,
+        "ItemId": "{{ModID}}_TropaTreeSapling"
+      }
+    ],
+    "ProduceOnMature": true,
+    "FriendshipForFasterProduce": -1,
+    "DeluxeProduceMinimumFriendship": -1,
+    "DeluxeProduceCareDivisor": -1,
+    "DeluxeProduceLuckMultiplier":-1,
+    "ProfessionForHappinessBoost": -1,
+    "ProfessionForQualityBoost":-1,
+    "ProfessionForFasterProduce": -1,
+    "Sound": "flute",
+    "BabySound": "flute",
+    "Texture": "Animals\\FC.Zoot",
+    "HarvestedTexture": null,
+    "BabyTexture": "Animals\\FC.Zoot",
+    "UseFlippedRightForLeft": false,
+    "SpriteWidth": 16,
+    "SpriteHeight": 32,
+    "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+    },
+    "Skins": [
+          ],
+    "ShadowWhenBaby" :
+   {
+  "Visible" : true, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdult" : {
+  "Visible" : true, // not actually needed, is true if omitted
+},
+  "ShadowWhenBabySwims" : {
+  "Visible" : true, // not actually needed, is true if omitted
+},
+  "ShadowWhenAdultSwims" : {
+  "Visible" : true, // not actually needed, is true if omitted
+},
+    "CanSwim": true,
+    "BabiesFollowAdults": false,
+    "GrassEatAmount": -1,
+    "HappinessDrain": -1,
+    "UpDownPetHitboxTileSize": "1.5, 1.75",
+    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+    "StatToIncrementOnProduce": null,
+    "ShowInSummitCredits": false,
+    "CustomFields": {}
+  },
+},
+},
 {
 "Action": "EditData",
 "Target": "Data/Buildings",
@@ -13,7 +104,7 @@
 "UpgradeSignTile": "2, 2",
 "UpgradeSignHeight": 18.0,
 "Size": {
-"X": 6,
+"X": 4,
 "Y":3
 },
 "FadeWhenBehind": true,
@@ -49,7 +140,7 @@
 "BuildingToUpgrade": null,
 "MagicalConstruction": true,
 "BuildMenuDrawOffset": {
-"X": 20,
+"X": -10,
 "Y": 0
 },
 "HumanDoor": {
@@ -129,7 +220,7 @@
         }
       }
     ],
-"CustomFields": {}
+"CustomFields": {"ClownSharp.BuildingAnimalSpawner": "Fellowclown.PC_Zoot"}
 },
 }
 },

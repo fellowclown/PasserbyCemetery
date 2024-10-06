@@ -23,15 +23,25 @@
         "MinimumSpawnsPerDay": 1,
         "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [
-          "All"
+          "Diggable",
+          "Grass",
+          "Dirt"
         ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [],
+        "ExcludeTerrainTypes": [
+          "Stone",
+          "Wood",
+          "Quarry"
+        ],
+        "IncludeCoordinates": [
+          "0,0/49,86"
+        ],
+        "ExcludeCoordinates": [
+          "40,38/44,47"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 600,
+          "EndTime": 2600,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": null,
           "OnlySpawnIfAPlayerIsPresent": false,
@@ -69,15 +79,25 @@
         "MinimumSpawnsPerDay": 1,
         "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [
-          "All"
+          "Diggable",
+          "Grass",
+          "Dirt"
         ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [],
+        "ExcludeTerrainTypes": [
+          "Stone",
+          "Wood",
+          "Quarry"
+        ],
+        "IncludeCoordinates": [
+          "9,9/56,45"
+        ],
+        "ExcludeCoordinates": [
+          "0,36/18,54"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 600,
+          "EndTime": 2600,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": null,
           "OnlySpawnIfAPlayerIsPresent": false,
@@ -113,17 +133,27 @@
         "UniqueAreaID": "Beach forage area 1",
         "MapName": "Beach",
         "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [
-          "All"
+          "Diggable",
+          "Grass",
+          "Dirt"
         ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [],
+        "ExcludeTerrainTypes": [
+          "Stone",
+          "Wood",
+          "Quarry"
+        ],
+        "IncludeCoordinates": [
+          "0,0/54,24"
+        ],
+        "ExcludeCoordinates": [
+          "10,17/47,46"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
-          "EndTime": 600,
+          "EndTime": 2600,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": null,
           "OnlySpawnIfAPlayerIsPresent": false,
@@ -137,6 +167,62 @@
             "Rain",
             "Storm"
           ],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          "Fellowclown.PC_HeavyRoot"
+        ],
+        "SummerItemIndex": [
+          "Fellowclown.PC_FairyFingers"
+        ],
+        "FallItemIndex": [
+          "Fellowclown.PC_FireSnapper"
+        ],
+        "WinterItemIndex": [
+          "Fellowclown.PC_StoneShroom"
+        ],
+        "UniqueAreaID": "AncientGraveYard forage area 1",
+        "MapName": "Fellowclown.PC_AncientGraveYard",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Grass",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [
+          "Stone",
+          "Wood",
+          "Quarry"
+        ],
+        "IncludeCoordinates": [
+          "9,9/56,45"
+        ],
+        "ExcludeCoordinates": [
+          "0,36/18,54"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
@@ -340,7 +426,7 @@
           {
             "MonsterName": "Ghost",
             "Settings": {
-              "SpawnWeight": 3
+              "SpawnWeight": 20
             }
           },
           {
@@ -348,8 +434,8 @@
             "Settings": {
               "SpawnWeight": 3,
               "HP": 550,
-              "Damage": 30,
-              "Defense": 10,
+              "Damage": 25,
+              "Defense": 3,
               "EXP": 35,
               "SeesPlayersAtSpawn": false,
               "Sprite": "Characters/Monsters/FC.CorruptedGhost",
@@ -369,15 +455,23 @@
         "UniqueAreaID": "PasserbyArea1",
         "MapName": "Fellowclown.PC_OldGraveYard",
         "MinimumSpawnsPerDay": 2,
-        "MaximumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 4,
         "IncludeTerrainTypes": [
-          "All"
+          "Diggable",
+          "Grass",
+          "Dirt"
         ],
-        "ExcludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [
+          "Stone",
+          "Wood",
+          "Quarry"
+        ],
         "IncludeCoordinates": [
-          "9,10/29,29"
+          "0,0/49,86"
         ],
-        "ExcludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "40,38/44,47"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 2000,
@@ -402,17 +496,50 @@
         "DaysUntilSpawnsExpire": null
       },
       {
-        "MonsterTypes": [],
-        "UniqueAreaID": "Farm monster area 1",
-        "MapName": "Farm",
-        "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 0,
+        "MonsterTypes": [
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "SpawnWeight": 20
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "SpawnWeight": 3,
+              "HP": 550,
+              "Damage": 25,
+              "Defense": 10,
+              "EXP": 3,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/FC.CorruptedGhost",
+              "RelatedSkill": "Combat",
+              "ExtraLoot": false,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Void Essence",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "AncientGraveYard monster area 1",
+        "MapName": "Fellowclown.PC_AncientGraveYard",
+        "MinimumSpawnsPerDay": 4,
+        "MaximumSpawnsPerDay": 8,
         "IncludeTerrainTypes": [
-          "Dirt"
+          "All"
         ],
         "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [],
+        "IncludeCoordinates": [
+          "11,11/50,39"
+        ],
+        "ExcludeCoordinates": [
+          "30,44/49,53"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 2000,
@@ -421,6 +548,68 @@
           "MaximumSimultaneousSpawns": null,
           "OnlySpawnIfAPlayerIsPresent": false,
           "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "SpawnWeight": 20,
+              "HP": 30,
+              "Damage": 4,
+              "Defense": 1,
+              "EXP": 5,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/Wilderness Golem",
+              "RelatedSkill": "Combat",
+              "ExtraLoot": false,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Fellowclown.PC_ArcaCoin",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 30
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Fellowclown.PC_AncientGraveYard monster area 2",
+        "MapName": "Fellowclown.PC_AncientGraveYard",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 20,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "11,11/50,39"
+        ],
+        "ExcludeCoordinates": [
+          "30,44/49,53"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 610,
+          "EndTime": 2400,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 6,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "rockGolemSpawn"
         },
         "ExtraConditions": {
           "Years": [],

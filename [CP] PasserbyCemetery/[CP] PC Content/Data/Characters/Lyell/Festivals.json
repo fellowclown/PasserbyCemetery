@@ -130,7 +130,6 @@
             "Target": "Data/Festivals/fall3",
              "When": {
       "HasFlag|contains=landslideDone": true,
-     "HasSeenEvent |contains={{ModID}}_LyellIntroduction": true,
              },
             "TextOperations": [
                 {
