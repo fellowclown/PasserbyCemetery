@@ -466,6 +466,29 @@
 }
 },
  {
+"LogName": "Guardian Home",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_GuardianHome": {
+"DisplayName": "{{i18n:FC.GuardianHome}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_GuardianHome"
+},
+"DefaultArrivalTile": {
+"X": 12,
+"Y": 18
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage":  [],
+"CustomFields": {}
+}
+}
+},
+ {
 "LogName": "Johns Temple",
 "Action": "EditData",
 "Target": "Data/Locations",
