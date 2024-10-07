@@ -2888,7 +2888,7 @@
   "Description": "{{i18n:FC.FirePepper.Desc}}",
  "Type": "Vegetable",
   "Category": -75,
-  "Price": 1800,
+  "Price": 500,
    "Texture": "Mods/{{ModID}}/Objects",
   "SpriteIndex": 32,
   "Edibility": 4,

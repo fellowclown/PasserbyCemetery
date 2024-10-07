@@ -319,7 +319,7 @@
 "Seasons": [ "spring" ],
 "DaysInPhase": [ 5,5,5,1,1], 
 "HarvestItemId": "{{ModID}}_FirePepper",
-"RegrowDays": "2",
+"RegrowDays": "6",
 "IsRaised": false,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
