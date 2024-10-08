@@ -97,7 +97,7 @@
 "ExcludeFromNpcPathfinding": false,
 "ArtifactSpots": [
   {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArcaCoin",
@@ -116,7 +116,7 @@
 "QualityModifierMode": "Stack",
 },
   {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot1",
@@ -135,7 +135,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot2",
@@ -154,7 +154,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArahTablet",
@@ -173,7 +173,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_AluuaTablet",
@@ -192,7 +192,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_MiniphantFigure",
@@ -211,7 +211,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_LifeTablet",
@@ -230,7 +230,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_FamilyTablet",
@@ -249,7 +249,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Rattler",
@@ -268,7 +268,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace1",
@@ -287,7 +287,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace2",
@@ -306,7 +306,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Hairclip",
@@ -325,7 +325,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ShevitFigure",
@@ -344,7 +344,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian1",
@@ -363,7 +363,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian2",
@@ -382,7 +382,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian3",
@@ -401,7 +401,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_HammerAndPick",
@@ -420,7 +420,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_GemmedCuff",
@@ -439,7 +439,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.1,
+"Chance": 0.5,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_OldShoes",

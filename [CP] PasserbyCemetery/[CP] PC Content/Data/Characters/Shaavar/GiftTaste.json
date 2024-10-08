@@ -1,0 +1,15 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Shaavar": "{{i18n:Shaavar.gift.love}}/Fellowclown.TD_GemBirdPatties/{{i18n:Shaavar.gift.like}}//{{i18n:Shaavar.gift.dislike}}//{{i18n:Shaavar.gift.hate}}//{{i18n:Shaavar.gift.neutral}}// ",
+}
+ },
+]
+}

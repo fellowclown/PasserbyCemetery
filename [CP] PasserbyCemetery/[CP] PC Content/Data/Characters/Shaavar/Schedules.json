@@ -1,0 +1,50 @@
+{
+"Changes": [
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModID}}_ShaavarSleep": "4/4/4/offset 30 0",
+}
+ },
+ {
+"LogName": "Shaavar Schedule Dialogue Default",
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Shaavar",
+  "Entries": {
+"Shaavar.GreenRain": "{{i18n:Shaavar.GreenRain}}",
+}
+ },
+        {
+"LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Shaavar",
+"Update": "OnTimeChange, OnLocationChange",
+
+"Entries": {
+"spring": "GOTO Mon",
+
+"Mon": "",
+
+"Tue": "",
+
+"Wed": "",
+
+"Thu": "",
+
+"Fri": "",
+
+"Sat": "",
+"Sun": "",
+
+"rain": "",
+
+"GreenRain": "",
+},
+"When": {
+        "HasSeenEvent |contains={{ModID}}_ShaavarsIntroduction": true,
+            },
+},  
+]
+}

@@ -14,5 +14,6 @@
 "FC.GiveEggBack": "pause 300/speak FC.Zuuie \"{{i18n:CaveBlockUnlock.13}}\"/pause 200/emote FC.Zuuie 16/pause 100/speak FC.Zuuie \"{{i18n:CaveBlockUnlock.14}}\"/pause 100/viewport move -1 0 6000000/pause 800/globalFade/viewport -1000 -1000/message \"{{i18n:CaveBlockUnlock.15}}\"/end",
 }, 
 },
+
 ]
 }

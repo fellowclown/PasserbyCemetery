@@ -1,0 +1,123 @@
+{
+"Changes": [
+
+ {
+"LogName": "Shaavar Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Shaavar": {
+///Basic Info
+"DisplayName":"{{i18n:FC.Shaavar}}",
+"Language":"Default",
+"Gender":"Female",
+"Age":"Adult",
+"Manner":"Rude",
+"SocialAnxiety":"Shy",
+"Optimism":"Positive",
+"BirthSeason":"Fall",
+"BirthDay":2,
+"HomeRegion":"Other",
+"IsDarkSkinned":true,
+///Social Features
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland":false,
+"LoveInterest":null,
+"Calendar": "HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SpouseAdopts":null,
+"SpouseWantsChildren":null,
+"SpouseGiftJealousy":null,
+"SpouseGiftJealousyFriendshipChange":-1,
+"SpouseRoom": {
+"MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 6,
+"Height": 9
+}
+},
+"SpousePatio": {
+"MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 4,
+"Height": 4
+}
+},
+"SpouseFloors": [],
+"SpouseWallpapers": [],
+"IntroductionsQuest":false,
+"ItemDeliveryQuests":true,
+"PerfectionScore":false,
+"EndSlideShow":"TrailingGroup",
+"FriendsAndFamily":null,
+///Dumpster Diving
+"DumpsterDiveEmote":28,
+"DumpsterDiveFriendshipEffect":-3,
+///Festivals
+"FlowerDanceCanDance":false,
+"WinterStarParticipant":true,
+"WinterStarGifts": [],
+//Spawn Rules
+"UnlockConditions":null,
+"SpawnIfMissing":true,
+"Home": [
+   {
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_GuardianHome",
+"Tile": {
+"X": 12,
+"Y": 10
+},
+"Direction": "right"
+},
+],
+///Appearance & Sprites
+"TextureName":null,
+ "Appearance": [
+      
+{
+"ID": "spring",
+"Condition": "SEASON Spring",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Shaavar/FC.Shaavar_spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Shaavar/FC.Shaavar_spring.png}}"
+},
+{
+"ID": "winter",
+"Condition": "SEASON Winter",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Shaavar/FC.Shaavar_winter.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Shaavar/FC.Shaavar_winter.png}}"
+},
+    ],
+"MugShotSourceRect": { "X": 0, "Y": 0, "Width": 16, "Height": 24 },
+ "Size": { "X": 16, "Y": 32 },
+"Breather":false,
+"BreathChestRect":null,
+"BreathChestPosition":null,
+"Shadow":{ "Visible": true },
+"EmoteOffset":{},
+"ShakePortraits":[5],
+"KissSpriteIndex":"42",
+"KissSpriteFacingDirection":null,
+///Hidden Gift Log Emote
+"HiddenProfileEmoteSound":null,
+"HiddenProfileEmoteDuration":-1,
+"HiddenProfileEmoteStartFrame":16,
+"HiddenProfileEmoteFrameCount":4,
+"HiddenProfileEmoteFrameDuration":200.0,
+///Advanced
+"CustomFields":{},
+"FormerCharacterNames": [],
+}
+}
+}
+]
+}
