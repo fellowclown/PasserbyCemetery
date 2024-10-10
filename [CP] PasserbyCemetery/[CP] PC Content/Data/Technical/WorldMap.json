@@ -10,7 +10,7 @@
           "BaseTexture": [
             {
               "Id": "Default",
-              "Texture": "{{InternalAssetKey: Assets/Maps/Tilesheets/WorldMap/worldmap_{{season}}.png}}"
+              "Texture": "{{ModID}}/Maps/WorldMap"
             }
           ],
           // The map areas that can provide tooltips, scroll text, texture overlays, and world positions.

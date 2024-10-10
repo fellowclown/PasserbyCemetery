@@ -10,7 +10,6 @@
 // Special Keys
 "Introduction": "{{i18n:Introduction.Shaavar}}",
 "AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Shaavar}}",
-"Saloon_FC.Shaavar_RareGreeting": "Saloon_Shaavar_RareGreeting.Shaavar",
 "AcceptBirthdayGift_Loved": "{{i18n:AcceptBirthdayGift_Loved.Shaavar}}",
 "AcceptBirthdayGift_Liked": "{{i18n:AcceptBirthdayGift_Liked.Shaavar}}",
 "AcceptBirthdayGift_Disliked": "{{i18n:AcceptBirthdayGift_Disliked.Shaavar}}",
@@ -18,11 +17,11 @@
 "AcceptBirthdayGift_Neutral": "{{i18n:AcceptBirthdayGift_Neutral.Shaavar}}",
 "HitBySlingshot": "{{i18n:HitBySlingshot.Shaavar}}",
 "DumpsterDiveComment": "{{i18n:DumpsterDiveComment.Shaavar}}",
+"AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Shaavar.AcceptGift_(O)WWWA.AutographedPhoto}}",
 "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:RejectMovieTicket_AlreadyInvitedBySomeoneElse.Shaavar}}",
 "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek.Shaavar}}",
 "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie.Shaavar}}",
 "MovieInvitation": "{{i18n:MovieInvitation.Shaavar}}",
-"AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Shaavar.AcceptGift_(O)WWWA.AutographedPhoto}}",
 
   }
 },

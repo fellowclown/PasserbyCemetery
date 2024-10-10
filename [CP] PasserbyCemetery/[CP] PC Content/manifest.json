@@ -54,5 +54,11 @@
                       {
             "UniqueID": "ichortower.SecretNoteFramework",  "IsRequired": false 
         },
+                        {
+            "UniqueID": "RaffieJohn.LovelyDigspot",  "IsRequired": false 
+        },
+                            {
+            "UniqueID": "DaisyNiko.EarthyRecolour",  "IsRequired": false 
+        },
     ]
 }

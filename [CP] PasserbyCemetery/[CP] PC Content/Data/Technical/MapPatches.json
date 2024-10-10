@@ -1,5 +1,24 @@
 {
 "Changes": [
+  ///Dig spots in ancient graveyard and passerby
+     {
+        "Action": "EditImage",
+        "LogName": "Ancient GraveYard - digspots",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "Assets/Maps/Tilesheets/AncestorWisp.png",
+        "Update": "OnTimeChange, OnLocationChange",
+        "ToArea":{ "X": 368, "Y": 32, "Width": 64, "Height": 16 },
+        "When": { "LocationName": "{{ModID}}_AncientGraveYard", }
+   },
+     {
+        "Action": "EditImage",
+        "LogName": "Ancient GraveYard - digspots",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "Assets/Maps/Tilesheets/AncestorWisp.png",
+        "Update": "OnTimeChange, OnLocationChange",
+        "ToArea":{ "X": 368, "Y": 32, "Width": 64, "Height": 16 },
+        "When": { "LocationName": "{{ModID}}_OldGraveYard", }
+   },
   ///GlowFlower Overlays
       {
 "Action": "EditImage",
