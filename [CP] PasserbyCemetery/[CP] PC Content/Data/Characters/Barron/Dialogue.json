@@ -69,7 +69,9 @@
 "Spouse_MonstersInHouse": "{{i18n:Spouse_MonstersInHouse.Barron}}",
 "SpouseFarmhouseClutter": "{{i18n:SpouseFarmhouseClutter.Barron}}",
 "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Barron.AcceptGift_(O)WWWA.AutographedPhoto}}",
-
+"GreenRainFinished": "{{i18n:GreenRainFinished.Barron}}",
+"GreenRain": "{{i18n:GreenRain.Barron}}",
+"GreenRain_2": "{{i18n:GreenRain_2.Barron}}",
   }
 },
 

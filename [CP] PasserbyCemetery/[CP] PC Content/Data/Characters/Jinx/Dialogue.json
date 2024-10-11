@@ -20,6 +20,9 @@
 "AcceptBirthdayGift_Disliked": "{{i18n:AcceptBirthdayGift_Disliked.Jinx}}",
 "AcceptBirthdayGift_Hated": "{{i18n:AcceptBirthdayGift_Hated.Jinx}}",
 "AcceptBirthdayGift_Neutral": "{{i18n:AcceptBirthdayGift_Neutral.Jinx}}",
+"GreenRainFinished": "{{i18n:GreenRainFinished.Jinx}}",
+"GreenRain": "{{i18n:GreenRain.Jinx}}",
+"GreenRain_2": "{{i18n:GreenRain_2.Jinx}}",
 /// Eveyday Dialogue
 "Mon": "{{i18n:mon.Jinx.{{season}}}}",
 "Tue": "{{i18n:tue.Jinx.{{season}}}}",    

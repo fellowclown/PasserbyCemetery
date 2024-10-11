@@ -67,6 +67,9 @@ NoneChangingDialogue
 "SpouseGiftJealous": "{{i18n:SpouseGiftJealous.Alan}}",
 "Spouse_MonstersInHouse": "{{i18n:Spouse_MonstersInHouse.Alan}}",
 "SpouseFarmhouseClutter": "{{i18n:SpouseFarmhouseClutter.Alan}}",
+"GreenRainFinished": "{{i18n:GreenRainFinished.Alan}}",
+"GreenRain": "{{i18n:GreenRain.Alan}}",
+"GreenRain_2": "{{i18n:GreenRain_2.Alan}}",
 }
 },
 /************************************************

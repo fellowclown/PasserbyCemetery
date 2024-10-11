@@ -26,6 +26,9 @@
 "RejectBouquet_NotDatable": "{{i18n:RejectBouquet_NotDatable.Popper}}",
 "HitBySlingshot": "{{i18n:HitBySlingshot.Popper}}",
 "AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Popper}}",
+"GreenRainFinished": "{{i18n:GreenRainFinished.Popper}}",
+"GreenRain": "{{i18n:GreenRain.Popper}}",
+"GreenRain_2": "{{i18n:GreenRain_2.Popper}}",
 /// Eveyday Dialogue
 "Mon": "{{i18n:mon.Popper.{{season}}}}",
 "Tue": "{{i18n:tue.Popper.{{season}}}}",    

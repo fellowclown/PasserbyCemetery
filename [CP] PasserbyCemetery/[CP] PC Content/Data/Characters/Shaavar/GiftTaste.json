@@ -8,7 +8,7 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Shaavar": "{{i18n:Shaavar.gift.love}}/{{ModID}}_GemBirdPatties {{ModID}}_MovoraptorFeather {{ModID}}_TastyPastry/{{i18n:Shaavar.gift.like}}//{{i18n:Shaavar.gift.dislike}}//{{i18n:Shaavar.gift.hate}}//{{i18n:Shaavar.gift.neutral}}// ",
+"FC.Shaavar": "{{i18n:Shaavar.gift.love}}/{{ModID}}_GemBirdPatties {{ModID}}_MovoraptorFeather {{ModID}}_TastyPastry/{{i18n:Shaavar.gift.like}}/{{ModID}}_SmokedGemBirdMeat {{ModID}}_WarpRootTea {{ModID}}_DragaWhiskey {{ModID}}_LavaPop/{{i18n:Shaavar.gift.dislike}}/{{ModID}}_IceBerryWine {{ModID}}_FarmHandSupper/{{i18n:Shaavar.gift.hate}}/{{ModID}}_ZinfazuIcecream {{ModID}}_ZinfazuFruit/{{i18n:Shaavar.gift.neutral}}/{{ModID}}_TropaWine/ ",
 }
  },
 ]

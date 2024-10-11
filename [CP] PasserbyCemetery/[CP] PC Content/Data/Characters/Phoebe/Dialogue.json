@@ -42,6 +42,9 @@
 "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek.Phoebe}}",
 "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie.Phoebe}}",
 "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Phoebe.AcceptGift_(O)WWWA.AutographedPhoto}}",
+"GreenRainFinished": "{{i18n:GreenRainFinished.Phoebe}}",
+"GreenRain": "{{i18n:GreenRain.Phoebe}}",
+"GreenRain_2": "{{i18n:GreenRain_2.Phoebe}}",
 },
 },
        {
