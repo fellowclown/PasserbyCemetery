@@ -1,0 +1,229 @@
+{
+    "Changes": [
+    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 40 72 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 39 70 3",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 13 19 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 13 19 2",
+                    "Delimiter": "/",
+        },
+        ]
+    },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 20 34 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 20 34 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },  
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 20 34 2",
+                    "Delimiter": "/",
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 20 34 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 23 28 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 14 27 1",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 73 96 3",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 73 96 3",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 96 20 3",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 96 20 3",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+   "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 54 96 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 54 96 2",
+                    "Delimiter": "/"
+                 },
+        ]
+    },
+  ]
+}

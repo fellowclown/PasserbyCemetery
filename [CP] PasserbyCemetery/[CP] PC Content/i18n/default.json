@@ -5390,6 +5390,7 @@ Shaavar's Information
 "RejectMovieTicket_AlreadyWatchedThisWeek.Shaavar": "I am not interested this time, we have spent enough time together.$2",
 "RejectMovieTicket_DontWantToSeeThatMovie.Shaavar": "The film playing, it is poorly. I am not interested.$2",
 "MovieInvitation.Shaavar": "I see, why not then?#$b#I will join you.$1",
+"FC.ShaavarIntro": "I couldn't help it, after you showed up I couldn't resist venturing out of the circle.$5#$b#I'm Shaavar by the way...$2",
 //Special Dialogue
 "Introduction.Shaavar": "The gem, it is pink and small...#$b#You might struggle to find it-Good luck @.$2",
 "HitBySlingshot.Shaavar": "You're a fool @,I won't forget your hatefulness.$3",
@@ -5485,45 +5486,45 @@ Shaavar's Information
 "Shaavar.winter25": "I'm so happy to attend this, it always seemed so fun from a distance.$1",
 "Shaavar.winter25.friendly": "Are you excited for your gift this year? I'm sure whoever is your gifter has somethign wonderful for you.$1",
 //Movies
-"Shaavar.movies.0.before": "", 
-"Shaavar.movies.0.during": "",   //sapling
-"Shaavar.movies.0.after": "",
+"Shaavar.movies.0.before": "I've seen movies before, my family we used to have a television.#$b#This one looks very sweet.$1", 
+"Shaavar.movies.0.during": "Poor thing, this is a children's movie?$2",   //sapling
+"Shaavar.movies.0.after": "I enjoyed the movie, but was that really a children's movie?$5",
 
-"Shaavar.movies.1.before": "", 
-"Shaavar.movies.1.during": "",   //Natural Wonders
-"Shaavar.movies.1.after": "",
+"Shaavar.movies.1.before": "I've read about different animals in books, I do really love learning about the different kinds all over the world.$4", 
+"Shaavar.movies.1.during": "I've seen little critters like that.$1",   //Natural Wonders
+"Shaavar.movies.1.after": "That was fun, I wouldn't mind seeing it again.$4",
 
-"Shaavar.movies.2.before": "",
-"Shaavar.movies.2.during": "",   //Prairie King
-"Shaavar.movies.2.after": "",
+"Shaavar.movies.2.before": "A western? My father loved cowboy films, I like them too occasionally.$1",
+"Shaavar.movies.2.during": "It's so interesting seeing a western in color like this!$4",   //Prairie King
+"Shaavar.movies.2.after": "That was exciting wasn't it? I loved the story.$1",
 
-"Shaavar.movies.3.before": "",
-"Shaavar.movies.3.during": "",   //Wumbus
-"Shaavar.movies.3.after": "",
+"Shaavar.movies.3.before": "Another children's movie?$1",
+"Shaavar.movies.3.during": "This...This is very strange.$2",   //Wumbus
+"Shaavar.movies.3.after": "Do kids really enjoy movies like that?",
 
-"Shaavar.movies.4.before": "",
-"Shaavar.movies.4.during": "",   //Mysterium
-"Shaavar.movies.4.after": "",
+"Shaavar.movies.4.before": "The poster looked...Intersting?",
+"Shaavar.movies.4.during": "Oh...Goodness.$5",   //Mysterium
+"Shaavar.movies.4.after": "I don't know about that one, was it a experimental film maybe?$5",
 
-"Shaavar.movies.5.before": "",
-"Shaavar.movies.5.during": "",  //It Howls In The Rain
-"Shaavar.movies.5.after": "",
+"Shaavar.movies.5.before": "Oh, they finally figured out what keeps howling in Passerby?$1",
+"Shaavar.movies.5.during": "Ah! What in the world!$5",  //It Howls In The Rain
+"Shaavar.movies.5.after": "I didn't enjoy that, not one bit.$2",
 
-"Shaavar.movies.6.before": "",
-"Shaavar.movies.6.during": "",   //Miracle At Coldstar Ranch
-"Shaavar.movies.6.after": "",    
+"Shaavar.movies.6.before": "I've seen the old version this, I hope the modern adaptation is just as good.$1",
+"Shaavar.movies.6.during": "Such a beautiful story.$4",   //Miracle At Coldstar Ranch
+"Shaavar.movies.6.after": "That was very sweet, it was almost as good as the original.$1",    
 
-"Shaavar.movies.7.before": "",
-"Shaavar.movies.7.during": "",    //Zuzu City Express
-"Shaavar.movies.7.after": "",
+"Shaavar.movies.7.before": "Zuzu City? I've always wanted to go there...$5",
+"Shaavar.movies.7.during": "She's staring up at the screen, her cheeks are blushing.",    //Zuzu City Express
+"Shaavar.movies.7.after": "That was...Very sweet, I enjoyed it.$4",
 
-"Shaavar.movies.8.before": "",
-"Shaavar.movies.8.during": "",
-"Shaavar.movies.8.after": "",
+"Shaavar.movies.8.before": "I know this story, it's a important part of my peoples beleifs.$4",
+"Shaavar.movies.8.during": "It's so wonderful, seeing this come to life.$4",
+"Shaavar.movies.8.after": "That was so beautiful, it was like being there.$4",
 
-"Shaavar.movies.9.before": "",
-"Shaavar.movies.9.during": "",  //BeyondGotoro
-"Shaavar.movies.9.after": "",
+"Shaavar.movies.9.before": "A movie from Arcania?$5#$b#This is very exciting, I can't wait to watch.$1",
+"Shaavar.movies.9.during": "The animals are so pretty aren't they?$4",  //BeyondGotoro
+"Shaavar.movies.9.after": "Wow, I wish I could visit Arcania. I've actually never been...$2",
 ///Vanilla Editions
 "FC.FaintingIncident.Robin": "I hope John is okay, I'm pretty worried about him...$2",
 "FC.FaintingIncident.Marnie": "Have you heard from John, I'm so worried about him.$2",
@@ -7414,7 +7415,7 @@ Shaavar's Information
 "TheSearch.00": "Oh!",
 "TheSearch.01": "It's you! It's you!",
 "TheSearch.02": "@!$1#$b#You've come to talk?$1#$b#Tell me, how is my baby?$1",
-"TheSearch.03": "Your baby is doing really well.#Your baby hasn't hatched yet.",
+"TheSearch.03": "#Your baby is doing really well.#Your baby hasn't hatched yet.",
 "TheSearch.04": "Really!$1#$b#Yay! Yay! That means so much to me.$1",
 "TheSearch.05": "What?$2#$b#Oh, hatch her soon okay?$2#$b#I don't know much about babies though, maybe it takes longer then I thought.$2",
 "TheSearch.06": "#Your singing was pretty.#Why were you singing?",
@@ -9098,6 +9099,20 @@ Shaavar's Information
 "TheOnlyOne.10": "Is a big world!$1",
 "TheOnlyOne.11": "Pop won't give up, Pop finds Shevit like me! We do evil together!$6",
 "TheOnlyOne.12": "You'll see, Pop will have good ally!$1",
+"ShaavarIntroduction.00": "Abomination! You're not welcomed here-$3",
+"ShaavarIntroduction.01": "Gurgles...",
+"ShaavarIntroduction.02": "You there!$3#$b#What are you doing here, how did you find this place?!$3",
+"ShaavarIntroduction.03": "There's not been a stranger in the circle for over twenty years!$3",
+"ShaavarIntroduction.04": "Twenty...Years...",
+"ShaavarIntroduction.05": "This place is...sacred land, my ancestors rest here.$2#$b#I am here to keep them safe...Safe from...#$b#I...$2",
+"ShaavarIntroduction.06": "I can't remember...$5",
+"ShaavarIntroduction.07": "You're from outside the circle...$5#$b#A stranger...$3#$b#But...$2",
+"ShaavarIntroduction.08": "You could...Stay?$5",
+"ShaavarIntroduction.09": "#I would like to stay, if you will let me.#This place seems dangerous, I would like to leave.",
+"ShaavarIntroduction.10": "You...You really would like to stay?$5#$b#...#$b#Maybe...$2",
+"ShaavarIntroduction.11": "You're right!$3#$b#This place is dangerous!$3#$b#So leave here and never come back, I don't want to see you here again!$3#$b#...Unless you want to come back...Maybe?$5",
+"ShaavarIntroduction.12": "No, you need to go...$3",
+"ShaavarIntroduction.13": "Don't let me see you around here again...$2",
 }
 
 

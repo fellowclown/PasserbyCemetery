@@ -32,7 +32,7 @@
     "Reactions": [
 {
 "Tag": "spring_movie_0", //Brave Little Sapling
-"Response": "hate", //Responses are love/like/hate.
+"Response": "like", //Responses are love/like/hate.
 "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": { //What the NPC says in the lobby.
@@ -128,7 +128,7 @@
 },
 {
 "Tag": "fall_movie_0", //Mysterium
-"Response": "love",
+"Response": "hate",
 "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {
@@ -138,8 +138,8 @@
 },
 "DuringMovie": {
 "ResponsePoint": null,
-"Script": "message \"{{i18n:Shaavar.movies.4.during}}\"/emote FC.Shaavar 32",
-"Text": null,
+"Script": null,
+"Text": "{{i18n:Shaavar.movies.4.during}}",
 },
 "AfterMovie": {
 "ResponsePoint": null,
@@ -174,7 +174,7 @@
 },
 {
 "Tag": "winter_movie_0", //Miracle At Coldstar Ranch
-"Response": "hate",
+"Response": "like",
 "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {
@@ -184,8 +184,8 @@
 },
 "DuringMovie": {
 "ResponsePoint": null,
-"Script": "/message \"{{i18n:Shaavar.movies.6.during}}\"/emote FC.Shaavar 12",
-"Text": ""
+"Script": null,
+"Text": "{{i18n:Shaavar.movies.6.during}}"
 },
 "AfterMovie": {
 "ResponsePoint": null,
@@ -197,7 +197,7 @@
     },
     {
 "Tag": "winter_movie_1", //Zuzu City Express
-"Response": "hate",
+"Response": "love",
 "Whitelist": [],
 "SpecialResponses": {
 "BeforeMovie": {
@@ -207,8 +207,8 @@
 },
 "DuringMovie": {
 "ResponsePoint": null,
-"Script": "/message \"{{i18n:Shaavar.movies.7.during}}\"/",
-"Text": null
+"Script": null,
+"Text": "{{i18n:Shaavar.movies.7.during}}"
 },
 "AfterMovie": {
 "ResponsePoint": null,
@@ -230,8 +230,8 @@
 },
 "DuringMovie": {
 "ResponsePoint": null,
-"Script": "/message \"{{i18n:Shaavar.movies.8.during}}\"/",
-"Text": null
+"Script": null,
+"Text": "{{i18n:Shaavar.movies.8.during}}",
 },
 "AfterMovie": {
 "ResponsePoint": null,
@@ -253,8 +253,8 @@
 },
 "DuringMovie": {
 "ResponsePoint": null,
-"Script": "/message \"{{i18n:Shaavar.movies.9.during}}\"/",
-"Text": null
+"Script": null,
+"Text": "{{i18n:Shaavar.movies.9.during}}"
 },
 "AfterMovie": {
 "ResponsePoint": null,

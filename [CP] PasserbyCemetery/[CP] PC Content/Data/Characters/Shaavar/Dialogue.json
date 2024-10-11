@@ -22,7 +22,7 @@
 "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek.Shaavar}}",
 "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie.Shaavar}}",
 "MovieInvitation": "{{i18n:MovieInvitation.Shaavar}}",
-
+"FC.ShaavarIntro": "{{i18n:FC.ShaavarIntro}}",
   }
 },
 

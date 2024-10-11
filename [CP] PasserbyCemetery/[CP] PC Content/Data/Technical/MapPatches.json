@@ -105,6 +105,27 @@
 }
 },
 ////Entrances
+{
+  "LogName": "Shaavars eentrance",
+  "Action": "EditMap",
+  "Target": "Maps/{{ModID}}_AncientGraveYard",
+  "Update": "OnTimeChange, OnLocationChange",
+  "When": {
+  "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,},
+  "MapTiles": [
+{
+  "Position": {
+"X": 49,
+"Y": 32
+  },
+  "Layer": "Buildings",
+  "SetProperties": {
+"Action": "LockedDoorWarp 12 18 {{ModID}}_GuardianHome 800 2300"
+  },
+
+}
+  ]
+},
     {
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_Exhibit",
