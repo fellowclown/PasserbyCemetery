@@ -48,6 +48,9 @@
 						"{{ModID}}_Pot2": 1,
 						
 					},
+					"BundleReward": {
+                    "money": 250,
+                     },
 						"EditMap": "Maps/{{ModID}}_ExhibitBundle1",
 						"EditMapLocation": "{{ModID}}_ExhibitSecondFloor",
 						"EditMapPosition": "2,3",
@@ -81,6 +84,9 @@
 						"{{ModID}}_LifeTablet": 1,
 						"{{ModID}}_FamilyTablet": 1,
 					},
+					"BundleReward": {
+                    "money": 550,
+                     },
 						"EditMap": "Maps/{{ModID}}_ExhibitBundle2",
 						"EditMapLocation": "{{ModID}}_ExhibitSecondFloor",
 						"EditMapPosition": "1,3",
@@ -113,6 +119,9 @@
                          "{{ModID}}_GemmedCuff": 1,
 						
 					},
+					"BundleReward": {
+                    "money": 420,
+                     },
 						"EditMap": "Maps/{{ModID}}_ExhibitBundle3",
 						"EditMapLocation": "{{ModID}}_ExhibitSecondFloor",
 						"EditMapPosition": "7,3",
@@ -144,6 +153,9 @@
 						"{{ModID}}_Guardian3": 1,
 						
 					},
+					"BundleReward": {
+                    "money": 350,
+                     },
 						"EditMap": "Maps/{{ModID}}_ExhibitBundle4",
 						"EditMapLocation": "{{ModID}}_ExhibitSecondFloor",
 						"EditMapPosition": "3,7",
@@ -175,6 +187,9 @@
 				           "{{ModID}}_Rattler": 1,
 						
 					},
+					"BundleReward": {
+                    "money": 300,
+                     },
 						"EditMap": "Maps/{{ModID}}_ExhibitBundle5",
 						"EditMapLocation": "{{ModID}}_ExhibitSecondFloor",
 						"EditMapPosition": "9,6",
@@ -205,6 +220,9 @@
 							"{{ModID}}_OldShoes": 1,
 						
 					},
+					"BundleReward": {
+                    "money": 200,
+                     },
 						"EditMap": "Maps/{{ModID}}_ExhibitBundle6",
 						"EditMapLocation": "{{ModID}}_ExhibitSecondFloor",
 						"EditMapPosition": "1,10",

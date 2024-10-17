@@ -60,7 +60,23 @@
 "{{ModID}}_CottonsArt.Mail": "{{i18n:FC.CottonsArt.Mail}} %item furniture {{Random:{{ModID}}_CA1,{{ModID}}_CA2,{{ModID}}_CA3}}%%[#]{{i18n:FC.CottonsArt.Mail.Title}}",
 "{{ModID}}_DezeriesGift.Mail": "{{i18n:FC.DezeriesGift.Mail}}[#]{{i18n:FC.DezeriesGift.Mail.Title}}",
 "{{ModID}}_Exhibit.Mail": "{{i18n:FC.Exhibit.Mail}}[#]{{i18n:FC.Exhibit.Mail.Title}}",
-
+"{{ModID}}_WildTrees.Mail": "{{i18n:FC.WildTrees.Mail}} %item object {{ModID}}_HeaviousSeed 10 %%[#]{{i18n:FC.WildTrees.Mail.Title}}",
+}
+},
+{
+"LogName": "WildTreeGift",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_WildTrees.Trigger":  {
+"Id": "{{ModID}}_WildTrees.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_HAS_SEEN_EVENT current {{ModID}}_UnlockLyellsAnimals",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_WildTrees.Mail",
+"Actions": null,
+"CustomFields": {}
+}
 }
 },
 {

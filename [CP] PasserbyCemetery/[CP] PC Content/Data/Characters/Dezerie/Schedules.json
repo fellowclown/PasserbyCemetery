@@ -129,7 +129,7 @@
 "Update": "OnTimeChange, OnLocationChange",
 "Entries": {
 
-"Sun": "900 {{ModID}}_Temple 13 21 0 {{ModID}}_DezerieSit0 \"Strings\\schedules\\FC.Dezerie:Dezerie.Temple\"/1200 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1300 Mountain 84 9 1/1500 {{ModID}}_OldGraveYard 19 48 3/1900 {{ModID}}_StoneHouse 19 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+"Sun": "900 {{ModID}}_Temple 13 21 0 {{ModID}}_DezerieSit0 \"Strings\\schedules\\FC.Dezerie:Dezerie.Temple\"/1200 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1300 Mountain 84 9 1/1500 {{ModID}}_OldGraveYard 19 48 3/1900 {{ModID}}_StoneHouse 19 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
 
      },
 

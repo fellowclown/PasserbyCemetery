@@ -78,7 +78,7 @@ MiscDialogue
 {
 "LogName":"Festivaldialogue",
 "Action":"EditData",
-"Target":"Data/Festivals/fall3,Data/Festivals/fall16",
+"Target":"Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/winter3",
 "Entries":{
 "FC.Maverick":"{{i18n:Maverick.{{TargetWithoutPath}}.{{Relationship:FC.Maverick}}|default={{i18n:Maverick.{{TargetWithoutPath}}|default={{i18n:Maverick.festival-default}}}}}}",
 }

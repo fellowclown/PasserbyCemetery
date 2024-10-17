@@ -42,6 +42,13 @@
 
 }, 
 },
-
+    {
+"LogName": "The Exhibit",
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_Exhibit",
+"Entries": {
+ "{{ModID}}_TheExhibit/e {{ModID}}_CaveBlockUnlock/t 700 2300": "breezy/-1000 -1000/farmer 5 13 0 FC.Thalia 15 9 3 FC.Lyell 13 9 1 FC.Grady 8 6 1 FC.Barron 2 7 3/viewport 10 7 clamp true/positionOffset FC.Lyell -30 0/skippable/pause 1000/advancedMove FC.Grady true 0 3 1 9000 0 -3 1 3000/pause 2000/advancedMove FC.Barron true 0 4 3 4000 0 -4 3 6000/advancedMove farmer false 0 -1 1 10 4 0 4 10 0 -2 1 1000 5 0 4 10/pause 300/speak FC.Lyell \"{{i18n:TheExhibit.00}}\"/pause 300/emote FC.Thalia 32/pause 250/speak FC.Thalia \"{{i18n:TheExhibit.01}}\"/pause 250/speak FC.Lyell \"{{i18n:TheExhibit.02}}\"/pause 250/faceDirection FC.Thalia 2/pause 100/emote FC.Thalia 8/pause 250/faceDirection FC.Thalia 3/pause 150/speak FC.Thalia \"{{i18n:TheExhibit.03}}\"/pause 200/faceDirection FC.Lyell 2/pause 150/speak FC.Lyell \"{{i18n:TheExhibit.04}}\"/pause 250/faceDirection FC.Thalia 2/faceDirection FC.Thalia 3/faceDirection FC.Thalia 2/pause 200/speak FC.Thalia \"{{i18n:TheExhibit.05}}\"/pause 250/speak FC.Lyell \"{{i18n:TheExhibit.06}}\"/pause 250/textAbovehead FC.Grady \"{{i18n:TheExhibit.07}}\"/pause 300/emote FC.Lyell 16/pause 150/speak FC.Lyell \"{{i18n:TheExhibit.08}}\"/pause 250/speak FC.Thalia \"{{i18n:TheExhibit.09}}\"/pause 250/speak FC.Thalia \"{{i18n:TheExhibit.10}}\"/pause 300/advancedMove FC.Thalia false 0 -3 3 10 -3 0 4 10 0 -1 4 10/pause 5000/warp FC.Thalia -3000 -3000/pause 150/faceDirection FC.Lyell 1/faceDirection FC.Lyell 2/pause 250/speak FC.Lyell \"{{i18n:TheExhibit.11}}\"/pause 250/advancedMove FC.Lyell false -1 0 2 10 0 1 3 10 -5 0 3 10/pause 1000/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/end",
+  }
+},
 ]
 }

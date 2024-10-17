@@ -482,7 +482,7 @@
 "AvailableStock":5,
 "AvailableStockLimit": "5"
 },
-                        {
+{
 "Id": "{{ModID}}_EnchantedTonic",
 "ItemId": "{{ModID}}_EnchantedTonic", ///Mailed Recipe
 "Price": 500,
@@ -1935,11 +1935,31 @@
 },
                         {
 "Id": "{{ModID}}_ReuuSeed",
-"Condition": null,
+"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_UnlockTropaTree",
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 70,
+"TradeItemAmount": 40,
 "ItemId": "{{ModID}}_ReuuSeed",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_MeekSeed",
+"Condition": "PLAYER_HAS_MAIL Any {{ModID}}_WildTrees.Mail Received",
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 10,
+"ItemId": "{{ModID}}_MeekSeed",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_HeaviousSeed",
+"Condition": "PLAYER_HAS_MAIL Any {{ModID}}_WildTrees.Mail Received",
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 10,
+"ItemId": "{{ModID}}_HeaviousSeed",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
 },
@@ -2202,7 +2222,7 @@
 "AvailableStock":10,
 "AvailableStockLimit": "4"
 },
-                        {
+                                              {
 "Id": "{{ModID}}_TropaTreeSapling",
 "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_UnlockTropaTree",
 "Price": 0,
@@ -2214,14 +2234,35 @@
 },
                         {
 "Id": "{{ModID}}_ReuuSeed",
-"Condition": null,
+"Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_UnlockTropaTree",
 "Price": 0,
 "TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 70,
+"TradeItemAmount": 40,
 "ItemId": "{{ModID}}_ReuuSeed",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
 },
+                        {
+"Id": "{{ModID}}_MeekSeed",
+"Condition": "PLAYER_HAS_MAIL Any {{ModID}}_WildTrees.Mail Received",
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 10,
+"ItemId": "{{ModID}}_MeekSeed",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+                        {
+"Id": "{{ModID}}_HeaviousSeed",
+"Condition": "PLAYER_HAS_MAIL Any {{ModID}}_WildTrees.Mail Received",
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 10,
+"ItemId": "{{ModID}}_HeaviousSeed",
+"AvailableStock":10,
+"AvailableStockLimit": "5"
+},
+   
                         {
 "Id": "{{ModID}}_ZinfazuFruitSeeds",
 "Condition": "SEASON Summer",

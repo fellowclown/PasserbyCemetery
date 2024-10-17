@@ -19,7 +19,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Barron 43 61 2",
+                    "Value": "FC.Barron 44 62 2",
                     "Delimiter": "/"
                 },
             {
@@ -27,12 +27,6 @@
              "Target": ["Fields", "set-up{{YearCheck}}", 5],
              "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron -16 0"
             },
-            {
-             "Operation": "Append",
-             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
-             "Value": "/animate FC.Barron false true 360 23 23 23 23 23 23 23 23 23 23 23 24 25 25 25 25 25 25 25 24 23/positionOffset FC.Barron -16 0",
-      
-        },
         ]
     },
            {
@@ -158,7 +152,7 @@
     },
                    {
             "Action": "EditData",
-            "Target": "Data/Festivals/fall3",
+            "Target": "Data/Festivals/fall3,Data/Festivals/winter3",
             "TextOperations": [
                 {
                     "Operation": "Append",

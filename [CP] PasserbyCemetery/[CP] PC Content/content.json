@@ -116,7 +116,7 @@
    },
     {
       "Name": "RaffleResult",
-      "Value": "addItem {{Random:{{ModID}}_BlueCouplesSeat,{{ModID}}_BirchCoffeeTable,{{ModID}}_SmallBirchCoffeeTable,{{ModID}}_MiniBirchCoffeeTable,{{ModID}}_TraditionalLantern,Fellowclown.PC_SqueakyAxe,Fellowclown.PC_SqueakyPick,Fellowclown.PC_SqueakyCan,Fellowclown.PC_SqueakyHoe,Fellowclown.PC_SqueakySword}} 1 0", //Better than [ID] because it opens a menu if your inventory is full
+      "Value": "addItem {{Random:{{ModID}}_BirchCoffeeTable,{{ModID}}_SmallBirchCoffeeTable,{{ModID}}_MiniBirchCoffeeTable,{{ModID}}_TraditionalLantern,Fellowclown.PC_SqueakyAxe,Fellowclown.PC_SqueakyPick,Fellowclown.PC_SqueakyCan,Fellowclown.PC_SqueakyHoe,Fellowclown.PC_SqueakySword}} 1 0", //Better than [ID] because it opens a menu if your inventory is full
       "When": {
         "Query: '{{RaffleWinner}}' = '{{PlayerName}}'": true
       }

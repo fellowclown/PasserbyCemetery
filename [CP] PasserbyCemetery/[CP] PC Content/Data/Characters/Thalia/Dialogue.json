@@ -229,7 +229,7 @@ MiscDialogue
 {
 "LogName":"Festivaldialogue",
 "Action":"EditData",
-"Target":"Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/winter8,Data/Festivals/winter25",
+"Target":"Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/winter8,Data/Festivals/winter25,Data/Festivals/winter3",
 "Entries":{
 "FC.Thalia{{YearCheck}}":"{{i18n:Thalia.{{TargetWithoutPath}}.{{Relationship:FC.Thalia}}|default={{i18n:Thalia.{{TargetWithoutPath}}|default={{i18n:Thalia.festival-default}}}}}}",
 }

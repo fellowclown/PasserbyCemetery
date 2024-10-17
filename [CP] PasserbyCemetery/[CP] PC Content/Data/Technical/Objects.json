@@ -2128,6 +2128,116 @@
 "Action": "EditData",
 "Target": "Data/Objects",
 "Entries": {
+ "{{ModID}}_HeaviousFruit": {
+  "Name": "{{ModID}}_HeaviousFruit",
+  "DisplayName": "{{i18n:FC.HeaviousFruit}}",
+  "Description": "{{i18n:FC.HeaviousFruit.Desc}}",
+  "Type": "Fruit",
+  "Category": -79,
+  "Price": 20,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 243,
+  "Edibility": 6,
+  "IsDrink": false,
+    "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 1.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 1.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "color_white",
+    "category_ingredients",
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_MeekFruit": {
+  "Name": "{{ModID}}_MeekFruit",
+  "DisplayName": "{{i18n:FC.MeekFruit}}",
+  "Description": "{{i18n:FC.MeekFruit.Desc}}",
+  "Type": "Fruit",
+  "Category": -79,
+  "Price": 10,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 239,
+  "Edibility": 6,
+  "IsDrink": false,
+    "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 1.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 1.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "color_yellow",
+    "category_ingredients",
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
  "{{ModID}}_DragaTail": {
   "Name": "{{ModID}}_DragaTail",
   "DisplayName": "{{i18n:FC.DragaTail}}",
@@ -2701,6 +2811,121 @@
           "Price": 200,
           "ContextTags": [
             "Reuutree_seed",
+          ]
+        },
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "{{ModID}}_HeaviousSeed": {
+          "Name": "{{ModID}}_HeaviousSeed",
+          "Type": "Basic",
+          "Category": -74,
+          "SpriteIndex": 241,
+          "DisplayName": "{{i18n:FC.HeaviousSeed}}",
+          "Description": "{{i18n:FC.HeaviousSeed.Desc}}",
+          "Texture": "Mods/{{ModID}}/Objects",
+          "Edibility": -300,
+            "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+          "Price": 2,
+          "ContextTags": [
+            "Heavioustree_seed",
+          ]
+        },
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "{{ModID}}_MeekSeed": {
+          "Name": "{{ModID}}_MeekSeed",
+          "Type": "Basic",
+          "Category": -74,
+          "SpriteIndex": 237,
+          "DisplayName": "{{i18n:FC.MeekSeed}}",
+          "Description": "{{i18n:FC.MeekSeed.Desc}}",
+          "Texture": "Mods/{{ModID}}/Objects",
+          "Edibility": -300,
+            "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+          "Price": 2,
+          "ContextTags": [
+            "Meektree_seed",
+          ]
+        },
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "{{ModID}}_HeaviousWood": {
+          "Name": "{{ModID}}_HeaviousWood",
+          "Type": "Basic",
+          "Category": -16,
+          "SpriteIndex": 242,
+          "DisplayName": "{{i18n:FC.HeaviousWood}}",
+          "Description": "{{i18n:FC.HeaviousWood.Desc}}",
+          "Texture": "Mods/{{ModID}}/Objects",
+          "Edibility": -300,
+            "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+          "Price": 5,
+          "ContextTags": [
+            "Heavioustree_wood",
+          ]
+        },
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "{{ModID}}_MeekWood": {
+          "Name": "{{ModID}}_MeekWood",
+          "Type": "Basic",
+          "Category": -16,
+          "SpriteIndex": 238,
+          "DisplayName": "{{i18n:FC.MeekWood}}",
+          "Description": "{{i18n:FC.MeekWood.Desc}}",
+          "Texture": "Mods/{{ModID}}/Objects",
+          "Edibility": -300,
+            "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+          "Price": 5,
+          "ContextTags": [
+            "Meektree_wood",
+          ]
+        },
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+  "{{ModID}}_ReuuWood": {
+          "Name": "{{ModID}}_ReuuWood",
+          "Type": "Basic",
+          "Category": -16,
+          "SpriteIndex": 240,
+          "DisplayName": "{{i18n:FC.ReuuWood}}",
+          "Description": "{{i18n:FC.ReuuWood.Desc}}",
+          "Texture": "Mods/{{ModID}}/Objects",
+          "Edibility": -300,
+            "IsDrink": false,
+  "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+          "Price": 5,
+          "ContextTags": [
+            "Meektree_wood",
           ]
         },
 }

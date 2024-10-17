@@ -1,5 +1,583 @@
 {
 "Changes": [
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_LyellsProperty",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 18,
+                        "Y": 35
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_HeaviousTree"
+                    }
+                }
+                ]
+                },
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_LyellsProperty",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 13,
+                        "Y": 33
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_HeaviousTree"
+                    }
+                }
+                ]
+                },
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_LyellsProperty",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 26,
+                        "Y": 24
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_HeaviousTree"
+                    }
+                }
+                ]
+                },
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_LyellsProperty",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 53,
+                        "Y": 19
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_HeaviousTree"
+                    }
+                }
+                ]
+                },
+     {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_LyellsProperty",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 48,
+                        "Y": 21
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_HeaviousTree"
+                    }
+                }
+                ]
+                },
+    {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_LyellsProperty",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 42,
+                        "Y": 17
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_HeaviousTree"
+                    }
+                }
+                ]
+                },
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_AncientGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 38,
+                        "Y": 29
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                },
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_AncientGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 44,
+                        "Y": 23
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                },
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_AncientGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 45,
+                        "Y": 20
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                },
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_AncientGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 47,
+                        "Y": 23
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                },
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_AncientGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 45,
+                        "Y": 32
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                },
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_AncientGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 29,
+                        "Y": 33
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                },
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_AncientGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 21,
+                        "Y": 32
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                },
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_AncientGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 17,
+                        "Y": 28
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                },
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_AncientGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 13,
+                        "Y": 27
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                },
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_AncientGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 18,
+                        "Y": 23
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                },
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_AncientGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 14,
+                        "Y": 22
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                },
+      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_AncientGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 14,
+                        "Y": 20
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                },
+         {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 25,
+                        "Y": 7
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 30,
+                        "Y": 3
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 32,
+                        "Y": 4
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 33,
+                        "Y": 2
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+    {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 10,
+                        "Y": 15
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 1,
+                        "Y":40
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 1,
+                        "Y": 47
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 10,
+                        "Y": 72
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 5,
+                        "Y": 79
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 22,
+                        "Y": 70
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 47,
+                        "Y": 69
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 44,
+                        "Y": 70
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 47,
+                        "Y": 72
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                                 {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 14,
+                        "Y": 5
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                                             {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 43,
+                        "Y": 60
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                                                    {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_OldGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 47,
+                        "Y": 54
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
      {
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_CottonPatio",
@@ -49,9 +627,7 @@
                     ],
                     "Texture": "Mods/{{ModID}}/Trees",
                     "TextureSpriteRow": 0,
-         "CustomFields": {
-      "ClownSharpAnimalSpawner": "{{ModID}}_Zoot"
-    }
+         "CustomFields": {}
   },
 }
 },
@@ -81,21 +657,21 @@
                     "SeedItemId": "(O){{ModID}}_ReuuSeed",
                     "IsLeafyInWinter": false,
                     "UseAlternateSpriteWhenNotShaken": true,
-                     "DropWoodOnChop": true,
-                     "DropHardwoodOnLumberChop": true,
+                     "DropWoodOnChop": false,
+                     "DropHardwoodOnLumberChop": false,
                         "AllowWoodpeckers": true,
                         "SeedDropItems": [
       {
         "ContinueOnDrop": false,
-        "Season": "Fall",
+        "Season": null,
         "Chance": 1.0,
-        "Condition": "!SEASON winter",
+        "Condition": null,
         "Id": "(O){{ModID}}_ReuuSeed",
         "ItemId": "(O){{ModID}}_ReuuSeed",
         "RandomItemId": null,
         "MaxItems": null,
-        "MinStack": -1,
-        "MaxStack": -1,
+        "MinStack": 2,
+        "MaxStack": 4,
         "Quality": -1,
         "ObjectInternalName": null,
         "ObjectDisplayName": null,
@@ -113,7 +689,7 @@
                         {
                             "ItemId": "(O){{ModID}}_ReuuNut",
                             "MinStack": 1,
-                            "MaxStack": -1,
+                            "MaxStack": 3,
                             "Season": "fall",
                             "Chance": 3
                         }
@@ -131,7 +707,32 @@
         "RandomItemId": null,
         "MaxItems": null,
         "MinStack": 1,
-        "MaxStack": -1,
+        "MaxStack": 2,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+           {
+        "MinSize": null,
+        "MaxSize": null,
+        "ForStump": true,
+        "Season": null,
+        "Chance": 1.0,
+        "Condition": null,
+        "Id": "{{ModID}}_ReuuWoodDrop",
+        "ItemId": "(O){{ModID}}_ReuuWood",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": 2,
+        "MaxStack": 4,
         "Quality": -1,
         "ObjectInternalName": null,
         "ObjectDisplayName": null,
@@ -187,31 +788,31 @@
                   },
             }
         },
-                        {
+          {
             "Action": "EditData",
             "Target": "Data/WildTrees",
             "Entries": {
-                "{{ModID}}_LyellsReuuTree": {
+                "{{ModID}}_MeekTree": {
                     "Textures": [
                         {
-                            "Texture": "Mods/{{ModID}}/WildTree_spring",
+                            "Texture": "Mods/{{ModID}}/MeekTree_spring",
                             "Season": "spring"
                         },
                         {
-                            "Texture": "Mods/{{ModID}}/WildTree_summer",
+                            "Texture": "Mods/{{ModID}}/MeekTree_summer",
                             "Season": "summer"
                         },
                         {
-                            "Texture": "Mods/{{ModID}}/WildTree_fall",
+                            "Texture": "Mods/{{ModID}}/MeekTree_fall",
                             "Season": "fall"
                         },
                         {
-                            "Texture": "Mods/{{ModID}}/WildTree_winter",
+                            "Texture": "Mods/{{ModID}}/MeekTree_winter",
                             "Season": "winter"
                         }
                     ],
-                    "SeedItemId": "(O){{ModID}}_ReuuSeed",
-                    "IsLeafyInWinter": false,
+                    "SeedItemId": "(O){{ModID}}_MeekSeed",
+                    "IsLeafyInWinter": true,
                     "UseAlternateSpriteWhenNotShaken": true,
                      "DropWoodOnChop": false,
                      "DropHardwoodOnLumberChop": false,
@@ -219,15 +820,15 @@
                         "SeedDropItems": [
       {
         "ContinueOnDrop": false,
-        "Season": "Fall",
+        "Season": null,
         "Chance": 1.0,
-        "Condition": "!SEASON winter",
-        "Id": "(O){{ModID}}_ReuuSeed",
-        "ItemId": "(O){{ModID}}_ReuuSeed",
+        "Condition": null,
+        "Id": "(O){{ModID}}_MeekSeed",
+        "ItemId": "(O){{ModID}}_MeekSeed",
         "RandomItemId": null,
         "MaxItems": null,
-        "MinStack": -1,
-        "MaxStack": -1,
+        "MinStack": 1,
+        "MaxStack": 2,
         "Quality": -1,
         "ObjectInternalName": null,
         "ObjectDisplayName": null,
@@ -243,22 +844,185 @@
     ],
                     "ShakeItems": [
                         {
-                            "ItemId": "(O){{ModID}}_ReuuNut",
+                            "ItemId": "(O){{ModID}}_MeekFruit",
                             "MinStack": 1,
-                            "MaxStack": -1,
-                            "Season": "fall",
+                            "MaxStack": 2,
+                            "Season": "summer",
                             "Chance": 3
                         }
                     ],
-                    "TapItems": [
+                      "ChopItems": [
+      {
+        "MinSize": null,
+        "MaxSize": null,
+        "ForStump": true,
+        "Season": null,
+        "Chance": 1.0,
+        "Condition": null,
+        "Id": "{{ModID}}_MeekSeedDrop",
+        "ItemId": "(O){{ModID}}_MeekSeed",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": 1,
+        "MaxStack": 2,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+        {
+        "MinSize": null,
+        "MaxSize": null,
+        "ForStump": true,
+        "Season": null,
+        "Chance": 1.0,
+        "Condition": null,
+        "Id": "{{ModID}}_MeekWoodDrop",
+        "ItemId": "(O){{ModID}}_MeekWood",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": 2,
+        "MaxStack": 4,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      }
+],
+}
+},
+},
+       {
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "Entries": {
+                "{{ModID}}_HeaviousTree": {
+                    "Textures": [
                         {
-                            "ItemId": "(O){{ModID}}_ReuuResin",
-                            "DaysUntilReady": 6
-                            }
+                            "Texture": "Mods/{{ModID}}/HeaviousTree_spring",
+                            "Season": "spring"
+                        },
+                        {
+                            "Texture": "Mods/{{ModID}}/HeaviousTree_summer",
+                            "Season": "summer"
+                        },
+                        {
+                            "Texture": "Mods/{{ModID}}/HeaviousTree_fall",
+                            "Season": "fall"
+                        },
+                        {
+                            "Texture": "Mods/{{ModID}}/HeaviousTree_winter",
+                            "Season": "winter"
+                        }
                     ],
-               "CustomFields": {"DH_MEEP_Invulnerable_Tree": ""}
-                  },
-            }
-        },
-    ]
+                    "SeedItemId": "(O){{ModID}}_HeaviousSeed",
+                    "IsLeafyInWinter": true,
+                    "UseAlternateSpriteWhenNotShaken": true,
+                     "DropWoodOnChop": false,
+                     "DropHardwoodOnLumberChop": false,
+                        "AllowWoodpeckers": true,
+                        "SeedDropItems": [
+      {
+        "ContinueOnDrop": false,
+        "Season": null,
+        "Chance": 1.0,
+        "Condition": null,
+        "Id": "(O){{ModID}}_HeaviousSeed",
+        "ItemId": "(O){{ModID}}_HeaviousSeed",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": 1,
+        "MaxStack": 2,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      }
+    ],
+                    "ShakeItems": [
+                        {
+                            "ItemId": "(O){{ModID}}_HeaviousFruit",
+                            "MinStack": 1,
+                            "MaxStack": 2,
+                            "Season": "winter",
+                            "Chance": 3
+                        }
+                    ],
+                      "ChopItems": [
+      {
+        "MinSize": null,
+        "MaxSize": null,
+        "ForStump": true,
+        "Season": null,
+        "Chance": 1.0,
+        "Condition": null,
+        "Id": "{{ModID}}_HeaviousSeedDrop",
+        "ItemId": "(O){{ModID}}_HeaviousSeed",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": 3,
+        "MaxStack": 6,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+        {
+        "MinSize": null,
+        "MaxSize": null,
+        "ForStump": true,
+        "Season": null,
+        "Chance": 1.0,
+        "Condition": null,
+        "Id": "{{ModID}}_HeaviousWoodDrop",
+        "ItemId": "(O){{ModID}}_HeaviousWood",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": 2,
+        "MaxStack": 4,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      }
+],
+}
+}
+}
+]
 }

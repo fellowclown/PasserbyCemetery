@@ -140,7 +140,7 @@
     },
                    {
             "Action": "EditData",
-            "Target": "Data/Festivals/fall3",
+            "Target": "Data/Festivals/fall3,Data/Festivals/winter3",
                        "When": {
           "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
             },

@@ -248,7 +248,7 @@ MiscDialogue
 {
 "LogName":"Festivaldialogue",
 "Action":"EditData",
-"Target":"Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/winter8,Data/Festivals/winter25",
+"Target":"Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/winter8,Data/Festivals/winter3,Data/Festivals/winter25",
 "Entries":{
 "FC.Nikolai{{YearCheck}}":"{{i18n:Nikolai.{{TargetWithoutPath}}.{{Relationship:FC.Nikolai}}|default={{i18n:Nikolai.{{TargetWithoutPath}}|default={{i18n:Nikolai.festival-default}}}}}}",
 }

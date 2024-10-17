@@ -1,5 +1,24 @@
 {
 "Changes": [
+       {
+        "Action": "EditImage",
+        "LogName": "Overworld map edit",
+        "Target": "LooseSprites/map,LooseSprites/map_summer,LooseSprites/map_fall,LooseSprites/map_winter",
+        "FromFile": "Assets/Maps/Tilesheets/WorldMap/map_{{season}}.png",
+         "PatchMode":"overlay",
+        "ToArea":{ "X": 181, "Y": 0, "Width": 64, "Height": 27
+         },
+   }, 
+          {
+        "Action": "EditImage",
+        "LogName": "Overworld map edit",
+        "Target": "LooseSprites/map,LooseSprites/map_summer,LooseSprites/map_fall,LooseSprites/map_winter",
+        "FromFile": "Assets/Maps/Tilesheets/WorldMap/map_Sve_{{season}}.png",
+         "PatchMode":"overlay",
+        "ToArea":{ "X": 181, "Y": 0, "Width": 64, "Height": 27
+         },
+          "When": {"HasMod": "FlashShifter.StardewValleyExpandedCP", }
+   },
   ///Dig spots in ancient graveyard and passerby
      {
         "Action": "EditImage",
@@ -132,7 +151,7 @@
 "FromFile": "Assets/Maps/Map Patches/ExhibitStairs.tbin",
   "Update": "OnTimeChange, OnLocationChange",
   "When": {
-  "HasSeenEvent |contains={{ModID}}_CaveBlockUnlock": true,},
+  "HasSeenEvent |contains={{ModID}}_TheExhibit": true,},
 "ToArea": { "X": 11, "Y": 1, "Width": 2, "Height": 4 },
 },
 {
