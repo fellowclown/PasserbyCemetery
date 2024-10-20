@@ -2427,12 +2427,18 @@
 "Exhibit.BlackSmith": "{{i18n:Exhibit.BlackSmith}}",///Arcanian Blacksmith outfit
 "Exhibit.ArcanianSword": "{{i18n:Exhibit.ArcanianSword}}",///Arcanian sword
 "Exhibit.DeathFlute": "{{i18n:Exhibit.DeathFlute}}",///Arcanian death flute
-"Exhibit.ZuutStatue": "{{i18n:Exhibit.ZuutStatue}}",///forest spirit statue
+"Exhibit.ZootStatue": "{{i18n:Exhibit.ZootStatue}}",///forest spirit statue
 "Exhibit.CyclopsMummy": "{{i18n:Exhibit.CyclopsMummy}}",///Arcanian Cyclops Mummy Shrine
 "Exhibit.FemaleMarriageOutfit": "{{i18n:Exhibit.FemaleMarriageOutfit}}",
 "Exhibit.MaleMarriageOutfit": "{{i18n:Exhibit.MaleMarriageOutfit}}",
 "Exhibit.ThaliasRoom": "{{i18n:Exhibit.ThaliasRoom}}",
 "Exhibit.OldBottle": "{{i18n:Exhibit.OldBottle}}",
+"Guardian.Soup":"{{i18n:Guardian.Soup}}",
+"Guardian.Jar": "{{i18n:Guardian.Jar}}",
+"Guardian.WineBarrel": "{{i18n:Guardian.WineBarrel}}",
+"Guardian.Dresser": "{{i18n:Guardian.Dresser}}",
+"Guardian.CowToy": "{{i18n:Guardian.CowToy}}",
+"Guardian.Shrine": "{{i18n:Guardian.Shrine}}",
 }
  },
 ]

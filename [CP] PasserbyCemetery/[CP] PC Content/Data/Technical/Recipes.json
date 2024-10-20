@@ -49,6 +49,11 @@
 "{{ModID}}_GemBirdPatties": "{{ModID}}_GemBirdMeat 1 772 1 256 1/1 2/{{ModID}}_GemBirdPatties/f FC.Phoebe 250/{{i18n:FC.GemBirdPatties}}",
 "{{ModID}}_VoidJuice": "350 2 769 1/1 10/{{ModID}}_VoidJuice/f FC.Barron 800/{{i18n:FC.VoidJuice}}",
 "{{ModID}}_RootJuice": "{{ModID}}_HeavyRoot 3/1 10/{{ModID}}_RootJuice/f FC.Valerie 250/{{i18n:FC.RootJuice}}",
+"{{ModID}}_HeaviousFruitSmoothie": "{{ModID}}_HeaviousFruit 3 245 3/1 3/{{ModID}}_HeaviousFruitSmoothie/f FC.Shaavar 500/{{i18n:FC.HeaviousFruitSmoothie}}",
+"{{ModID}}_MeekFruitSmoothie": "{{ModID}}_MeekFruit 3 245 3/1 3/{{ModID}}_MeekFruitSmoothie/f FC.Shaavar 750/{{i18n:FC.MeekFruitSmoothie}}",
+"{{ModID}}_HeaviousMeekCake": "{{ModID}}_HeaviousFruit 1 {{ModID}}_MeekFruit 1 245 3 246 1 {{ModID}}_SmallArcaGoatMilk 1/1 1/{{ModID}}_HeaviousMeekCake/f FC.Shaavar 1250/{{i18n:FC.HeaviousMeekCake}}",
+"{{ModID}}_HeaviousFruitLollipop": "{{ModID}}_HeaviousFruit 1 245 1/1 1/{{ModID}}_HeaviousFruitLollipop/f FC.Shaavar 2000/{{i18n:FC.HeaviousFruitLollipop}}",
+"{{ModID}}_MeekFruitLollipop": "{{ModID}}_MeekFruit 1 245 1/1 1/{{ModID}}_MeekFruitLollipop/f FC.Shaavar 2000/{{i18n:FC.MeekFruitLollipop}}",
 
 }
 },

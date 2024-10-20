@@ -61,6 +61,92 @@
 "{{ModID}}_DezeriesGift.Mail": "{{i18n:FC.DezeriesGift.Mail}}[#]{{i18n:FC.DezeriesGift.Mail.Title}}",
 "{{ModID}}_Exhibit.Mail": "{{i18n:FC.Exhibit.Mail}}[#]{{i18n:FC.Exhibit.Mail.Title}}",
 "{{ModID}}_WildTrees.Mail": "{{i18n:FC.WildTrees.Mail}} %item object {{ModID}}_HeaviousSeed 10 %%[#]{{i18n:FC.WildTrees.Mail.Title}}",
+
+"{{ModID}}_HeaviousFruitSmoothie.Mail": "{{i18n:FC.HeaviousFruitSmoothie.Mail}} %item cookingRecipe {{ModID}}_HeaviousFruitSmoothie %%[#]{{i18n:FC.HeaviousFruitSmoothie.Mail.Title}}",
+"{{ModID}}_MeekFruitSmoothie.Mail": "{{i18n:FC.MeekFruitSmoothie.Mail}} %item cookingRecipe {{ModID}}_MeekFruitSmoothie %%[#]{{i18n:FC.MeekFruitSmoothie.Mail.Title}}",
+"{{ModID}}_HeaviousMeekCake.Mail": "{{i18n:FC.HeaviousMeekCake.Mail}} %item cookingRecipe {{ModID}}_HeaviousMeekCake %%[#]{{i18n:FC.HeaviousMeekCake.Mail.Title}}",
+"{{ModID}}_HeaviousFruitLollipop.Mail": "{{i18n:FC.HeaviousFruitLollipop.Mail}} %item cookingRecipe {{ModID}}_HeaviousFruitLollipop %%[#]{{i18n:FC.HeaviousFruitLollipop.Mail.Title}}",
+"{{ModID}}_MeekFruitLollipop.Mail": "{{i18n:FC.MeekFruitLollipop.Mail}} %item cookingRecipe {{ModID}}_MeekFruitLollipop %%[#]{{i18n:FC.MeekFruitLollipop.Mail.Title}}",
+}
+},
+{
+"LogName": "HeaviousFruitSmoothie",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_HeaviousFruitSmoothie.Trigger":  {
+"Id": "{{ModID}}_HeaviousFruitSmoothie.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Shaavar 500,,SEASON Summer",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_HeaviousFruitSmoothie.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "HeaviousFruitSmoothie",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_MeekFruitSmoothie.Trigger":  {
+"Id": "{{ModID}}_MeekFruitSmoothie.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Shaavar 750,SEASON Spring",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_MeekFruitSmoothie.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "HeaviousFruitSmoothie",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_HeaviousMeekCake.Trigger":  {
+"Id": "{{ModID}}_HeaviousMeekCake.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Shaavar 1250,,SEASON Summer",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_HeaviousMeekCake.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "HeaviousFruitSmoothie",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_MeekFruitLollipop.Trigger":  {
+"Id": "{{ModID}}_MeekFruitLollipop.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Shaavar 2000,SEASON Fall",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_MeekFruitLollipop.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "HeaviousFruitSmoothie",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_HeaviousFruitLollipop.Trigger":  {
+"Id": "{{ModID}}_HeaviousFruitLollipop.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Shaavar 2000,SEASON Fall",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_HeaviousFruitLollipop.Mail",
+"Actions": null,
+"CustomFields": {}
+}
 }
 },
 {

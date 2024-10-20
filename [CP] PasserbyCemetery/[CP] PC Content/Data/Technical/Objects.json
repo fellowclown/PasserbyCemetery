@@ -2115,7 +2115,7 @@
   "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
-    "color_gray",
+    "color_white",
     "category_greens",
     "category_ingredients",
      "category_{{ModID}}_extractproduct"
@@ -2227,8 +2227,279 @@
   "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
   "ExcludeFromRandomSale": true,
   "ContextTags": [
-    "color_yellow",
+    "color_green",
     "category_ingredients",
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_MeekFruitSmoothie": {
+  "Name": "{{ModID}}_MeekFruitSmoothie",
+  "DisplayName": "{{i18n:FC.MeekFruitSmoothie}}",
+  "Description": "{{i18n:FC.MeekFruitSmoothie.Desc}}",
+  "Type": "Cooking",
+  "Category": -7,
+  "Price": 10,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 244,
+  "Edibility": 5,
+  "IsDrink": false,
+    "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 1.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 1.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "color_green",
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_HeaviousFruitSmoothie": {
+  "Name": "{{ModID}}_HeaviousFruitSmoothie",
+  "DisplayName": "{{i18n:FC.HeaviousFruitSmoothie}}",
+  "Description": "{{i18n:FC.HeaviousFruitSmoothie.Desc}}",
+  "Type": "Cooking",
+  "Category": -7,
+  "Price": 10,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 245,
+  "Edibility": 5,
+  "IsDrink": false,
+    "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 1.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 1.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "color_green",
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_HeaviousMeekCake": {
+  "Name": "{{ModID}}_HeaviousMeekCake",
+  "DisplayName": "{{i18n:FC.HeaviousMeekCake}}",
+  "Description": "{{i18n:FC.HeaviousMeekCake.Desc}}",
+  "Type": "Cooking",
+  "Category": -7,
+  "Price": 20,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 246,
+  "Edibility": 10,
+  "IsDrink": false,
+    "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 1.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 1.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "color_green",
+    "color_brown",
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_HeaviousFruitLollipop": {
+  "Name": "{{ModID}}_HeaviousFruitLollipop",
+  "DisplayName": "{{i18n:FC.HeaviousFruitLollipop}}",
+  "Description": "{{i18n:FC.HeaviousFruitLollipop.Desc}}",
+  "Type": "Cooking",
+  "Category": -7,
+  "Price": 10,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 248,
+  "Edibility": 5,
+  "IsDrink": false,
+    "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 1.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 1.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "color_green",
+  ],
+  "CustomFields": null
+  }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries": {
+ "{{ModID}}_MeekFruitLollipop": {
+  "Name": "{{ModID}}_MeekFruitLollipop",
+  "DisplayName": "{{i18n:FC.MeekFruitLollipop}}",
+  "Description": "{{i18n:FC.MeekFruitLollipop.Desc}}",
+  "Type": "Cooking",
+  "Category": -7,
+  "Price": 10,
+   "Texture": "Mods/{{ModID}}/Objects",
+  "SpriteIndex": 247,
+  "Edibility": 5,
+  "IsDrink": false,
+    "CanBeGivenAsGift": true,
+  "CanBeTrashed": true,
+  "Buffs": [
+    {
+      "Id": null,
+      "BuffId": null,
+      "IconTexture": null,
+      "IconSpriteIndex": 0,
+      "Duration": 0,
+      "IsDebuff": false,
+      "GlowColor": null,
+      "CustomAttributes": {
+        "FarmingLevel": 0.0,
+        "FishingLevel": 1.0,
+        "MiningLevel": 0.0,
+        "LuckLevel": 0.0,
+        "ForagingLevel": 1.0,
+        "MaxStamina": 0.0,
+        "MagneticRadius": 0.0,
+        "Speed": 0.0,
+        "Defense": 0.0,
+        "Attack": 0.0
+      },
+      "CustomFields": null
+    }
+  ],
+  "GeodeDropsDefaultItems": false,
+  "GeodeDrops": null,
+  "ArtifactSpotChances": null,
+  "ExcludeFromFishingCollection": true,
+  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+  "ExcludeFromRandomSale": true,
+  "ContextTags": [
+    "color_brown",
   ],
   "CustomFields": null
   }
@@ -11030,7 +11301,7 @@
 "{{ModID}}_SinkCherry5": "{{ModID}}_SinkCherry5/decor/1 2/1 1/4/5000/0/{{i18n:FC.SinkCherry5}}/429/Mods\\{{ModID}}\\Furniture",
 
 "{{ModID}}_WallDivider0": "{{ModID}}_WallDivider0/decor/1 5/1 3/-1/5000/0/{{i18n:FC.WallDivider0}}/560/Mods\\{{ModID}}\\Furniture",
-"{{ModID}}_WallDivider2": "{{ModID}}_WallDivider2/decor/3 3/3 1/-1/5000/0/{{i18n:FC.WallDivider1}}/561/Mods\\{{ModID}}\\Furniture",
+"{{ModID}}_WallDivider1": "{{ModID}}_WallDivider1/decor/3 3/3 1/-1/5000/0/{{i18n:FC.WallDivider1}}/561/Mods\\{{ModID}}\\Furniture",
 
 
 "{{ModID}}_Bathtub": "{{ModID}}_Bathtub/couch/-1/-1/4/5000/-1/{{i18n:FC.Bathtub}}/460/Mods\\{{ModID}}\\Furniture",

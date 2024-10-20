@@ -541,6 +541,34 @@
       ]
     },
     {
+      "LogName": "Dried Heavious Root",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)Dehydrator",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_HeavyRoot": {
+          "Id": "{{ModID}}_HeavyRoot",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_HeavyRoot",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "{{ModID}}_HeaviousSeed",
+              "ItemId": "{{ModID}}_HeaviousSeed"
+            }
+          ],
+          "MinutesUntilReady": 1800
+        }
+      }
+    },
+    {
       "LogName": "Dried Draga Fruit",
       "Action": "EditData",
       "Target": "Data/Machines",
