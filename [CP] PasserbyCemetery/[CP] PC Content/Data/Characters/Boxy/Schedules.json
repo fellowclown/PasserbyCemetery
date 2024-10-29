@@ -29,7 +29,7 @@
 "winter": "700 {{ModID}}_OldGraveYard 35 65 2 {{ModID}}_BoxyClean/1200 {{ModID}}_OldGraveYard 9 52 2 {{ModID}}_BoxyRest/1500 Mountain 89 26 2 {{ModID}}_BoxyClean/2000 {{ModID}}_OldGraveYard 9 52 2 {{ModID}}_BoxyRest",
 },
     "When": {
-      "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+      "HasFlag |contains=landslideDone": true,
          "HasSeenEvent |contains={{ModID}}_BoxysHouse": false,
             }
         },

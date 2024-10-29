@@ -110,8 +110,8 @@ Dispositions
   {
 "ID": "{{ModID}}.Valerie_SwimWear",
 "IsIslandAttire": true,
-"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Valerie/SwimWear.png}}",
-"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Valerie/SwimWear.png}}",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Valerie/FC.Valerie_SwimWear.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Valerie/FC.Valerie_SwimWear.png}}",
 "Precedence": -10,
 },    
  {

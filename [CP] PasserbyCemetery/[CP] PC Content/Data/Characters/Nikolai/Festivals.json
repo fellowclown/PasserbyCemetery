@@ -5,7 +5,7 @@
             "Target": "Data/Festivals/spring13",
             "When": {
  "HasFlag|contains=landslideDone": true,
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+  
 },
             "TextOperations": [
                 {
@@ -34,7 +34,7 @@
             "Target": "Data/Festivals/spring24",
                         "When": {
  "HasFlag|contains=landslideDone": true,
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+  
 },
             "TextOperations": [
                 {
@@ -62,7 +62,7 @@
             "Target": "Data/Festivals/summer11",
                         "When": {
  "HasFlag|contains=landslideDone": true,
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+  
 },
             "TextOperations": [
                 {
@@ -90,7 +90,7 @@
             "Target": "Data/Festivals/summer28",
                         "When": {
  "HasFlag|contains=landslideDone": true,
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+  
 },
             "TextOperations": [
                 {
@@ -145,7 +145,7 @@
             "Target": "Data/Festivals/fall16",
                         "When": {
  "HasFlag|contains=landslideDone": true,
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+  
 },
             "TextOperations": [
                 {
@@ -173,7 +173,7 @@
             "Target": "Data/Festivals/winter8",
                         "When": {
  "HasFlag|contains=landslideDone": true,
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+  
 },
             "TextOperations": [
                 {
@@ -201,7 +201,7 @@
             "Target": "Data/Festivals/winter25",
                         "When": {
  "HasFlag|contains=landslideDone": true,
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+  
 },
             "TextOperations": [
                 {

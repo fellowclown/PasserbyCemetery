@@ -1,11 +1,11 @@
 {
   "Name": "PC FTM",
   "Author": "Fellowclown",
-  "Version": "1.97.0",
+  "Version": "2.1.0",
   "Description": "Foragbles for PC",
   "UniqueID": "Fellowclown.PCFTM",
   "MinimumApiVersion": "3.0.0",
-  "UpdateKeys": ["Nexus:22600"],
+  "UpdateKeys": ["Nexus:00000"],
   "ContentPackFor": {
     "UniqueID": "Esca.FarmTypeManager",
     "MinimumVersion": "1.10.1"

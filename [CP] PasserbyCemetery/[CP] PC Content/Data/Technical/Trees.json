@@ -664,14 +664,14 @@
       {
         "ContinueOnDrop": false,
         "Season": null,
-        "Chance": 1.0,
+        "Chance": 0.1,
         "Condition": null,
         "Id": "(O){{ModID}}_ReuuSeed",
         "ItemId": "(O){{ModID}}_ReuuSeed",
         "RandomItemId": null,
         "MaxItems": null,
-        "MinStack": 2,
-        "MaxStack": 4,
+        "MinStack": 1,
+        "MaxStack": 3,
         "Quality": -1,
         "ObjectInternalName": null,
         "ObjectDisplayName": null,
@@ -691,23 +691,23 @@
                             "MinStack": 1,
                             "MaxStack": 3,
                             "Season": "fall",
-                            "Chance": 3
+                            "Chance": 0.2
                         }
                     ],
                       "ChopItems": [
       {
         "MinSize": null,
         "MaxSize": null,
-        "ForStump": true,
+        "ForStump": false,
         "Season": null,
-        "Chance": 1.0,
+        "Chance": 0.1,
         "Condition": null,
         "Id": "{{ModID}}_ReuuSeedDrop",
         "ItemId": "(O){{ModID}}_ReuuSeed",
         "RandomItemId": null,
         "MaxItems": null,
         "MinStack": 1,
-        "MaxStack": 2,
+        "MaxStack": 1,
         "Quality": -1,
         "ObjectInternalName": null,
         "ObjectDisplayName": null,
@@ -723,7 +723,7 @@
            {
         "MinSize": null,
         "MaxSize": null,
-        "ForStump": true,
+        "ForStump": false,
         "Season": null,
         "Chance": 1.0,
         "Condition": null,
@@ -855,9 +855,9 @@
       {
         "MinSize": null,
         "MaxSize": null,
-        "ForStump": true,
+        "ForStump": false,
         "Season": null,
-        "Chance": 1.0,
+        "Chance":  1.0,
         "Condition": null,
         "Id": "{{ModID}}_MeekSeedDrop",
         "ItemId": "(O){{ModID}}_MeekSeed",
@@ -880,7 +880,7 @@
         {
         "MinSize": null,
         "MaxSize": null,
-        "ForStump": true,
+        "ForStump": false,
         "Season": null,
         "Chance": 1.0,
         "Condition": null,
@@ -973,7 +973,7 @@
       {
         "MinSize": null,
         "MaxSize": null,
-        "ForStump": true,
+        "ForStump": false,
         "Season": null,
         "Chance": 1.0,
         "Condition": null,
@@ -998,7 +998,7 @@
         {
         "MinSize": null,
         "MaxSize": null,
-        "ForStump": true,
+        "ForStump": false,
         "Season": null,
         "Chance": 1.0,
         "Condition": null,

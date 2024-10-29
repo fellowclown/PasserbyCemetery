@@ -122,8 +122,8 @@ Dispositions
 {
 "ID": "SwimWear",
 "IsIslandAttire": true,
-"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Alan/SwimWear.png}}",
-"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Alan/SwimWear.png}}",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Alan/FC.Alan_SwimWear.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Alan/FC.Alan_SwimWear.png}}",
 "Precedence": -10,
 },
 {

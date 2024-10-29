@@ -91,12 +91,23 @@
 "Home": [
 {
 "Id": "Default",
-"Condition": null,
+"Condition": "!PLAYER_HAS_SEEN_EVENT Current Fellowclown.PC_GradyReunitesWithLyell",
+"Location": "{{ModID}}_GradysRoom",
+"Tile": {
+"X": -3000,
+"Y": -3000
+},
+"Direction": "right"
+},
+{
+"Id": "Default",
+"Condition":"PLAYER_HAS_SEEN_EVENT Current Fellowclown.PC_GradyReunitesWithLyell",
 "Location": "{{ModID}}_GradysRoom",
 "Tile": {
 "X": 4,
 "Y": 4
 },
+
 "Direction": "right"
 }
 ],

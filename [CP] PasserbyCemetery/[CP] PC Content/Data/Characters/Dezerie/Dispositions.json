@@ -72,9 +72,19 @@ Dispositions
 "UnlockConditions":null,
 "SpawnIfMissing":true,
 "Home": [
-{
+  {
 "Id": "Default",
-"Condition": null,
+"Condition": "!PLAYER_HAS_SEEN_EVENT Current Fellowclown.PC_StoneIntroduction",
+"Location": "{{ModID}}_StoneHouse",
+"Tile": {
+"X": -3000,
+"Y":-3000
+},
+"Direction": "right"
+},
+{
+"Id": "PlacementEvent",
+"Condition":  "PLAYER_HAS_SEEN_EVENT Current Fellowclown.PC_StoneIntroduction",
 "Location": "{{ModID}}_StoneHouse",
 "Tile": {
 "X": 19,
@@ -89,8 +99,8 @@ Dispositions
   {
 "ID": "{{ModID}}.Dezerie_SwimWear",
 "IsIslandAttire": true,
-"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Dezerie/SwimWear.png}}",
-"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Dezerie/SwimWear.png}}",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Dezerie/FC.Dezerie_SwimWear.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Dezerie/FC.Dezerie_SwimWear.png}}",
 "Precedence": -10,
 },    
  {

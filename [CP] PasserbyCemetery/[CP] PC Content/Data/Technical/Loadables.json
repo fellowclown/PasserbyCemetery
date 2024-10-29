@@ -16,6 +16,24 @@ Load Character Over World Assets
 "FromFile": "Assets/Npcs/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}.png", 
  },
  {
+"LogName": "SwimSuits",
+"Action": "Load",
+"Target": "Portraits/FC.Dezerie_SwimWear,Characters/FC.Dezerie_SwimWear",
+"FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Dezerie/{{TargetWithoutPath}}.png", 
+ },
+  {
+"LogName": "SwimSuits",
+"Action": "Load",
+"Target": "Portraits/FC.Valerie_SwimWear,Characters/FC.Valerie_SwimWear",
+"FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Valerie/{{TargetWithoutPath}}.png", 
+ },
+  {
+"LogName": "SwimSuits",
+"Action": "Load",
+"Target": "Portraits/FC.Alan_SwimWear,Characters/FC.Alan_SwimWear",
+"FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Alan/{{TargetWithoutPath}}.png", 
+ },
+ {
 "LogName": "Base Portraits",
 "Action": "Load",
 "Target": "Portraits/FC.Shaavar,Characters/FC.Shaavar,Portraits/FC.Jinx,Characters/FC.Jinx,Portraits/FC.Amanda,Characters/FC.Amanda,Portraits/FC.John,Characters/FC.John,Portraits/FC.Barron,Characters/FC.Barron,Portraits/FC.Phoebe,Characters/FC.Phoebe,Portraits/FC.Thalia,Characters/FC.Thalia,Portraits/FC.FakeNpc,Characters/FC.FakeNpc,Portraits/FC.Zuuie,Characters/FC.Zuuie,Portraits/FC.Lyell,Characters/FC.Lyell,Characters/FC.Roswell,Portraits/FC.Roswell,Characters/FC.Grady,Portraits/FC.Grady,Portraits/FC.Nikolai,Portraits/FC.Kaia,Characters/FC.Nikolai,Characters/FC.Kaia,Portraits/FC.Boxy,Characters/FC.Boxy,Portraits/FC.Valerie,Portraits/FC.Alan,Characters/FC.Valerie,Characters/FC.Alan,Portraits/FC.Dezerie,Characters/FC.Dezerie",
@@ -43,7 +61,7 @@ Load TempActor Assets
  {
 "LogName": "Base Characters",
 "Action": "Load",
-"Target": "Characters/FC.ArcanianShip,Characters/FC.TillyTemp,Portraits/FC.TillyTemp,Characters/FC.CorruptedGolem,Portraits/FC.CorruptedGhost,Characters/FC.CorruptedGhost,Characters/FC.ShevitAdult,Portraits/FC.Eve,Characters/FC.Eve,Characters/FC.RockCrab,Characters/FC.Bubba,Characters/FC.Ball,Characters/FC.BarronsAlbum,Characters/FC.KingsRangoons,Characters/FC.Window,Characters/FC.FlamesTrailer,Portraits/FC.DezerieCammi,Characters/FC.DezerieCammi,Characters/FC.PopperSteal,Characters/FC.Danni,Portraits/FC.Danni,Characters/FC.Cori,Portraits/FC.Cori,Characters/FC.TrashCan,Characters/FC.Radio,Characters/FC.BabyHog,Portraits/FC.BabyHog,Characters/FC.MamaHog,Portraits/FC.MamaHog,Characters/FC.Roger,Portraits/FC.Roger,Characters/FC.SteelyBoat,Characters/FC.SeaGlassBag,Characters/FC.BeetPlot,Characters/FC.MaverickAND,Portraits/FC.MaverickAND,Characters/FC.ShevitAdult,Portraits/FC.Eve,Characters/FC.Eve,Characters/FC.RockCrab,Characters/FC.Bubba,Characters/FC.Ball,Characters/FC.BarronsAlbum,Characters/FC.KingsRangoons,Characters/FC.Window,Characters/FC.FlamesTrailer,Portraits/FC.DezerieCammi,Characters/FC.DezerieCammi,Characters/FC.PopperSteal,Characters/FC.Danni,Portraits/FC.Danni,Characters/FC.Cori,Portraits/FC.Cori,Characters/FC.TrashCan,Characters/FC.Radio,Characters/FC.BabyHog,Portraits/FC.BabyHog,Characters/FC.MamaHog,Portraits/FC.MamaHog,Characters/FC.Roger,Portraits/FC.Roger,Characters/FC.SteelyBoat,Characters/FC.SeaGlassBag,Characters/FC.BeetPlot,Characters/FC.MaverickAND,Portraits/FC.MaverickAND,Characters/FC.DoorFall,Characters/FC.Capeer,Characters/FC.Coffin,Characters/FC.Monster,Characters/FC.RoswellSwim,Characters/FC.Farmer,Characters/FC.Invention,Portraits/FC.Twinkle,Characters/FC.Twinkle,Portraits/FC.Mellie,Characters/FC.Mellie,Portraits/FC.GhostBoy,Characters/FC.StoneFamilyHug,Characters/FC.BoxysHouse,Characters/FC.FamilyPainting,Characters/FC.Objects,Characters/FC.Heart,Characters/FC.River,Characters/FC.Fishgirl,Characters/FC.Willy,Characters/FC.PotionPot,Portraits/FC.Heart,Characters/FC.Emotes,Characters/FC.PopperPC,Characters/FC.Jeremy,Characters/FC.CaveBlock,Characters/FC.Campfire,Characters/FC.GhostBoy,Characters/FC.GradyRide,Characters/FC.Rumple,Characters/FC.Aluua,Portraits/FC.Aluua,Portraits/FC.Arah,Characters/FC.Arah,Characters/FC.Mayo,Characters/FC.BoxyCakeSurprise,Characters/FC.FairyFlock,Characters/FC.BoxyCowRide,Characters/FC.BeeGroup1,Characters/FC.BeeGroup2,Characters/FC.BeeGroup3",
+"Target": "Characters/FC.WeirdCrab,Characters/FC.ArcanianShip,Characters/FC.TillyTemp,Portraits/FC.TillyTemp,Characters/FC.CorruptedGolem,Portraits/FC.CorruptedGhost,Characters/FC.CorruptedGhost,Characters/FC.ShevitAdult,Portraits/FC.Eve,Characters/FC.Eve,Characters/FC.RockCrab,Characters/FC.Bubba,Characters/FC.Ball,Characters/FC.BarronsAlbum,Characters/FC.KingsRangoons,Characters/FC.Window,Characters/FC.FlamesTrailer,Portraits/FC.DezerieCammi,Characters/FC.DezerieCammi,Characters/FC.PopperSteal,Characters/FC.Danni,Portraits/FC.Danni,Characters/FC.Cori,Portraits/FC.Cori,Characters/FC.TrashCan,Characters/FC.Radio,Characters/FC.BabyHog,Portraits/FC.BabyHog,Characters/FC.MamaHog,Portraits/FC.MamaHog,Characters/FC.Roger,Portraits/FC.Roger,Characters/FC.SteelyBoat,Characters/FC.SeaGlassBag,Characters/FC.BeetPlot,Characters/FC.MaverickAND,Portraits/FC.MaverickAND,Characters/FC.ShevitAdult,Portraits/FC.Eve,Characters/FC.Eve,Characters/FC.RockCrab,Characters/FC.Bubba,Characters/FC.Ball,Characters/FC.BarronsAlbum,Characters/FC.KingsRangoons,Characters/FC.Window,Characters/FC.FlamesTrailer,Portraits/FC.DezerieCammi,Characters/FC.DezerieCammi,Characters/FC.PopperSteal,Characters/FC.Danni,Portraits/FC.Danni,Characters/FC.Cori,Portraits/FC.Cori,Characters/FC.TrashCan,Characters/FC.Radio,Characters/FC.BabyHog,Portraits/FC.BabyHog,Characters/FC.MamaHog,Portraits/FC.MamaHog,Characters/FC.Roger,Portraits/FC.Roger,Characters/FC.SteelyBoat,Characters/FC.SeaGlassBag,Characters/FC.BeetPlot,Characters/FC.MaverickAND,Portraits/FC.MaverickAND,Characters/FC.DoorFall,Characters/FC.Capeer,Characters/FC.Coffin,Characters/FC.Monster,Characters/FC.RoswellSwim,Characters/FC.Farmer,Characters/FC.Invention,Portraits/FC.Twinkle,Characters/FC.Twinkle,Portraits/FC.Mellie,Characters/FC.Mellie,Portraits/FC.GhostBoy,Characters/FC.StoneFamilyHug,Characters/FC.BoxysHouse,Characters/FC.FamilyPainting,Characters/FC.Objects,Characters/FC.Heart,Characters/FC.River,Characters/FC.Fishgirl,Characters/FC.Willy,Characters/FC.PotionPot,Portraits/FC.Heart,Characters/FC.Emotes,Characters/FC.PopperPC,Characters/FC.Jeremy,Characters/FC.CaveBlock,Characters/FC.Campfire,Characters/FC.GhostBoy,Characters/FC.GradyRide,Characters/FC.Rumple,Characters/FC.Aluua,Portraits/FC.Aluua,Portraits/FC.Arah,Characters/FC.Arah,Characters/FC.Mayo,Characters/FC.BoxyCakeSurprise,Characters/FC.FairyFlock,Characters/FC.BoxyCowRide,Characters/FC.BeeGroup1,Characters/FC.BeeGroup2,Characters/FC.BeeGroup3",
 "FromFile": "Assets/Npcs/TempActors/{{TargetPathOnly}}/{{TargetWithoutPath}}.png", 
  },
  {

@@ -4,7 +4,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
                            "When": {
-          "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": true,
+           "HasFlag|contains=landslideDone": true,
             },
             "TextOperations": [
                 {
@@ -41,7 +41,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring24",
                             "When": {
-          "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": true,
+           "HasFlag|contains=landslideDone": true,
             },
             "TextOperations": [
                 {
@@ -78,7 +78,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer11",
                            "When": {
-          "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": true,
+           "HasFlag|contains=landslideDone": true,
             },
             "TextOperations": [
                 {
@@ -115,7 +115,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer28",
                      "When": {
-          "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": true,
+           "HasFlag|contains=landslideDone": true,
             },
             "TextOperations": [
                 {
@@ -152,7 +152,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall3,Data/Festivals/winter3",
                        "When": {
-          "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": true,
+           "HasFlag|contains=landslideDone": true,
             },
             "TextOperations": [
                 {
@@ -179,7 +179,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall16",
                    "When": {
-          "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": true,
+           "HasFlag|contains=landslideDone": true,
             },
             "TextOperations": [
                 {
@@ -197,7 +197,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",
                              "When": {
-          "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": true,
+           "HasFlag|contains=landslideDone": true,
             },
             "TextOperations": [
                 {
@@ -234,7 +234,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/winter25",
                              "When": {
-          "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": true,
+           "HasFlag|contains=landslideDone": true,
             },
             "TextOperations": [
                 {

@@ -202,7 +202,7 @@
   "Target": "Maps/{{ModID}}_LyellsProperty",
   "Update": "OnTimeChange, OnLocationChange",
   "When": {
-  "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
+ "HasFlag |contains=landslideDone": true,
  },
   "MapTiles": [
 {
@@ -215,69 +215,6 @@
 "Action": "LockedDoorWarp 7 20 {{ModID}}_LyellsHouse 700 2200"
   },
 
-}
-  ]
-},
- {
-  "LogName": "StoneDoorOpen",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_OldGraveYard",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
-},
-  "MapTiles": [
-{
-  "Position": {
-"X":13,
-"Y": 62
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
-"Action": "LockedDoorWarp 7 24 {{ModID}}_StoneHouse 700 2200"
-  },
-}
-  ]
-},
-{
-  "LogName": "LeslaDoorOpen",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_OldGraveYard",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
-},
-  "MapTiles": [
-{
-  "Position": {
-"X": 33,
-"Y": 11
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
-"Action": "LockedDoorWarp 21 14 {{ModID}}_LeslaHouse 900 2200"
-  },
-}
-  ]
-},
-  {
-  "LogName": "MaverickDoorOpen",
-  "Action": "EditMap",
-  "Update": "OnTimeChange, OnLocationChange",
-  "Target": "Maps/{{ModID}}_OldGraveYard",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_TheStatue": true,
-},
-  "MapTiles": [
-{
-  "Position": {
-"X": 8,
-"Y": 43
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
-"Action": "LockedDoorWarp 8 14 {{ModID}}_MavericksHouse 900 2200 FC.Maverick 500"
-  },
 }
   ]
 },

@@ -75,7 +75,7 @@ Schedule Strings
 }, 
 "When": {
 
-   "HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
+  "HasFlag |contains=landslideDone": true,
 }
 },
 ]

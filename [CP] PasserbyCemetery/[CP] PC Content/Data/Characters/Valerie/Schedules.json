@@ -64,7 +64,7 @@
 
 }, 
 "When": {
- "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
+"HasFlag |contains=landslideDone": true,
 }
 },
 ]

@@ -45,7 +45,7 @@
 "GreenRain": "900 {{ModID}}_TempleRuins 7 16 2 \"Strings\\schedules\\FC.Popper:Popper.GreenRain\"",
  },
    "When": {
- "HasSeenEvent |contains={{ModID}}_PopsBeachVisit": true,  
+"HasFlag |contains=landslideDone": true,  
       "HasFlag |contains={{ModID}}_Temple.Mail": false,       
 
     }
