@@ -5,11 +5,11 @@
 "Target": "Data/Fish",
 "Entries": {
 "{{ModID}}_BoneyHeadedGraveFish": "{{i18n:FC.BoneyHeadedGraveFish}}/110/mixed/50/50/600 2000/winter/rainy/688 .05/5/0/.1/10/false",
-"{{ModID}}_IficusFish": "{{i18n:FC.IficusFish}}/30/mixed/5/15/600 1900/spring summer/sunny/683 .2/1/.45/.1/0/true",
-"{{ModID}}_DancerFish": "{{i18n:FC.DancerFish}}/25/dart/8/20/600 2600/spring summer/both/685 .2/1/.45/.1/0/true",
-"{{ModID}}_RiverBedJelly": "{{i18n:FC.RiverBedJelly}}/95/sinker/12/48/600 1300/fall/both/688 .6 684 .1/5/.1/.08/0/true",
+"{{ModID}}_IficusFish": "{{i18n:FC.IficusFish}}/30/mixed/5/15/600 1900/spring/sunny/683 .2/1/.45/.1/0/true",
+"{{ModID}}_DancerFish": "{{i18n:FC.DancerFish}}/25/dart/8/20/600 2600/summer/both/685 .2/1/.45/.1/0/true",
+"{{ModID}}_RiverBedJelly": "{{i18n:FC.RiverBedJelly}}/75/sinker/12/48/600 2600/winter/both/690 .35 680 .1/3/.35/.3/0/true",
 "{{ModID}}_GraveCrab": "{{i18n:FC.GraveCrab}}/trap/.1/684 .45/freshwater/1/20/false",
-"{{ModID}}_GulpFish": "{{i18n:FC.GulpFish}}/65/mixed/8/24/600 2000/spring summer fall winter/both/682 .2/1/.65/.1/0/false",
+"{{ModID}}_GulpFish": "{{i18n:FC.GulpFish}}/65/mixed/8/24/600 2000/summer/both/682 .2/1/.65/.1/0/false",
 
 }
 },

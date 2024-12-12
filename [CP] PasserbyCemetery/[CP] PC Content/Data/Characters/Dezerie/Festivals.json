@@ -71,7 +71,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Dezerie 15 34 1",
+                    "Value": "FC.Dezerie 22 31 3",
                     "Delimiter": "/"
                 },
                      {
@@ -80,7 +80,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Dezerie 15 34 1",
+                    "Value": "FC.Dezerie 22 31 3",
                     "Delimiter": "/"
                 },
         ]
@@ -99,7 +99,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Dezerie 15 34 1",
+                    "Value": "FC.Dezerie 22 31 3",
                     "Delimiter": "/",
                 },
                      {
@@ -108,7 +108,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Dezerie 15 34 2",
+                    "Value": "FC.Dezerie 22 31 2",
                     "Delimiter": "/"
                 },
         ]
@@ -136,6 +136,24 @@
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
                     "Value": "FC.Dezerie 17 25 1",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Dezerie 24 76 2",
                     "Delimiter": "/"
                 },
         ]

@@ -67,6 +67,94 @@
 "{{ModID}}_HeaviousMeekCake.Mail": "{{i18n:FC.HeaviousMeekCake.Mail}} %item cookingRecipe {{ModID}}_HeaviousMeekCake %%[#]{{i18n:FC.HeaviousMeekCake.Mail.Title}}",
 "{{ModID}}_HeaviousFruitLollipop.Mail": "{{i18n:FC.HeaviousFruitLollipop.Mail}} %item cookingRecipe {{ModID}}_HeaviousFruitLollipop %%[#]{{i18n:FC.HeaviousFruitLollipop.Mail.Title}}",
 "{{ModID}}_MeekFruitLollipop.Mail": "{{i18n:FC.MeekFruitLollipop.Mail}} %item cookingRecipe {{ModID}}_MeekFruitLollipop %%[#]{{i18n:FC.MeekFruitLollipop.Mail.Title}}",
+
+"{{ModID}}_MashedGiggles.Mail": "{{i18n:FC.MashedGiggles.Mail}} %item cookingRecipe {{ModID}}_MashedGiggles %%[#]{{i18n:FC.MashedGiggles.Mail.Title}}",
+"{{ModID}}_GiggleSmoothie.Mail": "{{i18n:FC.GiggleSmoothie.Mail}} %item cookingRecipe {{ModID}}_GiggleSmoothie %%[#]{{i18n:FC.GiggleSmoothie.Mail.Title}}",
+"{{ModID}}_GiggleBowlSalad.Mail": "{{i18n:FC.GiggleBowlSalad.Mail}} %item cookingRecipe {{ModID}}_GiggleBowlSalad %%[#]{{i18n:FC.GiggleBowlSalad.Mail.Title}}",
+
+"{{ModID}}_PopsBigChange.Mail": "{{i18n:FC.PopsBigChange.Mail}}[#]{{i18n:FC.PopsBigChange.Mail.Title}}",
+"{{ModID}}_PassedOutCottons.Mail": "{{i18n:FC.PassedOutCottons.Mail}}[#]{{i18n:FC.PassedOutCottons.Mail.Title}}",
+
+}
+},
+{
+"LogName": "PopsBigChange",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_TrueShape.Trigger":  {
+"Id": "{{ModID}}_TrueShape.Trigger",
+"Trigger": "LocationChanged",
+"Condition": "PLAYER_HAS_CONVERSATION_TOPIC current FC.TrueShape",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_TrueShape.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "PopsBigChange",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_PopsBigChange.Trigger":  {
+"Id": "{{ModID}}_PopsBigChange.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Popper 1750,PLAYER_HAS_SEEN_EVENT current {{ModID}}_PopsNewHome",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_PopsBigChange.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "MashedGiggles",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_MashedGiggles.Trigger":  {
+"Id": "{{ModID}}_MashedGiggles.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Cotton 250,SEASON Spring",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_MashedGiggles.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "GiggleSmoothie",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_GiggleSmoothie.Trigger":  {
+"Id": "{{ModID}}_GiggleSmoothie.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Cotton 750,SEASON Summer",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_GiggleSmoothie.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "GiggleBowlSalad",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_GiggleBowlSalad.Trigger":  {
+"Id": "{{ModID}}_GiggleBowlSalad.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Cotton 1200,SEASON Summer",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_GiggleBowlSalad.Mail",
+"Actions": null,
+"CustomFields": {}
+}
 }
 },
 {
@@ -1087,5 +1175,19 @@
 }
 }
 },
+     {
+        "LogName": "Trigger Action - GiggleFit Giggles",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+          "{{ModID}}_GiggleFitEat": {
+            "Id": "{{ModID}}_GiggleFit",
+            "Trigger": "spacechase0.SpaceCore_OnItemEaten",
+            "Action": "spacechase0.SpaceCore_PlaySound {{ModID}}_GiggleFitGiggle true",
+            "MarkActionApplied": false,
+            "Condition": "ITEM_ID Input (O){{ModID}}_GiggleFit"
+          }
+        }
+      },
 ]
 }

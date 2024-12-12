@@ -13,8 +13,8 @@
 "PetMessage": [
 "{{i18n:FC.Capeer.01}}"
 ],
-"HomeTileX": 21,
-"HomeTileY": 65,
+"HomeTileX": 16,
+"HomeTileY": 64,
 "Condition": ""
 },
 }

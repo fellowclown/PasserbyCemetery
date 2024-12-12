@@ -5,9 +5,15 @@
 "Action": "EditData",
 "Target": "Data/animationDescriptions",
 "Entries": {
-    "{{ModID}}_PhoebeKneel3":"16/16/16",
-    "{{ModID}}_PhoebeSit2":"18/18/18",
-     "{{ModID}}_PhoebeSleep":"12/12/12",
+"{{ModID}}_PhoebeKneel3":"16/16/16",
+"{{ModID}}_PhoebeSitLook2":"18/18 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 2019 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18/18",
+"{{ModID}}_PhoebeSleep":"29/29/29//offset 30 0",
+"{{ModID}}_PhoebeSit1":"21/21/21",
+"{{ModID}}_PhoebeSit2":"18/18/18",
+"{{ModID}}_PhoebeSit3":"22/22/22",
+"{{ModID}}_PhoebeSit0":"23/23/23",
+"{{ModID}}_PhoebeIdle":"24/24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 25 25 25 25 25 25 25 25 25 25 25 25 25 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27/27",
+"{{ModID}}_PhoebeExercise":"32/32 32 32 32 32 32 32 32 32 33 33 33 33 33 33 33 33 33 33 33 34 34 34 34 34 34 34 34 34 34 34 34 33 33 33 33 33 33 33 33 33 33 33 33 33 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 33 33 33 33 33 33 33 33 33 33/32",
 }
  },
   {
@@ -19,57 +25,61 @@
 "Phoebe.DesertFestival": "{{i18n:Phoebe.DesertFestival}}",
 "Phoebe.TroutDerby": "{{i18n:Phoebe.TroutDerby}}",
 "Phoebe.SquidFest": "{{i18n:Phoebe.SquidFest}}",
+"Phoebe.Sleeping": "{{i18n:Phoebe.Sleeping}}",
 }
  },
  ////Tuesday, Thursday,Saturday,Sunday at east scarp
  ////Monday, Wednesday,Friday at the refuge
-         {
-            "LogName": "Schedule Edit",
+ {
+"LogName": "Schedule Edit",
 "Action": "EditData",
 "Target": "Characters/schedules/FC.Phoebe",
 "Update": "OnTimeChange, OnLocationChange",
 "Entries": {
 "spring": "GOTO Mon",
 
-"Mon": "700 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/1200 {{ModID}}_MavericksHouse 7 11 2 {{ModID}}_PhoebeSit2/1400 {{ModID}}_OldGraveYard 48 33 2/1900 {{ModID}}_OldGraveYard 7 35 1/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep",
+"Mon": "900 Town 25 53 2 {{ModID}}_PhoebeIdle/1200 {{ModID}}_TravelingTrailer 22 13 2/1500 {{ModID}}_MavericksHouse 7 11 2 {{ModID}}_PhoebeSit2/1800 {{ModID}}_TravelingTrailer 9 14 2 {{ModID}}_PhoebeSit2/2200 {{ModID}}_TravelingTrailerDecker 23 16 1 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.Sleeping\"", 
 
-"Tue": "700 Town 71 91 2 {{ModID}}_PhoebeSit2/1200 Saloon 7 19 2 {{ModID}}_PhoebeSit2/1400 Beach 43 34 2 {{ModID}}_PhoebeSit2/1900 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep",
+"Tue": "900 SeedShop 22 22 1/1300 SeedShop 22 22 2 {{ModID}}_PhoebeExercise/1500 {{ModID}}_OldGraveYard 19 50 3/2000 {{ModID}}_OldGraveYard 42 32 2/2200 {{ModID}}_TravelingTrailerDecker 23 16 1 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.Sleeping\"", 
 
-"Wed": "700 Beach 43 34 2 {{ModID}}_PhoebeSit2/1200 {{ModID}}_MavericksHouse 7 11 2 {{ModID}}_PhoebeSit2/1700 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/1900 {{ModID}}_TravelingTrailerDecker 3 15 3/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep",
+"Wed": "900 {{ModID}}_TravelingTrailer 22 13 2 {{ModID}}_PhoebeIdle/1200 {{ModID}}_OldGraveYard 43 32 2 {{ModID}}_PhoebeSit2/1330 {{ModID}}_TravelingTrailer 22 13 2 {{ModID}}_PhoebeIdle/1500 {{ModID}}_OldGraveYard 19 50 3/2000 {{ModID}}_TravelingTrailerDecker 23 16 1 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.Sleeping\"", 
 
-"Thu": "700 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/1200 Town 71 91 2 {{ModID}}_PhoebeSit2/1400 Saloon 7 19 2 {{ModID}}_PhoebeSit2/1900 {{ModID}}_TravelingTrailerDecker 5 11 0/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep",
+"Thu": "900 {{ModID}}_StoneHouse 7 22 3/1200 {{ModID}}_Exhibit 12 9 1/1400 {{ModID}}_TravelingTrailer 9 14 2 {{ModID}}_PhoebeSit2/1600 {{ModID}}_TravelingTrailer 22 13 2 {{ModID}}_PhoebeIdle/2000 {{ModID}}_OldGraveYard 43 32 2 {{ModID}}_PhoebeSit2/2200 {{ModID}}_TravelingTrailerDecker 23 16 1 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.Sleeping\"", 
 
-"Fri": "700 {{ModID}}_TravelingTrailer 22 13 2/1200 {{ModID}}_OldGraveYard 48 33 2/1400 {{ModID}}_TravelingTrailer 22 13 2/1900 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep", ///work day
+"Fri": "GOTO Wed", 
 
-"Sat": "700 {{ModID}}_TravelingTrailer 22 13 2/1200 {{ModID}}_OldGraveYard 48 33 2/1400 {{ModID}}_TravelingTrailer 22 13 2/1900 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep", ///work day
+"Sat": "GOTO Wed", 
+"Sun": "GOTO Wed", 
 
-"Sun": "700 {{ModID}}_TravelingTrailer 22 13 2/1200 {{ModID}}_OldGraveYard 7 35 1/1400 {{ModID}}_TravelingTrailer 22 13 2/1900 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep", ///work day
+"rain": "GOTO Thu", 
 
-"rain": "700 {{ModID}}_TravelingTrailer 22 13 2/1200 {{ModID}}_TravelingTrailerDecker 20 18 0/1400 {{ModID}}_TravelingTrailer 22 13 2/1900 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_PhoebeSit2/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep", ///work day
-
-"GreenRain": "700 {{ModID}}_TravelingTrailer 22 13 2 \"Strings\\schedules\\FC.Phoebe:Phoebe.GreenRain\"/1200 {{ModID}}_TravelingTrailerDecker 3 15 3/1400 {{ModID}}_TravelingTrailer 22 13 2/1900 {{ModID}}_TravelingTrailer/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.GreenRain\"",
-"DesertFestival": "610 Desert 16 9 2 \"Strings\\schedules\\FC.Phoebe:Phoebe.DesertFestival\"/2130 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep",
-"TroutDerby": "610 Forest 84 49 3 \"Strings\\schedules\\FC.Phoebe:Phoebe.TroutDerby\"/2130 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep",
-"SquidFest": "610 Beach 12 9 0 \"Strings\\schedules\\FC.Phoebe:Phoebe.SquidFest\"/2130 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep",
+"GreenRain": "700 {{ModID}}_TravelingTrailer 22 13 2 \"Strings\\schedules\\FC.Phoebe:Phoebe.GreenRain\"/1200 {{ModID}}_TravelingTrailerDecker 3 15 3/1400 {{ModID}}_TravelingTrailer 22 13 2/1900 {{ModID}}_TravelingTrailer/2000 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.Sleeping\"",
+"DesertFestival": "610 Desert 16 9 2 \"Strings\\schedules\\FC.Phoebe:Phoebe.DesertFestival\"/2130 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.Sleeping\"",
+"TroutDerby": "610 Forest 84 49 3 \"Strings\\schedules\\FC.Phoebe:Phoebe.TroutDerby\"/2130 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.Sleeping\"",
+"SquidFest": "610 Beach 12 9 0 \"Strings\\schedules\\FC.Phoebe:Phoebe.SquidFest\"/2130 {{ModID}}_TravelingTrailerDecker 23 16 2 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.Sleeping\"",
 },
 
-     "When": {
+ "When": {
  "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
 }
 },
-         {
-            "LogName": "Schedule Edit",
+   {
+"LogName": "Phoebe's saloon Schedule",
 "Action": "EditData",
 "Target": "Characters/schedules/FC.Phoebe",
-"Update": "OnTimeChange, OnLocationChange",
 "Entries": {
-"Sun": "",
-    },
+"Tue": "900 SeedShop 22 22 1/1300 SeedShop 22 22 2 {{ModID}}_PhoebeExercise/1500 {{ModID}}_TurnaboutSaloon 15 5 2/2000 {{ModID}}_OldGraveYard 42 32 2/2200 {{ModID}}_TravelingTrailerDecker 23 16 1 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.Sleeping\"", 
 
-     "When": {
-"HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
-"HasSeenEvent |contains={{ModID}}_TheTemple": true,
-"HasFlag |contains={{ModID}}_Temple": true,
+"Wed": "900 {{ModID}}_TravelingTrailer 22 13 2 {{ModID}}_PhoebeIdle/1200 {{ModID}}_OldGraveYard 43 32 2 {{ModID}}_PhoebeSit2/1330 {{ModID}}_TurnaboutSaloon 15 5 2/1500 {{ModID}}_OldGraveYard 19 50 3/2000 {{ModID}}_TravelingTrailerDecker 23 16 1 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.Sleeping\"", 
+
+"Thu": "900 {{ModID}}_StoneHouse 7 22 3/1200 {{ModID}}_Exhibit 12 9 1/1400 {{ModID}}_TravelingTrailer 9 14 2 {{ModID}}_PhoebeSit2/1600 {{ModID}}_TurnaboutSaloon 15 5 2/2000 {{ModID}}_OldGraveYard 43 32 2 {{ModID}}_PhoebeSit2/2200 {{ModID}}_TravelingTrailerDecker 23 16 1 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.Sleeping\"", 
+
+"Fri": "GOTO Wed", 
+
+"Sat": "GOTO Wed",
+}, 
+"When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
 }
 },
 ]

@@ -1,5 +1,97 @@
 {
 "Changes": [
+            {
+"LogName": "Passerby Cliffs",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_PasserbyCliffs": {
+"DisplayName": "{{i18n:FC.PasserbyCliffs}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_PasserbyCliffs"
+},
+"DefaultArrivalTile": {
+"X": 11,
+"Y":36
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage":  [],
+"CustomFields": {}
+}
+}
+},
+        {
+"LogName": "Turnabout Saloon",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_TurnaboutSaloon": {
+"DisplayName": "{{i18n:FC.TurnaboutSaloon}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_TurnaboutSaloon"
+},
+"DefaultArrivalTile": {
+"X": 10,
+"Y":25
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage":  [],
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "Turnabout Saloon",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_TurnaboutSaloonBasement": {
+"DisplayName": "{{i18n:FC.TurnaboutSaloonBasement}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_TurnaboutSaloonBasement"
+},
+"DefaultArrivalTile": {
+"X": 1,
+"Y":5
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage":  [],
+"CustomFields": {}
+}
+}
+},
+    {
+"LogName": "Pops Temple Room",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_PoppersRoom": {
+"DisplayName": "{{i18n:FC.PoppersRoom}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_PoppersRoom"
+},
+"DefaultArrivalTile": {
+"X": 8,
+"Y":13
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage":  [],
+"CustomFields": {}
+}
+}
+},
     {
 "LogName": "Edit Town",
 "Action": "EditData",
@@ -691,12 +783,45 @@
 "Y": 25
 },
 "ExcludeFromNpcPathfinding": false,
+"CanHaveGreenRainSpawns": false,
 "ArtifactSpots": [],
 "FishAreas": {},
 "Fish": [],
 "Forage": [],
 "CustomFields": {}
 }
+}
+},
+{
+"LogName": "CottonsHouse",
+"Action": "EditData",
+"Target": "Data/LocationContexts",
+"Entries": {
+  "{{ModID}}_CottonsHome": {
+    "CopyWeatherFromLocation": "Desert",
+    "ReviveLocations": [
+      {
+        "Id": "Default",
+        "Condition": null,
+        "Location": "{{ModID}}_CottonsHome",
+        "Position": {
+          "X": 13,
+          "Y": 7
+        }
+      }
+    ],
+    "MaxPassOutCost": 0,
+    "PassOutMail": [
+      {
+        "Id": "{{ModID}}.FoundByCotton",
+        "Condition": null,
+        "Mail": "{{ModID}}_PassedOutCottons.Mail",
+        "MaxPassOutCost": 50,
+        "SkipRandomSelection": true
+      },
+    ],
+    "CustomFields": null
+  },
 }
 },
    {
@@ -842,7 +967,7 @@
 "Target": "Data/Locations",
 "Entries": {
 "{{ModID}}_LyellsHouse": {
-"DisplayName": "{{i18n:FC.HalkiasResidence}}",
+"DisplayName": "{{i18n:FC.Halkiasresidents}}",
 "CreateOnLoad": {
 "MapPath": "Maps/{{ModID}}_LyellsHouse"
 },
@@ -957,7 +1082,7 @@
 "Target": "Data/Locations",
 "Entries": {
 "{{ModID}}_MavericksHouse": {
-"DisplayName": "{{i18n:FC.LoveJoyResidence}}",
+"DisplayName": "{{i18n:FC.LoveJoyresidents}}",
 "CreateOnLoad": {
 "MapPath": "Maps/{{ModID}}_MavericksHouse"
 },
@@ -1356,10 +1481,10 @@
 "{{ModID}}_OldGraveYard": {
 "DisplayName": "{{i18n:FC.PasserbyCemetery}}",
    "Position": {
-  "X": 29,
-  "Y": 47,
-  "Width": 200,
-  "Height": 200
+  "X": 0,
+  "Y": 0,
+  "Width": 1000,
+  "Height": 1000
 },
 "CrabPotFishTypes": [
   "freshwater"
@@ -1877,7 +2002,7 @@
 "Target":"Data/Locations",
 "Entries":{
 "{{ModID}}_LeslaHouse":{
-"DisplayName":"{{i18n:FC.LeslaResidence}}",
+"DisplayName":"{{i18n:FC.Leslaresidents}}",
 "CreateOnLoad":{
 "MapPath":"Maps/{{ModID}}_LeslaHouse"
 },
@@ -1923,7 +2048,7 @@
 "Target": "Data/Locations",
 "Entries": {
 "{{ModID}}_StoneHouse": {
-"DisplayName": "{{i18n:FC.StoneResidence}}",
+"DisplayName": "{{i18n:FC.Stoneresidents}}",
 "CreateOnLoad": {
 "MapPath": "Maps/{{ModID}}_StoneHouse"
 },
@@ -2228,6 +2353,13 @@
 "GraveYard.55": "{{i18n:GraveYard.55}}",
 "GraveYard.56": "{{i18n:GraveYard.56}}",
 "GraveYard.57": "{{i18n:GraveYard.57}}",
+"GraveYard.58": "{{i18n:GraveYard.58}}",
+"GraveYard.59": "{{i18n:GraveYard.59}}",
+"GraveYard.60": "{{i18n:GraveYard.60}}",
+"GraveYard.61": "{{i18n:GraveYard.61}}",
+"GraveYard.62": "{{i18n:GraveYard.62}}",
+"GraveYard.63": "{{i18n:GraveYard.63}}",
+"GraveYard.64": "{{i18n:GraveYard.64}}",
 "GraveYard.Bones": "{{i18n:GraveYard.Bones}}",
 "GraveYard.BigPinkFlower": "{{i18n:GraveYard.BigPinkFlower}}",
 "GraveYard.ForSale": "{{i18n:GraveYard.ForSale}}",
@@ -2440,6 +2572,31 @@
 "Guardian.CowToy": "{{i18n:Guardian.CowToy}}",
 "Guardian.Shrine": "{{i18n:Guardian.Shrine}}",
 "GuideTable": "{{i18n:GuideTable}}",
+"Temple.Ladder": "{{i18n:Temple.Ladder}}",
+"Exhibit.ZuutStatue": "{{i18n:Exhibit.ZuutStatue}}",
+"GraveYard.ComingSoonSaloon": "{{i18n:GraveYard.ComingSoonSaloon}}",
+"Turnabout.DodoTwin1": "{{i18n:Turnabout.DodoTwin1}}",
+"Turnabout.DodoTwin2": "{{i18n:Turnabout.DodoTwin2}}",
+"Turnabout.EvesRoom": "{{i18n:Turnabout.EvesRoom}}",
+"Turnabout.LegendaryFish": "{{i18n:Turnabout.LegendaryFish}}",
+"Turnabout.FrogContainment": "{{i18n:Turnabout.FrogContainment}}",
+"Turnabout.Planter": "{{i18n:Turnabout.Planter}}",
+"Turnabout.PoolTable": "{{i18n:Turnabout.PoolTable}}",
+"Turnabout.FirePlace": "{{i18n:Turnabout.FirePlace}}",
+"Turnabout.Lift": "{{i18n:Turnabout.Lift}}",
+"Turnabout.StoryTellerMachine.OutOfOrder": "{{i18n:Turnabout.StoryTellerMachine.OutOfOrder}}",
+"Turnabout.Radio": "{{i18n:Turnabout.Radio}}",
+"Turnabout.Stove": "{{i18n:Turnabout.Stove}}",
+"Turnabout.Sink": "{{i18n:Turnabout.Sink}}",
+"Turnabout.Fridge": "{{i18n:Turnabout.Fridge}}",
+"Turnabout.CandyStand": "{{i18n:Turnabout.CandyStand}}",
+"Turnabout.SweetsTable": "{{i18n:Turnabout.SweetsTable}}",
+"Turnabout.RestRoom": "{{i18n:Turnabout.RestRoom}}",
+"Turnabout.Board": "{{i18n:Turnabout.Board}}",
+"Turnabout.BeerStorage": "{{i18n:Turnabout.BeerStorage}}",
+"Turnabout.FoodStorage": "{{i18n:Turnabout.FoodStorage}}",
+"Turnabout.Storage": "{{i18n:Turnabout.Storage}}",
+"FC.ApplegateResidents": "{{i18n:FC.ApplegateResidents}}",
 }
  },
 ]

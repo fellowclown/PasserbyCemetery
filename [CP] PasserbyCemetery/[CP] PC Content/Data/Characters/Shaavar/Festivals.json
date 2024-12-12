@@ -23,7 +23,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Shaavar 38 70 3",
+                    "Value": "FC.Shaavar 37 70 0",
                     "Delimiter": "/"
                 },
         ]
@@ -169,6 +169,27 @@
                 },
         ]
     },
+                {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+    "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
+
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Shaavar 26 77 3",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+       
        {
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",

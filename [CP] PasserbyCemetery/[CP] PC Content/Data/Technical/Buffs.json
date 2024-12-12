@@ -1,181 +1,290 @@
 {
-    "Changes": [
- {
-           "LogName": "Wearable Data",
-            "Action": "EditData",
-            "Target": "spacechase0.SpaceCore/WearableData",
-            "Entries":
-            {
-                "{{ModID}}_EternalEmbraceRing": { "BuffIdToApply": "{{ModID}}_EternalEmbraceRing.Buff" },
-                "{{ModID}}_BehatedRing": { "BuffIdToApply": "{{ModID}}_BehatedRing.Buff" },
-                "{{ModID}}_BullsFuryRing": { "BuffIdToApply": "{{ModID}}_BullsFuryRing.Buff" },
-                "{{ModID}}_TheStingerRing": { "BuffIdToApply": "{{ModID}}_TheStingerRing.Buff" },
-                "{{ModID}}_VoidlingRing": { "BuffIdToApply": "{{ModID}}_VoidlingRing.Buff" },
-            },
-
+  "Changes": [
+    {
+      "LogName": "Wearable Data",
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/WearableData",
+      "Entries": {
+        "(O){{ModID}}_EternalEmbraceRing": {
+          "BuffIdToApply": "{{ModID}}_EternalEmbraceRing.Buff"
         },
-        {
-            "LogName": "EternalEmbraceRing",
-            "Action": "EditData",
-            "Target": "Data/Buffs",
-            "Entries":
-            {
-              "{{ModID}}_EternalEmbraceRing.Buff": {
-    "DisplayName": "{{i18n:FC.EternalEmbraceRing.Buff}}",
-    "Description": null,
-    "IsDebuff": true,
-    "GlowColor": "#243B243F",
-    "Duration": 600000,
-    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
-    "IconSpriteIndex": 0,
-    "Effects": {"Defense": 6 },
-    "ActionsOnApply": null,
-    "CustomFields": null
-  },
-            },
+        "(O){{ModID}}_BehatedRing": {
+          "BuffIdToApply": "{{ModID}}_BehatedRing.Buff"
         },
-        {
-            "Action": "EditData",
-            "Target": "Data/Buffs",
-            "Entries":
-            {
-                     "{{ModID}}_BehatedRing.Buff": {
-                    "DisplayName":"{{i18n:FC.BehatedRing.Buff}}",
-                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
-                    "IconSpriteIndex": 4,
-                    "Effects": { "Attack": 3
-                     }
-                }
-            }
+        "(O){{ModID}}_BullsFuryRing": {
+          "BuffIdToApply": "{{ModID}}_BullsFuryRing.Buff"
         },
-        {
-            "Action": "EditData",
-            "Target": "Data/Buffs",
-            "Entries":
-            {
-                     "{{ModID}}_BullsFuryRing.Buff": {
-                    "DisplayName":"{{i18n:FC.BullsFuryRing.Buff}}",
-                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
-                    "IconSpriteIndex": 2,
-                    "Effects": { 
-                    "Attack": 4,
-                    "Speed": 2,
-                     }
-                }
-            }
+        "(O){{ModID}}_TheStingerRing": {
+          "BuffIdToApply": "{{ModID}}_TheStingerRing.Buff"
         },
-        {
-            "Action": "EditData",
-            "Target": "Data/Buffs",
-            "Entries":
-            {
-                     "{{ModID}}_TheStingerRing.Buff": {
-                    "DisplayName":"{{i18n:FC.TheStingerRing.Buff}}",
-                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
-                    "IconSpriteIndex": 3,
-                    "Effects": { 
-                    "FarmingLevel": 2,
-                    "Speed": 4,
-                     }
-                }
-            }
+        "(O){{ModID}}_VoidlingRing": {
+          "BuffIdToApply": "{{ModID}}_VoidlingRing.Buff"
         },
-               {
-            "Action": "EditData",
-            "Target": "spacechase0.SpaceCore/WearableData",
-            "Entries":
-            {
-                "{{ModID}}_ShellRing": { "BuffIdToApply": "{{ModID}}_ShellRing.Buff" },
-              }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Buffs",
-            "Entries":
-            {
-                     "{{ModID}}_ShellRing.Buff": {
-                    "DisplayName":"{{i18n:FC.ShellRing.Buff}}",
-                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
-                    "IconSpriteIndex": 6,
-                    "Effects": { 
-                    "Defense": 8,
-                    "Speed": -3,
-                     }
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Buffs",
-            "Entries":
-            {
-                     "{{ModID}}_VoidlingRing.Buff": {
-                    "DisplayName":"{{i18n:FC.VoidlingRing.Buff}}",
-                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
-                    "IconSpriteIndex": 5,
-                    "Effects": { 
-                    "Attack": 4,
-                    "Speed": 3,
-                    "Defense": 1,
-                     }
-                }
-            }
-        },
-           {
-            "Action": "EditData",
-            "Target": "Data/Buffs",
-            "Entries":
-            {
-                     "{{ModID}}_YobasBlessing.Buff": {
-                    "DisplayName":"{{i18n:FC.YobasBlessing.Buff}}",
-                    "Duration": 900000,
-                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
-                    "IconSpriteIndex": 1,
-                    "Effects": { 
-                    "LuckLevel": 2,
-                    "Speed": 1,
-                    "Defense": 1,
-
-                     }
-                }
-            }
-        },
-            {
-            "Action": "EditData",
-            "Target": "Data/Buffs",
-            "Entries":
-            {
-                    "{{ModID}}_ArahsBlessing.Buff": {
-                    "DisplayName":"{{i18n:FC.ArahsBlessing.Buff}}",
-                    "Duration": 900000,
-                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
-                    "IconSpriteIndex": 7,
-                    "Effects": { 
-                    "MaxStamina": 100,
-                    "Defense": 3,
-                    "Attack": 3,
-
-
-                     }
-                }
-            }
-        },
-           {
-            "Action": "EditData",
-            "Target": "Data/Buffs",
-            "Entries":
-            {
-                    "{{ModID}}_Illness.Buff": {
-                    "DisplayName":"{{i18n:FC.Illness.Buff}}",
-                    "Duration": 900000,
-                    "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
-                    "IconSpriteIndex": 8,
-                    "Effects": { 
-                    "Speed": -4,
-                    "Defense": -3,
-                     }
-                }
-            }
-        },  
+      }
+    },
+         {
+        "LogName": "Trigger Action - Mashed Giggles",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+          "{{ModID}}_EatMashedGiggles": {
+            "Id": "{{ModID}}_MashedGiggles",
+            "Trigger": "spacechase0.SpaceCore_OnItemEaten",
+            "Action": "spacechase0.SpaceCore_ApplyBuff {{ModID}}_GoblinMode.Buff true",
+            "MarkActionApplied": false,
+            "Condition": "ITEM_ID Input (O){{ModID}}_MashedGiggles"
+          }
+        }
+      },
+       {
+        "LogName": "Trigger Action -GiggleSmoothie",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+          "{{ModID}}_DrinkGiggleSmoothie": {
+            "Id": "{{ModID}}_GiggleSmoothie",
+            "Trigger": "spacechase0.SpaceCore_OnItemEaten",
+            "Action": "spacechase0.SpaceCore_ApplyBuff {{ModID}}_GoblinMode.Buff true",
+            "MarkActionApplied": false,
+            "Condition": "ITEM_ID Input (O){{ModID}}_GiggleSmoothie"
+          }
+        }
+      },
+             {
+        "LogName": "Trigger Action -GiggleBowlSalad",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+          "{{ModID}}_EatGiggleBowlSalad": {
+            "Id": "{{ModID}}_GiggleBowlSalad",
+            "Trigger": "spacechase0.SpaceCore_OnItemEaten",
+            "Action": "spacechase0.SpaceCore_ApplyBuff {{ModID}}_GoblinMode.Buff true",
+            "MarkActionApplied": false,
+            "Condition": "ITEM_ID Input (O){{ModID}}_GiggleBowlSalad"
+          }
+        }
+      },
+             {
+        "LogName": "Trigger Action -GiggleBowlSalad",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+          "{{ModID}}_DrinkVoidMilk": {
+            "Id": "{{ModID}}_VoidMilk",
+            "Trigger": "spacechase0.SpaceCore_OnItemEaten",
+            "Action": "spacechase0.SpaceCore_ApplyBuff {{ModID}}_GoblinMode.Buff true",
+            "MarkActionApplied": false,
+            "Condition": "ITEM_ID Input (O){{ModID}}_VoidMilk"
+          }
+        }
+      },
+    {
+      "LogName": "EternalEmbraceRing",
+      "Action": "EditData",
+      "Target": "Data/Buffs",
+      "Entries": {
+        "{{ModID}}_GoblinMode.Buff": {
+          "DisplayName": "{{i18n:FC.GoblinMode.Buff}}",
+          "Description": null,
+          "IsDebuff": false,
+          "GlowColor": null,
+          "Duration": 600000,
+           "MaxDuration": -1,
+          "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
+          "IconSpriteIndex": 11,
+          "Effects": {
+           "CombatLevel": 0.0,
+      "FarmingLevel": 0.0,
+      "FishingLevel": 0.0,
+      "MiningLevel": 1.0,
+      "LuckLevel": 0.0,
+      "ForagingLevel": 0.0,
+      "MaxStamina": 0.0,
+      "MagneticRadius": 0.0,
+      "Speed": 0.0,
+      "Defense": 1.0,
+      "Attack": 2.0,
+      "AttackMultiplier": 0.0,
+      "Immunity": 0.0,
+      "KnockbackMultiplier": 0.0,
+      "WeaponSpeedMultiplier": 0.0,
+      "CriticalChanceMultiplier": 0.0,
+      "CriticalPowerMultiplier": 1.0,
+      "WeaponPrecisionMultiplier": 0.1
+          },
+          "ActionsOnApply": null,
+          "CustomFields": null
+        }
+      }
+    },
+    {
+      "LogName": "EternalEmbraceRing",
+      "Action": "EditData",
+      "Target": "Data/Buffs",
+      "Entries": {
+        "{{ModID}}_EternalEmbraceRing.Buff": {
+          "DisplayName": "{{i18n:FC.EternalEmbraceRing.Buff}}",
+          "Description": null,
+          "IsDebuff": false,
+          "GlowColor": null,
+          "Duration": 600000,
+           "MaxDuration": -1,
+          "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
+          "IconSpriteIndex": 0,
+          "Effects": {
+           "CombatLevel": 0.0,
+      "FarmingLevel": 0.0,
+      "FishingLevel": 0.0,
+      "MiningLevel": 0.0,
+      "LuckLevel": 0.0,
+      "ForagingLevel": 0.0,
+      "MaxStamina": 0.0,
+      "MagneticRadius": 0.0,
+      "Speed": 0.0,
+      "Defense": 6.0,
+      "Attack": 0.0,
+      "AttackMultiplier": 0.0,
+      "Immunity": 0.0,
+      "KnockbackMultiplier": 0.0,
+      "WeaponSpeedMultiplier": 0.0,
+      "CriticalChanceMultiplier": 0.0,
+      "CriticalPowerMultiplier": 0.0,
+      "WeaponPrecisionMultiplier": 0.0
+          },
+          "ActionsOnApply": null,
+          "CustomFields": null
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Buffs",
+      "Entries": {
+        "{{ModID}}_BehatedRing.Buff": {
+          "DisplayName": "{{i18n:FC.BehatedRing.Buff}}",
+          "Duration": 900000,
+          "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
+          "IconSpriteIndex": 4,
+          "Effects": {
+            "Attack": 3
+          }
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Buffs",
+      "Entries": {
+        "{{ModID}}_BullsFuryRing.Buff": {
+          "DisplayName": "{{i18n:FC.BullsFuryRing.Buff}}",
+          "Duration": 900000,
+          "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
+          "IconSpriteIndex": 2,
+          "Effects": {
+            "Attack": 4,
+            "Speed": 2
+          }
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Buffs",
+      "Entries": {
+        "{{ModID}}_TheStingerRing.Buff": {
+          "DisplayName": "{{i18n:FC.TheStingerRing.Buff}}",
+          "Duration": 900000,
+          "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
+          "IconSpriteIndex": 3,
+          "Effects": {
+            "FarmingLevel": 2,
+            "Speed": 4
+          }
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Buffs",
+      "Entries": {
+        "{{ModID}}_ShellRing.Buff": {
+          "DisplayName": "{{i18n:FC.ShellRing.Buff}}",
+          "Duration": 900000,
+          "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
+          "IconSpriteIndex": 6,
+          "Effects": {
+            "Defense": 8,
+            "Speed": -3
+          }
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Buffs",
+      "Entries": {
+        "{{ModID}}_VoidlingRing.Buff": {
+          "DisplayName": "{{i18n:FC.VoidlingRing.Buff}}",
+          "Duration": 900000,
+          "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
+          "IconSpriteIndex": 5,
+          "Effects": {
+            "Attack": 4,
+            "Speed": 3,
+            "Defense": 1
+          }
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Buffs",
+      "Entries": {
+        "{{ModID}}_YobasBlessing.Buff": {
+          "DisplayName": "{{i18n:FC.YobasBlessing.Buff}}",
+          "Duration": 900000,
+          "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
+          "IconSpriteIndex": 1,
+          "Effects": {
+            "LuckLevel": 2,
+            "Speed": 1,
+            "Defense": 1
+          }
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Buffs",
+      "Entries": {
+        "{{ModID}}_ArahsBlessing.Buff": {
+          "DisplayName": "{{i18n:FC.ArahsBlessing.Buff}}",
+          "Duration": 900000,
+          "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
+          "IconSpriteIndex": 7,
+          "Effects": {
+            "MaxStamina": 100,
+            "Defense": 3,
+            "Attack": 3
+          }
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Buffs",
+      "Entries": {
+        "{{ModID}}_Illness.Buff": {
+          "DisplayName": "{{i18n:FC.Illness.Buff}}",
+          "Duration": 900000,
+          "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
+          "IconSpriteIndex": 8,
+          "Effects": {
+            "Speed": -4,
+            "Defense": -3
+          }
+        }
+      }
+    }
   ]
 }

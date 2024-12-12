@@ -960,7 +960,7 @@
 "BabyTexture": "Animals\\FC.FrenchDodo_Baby_Blue"
 },
 {
-"ID": "FC.FrenchDodo_Gray",
+"ID": "FC.FrenchDodo_Pale",
 "Weight": 1.0,
 "Texture": "Animals\\FC.FrenchDodo_Adult_Pale",
 "BabyTexture": "Animals\\FC.FrenchDodo_Baby_Pale"

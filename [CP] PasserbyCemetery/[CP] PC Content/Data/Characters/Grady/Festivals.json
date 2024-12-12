@@ -141,6 +141,26 @@
                 },
         ]
     },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+       "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
+
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Grady 33 80 1",
+                    "Delimiter": "/"
+                },
+        ]
+    },
       {
             "Action": "EditData",
             "Target": "Data/Festivals/fall16",

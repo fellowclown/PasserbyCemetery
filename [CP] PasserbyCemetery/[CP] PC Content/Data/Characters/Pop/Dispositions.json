@@ -1,6 +1,30 @@
 {
 "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "808", "ContextTags" ], //808 = Void Ghost Pendant
+            "Entries": {
+                "propose_roommate_FC.Popper": "propose_roommate_FC.Popper"
+            },
+          "When": {
+        "HasFlag": "{{ModID}}_TrueShape.Mail"
+}
+},
+            {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+              "FC.Popper": {
+                "FlowerDanceCanDance":true,
+                "WinterStarParticipant":true,
+              }
+            },
+           "When": {
+        "HasFlag": "{{ModID}}_TrueShape.Mail"
 
+}
+},
  {
 "LogName": "Popper Dispositions",
 "Action": "EditData",
@@ -10,10 +34,10 @@
 ///Basic Info
 "DisplayName":"{{i18n:FC.Popper}}",
 "Language":"Default",
-"Gender":"Male",
-"Age":"Adult",
+"Gender":"Female", ///Actually He/Him
+"Age":"Child",
 "Manner":"Rude",
-"SocialAnxiety":"Outgoing",
+"SociPopperxiety":"Outgoing",
 "Optimism":"Positive",
 "BirthSeason":"Winter",
 "BirthDay":13,
@@ -34,7 +58,7 @@
 "SpouseGiftJealousy":false,
 "SpouseGiftJealousyFriendshipChange":-1,
 "SpouseRoom": {
-"MapAsset": null,
+"MapAsset": "{{ModID}}_PopperFarmRoom",
 "MapSourceRect": {
 "X": 0,
 "Y": 0,
@@ -43,7 +67,7 @@
 }
 },
 "SpousePatio": {
-"MapAsset": null,
+"MapAsset": "{{ModID}}_PopperPatio",
 "MapSourceRect": {
 "X": 0,
 "Y": 0,
@@ -72,18 +96,26 @@
 {
 "Id": "Default",
 "Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PopsNewHome",
-"Location": "{{ModID}}_TempleRuins",
+"Location": "{{ModID}}_OldGraveYard",
 "Tile": {
-"X": 12,
-"Y": 11
+"X": 43,
+"Y": 15
 },
 "Direction": "right"
 },
 {
 "Id": "MovePopperToTemple",
-"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PopsNewHome",
-"Location": "{{ModID}}_TempleRuins",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PopsNewHome,!PLAYER_HAS_MAIL Current {{ModID}}_TrueShape.Mail Any",
+"Location": "{{ModID}}_Temple",
 "Tile": { "X": 12, "Y": 11 
+},
+"Direction": "left"
+},
+{
+"Id": "MovePopperBedroom",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_TrueShape.Mail Any",
+"Location": "{{ModID}}_PoppersRoom",
+"Tile": { "X": 14, "Y": 11 
 },
 "Direction": "left"
 },
@@ -91,10 +123,148 @@
 ///Appearance & Sprites
 "TextureName":null,
 "Appearance": [
- {
-"ID": "FC.PopperAssets",
-"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Popper/FC.Popper.png}}",
-"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Popper/FC.Popper.png}}"
+{
+"ID": "{{ModID}}.Popper_Spring",
+"Season": "spring",
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+"Precedence": -10,
+"Portrait": "Portraits/FC.Popper_Spring",
+"Sprite": "Characters/FC.Popper_Spring"
+},
+{
+"ID": "{{ModID}}.Popper_Summer",
+"Season": "summer",
+ "Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+"Precedence": -10,
+"Portrait": "Portraits/FC.Popper_Summer",
+"Sprite": "Characters/FC.Popper_Summer"
+},
+{
+"ID": "{{ModID}}.Popper_Fall",
+"Season": "fall",
+ "Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+"Precedence": -10,
+"Portrait": "Portraits/FC.Popper_Fall",
+"Sprite": "Characters/FC.Popper_Fall"
+},
+{
+"ID": "{{ModID}}.Popper_Winter",
+"Season": "winter",
+ "Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+"Precedence": -10,
+"Portrait": "Portraits/FC.Popper_Winter",
+"Sprite": "Characters/FC.Popper_Winter"
+},
+{
+"ID": "{{ModID}}.Popper_SwimWear",
+"IsIslandAttire": true,
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": true,
+"Precedence": -10,
+"Portrait": "Portraits/FC.Popper_SwimWear",
+"Sprite": "Characters/FC.Popper_SwimWear",
+},
+{
+"ID": "{{ModID}}.Popper_eggfestival",
+"Condition": "EVENT_ID festival_spring13",
+"Portrait": "Portraits/FC.Popper_egg festival",
+"Sprite": "Characters/FC.Popper_egg festival",
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+"Precedence": -20,
+},
+{
+"ID": "{{ModID}}.Popper_flowerfestival",
+"Condition": "EVENT_ID festival_spring24",
+"Portrait": "Portraits/FC.Popper_flower dance",
+"Sprite": "Characters/FC.Popper_flower dance",
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+"Precedence": -20,
+},
+{
+"ID": "{{ModID}}.Popper_luaufestival",
+"Condition": "EVENT_ID festival_summer11",
+"Portrait": "Portraits/FC.Popper_luau",
+"Sprite": "Characters/FC.Popper_luau",
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+"Precedence": -20,
+},
+{
+"ID": "{{ModID}}.Popper_jellyfestival",
+"Condition": "EVENT_ID festival_summer28",
+"Portrait": "Portraits/FC.Popper_dance of the moonlight jellies",
+"Sprite": "Characters/FC.Popper_dance of the moonlight jellies",
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+"Precedence": -20,
+},
+{
+"ID": "{{ModID}}.Popper_Fairfestival",
+"Condition": "EVENT_ID festival_fall16",
+"Portrait": "Portraits/FC.Popper_stardew valley fair",
+"Sprite": "Characters/FC.Popper_stardew valley fair",
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+"Precedence": -20,
+},
+{
+"ID": "{{ModID}}.Popper_spiritseve",
+"Condition": "EVENT_ID festival_fall27",
+"Portrait": "Portraits/FC.Popper_spirit's eve",
+"Sprite": "Characters/FC.Popper_spirit's eve",
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+"Precedence": -20,
+},
+{
+"ID": "{{ModID}}.Popper_icefestival",
+"Condition": "EVENT_ID festival_winter8",
+"Portrait": "Portraits/FC.Popper_festival of ice",
+"Sprite": "Characters/FC.Popper_festival of ice",
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+"Precedence": -20,
+},
+{
+"ID": "{{ModID}}.Popper_winterstarfestival",
+"Condition": "EVENT_ID festival_winter25",
+"Portrait": "Portraits/FC.Popper_feast of the winter star",
+"Sprite": "Characters/FC.Popper_feast of the winter star",
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+"Precedence": -20,
 },
 ],
 "MugShotSourceRect": { "X": 0, "Y": 48, "Width": 16, "Height": 16 },

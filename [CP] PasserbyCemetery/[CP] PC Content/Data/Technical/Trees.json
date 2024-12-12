@@ -1,5 +1,158 @@
 {
 "Changes": [
+       {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_PasserbyCliffs",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 3,
+                        "Y": 6
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_HeaviousTree"
+                    }
+                }
+                ]
+                },
+                       {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_PasserbyCliffs",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 0,
+                        "Y": 9
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                                  {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_PasserbyCliffs",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 6,
+                        "Y":17
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                                  {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_PasserbyCliffs",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 0,
+                        "Y": 21
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_HeaviousTree"
+                    }
+                }
+                ]
+                },
+                                             {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_PasserbyCliffs",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 4,
+                        "Y": 21
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_HeaviousTree"
+                    }
+                }
+                ]
+                },
+                                             {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_PasserbyCliffs",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 4,
+                        "Y": 26
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                },
+                                                             {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_PasserbyCliffs",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 2,
+                        "Y": 30
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_MeekTree"
+                    }
+                }
+                ]
+                },
+                                                                        {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_PasserbyCliffs",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 8,
+                        "Y": 29
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                },
+                                                                        {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_PasserbyCliffs",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 2,
+                        "Y": 30
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                },
       {
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_LyellsProperty",
@@ -102,6 +255,23 @@
                 }
                 ]
                 },
+                   {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_AncientGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 44,
+                        "Y": 41
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                }, ////Check
       {
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_AncientGraveYard",
@@ -118,7 +288,7 @@
                     }
                 }
                 ]
-                },
+                }, ////Check
       {
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_AncientGraveYard",
@@ -136,7 +306,7 @@
                 }
                 ]
                 },
-      {
+      {////Check
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_AncientGraveYard",
             "MapTiles": [
@@ -152,7 +322,7 @@
                     }
                 }
                 ]
-                },
+                }, ////Check
       {
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_AncientGraveYard",
@@ -169,7 +339,24 @@
                     }
                 }
                 ]
-                },
+                },////Check
+                      {
+        "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_AncientGraveYard",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 31,
+                        "Y": 20
+                    },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetProperties": {
+                        "SpawnTree": "wild {{ModID}}_ReuuTree"
+                    }
+                }
+                ]
+                }, ////Check
       {
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_AncientGraveYard",
@@ -186,7 +373,7 @@
                     }
                 }
                 ]
-                },
+                }, ////Check
       {
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_AncientGraveYard",
@@ -203,7 +390,7 @@
                     }
                 }
                 ]
-                },
+                }, ////Check
       {
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_AncientGraveYard",
@@ -220,7 +407,7 @@
                     }
                 }
                 ]
-                },
+                }, ////Check
       {
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_AncientGraveYard",
@@ -237,7 +424,7 @@
                     }
                 }
                 ]
-                },
+                },////Check
       {
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_AncientGraveYard",
@@ -254,7 +441,7 @@
                     }
                 }
                 ]
-                },
+                }, ////Check
       {
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_AncientGraveYard",
@@ -271,7 +458,7 @@
                     }
                 }
                 ]
-                },
+                }, ////Check
       {
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_AncientGraveYard",
@@ -288,7 +475,7 @@
                     }
                 }
                 ]
-                },
+                }, ////Check
       {
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_AncientGraveYard",
@@ -305,7 +492,7 @@
                     }
                 }
                 ]
-                },
+                }, ////Check
          {
         "Action": "EditMap",
             "Target": "Maps/{{ModID}}_OldGraveYard",
@@ -450,23 +637,6 @@
                     "Position": {
                         "X": 5,
                         "Y": 79
-                    },
-                    "Layer": "Paths",
-                    "SetIndex": "34",
-                    "SetProperties": {
-                        "SpawnTree": "wild {{ModID}}_MeekTree"
-                    }
-                }
-                ]
-                },
-                      {
-        "Action": "EditMap",
-            "Target": "Maps/{{ModID}}_OldGraveYard",
-            "MapTiles": [
-                {
-                    "Position": {
-                        "X": 22,
-                        "Y": 70
                     },
                     "Layer": "Paths",
                     "SetIndex": "34",
@@ -671,7 +841,7 @@
         "RandomItemId": null,
         "MaxItems": null,
         "MinStack": 1,
-        "MaxStack": 3,
+        "MaxStack": 1,
         "Quality": -1,
         "ObjectInternalName": null,
         "ObjectDisplayName": null,
@@ -731,8 +901,8 @@
         "ItemId": "(O){{ModID}}_ReuuWood",
         "RandomItemId": null,
         "MaxItems": null,
-        "MinStack": 2,
-        "MaxStack": 4,
+        "MinStack": 10,
+        "MaxStack": 20,
         "Quality": -1,
         "ObjectInternalName": null,
         "ObjectDisplayName": null,
@@ -828,7 +998,7 @@
         "RandomItemId": null,
         "MaxItems": null,
         "MinStack": 1,
-        "MaxStack": 2,
+        "MaxStack": 1,
         "Quality": -1,
         "ObjectInternalName": null,
         "ObjectDisplayName": null,
@@ -864,7 +1034,7 @@
         "RandomItemId": null,
         "MaxItems": null,
         "MinStack": 1,
-        "MaxStack": 2,
+        "MaxStack": 1,
         "Quality": -1,
         "ObjectInternalName": null,
         "ObjectDisplayName": null,
@@ -888,8 +1058,8 @@
         "ItemId": "(O){{ModID}}_MeekWood",
         "RandomItemId": null,
         "MaxItems": null,
-        "MinStack": 2,
-        "MaxStack": 4,
+        "MinStack": 10,
+        "MaxStack": 20,
         "Quality": -1,
         "ObjectInternalName": null,
         "ObjectDisplayName": null,
@@ -946,7 +1116,7 @@
         "RandomItemId": null,
         "MaxItems": null,
         "MinStack": 1,
-        "MaxStack": 2,
+        "MaxStack": 1,
         "Quality": -1,
         "ObjectInternalName": null,
         "ObjectDisplayName": null,
@@ -981,7 +1151,7 @@
         "ItemId": "(O){{ModID}}_HeaviousSeed",
         "RandomItemId": null,
         "MaxItems": null,
-        "MinStack": 3,
+        "MinStack": 1,
         "MaxStack": 6,
         "Quality": -1,
         "ObjectInternalName": null,
@@ -1006,8 +1176,8 @@
         "ItemId": "(O){{ModID}}_HeaviousWood",
         "RandomItemId": null,
         "MaxItems": null,
-        "MinStack": 2,
-        "MaxStack": 4,
+        "MinStack": 10,
+        "MaxStack": 20,
         "Quality": -1,
         "ObjectInternalName": null,
         "ObjectDisplayName": null,

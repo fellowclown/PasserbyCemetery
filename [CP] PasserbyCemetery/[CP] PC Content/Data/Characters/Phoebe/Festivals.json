@@ -153,6 +153,24 @@
                 },
         ]
     },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+                        "When": {
+  "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Phoebe 27 77 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
                    {
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",

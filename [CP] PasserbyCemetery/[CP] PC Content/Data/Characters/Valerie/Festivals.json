@@ -141,6 +141,24 @@
                 },
         ]
     },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Valerie 26 75 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
        {
             "Action": "EditData",
             "Target": "Data/Festivals/fall16",

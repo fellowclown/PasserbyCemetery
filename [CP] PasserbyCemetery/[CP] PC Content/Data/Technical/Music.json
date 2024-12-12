@@ -1,5 +1,18 @@
 {
 "Changes": [
+            {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_GiggleFitGiggle": {
+"ID": "{{ModID}}_GiggleFitGiggle",
+"Category": "Sound",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.GiggleFit.ogg}}" ],
+"StreamedVorbis": false,
+"Looped": false
+}
+}
+},
         {
 "Action": "EditData",
 "Target": "Data/AudioChanges",
@@ -21,7 +34,7 @@
 "ID": "{{ModID}}_Poppy",
 "Category": "Music",
 "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Poppy.ogg}}" ],
-"StreamedVorbis": true,
+"StreamedVorbis": false,
 "Looped": true
 }
 }
@@ -34,7 +47,7 @@
 "ID": "{{ModID}}_Wumbus",
 "Category": "Music",
 "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Wumbus.ogg}}" ],
-"StreamedVorbis": true,
+"StreamedVorbis": false,
 "Looped": true
 }
 }
@@ -47,7 +60,7 @@
 "ID": "{{ModID}}_Tensions",
 "Category": "Music",
 "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Tensions.ogg}}" ],
-"StreamedVorbis": true,
+"StreamedVorbis": false,
 "Looped": true
 }
 }
@@ -60,7 +73,7 @@
 "ID": "{{ModID}}_Game",
 "Category": "Music",
 "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.CraneGame.ogg}}" ],
-"StreamedVorbis": true,
+"StreamedVorbis": false,
 "Looped": true
 }
 }
@@ -73,7 +86,7 @@
 "ID": "{{ModID}}_Thylacine",
 "Category": "Sound",
 "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Thylacine.ogg}}" ],
-"StreamedVorbis": true,
+"StreamedVorbis": false,
 "Looped": false
 }
 }
@@ -86,7 +99,7 @@
 "ID": "{{ModID}}_ShevitSqueak",
 "Category": "Sound",
 "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.ShevitSqueak.ogg}}" ],
-"StreamedVorbis": true,
+"StreamedVorbis": false,
 "Looped": false
 }
 }
@@ -99,7 +112,7 @@
 "ID": "{{ModID}}_FamilyTies",
 "Category": "Sound",
 "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.FamilyTies.ogg}}" ],
-"StreamedVorbis": true,
+"StreamedVorbis": false,
 "Looped": true
 }
 }
@@ -112,7 +125,7 @@
 "ID": "{{ModID}}_Dodo",
 "Category": "Sound",
 "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Dodo.ogg}}" ],
-"StreamedVorbis": true,
+"StreamedVorbis": false,
 "Looped": false
 }
 }
@@ -125,7 +138,7 @@
 "ID": "{{ModID}}_Hush",
 "Category": "Music",
 "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/FC.Hush.ogg}}" ],
-"StreamedVorbis": true,
+"StreamedVorbis": false,
 "Looped": true
 }
 }
@@ -138,7 +151,7 @@
 "ID": "{{ModID}}_Stasis",
 "Category": "Music",
 "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/FC.Stasis.ogg}}" ],
-"StreamedVorbis": true,
+"StreamedVorbis": false,
 "Looped": true
 }
 }
@@ -151,7 +164,7 @@
                     "ID": "{{ModID}}_Marketpalooza",
                     "Category": "Music",
                     "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Marketpalooza.ogg}}" ],
-                    "StreamedVorbis": true,
+                    "StreamedVorbis": false,
                     "Looped": true
                 }
             }
@@ -164,7 +177,7 @@
                     "ID": "{{ModID}}_Squeak",
                     "Category": "Sound",
                     "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Squeak.ogg}}" ],
-                    "StreamedVorbis": true,
+                    "StreamedVorbis": false,
                     "Looped": false
                 }
             }
@@ -177,7 +190,7 @@
                     "ID": "{{ModID}}_LongSqueak",
                     "Category": "Sound",
                     "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.LongSqueak.ogg}}" ],
-                    "StreamedVorbis": true,
+                    "StreamedVorbis": false,
                     "Looped": false
                 }
             }
@@ -190,7 +203,7 @@
                     "ID": "{{ModID}}_BoxysTheme",
                     "Category": "Music",
                     "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.BoxysTheme.ogg}}" ],
-                    "StreamedVorbis": true,
+                    "StreamedVorbis": false,
                     "Looped": true
                 }
             }
@@ -203,7 +216,7 @@
                     "ID": "{{ModID}}_QuietTime",
                     "Category": "Music",
                     "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.QuietTime.ogg}}" ],
-                    "StreamedVorbis": true,
+                    "StreamedVorbis": false,
                     "Looped": true
                 }
             }
@@ -216,7 +229,7 @@
 "ID": "{{ModID}}_Lullaby",
 "Category": "Music",
 "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/FC.Lullaby.ogg}}" ],
-"StreamedVorbis": true,
+"StreamedVorbis": false,
 "Looped": true
 }
 }

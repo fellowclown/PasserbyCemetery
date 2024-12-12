@@ -18,24 +18,24 @@
 "Target": "Strings/schedules/FC.Jinx",
   "Entries": {
 "Jinx.GreenRain": "{{i18n:Jinx.GreenRain}}",
-
+"Jinx.Sleeping": "{{i18n:Jinx.Sleeping}}",
 }
  },
  {
 "Action": "EditData",
 "Target": "Characters/schedules/FC.Jinx",
 "Entries": {
-"spring": "830 {{ModID}}_OldGraveYard 17 50 2 {{ModId}}_JinxRelax/1000 Mountain 48 36 2 {{ModId}}_JinxStretch/1300 Town 65 64 2 {{ModId}}_JinxSit/1500 {{ModID}}_TravelingTrailer 16 17 2 {{ModId}}_JinxRelax/1900 {{ModID}}_TravelingTrailerDecker 17 11 2 {{ModId}}_JinxSleep",
+"spring": "830 {{ModID}}_OldGraveYard 17 50 2 {{ModId}}_JinxRelax/1000 Mountain 48 36 2 {{ModId}}_JinxStretch/1300 Town 65 64 2 {{ModId}}_JinxSit/1500 {{ModID}}_TravelingTrailer 16 17 2 {{ModId}}_JinxRelax/1900 {{ModID}}_TravelingTrailerDecker 17 11 2 {{ModId}}_JinxSleep \"Strings\\schedules\\FC.Jinx:Jinx.Sleeping\"",
 
-"summer": "830 Beach 30 20 2 {{ModId}}_JinxRelax/1000 Town 55 71 2 {{ModId}}_JinxSit/1300 Forest 35 10 2 {{ModId}}_JinxStretch/1500 {{ModID}}_OldGraveYard 17 50 2 {{ModId}}_JinxRelax/1900 {{ModID}}_TravelingTrailerDecker 17 11 2 {{ModId}}_JinxSleep",
+"summer": "830 Beach 30 20 2 {{ModId}}_JinxRelax/1000 Town 55 71 2 {{ModId}}_JinxSit/1300 Forest 35 10 2 {{ModId}}_JinxStretch/1500 {{ModID}}_OldGraveYard 17 50 2 {{ModId}}_JinxRelax/1900 {{ModID}}_TravelingTrailerDecker 17 11 2 {{ModId}}_JinxSleep \"Strings\\schedules\\FC.Jinx:Jinx.Sleeping\"",
 
-"fall": "830 Town 16 17 2 {{ModId}}_JinxStretch/1000 Town 55 71 2 {{ModId}}_JinxSit/1300 {{ModID}}_TravelingTrailerDecker 10 14 2 {{ModId}}_JinxRelax/1500 {{ModID}}_TravelingTrailerDecker 8 16 2 {{ModId}}_JinxSit/1900 {{ModID}}_TravelingTrailerDecker 17 11 2 {{ModId}}_JinxSleep",
+"fall": "830 Town 16 17 2 {{ModId}}_JinxStretch/1000 Town 55 71 2 {{ModId}}_JinxSit/1300 {{ModID}}_TravelingTrailerDecker 10 14 2 {{ModId}}_JinxRelax/1500 {{ModID}}_TravelingTrailerDecker 8 16 2 {{ModId}}_JinxSit/1900 {{ModID}}_TravelingTrailerDecker 17 11 2 {{ModId}}_JinxSleep \"Strings\\schedules\\FC.Jinx:Jinx.Sleeping\"",
 
-"winter": "830 {{ModID}}_TravelingTrailerDecker 12 14 2 {{ModId}}_JinxSit/1000 {{ModID}}_TravelingTrailer 16 17 2 {{ModId}}_JinxRelax/1300 {{ModID}}_TravelingTrailer 22 15 2 {{ModId}}_JinxSit/1500 {{ModID}}_TravelingTrailer 12 11 2 {{ModId}}_JinxSit/1900 {{ModID}}_TravelingTrailerDecker 17 11 2 {{ModId}}_JinxSleep",
+"winter": "830 {{ModID}}_TravelingTrailerDecker 12 14 2 {{ModId}}_JinxSit/1000 {{ModID}}_TravelingTrailer 16 17 2 {{ModId}}_JinxRelax/1300 {{ModID}}_TravelingTrailer 22 15 2 {{ModId}}_JinxSit/1500 {{ModID}}_TravelingTrailer 12 11 2 {{ModId}}_JinxSit/1900 {{ModID}}_TravelingTrailerDecker 17 11 2 {{ModId}}_JinxSleep \"Strings\\schedules\\FC.Jinx:Jinx.Sleeping\"",
 
-"rain": "830 {{ModID}}_TravelingTrailer 16 17 2 {{ModId}}_JinxRelax/1000 {{ModID}}_TravelingTrailer 12 11 2 {{ModId}}_JinxSit/1300 {{ModID}}_TravelingTrailer 16 17 2 {{ModId}}_JinxRelax/1500 {{ModID}}_TravelingTrailerDecker 12 14 2 {{ModId}}_JinxSit/1900 {{ModID}}_TravelingTrailerDecker 17 11 2 {{ModId}}_JinxSleep",
+"rain": "830 {{ModID}}_TravelingTrailer 16 17 2 {{ModId}}_JinxRelax/1000 {{ModID}}_TravelingTrailer 12 11 2 {{ModId}}_JinxSit/1300 {{ModID}}_TravelingTrailer 16 17 2 {{ModId}}_JinxRelax/1500 {{ModID}}_TravelingTrailerDecker 12 14 2 {{ModId}}_JinxSit/1900 {{ModID}}_TravelingTrailerDecker 17 11 2 {{ModId}}_JinxSleep \"Strings\\schedules\\FC.Jinx:Jinx.Sleeping\"",
 
-"GreenRain": "730 {{ModID}}_TravelingTrailerDecker 17 11 2 {{ModId}}_JinxRelax {{ModID}}_TravelingTrailerDecker \"Strings\\schedules\\FC.Jinx:Jinx.GreenRain\"",
+"GreenRain": "730 {{ModID}}_TravelingTrailerDecker 17 11 2 {{ModId}}_JinxRelax \"Strings\\schedules\\FC.Jinx:Jinx.GreenRain\"/1600 {{ModID}}_TravelingTrailerDecker \"Strings\\schedules\\FC.Jinx:Jinx.Sleeping\"",
 
 },
 

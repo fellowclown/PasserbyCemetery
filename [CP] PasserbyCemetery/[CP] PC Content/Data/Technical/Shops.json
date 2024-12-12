@@ -20,8 +20,8 @@
                     ],
                     "Items": [
                          {
-"Id": "{{ModID}}_SaveTheTazzy",
-"ItemId": "{{ModID}}_SaveTheTazzy",
+"Id": "{{ModID}}_Shirt19",
+"ItemId": "{{ModID}}_Shirt19",
 "Price": 50,
 "AvailableStock":5,
 "AvailableStockLimit": "player"
@@ -418,7 +418,7 @@
     // dialogue any other time
     {
   "Id": "{{ModID}}_DrinkShop",
-  "Dialogue": "{{i18n:DrinkShop}}"
+  "Dialogue": "{{i18n:FC.DrinkShop}}"
     }
 ]
                         },
@@ -469,7 +469,7 @@
     // dialogue any other time
     {
   "Id": "{{ModID}}_AlanShop",
-  "Dialogue": "{{i18n:PotionShop}}"
+  "Dialogue": "{{i18n:FC.PotionShop}}"
     }
 ]
                         },
@@ -1456,12 +1456,12 @@
 "{{ModID}}_GussShop":{
 "Owners":[
 {
-"Name":"Gus",
+"Name":"None",
 "Dialogues":[
 //dialogueanyothertime
 {
 "Id":"{{ModID}}_GussShop",
-"Dialogue":"{{i18n:FC.GussShop}}"
+"Dialogue":null,
 },
 ]
 },
@@ -1907,7 +1907,7 @@
     // dialogue any other time
     {
   "Id": "{{ModID}}.LyellsShop",
-  "Dialogue": "{{i18n:Lyells.Shop}}"
+  "Dialogue": "{{i18n:FC.Lyells.Shop}}"
     },
 ]
                         },
@@ -2170,7 +2170,7 @@
     // dialogue any other time
     {
   "Id": "{{ModID}}.LyellsShop",
-  "Dialogue": "{{i18n:lyells.shop}}"
+  "Dialogue": "{{i18n:FC.Lyells.Shop}}"
     },
 ]
                         },

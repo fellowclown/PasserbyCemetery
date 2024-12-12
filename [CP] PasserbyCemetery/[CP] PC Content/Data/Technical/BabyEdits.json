@@ -6,7 +6,7 @@
          "Target": "Characters/Baby, Characters/Baby_dark",
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/Baby_Cotton.png",
              "When": {
-                "Relationship:FC.Cotton": "Engaged, Married",
+                "Relationship:FC.CottonGoblin": "Engaged, Married",
 
 }
         }, 
@@ -15,7 +15,7 @@
          "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/GirlToddler_Cotton.png",
          "When": {
-            "Relationship:FC.Cotton": "Engaged, Married",
+            "Relationship:FC.CottonGoblin": "Engaged, Married",
 
 }
         },  
@@ -24,7 +24,7 @@
          "Target": "Characters/Toddler, Characters/Toddler_dark",
          "FromFile": "Assets/Npcs/{{TargetPathOnly}}/Toddlers/{{TargetWithoutPath}}/BoyToddler_Cotton.png",
          "When": {
-            "Relationship:FC.Cotton": "Engaged, Married",
+            "Relationship:FC.CottonGoblin": "Engaged, Married",
 
 }
         },

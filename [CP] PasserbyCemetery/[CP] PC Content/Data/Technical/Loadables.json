@@ -1,50 +1,240 @@
 {
 "Changes": [
-    {
-        "LogName": "SummonCircle",
-        "Action": "Load",
-        "Target": "{{ModID}}/FC.SummonCircle,{{ModID}}/FC.BrokenBoat,{{ModID}}/FC.Bridge,{{ModID}}/FC.Lift,{{ModID}}/FC.Lunch",
-        "FromFile": "Assets/Npcs/TempActors/Characters/{{TargetWithoutPath}}.png"
-    },
-    /************************************************
+{
+"LogName": "SummonCircle",
+"Action": "Load",
+"Target": "{{ModID}}/FC.SummonCircle,{{ModID}}/FC.BrokenBoat,{{ModID}}/FC.Bridge,{{ModID}}/FC.Lift,{{ModID}}/FC.Lunch",
+"FromFile": "Assets/Npcs/TempActors/Characters/{{TargetWithoutPath}}.png"
+},
+/************************************************
 Load Character Over World Assets
 ************************************************/
-{
-"LogName": "Base Portraits and Characters nonseasonal",
-"Action": "Load",
-"Target": "Portraits/FC.Cotton,Characters/FC.Cotton,Portraits/FC.Maverick,Characters/FC.Maverick,Portraits/FC.Popper,Characters/FC.Popper",
-"FromFile": "Assets/Npcs/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}.png", 
- },
- {
-"LogName": "SwimSuits",
-"Action": "Load",
-"Target": "Portraits/FC.Dezerie_SwimWear,Characters/FC.Dezerie_SwimWear",
-"FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Dezerie/{{TargetWithoutPath}}.png", 
- },
   {
-"LogName": "SwimSuits",
-"Action": "Load",
-"Target": "Portraits/FC.Valerie_SwimWear,Characters/FC.Valerie_SwimWear",
-"FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Valerie/{{TargetWithoutPath}}.png", 
- },
-  {
-"LogName": "SwimSuits",
-"Action": "Load",
-"Target": "Portraits/FC.Alan_SwimWear,Characters/FC.Alan_SwimWear",
-"FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Alan/{{TargetWithoutPath}}.png", 
- },
- {
 "LogName": "Base Portraits",
 "Action": "Load",
-"Target": "Portraits/FC.Shaavar,Characters/FC.Shaavar,Portraits/FC.Jinx,Characters/FC.Jinx,Portraits/FC.Amanda,Characters/FC.Amanda,Portraits/FC.John,Characters/FC.John,Portraits/FC.Barron,Characters/FC.Barron,Portraits/FC.Phoebe,Characters/FC.Phoebe,Portraits/FC.Thalia,Characters/FC.Thalia,Portraits/FC.FakeNpc,Characters/FC.FakeNpc,Portraits/FC.Zuuie,Characters/FC.Zuuie,Portraits/FC.Lyell,Characters/FC.Lyell,Characters/FC.Roswell,Portraits/FC.Roswell,Characters/FC.Grady,Portraits/FC.Grady,Portraits/FC.Nikolai,Portraits/FC.Kaia,Characters/FC.Nikolai,Characters/FC.Kaia,Portraits/FC.Boxy,Characters/FC.Boxy,Portraits/FC.Valerie,Portraits/FC.Alan,Characters/FC.Valerie,Characters/FC.Alan,Portraits/FC.Dezerie,Characters/FC.Dezerie",
-"FromFile": "Assets/Npcs/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_spring.png", 
+"Target": "Portraits/FC.Cotton,Characters/FC.Cotton,Portraits/FC.Shaavar,Characters/FC.Shaavar,Portraits/FC.Jinx,Characters/FC.Jinx,Portraits/FC.Amanda,Characters/FC.Amanda,Portraits/FC.John,Characters/FC.John,Portraits/FC.Barron,Characters/FC.Barron,Portraits/FC.Phoebe,Characters/FC.Phoebe,Portraits/FC.Thalia,Characters/FC.Thalia,Portraits/FC.FakeNpc,Characters/FC.FakeNpc,Portraits/FC.Zuuie,Characters/FC.Zuuie,Portraits/FC.Lyell,Characters/FC.Lyell,Characters/FC.Roswell,Portraits/FC.Roswell,Characters/FC.Grady,Portraits/FC.Grady,Portraits/FC.Nikolai,Portraits/FC.Kaia,Characters/FC.Nikolai,Characters/FC.Kaia,Portraits/FC.Boxy,Characters/FC.Boxy,Portraits/FC.Valerie,Portraits/FC.Alan,Characters/FC.Valerie,Characters/FC.Alan,Portraits/FC.Dezerie,Characters/FC.Dezerie,Portraits/FC.Maverick,Characters/FC.Maverick",
+"FromFile": "Assets/Npcs/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}_Spring.png", 
  },
-  {
-"LogName": "Base Portraits and Characters",
-"Action": "Load",
-"Target": "Characters/FC.John_Job,Portraits/FC.John_Job",
-"FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.John/{{TargetWithoutPath}}.png", 
- },
+/************************************************
+Load Character Seasonals and Festivals
+************************************************/ 
+{
+  "LogName": "Alan Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Alan_SwimWear, Characters/FC.Alan_SwimWear, Portraits/FC.Alan_Spring, Characters/FC.Alan_Spring, Portraits/FC.Alan_Summer, Characters/FC.Alan_Summer, Portraits/FC.Alan_Fall, Characters/FC.Alan_Fall, Portraits/FC.Alan_Winter, Characters/FC.Alan_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Alan/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Alan Festivals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Alan_dance of the moonlight jellies, Characters/FC.Alan_dance of the moonlight jellies, Portraits/FC.Alan_egg festival, Characters/FC.Alan_egg festival, Portraits/FC.Alan_feast of the winter star, Characters/FC.Alan_feast of the winter star, Portraits/FC.Alan_festival of ice, Characters/FC.Alan_festival of ice, Portraits/FC.Alan_flower dance, Characters/FC.Alan_flower dance, Portraits/FC.Alan_luau, Characters/FC.Alan_luau, Portraits/FC.Alan_spirit's eve, Characters/FC.Alan_spirit's eve, Portraits/FC.Alan_stardew valley fair, Characters/FC.Alan_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Alan/Festivals/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "Amanda Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Amanda_Spring, Characters/FC.Amanda_Spring, Portraits/FC.Amanda_Summer, Characters/FC.Amanda_Summer, Portraits/FC.Amanda_Fall, Characters/FC.Amanda_Fall, Portraits/FC.Amanda_Winter, Characters/FC.Amanda_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Amanda/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "Barron Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Barron_SwimWear, Characters/FC.Barron_SwimWear, Portraits/FC.Barron_Spring, Characters/FC.Barron_Spring, Portraits/FC.Barron_Summer, Characters/FC.Barron_Summer, Portraits/FC.Barron_Fall, Characters/FC.Barron_Fall, Portraits/FC.Barron_Winter, Characters/FC.Barron_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Barron/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Barron Festivals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Barron_dance of the moonlight jellies, Characters/FC.Barron_dance of the moonlight jellies, Portraits/FC.Barron_egg festival, Characters/FC.Barron_egg festival, Portraits/FC.Barron_feast of the winter star, Characters/FC.Barron_feast of the winter star, Portraits/FC.Barron_festival of ice, Characters/FC.Barron_festival of ice, Portraits/FC.Barron_flower dance, Characters/FC.Barron_flower dance, Portraits/FC.Barron_luau, Characters/FC.Barron_luau, Portraits/FC.Barron_spirit's eve, Characters/FC.Barron_spirit's eve, Portraits/FC.Barron_stardew valley fair, Characters/FC.Barron_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Barron/Festivals/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "Boxy Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Boxy_SwimWear, Characters/FC.Boxy_SwimWear, Portraits/FC.Boxy_Spring, Characters/FC.Boxy_Spring, Portraits/FC.Boxy_Summer, Characters/FC.Boxy_Summer, Portraits/FC.Boxy_Fall, Characters/FC.Boxy_Fall, Portraits/FC.Boxy_Winter, Characters/FC.Boxy_Winter, Portraits/FC.Boxy_Rainy, Characters/FC.Boxy_Rainy,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Boxy/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Boxy Festivals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Boxy_dance of the moonlight jellies, Characters/FC.Boxy_dance of the moonlight jellies, Portraits/FC.Boxy_egg festival, Characters/FC.Boxy_egg festival, Portraits/FC.Boxy_feast of the winter star, Characters/FC.Boxy_feast of the winter star, Portraits/FC.Boxy_festival of ice, Characters/FC.Boxy_festival of ice, Portraits/FC.Boxy_flower dance, Characters/FC.Boxy_flower dance, Portraits/FC.Boxy_luau, Characters/FC.Boxy_luau, Portraits/FC.Boxy_spirit's eve, Characters/FC.Boxy_spirit's eve, Portraits/FC.Boxy_stardew valley fair, Characters/FC.Boxy_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Boxy/Festivals/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "Cotton Goblin Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Cotton_SwimWear, Characters/FC.Cotton_SwimWear,Portraits/FC.Cotton_Spring, Characters/FC.Cotton_Spring, Portraits/FC.Cotton_Summer, Characters/FC.Cotton_Summer, Portraits/FC.Cotton_Fall, Characters/FC.Cotton_Fall, Portraits/FC.Cotton_Winter, Characters/FC.Cotton_Winter",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Cotton/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Dezerie Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Dezerie_SwimWear, Characters/FC.Dezerie_SwimWear, Portraits/FC.Dezerie_Spring, Characters/FC.Dezerie_Spring, Portraits/FC.Dezerie_Summer, Characters/FC.Dezerie_Summer, Portraits/FC.Dezerie_Fall, Characters/FC.Dezerie_Fall, Portraits/FC.Dezerie_Winter, Characters/FC.Dezerie_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Dezerie/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "Dezerie Festivals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Dezerie_dance of the moonlight jellies, Characters/FC.Dezerie_dance of the moonlight jellies, Portraits/FC.Dezerie_egg festival, Characters/FC.Dezerie_egg festival, Portraits/FC.Dezerie_feast of the winter star, Characters/FC.Dezerie_feast of the winter star, Portraits/FC.Dezerie_festival of ice, Characters/FC.Dezerie_festival of ice, Portraits/FC.Dezerie_flower dance, Characters/FC.Dezerie_flower dance, Portraits/FC.Dezerie_luau, Characters/FC.Dezerie_luau, Portraits/FC.Dezerie_spirit's eve, Characters/FC.Dezerie_spirit's eve, Portraits/FC.Dezerie_stardew valley fair, Characters/FC.Dezerie_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Dezerie/Festivals/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "Grady Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Grady_SwimWear, Characters/FC.Grady_SwimWear, Portraits/FC.Grady_Spring, Characters/FC.Grady_Spring, Portraits/FC.Grady_Summer, Characters/FC.Grady_Summer, Portraits/FC.Grady_Fall, Characters/FC.Grady_Fall, Portraits/FC.Grady_Winter, Characters/FC.Grady_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Grady/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Grady Festivals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Grady_dance of the moonlight jellies, Characters/FC.Grady_dance of the moonlight jellies, Portraits/FC.Grady_egg festival, Characters/FC.Grady_egg festival, Portraits/FC.Grady_feast of the winter star, Characters/FC.Grady_feast of the winter star, Portraits/FC.Grady_festival of ice, Characters/FC.Grady_festival of ice, Portraits/FC.Grady_flower dance, Characters/FC.Grady_flower dance, Portraits/FC.Grady_luau, Characters/FC.Grady_luau, Portraits/FC.Grady_spirit's eve, Characters/FC.Grady_spirit's eve, Portraits/FC.Grady_stardew valley fair, Characters/FC.Grady_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Grady/Festivals/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "Jinx Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Jinx_SwimWear, Characters/FC.Jinx_SwimWear, Portraits/FC.Jinx_Spring, Characters/FC.Jinx_Spring, Portraits/FC.Jinx_Summer, Characters/FC.Jinx_Summer, Portraits/FC.Jinx_Fall, Characters/FC.Jinx_Fall, Portraits/FC.Jinx_Winter, Characters/FC.Jinx_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Jinx/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "John Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.John_SwimWear, Characters/FC.John_SwimWear, Portraits/FC.John_Spring, Characters/FC.John_Spring, Portraits/FC.John_Summer, Characters/FC.John_Summer, Portraits/FC.John_Fall, Characters/FC.John_Fall, Portraits/FC.John_Winter, Characters/FC.John_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.John/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "John Festivals",
+  "Action": "Load",
+  "Target": "Portraits/FC.John_dance of the moonlight jellies, Characters/FC.John_dance of the moonlight jellies, Portraits/FC.John_egg festival, Characters/FC.John_egg festival, Portraits/FC.John_feast of the winter star, Characters/FC.John_feast of the winter star, Portraits/FC.John_festival of ice, Characters/FC.John_festival of ice, Portraits/FC.John_flower dance, Characters/FC.John_flower dance, Portraits/FC.John_luau, Characters/FC.John_luau, Portraits/FC.John_spirit's eve, Characters/FC.John_spirit's eve, Portraits/FC.John_stardew valley fair, Characters/FC.John_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.John/Festivals/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Kaia Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Kaia_SwimWear, Characters/FC.Kaia_SwimWear, Portraits/FC.Kaia_Spring, Characters/FC.Kaia_Spring, Portraits/FC.Kaia_Summer, Characters/FC.Kaia_Summer, Portraits/FC.Kaia_Fall, Characters/FC.Kaia_Fall, Portraits/FC.Kaia_Winter, Characters/FC.Kaia_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Kaia/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Kaia Festivals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Kaia_dance of the moonlight jellies, Characters/FC.Kaia_dance of the moonlight jellies, Portraits/FC.Kaia_egg festival, Characters/FC.Kaia_egg festival, Portraits/FC.Kaia_feast of the winter star, Characters/FC.Kaia_feast of the winter star, Portraits/FC.Kaia_festival of ice, Characters/FC.Kaia_festival of ice, Portraits/FC.Kaia_flower dance, Characters/FC.Kaia_flower dance, Portraits/FC.Kaia_luau, Characters/FC.Kaia_luau, Portraits/FC.Kaia_spirit's eve, Characters/FC.Kaia_spirit's eve, Portraits/FC.Kaia_stardew valley fair, Characters/FC.Kaia_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Kaia/Festivals/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "Lyell Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Lyell_SwimWear, Characters/FC.Lyell_SwimWear, Portraits/FC.Lyell_Spring, Characters/FC.Lyell_Spring, Portraits/FC.Lyell_Summer, Characters/FC.Lyell_Summer, Portraits/FC.Lyell_Fall, Characters/FC.Lyell_Fall, Portraits/FC.Lyell_Winter, Characters/FC.Lyell_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Lyell/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "Lyell Festivals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Lyell_dance of the moonlight jellies, Characters/FC.Lyell_dance of the moonlight jellies, Portraits/FC.Lyell_egg festival, Characters/FC.Lyell_egg festival, Portraits/FC.Lyell_feast of the winter star, Characters/FC.Lyell_feast of the winter star, Portraits/FC.Lyell_festival of ice, Characters/FC.Lyell_festival of ice, Portraits/FC.Lyell_flower dance, Characters/FC.Lyell_flower dance, Portraits/FC.Lyell_luau, Characters/FC.Lyell_luau, Portraits/FC.Lyell_spirit's eve, Characters/FC.Lyell_spirit's eve, Portraits/FC.Lyell_stardew valley fair, Characters/FC.Lyell_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Lyell/Festivals/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Maverick Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Maverick_SwimWear, Characters/FC.Maverick_SwimWear, Portraits/FC.Maverick_Spring, Characters/FC.Maverick_Spring, Portraits/FC.Maverick_Summer, Characters/FC.Maverick_Summer, Portraits/FC.Maverick_Fall, Characters/FC.Maverick_Fall, Portraits/FC.Maverick_Winter, Characters/FC.Maverick_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Maverick/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "Maverick Festivals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Maverick_dance of the moonlight jellies, Characters/FC.Maverick_dance of the moonlight jellies, Portraits/FC.Maverick_egg festival, Characters/FC.Maverick_egg festival, Portraits/FC.Maverick_feast of the winter star, Characters/FC.Maverick_feast of the winter star, Portraits/FC.Maverick_festival of ice, Characters/FC.Maverick_festival of ice, Portraits/FC.Maverick_flower dance, Characters/FC.Maverick_flower dance, Portraits/FC.Maverick_luau, Characters/FC.Maverick_luau, Portraits/FC.Maverick_spirit's eve, Characters/FC.Maverick_spirit's eve, Portraits/FC.Maverick_stardew valley fair, Characters/FC.Maverick_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Maverick/Festivals/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Nikolai Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Nikolai_SwimWear, Characters/FC.Nikolai_SwimWear, Portraits/FC.Nikolai_Spring, Characters/FC.Nikolai_Spring, Portraits/FC.Nikolai_Summer, Characters/FC.Nikolai_Summer, Portraits/FC.Nikolai_Fall, Characters/FC.Nikolai_Fall, Portraits/FC.Nikolai_Winter, Characters/FC.Nikolai_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Nikolai/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Nikolai Festivals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Nikolai_dance of the moonlight jellies, Characters/FC.Nikolai_dance of the moonlight jellies, Portraits/FC.Nikolai_egg festival, Characters/FC.Nikolai_egg festival, Portraits/FC.Nikolai_feast of the winter star, Characters/FC.Nikolai_feast of the winter star, Portraits/FC.Nikolai_festival of ice, Characters/FC.Nikolai_festival of ice, Portraits/FC.Nikolai_flower dance, Characters/FC.Nikolai_flower dance, Portraits/FC.Nikolai_luau, Characters/FC.Nikolai_luau, Portraits/FC.Nikolai_spirit's eve, Characters/FC.Nikolai_spirit's eve, Portraits/FC.Nikolai_stardew valley fair, Characters/FC.Nikolai_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Nikolai/Festivals/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Phoebe Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Phoebe_SwimWear, Characters/FC.Phoebe_SwimWear, Portraits/FC.Phoebe_Spring, Characters/FC.Phoebe_Spring, Portraits/FC.Phoebe_Summer, Characters/FC.Phoebe_Summer, Portraits/FC.Phoebe_Fall, Characters/FC.Phoebe_Fall, Portraits/FC.Phoebe_Winter, Characters/FC.Phoebe_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Phoebe/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Phoebe Festivals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Phoebe_dance of the moonlight jellies, Characters/FC.Phoebe_dance of the moonlight jellies, Portraits/FC.Phoebe_egg festival, Characters/FC.Phoebe_egg festival, Portraits/FC.Phoebe_feast of the winter star, Characters/FC.Phoebe_feast of the winter star, Portraits/FC.Phoebe_festival of ice, Characters/FC.Phoebe_festival of ice, Portraits/FC.Phoebe_flower dance, Characters/FC.Phoebe_flower dance, Portraits/FC.Phoebe_luau, Characters/FC.Phoebe_luau, Portraits/FC.Phoebe_spirit's eve, Characters/FC.Phoebe_spirit's eve, Portraits/FC.Phoebe_stardew valley fair, Characters/FC.Phoebe_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Phoebe/Festivals/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "Popper Festivals",  
+  "Action": "Load",
+  "Target": "Portraits/FC.Popper, Characters/FC.Popper, Portraits/FC.Popper_SwimWear, Characters/FC.Popper_SwimWear, Portraits/FC.Popper_Spring, Characters/FC.Popper_Spring, Portraits/FC.Popper_Summer, Characters/FC.Popper_Summer, Portraits/FC.Popper_Fall, Characters/FC.Popper_Fall, Portraits/FC.Popper_Winter, Characters/FC.Popper_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Popper/{{TrueShape}}/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Popper Festivals",  
+  "Action": "Load",
+  "Target": "Portraits/FC.Popper_dance of the moonlight jellies, Characters/FC.Popper_dance of the moonlight jellies, Portraits/FC.Popper_egg festival, Characters/FC.Popper_egg festival, Portraits/FC.Popper_feast of the winter star, Characters/FC.Popper_feast of the winter star, Portraits/FC.Popper_festival of ice, Characters/FC.Popper_festival of ice, Portraits/FC.Popper_flower dance, Characters/FC.Popper_flower dance, Portraits/FC.Popper_luau, Characters/FC.Popper_luau, Portraits/FC.Popper_spirit's eve, Characters/FC.Popper_spirit's eve, Portraits/FC.Popper_stardew valley fair, Characters/FC.Popper_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Popper/{{TrueShape}}/Festivals/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Roswell Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Roswell_SwimWear, Characters/FC.Roswell_SwimWear, Portraits/FC.Roswell_Spring, Characters/FC.Roswell_Spring, Portraits/FC.Roswell_Summer, Characters/FC.Roswell_Summer, Portraits/FC.Roswell_Fall, Characters/FC.Roswell_Fall, Portraits/FC.Roswell_Winter, Characters/FC.Roswell_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Roswell/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Roswell Festivals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Roswell_dance of the moonlight jellies, Characters/FC.Roswell_dance of the moonlight jellies, Portraits/FC.Roswell_egg festival, Characters/FC.Roswell_egg festival, Portraits/FC.Roswell_feast of the winter star, Characters/FC.Roswell_feast of the winter star, Portraits/FC.Roswell_festival of ice, Characters/FC.Roswell_festival of ice, Portraits/FC.Roswell_flower dance, Characters/FC.Roswell_flower dance, Portraits/FC.Roswell_luau, Characters/FC.Roswell_luau, Portraits/FC.Roswell_spirit's eve, Characters/FC.Roswell_spirit's eve, Portraits/FC.Roswell_stardew valley fair, Characters/FC.Roswell_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Roswell/Festivals/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "Shaavar Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Shaavar_Spring, Characters/FC.Shaavar_Spring, Portraits/FC.Shaavar_Summer, Characters/FC.Shaavar_Summer, Portraits/FC.Shaavar_Fall, Characters/FC.Shaavar_Fall, Portraits/FC.Shaavar_Winter, Characters/FC.Shaavar_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Shaavar/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Shaavar Festivals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Shaavar_dance of the moonlight jellies, Characters/FC.Shaavar_dance of the moonlight jellies, Portraits/FC.Shaavar_egg festival, Characters/FC.Shaavar_egg festival, Portraits/FC.Shaavar_feast of the winter star, Characters/FC.Shaavar_feast of the winter star, Portraits/FC.Shaavar_festival of ice, Characters/FC.Shaavar_festival of ice, Portraits/FC.Shaavar_flower dance, Characters/FC.Shaavar_flower dance, Portraits/FC.Shaavar_luau, Characters/FC.Shaavar_luau, Portraits/FC.Shaavar_spirit's eve, Characters/FC.Shaavar_spirit's eve, Portraits/FC.Shaavar_stardew valley fair, Characters/FC.Shaavar_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Shaavar/Festivals/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "Thalia Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Thalia_SwimWear, Characters/FC.Thalia_SwimWear, Portraits/FC.Thalia_Spring, Characters/FC.Thalia_Spring, Portraits/FC.Thalia_Summer, Characters/FC.Thalia_Summer, Portraits/FC.Thalia_Fall, Characters/FC.Thalia_Fall, Portraits/FC.Thalia_Winter, Characters/FC.Thalia_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Thalia/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Thalia Festivals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Thalia_dance of the moonlight jellies, Characters/FC.Thalia_dance of the moonlight jellies, Portraits/FC.Thalia_egg festival, Characters/FC.Thalia_egg festival, Portraits/FC.Thalia_feast of the winter star, Characters/FC.Thalia_feast of the winter star, Portraits/FC.Thalia_festival of ice, Characters/FC.Thalia_festival of ice, Portraits/FC.Thalia_flower dance, Characters/FC.Thalia_flower dance, Portraits/FC.Thalia_luau, Characters/FC.Thalia_luau, Portraits/FC.Thalia_spirit's eve, Characters/FC.Thalia_spirit's eve, Portraits/FC.Thalia_stardew valley fair, Characters/FC.Thalia_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Thalia/Festivals/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "Valerie Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Valerie_SwimWear, Characters/FC.Valerie_SwimWear, Portraits/FC.Valerie_Spring, Characters/FC.Valerie_Spring, Portraits/FC.Valerie_Summer, Characters/FC.Valerie_Summer, Portraits/FC.Valerie_Fall, Characters/FC.Valerie_Fall, Portraits/FC.Valerie_Winter, Characters/FC.Valerie_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Valerie/{{TargetWithoutPath}}.png"
+},
+{
+  "LogName": "Valerie Festivals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Valerie_dance of the moonlight jellies, Characters/FC.Valerie_dance of the moonlight jellies, Portraits/FC.Valerie_egg festival, Characters/FC.Valerie_egg festival, Portraits/FC.Valerie_feast of the winter star, Characters/FC.Valerie_feast of the winter star, Portraits/FC.Valerie_festival of ice, Characters/FC.Valerie_festival of ice, Portraits/FC.Valerie_flower dance, Characters/FC.Valerie_flower dance, Portraits/FC.Valerie_luau, Characters/FC.Valerie_luau, Portraits/FC.Valerie_spirit's eve, Characters/FC.Valerie_spirit's eve, Portraits/FC.Valerie_stardew valley fair, Characters/FC.Valerie_stardew valley fair,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Valerie/Festivals/{{TargetWithoutPath}}.png"
+}, 
+{
+  "LogName": "Zuuie Seasonals",
+  "Action": "Load",
+  "Target": "Portraits/FC.Zuuie_Spring, Characters/FC.Zuuie_Spring, Portraits/FC.Zuuie_Summer, Characters/FC.Zuuie_Summer, Portraits/FC.Zuuie_Fall, Characters/FC.Zuuie_Fall, Portraits/FC.Zuuie_Winter, Characters/FC.Zuuie_Winter,",
+  "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Zuuie/{{TargetWithoutPath}}.png"
+},
+
 /************************************************
 Load Character Event Sprite Assets
 ************************************************/
@@ -54,20 +244,25 @@ Load Character Event Sprite Assets
 "Target": "Portraits/FC.Kaia_FC.DateNight,Characters/FC.Kaia_FC.DateNight",
 "FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.Kaia/FC.DateNight.png", 
  },
-
+   {
+"LogName": "Base Portraits and Characters",
+"Action": "Load",
+"Target": "Characters/FC.John_Job,Portraits/FC.John_Job",
+"FromFile": "Assets/Npcs/{{TargetPathOnly}}/FC.John/{{TargetWithoutPath}}.png", 
+ },
 /************************************************
 Load TempActor Assets
 ************************************************/
  {
 "LogName": "Base Characters",
 "Action": "Load",
-"Target": "Characters/FC.WeirdCrab,Characters/FC.ArcanianShip,Characters/FC.TillyTemp,Portraits/FC.TillyTemp,Characters/FC.CorruptedGolem,Portraits/FC.CorruptedGhost,Characters/FC.CorruptedGhost,Characters/FC.ShevitAdult,Portraits/FC.Eve,Characters/FC.Eve,Characters/FC.RockCrab,Characters/FC.Bubba,Characters/FC.Ball,Characters/FC.BarronsAlbum,Characters/FC.KingsRangoons,Characters/FC.Window,Characters/FC.FlamesTrailer,Portraits/FC.DezerieCammi,Characters/FC.DezerieCammi,Characters/FC.PopperSteal,Characters/FC.Danni,Portraits/FC.Danni,Characters/FC.Cori,Portraits/FC.Cori,Characters/FC.TrashCan,Characters/FC.Radio,Characters/FC.BabyHog,Portraits/FC.BabyHog,Characters/FC.MamaHog,Portraits/FC.MamaHog,Characters/FC.Roger,Portraits/FC.Roger,Characters/FC.SteelyBoat,Characters/FC.SeaGlassBag,Characters/FC.BeetPlot,Characters/FC.MaverickAND,Portraits/FC.MaverickAND,Characters/FC.ShevitAdult,Portraits/FC.Eve,Characters/FC.Eve,Characters/FC.RockCrab,Characters/FC.Bubba,Characters/FC.Ball,Characters/FC.BarronsAlbum,Characters/FC.KingsRangoons,Characters/FC.Window,Characters/FC.FlamesTrailer,Portraits/FC.DezerieCammi,Characters/FC.DezerieCammi,Characters/FC.PopperSteal,Characters/FC.Danni,Portraits/FC.Danni,Characters/FC.Cori,Portraits/FC.Cori,Characters/FC.TrashCan,Characters/FC.Radio,Characters/FC.BabyHog,Portraits/FC.BabyHog,Characters/FC.MamaHog,Portraits/FC.MamaHog,Characters/FC.Roger,Portraits/FC.Roger,Characters/FC.SteelyBoat,Characters/FC.SeaGlassBag,Characters/FC.BeetPlot,Characters/FC.MaverickAND,Portraits/FC.MaverickAND,Characters/FC.DoorFall,Characters/FC.Capeer,Characters/FC.Coffin,Characters/FC.Monster,Characters/FC.RoswellSwim,Characters/FC.Farmer,Characters/FC.Invention,Portraits/FC.Twinkle,Characters/FC.Twinkle,Portraits/FC.Mellie,Characters/FC.Mellie,Portraits/FC.GhostBoy,Characters/FC.StoneFamilyHug,Characters/FC.BoxysHouse,Characters/FC.FamilyPainting,Characters/FC.Objects,Characters/FC.Heart,Characters/FC.River,Characters/FC.Fishgirl,Characters/FC.Willy,Characters/FC.PotionPot,Portraits/FC.Heart,Characters/FC.Emotes,Characters/FC.PopperPC,Characters/FC.Jeremy,Characters/FC.CaveBlock,Characters/FC.Campfire,Characters/FC.GhostBoy,Characters/FC.GradyRide,Characters/FC.Rumple,Characters/FC.Aluua,Portraits/FC.Aluua,Portraits/FC.Arah,Characters/FC.Arah,Characters/FC.Mayo,Characters/FC.BoxyCakeSurprise,Characters/FC.FairyFlock,Characters/FC.BoxyCowRide,Characters/FC.BeeGroup1,Characters/FC.BeeGroup2,Characters/FC.BeeGroup3",
+"Target": "Characters/FC.WeirdCrab,Characters/FC.ArcanianShip,Characters/FC.TillyTemp,Portraits/FC.TillyTemp,Characters/FC.CorruptedGolem,Portraits/FC.CorruptedGhost,Characters/FC.CorruptedGhost,Characters/FC.ShevitAdult,Portraits/FC.Eve,Characters/FC.Eve,Characters/FC.RockCrab,Characters/FC.Bubba,Characters/FC.Ball,Characters/FC.BarronsAlbum,Characters/FC.KingsRangoons,Characters/FC.Window,Characters/FC.FlamesTrailer,Portraits/FC.DezerieCammi,Characters/FC.DezerieCammi,Characters/FC.PopperSteal,Characters/FC.Danni,Portraits/FC.Danni,Characters/FC.Cori,Portraits/FC.Cori,Characters/FC.TrashCan,Characters/FC.Radio,Characters/FC.BabyHog,Portraits/FC.BabyHog,Characters/FC.MamaHog,Portraits/FC.MamaHog,Characters/FC.Roger,Portraits/FC.Roger,Characters/FC.SteelyBoat,Characters/FC.SeaGlassBag,Characters/FC.BeetPlot,Characters/FC.ShevitAdult,Portraits/FC.Eve,Characters/FC.Eve,Characters/FC.RockCrab,Characters/FC.Bubba,Characters/FC.Ball,Characters/FC.BarronsAlbum,Characters/FC.KingsRangoons,Characters/FC.Window,Characters/FC.FlamesTrailer,Portraits/FC.DezerieCammi,Characters/FC.DezerieCammi,Characters/FC.PopperSteal,Characters/FC.Danni,Portraits/FC.Danni,Characters/FC.Cori,Portraits/FC.Cori,Characters/FC.TrashCan,Characters/FC.Radio,Characters/FC.BabyHog,Portraits/FC.BabyHog,Characters/FC.MamaHog,Portraits/FC.MamaHog,Characters/FC.Roger,Portraits/FC.Roger,Characters/FC.SteelyBoat,Characters/FC.SeaGlassBag,Characters/FC.BeetPlot,Characters/FC.DoorFall,Characters/FC.Capeer,Characters/FC.Coffin,Characters/FC.Monster,Characters/FC.RoswellSwim,Characters/FC.Farmer,Characters/FC.Invention,Portraits/FC.Twinkle,Characters/FC.Twinkle,Portraits/FC.Mellie,Characters/FC.Mellie,Portraits/FC.GhostBoy,Characters/FC.StoneFamilyHug,Characters/FC.BoxysHouse,Characters/FC.FamilyPainting,Characters/FC.Objects,Characters/FC.Heart,Characters/FC.River,Characters/FC.Fishgirl,Characters/FC.Willy,Characters/FC.PotionPot,Portraits/FC.Heart,Characters/FC.Emotes,Characters/FC.PopperPC,Characters/FC.Jeremy,Characters/FC.CaveBlock,Characters/FC.Campfire,Characters/FC.GhostBoy,Characters/FC.GradyRide,Characters/FC.Rumple,Characters/FC.Aluua,Portraits/FC.Aluua,Portraits/FC.Arah,Characters/FC.Arah,Characters/FC.Mayo,Characters/FC.BoxyCakeSurprise,Characters/FC.FairyFlock,Characters/FC.BoxyCowRide,Characters/FC.BeeGroup1,Characters/FC.BeeGroup2,Characters/FC.BeeGroup3",
 "FromFile": "Assets/Npcs/TempActors/{{TargetPathOnly}}/{{TargetWithoutPath}}.png", 
  },
  {
 "LogName": "TempActor Characters",
 "Action": "Load",
-"Target": "Characters/FC.LyellRoswellCare,Characters/FC.AmandaHammer,Characters/FC.Ladder",
+"Target": "Characters/FC.PopperDrawer,Characters/FC.LyellRoswellCare,Characters/FC.AmandaHammer,Characters/FC.Ladder",
 "FromFile": "Assets/Npcs/TempActors/{{TargetPathOnly}}/{{TargetWithoutPath}}_{{season}}.png",
 },
 {
@@ -111,10 +306,10 @@ Load Locational Maps
 {
 "LogName": "Load Location Maps",
 "Action":"Load",
-"Target":"Maps/{{ModID}}_GuardianHome,Maps/{{ModID}}_ExhibitSecondFloor,Maps/{{ModID}}_ExhibitSecondFloor,Maps/{{ModID}}_AncientGraveYard,Maps/{{ModID}}_AlanSpouseRoom,Maps/{{ModID}}_AlanPatio,Maps/{{ModID}}_JohnsTempRoom,Maps/{{ModID}}_TravelingTrailerDecker,Maps/{{ModID}}_BarronSpouseRoom,Maps/{{ModID}}_BarronPatio,Maps/{{ModID}}_TravelingTrailer,Maps/{{ModID}}_Temple,Maps/{{ModID}}_JohnSpouseRoom,Maps/{{ModID}}_JohnPatio,Maps/{{ModID}}_TempleRuins,Maps/{{ModID}}_BoatHouse,Maps/{{ModID}}_ThaliaSpouseRoom,Maps/{{ModID}}_ThaliaPatio,Maps/{{ModID}}_CottonSpouseRoom,Maps/{{ModID}}_CottonPatio,Maps/{{ModID}}_CottonsHome,Maps/{{ModID}}_Exhibit,Maps/{{ModID}}_BoxysHouse,Maps/{{ModID}}_ValerieSpouseRoom,Maps/{{ModID}}_ValeriePatio,Maps/{{ModID}}_StoneHouse,Maps/{{ModID}}_AlansRoom,Maps/{{ModID}}_BeeNursery,Maps/{{ModID}}_Marketpalooza,Maps/{{ModID}}_NiksRoom,Maps/{{ModID}}_NikolaiSpouseRoom,Maps/{{ModID}}_NikolaiPatio,Maps/{{ModID}}_LeslaHouse,Maps/{{ModID}}_BeeNursery,Maps/{{ModID}}_SecretCave,Maps/{{ModID}}_OldGraveYard,Maps/{{ModID}}_MavericksHouse,Maps/{{ModId}}_GradysRoom,Maps/{{ModId}}_LyellSpouseRoom,Maps/{{ModId}}_LyellPatio,Maps/{{ModId}}_RoswellsCoop,Maps/{{ModId}}_LyellsProperty,Maps/{{ModId}}_LyellsHouse,Maps/{{ModId}}_LyellsBarn,Maps/{{ModId}}_LyellsCoop,Maps/{{ModId}}_LyellsShed",
+"Target":"Maps/{{ModID}}_PasserbyCliffs,Maps/{{ModID}}_TurnaboutSaloon,Maps/{{ModID}}_TurnaboutSaloonBasement,Maps/{{ModID}}_PopperFarmRoom,Maps/{{ModID}}_PopperPatio,Maps/{{ModID}}_PoppersRoom,Maps/{{ModID}}_GuardianHome,Maps/{{ModID}}_ExhibitSecondFloor,Maps/{{ModID}}_ExhibitSecondFloor,Maps/{{ModID}}_AncientGraveYard,Maps/{{ModID}}_AlanSpouseRoom,Maps/{{ModID}}_AlanPatio,Maps/{{ModID}}_JohnsTempRoom,Maps/{{ModID}}_TravelingTrailerDecker,Maps/{{ModID}}_BarronSpouseRoom,Maps/{{ModID}}_BarronPatio,Maps/{{ModID}}_TravelingTrailer,Maps/{{ModID}}_Temple,Maps/{{ModID}}_JohnSpouseRoom,Maps/{{ModID}}_JohnPatio,Maps/{{ModID}}_TempleRuins,Maps/{{ModID}}_BoatHouse,Maps/{{ModID}}_ThaliaSpouseRoom,Maps/{{ModID}}_ThaliaPatio,Maps/{{ModID}}_CottonSpouseRoom,Maps/{{ModID}}_CottonPatio,Maps/{{ModID}}_CottonsHome,Maps/{{ModID}}_Exhibit,Maps/{{ModID}}_BoxysHouse,Maps/{{ModID}}_ValerieSpouseRoom,Maps/{{ModID}}_ValeriePatio,Maps/{{ModID}}_StoneHouse,Maps/{{ModID}}_AlansRoom,Maps/{{ModID}}_BeeNursery,Maps/{{ModID}}_Marketpalooza,Maps/{{ModID}}_NiksRoom,Maps/{{ModID}}_NikolaiSpouseRoom,Maps/{{ModID}}_NikolaiPatio,Maps/{{ModID}}_LeslaHouse,Maps/{{ModID}}_BeeNursery,Maps/{{ModID}}_SecretCave,Maps/{{ModID}}_OldGraveYard,Maps/{{ModID}}_MavericksHouse,Maps/{{ModId}}_GradysRoom,Maps/{{ModId}}_LyellSpouseRoom,Maps/{{ModId}}_LyellPatio,Maps/{{ModId}}_RoswellsCoop,Maps/{{ModId}}_LyellsProperty,Maps/{{ModId}}_LyellsHouse,Maps/{{ModId}}_LyellsBarn,Maps/{{ModId}}_LyellsCoop,Maps/{{ModId}}_LyellsShed",
 "FromFile":"Assets/Maps/Locational Maps/{{TargetWithoutPath}}.tbin",
 },
-       {
+  {
 "LogName": "Load Event Maps",
 "Action":"Load",
 "Target":"Maps/Fellowclown.PC_Mines,Maps/{{ModID}}_AmandaIntro,Maps/{{ModID}}_AnimalRefuge,Maps/{{ModID}}_FamilyTiesMap,Maps/{{ModID}}_TempleHouseParty,Maps/{{ModID}}_Heart2Platonic,Maps/{{ModID}}_LoresRoad,Maps/{{ModId}}_ZehPhamVillage,Maps/{{ModId}}_WaterGrave,Maps/{{ModId}}_Void,Maps/{{ModId}}_MarnieBarn,Maps/{{ModId}}_GradyLyellReunited,Maps/{{ModID}}_Birthday,Maps/{{ModID}}_FirstDate,Maps/{{ModID}}_FirstDateStars",
@@ -125,7 +320,7 @@ Load Locational Maps
 "Action": "Load",
 "Target": "Maps/worldmap_spring,Maps/worldmap_summer,Maps/worldmap_fall,Maps/worldmap_winter",
 "FromFile": "Assets/Maps/Tilesheets/WorldMap/{{TargetWithoutPath}}.png",
-        },
+},
 /************************************************
 Custom Animals
 ************************************************/
@@ -135,7 +330,7 @@ Custom Animals
 "Target": "Animals/FC.ArcanianDog_Gray,Animals/FC.ArcanianDog_Black,Animals/FC.ArcanianDog_Red,Animals/FC.ArcanianDog_Cream,Animals/FC.Movoraptor_Male_Baby_Blue,Animals/FC.Movoraptor_Male_Baby_Green,Animals/FC.Movoraptor_Male_Baby_Yellow,Animals/FC.Movoraptor_Male_Baby_Pale,Animals/FC.Movoraptor_Male_Adult_Blue,Animals/FC.Movoraptor_Male_Adult_Green,Animals/FC.Movoraptor_Male_Adult_Yellow,Animals/FC.Movoraptor_Male_Adult_Pale,Animals/FC.FrenchDodo_Adult_Pale,Animals/FC.FrenchDodo_Baby_Pale,Animals/FC.Movoraptor_Black_Adult,Animals/FC.Movoraptor_Black_Baby,Animals/FC.Shevit_Pet_Gray,Animals/FC.Shevit_Pet_Red,Animals/FC.Shevit_Pet_Cream,Animals/FC.Shevit_Pet_Brown,Animals/FC.Zoot,Animals/FC.Warthog_Adult_Black,Animals/FC.Warthog_Adult_Brown,Animals/FC.Warthog_Adult_Pale,Animals/FC.Warthog_Adult_Red,Animals/FC.Warthog_Baby_Black,Animals/FC.Warthog_Baby_Brown,Animals/FC.Warthog_Baby_Pale,Animals/FC.Warthog_Baby_Red,Animals/FC.Thylacine_Adult_Black,Animals/FC.Thylacine_Adult_Brown,Animals/FC.Thylacine_Adult_Pale,Animals/FC.Thylacine_Adult_Red,Animals/FC.Thylacine_Baby_Black,Animals/FC.Thylacine_Baby_Brown,Animals/FC.Thylacine_Baby_Pale,Animals/FC.Thylacine_Baby_Red,LooseSprites/FC.Tazzy_Icon,LooseSprites/FC.Warthog_Icon,LooseSprites/FC.Tazzy_Icon,LooseSprites/FC.Shevit_Icon,Animals/FC.ArcaGoat_Adult_Brown,Animals/FC.ArcaGoat_Baby_Brown,Animals/FC.ArcaGoat_Adult_Blue,Animals/FC.ArcaGoat_Baby_Blue,Animals/FC.ArcaGoat_Adult_PAle,Animals/FC.ArcaGoat_Baby_Pale,Animals/FC.ArcaGoat_Adult_Black,Animals/FC.ArcaGoat_Baby_Black,Animals/FC.ArcaTapi_Adult_Black,Animals/FC.ArcaTapi_Adult_Brown,Animals/FC.ArcaTapi_Adult_Pale,Animals/FC.ArcaTapi_Adult_Red,Animals/FC.ArcaCow_Adult_Black,Animals/FC.ArcaCow_Adult_Brown,Animals/FC.ArcaCow_Adult_Pale,Animals/FC.ArcaCow_Adult_Red,Animals/FC.ArcaCow_Baby_Black,Animals/FC.ArcaCow_Baby_Brown,Animals/FC.ArcaCow_Baby_Pale,Animals/FC.ArcaCow_Baby_Red,Animals/FC.ArcaHorse_Adult,Animals/FC.ArcaHorse_Baby,Animals/FC.Movoraptor_Blue_Adult,Animals/FC.Movoraptor_Pale_Adult,Animals/FC.Movoraptor_Pink_Adult,Animals/FC.Movoraptor_Purple_Adult,Animals/FC.Movoraptor_Blue_Baby,Animals/FC.Movoraptor_Pale_Baby,Animals/FC.Movoraptor_Pink_Baby,Animals/FC.Movoraptor_Purple_Baby,Animals/FC.ArcaTapi_Baby_Black,Animals/FC.ArcaTapi_Baby_Brown,Animals/FC.ArcaTapi_Baby_Pale,Animals/FC.ArcaTapi_Baby_Red,Mods/{{ModID}}/FC.Fish,Animals/FC.FrenchDodo_Adult_Gray,Animals/FC.FrenchDodo_Baby_Gray,Animals/FC.FrenchDodo_Adult_Black,Animals/FC.FrenchDodo_Baby_Black,Animals/FC.FrenchDodo_Adult_Blue,Animals/FC.FrenchDodo_Baby_Blue",
 "FromFile": "Assets/Animals/{{TargetWithoutPath}}.png", 
 },
-         {
+ {
 "LogName": "Shop Icons",
 "Action": "Load",
 "Target": "LooseSprites/FC.ArcanianDog_Icon,LooseSprites/FC.FrenchDodo_Icon,LooseSprites/FC.ArcaGoat_Icon,LooseSprites/FC.ArcaCow_Icon,LooseSprites/FC.Movo_Icon,LooseSprites/FC.Tapi_Icon",
@@ -147,7 +342,7 @@ Custom Animals
 "Target": "Animals/FC.Zoot",
 "FromFile": "Assets/Animals/{{TargetWithoutPath}}_{{season}}.png", 
  },
-          {
+{
 "LogName": "Monster",
 "Action": "Load",
 "Target": "Characters/Monsters/FC.CorruptedGhost",
@@ -156,16 +351,16 @@ Custom Animals
 /************************************************
 MEEP
 ************************************************/
-          {
+{
 // Loading old Image
 "Action": "Load",
 "Target": "{{ModID}}/Book_Cover_ForageOfFall,{{ModID}}/Book_Cover_HouseOnTheMountains,{{ModID}}/Book_Cover_TheDeepestDark,{{ModID}}/Book_Cover_TurtleThatCould,{{ModID}}/GuideBook.01,{{ModID}}/GuideBook.02,{{ModID}}/GuideBook.03,{{ModID}}/GuideBook.04,{{ModID}}/GuideBook.05,{{ModID}}/GuideBook.06,{{ModID}}/GuideBook.07,{{ModID}}/GuideBook.08,{{ModID}}/GuideBook.09,{{ModID}}/GuideBook.10,{{ModID}}/GuideBook.11,{{ModID}}/GuideBook.12,{{ModID}}/GuideBook.13,{{ModID}}/GuideBook.14,{{ModID}}/GuideBook.15,{{ModID}}/GuideBook.16,{{ModID}}/GuideBook.17,{{ModID}}/GuideBook.18,{{ModID}}/GuideBook.19,{{ModID}}/GuideBook.20,{{ModID}}/Book_Cover_Arcania,{{ModID}}/Book_Cover_FoliageOfArcania,{{ModID}}/Book_Cover_RodneyOBrien,{{ModID}}/Book_Cover_WolfsBane,{{ModID}}/Book_Cover_RogerLovejoy,{{ModID}}/Book_Cover_RockCrab,{{ModID}}/Book_Cover_OneEyedMan,{{ModID}}/Book_Cover_OldestMan,{{ModID}}/Book_Cover_DevelopingConfidence,{{ModID}}/Book_Cover_Cyclops,{{ModID}}/Book_Cover_Bubblegum,{{ModID}}/Book_Cover_AdventuresOfJumba,{{ModID}}/Painting1,{{ModID}}/Painting2,{{ModID}}/Painting3,{{ModID}}/Painting4,{{ModID}}/Painting5,{{ModID}}/Painting6,{{ModID}}/Painting7,{{ModID}}/Painting8,{{ModID}}/Painting9,{{ModID}}/Painting10,{{ModID}}/Painting11,{{ModID}}/Painting12,{{ModID}}/Painting13,{{ModID}}/Painting14,{{ModID}}/Book_Cover_BigBook,{{ModID}}/Book_Cover_Goblins,{{ModID}}/Book_Cover_Lyell,{{ModID}}/Book_Cover_LillyPirates,{{ModID}}/Banner,{{ModID}}/Book_Cover_Arah,{{ModID}}/Book_Cover_AggieTheLoved,{{ModID}}/Liphum_Embrace.Book,{{ModID}}/Arah_Awareness.book,{{ModID}}/Arah_Embedded_Book,{{ModID}}/Arah_Birth_Book,{{ModID}}/JohnBanner,{{ModID}}/Noodles,{{ModID}}/Painting,{{ModID}}/StoneRelic,{{ModID}}/HalkiasPage01,{{ModID}}/HalkiasPage02,{{ModID}}/HalkiasPage03,{{ModID}}/HalkiasPage04,{{ModID}}/LeslaPage01,{{ModID}}/LeslaPage02,{{ModID}}/StonePage01,{{ModID}}/StonePage02,{{ModID}}/LoveJoyPage01,{{ModID}}/FC.Map",
 "FromFile": "Assets/Meep/{{TargetWithoutPath}}.png"
 },
   {
-            "Action": "Load",
-            "Target": "Mods/{{ModID}}/SOL,Mods/{{ModID}}/BG",
-            "FromFile": "Assets/Movies/{{TargetWithoutPath}}.png"
-        },
+  "Action": "Load",
+  "Target": "Mods/{{ModID}}/SOL,Mods/{{ModID}}/BG",
+  "FromFile": "Assets/Movies/{{TargetWithoutPath}}.png"
+},
 ]
 }

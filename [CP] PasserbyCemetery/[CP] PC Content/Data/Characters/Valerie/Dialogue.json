@@ -70,6 +70,8 @@ NoneChangingDialogue
 "GreenRainFinished": "{{i18n:GreenRainFinished.Valerie}}",
 "GreenRain": "{{i18n:GreenRain.Valerie}}",
 "GreenRain_2": "{{i18n:GreenRain_2.Valerie}}",
+"FC.WrongShape": "{{i18n:CT.Valerie.FC.WrongShape}}",
+"FC.TrueShape": "{{i18n:CT.Valerie.FC.TrueShape}}",
 }
 },
 /************************************************
@@ -246,7 +248,7 @@ MiscDialogue
 {
 "LogName":"Festivaldialogue",
 "Action":"EditData",
-"Target":"Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/winter3,Data/Festivals/winter8,Data/Festivals/winter25",
+"Target":"Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/fall27,Data/Festivals/winter3,Data/Festivals/winter8,Data/Festivals/winter25",
 "Entries":{
 "FC.Valerie{{YearCheck}}":"{{i18n:Valerie.{{TargetWithoutPath}}.{{Relationship:FC.Valerie}}|default={{i18n:Valerie.{{TargetWithoutPath}}|default={{i18n:Valerie.festival-default}}}}}}",
 }

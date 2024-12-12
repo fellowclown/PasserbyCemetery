@@ -28,12 +28,18 @@
 "Alan.Sleeping": "{{i18n:Alan.Sleeping}}",
 "Alan.Working": "{{i18n:Alan.Working}}",
 "Alan.GreenRain": "{{i18n:Alan.GreenRain}}",
-"Alan.DesertFestival": "{{i18n:Alan.DesertFestival}}",
+"Alan.DesertFestival.01": "{{i18n:Alan.DesertFestival.01}}",
+"Alan.DesertFestival.02": "{{i18n:Alan.DesertFestival.02}}",
+"Alan.DesertFestival.03": "{{i18n:Alan.DesertFestival.03}}",
 "Alan.TroutDerby": "{{i18n:Alan.TroutDerby}}",
 "Alan.SquidFest": "{{i18n:Alan.SquidFest}}",
-"Alan.AnimalShop": "{{i18n:Alan.AnimalShop}}",
 "Alan.NightMarket": "{{i18n:Alan.NightMarket}}",
 "Alan.Temple": "{{i18n:Alan.Temple}}",
+"Alan.Beach": "{{i18n:Alan.Beach}}",
+"Alan.VultureFountainDezerie": "{{i18n:Alan.VultureFountainDezerie}}",
+"Alan.VultureFountainValerie": "{{i18n:Alan.VultureFountainValerie}}",
+"Alan.WorkingWithGrady": "{{i18n:Alan.WorkingWithGrady}}",
+"Alan.NiksRoom": "{{i18n:Alan.NiksRoom}}",
 }
 },
 /************************************************
@@ -45,46 +51,52 @@
 "Target": "Characters/schedules/FC.Alan",
 "Entries": {
 "spring": "GOTO Mon",
-"Mon": "730 {{ModID}}_OldGraveYard 43 75 3/1000 {{ModID}}_AlansRoom 6 7 0 {{ModID}}_Alan_Work0/1200 {{ModID}}_AlansRoom 6 8 2 {{ModID}}_AlanWork2 \"Strings\\schedules\\FC.Alan:Alan.Working\"/1400 Saloon 9 21 1 {{ModID}}_AlanSit1/2000 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 
-"Tue": "610 {{ModID}}_OldGraveYard 23 64 1/1000 {{ModID}}_OldGraveYard 43 75 3/1400 {{ModID}}_StoneHouse 12 18 2/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2130 {{ModID}}_AlansRoom 6 8 2 {{ModID}}_AlanWork2 \"Strings\\schedules\\FC.Alan:Alan.Working\"/2300 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+"Mon": "900 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_AlanSit2/1000 {{ModID}}_OldGraveYard 13 63 1/1020 Beach 47 22 1 \"Strings\\schedules\\FC.Alan:Alan.Beach/1400 {{ModID}}_StoneHouse 12 18 2/1600 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_AlanSit2/2200 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 
-"Wed": "1200 {{ModID}}_LyellsProperty 21 44 3/1400 {{ModID}}_StoneHouse 12 18 2/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2300 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+"Tue": "900 {{ModID}}_BeeNursery 10 15 0 square_3_0_0 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.00\"/1300 {{ModID}}_NiksRoom 8 12 1 \"Strings\\schedules\\FC.Alan:Alan.NiksRoom\"/1530 Mountain 10 10 2 square_9_1_2/1700 {{ModID}}_OldGraveYard 26 80 1 \"Strings\\schedules\\FC.Alan:Alan.VultureFountainValerie\"/1800 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_AlanSit2/2200 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 
-"Thu": "1200 {{ModID}}_BeeNursery 7 8 1 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.00\"/1300 {{ModID}}_BeeNursery 5 8 2 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.01\"/1330 {{ModID}}_BeeNursery 9 15 1 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.02\"/1400 {{ModID}}_StoneHouse 12 18 2/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2300 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+"Wed": "900 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_AlanSit2/1100 {{ModID}}_AlansRoom 6 7 0 {{ModID}}_Alan_Work0 \"Strings\\schedules\\FC.Alan:Alan.Working\"/1500 {{ModID}}_GradysRoom 4 14 0 \"Strings\\schedules\\FC.Alan:Alan.WorkingWithGrady\"/1700 {{ModID}}_StoneHouse 12 20 2/2100 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 
-"Fri": "1200 {{ModID}}_LyellsProperty 21 44 3/1400 {{ModID}}_StoneHouse 12 18 2/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2300 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+"Thu": "900 {{ModID}}_StoneHouse 12 18 2/1230 {{ModID}}_OldGraveYard 26 80 2/1430 {{ModID}}_StoneHouse 12 18 2/1800 {{ModID}}_OldGraveYard 26 80 1/2100 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 
-"Sat": "1200 {{ModID}}_BeeNursery 7 8 1 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.00\"/1300 {{ModID}}_BeeNursery 5 8 2 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.01\"/1330 {{ModID}}_BeeNursery 9 15 1 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.02\"/1400 {{ModID}}_BeeNursery 15 16 3 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.03\"/1600 {{ModID}}_OldGraveYard 15 44 1 {{ModID}}_AlanSit1/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2200 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+"Fri": "GOTO Thu",
 
-"Sun": "730 {{ModID}}_OldGraveYard 43 75 3/1000 {{ModID}}_AlansRoom 6 7 0 {{ModID}}_Alan_Work0/1200 {{ModID}}_AlansRoom 6 8 2 {{ModID}}_AlanWork2 \"Strings\\schedules\\FC.Alan:Alan.Working\"/1400 Saloon 9 21 1 {{ModID}}_AlanSit1/2000 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+"Sat": "GOTO Thu",
 
-"rain": "1200 AnimalShop 5 16 1 \"Strings\\schedules\\FC.Alan:Alan.AnimalShop\"/1400 Saloon 9 21 1 {{ModID}}_AlanSit1/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2300 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
-"winter_16": "1200 AnimalShop 5 16 1 \"Strings\\schedules\\FC.Alan:Alan.AnimalShop\"/1400 Beach 6 20 0 1 \"Strings\\schedules\\FC.Alan:Alan.NightMarket\"/2000 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+"Sun": "GOTO Thu",
 
-"GreenRain": "1400 {{ModID}}_StoneHouse 12 18 2 \"Strings\\schedules\\FC.Alan:Alan.GreenRain\"/2000 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2300 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
-"DesertFestival": "730 {{ModID}}_OldGraveYard 43 75 3/1000 {{ModID}}_AlansRoom 6 7 0 {{ModID}}_Alan_Work0/1200 Desert 10 38 0 \"Strings\\schedules\\FC.Alan:Alan.DesertFestival\"/1800 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2300 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
-"TroutDerby": "730 {{ModID}}_OldGraveYard 43 75 3/1000 {{ModID}}_AlansRoom 6 7 0 {{ModID}}_Alan_Work0/1200 Forest 114 33 2 \"Strings\\schedules\\FC.Alan:Alan.TroutDerby\"/1800 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2300 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
-"SquidFest": "730 {{ModID}}_OldGraveYard 43 75 3/1000 {{ModID}}_AlansRoom 6 7 0 {{ModID}}_Alan_Work0/1200 Beach 56 9 1 \"Strings\\schedules\\FC.Alan:Alan.SquidFest\"/1800 {{ModID}}_StoneHouse 8 20 2 {{ModID}}_AlanSit2/2300 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+"rain": "GOTO Mon",
+
+"marriageJob": "900 {{ModID}}_StoneHouse 12 18 2/1230 {{ModID}}_OldGraveYard 26 80 2/1430 {{ModID}}_StoneHouse 12 18 2/1800 {{ModID}}_OldGraveYard 26 80 1/2100 Bed",
+"marriage_Fri": "GOTO marriageJob" ,
+"marriage_Sat": "GOTO marriageJob" ,
+"marriage_Sun": "GOTO marriageJob" ,
+
+"GreenRain": "900 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_AlanSit2/1100 {{ModID}}_AlansRoom 6 7 0 \"Strings\\schedules\\FC.Alan:Alan.GreenRain/1430 {{ModID}}_StoneHouse 12 18 2/1800 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_AlanSit2/2200 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+
+"DesertFestival": "1000 Desert 14 41 1 \"Strings\\schedules\\FC.Alan:Alan.DesertFestival.01\"/1500 Desert 29 67 0 \"Strings\\schedules\\FC.Alan:Alan.DesertFestival.02\"/1800 Desert 25 24 2 \"Strings\\schedules\\FC.Alan:Alan.DesertFestival.03\"/2200 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+
+"TroutDerby": "800 Forest 59 47 1 \"Strings\\schedules\\FC.Alan:Alan.TroutDerby\"/1200 {{ModID}}_GradysRoom 4 14 0 {{ModID}}_AlanWork2 \"Strings\\schedules\\FC.Alan:Alan.WorkingWithGrady\"/1500  {{ModID}}_BeeNursery 10 15 0 square_3_0_0 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.02\"/1700 {{ModID}}_StoneHouse 12 20 2/2100 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+
+"SquidFest": "1000 Beach 29 20 1 \"Strings\\schedules\\FC.Alan:Alan.SquidFest\"/1500 {{ModID}}_StoneHouse 12 18 2/1700 {{ModID}}_BeeNursery 10 15 0 square_3_0_0 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.01\"/2100 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+
+"winter_15": "700 Beach 9 14 3 \"Strings\\schedules\\FC.Alan:Alan.NightMarket\"/1500 {{ModID}}_GradysRoom 4 14 0 {{ModID}}_AlanWork0 \"Strings\\schedules\\FC.Alan:Alan.WorkingWithGrady\"/1700  {{ModID}}_BeeNursery 10 15 0 square_3_0_0 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.02\"/1900 {{ModID}}_StoneHouse 12 20 2/2200 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 }, 
 "When": {
 "HasFlag |contains=landslideDone": true,
 }
 },
    {
-            "LogName": "Schedule Edit",
+"LogName": "Grady's saloon Schedule",
 "Action": "EditData",
 "Target": "Characters/schedules/FC.Alan",
-"Update": "OnTimeChange, OnLocationChange",
 "Entries": {
+"Mon": "900 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_AlanSit2/1000 {{ModID}}_OldGraveYard 13 63 1/1020 Beach 47 22 1 \"Strings\\schedules\\FC.Alan:Alan.Beach/1400 {{ModID}}_StoneHouse 12 18 2/1600 {{ModID}}_TurnaboutSaloon 3 23 2 {{ModID}}_AlanSit2/2200 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 
-"Sun":"900 {{ModID}}_Temple 10 23 0 {{ModID}}_AlanSit0 \"Strings\\schedules\\FC.Alan:Alan.Temple\"/1000 {{ModID}}_AlansRoom 6 7 0 {{ModID}}_Alan_Work0/1200 {{ModID}}_AlansRoom 6 8 2 {{ModID}}_AlanWork2 \"Strings\\schedules\\FC.Alan:Alan.Working\"/1400 Saloon 9 21 1 {{ModID}}_AlanSit1/2000 {{ModID}}_AlansRoom 10 6 1 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
-    },
-
-     "When": {
-"HasSeenEvent |contains={{ModID}}_TheTemple": true,
-"HasFlag |contains={{ModID}}_Temple.Mail": true,
- "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+}, 
+"When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
 }
 },
 ]

@@ -24,6 +24,9 @@
 						"EditMapLocation": "{{ModID}}_SecretCave",
 						"EditMapPosition": "8,2",
 						"EditMapMode": "ReplaceByLayer",
+											"BundleCompletedActions": [
+						"AddConversationTopic FC.CottonsFreedom 12"
+					]
 					},
 				},
 			},

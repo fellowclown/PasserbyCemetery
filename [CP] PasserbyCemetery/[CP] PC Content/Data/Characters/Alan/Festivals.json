@@ -5,8 +5,6 @@
             "Target": "Data/Festivals/spring13",
                         "When": {
  "HasFlag|contains=landslideDone": true,
-
-"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
 },
             "TextOperations": [
                 {
@@ -144,7 +142,24 @@
                 },
         ]
     },
-
+    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Alan 22 75 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
        {
             "Action": "EditData",
             "Target": "Data/Festivals/fall16",

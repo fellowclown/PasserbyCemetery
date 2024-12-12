@@ -87,7 +87,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Popper 19 29 2",
+                    "Value": "FC.Popper 17 29 2",
                     "Delimiter": "/"
                 },
                      {
@@ -96,7 +96,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Popper 19 29 2",
+                    "Value": "FC.Popper 17 29 2",
                     "Delimiter": "/"
                 },
                                           {
@@ -193,6 +193,25 @@
                 },
         ]
     },
+                {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Popper 23 78 3",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+       
                    {
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",

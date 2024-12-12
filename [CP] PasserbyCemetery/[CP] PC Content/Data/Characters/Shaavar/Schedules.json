@@ -38,7 +38,8 @@
 
 "Fri": "800 Beach 32 34 2/1000 Town 99 90 1/1200 {{ModID}}_OldGraveYard 44 68 3/1500 {{ModID}}_OldGraveYard 21 79 3/1900 {{ModID}}_GuardianHome 12 10 1 {{ModID}}_ShaavarSleep",
 
-"Sat": "800 {{ModID}}_AncientGraveYard 33 15 3/1000 {{ModID}}_AncientGraveYard 45 30 0/1500 {{ModID}}_OldGraveYard 19 44 3/1900 {{ModID}}_GuardianHome {{ModID}}_GuardianHome 12 10 1 {{ModID}}_ShaavarSleep",
+"Sat": "800 {{ModID}}_AncientGraveYard 33 15 3/1000 {{ModID}}_AncientGraveYard 45 30 0/1500 {{ModID}}_OldGraveYard 19 44 3/1900 {{ModID}}_GuardianHome 12 10 1 {{ModID}}_ShaavarSleep",
+
 "Sun": "700 Town 83 99 3/1000 Beach 32 34 2/1200 Town 84 85 3/1900 {{ModID}}_GuardianHome 12 10 1 {{ModID}}_ShaavarSleep",
 
 "rain": "800 {{ModID}}_Exhibit 14 9 4/1000 {{ModID}}_GuardianHome 14 17 2/1200 {{ModID}}_GuardianHome 13 15 2 {{ModID}}_ShaavarSit2/1500 {{ModID}}_GuardianHome 8 13 3 {{ModID}}_ShaavarSit3/1900 {{ModID}}_GuardianHome 12 10 1 {{ModID}}_ShaavarSleep",
@@ -49,5 +50,19 @@
         "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
             },
 },  
+   {
+"LogName": "Shaavar's saloon Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Shaavar",
+"Entries": {
+"Tue": "800 {{ModID}}_GuardianHome 13 15 2 {{ModID}}_ShaavarSit2/1000 {{ModID}}_TurnaboutSaloon 13 23 2/1200 Mountain 79 23 3/1900 {{ModID}}_GuardianHome 12 10 1 {{ModID}}_ShaavarSleep",
+
+"Wed": "900 {{ModID}}_TurnaboutSaloon 13 23 2/1200 Beach 32 34 2/1500 Town 93 32 3/1900 {{ModID}}_GuardianHome 12 10 1 {{ModID}}_ShaavarSleep",
+
+}, 
+"When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+}
+},
 ]
 }

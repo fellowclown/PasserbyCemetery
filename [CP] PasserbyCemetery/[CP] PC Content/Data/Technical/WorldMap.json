@@ -43,7 +43,7 @@
                     "Width": 19,
                     "Height": 14
                   },
-                  "Text": "{{i18n:FC.StoneResidence}}"
+                  "Text": "{{i18n:FC.Stoneresidents}}"
                 },
                 {
                   "Id": "{{ModID}}_LeslaHouse",
@@ -53,7 +53,7 @@
                     "Width": 20,
                     "Height": 16
                   },
-                  "Text": "{{i18n:FC.LeslaResidence}}"
+                  "Text": "{{i18n:FC.Leslaresidents}}"
                 },
                 {
                   "Id": "{{ModID}}_BeeNursery",
@@ -73,7 +73,7 @@
                     "Width": 24,
                     "Height": 15
                   },
-                  "Text": "{{i18n:FC.LovejoyResidence}}"
+                  "Text": "{{i18n:FC.LoveJoyresidents}}"
                 },
                    {
                   "Id": "{{ModID}}_TravelingTrailer",
@@ -116,20 +116,21 @@
                   "Text": "{{i18n:FC.PasserbyTemple}}",
                 },
                       {
-                  "Id": "{{ModID}}_TempleRuins",
+                  "Id": "{{ModID}}_TurnaboutSaloon",
                   "PixelArea": {
-                   "X": 188,
-                    "Y": 40,
-                    "Width": 14,
-                    "Height": 11
+                   "X": 137,
+                    "Y": 130,
+                    "Width": 11,
+                    "Height": 15
                   },
-                  "Text": "{{i18n:FC.PasserbyTemple}}",
+                  "Text": "{{i18n:FC.TurnaboutSaloon}}",
                 },
               ],
               // Match location names & tile positions to this map area. For example, when the player is
               // in the 'Lumisteria.MtVapius_Inn' location, their marker on the map is shown on top of the
               // inn building.
               "WorldPositions": [
+          
                  {
                   "Id": "{{ModID}}_Temple",
                   "LocationName": "{{ModID}}_Temple",
@@ -147,6 +148,21 @@
                 }
               ]
             },
+                        {
+                  "Id": "{{ModID}}_TurnaboutSaloon",
+                  "LocationName": "{{ModID}}_TurnaboutSaloon",
+                  "MapPixelArea": {
+                 "X": 137,
+                    "Y": 130,
+                    "Width": 11,
+                    "Height": 15
+                  },
+                  "ScrollText": "{{i18n:FC.TurnaboutSaloon}}"
+                },
+                {
+                  "Id": "{{ModID}}_Default",
+                  "LocationName": "{{ModID}}_OldGraveYard"
+                },
                            {
                   "Id": "{{ModID}}_TempleRuins",
                   "LocationName": "{{ModID}}_TempleRuins",
@@ -182,7 +198,7 @@
                     "Width": 19,
                     "Height": 14
                   },
-                  "ScrollText": "{{i18n:FC.StoneResidence}}" // optional, defaults to parent area's scroll text (if any)
+                  "ScrollText": "{{i18n:FC.Stoneresidents}}" // optional, defaults to parent area's scroll text (if any)
                 },
                 {
                   "Id": "{{ModID}}_LeslaHouse",
@@ -193,7 +209,7 @@
                     "Width": 20,
                     "Height": 16
                   },
-                  "ScrollText": "{{i18n:FC.LeslaResidence}}" // optional, defaults to parent area's scroll text (if any)
+                  "ScrollText": "{{i18n:FC.Leslaresidents}}" // optional, defaults to parent area's scroll text (if any)
                 },
                 {
                   "Id": "{{ModID}}_BeeNursery",
@@ -215,7 +231,7 @@
                     "Width": 24,
                     "Height": 15
                   },
-                  "ScrollText": "{{i18n:FC.LoveJoyResidence}}" // optional, defaults to parent area's scroll text (if any)
+                  "ScrollText": "{{i18n:FC.LoveJoyresidents}}" // optional, defaults to parent area's scroll text (if any)
                 },
                 {
                   "Id": "{{ModID}}_LyellsHouse",
@@ -226,7 +242,7 @@
                     "Width": 17,
                     "Height": 18
                   },
-                  "ScrollText": "{{i18n:FC.HalkiasResidence}}" // optional, defaults to parent area's scroll text (if any)
+                  "ScrollText": "{{i18n:FC.Halkiasresidents}}" // optional, defaults to parent area's scroll text (if any)
                 },
                       {
                   "Id": "{{ModID}}_TravelingTrailerDecker",
@@ -281,7 +297,7 @@
                     "Width": 17,
                     "Height": 18
                   },
-                  "Text": "{{i18n:FC.HalkiasResidence}}"
+                  "Text": "{{i18n:FC.Halkiasresidents}}"
                 },     
                 {
                   "Id": "{{ModID}}_Default",
@@ -301,7 +317,7 @@
                     "Width": 17,
                     "Height": 18
                   },
-                  "ScrollText": "{{i18n:FC.HalkiasResidence}}" // optional, defaults to parent area's scroll text (if any)
+                  "ScrollText": "{{i18n:FC.Halkiasresidents}}" // optional, defaults to parent area's scroll text (if any)
                 },
                 {
                   "Id": "{{ModID}}_DefaultLyell",

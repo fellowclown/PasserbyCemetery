@@ -36,13 +36,27 @@
 
 "Sun": "610 {{ModID}}_OldGraveYard 29 79 3/1200 Mountain 68 14 2/1600 Town 45 57 2/1900 Beach 48 19 2/2200 {{ModID}}_Exhibit 13 8 2",
 
-"rain": "1000 {{ModID}}_Exhibit 3 9 1/1800 {{ModID}}_Exhibit 5 5 2/1200 {{ModID}}_Exhibit 13 8 2/1700 {{ModID}}_OldGraveYard 29 79 3/2200 {{ModID}}_Exhibit 13 8 2",
+"rain": "1000 {{ModID}}_Exhibit 3 9 1/1200 {{ModID}}_Exhibit 5 5 2/1800 {{ModID}}_Exhibit 13 8 2/1700 {{ModID}}_OldGraveYard 29 79 3/2200 {{ModID}}_Exhibit 13 8 2",
 
 "GreenRain": "1000 {{ModID}}_Exhibit 3 9 1 \"Strings\\schedules\\FC.Thalia:Thalia.GreenRain\"/1800 {{ModID}}_Exhibit 5 5 2/1200 {{ModID}}_Exhibit 13 8 2",
 "winter_15": "1000 {{ModID}}_Exhibit 3 9 1/1800 {{ModID}}_Exhibit 5 5 2/1200 {{ModID}}_Exhibit 13 8 2/1600 Beach 5 20 0 \"Strings\\schedules\\FC.Thalia:Thalia.NightMarket\"",
 }, 
 "When": {
                              "HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
+}
+},
+   {
+"LogName": "Thalia's saloon Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Thalia",
+"Entries": {
+"Sun": "610 {{ModID}}_OldGraveYard 29 79 3/1200 {{ModID}}_TurnaboutSaloon 6 23 0/1600 Town 45 57 2/1900 Beach 48 19 2/2200 {{ModID}}_Exhibit 13 8 2",
+
+"rain": "1000 {{ModID}}_Exhibit 3 9 1/1200 {{ModID}}_TurnaboutSaloon 6 23 0/1800 {{ModID}}_Exhibit 13 8 2/1700 {{ModID}}_OldGraveYard 29 79 3/2200 {{ModID}}_Exhibit 13 8 2",
+
+}, 
+"When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
 }
 },
 ]

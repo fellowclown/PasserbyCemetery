@@ -5462,7 +5462,7 @@
 "Category": -5,
 "Price":150,
  "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 216,
+"SpriteIndex": 217,
 "Edibility": 2,
 "IsDrink": false,
 "CanBeGivenAsGift": true,
@@ -5794,10 +5794,10 @@
 "Buffs": [
 {
 "Id": 0,
-"BuffId": "{{i18n:FC.VoidMilk.Buff}}",
-"IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
+"BuffId": null,
+"IconTexture": null,
 "IconSpriteIndex": 9,
-"Duration": 1000,
+"Duration": -1,
 "IsDebuff": false,
 "GlowColor": null,
 "CustomAttributes":{
@@ -5808,9 +5808,9 @@
 "ForagingLevel": 0.0,
 "MaxStamina": 0.0,
 "MagneticRadius": 0.0,
-"Speed": 1.0,
-"Defense": 1.0,
-"Attack": 2.0
+"Speed": 0.0,
+"Defense":0.0,
+"Attack": 0.0
 },
 "CustomFields": null
 }
@@ -6287,7 +6287,7 @@
 "Category": -18,
 "Price": 40,
  "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 217,
+"SpriteIndex": 216,
 "Edibility": -300,
 "IsDrink": false,
 "CanBeGivenAsGift": true,
@@ -8423,6 +8423,249 @@
 }
 },
 ///Crop Object Data
+
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+"{{ModID}}_GiggleFit":{
+"Name": "{{ModID}}_GiggleFit",
+"DisplayName": "{{i18n:FC.GiggleFit}}",
+"Description": "{{i18n:FC.GiggleFit.Desc}}",
+"Type": "Vegetable",
+"Category": -75,
+ "Price": 200,
+"Edibility": 10,
+"IsDrink": false,
+ "CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+ "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ContextTags": [
+"color_white",
+],
+"Buff":{
+},
+"Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex":249
+},
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_MashedGiggles":{
+"Name": "{{ModID}}_MashedGiggles",
+"DisplayName": "{{i18n:FC.MashedGiggles}}",
+"Description": "{{i18n:FC.MashedGiggles.Desc}}",
+"Type": "Cooking",
+"Category": -7,
+"Price": 40,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 250,
+"Edibility": 10,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+{
+"Id": null,
+"BuffId": null,
+"IconTexture": null,
+"IconSpriteIndex": 0,
+"Duration": 0,
+"IsDebuff": false,
+"GlowColor": null,
+"CustomAttributes":{
+"FarmingLevel": 0.0,
+"FishingLevel": 0.0,
+"MiningLevel": 0.0,
+"LuckLevel": 0.0,
+"ForagingLevel": 0.0,
+"MaxStamina": 0.0,
+"MagneticRadius": 0.0,
+"Speed": 0.0,
+"Defense": 0.0,
+"Attack": 0.0
+},
+"CustomFields": null
+}
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_cooking",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_GiggleSmoothie":{
+"Name": "{{ModID}}_GiggleSmoothie",
+"DisplayName": "{{i18n:FC.GiggleSmoothie}}",
+"Description": "{{i18n:FC.GiggleSmoothie.Desc}}",
+"Type": "Cooking",
+"Category": -7,
+"Price": 40,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 251,
+"Edibility": 5,
+"IsDrink": true,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+{
+"Id": null,
+"BuffId": null,
+"IconTexture": null,
+"IconSpriteIndex": 0,
+"Duration": 0,
+"IsDebuff": false,
+"GlowColor": null,
+"CustomAttributes":{
+"FarmingLevel": 0.0,
+"FishingLevel": 0.0,
+"MiningLevel": 0.0,
+"LuckLevel": 0.0,
+"ForagingLevel": 0.0,
+"MaxStamina": 0.0,
+"MagneticRadius": 0.0,
+"Speed": 0.0,
+"Defense": 0.0,
+"Attack": 0.0
+},
+"CustomFields": null
+}
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_cooking",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_GiggleBowlSalad":{
+"Name": "{{ModID}}_GiggleBowlSalad",
+"DisplayName": "{{i18n:FC.GiggleBowlSalad}}",
+"Description": "{{i18n:FC.GiggleBowlSalad.Desc}}",
+"Type": "Cooking",
+"Category": -7,
+"Price": 110,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 252,
+"Edibility": 20,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+{
+"Id": null,
+"BuffId": null,
+"IconTexture": null,
+"IconSpriteIndex": 0,
+"Duration": 0,
+"IsDebuff": false,
+"GlowColor": null,
+"CustomAttributes":{
+"FarmingLevel": 0.0,
+"FishingLevel":0.0,
+"MiningLevel": 0.0,
+"LuckLevel": 0.0,
+"ForagingLevel": 0.0,
+"MaxStamina": 0.0,
+"MagneticRadius": 0.0,
+"Speed": 0.0,
+"Defense": 0.0,
+"Attack": 0.0
+},
+"CustomFields": null
+}
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_cooking",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_GiggleFitSeeds":{
+"Name": "{{ModID}}_GiggleFitSeeds",
+"DisplayName": "{{i18n:FC.GiggleFitSeeds}}",
+"Description": "{{i18n:FC.GiggleFitSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 20,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 253,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+{
+"Id": null,
+"BuffId": null,
+"IconTexture": null,
+"IconSpriteIndex": 0,
+"Duration": 0,
+"IsDebuff": false,
+"GlowColor": null,
+"CustomAttributes":{
+"FarmingLevel": 0.0,
+"FishingLevel": 0.0,
+"MiningLevel": 0.0,
+"LuckLevel": 0.0,
+"ForagingLevel": 0.0,
+"MaxStamina": 0.0,
+"MagneticRadius": 0.0,
+"Speed": 0.0,
+"Defense": 0.0,
+"Attack": 0.0
+},
+"CustomFields": null
+}
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
 {
 "Action": "EditData",
 "Target": "Data/Objects",
@@ -9034,9 +9277,6 @@
 }
 }
 },
-
-
-
 {
 "Action": "EditData",
 "Target": "Data/Objects",
@@ -10329,122 +10569,200 @@
 ************************************************/
 {
 "Action": "EditData",
-"Target": "Data/Objects", ///Hate Ring
+"Target": "Data/Objects", ///Platonic Ring
 "Entries":{
-"{{ModID}}_BehatedRing":{
-"Name": "{{ModID}}_BehatedRing",
-"DisplayName": "{{i18n:FC.BehatedRing}}",
-"Description": "{{i18n:FC.BehatedRing.Desc}}",
-"Type": "Ring",
-"Category": -96,
-"Price": 3000,
-"ExcludeObjectsShipping": true,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
- "Buffs": [],
-"Texture": "Mods/{{ModID}}/Weapons",
-"SpriteIndex": 6
-},
+"{{ModID}}_BehatedRing": {
+    "Name": "{{ModID}}_BehatedRing",
+    "DisplayName": "{{i18n:FC.BehatedRing}}",
+    "Description": "{{i18n:FC.BehatedRing.Desc}}",
+    "Type": "Ring",
+    "Category": 0,
+    "Price": 100,
+    "Texture": "Mods/{{ModID}}/Weapons",
+    "SpriteIndex": 6,
+    "ColorOverlayFromNextIndex": false,
+    "Edibility": -300,
+    "IsDrink": false,
+    "Buffs": null,
+    "GeodeDropsDefaultItems": false,
+    "GeodeDrops": null,
+    "ArtifactSpotChances": null,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+    "ExcludeFromFishingCollection": false,
+    "ExcludeFromShippingCollection": false,
+    "ExcludeFromRandomSale": false,
+    "ContextTags": [
+      "color_blue",
+      "ring_item"
+    ],
+    "CustomFields": null
+  },
 }
 },
 {
 "Action": "EditData",
 "Target": "Data/Objects", ///Platonic Ring
 "Entries":{
-"{{ModID}}_EternalEmbraceRing":{
-"Name": "{{ModID}}_EternalEmbraceRing",
-"DisplayName": "{{i18n:FC.EternalEmbraceRing}}",
-"Description": "{{i18n:FC.EternalEmbraceRing.Desc}}",
-"Type": "Ring",
-"Category": -96,
-"Price": 1000,
-"ExcludeObjectsShipping": true,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
- "Buffs": [],
-"Texture": "Mods/{{ModID}}/Weapons",
-"SpriteIndex": 7
-},
+"{{ModID}}_EternalEmbraceRing": {
+    "Name": "{{ModID}}_EternalEmbraceRing",
+    "DisplayName": "{{i18n:FC.EternalEmbraceRing}}",
+    "Description": "{{i18n:FC.EternalEmbraceRing.Desc}}",
+    "Type": "Ring",
+    "Category": 0,
+    "Price": 100,
+    "Texture": "Mods/{{ModID}}/Weapons",
+    "SpriteIndex": 7,
+    "ColorOverlayFromNextIndex": false,
+    "Edibility": -300,
+    "IsDrink": false,
+    "Buffs": null,
+    "GeodeDropsDefaultItems": false,
+    "GeodeDrops": null,
+    "ArtifactSpotChances": null,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+    "ExcludeFromFishingCollection": false,
+    "ExcludeFromShippingCollection": false,
+    "ExcludeFromRandomSale": false,
+    "ContextTags": [
+      "color_pink",
+      "ring_item"
+    ],
+    "CustomFields": null
+  },
 }
 },
 {
 "Action": "EditData",
 "Target": "Data/Objects", ///Platonic Ring
 "Entries":{
-"{{ModID}}_BullsFuryRing":{
-"Name": "{{ModID}}_BullsFuryRing",
-"DisplayName": "{{i18n:FC.BullsFuryRing}}",
-"Description": "{{i18n:FC.BullsFuryRing.Desc}}",
-"Type": "Ring",
-"Category": -96,
-"Price": 1250,
-"ExcludeObjectsShipping": true,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
- "Buffs": [],
-"Texture": "Mods/{{ModID}}/Weapons",
-"SpriteIndex": 8
-},
+"{{ModID}}_BullsFuryRing": {
+    "Name": "{{ModID}}_BullsFuryRing",
+    "DisplayName": "{{i18n:FC.BullsFuryRing}}",
+    "Description": "{{i18n:FC.BullsFuryRing.Desc}}",
+    "Type": "Ring",
+    "Category": 0,
+    "Price": 100,
+    "Texture": "Mods/{{ModID}}/Weapons",
+    "SpriteIndex": 8,
+    "ColorOverlayFromNextIndex": false,
+    "Edibility": -300,
+    "IsDrink": false,
+    "Buffs": null,
+    "GeodeDropsDefaultItems": false,
+    "GeodeDrops": null,
+    "ArtifactSpotChances": null,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+    "ExcludeFromFishingCollection": false,
+    "ExcludeFromShippingCollection": false,
+    "ExcludeFromRandomSale": false,
+    "ContextTags": [
+      "color_white",
+      "ring_item"
+    ],
+    "CustomFields": null
+  },
 }
 },
 {
 "Action": "EditData",
 "Target": "Data/Objects", ///Platonic Ring
 "Entries":{
-"{{ModID}}_TheStingerRing":{
-"Name": "{{ModID}}_TheStingerRing",
-"DisplayName": "{{i18n:FC.TheStingerRing}}",
-"Description": "{{i18n:FC.TheStingerRing.Desc}}",
-"Type": "Ring",
-"Category": -96,
-"Price": 1900,
-"ExcludeObjectsShipping": true,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
- "Buffs": [],
-"Texture": "Mods/{{ModID}}/Weapons",
-"SpriteIndex": 9
-},
+"{{ModID}}_TheStingerRing": {
+    "Name": "{{ModID}}_TheStingerRing",
+    "DisplayName": "{{i18n:FC.TheStingerRing}}",
+    "Description": "{{i18n:FC.TheStingerRing.Desc}}",
+    "Type": "Ring",
+    "Category": 0,
+    "Price": 100,
+    "Texture": "Mods/{{ModID}}/Weapons",
+    "SpriteIndex": 9,
+    "ColorOverlayFromNextIndex": false,
+    "Edibility": -300,
+    "IsDrink": false,
+    "Buffs": null,
+    "GeodeDropsDefaultItems": false,
+    "GeodeDrops": null,
+    "ArtifactSpotChances": null,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+    "ExcludeFromFishingCollection": false,
+    "ExcludeFromShippingCollection": false,
+    "ExcludeFromRandomSale": false,
+    "ContextTags": [
+      "color_orange",
+      "ring_item"
+    ],
+    "CustomFields": null
+  },
 }
 },
 {
 "Action": "EditData",
 "Target": "Data/Objects", ///Platonic Ring
 "Entries":{
-"{{ModID}}_ShellRing":{
-"Name": "{{ModID}}_ShellRing",
-"DisplayName": "{{i18n:FC.ShellRing}}",
-"Description": "{{i18n:FC.ShellRing.Desc}}",
-"Type": "Ring",
-"Category": -96,
-"Price": 1800,
-"ExcludeObjectsShipping": true,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
- "Buffs": [],
-"Texture": "Mods/{{ModID}}/Weapons",
-"SpriteIndex":10
-},
+"{{ModID}}_ShellRing": {
+    "Name": "{{ModID}}_ShellRing",
+    "DisplayName": "{{i18n:FC.ShellRing}}",
+    "Description": "{{i18n:FC.ShellRing.Desc}}",
+    "Type": "Ring",
+    "Category": 0,
+    "Price": 100,
+    "Texture": "Mods/{{ModID}}/Weapons",
+    "SpriteIndex": 10,
+    "ColorOverlayFromNextIndex": false,
+    "Edibility": -300,
+    "IsDrink": false,
+    "Buffs": null,
+    "GeodeDropsDefaultItems": false,
+    "GeodeDrops": null,
+    "ArtifactSpotChances": null,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+    "ExcludeFromFishingCollection": false,
+    "ExcludeFromShippingCollection": false,
+    "ExcludeFromRandomSale": false,
+    "ContextTags": [
+      "color_orange",
+      "ring_item"
+    ],
+    "CustomFields": null
+  },
 }
 },
 {
 "Action": "EditData",
 "Target": "Data/Objects", ///Platonic Ring
 "Entries":{
-"{{ModID}}_VoidlingRing":{
-"Name": "{{ModID}}_VoidlingRing",
-"DisplayName": "{{i18n:FC.VoidlingRing}}",
-"Description": "{{i18n:FC.VoidlingRing.Desc}}",
-"Type": "Ring",
-"Category": -96,
-"Price": 1450,
-"ExcludeObjectsShipping": true,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
- "Buffs": [],
-"Texture": "Mods/{{ModID}}/Weapons",
-"SpriteIndex":11
-},
+"{{ModID}}_VoidlingRing": {
+    "Name": "{{ModID}}_VoidlingRing",
+    "DisplayName": "{{i18n:FC.VoidlingRing}}",
+    "Description": "{{i18n:FC.VoidlingRing.Desc}}",
+    "Type": "Ring",
+    "Category": 0,
+    "Price": 100,
+    "Texture": "Mods/{{ModID}}/Weapons",
+    "SpriteIndex": 11,
+    "ColorOverlayFromNextIndex": false,
+    "Edibility": -300,
+    "IsDrink": false,
+    "Buffs": null,
+    "GeodeDropsDefaultItems": false,
+    "GeodeDrops": null,
+    "ArtifactSpotChances": null,
+    "CanBeGivenAsGift": true,
+    "CanBeTrashed": true,
+    "ExcludeFromFishingCollection": false,
+    "ExcludeFromShippingCollection": false,
+    "ExcludeFromRandomSale": false,
+    "ContextTags": [
+      "colorblack",
+      "ring_item"
+    ],
+    "CustomFields": null
+  },
 }
 },
 /************************************************
@@ -10471,67 +10789,6 @@
 /************************************************
  Shirts
 ************************************************/
-{
-"Action": "EditData",
-"Target": "Data/Shirts",
-"Entries":{
-"{{ModID}}_SaveTheTazzy":{
-"Name": "{{ModID}}_SaveTheTazzy",
-"DisplayName": "{{i18n:FC.SaveTheTazzy}}",
-"Description": "{{i18n:FC.SaveTheTazzy.Desc}}",
-"Price": 50,
-"Texture": "Mods/{{ModID}}/Shirts",
-"SpriteIndex": 19,
-"DefaultColor": null,
-"CanBeDyed": false,
-"IsPrismatic": false,
-"HasSleeves": true,
-"CanChooseDuRingCharacterCustomization": false,
-"CustomFields":{}
-},
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/ClothingInformation",
-"Entries":{
-"{{ModID}}_SunriseShirt":{
-"Name": "{{ModID}}_SunriseShirt",
-"DisplayName": "{{i18n:FC.SunriseShirt}}",
-"Description": "{{i18n:FC.SunriseShirt.Desc}}",
-"Price": 50,
-"Texture": null,
-"SpriteIndex": 0,
-"DefaultColor": null,
-"CanBeDyed": false,
-"IsPrismatic": false,
-"HasSleeves": true,
-"CanChooseDuRingCharacterCustomization": false,
-"CustomFields":{}
-},
-},
-},
-{
-"Action": "EditData",
-"Target": "Data/ClothingInformation",
-"Entries":{
-"{{ModID}}_ClusterShroomShirt":{
-"Name": "{{ModID}}_ClusterShroomShirt",
-"DisplayName": "{{i18n:FC.clustershroomshirt}}",
-"Description": "{{i18n:FC.clustershroomshirt.Desc}}",
-"Price": 50,
-"Texture": null,
-"SpriteIndex": 1,
-"DefaultColor": null,
-"CanBeDyed": false,
-"IsPrismatic": false,
-"HasSleeves": true,
-"CanChooseDuRingCharacterCustomization": false,
-"CustomFields":{}
-},
-},
-},
-
 {
 "Action": "EditData",
 "Target": "Data/Shirts",
@@ -10856,6 +11113,46 @@
 "Action": "EditData",
 "Target": "Data/Shirts",
 "Entries":{
+"{{ModID}}_Shirt16":{
+"Name": "{{ModID}}_Shirt16",
+"DisplayName": "{{i18n:FC.Shirt16}}",
+"Description": "{{i18n:FC.Shirt16.Desc}}",
+"Price": 50,
+"Texture": "Mods/{{ModID}}/Shirts",
+"SpriteIndex": 16,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields":{}
+},
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries":{
+"{{ModID}}_Shirt17":{
+"Name": "{{ModID}}_Shirt17",
+"DisplayName": "{{i18n:FC.Shirt17}}",
+"Description": "{{i18n:FC.Shirt17.Desc}}",
+"Price": 50,
+"Texture": "Mods/{{ModID}}/Shirts",
+"SpriteIndex": 17,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields":{}
+},
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries":{
 "{{ModID}}_Shirt18":{
 "Name": "{{ModID}}_Shirt18",
 "DisplayName": "{{i18n:FC.Shirt18}}",
@@ -10867,6 +11164,26 @@
 "CanBeDyed": false,
 "IsPrismatic": false,
 "HasSleeves": false,
+"CanChooseDuRingCharacterCustomization": false,
+"CustomFields":{}
+},
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Shirts",
+"Entries":{
+"{{ModID}}_Shirt19":{
+"Name": "{{ModID}}_Shirt19",
+"DisplayName": "{{i18n:FC.Shirt19}}",
+"Description": "{{i18n:FC.Shirt19.Desc}}",
+"Price": 50,
+"Texture": "Mods/{{ModID}}/Shirts",
+"SpriteIndex": 19,
+"DefaultColor": null,
+"CanBeDyed": false,
+"IsPrismatic": false,
+"HasSleeves": true,
 "CanChooseDuRingCharacterCustomization": false,
 "CustomFields":{}
 },

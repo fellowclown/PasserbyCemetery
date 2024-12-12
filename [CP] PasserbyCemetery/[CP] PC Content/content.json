@@ -44,8 +44,24 @@
     "Default": "Darker",
      "AllowBlank": false,
 },
+    "OverWorldMapEdit": {
+    "Description": "Enabled vanilla overworld map edit.",
+    "AllowValues": "true,false",
+    "Default": "true",
+     "AllowBlank": false,
+},
   },
 "DynamicTokens": [
+        {
+      "Name": "TrueShape",
+      "Value": "RatPop",
+    },
+    {
+      "Name": "TrueShape",
+      "Value": "HumanPop",
+      "When": {
+"HasFlag":"{{ModID}}_TrueShape.Mail",      }
+    },
       {
             "Name": "IncludeFish",
             "Value": "true"

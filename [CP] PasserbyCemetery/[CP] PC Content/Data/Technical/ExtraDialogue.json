@@ -4,7 +4,7 @@
   "Action": "EditData",
   "Target": "Characters/Dialogue/Robin,Characters/Dialogue/Marnie,Characters/Dialogue/Jodi,Characters/Dialogue/Harvey",
   "Entries": {
-"FC.FaintingIncident": "{{i18n:FaintingIncident.{{TargetWithoutPath}}}}",
+"FC.FaintingIncident": "{{i18n:FC.FaintingIncident.{{TargetWithoutPath}}}}",
   }
 },
 {
@@ -40,6 +40,32 @@
 "Relationship:FC.Alan": "Engaged, Married",
 }
 },
+{
+"Action": "EditData",
+"Target": "strings/StringsFromCSFiles",
+"Entries": {
+"Turnabout.Eve":"{{i18n:Turnabout.Eve}}",
+}
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "FC.Eve": {
+                    "DisplayName": "{{i18n:FC.Eve}}",
+                    "CanSocialize": false,
+                    "EndSlideShow": "Hidden",
+                    "Shadow": {"Visible": false},
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "{{ModID}}_TurnaboutSaloon",
+                            "Tile": {"X": 6, "Y": 28},
+                        }
+                    ],    
+                },
+            },
+        },
 /************************************************
 NoneChangingDialogue
 ************************************************/
@@ -68,7 +94,7 @@ NoneChangingDialogue
 {
 "LogName": "Custom Conversation Topics",
 "Action":"EditData",
-"Target":"Characters/Dialogue/FC.Grady,Characters/Dialogue/FC.Alan,Characters/Dialogue/FC.Cotton,Characters/Dialogue/FC.Dezerie,Characters/Dialogue/FC.Kaia,Characters/Dialogue/FC.Lyell,Characters/Dialogue/FC.Maverick,Characters/Dialogue/FC.Nikolai,Characters/Dialogue/FC.John,Characters/Dialogue/FC.Barron,Characters/Dialogue/FC.Phoebe",
+"Target":"Characters/Dialogue/FC.Grady,Characters/Dialogue/FC.Alan,Characters/Dialogue/FC.Dezerie,Characters/Dialogue/FC.Kaia,Characters/Dialogue/FC.Lyell,Characters/Dialogue/FC.Maverick,Characters/Dialogue/FC.Nikolai,Characters/Dialogue/FC.John,Characters/Dialogue/FC.Barron,Characters/Dialogue/FC.Phoebe",
 "Entries":{
 // A NEW DREAM
 "FC.JohnsArrival": "{{i18n:CT.{{TargetWithoutPath}}.FC.JohnsArrival}}",

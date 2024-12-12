@@ -79,7 +79,7 @@ MiscDialogue
 {
 "LogName": "Festival dialogue",
 "Action": "EditData",
-"Target": "Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/winter8,Data/Festivals/winter25",
+"Target": "Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/fall27,Data/Festivals/winter8,Data/Festivals/winter25",
 "Entries": {
 "FC.Boxy{{YearCheck}}": "{{i18n:Boxy.{{TargetWithoutPath}}.{{Relationship:FC.Boxy}} |default={{i18n:Boxy.{{TargetWithoutPath}} |default={{i18n:Boxy.festival-default}} }} }}",
 } 

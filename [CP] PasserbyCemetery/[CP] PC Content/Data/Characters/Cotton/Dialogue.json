@@ -47,6 +47,21 @@ NoneChangingDialogue
 "GreenRainFinished": "{{i18n:GreenRainFinished.Cotton}}",
 "GreenRain": "{{i18n:GreenRain.Cotton}}",
 "GreenRain_2": "{{i18n:GreenRain_2.Cotton}}",
+//Vanilla
+"cc_Complete": "{{i18n:CT.cc_Complete.Cotton}}",
+"cc_Boulder": "{{i18n:CT.cc_Boulder.Cotton}}",
+"cc_Bridge": "{{i18n:CT.cc_Bridge.Cotton}}",
+"cc_Bus": "{{i18n:CT.cc_Bus.Cotton}}",
+"cc_Greenhouse": "{{i18n:CT.cc_Greenhouse.Cotton}}",
+"cc_Minecart": "{{i18n:CT.cc_Minecart.Cotton}}",
+"joja_Begin": "{{i18n:CT.joja_Begin.Cotton}}",
+"movieTheater": "{{i18n:CT.movieTheater.Cotton}}",
+"dumped_Guys": "{{i18n:CT.dumped_Guys.Cotton}}",
+"secondChance_Guys": "{{i18n:CT.secondChance_Guys.Cotton}}",
+"dumped_Girls": "{{i18n:CT.dumped_Girls.Cotton}}",
+"secondChance_Girls": "{{i18n:CT.secondChance_Girls.Cotton}}",
+"pamHouseUpgrade": "{{i18n:CT.pamHouseUpgrade.Cotton}}",
+"pamHouseUpgradeAnonymous": "{{i18n:CT.pamHouseUpgradeAnonymous.Cotton}}",
 }
 },
 /************************************************

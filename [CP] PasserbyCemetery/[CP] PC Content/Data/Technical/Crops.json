@@ -1,5 +1,6 @@
 {
 "Changes": [
+
   {
 "Action": "EditData",
 "Target": "Data/Crops",
@@ -340,6 +341,22 @@
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 5
+}
+}
+},
+  {
+"Action": "EditData",
+"Target": "Data/Crops",
+"Entries": { ///Plant these in fall. Takes 8 days to mature.
+"{{ModID}}_GiggleFitSeeds": {
+"Seasons": [ "fall" ],
+"DaysInPhase": [ 2, 2, 2, 1, 1 ], 
+"HarvestItemId": "{{ModID}}_GiggleFit",
+"RegrowDays": "-1",
+"IsRaised": false,
+"HarvestMaxIncreasePerFarmingLevel": "0.2",
+"Texture": "Mods/{{ModID}}/Crops",
+"SpriteIndex": 22
 }
 }
 },

@@ -7,8 +7,9 @@
         "FromFile": "Assets/Maps/Tilesheets/WorldMap/map_{{season}}.png",
          "PatchMode":"overlay",
         "ToArea":{ "X": 181, "Y": 0, "Width": 64, "Height": 27
-         },
-   }, 
+       },
+          "When": {"OverWorldMapEdit": true, }
+   },
           {
         "Action": "EditImage",
         "LogName": "Overworld map edit",
@@ -124,6 +125,50 @@
 }
 },
 ////Entrances
+{
+  "LogName": "Turn about saloon entrance",
+  "Action": "EditMap",
+  "Target": "Maps/{{ModID}}_OldGraveYard",
+  "Update": "OnTimeChange, OnLocationChange",
+  "When": {
+  "HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+},
+  "MapTiles": [
+{
+  "Position": {
+"X": 21,
+"Y": 69
+  },
+  "Layer": "Buildings",
+  "SetProperties": {
+"Action": "LockedDoorWarp 10 24 {{ModID}}_TurnaboutSaloon 900 2600"
+  },
+
+}
+  ]
+},
+{
+  "LogName": "Pops Temple Room entrance",
+  "Action": "EditMap",
+  "Target": "Maps/{{ModID}}_Temple",
+  "Update": "OnTimeChange, OnLocationChange",
+  "When": {
+  "HasSeenEvent |contains={{ModID}}_PopsBigChange": true,
+},
+  "MapTiles": [
+{
+  "Position": {
+"X": 6,
+"Y": 15
+  },
+  "Layer": "Buildings",
+  "SetProperties": {
+"Action": "LockedDoorWarp 8 13 {{ModID}}_PoppersRoom 800 2300"
+  },
+
+}
+  ]
+},
 {
   "LogName": "Shaavars eentrance",
   "Action": "EditMap",

@@ -77,7 +77,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.John 19 28 2",
+                    "Value": "FC.John 15 26 2",
                     "Delimiter": "/"
                 },
                      {
@@ -86,19 +86,9 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.John 19 28 2",
+                    "Value": "FC.John 15 26 2",
                     "Delimiter": "/"
                 },
-                                            {
-             "Operation": "Append",
-             "Target": ["Fields", "set-up{{YearCheck}}", 5],
-             "Value": "/animate FC.John false true 360 31 31 31"
-            },
-            {
-             "Operation": "Append",
-             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
-             "Value": "/animate FC.John false true 360 31 31 31",
-        },
         ]
     },
                    {
@@ -114,7 +104,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.John 24 36 2",
+                    "Value": "FC.John 19 34 2",
                     "Delimiter": "/"
                 },
                      {
@@ -123,7 +113,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.John 24 36 2",
+                    "Value": "FC.John 19 34 2",
                     "Delimiter": "/"
                 },
                                      {
@@ -163,6 +153,25 @@
                     "Value": "FC.John 33 27 3",
                     "Delimiter": "/",
         },
+        ]
+    },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+                        "When": {
+ "HasFlag|contains=landslideDone": true,
+ "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.John 37 77 3",
+                    "Delimiter": "/"
+                },
         ]
     },
                        {

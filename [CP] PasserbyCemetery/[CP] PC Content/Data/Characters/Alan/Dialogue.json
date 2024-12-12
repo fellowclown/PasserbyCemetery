@@ -70,6 +70,8 @@ NoneChangingDialogue
 "GreenRainFinished": "{{i18n:GreenRainFinished.Alan}}",
 "GreenRain": "{{i18n:GreenRain.Alan}}",
 "GreenRain_2": "{{i18n:GreenRain_2.Alan}}",
+"FC.WrongShape": "{{i18n:CT.Alan.FC.WrongShape}}",
+"FC.TrueShape": "{{i18n:CT.Alan.FC.TrueShape}}",
 }
 },
 /************************************************
@@ -244,7 +246,7 @@ MiscDialogue
 {
 "LogName":"Festivaldialogue",
 "Action":"EditData",
-"Target":"Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/winter8,Data/Festivals/winter3,Data/Festivals/winter25",
+"Target":"Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/fall27,Data/Festivals/winter8,Data/Festivals/winter3,Data/Festivals/winter25",
 "Entries":{
 "FC.Alan{{YearCheck}}":"{{i18n:Alan.{{TargetWithoutPath}}.{{Relationship:FC.Alan}}|default={{i18n:Alan.{{TargetWithoutPath}}|default={{i18n:Alan.festival-default}}}}}}",
 }

@@ -19,7 +19,7 @@
       "Y": 0
     },
     "AdoptionEventLocation": null,
-    "AdoptionEventId": null,
+    "AdoptionEventId": "{{ModID}}_UnlockPetArcaDog",
     "SummitPerfectionEvent": {
       "SourceRect": {
         "X": 0,
@@ -2269,7 +2269,7 @@
           "Width": 16,
           "Height": 16
         },
-        "CanBeChosenAtStart": true,
+        "CanBeChosenAtStart": false,
         "CanBeAdoptedFromMarnie": true,
         "AdoptionPrice": 40000,
         "BarkOverride": "{{ModID}}_ShevitSqueak",
@@ -2285,7 +2285,7 @@
           "Width": 16,
           "Height": 16
         },
-        "CanBeChosenAtStart": true,
+        "CanBeChosenAtStart": false,
         "CanBeAdoptedFromMarnie": true,
         "AdoptionPrice": 40000,
         "BarkOverride": "{{ModID}}_ShevitSqueak",
@@ -2301,7 +2301,7 @@
           "Width": 16,
           "Height": 16
         },
-        "CanBeChosenAtStart": true,
+        "CanBeChosenAtStart": false,
         "CanBeAdoptedFromMarnie": true,
         "AdoptionPrice": 40000,
         "BarkOverride": "{{ModID}}_ShevitSqueak",
@@ -2317,7 +2317,7 @@
           "Width": 16,
           "Height": 16
         },
-        "CanBeChosenAtStart": true,
+        "CanBeChosenAtStart": false,
         "CanBeAdoptedFromMarnie": true,
         "AdoptionPrice": 40000,
         "BarkOverride": "{{ModID}}_ShevitSqueak",
