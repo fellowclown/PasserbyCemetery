@@ -13,7 +13,7 @@
 "Gender":"Female",
 "Age":"Adult",
 "Manner":"Rude",
-"SociPhoebexiety":"Outgoing",
+"SocialAnxiety":"Outgoing",
 "Optimism":"Positive",
 "BirthSeason":"Summer",
 "BirthDay":6,
@@ -87,22 +87,12 @@
 },
 ],
 //Spawn Rules
-"UnlockConditions":null,
+"UnlockConditions":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PhoebesIntroduction",
 "SpawnIfMissing":true,
 "Home": [
 {
-"Id": "WaitingRoomDefault",
-"Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PhoebesIntroduction",
-"Location": "{{ModID}}_TravelingTrailer",
-"Tile": {
-"X": -3000,
-"Y": -3000
-},
-"Direction": "right"
-},
-{
 "Id": "DefaultHome",
-"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PhoebesIntroduction",
+"Condition": null,
 "Location": "{{ModID}}_TravelingTrailerDecker",
 "Tile": {
 "X": 23,

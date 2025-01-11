@@ -13,7 +13,7 @@
 "Gender":"Female",
 "Age":"Adult",
 "Manner":"Polite",
-"SociBarronxiety":"Outgoing",
+"SocialAnxiety":"Outgoing",
 "Optimism":"Positive",
 "BirthSeason":"Winter",
 "BirthDay":16,
@@ -87,7 +87,7 @@
 },
 ],
 //Spawn Rules
-"UnlockConditions":null,
+"UnlockConditions":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_BarronIntroduction",
 "SpawnIfMissing":true,
 "Home": [
 {

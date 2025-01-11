@@ -25,16 +25,36 @@
               },
               "ScrollText": "{{i18n:FC.PasserbyCemetery}}",
               "Tooltips": [
-                {
-                  "Id": "{{ModID}}_PasserbyCemetery",
+                  {
+                  "Id": "{{ModID}}_LyellsHouse",
                   "PixelArea": {
-                    "X": 182,
-                    "Y": 174,
-                    "Width": 19,
-                    "Height": 14
+                    "X": 32,
+                    "Y": 37,
+                    "Width": 17,
+                    "Height": 18
                   },
-                  "Text": "{{i18n:FC.PasserbyCemetery}}"
+                  "Text": "{{i18n:FC.Halkiasresidents}}"
                 },
+                {
+                  "Id": "{{ModID}}_SecretCave",
+                  "PixelArea": {
+                    "X": 155,
+                    "Y": 66,
+                    "Width": 6,
+                    "Height": 7
+                  },
+                  "Text": "{{i18n:FC.SecretCave}}"
+                },
+                 {
+              "Id": "{{ModID}}_PasserbyCliffs",
+              "PixelArea": {
+                "X": 105,
+                "Y": 0,
+                "Width": 25,
+                "Height": 6
+              },
+              "ScrollText": "{{i18n:FC.PasserbyCliffs}}",
+            },
                 {
                   "Id": "{{ModID}}_StoneHouse",
                   "PixelArea": {
@@ -100,7 +120,7 @@
                   "PixelArea": {
                   "X": 102,
                     "Y": 139,
-                    "Width": 10,
+                    "Width": 8,
                     "Height": 9
                   },
                   "Text": "{{i18n:FC.PasserbyExhibit}}",
@@ -118,10 +138,10 @@
                       {
                   "Id": "{{ModID}}_TurnaboutSaloon",
                   "PixelArea": {
-                   "X": 137,
+                 "X": 137,
                     "Y": 130,
-                    "Width": 11,
-                    "Height": 15
+                    "Width": 12,
+                    "Height": 14
                   },
                   "Text": "{{i18n:FC.TurnaboutSaloon}}",
                 },
@@ -130,7 +150,17 @@
               // in the 'Lumisteria.MtVapius_Inn' location, their marker on the map is shown on top of the
               // inn building.
               "WorldPositions": [
-          
+             {
+                  "Id": "{{ModID}}_SecretCave",
+                  "LocationName": "{{ModID}}_SecretCave",
+                  "MapPixelArea": {
+                    "X": 155,
+                    "Y": 66,
+                    "Width": 6,
+                    "Height": 7
+                  },
+                  "Text": "{{i18n:FC.SecretCave}}"
+                },
                  {
                   "Id": "{{ModID}}_Temple",
                   "LocationName": "{{ModID}}_Temple",
@@ -142,26 +172,27 @@
                   },
                   "ScrollText": "{{i18n:FC.PasserbyTemple}}"
                 },
-                {
-                  "Id": "{{ModID}}_Default",
-                  "LocationName": "{{ModID}}_OldGraveYard"
-                }
-              ]
-            },
+            {
+                  "Id": "{{ModID}}_PasserbyCliffs",
+                  "LocationName": "{{ModID}}_PasserbyCliffs",
+                  "MapPixelArea": {
+                 "X": 105,
+                    "Y": 0,
+                    "Width": 25,
+                    "Height": 6
+                  },
+                  "ScrollText": "{{i18n:FC.PasserbyCliffs}}"
+                },
                         {
                   "Id": "{{ModID}}_TurnaboutSaloon",
                   "LocationName": "{{ModID}}_TurnaboutSaloon",
                   "MapPixelArea": {
                  "X": 137,
                     "Y": 130,
-                    "Width": 11,
-                    "Height": 15
+                    "Width": 12,
+                    "Height": 14
                   },
                   "ScrollText": "{{i18n:FC.TurnaboutSaloon}}"
-                },
-                {
-                  "Id": "{{ModID}}_Default",
-                  "LocationName": "{{ModID}}_OldGraveYard"
                 },
                            {
                   "Id": "{{ModID}}_TempleRuins",
@@ -175,7 +206,7 @@
                   "ScrollText": "{{i18n:FC.PasserbyTemple}}"
                 },
                 {
-                  "Id": "{{ModID}}Default",
+                  "Id": "{{ModID}}_Default",
                   "LocationName": "{{ModID}}_OldGraveYard"
                 },
                 {
@@ -272,43 +303,12 @@
                   "MapPixelArea": {
                  "X": 102,
                     "Y": 139,
-                    "Width": 10,
+                    "Width": 8,
                     "Height": 9
                   },
                   "ScrollText": "{{i18n:FC.PasserbyExhibit}}"
                 },
-           
-            {
-              "Id": "{{ModID}}_LyellsProperty",
-              "PixelArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 74,
-                "Height": 80
-              },
-              "ScrollText": "{{i18n:FC.LyellsProperty}}",
-              "Tooltips": [
-
-                {
-                  "Id": "{{ModID}}_LyellsHouse",
-                  "PixelArea": {
-                    "X": 32,
-                    "Y": 37,
-                    "Width": 17,
-                    "Height": 18
-                  },
-                  "Text": "{{i18n:FC.Halkiasresidents}}"
-                },     
-                {
-                  "Id": "{{ModID}}_Default",
-                  "LocationName": "{{ModID}}_OldGraveYard"
-                },
-              ],
-              // Match location names & tile positions to this map area. For example, when the player is
-              // in the 'Lumisteria.MtVapius_Inn' location, their marker on the map is shown on top of the
-              // inn building.
-              "WorldPositions": [
-                {
+                   {
                   "Id": "{{ModID}}_LyellsHouse",
                   "LocationName": "{{ModID}}_LyellsHouse",
                   "MapPixelArea": {
@@ -319,15 +319,11 @@
                   },
                   "ScrollText": "{{i18n:FC.Halkiasresidents}}" // optional, defaults to parent area's scroll text (if any)
                 },
-                {
-                  "Id": "{{ModID}}_DefaultLyell",
-                  "LocationName": "{{ModID}}_LyellsProperty"
-                }
+                ]  
+                }   
               ]
-            }
-          ]
-        }
-      }
-    },
-  ]
+}
+}
+}
+]
 }

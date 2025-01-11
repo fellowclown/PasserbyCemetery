@@ -8,12 +8,26 @@
 }, 
 },
  { 
+"LogName": "DitR-Crossover",
 "Action": "EditData",
 "Target": "Data/Events/{{ModID}}_OldGraveYard",
 "Entries": {
 "{{ModID}}_MavericksProblem/t 600 1200/w rainy/f FC.Maverick 250/e {{ModID}}_TheStatue": "none/-1000 -1000/farmer 4 49 0 FC.Maverick -3000 -3000 2/viewport 8 43 clamp true/skippable/addConversationTopic FC.MavericksProblem 12/pause 1000/addTemporaryActor FC.PopperPC 16 32 -3000 -3000 2 false Character/addTemporaryActor FC.Jeremy 32 32 10 41 3 false Character/pause 200/move farmer 0 -3 0/pause 200/playSound clubhit/pause 100/faceDirection farmer 1/pause 50/faceDirection farmer 2/pause 50/faceDirection farmer 1/pause 100/playSound potterySmash/emote farmer 8/pause 100/warp FC.PopperPC 8 44/speed FC.PopperPC 3/advancedMove FC.PopperPC false 0 3 1 10 3 0 2 10 0 9 2 10/warp FC.Maverick 8 44/jump FC.PopperPC 5/pause 600/playSound doorClose/textAbovehead FC.Maverick \"{{i18n:MavericksProblem.00}}\"/textAbovehead FC.PopperPC \"{{i18n:MavericksProblem.01}}\"/pause 200/faceDirection FC.Jeremy 2/emote FC.Jeremy 12/pause 200/faceDirection FC.Jeremy 0/pause 200/faceDirection FC.Maverick 3/emote FC.Maverick 16/pause 100/showFrame FC.Jeremy 23/pause 100/speak FC.Maverick \"{{i18n:MavericksProblem.02}}\"/playMusic CloudCountry/pause 200/move FC.Maverick 0 2 3/move FC.Maverick -1 0 3/pause 200/speak FC.Maverick \"{{i18n:MavericksProblem.03}}\"/pause 200/speak FC.Maverick \"{{i18n:MavericksProblem.04}}\"/faceDirection FC.Jeremy 2/jump FC.Jeremy 8/positionOffset FC.Jeremy 0 20/pause 50/positionOffset FC.Jeremy 0 20/pause 50/positionOffset FC.Jeremy 0 20/pause 50/positionOffset FC.Jeremy 0 20/pause 50/positionOffset FC.Jeremy 0 20/pause 50/positionOffset FC.Jeremy 0 20/pause 50/positionOffset FC.Jeremy 0 20/pause 50/positionOffset FC.Jeremy 0 20/pause 50/positionOffset FC.Jeremy 0 20/pause 50/positionOffset FC.Jeremy 0 20/pause 200/move FC.Jeremy 0 3 3/emote FC.Jeremy 12/pause 300/advancedMove FC.Jeremy false 0 9 2 10 0 0 2 10/pause 200/speak FC.Maverick \"{{i18n:MavericksProblem.05}}\"/pause 200/faceDirection FC.Maverick 2/pause 60/jump FC.Maverick 8/pause 100/textAbovehead FC.Maverick \"{{i18n:MavericksProblem.06}}\"/pause 500/faceDirection farmer 2/speak FC.Maverick \"{{i18n:MavericksProblem.07}}\"/pause 200/faceDirection FC.Maverick 3/faceDirection farmer 1/speak FC.Maverick \"{{i18n:MavericksProblem.08}}\"/move FC.Maverick 1 0 0/move FC.Maverick 0 -2 0/playSound doorClose/warp FC.Maverick -3000 -3000/pause 400/viewport move 1 0 6000000 true/globalFade/viewport -1000 -1000/end position 4 47 1",
-}, 
-},
-
+ },
+          "When": {
+ "HasMod |contains=7thAxis.DitR": true,
+           }
+       },
+ { 
+"LogName": "Default",
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_OldGraveYard",
+"Entries": {
+"{{ModID}}_MavericksProblem/t 600 1200/w rainy/f FC.Maverick 250/e {{ModID}}_TheStatue": "none/-1000 -1000/farmer 4 49 0 FC.Maverick -3000 -3000 2/viewport 8 43 clamp true/skippable/addConversationTopic FC.MavericksProblem 12/pause 1000/addTemporaryActor FC.PopperPC 16 32 -3000 -3000 2 false Character/addTemporaryActor FC.Monster 16 32 10 41 3 false Character/pause 200/move farmer 0 -3 0/pause 200/playSound clubhit/pause 100/faceDirection farmer 1/pause 50/faceDirection farmer 2/pause 50/faceDirection farmer 1/pause 100/playSound potterySmash/emote farmer 8/pause 100/warp FC.PopperPC 8 44/speed FC.PopperPC 3/advancedMove FC.PopperPC false 0 3 1 10 3 0 2 10 0 9 2 10/warp FC.Maverick 8 44/jump FC.PopperPC 5/pause 600/playSound doorClose/textAbovehead FC.Maverick \"{{i18n:MavericksProblem.00}}\"/textAbovehead FC.PopperPC \"{{i18n:MavericksProblem.01}}\"/pause 200/faceDirection FC.Monster 2/emote FC.Monster 12/pause 200/faceDirection FC.Monster 0/pause 200/faceDirection FC.Maverick 3/emote FC.Maverick 16/pause 100/showFrame FC.Monster 23/pause 100/speak FC.Maverick \"{{i18n:MavericksProblem.02}}\"/playMusic CloudCountry/pause 200/move FC.Maverick 0 2 3/move FC.Maverick -1 0 3/pause 200/speak FC.Maverick \"{{i18n:MavericksProblem.03}}\"/pause 200/speak FC.Maverick \"{{i18n:MavericksProblem.04}}\"/faceDirection FC.Monster 2/jump FC.Monster 8/positionOffset FC.Monster 0 20/pause 50/positionOffset FC.Monster 0 20/pause 50/positionOffset FC.Monster 0 20/pause 50/positionOffset FC.Monster 0 20/pause 50/positionOffset FC.Monster 0 20/pause 50/positionOffset FC.Monster 0 20/pause 50/positionOffset FC.Monster 0 20/pause 50/positionOffset FC.Monster 0 20/pause 50/positionOffset FC.Monster 0 20/pause 50/positionOffset FC.Monster 0 20/pause 200/speed FC.Monster 5/move FC.Monster 0 3 3/emote FC.Monster 12/pause 300/speed FC.Monster 5/advancedMove FC.Monster false 0 9 2 10 0 0 2 10/pause 200/speak FC.Maverick \"{{i18n:MavericksProblem.05}}\"/pause 200/faceDirection FC.Maverick 2/pause 60/jump FC.Maverick 8/pause 100/textAbovehead FC.Maverick \"{{i18n:MavericksProblem.06}}\"/pause 500/faceDirection farmer 2/speak FC.Maverick \"{{i18n:MavericksProblem.07}}\"/pause 200/faceDirection FC.Maverick 3/faceDirection farmer 1/speak FC.Maverick \"{{i18n:MavericksProblem.08}}\"/move FC.Maverick 1 0 0/move FC.Maverick 0 -2 0/playSound doorClose/warp FC.Maverick -3000 -3000/pause 400/viewport move 1 0 6000000 true/globalFade/viewport -1000 -1000/end position 4 47 1",
+ },
+          "When": {
+ "HasMod |contains=7thAxis.DitR": false,
+           }
+       },
     ]
 }

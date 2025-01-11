@@ -10,6 +10,20 @@
   "Entries": {
 // Special Keys
 "Introduction": "{{i18n:Introduction.Grady}}",
+"reject_(O){{ModID}}_WalkMan": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_ElizabethsRing": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostJournal": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_StoneRelic": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostAmulet": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_RettNote": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostKey": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_BarronsBook": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_TheCuff": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_PhoebesPackage": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_BagOfSeaglass": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsNecklace": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsRing": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsWine": "{{i18n:RejectObject.Vanilla}}",
 // RESORT
 "Resort_Entering": "{{i18n:Resort_Entering.Grady}}",
 "Resort_Leaving": "{{i18n:Resort_Leaving.Grady}}",
@@ -42,9 +56,14 @@
 "GreenRainFinished": "{{i18n:GreenRainFinished.Grady}}",
 "GreenRain": "{{i18n:GreenRain.Grady}}",
 "GreenRain_2": "{{i18n:GreenRain_2.Grady}}",
-  }
+"FC.StrugglesWithLyell": "{{i18n:CT.FC.Grady.FC.StrugglesWithLyell}}",
+"FC.LyellLeaves": "{{i18n:CT.FC.Grady.FC.LyellLeaves}}",
+"FC.LyellReturns": "{{i18n:CT.FC.Grady.FC.LyellReturns}}",
 },
-
+"When": {
+"HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true, 
+}
+},
 
        {
             "LogName": "Dialogue - 0-4",
@@ -62,7 +81,8 @@
 "Saloon": "{{i18n:Saloon.Grady.LowHeart.{{season}}}}",
 },
 "When": {
-"Hearts:FC.Grady": "{{Range: 0, 4}}" 
+"Hearts:FC.Grady": "{{Range: 0, 4}}",
+"HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true, 
 }
 },
   {
@@ -82,7 +102,8 @@
 "Saloon": "{{i18n:Saloon.Grady.MidHeart.{{season}}}}",
 },
 "When": {
-"Hearts:FC.Grady": "{{Range: 5, 10}}" 
+"Hearts:FC.Grady": "{{Range: 5, 10}}",
+"HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true, 
 }
 },
   {

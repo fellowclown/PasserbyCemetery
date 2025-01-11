@@ -11,11 +11,11 @@
 					"BundleIconAsset": "Mods/{{ModID}}/CottonsBundleIcon",
 					"JunimoNoteTexture": "Mods/{{ModID}}/CottonsBundleBackgroundImage",
 					"ShopPosition": "7, 6",
-					"ShopEvent": "XOR/-1000 -1000/farmer 7 7 0 FC.Cotton -3000 -3000 2/pause 1000/viewport 10 9 clamp true/addConversationTopic FC.CottonsFreedom 7/pause 1000/warp FC.Cotton 10 6/move FC.Cotton -2 0 3/pause 1000/faceDirection FC.Cotton 2/speak FC.Cotton \"{{i18n:TheBridge.00}}\"/pause 400/speak FC.Cotton \"{{i18n:TheBridge.01}}\"/move FC.Cotton -1 0 2/pause 200/pause 300/speak FC.Cotton \"{{i18n:TheBridge.02}}\"/pause 300/speak FC.Cotton \"{{i18n:TheBridge.03}}\"/pause 600 true/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/end warpOut",
+					"ShopEvent": "XOR/-1000 -1000/farmer 7 7 0 FC.Cotton -3000 -3000 2/pause 1000/viewport 10 9 clamp true/addMailReceived {{ModID}}_FreeCotton.Mail true/addConversationTopic FC.CottonsFreedom 7/pause 1000/warp FC.Cotton 10 6/move FC.Cotton -2 0 3/pause 1000/faceDirection FC.Cotton 2/speak FC.Cotton \"{{i18n:TheBridge.00}}\"/pause 400/speak FC.Cotton \"{{i18n:TheBridge.01}}\"/move FC.Cotton -1 0 2/pause 200/pause 300/speak FC.Cotton \"{{i18n:TheBridge.02}}\"/pause 300/speak FC.Cotton \"{{i18n:TheBridge.03}}\"/pause 600 true/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/end warpOut",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
 					"BundleSlots": 2, 
-					"InstantShopRemoval": false,
+					"InstantShopRemoval": true,
 					"Price": {
 						"{{ModID}}_FemaleWarrior": 1,
 						"{{ModID}}_MaleWarrior": 1,
@@ -25,7 +25,7 @@
 						"EditMapPosition": "8,2",
 						"EditMapMode": "ReplaceByLayer",
 											"BundleCompletedActions": [
-						"AddConversationTopic FC.CottonsFreedom 12"
+						"AddConversationTopic FC.CottonsFreedom 12",
 					]
 					},
 				},

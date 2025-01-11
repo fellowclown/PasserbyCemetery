@@ -18,26 +18,10 @@
          "PatchMode":"overlay",
         "ToArea":{ "X": 181, "Y": 0, "Width": 64, "Height": 27
          },
-          "When": {"HasMod": "FlashShifter.StardewValleyExpandedCP", }
-   },
-  ///Dig spots in ancient graveyard and passerby
-     {
-        "Action": "EditImage",
-        "LogName": "Ancient GraveYard - digspots",
-        "Target": "LooseSprites/Cursors",
-        "FromFile": "Assets/Maps/Tilesheets/AncestorWisp.png",
-        "Update": "OnTimeChange, OnLocationChange",
-        "ToArea":{ "X": 368, "Y": 32, "Width": 64, "Height": 16 },
-        "When": { "LocationName": "{{ModID}}_AncientGraveYard", }
-   },
-     {
-        "Action": "EditImage",
-        "LogName": "Ancient GraveYard - digspots",
-        "Target": "LooseSprites/Cursors",
-        "FromFile": "Assets/Maps/Tilesheets/AncestorWisp.png",
-        "Update": "OnTimeChange, OnLocationChange",
-        "ToArea":{ "X": 368, "Y": 32, "Width": 64, "Height": 16 },
-        "When": { "LocationName": "{{ModID}}_OldGraveYard", }
+          "When": {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+          "OverWorldMapEdit": true,
+           }
    },
   ///GlowFlower Overlays
       {
@@ -143,7 +127,6 @@
   "SetProperties": {
 "Action": "LockedDoorWarp 10 24 {{ModID}}_TurnaboutSaloon 900 2600"
   },
-
 }
   ]
 },
@@ -165,7 +148,6 @@
   "SetProperties": {
 "Action": "LockedDoorWarp 8 13 {{ModID}}_PoppersRoom 800 2300"
   },
-
 }
   ]
 },
@@ -263,40 +245,6 @@
 }
   ]
 },
-{
-   "Action": "EditMap",
-   "Target": "Maps/Mountain",
-   "FromFile": "assets/Maps/Map Patches/GraveYard Map Edits/MR.PC_Entrance.tbin",
-"When": { 
-"HasMod |contains=MR.PR": true
-},
-"ToArea": { "X": 31, "Y": 0, "Width": 5, "Height": 3 },
-"TextOperations": [
-{
- "Operation": "Append",
- "Target": ["MapProperties", "Warp"],
- "Value": "33 0 MR.PR_JuniperLand 2 22",
- "Delimiter": " "
-  }
-  ]
-  },
-  {
-   "Action": "EditMap",
-   "Target": "Maps/Mountain",
-   "FromFile": "assets/Maps/Map Patches/GraveYard Map Edits/TT.PC_Entrance.tbin",
-"When": { 
-"HasMod |contains=TiredTypist.NM": true
-},
-"ToArea": { "X": 0, "Y":81, "Width": 14, "Height": 6 },
-"TextOperations": [
-{
- "Operation": "Append",
- "Target": ["MapProperties", "Warp"],
- "Value": "0 85 TiredTypist.MSR 46 36",
- "Delimiter": " "
-  }
-  ]
-  },
   {
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_OldGraveYard",
@@ -308,7 +256,6 @@
 "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
 }
 },
-
 {
   "LogName": "unlock Johns room",
   "Action": "EditMap",
@@ -316,7 +263,8 @@
   "Update": "OnTimeChange, OnLocationChange",
   "When": {
   "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true, 
-"HasSeenEvent |contains={{ModID}}_HouseParty": false,},
+"HasSeenEvent |contains={{ModID}}_HouseParty": false,
+},
   "MapTiles": [
 {
   "Position": {
@@ -369,9 +317,8 @@
   "SetProperties": {
 "Action": "LockedDoorWarp 14 16 {{ModID}}_TravelingTrailerDecker 600 2300"
   },
-
 }
-  ]
+]
 },
   {
   "LogName": "unlock traveling trailer 1",
@@ -388,7 +335,7 @@
   },
   "Layer": "Buildings",
   "SetProperties": {
-"Action": "LockedDoorWarp 7 18 {{ModID}}_TravelingTrailer 700 1500"
+"Action": "LockedDoorWarp 7 18 {{ModID}}_TravelingTrailer 610 2030"
   },
 
 }
@@ -409,13 +356,25 @@
   },
   "Layer": "Buildings",
   "SetProperties": {
-"Action": "LockedDoorWarp 7 18 {{ModID}}_TravelingTrailer 700 1500"
+"Action": "LockedDoorWarp 7 18 {{ModID}}_TravelingTrailer 610 2030"
   },
 
 }
   ]
 },
   ///Map edits
+        {
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_LyellsProperty",
+"FromFile": "Assets/Maps/Map Patches/LyellsTruckGone.tbin",
+"Update": "OnTimeChange, OnLocationChange",
+"ToArea": { "X": 43, "Y": 34, "Width": 5, "Height": 8 },
+"When": {
+ "HasSeenEvent |contains={{ModID}}_FireWorks2": true,
+ "HasSeenEvent |contains={{ModID}}_LyellReturns": false,
+
+}
+},
  {
 "Action": "EditMap",
 "Target": "Maps/Town",

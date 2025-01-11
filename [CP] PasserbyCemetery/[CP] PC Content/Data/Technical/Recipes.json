@@ -5,7 +5,7 @@
 "Action": "EditData",
 "Target": "Data/CookingRecipes",
 "Entries": {
-"{{ModID}}_AdauulaCakes": "{{ModID}}_AdauulaStalks 3 247 1/1 10/{{ModID}}_AdauulaCakes/f FC.Lyell 500/{{i18n:FC.ArcaCakesRecipe.Title}}",
+"{{ModID}}_AdauulaCakes": "{{ModID}}_AdauulaFlour 3 247 1/1 10/{{ModID}}_AdauulaCakes/f FC.Lyell 500/{{i18n:FC.ArcaCakesRecipe.Title}}",
 "{{ModID}}_WarpRootTea": "{{ModID}}_WarpRoot 2 436 1 245 1/1 10/{{ModID}}_WarpRootTea/f FC.Lyell 1000/{{i18n:FC.WarpRootTeaRecipe.Title}}",
 "{{ModID}}_CapWedges": "{{ModID}}_FairyCap 2 247 1 245 1/1 10/{{ModID}}_CapWedges/f FC.Lyell 500/{{i18n:FC.CapWedgesRecipe.Title}}",
 "{{ModID}}_DragaDoughnut": "{{ModID}}_DragaClaw 1 247 1 245 1/1 10/{{ModID}}_DragaDoughnut/f FC.Lyell 500/{{i18n:FC.DragaDoughnutRecipe.Title}}",

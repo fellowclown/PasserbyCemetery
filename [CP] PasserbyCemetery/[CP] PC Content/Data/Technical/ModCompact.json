@@ -10,7 +10,7 @@
             "{{ModID}}_ArcaCoin":{
                "Shared":false,
                "HoldItemUpOnDiscovery":false,
-               "DrawOverheadPickupAnimation":true,
+               "DrawOverheadPickupAnimation":false,
                "OverheadPickupTexture":"Mods/{{ModID}}/Objects",
                "OverheadPickupAnimation":"0@800",
                "OverheadPickupTextureWidth":16,
@@ -66,10 +66,7 @@
         "FC.FakeNpc": {
             "Exclude": true
         },
-          "FC.Mellie": {
-            "Exclude": true
-        },
-          "FC.Twinkle": {
+          "FC.Eve": {
             "Exclude": true
         }
     },
@@ -109,7 +106,7 @@
             },
     "Entries": {
         "FC.Lyell": {
-            "MarkerCropOffset": 480,
+            "MarkerCropOffset": 574,
         },
          "FC.Roswell": {
             "MarkerCropOffset": 327,
@@ -129,11 +126,8 @@
          "FC.Jinx": {
             "MarkerCropOffset": 224,
         },
-         "FC.Jinx": {
-            "MarkerCropOffset": 160,
-        },
          "FC.Popper": {
-            "MarkerCropOffset": 16,
+            "MarkerCropOffset": 48,
         },
           "FC.Phoebe": {
             "MarkerCropOffset": 5,
@@ -141,7 +135,23 @@
              "FC.Boxy": {
             "MarkerCropOffset": 15,
         },
+              "FC.Zuuie": {
+            "MarkerCropOffset": 12,
+        },
     }
+},
+{
+    "Action": "EditData",
+    "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+     "When": {
+           "HasMod |contains=Bouhm.NPCMapLocations": true,
+           "HasFlag":"{{ModID}}_TrueShape.Mail",  
+            },
+    "Entries": {
+         "FC.Popper": {
+            "MarkerCropOffset": 8,
+        },
+}
 },
    ]
 }

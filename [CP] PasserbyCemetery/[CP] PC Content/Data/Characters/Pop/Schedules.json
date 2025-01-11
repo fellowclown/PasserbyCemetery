@@ -36,103 +36,25 @@
 "Entries": {
 "spring": "GOTO Mon",
 
-"Mon": "610 {{ModID}}_TempleRuins 10 17 3/800 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1000 {{ModID}}_OldGraveYard 40 34 2 square_5_3_2/1400 Town 55 85 1/1600 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1900 {{ModID}}_AncientGraveYard 50 26 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
+"Mon": "MAIL landslideDone/GOTO NO_SCHEDULE/610 {{PopTemple}}/800 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1000 {{ModID}}_OldGraveYard 40 34 2 square_5_0/1400 Town 55 85 1/1600 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1900 {{ModID}}_AncientGraveYard 50 26 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
 
-"Tue": "700 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1000 Town 52 64 0/1200 ManorHouse 9 5 0 {{ModID}}_PopSnoop/1400 {{ModID}}_MavericksHouse 8 9 0 {{ModID}}_PopSnoop/2000 {{ModID}}_AncientGraveYard 50 26 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
+"Tue": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1000 Town 52 64 0/1200 ManorHouse 9 5 0 {{ModID}}_PopSnoop/1400 {{ModID}}_MavericksHouse 8 9 0 {{ModID}}_PopSnoop/2000 {{PopRoom}}",
 
-"Wed": "700 Forest 95 23 2 square_5_3_0/1000 Town 12 86 1/1300 Town 52 64 0/1500 Town 18 89 1/1700 {{ModID}}_OldGraveYard 40 34 2 square_5_3_2/1900 {{ModID}}_LyellsHouse 15 17 0 {{ModID}}_PopSnoop/2200 {{ModID}}_TempleRuins 5 7 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
+"Wed": "MAIL landslideDone/GOTO NO_SCHEDULE/700 Forest 95 23 2 square_5_0/1000 Town 12 86 1/1300 Town 52 64 0/1500 Town 18 89 1/1700 {{ModID}}_OldGraveYard 40 34 2 square_5_0/1900 {{ModID}}_LyellsHouse 15 17 0 {{ModID}}_PopSnoop/2200 {{PopRoom}} \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
 
-"Thu": "700 AnimalShop 3 15 1/1200 {{ModID}}_LyellsCoop 9 4 2/1700 {{ModID}}_StoneHouse 18 22 3/2000 {{ModID}}_AncientGraveYard 30 30 3/2200 {{ModID}}_AncientGraveYard 50 26 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
-
-"Fri": "GOTO Mon",
-
-"Sat": "GOTO Wed",
-
-"Sun": "700 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1000 Town 52 64 0/1200 ManorHouse 9 5 0 {{ModID}}_PopSnoop/1700 {{ModID}}_OldGraveYard 7 27 3/1900 {{ModID}}_LyellsHouse 15 17 0 {{ModID}}_PopSnoop/2200 {{ModID}}_OldGraveYard 11 52 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
-
-"rain": "GOTO Thu",
-
-"GreenRain": "610 {{ModID}}_TempleRuins 10 17 3/2200 {{ModID}}_TempleRuins 5 7 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
- },
-   "When": {
-"HasFlag |contains=landslideDone": true,  
-  "HasFlag |contains={{ModID}}_Temple.Mail": false,  
-}
-},
- {
-"Action": "EditData",
-"Target": "Characters/schedules/FC.Popper",
-"Update": "OnTimeChange, OnLocationChange",
-"Entries": {
-"spring": "GOTO Mon",
-
-"Mon": "610 {{ModID}}_Temple 17 16 2/800 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1000 {{ModID}}_OldGraveYard 40 34 2 square_5_3_2/1400 Town 55 85 1/1600 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1900 {{ModID}}_Temple 12 17 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
-
-"Tue": "700 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1000 Town 52 64 0/1200 ManorHouse 9 5 0 {{ModID}}_PopSnoop/1400 {{ModID}}_MavericksHouse 8 9 0 {{ModID}}_PopSnoop/2000 {{ModID}}_Temple 12 17 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
-
-"Wed": "700 Forest 95 23 2 square_5_3_0/1000 Town 12 86 1/1300 Town 52 64 0/1500 Town 18 89 1/1700 {{ModID}}_OldGraveYard 40 34 2 square_5_3_2/1900 {{ModID}}_LyellsHouse 15 17 0 {{ModID}}_PopSnoop/2200 {{ModID}}_Temple 12 17 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
-
-"Thu": "700 AnimalShop 3 15 1/1200 {{ModID}}_LyellsCoop 9 4 2/1700 {{ModID}}_StoneHouse 18 22 3/2000 {{ModID}}_AncientGraveYard 30 30 3/2200 {{ModID}}_Temple 12 17 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
+"Thu": "MAIL landslideDone/GOTO NO_SCHEDULE/700 AnimalShop 3 15 1/1200 {{ModID}}_LyellsCoop 9 4 2/1700 {{ModID}}_StoneHouse 18 22 3/2000 {{ModID}}_AncientGraveYard 30 30 3/2200 {{PopRoom}}",
 
 "Fri": "GOTO Mon",
 
 "Sat": "GOTO Wed",
 
-"Sun": "700 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1000 Town 52 64 0/1200 ManorHouse 9 5 0 {{ModID}}_PopSnoop/1700 {{ModID}}_OldGraveYard 7 27 3/1900 {{ModID}}_LyellsHouse 15 17 0 {{ModID}}_PopSnoop/2200 {{ModID}}_Temple 12 17 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
+"Sun": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1000 Town 52 64 0/1200 ManorHouse 9 5 0 {{ModID}}_PopSnoop/1700 {{ModID}}_OldGraveYard 7 27 3/1900 {{ModID}}_LyellsHouse 15 17 0 {{ModID}}_PopSnoop/2200 {{ModID}}_OldGraveYard 11 52 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
 
 "rain": "GOTO Thu",
 
-"GreenRain": "610 {{ModID}}_Temple 13 9 2/2200 {{ModID}}_Temple 12 17 2 {{ModID}}_PopSleep {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
- "Marriage_Tue": "700 {{ModID}}_Temple 13 9 2 {{ModID}}_PopSitKick2/1200 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash \"Strings\\schedules\\FC.Popper:Popper.Trash\"/1500 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSquat/1700 {{ModID}}_OldGraveYard 40 34 2 square_5_3_2/1900 Bed",
+"GreenRain": "MAIL landslideDone/GOTO NO_SCHEDULE/610 {{PopTemple}}/2200 {{PopRoom}} \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",  
+"Marriage_Tue": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSquat/1200 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash \"Strings\\schedules\\FC.Popper:Popper.Trash\"/1500 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSquat/1700 {{ModID}}_OldGraveYard 40 34 2 square_5_0/1900 Bed",
 
- },
-   "When": {
-  "HasFlag |contains={{ModID}}_Temple.Mail": true,  
-"HasFlag":"{{ModID}}_TrueShape.Mail", 
-}
-},
- {
-"Action": "EditData",
-"Target": "Characters/schedules/FC.Popper",
-"Update": "OnTimeChange, OnLocationChange",
-"Entries": {
-"spring": "",
-
-"Mon": "700 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSitFloor1/1200 {{ModID}}_OldGraveYard 40 34 2 square_5_3_2/1500 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSquat/1700 {{ModID}}_Temple 13 9 2 {{ModID}}_PopSitKick2/1900 {{ModID}}_PoppersRoom 14 11 3 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
-
-"Tue": "700 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSitFloor1/1200 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_Popsit3/1500 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1700 {{ModID}}_Temple 13 9 2 {{ModID}}_PopSitKick2/1900 {{ModID}}_PoppersRoom 14 11 3 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
-
-"Wed": "700 {{ModID}}_Temple 13 9 2 {{ModID}}_PopSitKick2/1200 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash \"Strings\\schedules\\FC.Popper:Popper.Trash\"/1500 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSquat/1700 {{ModID}}_OldGraveYard 40 34 2 square_5_3_2/1900 {{ModID}}_PoppersRoom 14 11 3 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
-
-"Thu": "700 {{ModID}}_OldGraveYard 40 34 2 square_5_3_2/1200 {{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_Popsit3/1500 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash \"Strings\\schedules\\FC.Popper:Popper.Trash\"/1700 {{ModID}}_Temple 13 9 2 {{ModID}}_PopSitKick2/1900 {{ModID}}_PoppersRoom 14 11 3 {{ModID}}_PopSleep {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
-
-"Fri": "700 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash \"Strings\\schedules\\FC.Popper:Popper.Trash\"/1000 Town 52 64 0/1200 ManorHouse 9 5 0 {{ModID}}_PopSnoop/1400 {{ModID}}_MavericksHouse 8 9 0 {{ModID}}_PopSnoop/2000 {{ModID}}_Temple 12 17 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
-
-"Sat": "700 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSquat/1000 SamHouse 18 15 2 {{ModID}}_PopDance/1500 Town 19 14 2 {{ModID}}_PopSquat/1700 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1900 {{ModID}}_PoppersRoom 14 11 3 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
-
-"Sun": "700 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash \"Strings\\schedules\\FC.Popper:Popper.Trash\"/1000 Town 52 64 0/1200 ManorHouse 9 5 0 {{ModID}}_PopSnoop/1700 {{ModID}}_OldGraveYard 7 27 3/1900 {{ModID}}_LyellsHouse 15 17 0 {{ModID}}_PopSnoop/2200 {{ModID}}_OldGraveYard 11 52 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
-
-"rain": "GOTO Fri",
-
-"GreenRain": "700 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSquat/1500 {{ModID}}_Temple 4 7 0 {{ModID}}_PopSnoop/1530 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSquat/1900 {{ModID}}_PoppersRoom 14 11 3 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
- 
-"Marriage_Tue": "700 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSquat/1200 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash \"Strings\\schedules\\FC.Popper:Popper.Trash\"/1500 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSquat/1700 {{ModID}}_OldGraveYard 40 34 2 square_5_3_2/1900 Bed",
-
- },
-   "When": {
-"HasFlag":"{{ModID}}_TrueShape.Mail", 
-
-}
-},
-   {
-"LogName": "Pop's saloon Schedule",
-"Action": "EditData",
-"Target": "Characters/schedules/FC.Popper",
-"Entries": {
-"Sun": "700 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1000 Town 52 64 0/1200 ManorHouse 9 5 0 {{ModID}}_PopSnoop/1500 {{ModID}}_TurnaboutSaloon 15 24 3/1900 {{ModID}}_LyellsHouse 15 17 0 {{ModID}}_PopSnoop/2200 {{ModID}}_Temple 12 17 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
-}, 
-"When": {
-"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
 }
 },
 ]

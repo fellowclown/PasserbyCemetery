@@ -32,81 +32,15 @@
 "Target": "Characters/schedules/FC.Boxy",
 "Entries": {
 "spring": "GOTO Mon",
-"Mon": "610 {{ModID}}_TempleRuins 8 17 3 {{ModID}}_BoxyClean/800 Town 48 70 1 {{ModID}}_BoxyBeg3/1400 Beach 49 24 2 {{ModID}}_BoxyClean/1600 {{ModID}}_OldGraveYard 35 65 2 {{ModID}}_BoxyRest/2000 {{ModID}}_OldGraveYard 12 52 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"Tue": "610 {{ModID}}_OldGraveYard 4 53 1 square_1_3_0/700 {{ModID}}_OldGraveYard 8 62 3 {{ModID}}_BoxyBeg3/900 Forest 37 12 2 {{ModID}}_BoxyRest/1400 SeedShop 46 57 2 {{ModID}}_BoxyClean/1700 {{ModID}}_AncientGraveYard 49 27 2 {{ModID}}_BoxyClean/2100 {{ModID}}_OldGraveYard 12 52 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"Wed": "610 {{ModID}}_OldGraveYard 4 53 1 square_1_3_0/1400 Forest 85 17 2 {{ModID}}_BoxyClean/1800 {{ModID}}_OldGraveYard 11 45 3/2100 {{ModID}}_OldGraveYard 12 52 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"Thu": "GOTO Tue",
-
-"Fri": "610 {{ModID}}_OldGraveYard 4 53 1 square_1_3_0/900 {{ModID}}_LyellsProperty 23 24 2 {{ModID}}_BoxyClean/1200 {{ModID}}_OldGraveYard 20 9 2 {{ModID}}_BoxyClean/1500 Mountain 93 26 2 {{ModID}}_BoxyRest/1800 {{ModID}}_OldGraveYard 8 62 3 {{ModID}}_BoxyBeg3/2000 {{ModID}}_OldGraveYard 12 52 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"Sat": "610 {{ModID}}_OldGraveYard 4 53 1 square_1_3_0/800 Forest 84 40 1/1500 Town 53 63 3 {{ModID}}_BoxyBeg3/1800 {{ModID}}_OldGraveYard 9 44 3/2000 {{ModID}}_OldGraveYard 12 52 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"Sun": "610 {{ModID}}_OldGraveYard 4 53 1 square_1_3_0/900 {{ModID}}_OldGraveYard 39 64 3/1200 {{ModID}}_LyellsProperty 40 8 2 {{ModID}}_BoxyClean/1500 Town 48 70 1 {{ModID}}_BoxyBeg3/1700 {{ModID}}_OldGraveYard 25 79 1 {{ModID}}_BoxyBeg1/2000 {{ModID}}_OldGraveYard 12 52 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"rain": "GOTO Tue",
+/// Weekday Schedules 
+"Mon": "MAIL landslideDone/GOTO NO_SCHEDULE/610 {{ModID}}_OldGraveYard 8 62 3 {{ModID}}_BoxyBeg3/900 Mountain 89 26 2 {{ModID}}_BoxyClean/1300 Town 48 70 3 {{ModID}}_BoxyBeg3/1700 Beach 13 16 2 {{ModID}}_BoxyRest/2000 {{ModID}}_PasserbyCliffs 22 28 2 {{ModID}}_BoxyClean/2200 {{BoxyHome}} \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
+"Tue": "MAIL landslideDone/GOTO NO_SCHEDULE/610 Town 51 63 1 {{ModID}}_BoxyBeg1/1000 Forest 33 96 1 {{ModID}}_BoxyBeg1/1400 Town 71 90 2 {{ModID}}_BoxyClean/1800 {{ModID}}_OldGraveYard 25 79 1 {{ModID}}_BoxyBeg1/2200 {{BoxyHome}} \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
+"Wed": "MAIL landslideDone/GOTO NO_SCHEDULE/610 {{ModID}}_PasserbyCliffs 22 28 2 {{ModID}}_BoxyClean/900 {{ModID}}_Lyellsproperty 32 20 2 {{ModID}}_BoxyRest/1300 {{ModID}}_PasserbyCliffs 5 12 2 {{ModID}}_BoxyClean/1700 {{ModID}}_AncientGraveYard 49 27 2 {{ModID}}_BoxyClean/2200 {{BoxyHome}} \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
+"Thu": "MAIL landslideDone/GOTO NO_SCHEDULE/610 Forest 33 96 1 {{ModID}}_BoxyBeg1/1000 Town 48 70 3 {{ModID}}_BoxyBeg3/1300 Mountain 89 26 2 {{ModID}}_BoxyClean/1800 {{ModID}}_AncientGraveYard 49 27 2 {{ModID}}_BoxyClean/2200 {{BoxyHome}} \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
+"Fri": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{ModID}}_PasserbyCliffs 22 28 2 {{ModID}}_BoxyClean/1000 {{ModID}}_AncientGraveYard 49 27 2 {{ModID}}_BoxyClean/1500 Mountain 89 26 2 {{ModID}}_BoxyClean/1900 Town 51 63 1 {{ModID}}_BoxyBeg1/2200 {{BoxyHome}} \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
+"Sat": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{ModID}}_AncientGraveYard 49 27 2 {{ModID}}_BoxyClean/1100 {{ModID}}_PasserbyCliffs 22 28 2 {{ModID}}_BoxyRest/1500 Mountain 89 26 2 {{ModID}}_BoxyRest/1800 {{ModID}}_PasserbyCliffs 5 12 2 {{ModID}}_BoxyClean/2200 {{BoxyHome}} \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
+"Sun": "MAIL landslideDone/GOTO NO_SCHEDULE/610 {{ModID}}_Lyellsproperty 32 20 2 {{ModID}}_BoxyRest/900 {{ModID}}_PasserbyCliffs 22 28 2 {{ModID}}_BoxyClean/1200 Town 71 90 2 {{ModID}}_BoxyClean/1600 Town 48 70 3 {{ModID}}_BoxyBeg/1800 {{ModID}}_OldGraveYard 8 62 3 {{ModID}}_BoxyBeg3/2200 {{BoxyHome}} \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
 },
-    "When": {
-      "HasFlag |contains=landslideDone": true,
-         "HasSeenEvent |contains={{ModID}}_BoxysHouse": false,
-           "HasFlag |contains={{ModID}}_Temple.Mail": false, 
-            }
-        },
-                   {
-"LogName": "Boxy Schedule",
-"Action": "EditData",
-"Target": "Characters/schedules/FC.Boxy",
-"Entries": {
-"spring": "GOTO Mon",
-"Mon": "610 {{ModID}}_TempleRuins 8 17 3 {{ModID}}_BoxyClean/800 Town 48 70 1 {{ModID}}_BoxyBeg3/1400 Beach 49 24 2 {{ModID}}_BoxyClean/1600 {{ModID}}_OldGraveYard 35 65 2 {{ModID}}_BoxyRest/2000 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"Tue": "610 {{ModID}}_OldGraveYard 4 53 1 square_1_3_0/700 {{ModID}}_OldGraveYard 8 62 3 {{ModID}}_BoxyBeg3/900 Forest 37 12 2 {{ModID}}_BoxyRest/1400 SeedShop 46 57 2 {{ModID}}_BoxyClean/1700 {{ModID}}_AncientGraveYard 49 27 2 {{ModID}}_BoxyClean/2100 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"Wed": "610 {{ModID}}_OldGraveYard 4 53 1 square_1_3_0/1400 Forest 85 17 2 {{ModID}}_BoxyClean/1800 {{ModID}}_OldGraveYard 11 45 3/2100 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"Thu": "GOTO Tue",
-
-"Fri": "610 {{ModID}}_OldGraveYard 4 53 1 square_1_3_0/900 {{ModID}}_LyellsProperty /1200 {{ModID}}_OldGraveYard 20 9 2 {{ModID}}_BoxyClean/1500 Mountain 93 26 2 {{ModID}}_BoxyRest/1800 {{ModID}}_OldGraveYard 8 62 3 {{ModID}}_BoxyBeg3/2000 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"Sat": "610 {{ModID}}_OldGraveYard 4 53 1 square_1_3_0/800 Forest 84 40 1/1500 Town 53 63 3 {{ModID}}_BoxyBeg3/1800 {{ModID}}_OldGraveYard 9 44 3/2000 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"Sun": "610 {{ModID}}_OldGraveYard 4 53 1 square_1_3_0/900 {{ModID}}_OldGraveYard 39 64 3/1200 {{ModID}}_LyellsProperty 40 8 2 {{ModID}}_BoxyClean/1500 Town 48 70 1 {{ModID}}_BoxyBeg3/1700 {{ModID}}_OldGraveYard 25 79 1 {{ModID}}_BoxyBeg1/2000 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"rain": "GOTO Tue",
 },
-    "When": {
-         "HasSeenEvent |contains={{ModID}}_BoxysHouse": true,
-         "HasFlag |contains={{ModID}}_Temple.Mail": false, 
-            }
-        },
-                           {
-"LogName": "Boxy Schedule",
-"Action": "EditData",
-"Target": "Characters/schedules/FC.Boxy",
-"Entries": {
-"spring": "GOTO Mon",
-"Mon": "610 {{ModID}}_Temple 11 18 2 {{ModID}}_BoxyClean/800 Town 48 70 1 {{ModID}}_BoxyBeg3/1400 Beach 49 24 2 {{ModID}}_BoxyClean/1600 {{ModID}}_OldGraveYard 35 65 2 {{ModID}}_BoxyRest/2000 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"Tue": "610 {{ModID}}_OldGraveYard 4 53 1 square_1_3_0/700 {{ModID}}_OldGraveYard 8 62 3 {{ModID}}_BoxyBeg3/900 Forest 37 12 2 {{ModID}}_BoxyRest/1400 SeedShop 46 57 2 {{ModID}}_BoxyClean/1700 {{ModID}}_AncientGraveYard 49 27 2 {{ModID}}_BoxyClean/2100 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"Wed": "610 {{ModID}}_OldGraveYard 4 53 1 square_1_3_0/1400 Forest 85 17 2 {{ModID}}_BoxyClean/1800 {{ModID}}_OldGraveYard 11 45 3/2100 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"Thu": "GOTO Tue",
-
-"Fri": "610 {{ModID}}_OldGraveYard 4 53 1 square_1_3_0/900 {{ModID}}_LyellsProperty /1200 {{ModID}}_OldGraveYard 20 9 2 {{ModID}}_BoxyClean/1500 Mountain 93 26 2 {{ModID}}_BoxyRest/1800 {{ModID}}_OldGraveYard 8 62 3 {{ModID}}_BoxyBeg3/2000 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"Sat": "610 {{ModID}}_OldGraveYard 4 53 1 square_0_6_2/800 Forest 84 40 1/1500 Town 53 63 3 {{ModID}}_BoxyBeg3/1800 {{ModID}}_OldGraveYard 9 44 3/2000 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"Sun": "610 {{ModID}}_OldGraveYard 4 53 1 square_1_3_0/900 {{ModID}}_OldGraveYard 39 64 3/1200 {{ModID}}_LyellsProperty 40 8 2 {{ModID}}_BoxyClean/1500 Town 48 70 1 {{ModID}}_BoxyBeg3/1700 {{ModID}}_OldGraveYard 25 79 1 {{ModID}}_BoxyBeg1/2000 {{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest \"Strings\\schedules\\FC.Boxy:Boxy.Sleeping\"",
-
-"rain": "GOTO Tue",
-},
-    "When": {
-         "HasSeenEvent |contains={{ModID}}_BoxysHouse": true,
-         "HasFlag |contains={{ModID}}_Temple.Mail": true, 
-            }
-        },
 ]
 }

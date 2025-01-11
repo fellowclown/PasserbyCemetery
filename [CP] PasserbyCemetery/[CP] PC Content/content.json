@@ -2,161 +2,615 @@
 "Format":"2.0.0",
 // CONFIG OPTIONS
   "ConfigSchema": {
-        "AnimalHouse": {
-            "Description": "Switch between using the barn or custom hutch for animals added by this mod.",
-            "AllowValues": "Barn, Hutch",
-            "Default": "Hutch",
-            "AllowBlank": false
-        },
-          "IntroQuest": {
-            "Description": "Exclude or Include Npcs from Intro Quest.",
-            "AllowValues": "Exclude, Include",
-            "Default": "Exclude",
-            "AllowBlank": false
-        },
-          "PerfectionScoreNpc": {
-            "Description": "Exclude or Include Npcs from Perfection score.",
-            "AllowValues": "Exclude, Include",
-            "Default": "Exclude",
-            "AllowBlank": false
-        },
-            "PerfectionScoreFish": {
-            "Description": "Exclude or Include Fish from Perfection score.",
-            "AllowValues": "Exclude, Include",
-            "Default": "Exclude",
-            "AllowBlank": false
-        },
-            "PerfectionScoreObjects": {
-            "Description": "Exclude or Include Modded objects from Perfection score.",
-            "AllowValues": "Exclude, Include",
-            "Default": "Exclude",
-            "AllowBlank": true
-        },
-       "MatchingBabies": {
-    "Description": "Turn on The matching Baby edits.",
-    "AllowValues": "true,false",
-    "Default": "true",
-     "AllowBlank": false,
+"AnimalHouse": {
+"Description": "Switch between using the barn or custom hutch for animals added by this mod.",
+"AllowValues": "Barn, Hutch",
+"Default": "Hutch",
+"AllowBlank": false
 },
-    "SkinColor": {
-    "Description": "change babies skin tone.",
-    "AllowValues": "Pale,Darker",
-    "Default": "Darker",
-     "AllowBlank": false,
+  "IntroQuest": {
+"Description": "Exclude or Include Npcs from Intro Quest.",
+"AllowValues": "Exclude, Include",
+"Default": "Exclude",
+"AllowBlank": false
 },
-    "OverWorldMapEdit": {
-    "Description": "Enabled vanilla overworld map edit.",
-    "AllowValues": "true,false",
-    "Default": "true",
-     "AllowBlank": false,
+  "PerfectionScoreNpc": {
+"Description": "Exclude or Include Npcs from Perfection score.",
+"AllowValues": "Exclude, Include",
+"Default": "Exclude",
+"AllowBlank": false
+},
+"PerfectionScoreFish": {
+"Description": "Exclude or Include Fish from Perfection score.",
+"AllowValues": "Exclude, Include",
+"Default": "Exclude",
+"AllowBlank": false
+},
+"PerfectionScoreObjects": {
+"Description": "Exclude or Include Modded objects from Perfection score.",
+"AllowValues": "Exclude, Include",
+"Default": "Exclude",
+"AllowBlank": true
+},
+   "MatchingBabies": {
+"Description": "Turn on The matching Baby edits.",
+"AllowValues": "true,false",
+"Default": "true",
+ "AllowBlank": false,
+},
+"SkinColor": {
+"Description": "change babies skin tone.",
+"AllowValues": "Pale,Darker",
+"Default": "Darker",
+ "AllowBlank": false,
+},
+"OverWorldMapEdit": {
+"Description": "Enabled vanilla overworld map edit.",
+"AllowValues": "true,false",
+"Default": "true",
+ "AllowBlank": false,
 },
   },
 "DynamicTokens": [
-        {
-      "Name": "TrueShape",
-      "Value": "RatPop",
-    },
-    {
-      "Name": "TrueShape",
-      "Value": "HumanPop",
-      "When": {
-"HasFlag":"{{ModID}}_TrueShape.Mail",      }
-    },
-      {
-            "Name": "IncludeFish",
-            "Value": "true"
-        },
-        {
-            "Name": "IncludeFish",
-            "When": {"PerfectionScoreFish": "Include",},
-            "Value": "false"
-        },
-     {
-            "Name": "ExcludeObjects",
-            "Value": "true"
-        },
-        {
-            "Name": "ExcludeObjects",
-            "When": {"PerfectionScoreObjects": "Include",},
-            "Value": "false"
-        },
-    {
-            "Name": "IncludePerfection",
-            "Value": "false"
-        },
-        {
-            "Name": "IncludePerfection",
-            "When": {"PerfectionScoreNpc": "Include",},
-            "Value": "true"
-        },
-     {
-            "Name": "IncludeIntro",
-            "Value": "false"
-        },
-        {
-            "Name": "IncludeIntro",
-            "When": {"IntroQuest": "Include",},
-            "Value": "true"
-        },
-    {
-            "Name": "AnimalHouseValue",
-            "Value": "Barn"
-        },
-        {
-            "Name": "AnimalHouseValue",
-            "When": {"AnimalHouse": "Hutch"},
-            "Value": "Fellowclown.ClownCore_SmallTropicalHutch"
-        },
-        {
-            "Name": "MarnieShopDescription",
-            "Value": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5931]"
-        },
-        {
-            "Name": "MarnieShopDescription",
-            "When": {"AnimalHouse": "Hutch"},
-            "Value": "{{i18n:FC.MissingTropicalHutch}}"
-        },
+//Alan schedule Replacements
+{
+  "Name": "AlanTurnAbout",
+  "Value": "Beach 25 36 2",
+},
+{
+  "Name": "AlanTurnAbout",
+  "Value": "{{ModID}}_TurnaboutSaloon 3 22 2 {{ModID}}_AlanSit2",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+  }
+},
+{
+  "Name": "AlanBookWormMobile",
+  "Value": "{{ModID}}_OldGraveYard 26 80 1 \"Strings\\schedules\\FC.Alan:Alan.VultureFountainDezerie\"",
+},
+{
+  "Name": "AlanBookWormMobile",
+  "Value": "{{ModID}}_TravelingTrailer 11 12 2 {{ModID}}_AlanKickSit2",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+  }
+},
+//Amanda schedule Replacements
+{
+  "Name": "AmandaExhibit",
+  "Value": "{{ModID}}_OldGraveYard 11 38 2 {{ModID}}_AmandaKnit",
+},
+{
+  "Name": "AmandaExhibit",
+  "Value": "{{ModID}}_Exhibit 14 9 3",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
+  }
+},
+{
+  "Name": "AmandaTurnAbout",
+  "Value": "{{ModID}}_TrailingTravel 12 17 2 {{ModID}}_AmandaKnit",
+},
+{
+  "Name": "AmandaTurnAbout",
+  "Value": "{{ModID}}_TurnaboutSaloon 7 20 3 {{ModID}}_AmandaCook",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+  }
+},
+{
+  "Name": "AmandaMountain",
+  "Value": "Mountain 54 8 2",
+},
+{
+  "Name": "AmandaMountain",
+  "Value": "Mountain 48 10 2 {{ModID}}_AmandaKnit",
+  "When": {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
 
-      {
-      "Name": "VanillaMovieNpcs",
-      "Value": "Abigail,Alex,Caroline,Clint,Dememtrius,Elliott,Emily,Evelyn,George,Gus,Haley,Harvey,Jas,Jodi,Kent,Leah,Leo,LeoMainland,Lewis,Linus,Marnie,Maru,Pam,Penny,robin,Sam,Sandy,Sebastian,Shane,Vincent,Willy"
-   },
-       {
-      "Name": "ValidNpcs",
-      "Value": "{{Random:Marnie,Robin,Shane,FC.Lyell,Grady,FC.Valerie,FC.Alan,Lewis,Pierre,Abby,Sam,Alex,Pam,Sebastian,Jodi,Coraline,Marlon}},{{PlayerName}}"
-   },
-    
-            {
-      "Name": "RaffleWinner",
-      "Value": "{{Random: {{ValidNpcs}}|key=RW}}"
-   },
-    {
-      "Name": "RaffleResult",
-      "Value": "addItem {{Random:{{ModID}}_BirchCoffeeTable,{{ModID}}_SmallBirchCoffeeTable,{{ModID}}_MiniBirchCoffeeTable,{{ModID}}_TraditionalLantern,Fellowclown.PC_SqueakyAxe,Fellowclown.PC_SqueakyPick,Fellowclown.PC_SqueakyCan,Fellowclown.PC_SqueakyHoe,Fellowclown.PC_SqueakySword}} 1 0", //Better than [ID] because it opens a menu if your inventory is full
-      "When": {
-        "Query: '{{RaffleWinner}}' = '{{PlayerName}}'": true
-      }
+  }
+},
+//Barron schedule Replacements
+{
+  "Name": "BarronTurnAbout",
+  "Value": "{{ModID}}_TravelingTrailer 23 17 1 {{ModID}}_Barron_Type",
+},
+{
+  "Name": "BarronTurnAbout",
+  "Value": "{{ModID}}_TurnaboutSaloon 1 8 2 {{ModID}}_BarronRead",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+  }
+},
+{
+  "Name": "BarronTemple",
+  "Value": "{{ModID}}_TravelingTrailerDecker 10 14 0",
+},
+{
+  "Name": "BarronTemple",
+  "Value": "{{ModID}}_Temple 9 21 0 {{ModID}}_BarronSit0 \"Strings\\schedules\\FC.Barron:Barron.Sleep\"",
+  "When": {
+"HasFlag |contains={{ModID}}_Temple.Mail": true,
+  }
+},
+{
+  "Name": "BarronMountain",
+  "Value": "Mountain 25 25 2 {{ModID}}_BarronRead",
+},
+{
+  "Name": "BarronMountain",
+  "Value": "{{ModID}}_Exhibit 7 11 3 square_0_3",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
+  }
+},
+//Boxy schedule Replacements
+{
+  "Name": "BoxyHome",
+  "Value": "{{ModID}}_OldGraveYard 12 52 2 {{ModID}}_BoxyRest",
+},
+{
+  "Name": "BoxyHome",
+  "Value": "{{ModID}}_BoxysHouse 2 3 2 {{ModID}}_BoxyRest",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_BoxysHouse": true,
+  }
+},
+//Cotton schedule Replacements
+{
+  "Name": "CottonTurnAbout",
+  "Value": "{{ModID}}_SecretCave 9 10 2",
+},
+{
+  "Name": "CottonTurnAbout",
+  "Value": "{{ModID}}_TurnaboutSaloon 14 23 3",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+  }
+},
+//Dezerie schedule Replacements
+{
+  "Name": "DezerieTurnAbout",
+  "Value": "{{ModID}}_OldGraveYard 9 70 1",
+},
+{
+  "Name": "DezerieTurnAbout",
+  "Value": "{{ModID}}_TurnaboutSaloon 5 9 1",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+  }
+},
+{
+  "Name": "DezerieTemple",
+  "Value": "{{ModID}}_OldGraveYard 9 70 1",
+},
+{
+  "Name": "DezerieTemple",
+  "Value": "{{ModID}}_Temple 16 19 3 {{ModID}}_DezerieSit3 \"Strings\\schedules\\FC.Dezerie:Dezerie.Temple\"",
+  "When": {
+"HasFlag |contains={{ModID}}_Temple.Mail": true,
+  }
+},
+{
+  "Name": "DezerieExhibit",
+  "Value": "Mountain 52 8 2",
+},
+{
+  "Name": "DezerieExhibit",
+  "Value": "{{ModID}}_Exhibit 15 9 3",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
+  }
+},
+//Grady schedule Replacements
+{
+  "Name": "GradyTemple",
+  "Value": "Mountain 61 11 2",
+},
+{
+  "Name": "GradyTemple",
+  "Value": "{{ModID}}_Temple 9 23 0 {{ModID}}_GradySit0",
+  "When": {
+"HasFlag |contains={{ModID}}_Temple.Mail": true,
+  }
+},
+{
+  "Name": "GradyTurnAbout",
+  "Value": "{{ModID}}_TravelingTrailer 17 11 0",
+},
+{
+  "Name": "GradyTurnAbout",
+  "Value": "{{ModID}}_TurnaboutSaloon 11 11 1 {{ModID}}_JohnDrink",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+  }
+},
+{
+  "Name": "GradyBookWormMobile",
+  "Value": "{{ModID}}_OldGraveYard 32 52 2",
+},
+{
+  "Name": "GradyBookWormMobile",
+  "Value": "{{ModID}}_TravelingTrailer 13 11 0 square_3_0_0",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+  }
+},
+//Jinx schedule Replacements
+
+//John schedule Replacements
+{
+  "Name": "JohnTurnAbout",
+  "Value": "{{ModID}}_OldGraveYard 19 48 3",
+},
+{
+  "Name": "JohnTurnAbout",
+  "Value": "{{ModID}}_TurnaboutSaloon 1 11 1",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+  }
+},
+{
+  "Name": "JohnTemple",
+  "Value": "{{ModID}}_TempleRuins 7 16 2",
+},
+{
+  "Name": "JohnTemple",
+  "Value": "{{ModID}}_Temple 10 17 2",
+  "When": {
+"HasFlag |contains={{ModID}}_Temple.Mail": true,
+  }
+},
+{
+  "Name": "ExhibitJohn",
+  "Value": "{{ModID}}_MavericksHouse 5 12 2 {{ModID}}_JohnSit2",
+},
+{
+  "Name": "ExhibitJohn",
+  "Value": "{{ModID}}_Exhibit 13 6 9 square_3_0",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
+  }
+},
+{
+  "Name": "JohnTempleSit",
+  "Value": "{{ModID}}_JohnsTempRoom 11 7 0",
+},
+{
+  "Name": "JohnTempleSit",
+  "Value": "{{ModID}}_Temple 13 9 2 {{ModID}}_JohnSit2",
+  "When": {
+"HasFlag |contains={{ModID}}_Temple.Mail": true,
+  }
+},
+{
+  "Name": "JohnTempleSleep",
+  "Value": "{{ModID}}_JohnsTempRoom 3 7 1 {{ModID}}_JohnSleep \"Strings\\schedules\\FC.John:John.Sleeping\"",
+},
+{
+  "Name": "JohnTempleSleep",
+  "Value": "{{ModID}}_Temple 16 8 3 {{ModID}}_JohnSleep \"Strings\\schedules\\FC.John:John.Sleeping\"",
+  "When": {
+"HasFlag |contains={{ModID}}_Temple.Mail": true,
+  }
+},
+{
+  "Name": "JohnTownSit",
+  "Value": "Town 65 49 2 {{ModID}}_JohnSit2",
+},
+{
+  "Name": "JohnTownSit",
+  "Value": "Town 68 35 2 {{ModID}}_JohnSit2",
+  "When": {
+          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+
+  }
+},
+{
+  "Name": "JohnBookWorm",
+  "Value": "{{ModID}}_MavericksHouse 7 9 0",
+},
+{
+  "Name": "JohnBookWorm",
+  "Value": "{{ModID}}_TravelingTrailer 23 16 1 {{ModID}}_JohnSit1",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+  }
+},
+//Kaia schedule Replacements
+{
+  "Name": "KaiaTurnAbout",
+  "Value": "{{ModID}}_OldGraveYard 16 48 1",
+},
+{
+  "Name": "KaiaTurnAbout",
+  "Value": "{{ModID}}_TurnaboutSaloon 3 23 1 {{ModID}}_Kaia_SitDrink1.2",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+  }
+},
+{
+  "Name": "KaiaTemple",
+  "Value": "{{ModID}}_LeslaHouse 18 14 1 {{ModID}}_Kaia_SitDrink1",
+},
+{
+  "Name": "KaiaTemple",
+  "Value": "{{ModID}}_Temple 12 21 0 {{ModID}}_Kaia_Sit0",
+  "When": {
+"HasFlag |contains={{ModID}}_Temple.Mail": true,
+  }
+},
+{
+  "Name": "ExhibitKaia",
+  "Value": "{{ModID}}_OldGraveYard 12 77 1 {{ModID}}_Kaia_SitKick",
+},
+{
+  "Name": "ExhibitKaia",
+  "Value": "{{ModID}}_Exhibit 3 11 2 \"Strings\\schedules\\FC.Kaia:Kaia.Job\"",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
+  }
+},
+//Lyell schedule Replacements
+{
+  "Name": "LyellTurnAbout",
+  "Value": "Mountain 62 10 2 {{ModId}}_LyellSmokeStand",
+},
+{
+  "Name": "LyellTurnAbout",
+  "Value": "{{ModID}}_TurnaboutSaloon 12 10 2 {{ModId}}_LyellDrinkStand",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+  }
+},
+//Maverick schedule Replacements
+{
+  "Name": "MaverickTurnAbout",
+  "Value": "{{ModID}}_OldGraveYard 18 49 0",
+},
+{
+  "Name": "MaverickTurnAbout",
+  "Value": "{{ModID}}_TurnaboutSaloon 5 23 3 {{ModID}}_MavSit3",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+  }
+},
+{
+  "Name": "MaverickTemple",
+  "Value": "{{ModID}}_LeslaHouse 20 12 2 {{ModID}}_MavSit2",
+},
+{
+  "Name": "MaverickTemple",
+  "Value": "{{ModID}}_Temple 13 21 0 {{ModID}}_MavSit0",
+  "When": {
+"HasFlag |contains={{ModID}}_Temple.Mail": true,
+  }
+},
+//Nikolai schedule Replacements
+{
+  "Name": "NikolaiTurnAbout",
+  "Value": "{{ModID}}_AlansRoom 5 7 1",
+},
+{
+  "Name": "NikolaiTurnAbout",
+  "Value": "{{ModID}}_TurnaboutSaloon 13 7 1",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+  }
+},
+{
+  "Name": "NikolaiExhibit",
+  "Value": "{{ModID}}_LeslaHouse 24 12 2 {{ModID}}_Nikolai_EatChair2",
+},
+{
+  "Name": "NikolaiExhibit",
+  "Value": "{{ModID}}_Exhibit 3 10 1 square_0_3",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
+  }
+},
+//Phoebe schedule Replacements
+{
+  "Name": "PhoebeTurnAbout",
+  "Value": "{{ModID}}_TrailingTravelDecker 21 17 3",
+},
+{
+  "Name": "PhoebeTurnAbout",
+  "Value": "{{ModID}}_TurnaboutSaloon 4 24 0",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+  }
+},
+//Pop schedule Replacements
+{
+  "Name": "PopTemple",
+  "Value": "{{ModID}}_OldGraveYard 42 23 3",
+},
+{
+  "Name": "PopTemple",
+  "Value": "{{ModID}}_Temple 4 7 0",
+  "When": {
+ "HasFlag |contains={{ModID}}_Temple.Mail": true,
+  }
+},
+{
+  "Name": "PopRoom",
+  "Value": "{{ModID}}_OldGraveYard 42 23 3",
+},
+{
+  "Name": "PopRoom",
+  "Value": "{{ModID}}_PoppersRoom 11 10 2",
+  "When": {
+ "HasFlag |contains={{ModID}}_TrueShape.Mail": true,  }
+},
+//Roswell schedule Replacements
+
+//Shaavar schedule Replacements
+{
+  "Name": "ShaavarTurnAbout",
+  "Value": "{{ModID}}_PasserbyCliffs 22 11 2",
+},
+{
+  "Name": "ShaavarTurnAbout",
+  "Value": "{{ModID}}_TurnaboutSaloon 12 11 3",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+  }
+},
+{
+  "Name": "ShavaarExhibit",
+  "Value": "{{ModID}}_AncientGraveYard 33 15 3",
+},
+{
+  "Name": "ShavaarExhibit",
+  "Value": "{{ModID}}_Exhibit 14 9 4",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
+  }
+},
+//Thalia schedule Replacements
+{
+  "Name": "ThaliaTurnAbout",
+  "Value": "{{ModID}}_OldGraveYard 10 69 2",
+},
+{
+  "Name": "ThaliaTurnAbout",
+  "Value": "{{ModID}}_TurnaboutSaloon 6 9 3",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+  }
+},
+//Valerie schedule Replacements
+{
+  "Name": "ValerieTurnAbout",
+  "Value": "{{ModID}}_StoneHouse 8 20 3 {{ModID}}_ValerieDrinkSit2",
+},
+{
+  "Name": "ValerieTurnAbout",
+  "Value": "{{ModID}}_TurnaboutSaloon 9 23 2 {{ModID}}_ValerieDrinkSit2",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+  }
+},
+//Zuuie schedule Replacements
+
+//Pop Folder Switch
+{
+  "Name": "TrueShape",
+  "Value": "RatPop",
+},
+{
+  "Name": "TrueShape",
+  "Value": "HumanPop",
+  "When": {
+ "HasFlag |contains={{ModID}}_TrueShape.Mail": true,   }
+},
+//Configuration options
+  {
+"Name": "IncludeFish",
+"Value": "true"
+},
+{
+"Name": "IncludeFish",
+"When": {"PerfectionScoreFish": "Include",},
+"Value": "false"
+},
+ {
+"Name": "ExcludeObjects",
+"Value": "true"
+},
+{
+"Name": "ExcludeObjects",
+"When": {"PerfectionScoreObjects": "Include",},
+"Value": "false"
+},
+{
+"Name": "IncludePerfection",
+"Value": "false"
+},
+{
+"Name": "IncludePerfection",
+"When": {"PerfectionScoreNpc": "Include",},
+"Value": "true"
+},
+ {
+"Name": "IncludeIntro",
+"Value": "false"
+},
+{
+"Name": "IncludeIntro",
+"When": {"IntroQuest": "Include",},
+"Value": "true"
+},
+{
+"Name": "AnimalHouseValue",
+"Value": "Barn"
+},
+{
+"Name": "AnimalHouseValue",
+"When": {"AnimalHouse": "Hutch"},
+"Value": "Fellowclown.ClownCore_SmallTropicalHutch"
+},
+{
+"Name": "MarnieShopDescription",
+"Value": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5931]"
+},
+{
+"Name": "MarnieShopDescription",
+"When": {"AnimalHouse": "Hutch"},
+"Value": "{{i18n:FC.MissingTropicalHutch}}"
+},
+///Marketpalooza raffle
+  {
+  "Name": "VanillaMovieNpcs",
+  "Value": "Abigail,Alex,Caroline,Clint,Dememtrius,Elliott,Emily,Evelyn,George,Gus,Haley,Harvey,Jas,Jodi,Kent,Leah,Leo,LeoMainland,Lewis,Linus,Marnie,Maru,Pam,Penny,robin,Sam,Sandy,Sebastian,Shane,Vincent,Willy"
    },
    {
-    "Name": "RaffleResult",
-    "Value": "",
-    "When": {
-      "Query: '{{RaffleWinner}}' = '{{PlayerName}}'": false
-    }
- },
-       {
-        "Name": "YearCheck",
-         "Value": ""
-        },
-       {
-    "Name": "YearCheck",
-    "Value": "_y2",
-     "When": { "Query: {{Year}} % 2 = 1": false,
-    }
+  "Name": "ValidNpcs",
+  "Value": "{{Random:Marnie,Robin,Shane,FC.Lyell,Grady,FC.Valerie,FC.Alan,Lewis,Pierre,Abby,Sam,Alex,Pam,Sebastian,Jodi,Coraline,Marlon}},{{PlayerName}}"
    },
-    ],
+
+{
+  "Name": "RaffleWinner",
+  "Value": "{{Random: {{ValidNpcs}}|key=RW}}"
+   },
+{
+  "Name": "RaffleResult",
+  "Value": "addItem {{Random:{{ModID}}_BirchCoffeeTable,{{ModID}}_SmallBirchCoffeeTable,{{ModID}}_MiniBirchCoffeeTable,{{ModID}}_TraditionalLantern,Fellowclown.PC_SqueakyAxe,Fellowclown.PC_SqueakyPick,Fellowclown.PC_SqueakyCan,Fellowclown.PC_SqueakyHoe,Fellowclown.PC_SqueakySword}} 1 0", //Better than [ID] because it opens a menu if your inventory is full
+  "When": {
+"Query: '{{RaffleWinner}}' = '{{PlayerName}}'": true
+  }
+   },
+   {
+"Name": "RaffleResult",
+"Value": "",
+"When": {
+  "Query: '{{RaffleWinner}}' = '{{PlayerName}}'": false
+}
+ },
+ //Festival Year check
+   {
+"Name": "YearCheck",
+ "Value": ""
+},
+   {
+"Name": "YearCheck",
+"Value": "_y2",
+ "When": { "Query: {{Year}} % 2 = 1": false,
+}
+   },
+   ///Dayofweek
+{
+"Name": "DaysOfWeek",
+"Value": "Sun,Mon,Tue,Wed,Thu,Fri,Sat"
+},
+{
+"Name": "WeekDay",
+"Value": "{{DaysOfWeek |valueAt={{Query: {{Day}}}}}}"
+},
+],
 "Changes":[ 
-    
+
 
 /************************************************
 Technical Includes
@@ -164,23 +618,28 @@ Technical Includes
   {
 "LogName": "PC Technical Information",
 "Action": "Include",
-"FromFile": "Data/Technical/ZootInfo.json,Data/Technical/SecretNotes.json,Data/Technical/GiantCrops.json,Data/Technical/WorldMap.json,Data/Technical/TheaterEditions.json,Data/Technical/MoviesVanillaEditions.json,Data/Technical/Buffs.json,Data/Technical/ExtraDialogue.json,Data/Technical/Meep.json,Data/Technical/NonFarmAnimals.json,Data/Technical/AnimalSpawns.json,Data/Technical/Tools.json,Data/Technical/Crops.json,Data/Technical/Quest.json,Data/Technical/MapPatches.json,Data/Technical/FarmAnimals.json,Data/Technical/Fish.json,Data/Technical/Loadables.json,Data/Technical/LocationalMaps.json,Data/Technical/MailTriggers.json,Data/Technical/Music.json,Data/Technical/Objects.json,Data/Technical/Shops.json,Data/Technical/Totems.json,Data/Technical/WorldEvents.json,Data/Technical/Machines.json,Data/Technical/Marketpalooza.json,Data/Technical/Recipes.json,Data/Technical/Trees.json,Data/Technical/UniversalGiftTaste.json,Data/Technical/ModCompact.json"
+"FromFile": "Data/Technical/Buildings.json,Data/Technical/ZootInfo.json,Data/Technical/SecretNotes.json,Data/Technical/GiantCrops.json,Data/Technical/WorldMap.json,Data/Technical/TheaterEditions.json,Data/Technical/MoviesVanillaEditions.json,Data/Technical/Buffs.json,Data/Technical/ExtraDialogue.json,Data/Technical/Meep.json,Data/Technical/NonFarmAnimals.json,Data/Technical/AnimalSpawns.json,Data/Technical/Tools.json,Data/Technical/Crops.json,Data/Technical/Quest.json,Data/Technical/MapPatches.json,Data/Technical/FarmAnimals.json,Data/Technical/Fish.json,Data/Technical/Loadables.json,Data/Technical/LocationalMaps.json,Data/Technical/MailTriggers.json,Data/Technical/Music.json,Data/Technical/Objects.json,Data/Technical/Shops.json,Data/Technical/Totems.json,Data/Technical/WorldEvents.json,Data/Technical/Machines.json,Data/Technical/Marketpalooza.json,Data/Technical/Recipes.json,Data/Technical/Trees.json,Data/Technical/ModCompact.json"
  }, 
+   {
+"LogName": "PC AntiSocialNpcs Information",
+"Action": "Include",
+"FromFile": "Data/Characters/AntiSocialNpcs/Eve.json,Data/Characters/AntiSocialNpcs/Jank.json,Data/Characters/AntiSocialNpcs/Monty.json",
+},
   {
 "LogName": "PC Technical Information",
 "Action": "Include",
 "FromFile": "Data/Technical/BabyEdits.json",
-      "When": {
-         "MatchingBabies": "true",
+  "When": {
+ "MatchingBabies": "true",
 
 }
-        }, 
-          {
+}, 
+  {
 "LogName": "PC Technical Information",
 "Action": "Include",
 "FromFile": "Data/Technical/Bundles.json",
-         "When": {
-                             "HasSeenEvent |contains={{ModID}}_CaveBlockUnlock": true,
+ "When": {
+ "HasSeenEvent |contains={{ModID}}_CaveBlockUnlock": true,
 },
 }, 
  /************************************************
@@ -189,7 +648,7 @@ Technical Includes
  {
 "LogName": "NPC Info [PC]",
 "Action": "Include",
-"FromFile": "Data/Characters/Jinx/GiftTaste.json,Data/Characters/Amanda/GiftTaste.json,Data/Characters/Barron/GiftTaste.json,Data/Characters/Phoebe/GiftTaste.json,Data/Characters/Pop/GiftTaste.json,Data/Characters/John/GiftTaste.json,Data/Characters/Phoebe/GiftTaste.json,Data/Characters/Amanda/Events.json,Data/Characters/Amanda/Dialogue.json,Data/Characters/Amanda/Dispositions.json,Data/Characters/Amanda/Schedules.json,Data/Characters/Jinx/Events.json,Data/Characters/Jinx/Dialogue.json,Data/Characters/Jinx/Dispositions.json,Data/Characters/Jinx/Schedules.json,Data/Characters/Pop/Festivals.json,Data/Characters/Pop/Dialogue.json,Data/Characters/Pop/Dispositions.json,Data/Characters/Pop/Events.json,Data/Characters/Pop/Schedules.json,Data/Characters/John/Festivals.json,Data/Characters/John/Dialogue.json,Data/Characters/John/Dispositions.json,Data/Characters/John/Events.json,Data/Characters/John/Movies.json,Data/Characters/John/Schedules.json,Data/Characters/Phoebe/Festivals.json,Data/Characters/Phoebe/Dialogue.json,Data/Characters/Phoebe/Dispositions.json,Data/Characters/Phoebe/Events.json,Data/Characters/Phoebe/Movies.json,Data/Characters/Phoebe/Schedules.json,Data/Characters/Barron/Dialogue.json,Data/Characters/Barron/Dispositions.json,Data/Characters/Barron/Events.json,Data/Characters/Barron/Movies.json,Data/Characters/Barron/Schedules.json,Data/Characters/Barron/Festivals.json,Data/Characters/Cotton/RelationshipDynamic.json,Data/Characters/Lyell/RelationshipDynamic.json,Data/Characters/Nikolai/RelationshipDynamic.json,Data/Characters/Thalia/RelationshipDynamic.json,Data/Characters/Thalia/Festivals.json,Data/Characters/Valerie/RelationshipDynamic.json,Data/Characters/Cotton/Schedules.json,Data/Characters/Thalia/Schedules.json,Data/Characters/Thalia/Events.json,Data/Characters/Roswell/Events.json,Data/Characters/Alan/Events.json,Data/Characters/Dezerie/Events.json,Data/Characters/Valerie/Festivals.json,Data/Characters/Roswell/Festivals.json,Data/Characters/Nikolai/Festivals.json,Data/Characters/Lyell/Festivals.json,Data/Characters/Kaia/Festivals.json,Data/Characters/Grady/Festivals.json,Data/Characters/Dezerie/Festivals.json,Data/Characters/Boxy/Festivals.json,Data/Characters/Alan/Festivals.json,Data/Characters/Maverick/Festivals.json,Data/Characters/Maverick/Dispositions.json,Data/Characters/Maverick/Dialogue.json,Data/Characters/Maverick/Events.json,Data/Characters/Maverick/Schedules.json,Data/Characters/Maverick/GiftTaste.json,Data/Characters/Zuuie/Dispositions.json,Data/Characters/Zuuie/Dialogue.json,Data/Characters/Zuuie/Events.json,Data/Characters/Zuuie/Schedules.json,Data/Characters/Zuuie/GiftTaste.json,Data/Characters/Nikolai/Dispositions.json,Data/Characters/Nikolai/Dialogue.json,Data/Characters/Nikolai/Events.json,Data/Characters/Nikolai/Movies.json,Data/Characters/Nikolai/Schedules.json,Data/Characters/Nikolai/GiftTaste.json,Data/Characters/Kaia/Dispositions.json,Data/Characters/Kaia/Dialogue.json,Data/Characters/Kaia/Events.json,Data/Characters/Kaia/Schedules.json,Data/Characters/Kaia/GiftTaste.json,Data/Characters/Boxy/Dispositions.json,Data/Characters/Boxy/Dialogue.json,Data/Characters/Boxy/Events.json,Data/Characters/Boxy/Schedules.json,Data/Characters/Boxy/GiftTaste.json,Data/Characters/Valerie/Dispositions.json,Data/Characters/Valerie/Dialogue.json,Data/Characters/Valerie/Movies.json,Data/Characters/Valerie/Schedules.json,Data/Characters/Valerie/GiftTaste.json,Data/Characters/Valerie/Events.json,Data/Characters/Alan/Dispositions.json,Data/Characters/Alan/Dialogue.json,Data/Characters/Alan/Movies.json,Data/Characters/Alan/Schedules.json,Data/Characters/Alan/GiftTaste.json,Data/Characters/Dezerie/Dispositions.json,Data/Characters/Dezerie/Dialogue.json,Data/Characters/Dezerie/Movies.json,Data/Characters/Dezerie/Schedules.json,Data/Characters/Dezerie/GiftTaste.json,Data/Characters/Lyell/Schedules.json,Data/Characters/Lyell/Dispositions.json,Data/Characters/Lyell/Dialogue.json,Data/Characters/Lyell/Movies.json,Data/Characters/Lyell/GiftTaste.json,Data/Characters/Lyell/Events.json,Data/Characters/Grady/Schedules.json,Data/Characters/Grady/Dispositions.json,Data/Characters/Grady/Dialogue.json,Data/Characters/Grady/Movies.json,Data/Characters/Grady/GiftTaste.json,Data/Characters/Grady/Events.json,Data/Characters/Roswell/Schedules.json,Data/Characters/Roswell/Dispositions.json,Data/Characters/Roswell/Dialogue.json,Data/Characters/Roswell/GiftTaste.json,Data/Characters/Thalia/Dispositions.json,Data/Characters/Thalia/Dialogue.json,Data/Characters/Thalia/Movies.json,Data/Characters/Thalia/GiftTaste.json,Data/Characters/Cotton/Dispositions.json,Data/Characters/Cotton/Dialogue.json,Data/Characters/Cotton/Movies.json,Data/Characters/Cotton/GiftTaste.json,Data/Characters/Shaavar/Events.json,Data/Characters/Shaavar/Dispositions.json,Data/Characters/Shaavar/Dialogue.json,Data/Characters/Shaavar/Movies.json,Data/Characters/Shaavar/GiftTaste.json,Data/Characters/Shaavar/Festivals.json,Data/Characters/Pop/GiftTaste.json,Data/Characters/John/GiftTaste.json,Data/Characters/Phoebe/GiftTaste.json,Data/Characters/Amanda/Events.json,Data/Characters/Amanda/Dialogue.json,Data/Characters/Amanda/Dispositions.json,Data/Characters/Amanda/Schedules.json,Data/Characters/Jinx/Events.json,Data/Characters/Jinx/Dialogue.json,Data/Characters/Jinx/Dispositions.json,Data/Characters/Jinx/Schedules.json,Data/Characters/Pop/Festivals.json,Data/Characters/Pop/Dialogue.json,Data/Characters/Pop/Dispositions.json,Data/Characters/Pop/Events.json,Data/Characters/Pop/Schedules.json,Data/Characters/John/Festivals.json,Data/Characters/John/Dialogue.json,Data/Characters/John/Dispositions.json,Data/Characters/John/Events.json,Data/Characters/John/Movies.json,Data/Characters/John/Schedules.json,Data/Characters/Phoebe/Festivals.json,Data/Characters/Phoebe/Dialogue.json,Data/Characters/Phoebe/Dispositions.json,Data/Characters/Phoebe/Events.json,Data/Characters/Phoebe/Movies.json,Data/Characters/Phoebe/Schedules.json,Data/Characters/Barron/Dialogue.json,Data/Characters/Barron/Dispositions.json,Data/Characters/Barron/Events.json,Data/Characters/Barron/Movies.json,Data/Characters/Barron/Schedules.json,Data/Characters/Barron/Festivals.json,Data/Characters/Cotton/RelationshipDynamic.json,Data/Characters/Lyell/RelationshipDynamic.json,Data/Characters/Nikolai/RelationshipDynamic.json,Data/Characters/Thalia/RelationshipDynamic.json,Data/Characters/Thalia/Festivals.json,Data/Characters/Valerie/RelationshipDynamic.json,Data/Characters/Cotton/Schedules.json,Data/Characters/Thalia/Schedules.json,Data/Characters/Thalia/Events.json,Data/Characters/Roswell/Events.json,Data/Characters/Alan/Events.json,Data/Characters/Dezerie/Events.json,Data/Characters/Valerie/Festivals.json,Data/Characters/Roswell/Festivals.json,Data/Characters/Nikolai/Festivals.json,Data/Characters/Lyell/Festivals.json,Data/Characters/Kaia/Festivals.json,Data/Characters/Grady/Festivals.json,Data/Characters/Dezerie/Festivals.json,Data/Characters/Boxy/Festivals.json,Data/Characters/Alan/Festivals.json,Data/Characters/Maverick/Festivals.json,Data/Characters/Maverick/Dispositions.json,Data/Characters/Maverick/Dialogue.json,Data/Characters/Maverick/Events.json,Data/Characters/Maverick/Schedules.json,Data/Characters/Maverick/GiftTaste.json,Data/Characters/Zuuie/Dispositions.json,Data/Characters/Zuuie/Dialogue.json,Data/Characters/Zuuie/Events.json,Data/Characters/Zuuie/Schedules.json,Data/Characters/Zuuie/GiftTaste.json,Data/Characters/Nikolai/Dispositions.json,Data/Characters/Nikolai/Dialogue.json,Data/Characters/Nikolai/Events.json,Data/Characters/Nikolai/Movies.json,Data/Characters/Nikolai/Schedules.json,Data/Characters/Nikolai/GiftTaste.json,Data/Characters/Kaia/Dispositions.json,Data/Characters/Kaia/Dialogue.json,Data/Characters/Kaia/Events.json,Data/Characters/Kaia/Schedules.json,Data/Characters/Kaia/GiftTaste.json,Data/Characters/Boxy/Dispositions.json,Data/Characters/Boxy/Dialogue.json,Data/Characters/Boxy/Events.json,Data/Characters/Boxy/Schedules.json,Data/Characters/Boxy/GiftTaste.json,Data/Characters/Valerie/Dispositions.json,Data/Characters/Valerie/Dialogue.json,Data/Characters/Valerie/Movies.json,Data/Characters/Valerie/Schedules.json,Data/Characters/Valerie/GiftTaste.json,Data/Characters/Valerie/Events.json,Data/Characters/Alan/Dispositions.json,Data/Characters/Alan/Dialogue.json,Data/Characters/Alan/Movies.json,Data/Characters/Alan/Schedules.json,Data/Characters/Alan/GiftTaste.json,Data/Characters/Dezerie/Dispositions.json,Data/Characters/Dezerie/Dialogue.json,Data/Characters/Dezerie/Movies.json,Data/Characters/Dezerie/Schedules.json,Data/Characters/Dezerie/GiftTaste.json,Data/Characters/Lyell/Schedules.json,Data/Characters/Lyell/Dispositions.json,Data/Characters/Lyell/Dialogue.json,Data/Characters/Lyell/Movies.json,Data/Characters/Lyell/GiftTaste.json,Data/Characters/Lyell/Events.json,Data/Characters/Grady/Schedules.json,Data/Characters/Grady/Dispositions.json,Data/Characters/Grady/Dialogue.json,Data/Characters/Grady/Movies.json,Data/Characters/Grady/GiftTaste.json,Data/Characters/Grady/Events.json,Data/Characters/Roswell/Schedules.json,Data/Characters/Roswell/Dispositions.json,Data/Characters/Roswell/Dialogue.json,Data/Characters/Roswell/GiftTaste.json,Data/Characters/Thalia/Dispositions.json,Data/Characters/Thalia/Dialogue.json,Data/Characters/Thalia/Movies.json,Data/Characters/Thalia/GiftTaste.json,Data/Characters/Cotton/Dispositions.json,Data/Characters/Cotton/Dialogue.json,Data/Characters/Cotton/Movies.json,Data/Characters/Cotton/GiftTaste.json,Data/Characters/Shaavar/Events.json,Data/Characters/Shaavar/Dispositions.json,Data/Characters/Shaavar/Dialogue.json,Data/Characters/Shaavar/Movies.json,Data/Characters/Shaavar/GiftTaste.json,Data/Characters/Shaavar/Schedules.json"
+"FromFile": "Data/Characters/Cotton/Events.json,Data/Characters/Jinx/GiftTaste.json,Data/Characters/Amanda/GiftTaste.json,Data/Characters/Barron/GiftTaste.json,Data/Characters/Phoebe/GiftTaste.json,Data/Characters/Pop/GiftTaste.json,Data/Characters/John/GiftTaste.json,Data/Characters/Phoebe/GiftTaste.json,Data/Characters/Amanda/Events.json,Data/Characters/Amanda/Dialogue.json,Data/Characters/Amanda/Dispositions.json,Data/Characters/Amanda/Schedules.json,Data/Characters/Jinx/Events.json,Data/Characters/Jinx/Dialogue.json,Data/Characters/Jinx/Dispositions.json,Data/Characters/Jinx/Schedules.json,Data/Characters/Pop/Festivals.json,Data/Characters/Pop/Dialogue.json,Data/Characters/Pop/Dispositions.json,Data/Characters/Pop/Events.json,Data/Characters/Pop/Schedules.json,Data/Characters/John/Festivals.json,Data/Characters/John/Dialogue.json,Data/Characters/John/Dispositions.json,Data/Characters/John/Events.json,Data/Characters/John/Movies.json,Data/Characters/John/Schedules.json,Data/Characters/Phoebe/Festivals.json,Data/Characters/Phoebe/Dialogue.json,Data/Characters/Phoebe/Dispositions.json,Data/Characters/Phoebe/Events.json,Data/Characters/Phoebe/Movies.json,Data/Characters/Phoebe/Schedules.json,Data/Characters/Barron/Dialogue.json,Data/Characters/Barron/Dispositions.json,Data/Characters/Barron/Events.json,Data/Characters/Barron/Movies.json,Data/Characters/Barron/Schedules.json,Data/Characters/Barron/Festivals.json,Data/Characters/Cotton/RelationshipDynamic.json,Data/Characters/Lyell/RelationshipDynamic.json,Data/Characters/Nikolai/RelationshipDynamic.json,Data/Characters/Thalia/RelationshipDynamic.json,Data/Characters/Thalia/Festivals.json,Data/Characters/Valerie/RelationshipDynamic.json,Data/Characters/Cotton/Schedules.json,Data/Characters/Thalia/Schedules.json,Data/Characters/Thalia/Events.json,Data/Characters/Roswell/Events.json,Data/Characters/Alan/Events.json,Data/Characters/Dezerie/Events.json,Data/Characters/Valerie/Festivals.json,Data/Characters/Roswell/Festivals.json,Data/Characters/Nikolai/Festivals.json,Data/Characters/Lyell/Festivals.json,Data/Characters/Kaia/Festivals.json,Data/Characters/Grady/Festivals.json,Data/Characters/Dezerie/Festivals.json,Data/Characters/Boxy/Festivals.json,Data/Characters/Alan/Festivals.json,Data/Characters/Maverick/Festivals.json,Data/Characters/Maverick/Dispositions.json,Data/Characters/Maverick/Dialogue.json,Data/Characters/Maverick/Events.json,Data/Characters/Maverick/Schedules.json,Data/Characters/Maverick/GiftTaste.json,Data/Characters/Zuuie/Dispositions.json,Data/Characters/Zuuie/Dialogue.json,Data/Characters/Zuuie/Events.json,Data/Characters/Zuuie/Schedules.json,Data/Characters/Zuuie/GiftTaste.json,Data/Characters/Nikolai/Dispositions.json,Data/Characters/Nikolai/Dialogue.json,Data/Characters/Nikolai/Events.json,Data/Characters/Nikolai/Movies.json,Data/Characters/Nikolai/Schedules.json,Data/Characters/Nikolai/GiftTaste.json,Data/Characters/Kaia/Dispositions.json,Data/Characters/Kaia/Dialogue.json,Data/Characters/Kaia/Events.json,Data/Characters/Kaia/Schedules.json,Data/Characters/Kaia/GiftTaste.json,Data/Characters/Boxy/Dispositions.json,Data/Characters/Boxy/Dialogue.json,Data/Characters/Boxy/Events.json,Data/Characters/Boxy/Schedules.json,Data/Characters/Boxy/GiftTaste.json,Data/Characters/Valerie/Dispositions.json,Data/Characters/Valerie/Dialogue.json,Data/Characters/Valerie/Movies.json,Data/Characters/Valerie/Schedules.json,Data/Characters/Valerie/GiftTaste.json,Data/Characters/Valerie/Events.json,Data/Characters/Alan/Dispositions.json,Data/Characters/Alan/Dialogue.json,Data/Characters/Alan/Movies.json,Data/Characters/Alan/Schedules.json,Data/Characters/Alan/GiftTaste.json,Data/Characters/Dezerie/Dispositions.json,Data/Characters/Dezerie/Dialogue.json,Data/Characters/Dezerie/Movies.json,Data/Characters/Dezerie/Schedules.json,Data/Characters/Dezerie/GiftTaste.json,Data/Characters/Lyell/Schedules.json,Data/Characters/Lyell/Dispositions.json,Data/Characters/Lyell/Dialogue.json,Data/Characters/Lyell/Movies.json,Data/Characters/Lyell/GiftTaste.json,Data/Characters/Lyell/Events.json,Data/Characters/Grady/Schedules.json,Data/Characters/Grady/Dispositions.json,Data/Characters/Grady/Dialogue.json,Data/Characters/Grady/Movies.json,Data/Characters/Grady/GiftTaste.json,Data/Characters/Grady/Events.json,Data/Characters/Roswell/Schedules.json,Data/Characters/Roswell/Dispositions.json,Data/Characters/Roswell/Dialogue.json,Data/Characters/Roswell/GiftTaste.json,Data/Characters/Thalia/Dispositions.json,Data/Characters/Thalia/Dialogue.json,Data/Characters/Thalia/Movies.json,Data/Characters/Thalia/GiftTaste.json,Data/Characters/Cotton/Dispositions.json,Data/Characters/Cotton/Dialogue.json,Data/Characters/Cotton/Movies.json,Data/Characters/Cotton/GiftTaste.json,Data/Characters/Shaavar/Events.json,Data/Characters/Shaavar/Dispositions.json,Data/Characters/Shaavar/Dialogue.json,Data/Characters/Shaavar/Movies.json,Data/Characters/Shaavar/GiftTaste.json,Data/Characters/Shaavar/Festivals.json,Data/Characters/Pop/GiftTaste.json,Data/Characters/John/GiftTaste.json,Data/Characters/Phoebe/GiftTaste.json,Data/Characters/Amanda/Events.json,Data/Characters/Amanda/Dialogue.json,Data/Characters/Amanda/Dispositions.json,Data/Characters/Amanda/Schedules.json,Data/Characters/Jinx/Events.json,Data/Characters/Jinx/Dialogue.json,Data/Characters/Jinx/Dispositions.json,Data/Characters/Jinx/Schedules.json,Data/Characters/Pop/Festivals.json,Data/Characters/Pop/Dialogue.json,Data/Characters/Pop/Dispositions.json,Data/Characters/Pop/Events.json,Data/Characters/Pop/Schedules.json,Data/Characters/John/Festivals.json,Data/Characters/John/Dialogue.json,Data/Characters/John/Dispositions.json,Data/Characters/John/Events.json,Data/Characters/John/Movies.json,Data/Characters/John/Schedules.json,Data/Characters/Phoebe/Festivals.json,Data/Characters/Phoebe/Dialogue.json,Data/Characters/Phoebe/Dispositions.json,Data/Characters/Phoebe/Events.json,Data/Characters/Phoebe/Movies.json,Data/Characters/Phoebe/Schedules.json,Data/Characters/Barron/Dialogue.json,Data/Characters/Barron/Dispositions.json,Data/Characters/Barron/Events.json,Data/Characters/Barron/Movies.json,Data/Characters/Barron/Schedules.json,Data/Characters/Barron/Festivals.json,Data/Characters/Cotton/RelationshipDynamic.json,Data/Characters/Lyell/RelationshipDynamic.json,Data/Characters/Nikolai/RelationshipDynamic.json,Data/Characters/Thalia/RelationshipDynamic.json,Data/Characters/Thalia/Festivals.json,Data/Characters/Valerie/RelationshipDynamic.json,Data/Characters/Cotton/Schedules.json,Data/Characters/Thalia/Schedules.json,Data/Characters/Thalia/Events.json,Data/Characters/Roswell/Events.json,Data/Characters/Alan/Events.json,Data/Characters/Dezerie/Events.json,Data/Characters/Valerie/Festivals.json,Data/Characters/Roswell/Festivals.json,Data/Characters/Nikolai/Festivals.json,Data/Characters/Lyell/Festivals.json,Data/Characters/Kaia/Festivals.json,Data/Characters/Grady/Festivals.json,Data/Characters/Dezerie/Festivals.json,Data/Characters/Boxy/Festivals.json,Data/Characters/Alan/Festivals.json,Data/Characters/Maverick/Festivals.json,Data/Characters/Maverick/Dispositions.json,Data/Characters/Maverick/Dialogue.json,Data/Characters/Maverick/Events.json,Data/Characters/Maverick/Schedules.json,Data/Characters/Maverick/GiftTaste.json,Data/Characters/Zuuie/Dispositions.json,Data/Characters/Zuuie/Dialogue.json,Data/Characters/Zuuie/Events.json,Data/Characters/Zuuie/Schedules.json,Data/Characters/Zuuie/GiftTaste.json,Data/Characters/Nikolai/Dispositions.json,Data/Characters/Nikolai/Dialogue.json,Data/Characters/Nikolai/Events.json,Data/Characters/Nikolai/Movies.json,Data/Characters/Nikolai/Schedules.json,Data/Characters/Nikolai/GiftTaste.json,Data/Characters/Kaia/Dispositions.json,Data/Characters/Kaia/Dialogue.json,Data/Characters/Kaia/Events.json,Data/Characters/Kaia/Schedules.json,Data/Characters/Kaia/GiftTaste.json,Data/Characters/Boxy/Dispositions.json,Data/Characters/Boxy/Dialogue.json,Data/Characters/Boxy/Events.json,Data/Characters/Boxy/Schedules.json,Data/Characters/Boxy/GiftTaste.json,Data/Characters/Valerie/Dispositions.json,Data/Characters/Valerie/Dialogue.json,Data/Characters/Valerie/Movies.json,Data/Characters/Valerie/Schedules.json,Data/Characters/Valerie/GiftTaste.json,Data/Characters/Valerie/Events.json,Data/Characters/Alan/Dispositions.json,Data/Characters/Alan/Dialogue.json,Data/Characters/Alan/Movies.json,Data/Characters/Alan/Schedules.json,Data/Characters/Alan/GiftTaste.json,Data/Characters/Dezerie/Dispositions.json,Data/Characters/Dezerie/Dialogue.json,Data/Characters/Dezerie/Movies.json,Data/Characters/Dezerie/Schedules.json,Data/Characters/Dezerie/GiftTaste.json,Data/Characters/Lyell/Schedules.json,Data/Characters/Lyell/Dispositions.json,Data/Characters/Lyell/Dialogue.json,Data/Characters/Lyell/Movies.json,Data/Characters/Lyell/GiftTaste.json,Data/Characters/Lyell/Events.json,Data/Characters/Grady/Schedules.json,Data/Characters/Grady/Dispositions.json,Data/Characters/Grady/Dialogue.json,Data/Characters/Grady/Movies.json,Data/Characters/Grady/GiftTaste.json,Data/Characters/Grady/Events.json,Data/Characters/Roswell/Schedules.json,Data/Characters/Roswell/Dispositions.json,Data/Characters/Roswell/Dialogue.json,Data/Characters/Roswell/GiftTaste.json,Data/Characters/Thalia/Dispositions.json,Data/Characters/Thalia/Dialogue.json,Data/Characters/Thalia/Movies.json,Data/Characters/Thalia/GiftTaste.json,Data/Characters/Cotton/Dispositions.json,Data/Characters/Cotton/Dialogue.json,Data/Characters/Cotton/Movies.json,Data/Characters/Cotton/GiftTaste.json,Data/Characters/Shaavar/Events.json,Data/Characters/Shaavar/Dispositions.json,Data/Characters/Shaavar/Dialogue.json,Data/Characters/Shaavar/Movies.json,Data/Characters/Shaavar/GiftTaste.json,Data/Characters/Shaavar/Schedules.json"
  },
 ],
 }

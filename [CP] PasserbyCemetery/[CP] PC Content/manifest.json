@@ -2,7 +2,7 @@
   "Name": "Passerby Cemetery",
    "Author": "Fellowclown",
    "Description": "Fellowclown's expansion mod",
-   "Version": "2.20.0", ///Version of your mod
+   "Version": "2.31.0", ///Version of your mod
    "UniqueID": "Fellowclown.PC", 
  
    "ContentPackFor": {
@@ -59,6 +59,9 @@
         },
                             {
             "UniqueID": "DaisyNiko.EarthyRecolour",  "IsRequired": false 
+        },
+                               {
+            "UniqueID": "TheMightyAmondee.EventLimiter",  "IsRequired": false 
         },
     ]
 }

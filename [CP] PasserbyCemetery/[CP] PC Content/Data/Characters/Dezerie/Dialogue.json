@@ -8,6 +8,21 @@ NoneChangingDialogue
 "Target":"Characters/Dialogue/FC.Dezerie",
 "Entries":{
 "AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Dezerie}}",
+"reject_(O){{ModID}}_WalkMan": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_ElizabethsRing": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostJournal": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostPipe": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_StoneRelic": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostAmulet": "{{i18n:RejectObject.Dezerie}}",
+"reject_(O){{ModID}}_RettNote": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostKey": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_BarronsBook": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_TheCuff": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_PhoebesPackage": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_BagOfSeaglass": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsNecklace": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsRing": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsWine": "{{i18n:RejectObject.Vanilla}}",
 "Introduction":"{{i18n:Introduction.Dezerie}}",
 "Resort_Entering":"{{i18n:Resort_Entering.Dezerie}}",
 "Resort_Leaving":"{{i18n:Resort_Leaving.Dezerie}}",
@@ -42,6 +57,9 @@ NoneChangingDialogue
 "GreenRain_2": "{{i18n:GreenRain_2.Dezerie}}",
 "FC.WrongShape": "{{i18n:CT.Dezerie.FC.WrongShape}}",
 "FC.TrueShape": "{{i18n:CT.Dezerie.FC.TrueShape}}",
+},
+"When": {
+"HasSeenEvent |contains={{ModID}}_StoneIntroduction": true, 
 }
 },
 /************************************************
@@ -59,17 +77,17 @@ PlatonicDialogue
 "Fri":"{{i18n:Fri.Dezerie.LowHeart.{{season}}}}",
 "Sat":"{{i18n:Sat.Dezerie.LowHeart.{{season}}}}",
 "Sun":"{{i18n:Sun.Dezerie.LowHeart.{{season}}}}",
-"Saloon":"{{i18n:Saloon.Dezerie.LowHeart.{{season}}}}",
 },
 "When":{
-"Hearts:FC.Dezerie":"{{Range:0,4}}"
+"Hearts:FC.Dezerie":"{{Range:0,4}}",
+"HasSeenEvent |contains={{ModID}}_StoneIntroduction": true, 
 }
 },
 /************************************************
 HighPlatonicDialogue
 ************************************************/
 {
-"LogName":"Dialogue-5-8",
+"LogName":"Dialogue-5-10",
 "Action":"EditData",
 "Target":"Characters/Dialogue/FC.Dezerie",
 "Entries":{
@@ -80,10 +98,10 @@ HighPlatonicDialogue
 "Fri":"{{i18n:Fri.Dezerie.MidHeart.{{season}}}}",
 "Sat":"{{i18n:Sat.Dezerie.MidHeart.{{season}}}}",
 "Sun":"{{i18n:Sun.Dezerie.MidHeart.{{season}}}}",
-"Saloon":"{{i18n:Saloon.Dezerie.MidHeart.{{season}}}}",
 },
 "When":{
-"Hearts:FC.Dezerie":"{{Range:5,10}}"
+"Hearts:FC.Dezerie":"{{Range:5,10}}",
+"HasSeenEvent |contains={{ModID}}_StoneIntroduction": true, 
 }
 },
 /************************************************
@@ -95,6 +113,9 @@ MiscDialogue
 "Target":"Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/fall27,Data/Festivals/winter8,Data/Festivals/winter3,Data/Festivals/winter25",
 "Entries":{
 "FC.Dezerie{{YearCheck}}":"{{i18n:Dezerie.{{TargetWithoutPath}}.{{Relationship:FC.Dezerie}}|default={{i18n:Dezerie.{{TargetWithoutPath}}|default={{i18n:Dezerie.festival-default}}}}}}",
+},
+"When":{
+"HasSeenEvent |contains={{ModID}}_StoneIntroduction": true, 
 }
 },
 {

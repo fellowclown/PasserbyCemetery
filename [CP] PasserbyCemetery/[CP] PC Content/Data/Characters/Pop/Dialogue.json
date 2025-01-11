@@ -34,6 +34,21 @@
 "SpouseFarmhouseClutter":"{{i18n:SpouseFarmhouseClutter.Popper}}",
 "SpouseStardrop":"{{i18n:SpouseStardrop.Popper}}",
 "WipedMemory":"{{i18n:WipedMemory.Popper}}",
+"reject_(O){{ModID}}_WalkMan": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_ElizabethsRing": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostJournal": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostPipe": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_StoneRelic": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostAmulet": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_RettNote": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostKey": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_BarronsBook": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_TheCuff": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_PhoebesPackage": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_BagOfSeaglass": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsNecklace": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsRing": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsWine": "{{i18n:RejectObject.Vanilla}}",
 /// Eveyday Dialogue
 "Mon": "{{i18n:mon.Popper.{{season}}}}",
 "Tue": "{{i18n:tue.Popper.{{season}}}}",    
@@ -167,7 +182,7 @@
 "Target": "Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/fall27,Data/Festivals/fall27,Data/Festivals/winter8,Data/Festivals/winter3,Data/Festivals/winter25",
 "Entries": {
 // show the first translation found from 'spring13.dating', 'spring13', or 'festival-default'
-"FC.Popper{{YearCheck}}": "{{i18n:Popper.{{TargePCithoutPath}}.{{Relationship:Popper}} |default={{i18n:Popper.{{TargePCithoutPath}} |default={{i18n:Popper.festival-default}} }} }}",
+"FC.Popper{{YearCheck}}": "{{i18n:Popper.{{TargetWithoutPath}}.{{Relationship:FC.Popper}} |default={{i18n:Popper.{{TargetWithoutPath}} |default={{i18n:Popper.festival-default}} }} }}",
 } 
  },
    {
@@ -176,7 +191,7 @@
 "Target": "Data/Festivals/spring13,Data/Festivals/spring24,Data/Festivals/summer11,Data/Festivals/summer28,Data/Festivals/fall3,Data/Festivals/fall16,Data/Festivals/fall27,Data/Festivals/fall27,Data/Festivals/winter8,Data/Festivals/winter3,Data/Festivals/winter25",
 "Entries": {
 // show the first translation found from 'spring13.dating', 'spring13', or 'festival-default'
-"FC.Popper{{YearCheck}}": "{{i18n:HumanPopper.{{TargePCithoutPath}}.{{Relationship:HumanPopper}} |default={{i18n:HumanPopper.{{TargePCithoutPath}} |default={{i18n:HumanPopper.festival-default}} }} }}",
+"FC.Popper{{YearCheck}}": "{{i18n:HumanPopper.{{TargetWithoutPath}}.{{Relationship:FC.Popper}} |default={{i18n:HumanPopper.{{TargetWithoutPath}} |default={{i18n:HumanPopper.festival-default}} }} }}",
 },
    "When": {
 "HasFlag":"{{ModID}}_TrueShape.Mail",  

@@ -7,6 +7,35 @@
 "FC.FaintingIncident": "{{i18n:FC.FaintingIncident.{{TargetWithoutPath}}}}",
   }
 },
+        {
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Lewis,Characters/Dialogue/Abigail,Characters/Dialogue/Sam,Characters/Dialogue/Penny,Characters/Dialogue/Vincent,Characters/Dialogue/Jas,Characters/Dialogue/Clint,Characters/Dialogue/Emily,Characters/Dialogue/Leah",
+  "Entries": {
+"FC.StrugglesWithLyell": "{{i18n:CT.{{TargetWithoutPath}}.FC.StrugglesWithLyell}}",
+  }
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Abigail,Characters/Dialogue/Alex,Characters/Dialogue/Caroline,Characters/Dialogue/Clint,Characters/Dialogue/Demetrius,Characters/Dialogue/Elliott,Characters/Dialogue/Emily,Characters/Dialogue/Evelyn,Characters/Dialogue/George,Characters/Dialogue/Gus,Characters/Dialogue/Haley,Characters/Dialogue/Harvey,Characters/Dialogue/Jas,Characters/Dialogue/Jodi,Characters/Dialogue/Kent,Characters/Dialogue/Leah,Characters/Dialogue/LeoMainland,Characters/Dialogue/Lewis,Characters/Dialogue/Linus,Characters/Dialogue/Marnie,Characters/Dialogue/Maru,Characters/Dialogue/Pam,Characters/Dialogue/Penny,Characters/Dialogue/Pierre,Characters/Dialogue/Robin,Characters/Dialogue/Sam,Characters/Dialogue/Sebastian,Characters/Dialogue/Shane,Characters/Dialogue/Vincent,Characters/Dialogue/Willy,Characters/Dialogue/Wizard,Characters/Dialogue/Krobus,Characters/Dialogue/Mister Qi",
+"Entries": {
+"reject_(O){{ModID}}_WalkMan": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_ElizabethsRing": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostJournal": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostPipe": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_StoneRelic": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostAmulet": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_RettNote": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostKey": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_BarronsBook": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_TheCuff": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_PhoebesPackage": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_BagOfSeaglass": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_Button": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsNecklace": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsRing": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsWine": "{{i18n:RejectObject.Vanilla}}",
+},
+},
 {
 "Action": "EditData",
 "Priority": "Late",
@@ -24,10 +53,10 @@
 "Action": "EditData",
 "Target": "strings/StringsFromCSFiles",
 "Entries": {
-"Utility.cs.5367": "{{i18n:Lyell.Utility.cs.5367}}",
-"Utility.cs.5369": "{{i18n:Lyell.Utility.cs.5369}}",
-"Utility.cs.5371": "{{i18n:Lyell.Utility.cs.5371}}",
-"Utility.cs.5377": "{{i18n:Lyell.Utility.cs.5377}}",
+"Utility.cs.5367": "{{i18n:{{TargetWithoutPath}}.Utility.cs.5367}}",
+"Utility.cs.5369": "{{i18n:{{TargetWithoutPath}}.Utility.cs.5369}}",
+"Utility.cs.5371": "{{i18n:{{TargetWithoutPath}}.Utility.cs.5371}}",
+"Utility.cs.5377": "{{i18n:{{TargetWithoutPath}}.Utility.cs.5377}}",
 },
 "When": {
 "Relationship:FC.Lyell": "Engaged, Married",
@@ -40,32 +69,6 @@
 "Relationship:FC.Alan": "Engaged, Married",
 }
 },
-{
-"Action": "EditData",
-"Target": "strings/StringsFromCSFiles",
-"Entries": {
-"Turnabout.Eve":"{{i18n:Turnabout.Eve}}",
-}
-},
-{
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "Entries": {
-                "FC.Eve": {
-                    "DisplayName": "{{i18n:FC.Eve}}",
-                    "CanSocialize": false,
-                    "EndSlideShow": "Hidden",
-                    "Shadow": {"Visible": false},
-                    "Home": [
-                        {
-                            "Id": "Default",
-                            "Location": "{{ModID}}_TurnaboutSaloon",
-                            "Tile": {"X": 6, "Y": 28},
-                        }
-                    ],    
-                },
-            },
-        },
 /************************************************
 NoneChangingDialogue
 ************************************************/
@@ -170,7 +173,7 @@ NoneChangingDialogue
 "FC.TheBeesKeeper":"{{i18n:CT.{{TargetWithoutPath}}.FC.TheBeesKeeper}}",
 "FC.NikolaiFirstDate":"{{i18n:CT.{{TargetWithoutPath}}.FC.NikolaiFirstDate}}",
 "FC.RoswellsEscape":"{{i18n:CT.{{TargetWithoutPath}}.FC.RoswellsEscape}}",
-"FC.FC.ThaliaIntro":"{{i18n:CT.{{TargetWithoutPath}}.FC.ThaliaIntro}}",
+"FC.ThaliaIntro":"{{i18n:CT.{{TargetWithoutPath}}.FC.ThaliaIntro}}",
 "FC.Stoneintro ":"{{i18n:CT.{{TargetWithoutPath}}.FC.Stoneintro}}",
 "FC.ThePotion":"{{i18n:CT.{{TargetWithoutPath}}.FC.ThePotion}}",
 "FC.ResearchingRett":"{{i18n:CT.{{TargetWithoutPath}}.FC.ResearchingRett}}",

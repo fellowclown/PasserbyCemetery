@@ -16,7 +16,7 @@ Dispositions
 "Gender":"Female",
 "Age":"Adult",
 "Manner":"Polite",
-"SociThaliaxiety":"Outgoing",
+"SocialAnxiety":"Outgoing",
 "Optimism":"Positive",
 "BirthSeason":"Summer",
 "BirthDay":7,
@@ -90,7 +90,7 @@ Dispositions
 },
 ],
 //Spawn Rules
-"UnlockConditions":null,
+"UnlockConditions":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_ThaliaIntroduction",
 "SpawnIfMissing":true,
 "Home": [
 {

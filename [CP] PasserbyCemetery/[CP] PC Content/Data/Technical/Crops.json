@@ -9,11 +9,77 @@
 "Seasons": [ "summer" ],
 "DaysInPhase": [ 2,2,2,2,2 ], 
 "HarvestItemId": "{{ModID}}_DragaTongue",
-"RegrowDays": "6",
+"RegrowDays": "-1",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 0
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_DragaTongueSeeds":{
+"Name": "{{ModID}}_DragaTongueSeeds",
+"DisplayName": "{{i18n:FC.DragaTongueSeeds}}",
+"Description": "{{i18n:FC.DragaTongueSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 100,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 96,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_DragaTongue":{
+"Name": "{{ModID}}_DragaTongue",
+"DisplayName": "{{i18n:FC.DragaTongue}}",
+"Description": "{{i18n:FC.DragaTongue.Desc}}",
+"Type": "Fruit",
+"Category": -79,
+"Price": 275,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 80,
+"Edibility": 75,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+],
+"CustomFields": null
 }
 }
 },
@@ -27,9 +93,80 @@
 "HarvestItemId": "{{ModID}}_AdauulaStalks",
 "RegrowDays": "-1",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 1
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_AdauulaStalksSeeds":{
+"Name": "{{ModID}}_AdauulaStalksSeeds",
+"DisplayName": "{{i18n:FC.AdauulaStalksSeeds}}",
+"Description": "{{i18n:FC.AdauulaStalksSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 80,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 100,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_AdauulaStalks":{
+"Name": "{{ModID}}_AdauulaStalks",
+"DisplayName": "{{i18n:FC.AdauulaStalks}}",
+"Description": "{{i18n:FC.AdauulaStalks.Desc}}",
+"Type": "Vegetable",
+"Category": -75,
+"Price": 35,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 70,
+"Edibility": 75,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_vegetable",
+"category_ingredients",
+"fc_mill_item"
+
+],
+"CustomFields": null
 }
 }
 },
@@ -43,9 +180,78 @@
 "HarvestItemId": "{{ModID}}_ButterTuff",
 "RegrowDays": "-1",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 2
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_ButterTuff":{
+"Name": "{{ModID}}_ButterTuff",
+"DisplayName": "{{i18n:FC.ButterTuff}}",
+"Description": "{{i18n:FC.ButterTuff.Desc}}",
+"Type": "Vegetable",
+"Category": -75,
+"Price": 50,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 73,
+"Edibility": 3,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_vegetable",
+"category_ingredients",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_ButterTuffSeeds":{
+"Name": "{{ModID}}_ButterTuffSeeds",
+"DisplayName": "{{i18n:FC.ButterTuffSeeds}}",
+"Description": "{{i18n:FC.ButterTuffSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 40,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 74,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
 }
 }
 },
@@ -59,12 +265,83 @@
 "HarvestItemId": "{{ModID}}_GaggleShrooms",
 "RegrowDays": "-1",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 3
 }
 }
 },
+
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_GaggleShroomsSeeds":{
+"Name": "{{ModID}}_GaggleShroomsSeeds",
+"DisplayName": "{{i18n:FC.GaggleShroomsSeeds}}",
+"Description": "{{i18n:FC.GaggleShroomsSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 30,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 86,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_GaggleShrooms":{
+"Name": "{{ModID}}_GaggleShrooms",
+"DisplayName": "{{i18n:FC.GaggleShrooms}}",
+"Description": "{{i18n:FC.GaggleShrooms.Desc}}",
+"Type": "Vegetable",
+"Category": -75,
+"Price": 50,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 61,
+"Edibility": 2,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_ingredients",
+"category_greens",
+],
+"CustomFields": null
+}
+}
+},
+
  {
 "Action": "EditData",
 "Target": "Data/Crops",
@@ -75,9 +352,78 @@
 "HarvestItemId": "{{ModID}}_Cucumaba",
 "RegrowDays": "5",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 4
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_CucumabaSeeds":{
+"Name": "{{ModID}}_CucumabaSeeds",
+"DisplayName": "{{i18n:FC.CucumabaSeeds}}",
+"Description": "{{i18n:FC.CucumabaSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 350,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 76,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_Cucumaba":{
+"Name": "{{ModID}}_Cucumaba",
+"DisplayName": "{{i18n:FC.Cucumaba}}",
+"Description": "{{i18n:FC.Cucumaba.Desc}}",
+"Type": "Fruit",
+"Category": -79,
+"Price": 50,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 78,
+"Edibility": 12,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_fruits",
+"category_ingredients",
+],
+"CustomFields": null
 }
 }
 },
@@ -91,9 +437,78 @@
 "HarvestItemId": "{{ModID}}_FairyCap",
 "RegrowDays": "-1",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 6
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_FairyCapSeeds":{
+"Name": "{{ModID}}_FairyCapSeeds",
+"DisplayName": "{{i18n:FC.FairyCapSeeds}}",
+"Description": "{{i18n:FC.FairyCapSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 60,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 97,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_FairyCap":{
+"Name": "{{ModID}}_FairyCap",
+"DisplayName": "{{i18n:FC.FairyCap}}",
+"Description": "{{i18n:FC.FairyCap.Desc}}",
+"Type": "Fruit",
+"Category": -79,
+"Price": 90,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 81,
+"Edibility": 20,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_fruits",
+"category_ingredients",
+],
+"CustomFields": null
 }
 }
 },
@@ -107,9 +522,78 @@
 "HarvestItemId": "{{ModID}}_IceBerries",
 "RegrowDays": "3",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 7
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_IceBerriesSeeds":{
+"Name": "{{ModID}}_IceBerriesSeeds",
+"DisplayName": "{{i18n:FC.IceBerriesSeeds}}",
+"Description": "{{i18n:FC.IceBerriesSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 50,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 75,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_IceBerries":{
+"Name": "{{ModID}}_IceBerries",
+"DisplayName": "{{i18n:FC.IceBerries}}",
+"Description": "{{i18n:FC.IceBerries.Desc}}",
+"Type": "Fruit",
+"Category": -79,
+"Price": 20,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 82,
+"Edibility": 20,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"color_blue"
+],
+"CustomFields": null
 }
 }
 },
@@ -123,9 +607,79 @@
 "HarvestItemId": "{{ModID}}_Paneeki",
 "RegrowDays": "-1",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 8
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_PaneekiSeeds":{
+"Name": "{{ModID}}_PaneekiSeeds",
+"DisplayName": "{{i18n:FC.PaneekiSeeds}}",
+"Description": "{{i18n:FC.PaneekiSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 100,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 98,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_Paneeki":{
+"Name": "{{ModID}}_Paneeki",
+"DisplayName": "{{i18n:FC.Paneeki}}",
+"Description": "{{i18n:FC.Paneeki.Desc}}",
+"Type": "Vegetable",
+"Category": -75,
+"Price": 230,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 84,
+"Edibility": 18,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_vegetable",
+"category_ingredients",
+"color_red"
+],
+"CustomFields": null
 }
 }
 },
@@ -139,9 +693,79 @@
 "HarvestItemId": "{{ModID}}_Popachini",
 "RegrowDays": "4",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 9
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_PopachiniSeeds":{
+"Name": "{{ModID}}_PopachiniSeeds",
+"DisplayName": "{{i18n:FC.PopachiniSeeds}}",
+"Description": "{{i18n:FC.PopachiniSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 120,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 99,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_Popachini":{
+"Name": "{{ModID}}_Popachini",
+"DisplayName": "{{i18n:FC.Popachini}}",
+"Description": "{{i18n:FC.Popachini.Desc}}",
+"Type": "Vegetable",
+"Category": -75,
+"Price": 80,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 83,
+"Edibility": 20,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_vegetable",
+"category_ingredients",
+"color_orange"
+],
+"CustomFields": null
 }
 }
 },
@@ -155,9 +779,78 @@
 "HarvestItemId": "{{ModID}}_ZinfazuFruit",
 "RegrowDays": "-1",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.1",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 10
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_ZinfazuFruitSeeds":{
+"Name": "{{ModID}}_ZinfazuFruitSeeds",
+"DisplayName": "{{i18n:FC.ZinfazuFruitSeeds}}",
+"Description": "{{i18n:FC.ZinfazuFruitSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 400,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 95,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_ZinfazuFruit":{
+"Name": "{{ModID}}_ZinfazuFruit",
+"DisplayName": "{{i18n:FC.ZinfazuFruit}}",
+"Description": "{{i18n:FC.ZinfazuFruit.Desc}}",
+"Type": "Fruit",
+"Category": -79,
+"Price": 600,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 71,
+"Edibility": 15,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_fruits",
+"category_ingredients",
+],
+"CustomFields": null
 }
 }
 },
@@ -171,9 +864,77 @@
 "HarvestItemId": "{{ModID}}_WarpRoot",
 "RegrowDays": "-1",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 11
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_WarpRootSeeds":{
+"Name": "{{ModID}}_WarpRootSeeds",
+"DisplayName": "{{i18n:FC.WarpRootSeeds}}",
+"Description": "{{i18n:FC.WarpRootSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 55,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 94,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_WarpRoot":{
+"Name": "{{ModID}}_WarpRoot",
+"DisplayName": "{{i18n:FC.WarpRoot}}",
+"Description": "{{i18n:FC.WarpRoot.Desc}}",
+"Type": "Vegetable",
+"Category": -75,
+"Price": 40,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 85,
+"Edibility": 10,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_vegetable",
+"category_ingredients",
+"color_blue"
+],
+"CustomFields": null
 }
 }
 },
@@ -187,9 +948,78 @@
 "HarvestItemId": "{{ModID}}_ButtonFruit",
 "RegrowDays": "3",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 12
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_ButtonFruitSeeds":{
+"Name": "{{ModID}}_ButtonFruitSeeds",
+"DisplayName": "{{i18n:FC.ButtonFruitSeeds}}",
+"Description": "{{i18n:FC.ButtonFruitSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 60,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 131,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_ButtonFruit":{
+"Name": "{{ModID}}_ButtonFruit",
+"DisplayName": "{{i18n:FC.ButtonFruit}}",
+"Description": "{{i18n:FC.ButtonFruit.Desc}}",
+"Type": "Fruit",
+"Category": -79,
+"Price": 50,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 127,
+"Edibility": 6,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_fruits",
+"category_ingredients",
+],
+"CustomFields": null
 }
 }
 },
@@ -203,9 +1033,78 @@
 "HarvestItemId": "{{ModID}}_YohoFruit",
 "RegrowDays": "-1",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 13
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_YohoFruitSeeds":{
+"Name": "{{ModID}}_YohoFruitSeeds",
+"DisplayName": "{{i18n:FC.YohoFruitSeeds}}",
+"Description": "{{i18n:FC.YohoFruitSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 20,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 133,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_YohoFruit":{
+"Name": "{{ModID}}_YohoFruit",
+"DisplayName": "{{i18n:FC.YohoFruit}}",
+"Description": "{{i18n:FC.YohoFruit.Desc}}",
+"Type": "Fruit",
+"Category": -79,
+"Price": 45,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 128,
+"Edibility": 6,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_fruits",
+"category_ingredients",
+],
+"CustomFields": null
 }
 }
 },
@@ -218,11 +1117,77 @@
 "Seasons": [ "fall","winter" ],
 "DaysInPhase": [  2, 1, 1, 1, 1 ], 
 "HarvestItemId": "{{ModID}}_ChocoFruit",
-"RegrowDays": "3",
+"RegrowDays": "6",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 14
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_ChocoFruitSeeds":{
+"Name": "{{ModID}}_ChocoFruitSeeds",
+"DisplayName": "{{i18n:FC.ChocoFruitSeeds}}",
+"Description": "{{i18n:FC.ChocoFruitSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 50,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 130,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_ChocoFruit":{
+"Name": "{{ModID}}_ChocoFruit",
+"DisplayName": "{{i18n:FC.ChocoFruit}}",
+"Description": "{{i18n:FC.ChocoFruit.Desc}}",
+"Type": "Fruit",
+"Category": -79,
+"Price": 70,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 126,
+"Edibility": 5,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_fruits",
+"category_ingredients",
+"category_{{ModID}}_extractproduct"
+],
+"CustomFields": null
 }
 }
 },
@@ -235,11 +1200,80 @@
 "Seasons": [ "fall","summer" ],
 "DaysInPhase": [ 3,3,3,3,3], 
 "HarvestItemId": "{{ModID}}_DeepCaveFruit",
-"RegrowDays": "3",
+"RegrowDays": "-1",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 15
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_DeepCaveFruitSeeds":{
+"Name": "{{ModID}}_DeepCaveFruitSeeds",
+"DisplayName": "{{i18n:FC.DeepCaveFruitSeeds}}",
+"Description": "{{i18n:FC.DeepCaveFruitSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 100,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 132,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_DeepCaveFruit":{
+"Name": "{{ModID}}_DeepCaveFruit",
+"DisplayName": "{{i18n:FC.DeepCaveFruit}}",
+"Description": "{{i18n:FC.DeepCaveFruit.Desc}}",
+"Type": "Fruit",
+"Category": -79,
+"Price": 275,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 129,
+"Edibility": 3,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_fruits",
+"category_ingredients",
+],
+"CustomFields": null
 }
 }
 },
@@ -254,9 +1288,78 @@
 "HarvestItemId": "{{ModID}}_CaveFlower",
 "RegrowDays": "-1",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 16
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_CaveFlowerSeeds":{
+"Name": "{{ModID}}_CaveFlowerSeeds",
+"DisplayName": "{{i18n:FC.CaveFlowerSeeds}}",
+"Description": "{{i18n:FC.CaveFlowerSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 80,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 29,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_CaveFlower":{
+"Name": "{{ModID}}_CaveFlower",
+"DisplayName": "{{i18n:FC.CaveFlower}}",
+"Description": "{{i18n:FC.CaveFlower.Desc}}",
+"Type": "Flower",
+"Category": -80,
+"Price": 75,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 33,
+"Edibility": 1,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"color_orange",
+"category_flower",
+],
+"CustomFields": null
 }
 }
 },
@@ -267,13 +1370,82 @@
 "Entries": {///Plant these in fall. Takes 6 days to mature and continues producing after that.
 "{{ModID}}_DarkTuffSeeds": {
 "Seasons": [ "fall" ],
-"DaysInPhase":[ 1,1,1,1,2], 
+"DaysInPhase":[ 1,1,1,1,1], 
 "HarvestItemId": "{{ModID}}_DarkTuff",
 "RegrowDays": "3",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 17
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_DarkTuffSeeds":{
+"Name": "{{ModID}}_DarkTuffSeeds",
+"DisplayName": "{{i18n:FC.DarkTuffSeeds}}",
+"Description": "{{i18n:FC.DarkTuffSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 40,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 30,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_DarkTuff":{
+"Name": "{{ModID}}_DarkTuff",
+"DisplayName": "{{i18n:FC.DarkTuff}}",
+"Description": "{{i18n:FC.DarkTuff.Desc}}",
+"Type": "Vegetable",
+"Category": -75,
+"Price": 30,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 25,
+"Edibility": 3,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"color_purple",
+"category_vegetable",
+"category_ingredients",
+ "category_{{ModID}}_extractproduct"
+],
+"CustomFields": null
 }
 }
 },
@@ -288,9 +1460,80 @@
 "HarvestItemId": "{{ModID}}_LureBerries",
 "RegrowDays": "5",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 18
+}
+}
+},
+
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_LureBerriesSeeds":{
+"Name": "{{ModID}}_LureBerriesSeeds",
+"DisplayName": "{{i18n:FC.LureBerriesSeeds}}",
+"Description": "{{i18n:FC.LureBerriesSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 170,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 28,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_LureBerries":{
+"Name": "{{ModID}}_LureBerries",
+"DisplayName": "{{i18n:FC.LureBerries}}",
+"Description": "{{i18n:FC.LureBerries.Desc}}",
+"Type": "Fruit",
+"Category": -79,
+"Price": 62,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 23,
+"Edibility": 8,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"color_red",
+"category_fruits",
+"category_ingredients",
+ "category_{{ModID}}_extractproduct"
+],
+"CustomFields": null
 }
 }
 },
@@ -303,11 +1546,81 @@
 "Seasons": [ "spring","summer" ],
 "DaysInPhase": [ 1,1,1,1,1], 
 "HarvestItemId": "{{ModID}}_BellPods",
-"RegrowDays": "6",
+"RegrowDays": "10",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.3",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 19
+}
+}
+},
+
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_BellPodSeeds":{
+"Name": "{{ModID}}_BellPodSeeds",
+"DisplayName": "{{i18n:FC.BellPodSeeds}}",
+"Description": "{{i18n:FC.BellPodSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 20,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 27,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_BellPods":{
+"Name": "{{ModID}}_BellPods",
+"DisplayName": "{{i18n:FC.BellPods}}",
+"Description": "{{i18n:FC.BellPods.Desc}}",
+"Type": "Vegetable",
+"Category": -75,
+"Price": 50,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 22,
+"Edibility": 10,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"color_red",
+"category_vegetable",
+"category_ingredients",
+ "category_{{ModID}}_extractproduct"
+],
+"CustomFields": null
 }
 }
 },
@@ -318,13 +1631,79 @@
 "Entries": {///Plant these in spring. Takes 15 days to mature and continues producing after that.
 "{{ModID}}_FirePepperSeeds": {
 "Seasons": [ "spring" ],
-"DaysInPhase": [ 5,5,5,1,1], 
+"DaysInPhase": [ 5,2,1,1,1], 
 "HarvestItemId": "{{ModID}}_FirePepper",
-"RegrowDays": "6",
+"RegrowDays": "7",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 20
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_FirePepperSeeds":{
+"Name": "{{ModID}}_FirePepperSeeds",
+"DisplayName": "{{i18n:FC.FirePepperSeeds}}",
+"Description": "{{i18n:FC.FirePepperSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 175,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 31,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_FirePepper":{
+"Name": "{{ModID}}_FirePepper",
+"DisplayName": "{{i18n:FC.FirePepper}}",
+"Description": "{{i18n:FC.FirePepper.Desc}}",
+ "Type": "Vegetable",
+"Category": -75,
+"Price": 350,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 32,
+"Edibility": 4,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"color_orange",
+"category_vegetable",
+],
+"CustomFields": null
 }
 }
 },
@@ -336,11 +1715,78 @@
 "Seasons": [ "fall" ],
 "DaysInPhase": [ 2,2,2,2,7 ], 
 "HarvestItemId": "{{ModID}}_DragaClaw",
-"RegrowDays": "2",
+"RegrowDays": "-1",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 5
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_DragaClawSeeds":{
+"Name": "{{ModID}}_DragaClawSeeds",
+"DisplayName": "{{i18n:FC.DragaClawSeeds}}",
+"Description": "{{i18n:FC.DragaClawSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 160,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 77,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_DragaClaw":{
+"Name": "{{ModID}}_DragaClaw",
+"DisplayName": "{{i18n:FC.DragaClaw}}",
+"Description": "{{i18n:FC.DragaClaw.Desc}}",
+"Type": "Fruit",
+"Category": -79,
+"Price": 50,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 79,
+"Edibility": 20,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_fruits",
+"category_ingredients",
+],
+"CustomFields": null
 }
 }
 },
@@ -354,10 +1800,71 @@
 "HarvestItemId": "{{ModID}}_GiggleFit",
 "RegrowDays": "-1",
 "IsRaised": false,
+"CountForMonoculture": true,
+"CountForPolyculture": true,
 "HarvestMaxIncreasePerFarmingLevel": "0.2",
 "Texture": "Mods/{{ModID}}/Crops",
 "SpriteIndex": 22
 }
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+ "{{ModID}}_GiggleFitSeeds":{
+"Name": "{{ModID}}_GiggleFitSeeds",
+"DisplayName": "{{i18n:FC.GiggleFitSeeds}}",
+"Description": "{{i18n:FC.GiggleFitSeeds.Desc}}",
+"Type": "Seed",
+"Category": -74,
+"Price": 80,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 253,
+"Edibility": -300,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [
+
+],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"category_seeds",
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
+"{{ModID}}_GiggleFit":{
+"Name": "{{ModID}}_GiggleFit",
+"DisplayName": "{{i18n:FC.GiggleFit}}",
+"Description": "{{i18n:FC.GiggleFit.Desc}}",
+"Type": "Vegetable",
+"Category": -75,
+ "Price": 50,
+"Edibility": 10,
+"IsDrink": false,
+ "CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+ "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ContextTags": [
+"color_white",
+],
+"Buff":{
+},
+"Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex":249
+},
 }
 },
 ]

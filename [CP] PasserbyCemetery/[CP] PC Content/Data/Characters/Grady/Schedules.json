@@ -13,7 +13,7 @@
     "{{ModID}}_GradySitEat1": "20/20 20 20 20 20 21 21 21 22 22 22 23 23 23 24 24 24 25 25 25 26 26 26 27 27/27//offset 0 30",
     "{{ModID}}_GradyWork0": "28/28 29 29 30 30 30 31 31 31 30 30 29 29 28 28 28 29 29/28//offset 0 50",
     "{{ModID}}_GradySleep": "35/35/35//offset 30 0",
-     "{{ModID}}_GradySit0": "39/39/39",
+    "{{ModID}}_GradySit0": "39/39/39",
 }
  },
 {
@@ -40,58 +40,21 @@
 "Target": "Characters/schedules/FC.Grady",
 "Entries": {
 "spring": "GOTO Mon",
-"Mon": "700 {{ModID}}_LyellsHouse 4 19 2 {{ModID}}_GradySitDrink2/1200 Beach 26 36 2/1600 Saloon 22 34 2 {{ModID}}_GradySitDrink2.0/2000 {{ModID}}_LyellsHouse 13 19 2 {{ModID}}_GradySitEat1/2200 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
-
-"Tue": "900 {{ModID}}_GradysRoom 4 12 0 {{ModID}}_GradyWork0 \"Strings\\schedules\\FC.Grady:Grady.Work\"/1200 {{ModID}}_OldGraveYard 11 38 1 {{ModID}}_GradySitDrink2/1700 {{ModID}}_OldGraveYard 32 52 3/2200 {{ModID}}_MavericksHouse 7 11 2 {{ModID}}_GradySitDrink2/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
-
-"Wed": "900 {{ModID}}_OldGraveYard 11 38 1 {{ModID}}_GradySitDrink2/1200 {{ModID}}_GradysRoom 4 12 0 {{ModID}}_GradyWork0 \"Strings\\schedules\\FC.Grady:Grady.Work\"/1700 {{ModID}}_OldGraveYard 35 15 1 {{ModID}}_GradySitEat1/2000 {{ModID}}_LyellsHouse 14 17 0/2200 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_GradySitDrink2/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
-
-"Thu": "GOTO Mon",
-
-"Fri": "GOTO Mon",
-
-"Sat": "GOTO Mon",
-
-"Sun": "900 SeedShop 5 19 3/1200 Saloon 22 34 2 {{ModID}}_GradySitDrink2.0/1700 ArchaeologyHouse 48 16 1/2200 JoshHouse 15 22 0/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
+/// Weekday Schedules 
+"Mon": "MAIL {{ModID}}_GradyIntro.Mail/GOTO NO_SCHEDULE/610 {{ModID}}_LyellsHouse 4 19 2 {{ModID}}_GradySitDrink2/900 {{ModID}}_GradysRoom 4 12 0 {{ModID}}_GradyWork0 \"Strings\\schedules\\FC.Grady:Grady.Work\"/1200 {{ModID}}_LyellsHouse 13 19 1 {{ModID}}_GradySitEat1/1600 {{ModID}}_PasserbyCliffs 23 29 1/2000 {{GradyTurnAbout}}/2200 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
+"Tue": "MAIL {{ModID}}_GradyIntro.Mail/GOTO NO_SCHEDULE/700 {{ModID}}_PasserbyCliffs 1 12 2 square_2_0/1200 {{ModID}}_LyellsHouse 13 19 1 {{ModID}}_GradySitEat1/1500 {{ModID}}_OldGraveYard 32 52 3/1800 {{ModID}}_MavericksHouse 7 11 2 {{ModID}}_GradySitDrink2/2000 {{GradyTurnAbout}}/2200 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
+"Wed": "MAIL {{ModID}}_GradyIntro.Mail/GOTO NO_SCHEDULE/610 {{GradyTemple}}/1000 {{ModID}}_PasserbyCliffs 23 29 1/1400 {{ModID}}_LyellsProperty 29 20 1 {{ModID}}_GradySitEat1/2000 {{GradyTurnAbout}}/2200 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
+"Thu": "MAIL {{ModID}}_GradyIntro.Mail/GOTO NO_SCHEDULE/800 {{ModID}}_GradysRoom 4 12 0 {{ModID}}_GradyWork0 \"Strings\\schedules\\FC.Grady:Grady.Work\"/1200 {{ModID}}_LyellsHouse 13 19 1 {{ModID}}_GradySitEat1/1500 {{ModID}}_OldGraveYard 32 52 3/1800 {{ModID}}_MavericksHouse 7 11 2 {{ModID}}_GradySitDrink2/2000 {{GradyTurnAbout}}/2200 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
+"Fri": "MAIL {{ModID}}_GradyIntro.Mail/GOTO NO_SCHEDULE/900 {{ModID}}_GradysRoom 4 12 0 {{ModID}}_GradyWork0 \"Strings\\schedules\\FC.Grady:Grady.Work\"/1300 Town 33 79 2/1600 Forest 84 16 2/2000 {{GradyTurnAbout}}/2200 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
+"Sat": "MAIL {{ModID}}_GradyIntro.Mail/GOTO NO_SCHEDULE/700 {{ModID}}_GradysRoom 4 12 0 {{ModID}}_GradyWork0 \"Strings\\schedules\\FC.Grady:Grady.Work\"/1000 {{ModID}}_LyellsProperty 29 20 1 {{ModID}}_GradySitEat1/1200 {{ModID}}_LyellsHouse 13 19 1 {{ModID}}_GradySitEat1/1400 Forest 84 16 2/1800 {{ModID}}_OldGraveYard 32 52 3/2000 {{GradyTurnAbout}}/2200 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
+"Sun": "MAIL {{ModID}}_GradyIntro.Mail/GOTO NO_SCHEDULE/610 {{ModID}}_LyellsProperty 29 20 1 {{ModID}}_GradySitEat1/800 {{ModID}}_GradysRoom 4 12 0 {{ModID}}_GradyWork0 \"Strings\\schedules\\FC.Grady:Grady.Work\"/1200 {{ModID}}_LyellsProperty 23 41 2/1500 {{ModID}}_PasserbyCliffs 23 29 1/1900 {{ModID}}_OldGraveYard 32 52 3/2000 {{GradyTurnAbout}}/2200 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
 "rain": "GOTO Mon",
-
-"GreenRain": "610 {{ModID}}_LyellsBarn 3 5 1/900 {{ModID}}_LyellsCoop 3 10 2 square_2_2/1000 {{ModID}}_LyellsProperty 35 42 2 square_2_2 \"Strings\\schedules\\FC.Grady:Grady.GreenRain\"/1300 {{ModID}}_GradysRoom 2 14 1 {{ModID}}_GradySitEat1/1500 {{ModID}}_GradysRoom 2 14 1 {{ModID}}_GradySitEat1/2100 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
-"DesertFestival": "900 Desert 47 41 3 \"Strings\\schedules\\FC.Grady:Grady.DesertFestival\"/2000 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_GradySitDrink2/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
-"TroutDerby": "1300 Forest 35 20 1 \"Strings\\schedules\\FC.Grady:Grady.TroutDerby\"/2000 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_GradySitDrink2/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
-"SquidFest": "1000 {{ModID}}_LyellsHouse 4 19 2 {{ModID}}_GradySitDrink2/1400 Beach 50 24 2 \"Strings\\schedules\\FC.Grady:Grady.SquidFest\"/2000 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_GradySitDrink2/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
-"winter_17": "800 {{ModID}}_GradysRoom 2 14 1 {{ModID}}_GradySitEat1/900 {{ModID}}_GradysRoom 4 11 0 {{ModID}}_GradyWork0 \"Strings\\schedules\\FC.Grady:Grady.Work\"/1000 {{ModID}}_LyellsHouse 4 19 2 {{ModID}}_GradySitDrink2/1400 {{ModID}}_OldGraveYard 40 75 1/1600 Beach 4 22 1 \"Strings\\schedules\\FC.Grady:Grady.NightMarket\"/2100 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
+"GreenRain": "MAIL {{ModID}}_GradyIntro.Mail/GOTO NO_SCHEDULE/610 {{ModID}}_LyellsBarn 3 5 1/900 {{ModID}}_LyellsCoop 3 10 2 square_2_2/1000 {{ModID}}_LyellsProperty 35 42 2 square_2_2 \"Strings\\schedules\\FC.Grady:Grady.GreenRain\"/1300 {{ModID}}_GradysRoom 2 14 1 {{ModID}}_GradySitEat1/1500 {{ModID}}_GradysRoom 2 14 1 {{ModID}}_GradySitEat1/2100 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
+"DesertFestival": "MAIL {{ModID}}_GradyIntro.Mail/GOTO NO_SCHEDULE/900 Desert 47 41 3 \"Strings\\schedules\\FC.Grady:Grady.DesertFestival\"/2000 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_GradySitDrink2/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
+"TroutDerby": "MAIL {{ModID}}_GradyIntro.Mail/GOTO NO_SCHEDULE/1300 Forest 35 20 1 \"Strings\\schedules\\FC.Grady:Grady.TroutDerby\"/2000 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_GradySitDrink2/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
+"SquidFest": "MAIL {{ModID}}_GradyIntro.Mail/GOTO NO_SCHEDULE/1000 {{ModID}}_LyellsHouse 4 19 2 {{ModID}}_GradySitDrink2/1400 Beach 50 24 2 \"Strings\\schedules\\FC.Grady:Grady.SquidFest\"/2000 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_GradySitDrink2/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
+"winter_17": "MAIL {{ModID}}_GradyIntro.Mail/GOTO NO_SCHEDULE/800 {{ModID}}_GradysRoom 2 14 1 {{ModID}}_GradySitEat1/900 {{ModID}}_GradysRoom 4 11 0 {{ModID}}_GradyWork0 \"Strings\\schedules\\FC.Grady:Grady.Work\"/1000 {{ModID}}_LyellsHouse 4 19 2 {{ModID}}_GradySitDrink2/1400 {{ModID}}_OldGraveYard 40 75 1/1600 Beach 4 22 1 \"Strings\\schedules\\FC.Grady:Grady.NightMarket\"/2100 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
 },
-      "When": {
-      "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
-             }
-        }, 
-         {
-"Action": "EditData",
-"Target": "Characters/schedules/FC.Grady",
-"Update": "OnTimeChange, OnLocationChange",
-"Entries": {
-
-"Sun": "900 {{ModID}}_TempleRuins 12 21 0 {{ModID}}_GradySit0 \"Strings\\schedules\\FC.Grady:Grady.Temple\"/1200 {{ModID}}_GradysRoom 2 14 1 {{ModID}}_GradySitEat1/1400 SeedShop 12 29 3/1600 ArchaeologyHouse 48 16 3/2000 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_GradySitDrink2/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
-
-     },
-
-     "When": {
-"HasSeenEvent |contains={{ModID}}_TheTemple": "true",
-"HasFlag |contains={{ModID}}_Temple.Mail": "true",
- "HasSeenEvent |contains={{ModID}}_GradyReunitesWithLyell": true,
-}
-},
-   {
-"LogName": "Grady's saloon Schedule",
-"Action": "EditData",
-"Target": "Characters/schedules/FC.Grady",
-"Entries": {
-"Sun": "900 {{ModID}}_GradysRoom 4 12 0 {{ModID}}_GradyWork0 \"Strings\\schedules\\FC.Grady:Grady.Work\"/1200 {{ModID}}_OldGraveYard 11 38 1 {{ModID}}_GradySitDrink2/1700 {{ModID}}_TurnaboutSaloon 13 5 2/2200 JoshHouse 15 22 0/2300 {{ModID}}_GradysRoom 4 4 1 {{ModID}}_GradySleep \"Strings\\schedules\\FC.Grady:Grady.Sleeping\"",
-"rain": "GOTO Sun",
 }, 
-"When": {
-"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
-}
-},
 ]
 }

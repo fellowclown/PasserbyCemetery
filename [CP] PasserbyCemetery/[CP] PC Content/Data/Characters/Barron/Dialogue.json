@@ -13,6 +13,20 @@
 "divorced": "{{i18n:divorced.Barron.{{Random:{{Range: 1, 6}}}}}}",
 "breakUp": "{{i18n:breakUp.Barron}}",
 "AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Barron}}",
+"reject_(O){{ModID}}_WalkMan": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_ElizabethsRing": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostJournal": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostPipe": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_StoneRelic": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostAmulet": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_RettNote": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostKey": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_TheCuff": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_PhoebesPackage": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_BagOfSeaglass": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsNecklace": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsRing": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsWine": "{{i18n:RejectObject.Vanilla}}",
 // RESORT
 "Resort_Entering": "{{i18n:Resort_Entering.Barron}}",
 "Resort_Leaving": "{{i18n:Resort_Leaving.Barron}}",
@@ -90,7 +104,6 @@
 "Fri": "{{i18n:Fri.Barron.LowHeart.{{season}}}}",
 "Sat": "{{i18n:Sat.Barron.LowHeart.{{season}}}}",
 "Sun": "{{i18n:Sun.Barron.LowHeart.{{season}}}}",
-"Saloon":"{{i18n:Saloon.Barron.LowHeart.{{season}}}}",
 },
 "When": {
 "Hearts:FC.Barron": "{{Range: 0, 4}}" 
@@ -109,7 +122,6 @@
 "Fri": "{{i18n:Fri.Barron.MidHeart.{{season}}}}",
 "Sat": "{{i18n:Sat.Barron.MidHeart.{{season}}}}",
 "Sun": "{{i18n:Sun.Barron.MidHeart.{{season}}}}",
-"Saloon":"{{i18n:Saloon.Barron.MidHeart.{{season}}}}",
 },
 "When": {
 "Hearts:FC.Barron": "{{Range: 5, 8}}" 
@@ -128,7 +140,6 @@
 "Fri": "{{i18n:Fri.Barron.Highheart.{{season}}}}",
 "Sat": "{{i18n:Sat.Barron.Highheart.{{season}}}}",
 "Sun": "{{i18n:Sun.Barron.Highheart.{{season}}}}",
-"Saloon":"{{i18n:Saloon.Barron.HighHeart.{{season}}}}",
 },
 "When": {
 "Hearts:FC.Barron": "{{Range: 9, 10}}" 
@@ -147,7 +158,6 @@
 "Fri": "{{i18n:Fri.Barron.Highheart.{{season}}}}",
 "Sat": "{{i18n:Sat.Barron.Highheart.{{season}}}}",
 "Sun": "{{i18n:Sun.Barron.Highheart.{{season}}}}",
-"Saloon":"{{i18n:Saloon.Barron.HighHeart.{{season}}}}",
 },
 "When": {
 "Relationship:FC.Barron": "Dating" 

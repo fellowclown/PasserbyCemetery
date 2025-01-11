@@ -13,7 +13,7 @@
 "Gender":"Male",
 "Age":"Adult",
 "Manner":"Polite",
-"SociJohnxiety":"Shy",
+"SocialAnxiety":"Shy",
 "Optimism":"Positive",
 "BirthSeason":"Fall",
 "BirthDay":17,
@@ -87,7 +87,7 @@
 },	
 ],
 //Spawn Rules
-"UnlockConditions":null,
+"UnlockConditions":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_JohnIntroduction",
 "SpawnIfMissing":true,
 "Home": [
 {

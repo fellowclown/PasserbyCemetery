@@ -13,7 +13,7 @@
 "Gender":"Male",
 "Age":"Adult",
 "Manner":"Polite",
-"SociGradyxiety":"Outgoing",
+"SocialAnxiety":"Outgoing",
 "Optimism":"Positive",
 "BirthSeason":"Fall",
 "BirthDay":23,
@@ -87,22 +87,12 @@
 },
 ],
 //Spawn Rules
-"UnlockConditions":null,
+"UnlockConditions":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_GradyReunitesWithLyell",
 "SpawnIfMissing":true,
 "Home": [
 {
-"Id": "Default",
-"Condition": "!PLAYER_HAS_SEEN_EVENT Current Fellowclown.PC_GradyReunitesWithLyell",
-"Location": "{{ModID}}_GradysRoom",
-"Tile": {
-"X": -3000,
-"Y": -3000
-},
-"Direction": "right"
-},
-{
 "Id": "DefaultChange",
-"Condition":"PLAYER_HAS_SEEN_EVENT Current Fellowclown.PC_GradyReunitesWithLyell",
+"Condition":null,
 "Location": "{{ModID}}_GradysRoom",
 "Tile": {
 "X": 4,

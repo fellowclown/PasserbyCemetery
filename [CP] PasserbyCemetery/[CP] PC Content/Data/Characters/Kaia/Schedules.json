@@ -38,63 +38,26 @@ Default Schedules
 "Target": "Characters/schedules/FC.Kaia",
 "Entries": {
 "spring": "GOTO Mon",
-"Mon": "700 {{ModID}}_OldGraveYard 35 15 1 {{ModID}}_Kaia_SitDrink1/1600 SeedShop 36 21 0 {{ModID}}_Kaia_Sit0/2000 {{ModID}}_LeslaHouse 20 12 1 {{ModID}}_Kaia_SitDrink1/2300 {{ModID}}_LeslaHouse 10 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleeping\"",
+"Mon": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{ModID}}_OldGraveYard 35 15 1 {{ModID}}_Kaia_SitDrink1/1600 SeedShop 36 21 0 {{ModID}}_Kaia_Sit0/2000 {{KaiaTurnAbout}}/2300 {{ModID}}_LeslaHouse 10 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleeping\"",
 
-"Tue": "1200 {{ModID}}_OldGraveYard 16 48 1/1400 {{ModID}}_LeslaHouse 24 12 2 {{ModID}}_Kaia_Sit2/2100 {{ModID}}_LeslaHouse 20 12 1 {{ModID}}_Kaia_SitDrink1/2200 {{ModID}}_LeslaHouse 10 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleeping\"",
+"Tue": "MAIL landslideDone/GOTO NO_SCHEDULE/1200 {{ModID}}_OldGraveYard 16 48 1/1400 {{ModID}}_LeslaHouse 24 12 2 {{ModID}}_Kaia_Sit2/2100 {{KaiaTurnAbout}}/2200 {{ModID}}_LeslaHouse 10 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleeping\"",
 
-"Wed": "900 {{ModID}}_Exhibit 3 11 2 \"Strings\\schedules\\FC.Kaia:Kaia.Job\"/1200 {{ModID}}_OldGraveYard 12 77 1 {{ModID}}_Kaia_SitKick/1700 SamHouse 5 6 1 {{ModID}}_Kaia_TalkWithHands/2300 {{ModID}}_LeslaHouse 10 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleeping\"",
+"Wed": "MAIL landslideDone/GOTO NO_SCHEDULE/900 {{KaiaTemple}}/1200 {{ModID}}_MavericksHouse 7 11 2 {{ModID}}_Kaia_SitKick/1700 {{KaiaTurnAbout}}/2000 {{ModID}}_LeslaHouse 24 14 1/2300 {{ModID}}_LeslaHouse 10 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleeping\"",
 
-"Thu": "GOTO Wed",
+"Thu": "MAIL landslideDone/GOTO NO_SCHEDULE/900 {{ExhibitKaia}}/1200 {{ModID}}_OldGraveYard 12 77 1 {{ModID}}_Kaia_SitKick/1700 SamHouse 5 6 1/2300 {{ModID}}_LeslaHouse 10 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleeping\"",
 
-"Fri": "610 Beach 26 36 3/1200 {{ModID}}_MavericksHouse 7 11 2 {{ModID}}_Kaia_SitKick/1700 {{ModID}}_OldGraveYard 16 46 1 {{ModID}}_Kaia_TalkWithHands/2000 {{ModID}}_LeslaHouse 24 14 1/2300 {{ModID}}_LeslaHouse 10 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleeping\"",
+"Fri": "MAIL landslideDone/GOTO NO_SCHEDULE/610 Beach 26 36 3/1200 {{ModID}}_MavericksHouse 7 11 2 {{ModID}}_Kaia_SitKick/1700 {{KaiaTurnAbout}}/2000 {{ModID}}_LeslaHouse 24 14 1/2300 {{ModID}}_LeslaHouse 10 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleeping\"",
 
-"Sat": "GOTO Wed",
+"Sat": "GOTO Thu",
 
-"Sun": "GOTO Tue",
+"Sun": "GOTO Thu",
 
-"rain": "GOTO Wed",
+"rain": "GOTO Thu",
 
-"GreenRain": "1000 {{ModID}}_LeslaHouse 24 14 1 \"Strings\\schedules\\FC.Kaia:Kaia.GreenRain\"",
-"DesertFestival": "610 Desert 34 63 3 \"Strings\\schedules\\FC.Kaia:Kaia.DesertFestival\"",
-"winter_17": "610 {{ModID}}_LeslaHouse 24 14 1/700 {{ModID}}_LeslaHouse 18 14 1 {{ModID}}_Kaia_SitDrink1/1200 {{ModID}}_OldGraveYard 35 25 2 {{ModID}}_Kaia_Sit2/1300 SeedShop 20 29 1/1600 Beach 3 19 2 \"Strings\\schedules\\FC.Kaia:Kaia.NightMarket\"/2000 {{ModID}}_LeslaHouse 10 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleeping\"",
-},
-    "When": {
- "HasFlag |contains=landslideDone": true,
+"MAIL landslideDone/GOTO NO_SCHEDULE/GreenRain": "1000 {{ModID}}_LeslaHouse 24 14 1 \"Strings\\schedules\\FC.Kaia:Kaia.GreenRain\"",
+"MAIL landslideDone/GOTO NO_SCHEDULE/DesertFestival": "610 Desert 34 63 3 \"Strings\\schedules\\FC.Kaia:Kaia.DesertFestival\"",
+"MAIL landslideDone/GOTO NO_SCHEDULE/winter_17": "610 {{ModID}}_LeslaHouse 24 14 1/700 {{ModID}}_LeslaHouse 18 14 1 {{ModID}}_Kaia_SitDrink1/1200 {{ModID}}_OldGraveYard 35 25 2 {{ModID}}_Kaia_Sit2/1300 SeedShop 20 29 1/1600 Beach 3 19 2 \"Strings\\schedules\\FC.Kaia:Kaia.NightMarket\"/2000 {{ModID}}_LeslaHouse 10 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleeping\"",
 }
 }, 
-  /************************************************
-A New Dream / John
- ************************************************/
-{
-"LogName": "Kaia's Schedule",
-"Action": "EditData",
-"Target": "Characters/schedules/FC.Kaia",
-"Entries": {
-"Sun": "800 {{ModID}}_Temple 10 21 0 {{ModID}}_Kaia_Sit0 \"Strings\\schedules\\FC.Kaia:Kaia.Temple\"/1430 {{ModID}}_Exhibit 3 11 2 \"Strings\\schedules\\FC.Kaia:Kaia.Job\"/2200 {{ModID}}_LeslaHouse 11 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleeping\"",
-
-},
-"When": {
-"HasSeenEvent |contains={{ModID}}_TheTemple": true,
-"HasFlag |contains={{ModID}}_Temple.Mail": true,
-"HasFlag|contains=landslideDone": true,
-"HasSeenEvent |contains={{ModID}}_LeslaIntroduction": true,
-
- }
-  },
-   {
-"LogName": "mave's saloon Schedule",
-"Action": "EditData",
-"Target": "Characters/schedules/FC.Kaia",
-"Entries": {
-"Thu": "GOTO Fri",
-
-"Fri": "610 Beach 26 36 3/1200 {{ModID}}_MavericksHouse 7 11 2 {{ModID}}_Kaia_SitKick/1700 {{ModID}}_TurnaboutSaloon 11 24 1/2000 {{ModID}}_LeslaHouse 24 14 1/2300 {{ModID}}_LeslaHouse 10 11 2 {{ModID}}_Kaia_Sleep \"Strings\\schedules\\FC.Kaia:Kaia.Sleeping\"",
-
-"Sat": "GOTO Fri",
-}, 
-"When": {
-"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
-}
-},
 ]
 }

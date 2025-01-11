@@ -195,8 +195,8 @@
 "UpgradeSignTile": "2, 2",
 "UpgradeSignHeight": 18.0,
 "Size": {
-"X": 4,
-"Y":3
+"X": 2,
+"Y":1
 },
 "FadeWhenBehind": true,
 "SourceRect": {
@@ -209,11 +209,11 @@
 "X": 0,
 "Y": 0
 },
-"DrawOffset": "0, 0",
+"DrawOffset": "-23, 0",
 "SortTileOffset": 0.0,
-"CollisionMap":  "OOOO\nOXXX\nOXXX\nOOXX\n",
+"CollisionMap":  null,
 "AdditionalPlacementTiles": null,
-"BuildingType": "StardewValley.Buildings.AnimalHouse",
+"BuildingType": null,
 "Builder": "Wizard",
 "BuildCondition": null,
 "BuildDays": 0,
@@ -240,9 +240,9 @@
 },
 "AnimalDoor": {
 "X": 1,
-"Y": 2,
-"Width": 2,
-"Height": 2
+"Y": 1,
+"Width": 1,
+"Height": 1
 },
 "AnimalDoorOpenDuration": 0.4,
 "AnimalDoorOpenSound": "doorCreak",
@@ -274,10 +274,10 @@
         "SourceRect": {
           "X": 0,
           "Y": 112,
-          "Width": 16,
+          "Width": 32,
           "Height": 32
         },
-        "DrawPosition": "31, 96",
+        "DrawPosition": "8, 96",
         "DrawInBackground": false,
         "SortTileOffset": 0.02,
         "OnlyDrawIfChestHasContents": null,
@@ -295,10 +295,10 @@
         "SourceRect": {
           "X": 0,
           "Y": 128,
-          "Width": 16,
+          "Width": 32,
           "Height": 32
         },
-        "DrawPosition": "31, 96",
+        "DrawPosition": "8, 96",
         "DrawInBackground": false,
         "SortTileOffset": 1.0,
         "OnlyDrawIfChestHasContents": null,

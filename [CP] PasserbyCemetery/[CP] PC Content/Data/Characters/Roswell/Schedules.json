@@ -36,25 +36,22 @@
 "Entries": {
 "spring": "GOTO Mon",
 
-"Mon": "610 {{ModID}}_LyellsProperty 25 31 2 {{ModID}}_RoswellPeck/700 {{ModID}}_LyellsProperty 23 33 1 {{ModID}}_RoswellChill/730 {{ModID}}_LyellsProperty 31 44 3 {{ModID}}_RoswellSit3/800 {{ModID}}_LyellsProperty 38 44 1/830 {{ModID}}_LyellsProperty 32 11 3 {{ModID}}_RoswellChill/900 {{ModID}}_LyellsProperty 37 9 2/1200 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_RoswellRest/1400 Beach 43 24 1/1800 {{ModID}}_LyellsHouse 10 19 2 {{ModID}}_RoswellChill/2100 {{ModID}}_LyellsCoop 4 6 2 square_2_1_0/2300 {{ModID}}_LyellsCoop 9 4 2 {{ModID}}_RoswellChill",
+"Mon": "MAIL landslideDone/GOTO NO_SCHEDULE/610 {{ModID}}_LyellsProperty 25 31 2 {{ModID}}_RoswellPeck/700 {{ModID}}_LyellsProperty 23 33 1 {{ModID}}_RoswellChill/730 {{ModID}}_LyellsProperty 31 44 3 {{ModID}}_RoswellSit3/800 {{ModID}}_LyellsProperty 38 44 1/830 {{ModID}}_LyellsProperty 32 11 3 {{ModID}}_RoswellChill/900 {{ModID}}_LyellsProperty 37 9 2/1200 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_RoswellRest/1400 Beach 43 24 1/1800 {{ModID}}_LyellsHouse 10 19 2 {{ModID}}_RoswellChill/2100 {{ModID}}_LyellsCoop 4 6 2 square_2_1_0/2300 {{ModID}}_LyellsCoop 9 4 2 {{ModID}}_RoswellChill",
 
-"Tue": "700 Town 26 29 2 {{ModID}}_RoswellPeck/1400 {{ModID}}_OldGraveYard 31 7 2 {{ModID}}_RoswellChill/1600 Mountain 16 62 2 {{ModID}}_RoswellPeck/1800 {{ModID}}_OldGraveYard 29 61 2 {{ModID}}_RoswellChill/2000 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_RoswellRest/2300 {{ModID}}_LyellsCoop 9 4 2 {{ModID}}_RoswellChill",
+"Tue": "MAIL landslideDone/GOTO NO_SCHEDULE/700 Town 26 29 2 {{ModID}}_RoswellPeck/1400 {{ModID}}_OldGraveYard 31 7 2 {{ModID}}_RoswellChill/1600 Mountain 16 62 2 {{ModID}}_RoswellPeck/1800 {{ModID}}_OldGraveYard 29 61 2 {{ModID}}_RoswellChill/2000 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_RoswellRest/2300 {{ModID}}_LyellsCoop 9 4 2 {{ModID}}_RoswellChill",
 
-"Wed": "610 Forest 86 17 2 {{ModID}}_RoswellChill/1400 Forest 67 17 1/1600 Forest 38 11 1/2200 {{ModID}}_LyellsProperty 37 9 2/2300 {{ModID}}_LyellsCoop 9 4 2 {{ModID}}_RoswellChill",
+"Wed": "MAIL landslideDone/GOTO NO_SCHEDULE/610 Forest 86 17 2 {{ModID}}_RoswellChill/1400 Forest 67 17 1/1600 Forest 38 11 1/2200 {{ModID}}_LyellsProperty 37 9 2/2300 {{ModID}}_LyellsCoop 9 4 2 {{ModID}}_RoswellChill",
 
-"Thu": "800 {{ModID}}_OldGraveYard 26 30 3/1400 Town 50 67 1/1600 Town 24 12 2 {{ModID}}_RoswellPeck/2000 {{ModID}}_LyellsHouse 10 19 2 {{ModID}}_RoswellChill/2200 {{ModID}}_LyellsCoop 4 6 2 square_2_1_0/2300 {{ModID}}_LyellsCoop 9 4 2 {{ModID}}_RoswellChill",
+"Thu": "MAIL landslideDone/GOTO NO_SCHEDULE/800 {{ModID}}_OldGraveYard 26 30 3/1400 Town 50 67 1/1600 Town 24 12 2 {{ModID}}_RoswellPeck/2000 {{ModID}}_LyellsHouse 10 19 2 {{ModID}}_RoswellChill/2200 {{ModID}}_LyellsCoop 4 6 2 square_2_1_0/2300 {{ModID}}_LyellsCoop 9 4 2 {{ModID}}_RoswellChill",
 
-"Fri": "1400 Beach 50 24 1/1600 Beach 41 34 2 {{ModID}}_RoswellRest/1800 {{ModID}}_OldGraveYard 37 48 1/2200 {{ModID}}_LyellsCoop 4 6 2 square_2_1_0/2300 {{ModID}}_LyellsCoop 9 4 2 {{ModID}}_RoswellChill",
+"Fri": "MAIL landslideDone/GOTO NO_SCHEDULE/1400 Beach 50 24 1/1600 Beach 41 34 2 {{ModID}}_RoswellRest/1800 {{ModID}}_OldGraveYard 37 48 1/2200 {{ModID}}_LyellsCoop 4 6 2 square_2_1_0/2300 {{ModID}}_LyellsCoop 9 4 2 {{ModID}}_RoswellChill",
 
 "Sat": "GOTO Mon",
 
 "Sun": "GOTO Thu",
 
-"rain": "610 {{ModID}}_LyellsHouse 15 10 2 {{ModID}}_RoswellChill/1200 {{ModID}}_LyellsHouse 10 19 2 {{ModID}}_RoswellRest/1500 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_RoswellRest/1900 {{ModID}}_LyellsHouse 15 10 2 {{ModID}}_RoswellRest \"Strings\\schedules\\FC.Roswell:Roswell.Sleeping\"",
+"rain": "MAIL landslideDone/GOTO NO_SCHEDULE/610 {{ModID}}_LyellsHouse 15 10 2 {{ModID}}_RoswellChill/1200 {{ModID}}_LyellsHouse 10 19 2 {{ModID}}_RoswellRest/1500 {{ModID}}_LyellsHouse 19 16 2 {{ModID}}_RoswellRest/1900 {{ModID}}_LyellsHouse 15 10 2 {{ModID}}_RoswellRest \"Strings\\schedules\\FC.Roswell:Roswell.Sleeping\"",
 },
-      "When": {
-  "HasFlag |contains=landslideDone": true,
-             }
-        }, 
+}, 
 ]
 }

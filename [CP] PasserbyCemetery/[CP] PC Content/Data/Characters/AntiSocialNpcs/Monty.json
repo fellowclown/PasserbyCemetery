@@ -1,0 +1,102 @@
+{
+"Changes": [
+
+{
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModID}}_MontyMove": "16/17 17 17 17 17 18 18 18 18 18 19 19 19 19 20 20 20 20 21 21 21 21 22 23 24 24 24 24 24 24 24 24 24 24 25 26 26 26 26 26 26 26 26 26 27 27 27 27 27 27 27 27 27 28 28 28 28 28 29 29 29 30 30 30 30 30 31 31 31 31 32 32 32 32 32 32 32/16/",
+}
+ },
+ {
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/FC.StoryTeller",
+    "Entries": {
+// Special Keys
+"{{ModID}}_TurnaboutSaloon":"$query !PLAYER_HAS_MAIL Current {{ModID}}_TellerReact Any#$action AddMail Current {{ModID}}_TellerReact received#$b#%{{i18n:Turnabout.StoryTellerMachine.Interact}}#$y '{{i18n:Turnabout.StoryTellerMachine.YesCoin}}_{{i18n:Turnabout.StoryTellerMachine.InsertCoin}}_%{{i18n:Turnabout.StoryTellerMachine.{{Random:00,01,02,03,04,05,06,07,08,09,10,11,12}}}}_{{i18n:Turnabout.StoryTellerMachine.NoCoin}}_%{{i18n:Turnabout.StoryTellerMachine.Reject}}'|%{{i18n:Turnabout.StoryTellerMachine.FollowUp}}",
+}
+},
+
+        {
+"LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.StoryTeller",
+"Entries": {
+"{{season}}": "610 {{ModID}}_TurnaboutSaloon 11 19 2 {{ModID}}_MontyMove/2400 {{ModID}}_TurnaboutSaloon 11 19 2",
+},
+},
+ {
+"LogName": "StoryTeller Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.StoryTeller": {
+///Basic Info
+"DisplayName":"{{i18n:FC.StoryTeller}}",
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"HomeRegion":"Town",
+///Social Features
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":false,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":false,
+"CanVisitIsland": false,
+"LoveInterest":null,
+"Calendar": "HiddenAlways",
+"SocialTab":"HiddenAlways",
+"IntroductionsQuest": false,
+"ItemDeliveryQuests":false,
+"PerfectionScore": false,
+"EndSlideShow":"Hidden",
+"FlowerDanceCanDance":false,
+"WinterStarParticipant":false,
+//Spawn Rules
+"UnlockConditions":null,
+"SpawnIfMissing":true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_TurnaboutSaloon",
+"Tile": {
+"X": 11,
+"Y": 19
+},
+"Direction": "right"
+},
+],
+///Appearance & Sprites
+"TextureName":null,
+"Appearance": [
+{
+"ID": "{{ModID}}.StoryTeller",
+"Portrait": "Portraits/FC.StoryTeller",
+"Sprite": "Characters/FC.StoryTeller",
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+"Precedence": -10,
+},
+],
+"Size": { "X": 32, "Y": 64 },
+"Breather":false,
+///Advanced
+"CustomFields":{
+    "poohnhi.PoohCore/WideCharacter": true,
+"poohnhi.PoohCore/HighCharacter": true,
+"StardewDruid.Reactions.Affinity": "-1",
+},
+"FormerCharacterNames": [],
+}
+}
+},
+]
+}

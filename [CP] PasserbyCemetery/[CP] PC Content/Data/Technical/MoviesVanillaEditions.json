@@ -34,6 +34,39 @@
   }
 }
 }, 
-     
+  {
+    "Action": "EditData",
+    "Target": "Data/MoviesReactions",
+    "Entries": {
+"{{VanillaMovieNpcs}}": { //Substitute with your NPC's internal name.
+    "NPCName": "{{VanillaMovieNpcs}}", //Substitute with your NPC's internal name.
+    "Reactions": [
+ {
+"Tag": "{{ModID}}_BeyondGotoro", //BeyondGotoro
+"Response": "love",
+"Whitelist": [],
+"SpecialResponses": {
+"BeforeMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": null,
+},
+"DuringMovie": {
+"ResponsePoint": null,
+"Script":null,
+"Text": null
+},
+"AfterMovie": {
+"ResponsePoint": null,
+"Script": null,
+"Text": null,
+}
+},
+"ID": "winter0_4",
+    }
+ ]
+  }
+}
+},   
     ]
 }

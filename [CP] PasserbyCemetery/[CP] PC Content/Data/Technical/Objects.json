@@ -18,30 +18,6 @@
 "IsDrink": false,
 "CanBeGivenAsGift": false,
 "CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
 "GeodeDropsDefaultItems": false,
 "GeodeDrops": null,
 "ArtifactSpotChances": null,
@@ -70,32 +46,8 @@
 "SpriteIndex": 57,
 "Edibility": -300,
 "IsDrink": false,
-"CanBeGivenAsGift": false,
+"CanBeGivenAsGift": true,
 "CanBeTrashed": false,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
 "GeodeDropsDefaultItems": false,
 "GeodeDrops": null,
 "ArtifactSpotChances": null,
@@ -103,7 +55,9 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
-"category_furniture",
+"category_decor",
+"arcanian_artifact",
+"color_brown"
 ],
 "CustomFields": null
 }
@@ -124,32 +78,8 @@
 "SpriteIndex": 58,
 "Edibility": -300,
 "IsDrink": false,
-"CanBeGivenAsGift": false,
+"CanBeGivenAsGift": true,
 "CanBeTrashed": false,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
 "GeodeDropsDefaultItems": false,
 "GeodeDrops": null,
 "ArtifactSpotChances": null,
@@ -157,7 +87,9 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
-"category_furniture",
+"category_decor",
+"arcanian_artifact",
+"color_brown"
 ],
 "CustomFields": null
 }
@@ -178,10 +110,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown"
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 218
 },
@@ -202,10 +136,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown"
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 219
 },
@@ -226,10 +162,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+ "category_decor",
+"arcanian_artifact",
+"color_brown"	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 220
 },
@@ -250,10 +188,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown" 	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 221
 },
@@ -274,10 +214,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown" 	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 222
 },
@@ -298,10 +240,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown" 	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 223
 },
@@ -322,10 +266,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown" 	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 224
 },
@@ -347,10 +293,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown" 	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 225
 },
@@ -371,10 +319,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown" 	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 226
 },
@@ -395,10 +345,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown" 	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 227
 },
@@ -419,10 +371,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown" 	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 228
 },
@@ -443,10 +397,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_green" 	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 229
 },
@@ -467,10 +423,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown" 	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 230
 },
@@ -491,10 +449,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown" 	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 231
 },
@@ -515,10 +475,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
- "ExcludeFromShippingCollection": true,
-"Buff":{
-},
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown" 	
+ ],
+"ExcludeFromShippingCollection": true,
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 232
 },
@@ -539,10 +501,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown" 	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 233
 },
@@ -563,10 +527,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown" 	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 234
 },
@@ -587,10 +553,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown" 	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 235
 },
@@ -611,10 +579,12 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ContextTags": [],
+ "ContextTags": [
+"category_decor",
+"arcanian_artifact",
+"color_brown" 	
+ ],
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 236
 },
@@ -636,32 +606,8 @@
 "SpriteIndex": 153,
 "Edibility": -300,
 "IsDrink": false,
-"CanBeGivenAsGift": false,
+"CanBeGivenAsGift": true,
 "CanBeTrashed": false,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
 "GeodeDropsDefaultItems": false,
 "GeodeDrops": null,
 "ArtifactSpotChances": null,
@@ -670,6 +616,9 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_gem",
+"category_decor",
+"arcanian_artifact",
+"color_pink"
 ],
 "CustomFields": null
 }
@@ -690,32 +639,8 @@
 "SpriteIndex": 146,
 "Edibility": -300,
 "IsDrink": false,
-"CanBeGivenAsGift": false,
+"CanBeGivenAsGift": true,
 "CanBeTrashed": false,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
 "GeodeDropsDefaultItems": false,
 "GeodeDrops": null,
 "ArtifactSpotChances": null,
@@ -723,7 +648,7 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
-"category_equipment",
+"quest_item",
 ],
 "CustomFields": null
 }
@@ -746,30 +671,6 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": false,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
 "GeodeDropsDefaultItems": false,
 "GeodeDrops": null,
 "ArtifactSpotChances": null,
@@ -777,7 +678,7 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
-"category_minerals",
+"quest_item",
 ],
 "CustomFields": null
 }
@@ -798,32 +699,8 @@
 "SpriteIndex": 68,
 "Edibility": -300,
 "IsDrink": false,
-"CanBeGivenAsGift": false,
+"CanBeGivenAsGift": true,
 "CanBeTrashed": false,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
 "GeodeDropsDefaultItems": false,
 "GeodeDrops": null,
 "ArtifactSpotChances": null,
@@ -831,7 +708,7 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
-"category_furniture",
+"quest_item",
 ],
 "CustomFields": null
 }
@@ -852,9 +729,8 @@
 "SpriteIndex": 69,
 "Edibility": -300,
 "IsDrink": false,
-"CanBeGivenAsGift": false,
+"CanBeGivenAsGift": true,
 "CanBeTrashed": false,
-"Buffs": [],
 "GeodeDropsDefaultItems": false,
 "GeodeDrops": null,
 "ArtifactSpotChances": null,
@@ -862,7 +738,7 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
-"category_equipment",
+"quest_item",
 ],
 "CustomFields": null
 }
@@ -883,9 +759,8 @@
 "SpriteIndex": 63,
 "Edibility": -300,
 "IsDrink": false,
-"CanBeGivenAsGift": false,
+"CanBeGivenAsGift": true,
 "CanBeTrashed": false,
-"Buffs": [],
 "GeodeDropsDefaultItems": false,
 "GeodeDrops": null,
 "ArtifactSpotChances": null,
@@ -893,7 +768,7 @@
 "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
 "ExcludeFromRandomSale": true,
 "ContextTags": [
-"category_furniture",
+"quest_item",
 ],
 "CustomFields": null
 }
@@ -916,7 +791,6 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
-"Buffs": [],
 "GeodeDropsDefaultItems": false,
 "GeodeDrops": null,
 "ArtifactSpotChances": null,
@@ -925,7 +799,8 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_minerals",
-"arca_coins"
+"arcanian_artifact",
+"arcanian_currency"
 ],
 "CustomFields": null
 }
@@ -946,9 +821,8 @@
 "SpriteIndex": 12,
 "Edibility": -300,
 "IsDrink": false,
-"CanBeGivenAsGift": false,
+"CanBeGivenAsGift": true,
 "CanBeTrashed": false,
-"Buffs": [],
 "GeodeDropsDefaultItems": false,
 "GeodeDrops": null,
 "ArtifactSpotChances": null,
@@ -956,7 +830,7 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
-"category_equipment",
+"quest_item",
 ],
 "CustomFields": null
 }
@@ -977,9 +851,8 @@
 "SpriteIndex": 13,
 "Edibility": -300,
 "IsDrink": false,
-"CanBeGivenAsGift": false,
+"CanBeGivenAsGift": true,
 "CanBeTrashed": false,
-"Buffs": [],
 "GeodeDropsDefaultItems": false,
 "GeodeDrops": null,
 "ArtifactSpotChances": null,
@@ -987,7 +860,7 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
-"category_equipment",
+"quest_item",
 ],
 "CustomFields": null
 }
@@ -1004,17 +877,17 @@
 "Type": "Quest",
 "Category": -24,
  "Price": 0,
- "CanBeGivenAsGift": false,
+ "CanBeGivenAsGift": true,
 "CanBeTrashed": false,
  "ExcludeFromShippingCollection": true,
-"Buff":{
-"CustomAttributes":{
-}
-},
 "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 188
+"SpriteIndex": 188,
+"ContextTags": [
+"quest_item",
+],
+"CustomFields": null
 }
-},
+}
 },
 {
 "Action": "EditData",
@@ -1030,10 +903,6 @@
  "CanBeGivenAsGift": true,
 "CanBeTrashed": false,
 "ExcludeFromShippingCollection": true,
-"Buff":{
-"CustomAttributes":{
-}
-},
 "Texture": "Mods/{{ModID}}/Objects",
 "SpriteIndex": 209
 }
@@ -1053,14 +922,14 @@
  "CanBeGivenAsGift": true,
 "CanBeTrashed": false,
 "ExcludeFromShippingCollection": true,
-"Buff":{
-"CustomAttributes":{
-}
-},
 "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 184
+"SpriteIndex": 184,
+"ContextTags": [
+"quest_item",
+],
+"CustomFields": null
 }
-},
+}
 },
 {
 "Action": "EditData",
@@ -1076,14 +945,14 @@
  "CanBeGivenAsGift": true,
 "CanBeTrashed": false,
 "ExcludeFromShippingCollection": true,
-"Buff":{
-"CustomAttributes":{
-}
-},
 "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 185
+"SpriteIndex": 185,
+"ContextTags": [
+"quest_item",
+],
+"CustomFields": null
 }
-},
+}
 },
 {
 "Action": "EditData",
@@ -1099,12 +968,14 @@
  "CanBeGivenAsGift": true,
 "CanBeTrashed": false,
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 204
-},
-},
+"SpriteIndex": 204,
+"ContextTags": [
+"quest_item",
+],
+"CustomFields": null
+}
+}
 },
 {
 "Action": "EditData",
@@ -1120,12 +991,14 @@
 "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
  "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 189
-},
-},
+"SpriteIndex": 189,
+"ContextTags": [
+"quest_item",
+],
+"CustomFields": null
+}
+}
 },
 {
 "Action": "EditData",
@@ -1138,15 +1011,17 @@
  "Type": "Quest",
 "Category": -24,
  "Price": -300,
- "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+ "ExcludeFromShippingCollection": true,
  "CanBeGivenAsGift": true,
 "CanBeTrashed": false,
-"Buff":{
-},
 "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 202
-},
-},
+"SpriteIndex": 202,
+"ContextTags": [
+"quest_item",
+],
+"CustomFields": null
+}
+}
 },
 {
 "Action": "EditData",
@@ -1161,13 +1036,15 @@
  "Price": 0,
  "CanBeGivenAsGift": true,
 "CanBeTrashed": false,
- "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"Buff":{
-},
+ "ExcludeFromShippingCollection": true,
 "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 203
-},
-},
+"SpriteIndex": 203,
+"ContextTags": [
+"quest_item",
+],
+"CustomFields": null
+}
+}
 },
 {
 "Action": "EditData",
@@ -1183,12 +1060,15 @@
  "CanBeGivenAsGift": true,
 "CanBeTrashed": false,
  "ExcludeFromShippingCollection": true,
-"Buff":{
-},
+
 "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex":205
-},
-},
+"SpriteIndex":205,
+"ContextTags": [
+"quest_item",
+],
+"CustomFields": null
+}
+}
 },
 ///Food Object Data
 {
@@ -1240,6 +1120,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"color_red",
 ],
 "CustomFields": null
 }
@@ -1294,6 +1175,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"color_yellow"
 ],
 "CustomFields": null
 }
@@ -1348,6 +1230,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"color_brown"
 ],
 "CustomFields": null
 }
@@ -1402,6 +1285,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"color_purple"
 ],
 "CustomFields": null
 }
@@ -1456,6 +1340,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_artisan_goods",
+"color_white"
 ],
 "CustomFields": null
 }
@@ -1510,6 +1395,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"color_brown"
 ],
 "CustomFields": null
 }
@@ -1563,6 +1449,7 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+	"color_yellow"
 ],
 "CustomFields": null
 }
@@ -1616,6 +1503,7 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+"color_black"
 ],
 "CustomFields": null
 }
@@ -1670,6 +1558,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"color_red"
 ],
 "CustomFields": null
 }
@@ -1724,6 +1613,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"color_orange"
 ],
 "CustomFields": null
 }
@@ -1778,6 +1668,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"color_white"
 ],
 "CustomFields": null
 }
@@ -1832,6 +1723,8 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"color_brown",
+"arcanian_goods"
 ],
 "CustomFields": null
 }
@@ -1886,6 +1779,8 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"color_orange",
+"gemislands_goods"
 ],
 "CustomFields": null
 }
@@ -1940,7 +1835,8 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
-"color_purple"
+"color_purple",
+"arcanian_goods"
 ],
 "CustomFields": null
 }
@@ -1995,7 +1891,8 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
-"color_blue"
+"color_blue",
+"arcanian_goods"
 ],
 "CustomFields": null
 }
@@ -2050,7 +1947,8 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
-"color_yellow"
+"color_yellow",
+"arcanian_goods"
 ],
 "CustomFields": null
 }
@@ -2105,7 +2003,8 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
-"color_yellow"
+"color_yellow",
+"arcanian_goods"
 ],
 "CustomFields": null
 }
@@ -2160,7 +2059,8 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
-"color_white"
+"color_white",
+"magical_goods"
 ],
 "CustomFields": null
 }
@@ -2215,7 +2115,8 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_artisan_goods",
-"color_blue"
+"color_blue",
+"arcanian_goods"
 ],
 "CustomFields": null
 }
@@ -2270,7 +2171,8 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
-"color_orange"
+"color_orange",
+"magical_goods"
 ],
 "CustomFields": null
 }
@@ -2326,6 +2228,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"gemislands_goods"
 ],
 "CustomFields": null
 }
@@ -2380,6 +2283,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"magical_goods"
 ],
 "CustomFields": null
 }
@@ -2434,6 +2338,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"magical_goods"
 ],
 "CustomFields": null
 }
@@ -2487,6 +2392,8 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+	"arcanian_goods",
+	"romantic_gesture"
 ],
 "CustomFields": null
 }
@@ -2541,6 +2448,8 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_artisan_goods",
+"arcanian_goods",
+"color_white"
 ],
 "CustomFields": null
 }
@@ -2596,6 +2505,7 @@
 "ContextTags": [
 "category_ingredients",
 "category_artisan_goods",
+"extract"
 ],
 "CustomFields": null
 }
@@ -2651,6 +2561,7 @@
 "ContextTags": [
 "category_ingredients",
 "category_artisan_goods",
+"extract"
 ],
 "CustomFields": null
 }
@@ -2706,6 +2617,7 @@
 "ContextTags": [
 "category_artisan_goods",
 "category_ingredients",
+"extract"
 ],
 "CustomFields": null
 }
@@ -2761,6 +2673,7 @@
 "ContextTags": [
 "category_artisan_goods",
 "category_ingredients",
+"extract"
 ],
 "CustomFields": null
 }
@@ -2816,6 +2729,7 @@
 "ContextTags": [
 "category_artisan_goods",
 "category_ingredients",
+"extract"
 ],
 "CustomFields": null
 }
@@ -2871,6 +2785,7 @@
 "ContextTags": [
 "category_artisan_goods",
 "category_ingredients",
+"extract"
 ],
 "CustomFields": null
 }
@@ -2926,6 +2841,7 @@
 "ContextTags": [
 "category_artisan_goods",
 "category_ingredients",
+"extract"
 ],
 "CustomFields": null
 }
@@ -2981,6 +2897,7 @@
 "ContextTags": [
 "category_artisan_goods",
 "category_ingredients",
+"extract"
 ],
 "CustomFields": null
 }
@@ -3036,6 +2953,7 @@
 "ContextTags": [
 "category_artisan_goods",
 "category_ingredients",
+"extract"
 ],
 "CustomFields": null
 }
@@ -3091,6 +3009,7 @@
 "ContextTags": [
 "category_artisan_goods",
 "category_ingredients",
+"extract"
 ],
 "CustomFields": null
 }
@@ -3145,6 +3064,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_artisan_goods",
+"arcanian_goods"
 ],
 "CustomFields": null
 }
@@ -3199,6 +3119,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_artisan_goods",
+"arcanian_goods"
 ],
 "CustomFields": null
 }
@@ -3253,6 +3174,8 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"arcanian_goods",
+"color_orange"
 ],
 "CustomFields": null
 }
@@ -3307,6 +3230,8 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"arcanian_goods",
+"color_yellow"
 ],
 "CustomFields": null
 }
@@ -3360,6 +3285,8 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+	"gemislands_goods",
+	"color_oranger"
 ],
 "CustomFields": null
 }
@@ -3413,6 +3340,8 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+	"gemislands_goods",
+	"color_purpler"
 ],
 "CustomFields": null
 }
@@ -3466,6 +3395,9 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+	"gemislands_goods",
+	"category_cooking",
+	"color_brown"
 ],
 "CustomFields": null
 }
@@ -3519,6 +3451,8 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+	"gemislands_goods",
+	"color_orange"
 ],
 "CustomFields": null
 }
@@ -3572,6 +3506,8 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+	"gemislands_goods",
+	"color_rainbow"
 ],
 "CustomFields": null
 }
@@ -3625,6 +3561,8 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+	"gemislands_goods",
+	"color_brown"
 ],
 "CustomFields": null
 }
@@ -3678,6 +3616,8 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+	"gemislands_goods",
+	"color_yellow"
 ],
 "CustomFields": null
 }
@@ -3731,6 +3671,8 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+	"gemislands_goods",
+	"color_blue"
 ],
 "CustomFields": null
 }
@@ -3784,7 +3726,8 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
-
+"gemislands_goods",
+"color_red"
 ],
 "CustomFields": null
 }
@@ -3838,6 +3781,8 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+	"gemislands_goods",
+	"color_green"
 ],
 "CustomFields": null
 }
@@ -3891,6 +3836,8 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+	"lesla_family_goods",
+	"color_orange"
 ],
 "CustomFields": null
 }
@@ -3997,6 +3944,8 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+		"lesla_family_goods",
+		"color_black"
 ],
 "CustomFields": null
 }
@@ -4103,6 +4052,8 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+"lesla_family_goods",
+"color_red"
 ],
 "CustomFields": null
 }
@@ -4156,6 +4107,8 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+"lesla_family_goods",
+"color_white"
 ],
 "CustomFields": null
 }
@@ -4209,6 +4162,8 @@
 "ExcludeFromShippingCollection": true,
 "ExcludeFromRandomSale": true,
 "ContextTags": [
+"lesla_family_goods",
+"color_yellow"
 ],
 "CustomFields": null
 }
@@ -4233,6 +4188,8 @@
  "CanBeTrashed": true,
 "ContextTags": [
 "Reuutree_RoastedReuuNut",
+"arcanian_goods",
+"color_orange"
 ]
 },
 }
@@ -4286,6 +4243,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+"gemislands_goods"
 ],
 "CustomFields": null
 }
@@ -4340,6 +4298,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "category_cooking",
+
 ],
 "CustomFields": null
 }
@@ -4664,6 +4623,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "color_green",
+"arcanian_goods"
 ],
 "CustomFields": null
 }
@@ -4718,6 +4678,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "color_green",
+"arcanian_goods"
 ],
 "CustomFields": null
 }
@@ -4773,6 +4734,7 @@
 "ContextTags": [
 "color_green",
 "color_brown",
+"arcanian_goods"
 ],
 "CustomFields": null
 }
@@ -4827,6 +4789,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "color_green",
+"arcanian_goods"
 ],
 "CustomFields": null
 }
@@ -4881,6 +4844,7 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "color_brown",
+"arcanian_goods"
 ],
 "CustomFields": null
 }
@@ -4990,7 +4954,8 @@
 "ExcludeFromRandomSale": true,
 "ContextTags": [
 "color_purple",
-"category_cooking"
+"category_cooking",
+"magical_goods"
 ],
 "CustomFields": null
 }
@@ -5011,7 +4976,6 @@
 "IsDrink": false,
  "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
- "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
 "ContextTags": [
 "color_white",
@@ -5386,6 +5350,7 @@
  "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
  "ContextTags": [
 "color_white",
+"animal_drop",
 ],
 "Buff":{
 },
@@ -7306,6 +7271,39 @@
 "Action": "EditData",
 "Target": "Data/Objects",
 "Entries":{
+ "{{ModID}}_SpiritBud":{
+"Name": "{{ModID}}_SpiritBud",
+"DisplayName": "{{i18n:FC.SpiritBud}}",
+"Description": "{{i18n:FC.SpiritBud.Desc}}",
+"Type": "Forage",
+"Category": -81,
+"Price": 5,
+ "Texture": "Mods/{{ModID}}/Objects",
+"SpriteIndex": 254,
+"Edibility": 5,
+"IsDrink": false,
+"CanBeGivenAsGift": true,
+"CanBeTrashed": true,
+"Buffs": [],
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"ExcludeFromRandomSale": true,
+"ContextTags": [
+"color_white",
+"category_flowers",
+
+],
+"CustomFields": null
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Objects",
+"Entries":{
  "{{ModID}}_DragaEye":{
 "Name": "{{ModID}}_DragaEye",
 "DisplayName": "{{i18n:FC.DragaEye}}",
@@ -7473,600 +7471,16 @@
 }
 },
 ///Seed Object Data
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_WarpRootSeeds":{
-"Name": "{{ModID}}_WarpRootSeeds",
-"DisplayName": "{{i18n:FC.WarpRootSeeds}}",
-"Description": "{{i18n:FC.WarpRootSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 35,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 94,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_ZinfazuFruitSeeds":{
-"Name": "{{ModID}}_ZinfazuFruitSeeds",
-"DisplayName": "{{i18n:FC.ZinfazuFruitSeeds}}",
-"Description": "{{i18n:FC.ZinfazuFruitSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 200,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 95,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_DragaTongueSeeds":{
-"Name": "{{ModID}}_DragaTongueSeeds",
-"DisplayName": "{{i18n:FC.DragaTongueSeeds}}",
-"Description": "{{i18n:FC.DragaTongueSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 1000,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 96,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_FairyCapSeeds":{
-"Name": "{{ModID}}_FairyCapSeeds",
-"DisplayName": "{{i18n:FC.FairyCapSeeds}}",
-"Description": "{{i18n:FC.FairyCapSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 1000,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 97,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_GaggleShroomsSeeds":{
-"Name": "{{ModID}}_GaggleShroomsSeeds",
-"DisplayName": "{{i18n:FC.GaggleShroomsSeeds}}",
-"Description": "{{i18n:FC.GaggleShroomsSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 20,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 86,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_PopachiniSeeds":{
-"Name": "{{ModID}}_PopachiniSeeds",
-"DisplayName": "{{i18n:FC.PopachiniSeeds}}",
-"Description": "{{i18n:FC.PopachiniSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 45,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 99,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_AdauulaStalksSeeds":{
-"Name": "{{ModID}}_AdauulaStalksSeeds",
-"DisplayName": "{{i18n:FC.AdauulaStalksSeeds}}",
-"Description": "{{i18n:FC.AdauulaStalksSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 45,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 100,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_DeepCaveFruitSeeds":{
-"Name": "{{ModID}}_DeepCaveFruitSeeds",
-"DisplayName": "{{i18n:FC.DeepCaveFruitSeeds}}",
-"Description": "{{i18n:FC.DeepCaveFruitSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 350,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 132,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_ButtonFruitSeeds":{
-"Name": "{{ModID}}_ButtonFruitSeeds",
-"DisplayName": "{{i18n:FC.ButtonFruitSeeds}}",
-"Description": "{{i18n:FC.ButtonFruitSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 350,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 131,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_YohoFruitSeeds":{
-"Name": "{{ModID}}_YohoFruitSeeds",
-"DisplayName": "{{i18n:FC.YohoFruitSeeds}}",
-"Description": "{{i18n:FC.YohoFruitSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 350,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 133,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_ChocoFruitSeeds":{
-"Name": "{{ModID}}_ChocoFruitSeeds",
-"DisplayName": "{{i18n:FC.ChocoFruitSeeds}}",
-"Description": "{{i18n:FC.ChocoFruitSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 350,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 130,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
+
+
+
+
+
+
+
+
+
+
 {
 "Action": "EditData",
 "Target": "Data/Objects",
@@ -8153,301 +7567,18 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
-"Buffs": [],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_DragaClawSeeds":{
-"Name": "{{ModID}}_DragaClawSeeds",
-"DisplayName": "{{i18n:FC.DragaClawSeeds}}",
-"Description": "{{i18n:FC.DragaClawSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 25,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 77,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_BellPodSeeds":{
-"Name": "{{ModID}}_BellPodSeeds",
-"DisplayName": "{{i18n:FC.BellPodSeeds}}",
-"Description": "{{i18n:FC.BellPodSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 25,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 27,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_LureBerriesSeeds":{
-"Name": "{{ModID}}_LureBerriesSeeds",
-"DisplayName": "{{i18n:FC.LureBerriesSeeds}}",
-"Description": "{{i18n:FC.LureBerriesSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 70,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 28,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_DarkTuffSeeds":{
-"Name": "{{ModID}}_DarkTuffSeeds",
-"DisplayName": "{{i18n:FC.DarkTuffSeeds}}",
-"Description": "{{i18n:FC.DarkTuffSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 140,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 30,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_FirePepperSeeds":{
-"Name": "{{ModID}}_FirePepperSeeds",
-"DisplayName": "{{i18n:FC.FirePepperSeeds}}",
-"Description": "{{i18n:FC.FirePepperSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 350,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 31,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_CaveFlowerSeeds":{
-"Name": "{{ModID}}_CaveFlowerSeeds",
-"DisplayName": "{{i18n:FC.CaveFlowerSeeds}}",
-"Description": "{{i18n:FC.CaveFlowerSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 175,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 29,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-///Crop Object Data
 
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
-"{{ModID}}_GiggleFit":{
-"Name": "{{ModID}}_GiggleFit",
-"DisplayName": "{{i18n:FC.GiggleFit}}",
-"Description": "{{i18n:FC.GiggleFit.Desc}}",
-"Type": "Vegetable",
-"Category": -75,
- "Price": 200,
-"Edibility": 10,
-"IsDrink": false,
- "CanBeGivenAsGift": true,
-"CanBeTrashed": true,
- "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
+"GeodeDropsDefaultItems": false,
+"GeodeDrops": null,
+"ArtifactSpotChances": null,
+"ExcludeFromFishingCollection": true,
+"ExcludeFromShippingCollection": true,
+"ExcludeFromRandomSale": true,
 "ContextTags": [
-"color_white",
+"category_seeds",
 ],
-"Buff":{
-},
-"Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex":249
-},
+"CustomFields": null
+}
 }
 },
 {
@@ -8616,60 +7747,6 @@
 "Action": "EditData",
 "Target": "Data/Objects",
 "Entries":{
- "{{ModID}}_GiggleFitSeeds":{
-"Name": "{{ModID}}_GiggleFitSeeds",
-"DisplayName": "{{i18n:FC.GiggleFitSeeds}}",
-"Description": "{{i18n:FC.GiggleFitSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 20,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 253,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
  "{{ModID}}_VoidFruit":{
 "Name": "{{ModID}}_VoidFruit",
 "DisplayName": "{{i18n:FC.VoidFruit}}",
@@ -8720,563 +7797,14 @@
 }
 }
 },
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_ChocoFruit":{
-"Name": "{{ModID}}_ChocoFruit",
-"DisplayName": "{{i18n:FC.ChocoFruit}}",
-"Description": "{{i18n:FC.ChocoFruit.Desc}}",
-"Type": "Fruit",
-"Category": -79,
-"Price": 350,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 126,
-"Edibility": 5,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_fruits",
-"category_ingredients",
-"category_{{ModID}}_extractproduct"
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_ButtonFruit":{
-"Name": "{{ModID}}_ButtonFruit",
-"DisplayName": "{{i18n:FC.ButtonFruit}}",
-"Description": "{{i18n:FC.ButtonFruit.Desc}}",
-"Type": "Fruit",
-"Category": -79,
-"Price": 350,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 127,
-"Edibility": 6,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_fruits",
-"category_ingredients",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_YohoFruit":{
-"Name": "{{ModID}}_YohoFruit",
-"DisplayName": "{{i18n:FC.YohoFruit}}",
-"Description": "{{i18n:FC.YohoFruit.Desc}}",
-"Type": "Fruit",
-"Category": -79,
-"Price": 350,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 128,
-"Edibility": 6,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_fruits",
-"category_ingredients",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_DeepCaveFruit":{
-"Name": "{{ModID}}_DeepCaveFruit",
-"DisplayName": "{{i18n:FC.DeepCaveFruit}}",
-"Description": "{{i18n:FC.DeepCaveFruit.Desc}}",
-"Type": "Fruit",
-"Category": -79,
-"Price": 350,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 129,
-"Edibility": 3,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_fruits",
-"category_ingredients",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_GaggleShrooms":{
-"Name": "{{ModID}}_GaggleShrooms",
-"DisplayName": "{{i18n:FC.GaggleShrooms}}",
-"Description": "{{i18n:FC.GaggleShrooms.Desc}}",
-"Type": "Vegetable",
-"Category": -75,
-"Price": 60,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 61,
-"Edibility": 2,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_ingredients",
-"category_greens",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_BellPods":{
-"Name": "{{ModID}}_BellPods",
-"DisplayName": "{{i18n:FC.BellPods}}",
-"Description": "{{i18n:FC.BellPods.Desc}}",
-"Type": "Vegetable",
-"Category": -75,
-"Price": 125,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 22,
-"Edibility": 10,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 600,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.1,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 1.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.1,
-"Defense": 0.0,
-"Attack": 0.1
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"color_red",
-"category_vegetable",
-"category_ingredients",
- "category_{{ModID}}_extractproduct"
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_LureBerries":{
-"Name": "{{ModID}}_LureBerries",
-"DisplayName": "{{i18n:FC.LureBerries}}",
-"Description": "{{i18n:FC.LureBerries.Desc}}",
-"Type": "Fruit",
-"Category": -79,
-"Price": 70,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 23,
-"Edibility": 8,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 600,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 1.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.1,
-"Defense": 0.0,
-"Attack": 1.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"color_red",
-"category_fruits",
-"category_ingredients",
- "category_{{ModID}}_extractproduct"
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_DarkTuff":{
-"Name": "{{ModID}}_DarkTuff",
-"DisplayName": "{{i18n:FC.DarkTuff}}",
-"Description": "{{i18n:FC.DarkTuff.Desc}}",
-"Type": "Vegetable",
-"Category": -75,
-"Price": 40,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 25,
-"Edibility": 3,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 600,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 1.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.1,
-"Defense": 0.0,
-"Attack": 1.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"color_purple",
-"category_vegetable",
-"category_ingredients",
- "category_{{ModID}}_extractproduct"
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_FirePepper":{
-"Name": "{{ModID}}_FirePepper",
-"DisplayName": "{{i18n:FC.FirePepper}}",
-"Description": "{{i18n:FC.FirePepper.Desc}}",
- "Type": "Vegetable",
-"Category": -75,
-"Price": 500,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 32,
-"Edibility": 4,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 3.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"color_orange",
-"category_vegetable",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_CaveFlower":{
-"Name": "{{ModID}}_CaveFlower",
-"DisplayName": "{{i18n:FC.CaveFlower}}",
-"Description": "{{i18n:FC.CaveFlower.Desc}}",
-"Type": "Flower",
-"Category": -80,
-"Price": 75,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 33,
-"Edibility": 1,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"color_orange",
-"category_flower",
-],
-"CustomFields": null
-}
-}
-},
+
+
+
+
+
+
+
+
 {
 "Action": "EditData",
 "Target": "Data/Objects",
@@ -9498,16 +8026,16 @@
 "Action": "EditData",
 "Target": "Data/Objects",
 "Entries":{
- "{{ModID}}_AdauulaStalks":{
-"Name": "{{ModID}}_AdauulaStalks",
-"DisplayName": "{{i18n:FC.AdauulaStalks}}",
-"Description": "{{i18n:FC.AdauulaStalks.Desc}}",
-"Type": "Vegetable",
-"Category": -75,
-"Price": 20,
+ "{{ModID}}_AdauulaFlour":{
+"Name": "{{ModID}}_AdauulaFlour",
+"DisplayName": "{{i18n:FC.AdauulaFlour}}",
+"Description": "{{i18n:FC.AdauulaFlour.Desc}}",
+"Type": "Basic",
+"Category": 0,
+"Price": 10,
  "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 70,
-"Edibility": 10,
+"SpriteIndex": 255,
+"Edibility": -300,
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
@@ -9520,18 +8048,7 @@
 "Duration": 0,
 "IsDebuff": false,
 "GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
+"CustomAttributes":{},
 "CustomFields": null
 }
 ],
@@ -9542,68 +8059,16 @@
 "ExcludeFromShippingCollection": "{{ExcludeObjects}}",
 "ExcludeFromRandomSale": true,
 "ContextTags": [
-"category_vegetable",
 "category_ingredients",
+"category_artisan_goods",
+"fc_mill_item"
 ],
 "CustomFields": null
 }
 }
 },
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_ZinfazuFruit":{
-"Name": "{{ModID}}_ZinfazuFruit",
-"DisplayName": "{{i18n:FC.ZinfazuFruit}}",
-"Description": "{{i18n:FC.ZinfazuFruit.Desc}}",
-"Type": "Fruit",
-"Category": -79,
-"Price": 185,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 71,
-"Edibility": 15,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_fruits",
-"category_ingredients",
-],
-"CustomFields": null
-}
-}
-},
+
+
 {
 "Action": "EditData",
 "Target": "Data/Objects",
@@ -9659,717 +8124,6 @@
 }
 }
 },
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_ButterTuff":{
-"Name": "{{ModID}}_ButterTuff",
-"DisplayName": "{{i18n:FC.ButterTuff}}",
-"Description": "{{i18n:FC.ButterTuff.Desc}}",
-"Type": "Vegetable",
-"Category": -75,
-"Price": 40,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 73,
-"Edibility": 3,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_vegetable",
-"category_ingredients",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_ButterTuffSeeds":{
-"Name": "{{ModID}}_ButterTuffSeeds",
-"DisplayName": "{{i18n:FC.ButterTuffSeeds}}",
-"Description": "{{i18n:FC.ButterTuffSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 350,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 74,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_IceBerriesSeeds":{
-"Name": "{{ModID}}_IceBerriesSeeds",
-"DisplayName": "{{i18n:FC.IceBerriesSeeds}}",
-"Description": "{{i18n:FC.IceBerriesSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 350,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 75,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_CucumabaSeeds":{
-"Name": "{{ModID}}_CucumabaSeeds",
-"DisplayName": "{{i18n:FC.CucumabaSeeds}}",
-"Description": "{{i18n:FC.CucumabaSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 350,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 76,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_PaneekiSeeds":{
-"Name": "{{ModID}}_PaneekiSeeds",
-"DisplayName": "{{i18n:FC.PaneekiSeeds}}",
-"Description": "{{i18n:FC.PaneekiSeeds.Desc}}",
-"Type": "Seed",
-"Category": -74,
-"Price": 350,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 98,
-"Edibility": -300,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": true,
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_seeds",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_Cucumaba":{
-"Name": "{{ModID}}_Cucumaba",
-"DisplayName": "{{i18n:FC.Cucumaba}}",
-"Description": "{{i18n:FC.Cucumaba.Desc}}",
-"Type": "Fruit",
-"Category": -79,
-"Price": 50,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 78,
-"Edibility": 12,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_fruits",
-"category_ingredients",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_DragaClaw":{
-"Name": "{{ModID}}_DragaClaw",
-"DisplayName": "{{i18n:FC.DragaClaw}}",
-"Description": "{{i18n:FC.DragaClaw.Desc}}",
-"Type": "Fruit",
-"Category": -79,
-"Price": 420,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 79,
-"Edibility": 20,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_fruits",
-"category_ingredients",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_DragaTongue":{
-"Name": "{{ModID}}_DragaTongue",
-"DisplayName": "{{i18n:FC.DragaTongue}}",
-"Description": "{{i18n:FC.DragaTongue.Desc}}",
-"Type": "Fruit",
-"Category": -79,
-"Price": 55,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 80,
-"Edibility": 20,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_FairyCap":{
-"Name": "{{ModID}}_FairyCap",
-"DisplayName": "{{i18n:FC.FairyCap}}",
-"Description": "{{i18n:FC.FairyCap.Desc}}",
-"Type": "Fruit",
-"Category": -79,
-"Price": 200,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 81,
-"Edibility": 20,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_fruits",
-"category_ingredients",
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_IceBerries":{
-"Name": "{{ModID}}_IceBerries",
-"DisplayName": "{{i18n:FC.IceBerries}}",
-"Description": "{{i18n:FC.IceBerries.Desc}}",
-"Type": "Fruit",
-"Category": -79,
-"Price": 50,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 82,
-"Edibility": 20,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"color_blue"
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_Popachini":{
-"Name": "{{ModID}}_Popachini",
-"DisplayName": "{{i18n:FC.Popachini}}",
-"Description": "{{i18n:FC.Popachini.Desc}}",
-"Type": "Vegetable",
-"Category": -75,
-"Price": 220,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 83,
-"Edibility": 20,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_vegetable",
-"category_ingredients",
-"color_orange"
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_Paneeki":{
-"Name": "{{ModID}}_Paneeki",
-"DisplayName": "{{i18n:FC.Paneeki}}",
-"Description": "{{i18n:FC.Paneeki.Desc}}",
-"Type": "Vegetable",
-"Category": -75,
-"Price": 85,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 84,
-"Edibility": 18,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_vegetable",
-"category_ingredients",
-"color_red"
-],
-"CustomFields": null
-}
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Objects",
-"Entries":{
- "{{ModID}}_WarpRoot":{
-"Name": "{{ModID}}_WarpRoot",
-"DisplayName": "{{i18n:FC.WarpRoot}}",
-"Description": "{{i18n:FC.WarpRoot.Desc}}",
-"Type": "Vegetable",
-"Category": -75,
-"Price": 25,
- "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 85,
-"Edibility": 10,
-"IsDrink": false,
-"CanBeGivenAsGift": true,
-"CanBeTrashed": true,
-"Buffs": [
-{
-"Id": null,
-"BuffId": null,
-"IconTexture": null,
-"IconSpriteIndex": 0,
-"Duration": 0,
-"IsDebuff": false,
-"GlowColor": null,
-"CustomAttributes":{
-"FarmingLevel": 0.0,
-"FishingLevel": 0.0,
-"MiningLevel": 0.0,
-"LuckLevel": 0.0,
-"ForagingLevel": 0.0,
-"MaxStamina": 0.0,
-"MagneticRadius": 0.0,
-"Speed": 0.0,
-"Defense": 0.0,
-"Attack": 0.0
-},
-"CustomFields": null
-}
-],
-"GeodeDropsDefaultItems": false,
-"GeodeDrops": null,
-"ArtifactSpotChances": null,
-"ExcludeFromFishingCollection": true,
-"ExcludeFromShippingCollection": "{{ExcludeObjects}}",
-"ExcludeFromRandomSale": true,
-"ContextTags": [
-"category_vegetable",
-"category_ingredients",
-"color_blue"
-],
-"CustomFields": null
-}
-}
-},
 ///Totem Data
 {
 "Action": "EditData",
@@ -10403,19 +8157,19 @@
  "Name": "{{ModID}}_Sword0",
 "DisplayName": "{{i18n:FC.Sword0}}",
 "Description": "{{i18n:FC.Sword0.Desc}}",
-"MinDamage": 8,
-"MaxDamage": 15,
-"Knockback": 2,
-"Speed": 2,
-"Precision": 2,
-"Defense": 2,
-"Type": 3,
-"MineBaseLevel": -1,
-"MineMinLevel": -1,
-"AreaOfEffect": 0,
-"CritChance": 0.02,
-"CritMultiplier": 3.0,
-"CanBeLostOnDeath": true,
+    "MinDamage": 30,
+    "MaxDamage": 45,
+    "Knockback": 1.5,
+    "Speed": -10,
+    "Precision": 0,
+    "Defense": 0,
+    "Type": 0,
+    "MineBaseLevel": -1,
+    "MineMinLevel": -1,
+    "AreaOfEffect": 2,
+    "CritChance": 0.04,
+    "CritMultiplier": 3.0,
+    "CanBeLostOnDeath": true,
 "Texture": "Mods/{{ModID}}/Weapons",
 "SpriteIndex": 0,
 "Projectiles": null,
@@ -10431,19 +8185,19 @@
  "Name": "{{ModID}}_Sword1",
 "DisplayName": "{{i18n:FC.Sword1}}",
 "Description": "{{i18n:FC.Sword1.Desc}}",
-"MinDamage": 3,
-"MaxDamage": 5,
-"Knockback": 1.0,
-"Speed": 0,
-"Precision": 0,
-"Defense": 0,
-"Type": 3,
-"MineBaseLevel": -1,
-"MineMinLevel": -1,
-"AreaOfEffect": 0,
-"CritChance": 0.02,
-"CritMultiplier": 3.0,
-"CanBeLostOnDeath": true,
+    "MinDamage": 20,
+    "MaxDamage": 30,
+    "Knockback": 0.8,
+    "Speed": 8,
+    "Precision": 5,
+    "Defense": 0,
+    "Type": 0,
+    "MineBaseLevel": 74,
+    "MineMinLevel": 50,
+    "AreaOfEffect": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.0,
+    "CanBeLostOnDeath": true,
 "Texture": "Mods/{{ModID}}/Weapons",
 "SpriteIndex": 1,
 "Projectiles": null,
@@ -10459,19 +8213,19 @@
  "Name": "{{ModID}}_Sword2",
 "DisplayName": "{{i18n:FC.Sword2}}",
 "Description": "{{i18n:FC.Sword2.Desc}}",
-"MinDamage": 8,
-"MaxDamage": 15,
-"Knockback": 1.0,
-"Speed": 2,
-"Precision": 2,
-"Defense": 2,
-"Type": 3,
-"MineBaseLevel": -1,
-"MineMinLevel": -1,
-"AreaOfEffect": 0,
-"CritChance": 0.02,
-"CritMultiplier": 3.0,
-"CanBeLostOnDeath": true,
+    "MinDamage": 20,
+    "MaxDamage": 27,
+    "Knockback": 1.0,
+    "Speed": 8,
+    "Precision": 0,
+    "Defense": 2,
+    "Type": 0,
+    "MineBaseLevel": -1,
+    "MineMinLevel": -1,
+    "AreaOfEffect": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.0,
+    "CanBeLostOnDeath": true,
 "Texture": "Mods/{{ModID}}/Weapons",
 "SpriteIndex": 2,
 "Projectiles": null,
@@ -10487,19 +8241,19 @@
  "Name": "{{ModID}}_Sword3",
 "DisplayName": "{{i18n:FC.Sword3}}",
 "Description": "{{i18n:FC.Sword3.Desc}}",
-"MinDamage": 3,
-"MaxDamage": 5,
-"Knockback": 1.0,
-"Speed": 0,
-"Precision": 0,
-"Defense": 0,
-"Type": 3,
-"MineBaseLevel": -1,
-"MineMinLevel": -1,
-"AreaOfEffect": 0,
-"CritChance": 0.02,
-"CritMultiplier": 3.0,
-"CanBeLostOnDeath": true,
+  "MinDamage": 12,
+    "MaxDamage": 25,
+    "Knockback": 1.2,
+    "Speed": -4,
+    "Precision": 0,
+    "Defense": 1,
+    "Type": 3,
+    "MineBaseLevel": 44,
+    "MineMinLevel": -1,
+    "AreaOfEffect": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.0,
+    "CanBeLostOnDeath": true,
 "Texture": "Mods/{{ModID}}/Weapons",
 "SpriteIndex": 3,
 "Projectiles": null,
@@ -10515,19 +8269,19 @@
  "Name": "{{ModID}}_Sword4",
 "DisplayName": "{{i18n:FC.Sword4}}",
 "Description": "{{i18n:FC.Sword4.Desc}}",
-"MinDamage": 8,
-"MaxDamage": 15,
-"Knockback": 1.0,
-"Speed": 2,
-"Precision":2,
-"Defense": 2,
-"Type": 3,
-"MineBaseLevel": -1,
-"MineMinLevel": -1,
-"AreaOfEffect": 0,
-"CritChance": 0.02,
-"CritMultiplier": 3.0,
-"CanBeLostOnDeath": true,
+   "MinDamage": 22,
+    "MaxDamage": 29,
+    "Knockback": 1.0,
+    "Speed": 0,
+    "Precision": 10,
+    "Defense": 1,
+    "Type": 3,
+    "MineBaseLevel": 90,
+    "MineMinLevel": 50,
+    "AreaOfEffect": 0,
+    "CritChance": 0.0,
+    "CritMultiplier": 3.0,
+    "CanBeLostOnDeath": true,
 "Texture": "Mods/{{ModID}}/Weapons",
 "SpriteIndex": 4,
 "Projectiles": null,
@@ -10544,19 +8298,19 @@
  "Name": "{{ModID}}_Sword5",
 "DisplayName": "{{i18n:FC.Sword5}}",
 "Description": "{{i18n:FC.Sword5.Desc}}",
-"MinDamage": 8,
-"MaxDamage": 15,
-"Knockback": 3,
-"Speed": 4,
-"Precision":5,
-"Defense": 0,
-"Type": 3,
-"MineBaseLevel": -1,
-"MineMinLevel": -1,
-"AreaOfEffect": 0,
-"CritChance": 0.02,
-"CritMultiplier": 3.0,
-"CanBeLostOnDeath": true,
+ "MinDamage": 3,
+    "MaxDamage": 5,
+    "Knockback": 0.5,
+    "Speed": 0,
+    "Precision": 5,
+    "Defense": 0,
+    "Type": 1,
+    "MineBaseLevel": -1,
+    "MineMinLevel": -1,
+    "AreaOfEffect": 0,
+    "CritChance": 0.04,
+    "CritMultiplier": 3.0,
+    "CanBeLostOnDeath": true,
 "Texture": "Mods/{{ModID}}/Weapons",
 "SpriteIndex": 5,
 "Projectiles": null,
@@ -10758,7 +8512,7 @@
     "ExcludeFromShippingCollection": false,
     "ExcludeFromRandomSale": false,
     "ContextTags": [
-      "colorblack",
+      "color_black",
       "ring_item"
     ],
     "CustomFields": null
@@ -11292,7 +9046,7 @@
 "IsDrink": false,
 "CanBeGivenAsGift": true,
 "CanBeTrashed": true,
-"Buffs": [],
+
 "GeodeDropsDefaultItems": false,
 "GeodeDrops": null,
 "ArtifactSpotChances": null,

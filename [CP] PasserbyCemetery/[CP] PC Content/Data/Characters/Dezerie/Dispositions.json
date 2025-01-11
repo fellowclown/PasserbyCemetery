@@ -16,7 +16,7 @@ Dispositions
 "Gender":"Female",
 "Age":"Adult",
 "Manner":"Rude",
-"SociDezeriexiety":"Outgoing",
+"SocialAnxiety":"Outgoing",
 "Optimism":"Negative",
 "BirthSeason":"Winter",
 "BirthDay":9,
@@ -69,22 +69,12 @@ Dispositions
 "WinterStarParticipant":false,
 "WinterStarGifts": [],
 //Spawn Rules
-"UnlockConditions":null,
+"UnlockConditions":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_StoneIntroduction",
 "SpawnIfMissing":true,
 "Home": [
-  {
-"Id": "Default",
-"Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_StoneIntroduction",
-"Location": "{{ModID}}_StoneHouse",
-"Tile": {
-"X": -3000,
-"Y":-3000
-},
-"Direction": "right"
-},
 {
-"Id": "PlacementEvent",
-"Condition":  "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_StoneIntroduction",
+"Id": "default",
+"Condition":  null,
 "Location": "{{ModID}}_StoneHouse",
 "Tile": {
 "X": 19,

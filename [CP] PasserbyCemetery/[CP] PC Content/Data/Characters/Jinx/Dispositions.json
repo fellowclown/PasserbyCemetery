@@ -65,7 +65,7 @@
 "WinterStarParticipant":false,
 "WinterStarGifts": [],
 //Spawn Rules
-"UnlockConditions":null,
+"UnlockConditions":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_BarronIntroduction",
 "SpawnIfMissing":true,
 "Home": [
 {

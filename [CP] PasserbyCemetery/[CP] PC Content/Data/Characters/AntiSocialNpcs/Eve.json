@@ -1,0 +1,30 @@
+{
+    "Changes": [
+{
+"Action": "EditData",
+"Target": "strings/StringsFromCSFiles",
+"Entries": {
+"Turnabout.Eve":"{{i18n:TurnaboutSaloon.Eve.{{Random:01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20}}}}",
+}
+},
+{
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "FC.Eve": {
+                    "DisplayName": "{{i18n:FC.Eve}}",
+                    "CanSocialize": false,
+                    "EndSlideShow": "Hidden",
+                    "Shadow": {"Visible": false},
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "{{ModID}}_TurnaboutSaloon",
+                            "Tile": {"X": 6, "Y": 28},
+                        }
+                    ],    
+                },
+            },
+        },
+]
+}

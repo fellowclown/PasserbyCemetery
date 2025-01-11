@@ -27,6 +27,8 @@
 "{{ModID}}_BarronsBook": "ItemDelivery/{{i18n:Quest.BarronsBook.Title}}/{{i18n:Quest.BarronsBook.Description}}/{{i18n:Quest.BarronsBook.Objective}}/FC.Barron {{ModID}}_BarronsBook 1/-1/1000/-1/true/{{i18n:Quest.BarronsBook.Reaction}}",
 "{{ModID}}_TheCuff": "ItemDelivery/{{i18n:Quest.TheCuff.Title}}/{{i18n:Quest.TheCuff.Description}}/{{i18n:Quest.TheCuff.Objective}}/FC.Phoebe {{ModID}}_TheCuff 1/-1/1000/-1/true/{{i18n:Quest.TheCuff.Reaction}}",
 "{{ModID}}_PhoebesPackage": "LostItem/{{i18n:Quest.PhoebesPackage.Title}}/{{i18n:Quest.PhoebesPackage.Description}}/{{i18n:Quest.PhoebesPackage.Objective}}/FC.Phoebe {{ModID}}_PhoebesPackage ManorHouse 2 6/-1/500/-1/true/{{i18n:Quest.PhoebesPackage.Reaction}}",
+"{{ModID}}_FindLyell.Quest": "LostItem/{{i18n:FC.FindLyell.Quest.Title}}/{{i18n:FC.FindLyell.Quest.Desc}}/{{i18n:FC.FindLyell.Quest.Obj}}/FC.Grady -1 Forest -1 -1/-1/0/-1/true/{{i18n:FC.FindLyell.Quest.Reaction}}",
+
 }
 },
 ]

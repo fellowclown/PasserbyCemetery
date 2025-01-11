@@ -1,12 +1,60 @@
 {
     "Changes": [
-/************************************************
-   MEEP
- ************************************************/
- 
  /************************************************
 Trailer Floor One
  ************************************************/
+  {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_TravelingTrailer",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 7,
+                        "Y": 17
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Book_Cover_ClownArchives",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:FC.ClownArchives.Cover}}",
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:FC.ClownArchives.01}}",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:FC.ClownArchives.02}}",
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:FC.ClownArchives.03}}",
+                        "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:FC.ClownArchives.04}}",
+                        "MEEP_CloseupInteraction_Image_6": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:FC.ClownArchives.05}}",
+                        "MEEP_CloseupInteraction_Image_7": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:FC.ClownArchives.06}}",
+                        "MEEP_CloseupInteraction_Image_8": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_8": "{{i18n:FC.ClownArchives.07}}",
+                             "MEEP_CloseupInteraction_Image_9": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_9": "{{i18n:FC.ClownArchives.08}}",
+                             "MEEP_CloseupInteraction_Image_10": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_10": "{{i18n:FC.ClownArchives.09}}",
+                             "MEEP_CloseupInteraction_Image_11": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_11": "{{i18n:FC.ClownArchives.10}}",
+                             "MEEP_CloseupInteraction_Image_12": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_12": "{{i18n:FC.ClownArchives.11}}",
+                             "MEEP_CloseupInteraction_Image_13": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_13": "{{i18n:FC.ClownArchives.12}}",
+                             "MEEP_CloseupInteraction_Image_14": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_14": "{{i18n:FC.ClownArchives.13}}",
+                             "MEEP_CloseupInteraction_Image_15": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_15": "{{i18n:FC.ClownArchives.14}}",
+                             "MEEP_CloseupInteraction_Image_16": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_16": "{{i18n:FC.ClownArchives.15}}",
+                             "MEEP_CloseupInteraction_Image_17": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_17": "{{i18n:FC.ClownArchives.16}}",
+                             "MEEP_CloseupInteraction_Image_18": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_18": "{{i18n:FC.ClownArchives.17}}",
+                    }
+                }
+            ]
+        },
  {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_TravelingTrailerDecker",

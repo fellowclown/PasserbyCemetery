@@ -13,7 +13,7 @@
 "Gender":"Female",
 "Age":"Adult",
 "Manner":"Rude",
-"SociShaavarxiety":"Shy",
+"SocialAnxiety":"Shy",
 "Optimism":"Positive",
 "BirthSeason":"Fall",
 "BirthDay":2,
@@ -64,9 +64,30 @@
 ///Festivals
 "FlowerDanceCanDance":false,
 "WinterStarParticipant":true,
-"WinterStarGifts": [],
+"WinterStarGifts": [
+       {
+"Condition": null,
+"Id": "{{ModID}}_WinterStarGifts",
+"ItemId": "RANDOM_ITEMS (O)",
+"RandomItemId": null,
+"MaxItems": null,
+"MinStack": -1,
+"MaxStack": -1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+"ModData": null,
+"PerItemCondition": null
+},
+],
 //Spawn Rules
-"UnlockConditions":null,
+"UnlockConditions":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_ShaavarIntroduction",
 "SpawnIfMissing":true,
 "Home": [
    {

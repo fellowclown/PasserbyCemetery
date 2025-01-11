@@ -1,0 +1,102 @@
+{
+"Changes": [
+{
+"Action": "EditData",
+"Target": "Data/PaintData",
+"Entries": {
+"{{ModID}}_Library": "Building/-50 -10/Roof/-25 0/Trim/-25 -8",
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/Buildings",
+"Entries": {
+"{{ModId}}_Library": {
+"Name": "{{i18n:FC.Library}}",
+"Description": "{{i18n:FC.Library.Desc}}",
+"Texture": "Buildings\\FC.Library",
+"Skins": [],
+"DrawShadow": false,
+"UpgradeSignTile": "4.5, 2",
+"UpgradeSignHeight": 31.0,
+"Size": {
+"X": 6,
+"Y": 4
+},
+"FadeWhenBehind": true,
+"SourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 112,
+"Height": 112
+},
+"SeasonOffset": {
+"X": 0,
+"Y": 0
+},
+"DrawOffset": "0, 0",
+"SortTileOffset": 0.0,
+"CollisionMap": null,
+"AdditionalPlacementTiles": null,
+"BuildingType": null,
+"Builder": "Robin",
+"BuildCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_LibraryUnlock",
+"BuildDays": 3,
+"BuildCost": 10000,
+"BuildMaterials": [
+{
+"ItemId": "(O)Fellowclown.PC_MeekWood",
+"Amount": 250
+},
+{
+"ItemId": "(O)Fellowclown.PC_HeaviousWood",
+"Amount": 210
+},
+],
+"BuildingToUpgrade": null,
+"MagicalConstruction": false,
+"BuildMenuDrawOffset": {
+"X": 0,
+"Y": 0
+},
+"HumanDoor": {
+"X": 1,
+"Y": 3
+},
+"AnimalDoor": {
+"X": -1,
+"Y": -1,
+"Width": -1,
+"Height": -1
+},
+"AnimalDoorOpenDuration": 0.4,
+"AnimalDoorOpenSound": "doorCreak",
+"AnimalDoorCloseDuration": 0.6,
+"AnimalDoorCloseSound": "doorCreakReverse",
+"NonInstancedIndoorLocation": null,
+"IndoorMap": "{{ModID}}_Library",
+"IndoorMapType": null,
+"MaxOccupants": -1,
+"ValidOccupantTypes": [
+],
+"AllowAnimalPregnancy": false,
+"IndoorItems": [
+],
+"AddMailOnBuild": null,
+"Metadata": {},
+"ModData": {},
+"HayCapacity": -1,
+"Chests": null,
+"DefaultAction": null,
+"AdditionalTilePropertyRadius": 0,
+"ActionTiles": [],
+"TileProperties": [],
+"ItemConversions": null,
+"DrawLayers": [
+],
+"CustomFields": {}
+},
+}
+},
+]
+}

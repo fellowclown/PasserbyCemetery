@@ -1,6 +1,31 @@
 {
   "Changes": [
-  {
+    {
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "TargetField": [
+        "Mill",
+        "ItemConversions"
+      ],
+      "Entries": {
+        "{{ModID}}_AdauulaFlour": {
+          "Id": "{{ModID}}_AdauulaFlour",
+          "SourceChest": "Input",
+          "DestinationChest": "Output",
+          "RequiredTags": [
+         "fc_mill_item"
+          ],
+          "ProducedItems": [
+            {
+              "ItemId": "(O){{ModID}}_AdauulaFlour",
+              "MinStack": 2
+            },
+          ],
+          "MaxDailyConversions": -1
+        }
+      }
+    },
+ {
       "LogName": "WhiteTruffleOil",
       "Action": "EditData",
       "Target": "Data/Machines",
@@ -838,201 +863,7 @@
         }
       ]
     },
-     /*/////////////////////////Actual Custom Machines*/
     {
-      "Action": "EditData",
-      "Target": "Data/BigCraftables",
-      "Entries": {
-        "{{ModID}}_ExtractorMachine": {
-          "Name": "{{ModID}}_ExtractorMachine",
-          "DisplayName": "{{i18n:FC.ExtractorMachine}}",
-          "Description": "{{i18n:FC.ExtractorMachine.Desc}}",
-          "Texture": "Mods/{{ModID}}/Machines",
-          "SpriteIndex": 0
-        }
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/Machines",
-      "Entries": {
-        "(BC){{ModID}}_ExtractorMachine": {
-          "OutputRules": [
-              {
-              "Id": "{{ModID}}_StoneShroomExtract",
-              "Triggers": [
-                {
-                  "Trigger": "ItemPlacedInMachine",
-                  "RequiredItemId": "{{ModID}}_StoneShroom",
-                     "RequiredCount": 4,
-                }
-              ],
-              "OutputItem": [
-                {
-                  "ItemId": "{{ModID}}_StoneShroomExtract"
-                }
-              ],
-              "MinutesUntilReady": 6000
-            },
-             {
-              "Id": "{{ModID}}_FireSnapperExtract",
-              "Triggers": [
-                {
-                  "Trigger": "ItemPlacedInMachine",
-                  "RequiredItemId": "{{ModID}}_FireSnapper",
-                     "RequiredCount": 4,
-                }
-              ],
-              "OutputItem": [
-                {
-                  "ItemId": "{{ModID}}_FireSnapperExtract"
-                }
-              ],
-              "MinutesUntilReady": 6000
-            },
-             {
-              "Id": "{{ModID}}_HeavyRootExtract",
-              "Triggers": [
-                {
-                  "Trigger": "ItemPlacedInMachine",
-                  "RequiredItemId": "{{ModID}}_HeavyRoot",
-                     "RequiredCount": 4,
-                }
-              ],
-              "OutputItem": [
-                {
-                  "ItemId": "{{ModID}}_HeavyRootExtract"
-                }
-              ],
-              "MinutesUntilReady": 6000
-            },
-               {
-              "Id": "{{ModID}}_DragaTailExtract",
-              "Triggers": [
-                {
-                  "Trigger": "ItemPlacedInMachine",
-                  "RequiredItemId": "{{ModID}}_DragaTail",
-                     "RequiredCount": 4,
-                }
-              ],
-              "OutputItem": [
-                {
-                  "ItemId": "{{ModID}}_DragaTailExtract"
-                }
-              ],
-              "MinutesUntilReady": 6000
-            },
-                  {
-              "Id": "{{ModID}}_FairyFingersExtract",
-              "Triggers": [
-                {
-                  "Trigger": "ItemPlacedInMachine",
-                  "RequiredItemId": "{{ModID}}_FairyFingers",
-                     "RequiredCount": 4,
-                }
-              ],
-              "OutputItem": [
-                {
-                  "ItemId": "{{ModID}}_FairyFingersExtract"
-                }
-              ],
-              "MinutesUntilReady": 6000
-            },
-                      {
-              "Id": "{{ModID}}_DragaEyeExtract",
-              "Triggers": [
-                {
-                  "Trigger": "ItemPlacedInMachine",
-                  "RequiredItemId": "{{ModID}}_DragaEye",
-                     "RequiredCount": 4,
-                }
-              ],
-              "OutputItem": [
-                {
-                  "ItemId": "{{ModID}}_DragaEyeExtract"
-                }
-              ],
-              "MinutesUntilReady": 6000
-            },
-                        {
-              "Id": "{{ModID}}_BellPodsExtract",
-              "Triggers": [
-                {
-                  "Trigger": "ItemPlacedInMachine",
-                  "RequiredItemId": "{{ModID}}_BellPods",
-                     "RequiredCount": 4,
-                }
-              ],
-              "OutputItem": [
-                {
-                  "ItemId": "{{ModID}}_BellPodsExtract"
-                }
-              ],
-              "MinutesUntilReady": 6000
-            },
-                           {
-              "Id": "{{ModID}}_LureBerriesExtract",
-              "Triggers": [
-                {
-                  "Trigger": "ItemPlacedInMachine",
-                  "RequiredItemId": "{{ModID}}_LureBerries",
-                     "RequiredCount": 4,
-                }
-              ],
-              "OutputItem": [
-                {
-                  "ItemId": "{{ModID}}_LureBerriesExtract"
-                }
-              ],
-              "MinutesUntilReady": 6000
-            },
-                              {
-              "Id": "{{ModID}}_DarkTuffExtract",
-              "Triggers": [
-                {
-                  "Trigger": "ItemPlacedInMachine",
-                  "RequiredItemId": "{{ModID}}_DarkTuff",
-                     "RequiredCount": 4,
-                }
-              ],
-              "OutputItem": [
-                {
-                  "ItemId": "{{ModID}}_DarkTuffExtract"
-                }
-              ],
-              "MinutesUntilReady": 6000
-            },
-                                {
-              "Id": "{{ModID}}_ChocoFruitExtract",
-              "Triggers": [
-                {
-                  "Trigger": "ItemPlacedInMachine",
-                  "RequiredItemId": "{{ModID}}_ChocoFruit",
-                     "RequiredCount": 4,
-                }
-              ],
-              "OutputItem": [
-                {
-                  "ItemId": "{{ModID}}_ChocoFruitExtract"
-                }
-              ],
-              "MinutesUntilReady": 6000
-            },
-          ],
-          "LoadEffects": [
-            {
-              "Sounds": [
-                {
-                  "Id": "Ship"
-                }
-              ]
-            }
-          ],
-          "WobbleWhileWorking": true
-        }
-      }
-    },
-   {
       "LogName": "Roast Reuu Nut",
       "Action": "EditData",
       "Target": "Data/Machines",
@@ -1065,6 +896,222 @@
           "BeforeId": "Default_CopperOre"
         }
       ]
+    },
+     /*/////////////////////////Actual Custom Machines*/
+    {
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "{{ModID}}_ExtractorMachine": {
+          "Name": "{{ModID}}_ExtractorMachine",
+          "DisplayName": "{{i18n:FC.ExtractorMachine}}",
+          "Description": "{{i18n:FC.ExtractorMachine.Desc}}",
+          "Texture": "Mods/{{ModID}}/Machines",
+          "SpriteIndex": 0
+        }
+      }
+    },
+  
+     /*/////////////////////////Actual Custom Machines*/
+    {
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "{{ModID}}_ExtractorMachine": {
+          "Name": "{{ModID}}_ExtractorMachine",
+          "DisplayName": "{{i18n:FC.ExtractorMachine}}",
+          "Description": "{{i18n:FC.ExtractorMachine.Desc}}",
+          "Texture": "Mods/{{ModID}}/Machines",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC){{ModID}}_ExtractorMachine": {
+    "HasInput": false,
+    "HasOutput": false,
+    "InteractMethod": null,
+          "OutputRules": [
+              {
+              "Id": "{{ModID}}_StoneShroomExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModID}}_StoneShroom",
+                     "RequiredCount": 1,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "(O){{ModID}}_StoneShroomExtract"
+                }
+              ],
+              "MinutesUntilReady": 600
+            },
+             {
+              "Id": "{{ModID}}_FireSnapperExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModID}}_FireSnapper",
+                     "RequiredCount": 1,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "{{ModID}}_FireSnapperExtract"
+                }
+              ],
+              "MinutesUntilReady": 600
+            },
+             {
+              "Id": "{{ModID}}_HeavyRootExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModID}}_HeavyRoot",
+                     "RequiredCount": 1,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "(O){{ModID}}_HeavyRootExtract"
+                }
+              ],
+              "MinutesUntilReady": 600
+            },
+               {
+              "Id": "{{ModID}}_DragaTailExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModID}}_DragaTail",
+                     "RequiredCount": 1,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "(O){{ModID}}_DragaTailExtract"
+                }
+              ],
+              "MinutesUntilReady": 600
+            },
+                  {
+              "Id": "{{ModID}}_FairyFingersExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModID}}_FairyFingers",
+                     "RequiredCount": 1,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "(O){{ModID}}_FairyFingersExtract"
+                }
+              ],
+              "MinutesUntilReady": 600
+            },
+                      {
+              "Id": "{{ModID}}_DragaEyeExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModID}}_DragaEye",
+                     "RequiredCount": 1,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "(O){{ModID}}_DragaEyeExtract"
+                }
+              ],
+              "MinutesUntilReady": 600
+            },
+                        {
+              "Id": "{{ModID}}_BellPodsExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModID}}_BellPods",
+                     "RequiredCount": 1,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "(O){{ModID}}_BellPodsExtract"
+                }
+              ],
+              "MinutesUntilReady": 600
+            },
+                           {
+              "Id": "{{ModID}}_LureBerriesExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModID}}_LureBerries",
+                     "RequiredCount": 1,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "(O){{ModID}}_LureBerriesExtract"
+                }
+              ],
+              "MinutesUntilReady": 600
+            },
+                              {
+              "Id": "{{ModID}}_DarkTuffExtract",
+              "Triggers": [
+                {
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModID}}_DarkTuff",
+                     "RequiredCount": 1,
+                }
+              ],
+              "OutputItem": [
+                {
+                  "ItemId": "(O){{ModID}}_DarkTuffExtract"
+                }
+              ],
+              "MinutesUntilReady": 600
+            },
+                                {
+              "Id": "{{ModID}}_ChocoFruitExtract",
+              "Triggers": [
+                {
+                 "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModID}}_ChocoFruit",
+                  "RequiredCount": 1,
+                }
+              ],
+              "OutputItem": [
+                {
+            "ItemId": "{{ModID}}_ChocoFruitExtract",
+                }
+              ],
+              "MinutesUntilReady": 600
+            },
+          ],
+          "LoadEffects": [
+            {
+              "Sounds": [
+                {
+                  "Id": "bubbles"
+                },
+                 {
+                  "Id": "fireball"
+                }
+              ]
+            }
+          ],
+          "WobbleWhileWorking": true
+        }
+      }
     },
   ]
 }

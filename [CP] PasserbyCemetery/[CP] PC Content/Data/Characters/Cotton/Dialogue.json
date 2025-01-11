@@ -9,6 +9,21 @@ NoneChangingDialogue
 "Entries":{
 "Introduction": "{{i18n:Introduction.Cotton}}",
 "AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Cotton}}",
+"reject_(O){{ModID}}_WalkMan": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_ElizabethsRing": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostJournal": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostPipe": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_StoneRelic": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostAmulet": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_RettNote": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostKey": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_BarronsBook": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_TheCuff": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_PhoebesPackage": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_BagOfSeaglass": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsNecklace": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsRing": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsWine": "{{i18n:RejectObject.Vanilla}}",
 "divorced":"{{i18n:divorced.Cotton.{{Random:{{Range:1,6}}}}}}",
 "breakUp":"{{i18n:breakUp.Cotton}}",
 "AcceptBirthdayGift_Loved":"{{i18n:AcceptBirthdayGift_Loved.Cotton}}",
@@ -48,20 +63,21 @@ NoneChangingDialogue
 "GreenRain": "{{i18n:GreenRain.Cotton}}",
 "GreenRain_2": "{{i18n:GreenRain_2.Cotton}}",
 //Vanilla
-"cc_Complete": "{{i18n:CT.cc_Complete.Cotton}}",
-"cc_Boulder": "{{i18n:CT.cc_Boulder.Cotton}}",
-"cc_Bridge": "{{i18n:CT.cc_Bridge.Cotton}}",
-"cc_Bus": "{{i18n:CT.cc_Bus.Cotton}}",
-"cc_Greenhouse": "{{i18n:CT.cc_Greenhouse.Cotton}}",
-"cc_Minecart": "{{i18n:CT.cc_Minecart.Cotton}}",
-"joja_Begin": "{{i18n:CT.joja_Begin.Cotton}}",
-"movieTheater": "{{i18n:CT.movieTheater.Cotton}}",
-"dumped_Guys": "{{i18n:CT.dumped_Guys.Cotton}}",
-"secondChance_Guys": "{{i18n:CT.secondChance_Guys.Cotton}}",
-"dumped_Girls": "{{i18n:CT.dumped_Girls.Cotton}}",
-"secondChance_Girls": "{{i18n:CT.secondChance_Girls.Cotton}}",
-"pamHouseUpgrade": "{{i18n:CT.pamHouseUpgrade.Cotton}}",
-"pamHouseUpgradeAnonymous": "{{i18n:CT.pamHouseUpgradeAnonymous.Cotton}}",
+"cc_Complete": "{{i18n:CT.cc_Complete.FC.Cotton}}",
+"cc_Boulder": "{{i18n:CT.cc_Boulder.FC.Cotton}}",
+"cc_Bridge": "{{i18n:CT.cc_Bridge.FC.Cotton}}",
+"cc_Bus": "{{i18n:CT.cc_Bus.FC.Cotton}}",
+"cc_Greenhouse": "{{i18n:CT.cc_Greenhouse.FC.Cotton}}",
+"cc_Minecart": "{{i18n:CT.cc_Minecart.FC.Cotton}}",
+"joja_Begin": "{{i18n:CT.joja_Begin.FC.Cotton}}",
+"movieTheater": "{{i18n:CT.movieTheater.FC.Cotton}}",
+"dumped_Guys": "{{i18n:CT.dumped_Guys.FC.Cotton}}",
+"secondChance_Guys": "{{i18n:CT.secondChance_Guys.FC.Cotton}}",
+"dumped_Girls": "{{i18n:CT.dumped_Girls.FC.Cotton}}",
+"secondChance_Girls": "{{i18n:CT.secondChance_Girls.FC.Cotton}}",
+"pamHouseUpgrade": "{{i18n:CT.pamHouseUpgrade.FC.Cotton}}",
+"pamHouseUpgradeAnonymous": "{{i18n:CT.pamHouseUpgradeAnonymous.FC.Cotton}}",
+
 }
 },
 /************************************************
@@ -79,6 +95,10 @@ PlatonicDialogue
 "Fri":"{{i18n:Fri.Cotton.LowHeart.{{season}}}}",
 "Sat":"{{i18n:Sat.Cotton.LowHeart.{{season}}}}",
 "Sun":"{{i18n:Sun.Cotton.LowHeart.{{season}}}}",
+"{{ModID}}_CottonsHome": "{{i18n:GigglefitQuestion.Cotton}}",
+"Gigglefit_NotSeen": "{{i18n:GigglefitNotSeen.Cotton}}",
+"Gigglefit_HasSeen": "{{i18n:GigglefitHasSeen.Cotton}}",
+"Gigglefit_followup": "{{i18n:GigglefitFollowup.Cotton}}",
 },
 "When":{
 "Hearts:FC.Cotton":"{{Range:0,4}}"
@@ -99,9 +119,30 @@ HighPlatonicDialogue
 "Fri":"{{i18n:Fri.Cotton.MidHeart.{{season}}}}",
 "Sat":"{{i18n:Sat.Cotton.MidHeart.{{season}}}}",
 "Sun":"{{i18n:Sun.Cotton.MidHeart.{{season}}}}",
+"{{ModID}}_CottonsHome": "{{i18n:CottonsHome.Cotton.MidHeart.{{season}}}}",
 },
 "When":{
 "Hearts:FC.Cotton":"{{Range:5,8}}"
+}
+},
+{
+"LogName":"Dialogue-Dating",
+"Action":"EditData",
+"Target":"Characters/Dialogue/FC.Cotton",
+"Entries":{
+"Mon":"{{i18n:Mon.Cotton.Highheart.{{season}}}}",
+"Tue":"{{i18n:Tue.Cotton.Highheart.{{season}}}}",
+"Wed":"{{i18n:Wed.Cotton.Highheart.{{season}}}}",
+"Thu":"{{i18n:Thu.Cotton.Highheart.{{season}}}}",
+"Fri":"{{i18n:Fri.Cotton.Highheart.{{season}}}}",
+"Sat":"{{i18n:Sat.Cotton.Highheart.{{season}}}}",
+"Sun":"{{i18n:Sun.Cotton.Highheart.{{season}}}}",
+"{{ModID}}_CottonsHome": "{{i18n:CottonsHome.Cotton.Highheart.{{season}}}}",
+
+},
+"When":{
+"Hearts:FC.Cotton":"{{Range:9,10}}"
+
 }
 },
 /************************************************
@@ -119,6 +160,7 @@ DatingDialogue
 "Fri":"{{i18n:Fri.Cotton.Highheart.{{season}}}}",
 "Sat":"{{i18n:Sat.Cotton.Highheart.{{season}}}}",
 "Sun":"{{i18n:Sun.Cotton.Highheart.{{season}}}}",
+
 },
 "When":{
 "Relationship:FC.Cotton": "Dating" 

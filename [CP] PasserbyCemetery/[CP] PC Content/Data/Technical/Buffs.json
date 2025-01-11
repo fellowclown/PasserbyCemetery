@@ -20,6 +20,9 @@
         "(O){{ModID}}_VoidlingRing": {
           "BuffIdToApply": "{{ModID}}_VoidlingRing.Buff"
         },
+          "(O){{ModID}}_ShellRing": {
+          "BuffIdToApply": "{{ModID}}_ShellRing.Buff"
+        },
       }
     },
          {
@@ -96,20 +99,20 @@
            "CombatLevel": 0.0,
       "FarmingLevel": 0.0,
       "FishingLevel": 0.0,
-      "MiningLevel": 1.0,
+      "MiningLevel": 0.1,
       "LuckLevel": 0.0,
       "ForagingLevel": 0.0,
       "MaxStamina": 0.0,
       "MagneticRadius": 0.0,
       "Speed": 0.0,
-      "Defense": 1.0,
-      "Attack": 2.0,
+      "Defense": 0.1,
+      "Attack": 0.2,
       "AttackMultiplier": 0.0,
       "Immunity": 0.0,
       "KnockbackMultiplier": 0.0,
       "WeaponSpeedMultiplier": 0.0,
       "CriticalChanceMultiplier": 0.0,
-      "CriticalPowerMultiplier": 1.0,
+      "CriticalPowerMultiplier": 0.1,
       "WeaponPrecisionMultiplier": 0.1
           },
           "ActionsOnApply": null,
@@ -141,7 +144,7 @@
       "MaxStamina": 0.0,
       "MagneticRadius": 0.0,
       "Speed": 0.0,
-      "Defense": 6.0,
+      "Defense": 0.6,
       "Attack": 0.0,
       "AttackMultiplier": 0.0,
       "Immunity": 0.0,
@@ -166,7 +169,7 @@
           "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
           "IconSpriteIndex": 4,
           "Effects": {
-            "Attack": 3
+            "Attack":  0.3
           }
         }
       }
@@ -181,8 +184,8 @@
           "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
           "IconSpriteIndex": 2,
           "Effects": {
-            "Attack": 4,
-            "Speed": 2
+            "Attack":  0.4,
+            "Speed":  0.2
           }
         }
       }
@@ -197,8 +200,8 @@
           "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
           "IconSpriteIndex": 3,
           "Effects": {
-            "FarmingLevel": 2,
-            "Speed": 4
+            "FarmingLevel":  0.2,
+            "Speed":  0.4
           }
         }
       }
@@ -213,7 +216,7 @@
           "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
           "IconSpriteIndex": 6,
           "Effects": {
-            "Defense": 8,
+            "Defense":  0.8,
             "Speed": -3
           }
         }
@@ -229,9 +232,9 @@
           "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
           "IconSpriteIndex": 5,
           "Effects": {
-            "Attack": 4,
-            "Speed": 3,
-            "Defense": 1
+            "Attack":  0.4,
+            "Speed":  0.3,
+            "Defense":  0.1
           }
         }
       }
@@ -246,9 +249,9 @@
           "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
           "IconSpriteIndex": 1,
           "Effects": {
-            "LuckLevel": 2,
-            "Speed": 1,
-            "Defense": 1
+            "LuckLevel": 0.2,
+            "Speed":  0.1,
+            "Defense":  0.1
           }
         }
       }
@@ -264,8 +267,8 @@
           "IconSpriteIndex": 7,
           "Effects": {
             "MaxStamina": 100,
-            "Defense": 3,
-            "Attack": 3
+            "Defense":  0.3,
+            "Attack":  0.3
           }
         }
       }
@@ -280,7 +283,7 @@
           "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
           "IconSpriteIndex": 8,
           "Effects": {
-            "Speed": -4,
+            "Speed":  -4,
             "Defense": -3
           }
         }

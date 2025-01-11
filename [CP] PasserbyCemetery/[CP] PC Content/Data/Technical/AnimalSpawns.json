@@ -1,20 +1,37 @@
 {
 "Changes": [
-
+		{
+"Action": "EditData",
+"Target": "MEEP/FarmAnimals/SpawnData",
+"Entries": {
+"{{ModID}}_Mr.Zigzag": {
+"AnimalId": "{{ModID}}_Mr.Zigzag",
+"Age": 0,
+"LocationId": "{{ModID}}_AlansRoom",
+"DisplayName": "{{i18n:FC.Mr.Zigzag}}",
+"PetMessage": [
+"{{i18n:FC.Mr.Zigzag.01}}"
+],
+"HomeTileX": 3,
+"HomeTileY": 6,
+"Condition": ""
+},
+}
+},
 	{
 "Action": "EditData",
 "Target": "MEEP/FarmAnimals/SpawnData",
 "Entries": {
-"{{ModID}}_Capeer": {
-"AnimalId": "{{ModID}}_Capeer",
+"{{ModID}}_Curly": {
+"AnimalId": "{{ModID}}_Curly",
 "Age": 0,
-"LocationId": "{{ModID}}_OldGraveYard",
-"DisplayName": "{{i18n:FC.Capeer}}",
+"LocationId": "{{ModID}}_StoneHouse",
+"DisplayName": "{{i18n:FC.Curly}}",
 "PetMessage": [
-"{{i18n:FC.Capeer.01}}"
+"{{i18n:FC.Curly.01}}"
 ],
-"HomeTileX": 16,
-"HomeTileY": 64,
+"HomeTileX": 11,
+"HomeTileY": 10,
 "Condition": ""
 },
 }

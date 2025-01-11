@@ -59,7 +59,7 @@ NPCSPAWNS
 "IntroductionsQuest":"{{IncludeIntro}}",
 "ItemDeliveryQuests":false,
 "PerfectionScore":"{{IncludePerfection}}",
-"EndSlideShow":"TrailingGroup",
+"EndSlideShow":"Hidden",
 "FriendsAndFamily":null,
 ///Dumpster Diving
 "DumpsterDiveEmote":28,
@@ -69,7 +69,7 @@ NPCSPAWNS
 "WinterStarParticipant":false,
 "WinterStarGifts": [],
 //Spawn Rules
-"UnlockConditions":null,
+"UnlockConditions":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_CaveBlockUnlock",
 "SpawnIfMissing":true,
 "Home": [
 {

@@ -37,7 +37,7 @@
 "Gender":"Female", ///Actually He/Him
 "Age":"Child",
 "Manner":"Rude",
-"SociPopperxiety":"Outgoing",
+"SocialAnxiety":"Outgoing",
 "Optimism":"Positive",
 "BirthSeason":"Winter",
 "BirthDay":13,
@@ -88,7 +88,28 @@
 ///Festivals
 "FlowerDanceCanDance":false,
 "WinterStarParticipant":false,
-"WinterStarGifts": [],
+"WinterStarGifts": [
+        {
+"Condition": null,
+"Id": "{{ModID}}_WinterStarGifts",
+"ItemId": "RANDOM_ITEMS (O)",
+"RandomItemId": null,
+"MaxItems": null,
+"MinStack": -1,
+"MaxStack": -1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+"ModData": null,
+"PerItemCondition": null
+},
+],
 //Spawn Rules
 "UnlockConditions":null,
 "SpawnIfMissing":true,
@@ -137,11 +158,11 @@
 {
 "ID": "{{ModID}}.Popper_Summer",
 "Season": "summer",
+"Precedence": -10,
  "Weight": 1,
 "Outdoors": true,
 "Indoors": true,
 "IsIslandAttire": false,
-"Precedence": -10,
 "Portrait": "Portraits/FC.Popper_Summer",
 "Sprite": "Characters/FC.Popper_Summer"
 },
@@ -152,7 +173,6 @@
 "Outdoors": true,
 "Indoors": true,
 "IsIslandAttire": false,
-"Precedence": -10,
 "Portrait": "Portraits/FC.Popper_Fall",
 "Sprite": "Characters/FC.Popper_Fall"
 },
@@ -238,11 +258,11 @@
 "Condition": "EVENT_ID festival_fall27",
 "Portrait": "Portraits/FC.Popper_spirit's eve",
 "Sprite": "Characters/FC.Popper_spirit's eve",
+"Precedence": -20,
 "Weight": 1,
 "Outdoors": true,
 "Indoors": true,
 "IsIslandAttire": false,
-"Precedence": -20,
 },
 {
 "ID": "{{ModID}}.Popper_icefestival",
