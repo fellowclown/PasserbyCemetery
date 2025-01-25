@@ -27,7 +27,7 @@
 "{{ModID}}_MilkCoffee": "395 2 {{ModID}}_SmallArcaGoatMilk 1 245 1/1 10/{{ModID}}_MilkCoffee/f FC.Valerie 100/{{i18n:FC.MilkCoffeeRecipe.Title}}",
 "{{ModID}}_StuffedMidnightCarp": "{{ModID}}_SmallGouudCheese 1 269 1 {{ModID}}_AdauulaStalks 1 247 1 {{ModID}}_LureBerries 1/1 10/{{ModID}}_StuffedMidnightCarp/f FC.Lyell 500/{{i18n:FC.StuffedMidnightCarpRecipe.Title}}",
 "{{ModID}}_DragaTailPudding": "{{ModID}}_DragaTail 3 245 2/1 10/{{ModID}}_DragaTailPudding/f FC.Roswell 500/{{i18n:FC.DragaTailPuddingRecipe.Title}}",
-"{{ModID}}_FirePepperMeatPie": "{{ModID}}_FirePepper 1 {{ModID}}_Paneeki 1 247 1/1 10/{{ModID}}_FirePepperMeatPie/f FC.Roswell 1250/{{i18n:FC.FirePepperMeatPieRecipe.Title}}",
+"{{ModID}}_FirePepperMeatPie": "{{ModID}}_GemBirdMeat 2 {{ModID}}_FirePepper 1 {{ModID}}_Paneeki 1 247 1/1 10/{{ModID}}_FirePepperMeatPie/f FC.Roswell 1250/{{i18n:FC.FirePepperMeatPieRecipe.Title}}",
 "{{ModID}}_DarkTuffWedges": "{{ModID}}_DarkTuff 3 247 1/1 10/{{ModID}}_DarkTuffWedges/f FC.Dezerie 500/{{i18n:FC.DarkTuffWedgesRecipe.Title}}",
 "{{ModID}}_MidnightSurpise": "{{ModID}}_FairyFingers 5 247 1/1 10/{{ModID}}_MidnightSurpise/f FC.Dezerie 1000/{{i18n:FC.MidnightSurpiseRecipe.Title}}",
 "{{ModID}}_LureBerryJuice": "{{ModID}}_LureBerries 3 245 1/1 10/{{ModID}}_LureBerryJuice/f FC.Boxy 250/{{i18n:FC.LureBerryJuiceRecipe.Title}}",

@@ -42,7 +42,7 @@
 
 "Wed": "MAIL {{ModID}}_PhoebeIntro.Mail/GOTO NO_SCHEDULE/900 {{ModID}}_TravelingTrailer 22 13 2 {{ModID}}_PhoebeIdle/1200 {{ModID}}_OldGraveYard 43 32 2 {{ModID}}_PhoebeSit2/1330 {{ModID}}_TravelingTrailer 22 13 2 {{ModID}}_PhoebeIdle/1500 {{PhoebeTurnAbout}}/2000 {{ModID}}_TravelingTrailerDecker 23 16 1 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.Sleeping\"", 
 
-"Thu": "MAIL {{ModID}}_PhoebeIntro.Mail/GOTO NO_SCHEDULE/900 {{ModID}}_StoneHouse 7 22 3/1200 {{ModID}}_Exhibit 12 9 1/1400 {{ModID}}_TravelingTrailer 9 14 2 {{ModID}}_PhoebeSit2/1600 {{ModID}}_TravelingTrailer 22 13 2 {{ModID}}_PhoebeIdle/2000 {{PhoebeTurnAbout}}/2200 {{ModID}}_TravelingTrailerDecker 23 16 1 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.Sleeping\"", 
+"Thu": "MAIL {{ModID}}_PhoebeIntro.Mail/GOTO NO_SCHEDULE/900 {{ModID}}_StoneHouse 7 22 3/1200 {{PhoebeExhibit}}/1400 {{ModID}}_TravelingTrailer 9 14 2 {{ModID}}_PhoebeSit2/1600 {{ModID}}_TravelingTrailer 22 13 2 {{ModID}}_PhoebeIdle/2000 {{PhoebeTurnAbout}}/2200 {{ModID}}_TravelingTrailerDecker 23 16 1 {{ModID}}_PhoebeSleep \"Strings\\schedules\\FC.Phoebe:Phoebe.Sleeping\"", 
 
 "Fri": "GOTO Wed", 
 

@@ -8,8 +8,8 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.John": "{{i18n:John.gift.love}}/{{ModID}}_Seaglass {{ModID}}_SeaglassFlowerDisplay 715 720 524/{{i18n:John.gift.like}}/66 68 608 610/{{i18n:John.gift.dislike}}/597 219 238 238/{{i18n:John.gift.hate}}/199 242 284/{{i18n:John.gift.neutral}}/-4 279/ ",
+"FC.John": "{{i18n:John.gift.love}}/90 80 145 {{ModID}}_HotChoco {{ModID}}_MegaWrap {{ModID}}_IceBerryWine/{{i18n:John.gift.like}}/152 196 205 {{ModID}}_SmokedGemBirdMeat {{ModID}}_FrostedCake {{ModID}}_HotCereal {{ModID}}_WhiteTruffle/{{i18n:John.gift.dislike}}/226 225 242 {{ModID}}_RootJuice {{ModID}}_CheesyWhiteRisotto/{{i18n:John.gift.hate}}/274 282 648 {{ModID}}_TastyPastry {{ModID}}_FrostedCake {{ModID}}_HotCereal/{{i18n:John.gift.neutral}}/{{ModID}}_AgedLargeGouudCheese {{ModID}}_AgedSmallGouudCheese {{ModID}}_DragaTailTonic/ ",
 }
- },
+}
 ]
 }

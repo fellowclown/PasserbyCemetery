@@ -1,0 +1,122 @@
+{
+  "Changes": [
+       // Edit Data/Trinkets 
+          {
+      "LogName": "MamaHog Buff",
+      "Action": "EditData",
+      "Target": "Data/Buffs",
+      "Entries": {
+        "{{ModId}}_MamaHog": {
+          "DisplayName": "{{i18n: MamaHog.Buff}}",
+          "Duration": 20000,
+          "MaxDuration": -1,
+          "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
+          "IconSpriteIndex": 12,
+          "Effects": {
+            "Attack": 3.0,
+            "Defense": 3.0
+          }
+        }
+        }
+      },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Trinkets",
+      "Entries": {
+        "{{ModID}}_MamaHog": {
+          "Id": "{{ModID}}_MamaHog",
+          "DisplayName": "{{i18n:FC.MamaHog}}",
+          "Description": "{{i18n:FC.MamaHog.Desc}}",
+          "Texture": "Mods/{{ModID}}/Objects",
+          "SheetIndex": 256,
+          "TrinketEffectClass": "StardewValley.Objects.Trinkets.TrinketEffect",
+          "DropsNaturally": false,
+          "CanBeReforged": false,
+    "CustomFields": {
+      "IgnoreLocations": "Slime Hutch",
+    },
+    "ModData": null
+  },
+}
+},
+    {
+      "LogName": "MamaHog",
+      "Action": "EditData",
+      "Target": "mushymato.TrinketTinker/Tinker",
+      "Entries": {
+        "{{ModID}}_MamaHog": {
+          "Variants": [
+            {
+              "Texture": "Characters/FC.MamaHogAndBabyHog",
+              "Width": 32,
+              "Height": 32,
+              "ShadowScale": 0
+            }
+          ],
+          "Motion": {
+            "MotionClass": "Lerp",
+            "DirectionMode": "DRUL",
+            "FrameLength": 4,
+            "Anchors": [
+              {
+                "Mode": "Owner",
+              },
+            ],
+            "AnimClips": {
+                  "Idle": {
+                  "FrameStart": 16,
+                  "FrameLength": 2,
+                  "Interval": 1000
+              },
+            },
+            "Args": {
+              "Min": 64,
+              "Rate": 300,
+              "MoveSync": true
+            }
+          },
+          "Abilities": [
+            [
+                            {
+                "AbilityClass": "Stamina",
+                "Proc": "Timer",
+                "ProcTimer": 20000,
+                "ProcSound": "pig",
+                "ProcOneshotAnim": "Idle",
+                "Args": { "Min": 0.15 , "Max": 0.15 }
+              },
+             {
+                "AbilityClass": "Health",
+                "Proc": "Sync",
+                "ProcOneshotAnim": "Idle",
+                "Args": { "Min": 0.15, "Max": 0.15 }
+              },
+                  {
+                "AbilityClass": "Hitscan",
+                "Proc": "Timer",
+                "ProcTimer": 3000,
+                "Args": {
+                  "Min": 20,
+                  "Max": 40,
+                },
+              },
+              {
+                "AbilityClass": "Buff",
+                "Proc": "Timer",
+                "ProcTimer": 20000,
+                "ProcOneshotAnim": "AbilityProc",
+                "Args": { "BuffId": "{{ModId}}_MamaHog" }
+              },
+              {
+                "AbilityClass": "Buff",
+                "Proc": "Always",
+                "Args": { "BuffId": "{{ModId}}_MamaHog" }
+              },
+            ]
+          ]
+        }
+      }
+    },
+  ]
+}

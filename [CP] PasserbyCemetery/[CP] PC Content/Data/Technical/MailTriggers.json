@@ -5,23 +5,23 @@
 "Action": "EditData",
 "Target": "data/mail",
 "Entries": {
-"{{ModID}}_BagOfSeaglass.Mail": "{{i18n:FC.BagOfSeaglass.Mail}} %item quest {{ModID}}_BagOfSeaglass.Quest true %%[#]{{i18n:FC.BagOfSeaglass.Title}}",
-"{{ModID}}_JohnsWine.Mail": "{{i18n:FC.JohnsWine.Mail}} %item quest {{ModID}}_JohnsWine.Quest true %%[#]{{i18n:FC.JohnsWine.Title}}",
-"{{ModID}}_JohnsRing.Mail": "{{i18n:FC.JohnsRing.Mail}} %item quest {{ModID}}_JohnsRing.Quest true %%[#]{{i18n:FC.JohnsRing.Title}}",
-"{{ModID}}_JohnsNecklace.Mail": "{{i18n:FC.JohnsNecklace.Mail}} %item quest {{ModID}}_JohnsNecklace.Quest true %%[#]{{i18n:FC.JohnsNecklace.Title}}",
-"{{ModID}}_FrostedCake.Mail": "{{i18n:FC.FrostedCake.Mail}}%item cookingRecipe {{ModID}}_FrostedCake %%[#]{{i18n:FC.FrostedCake.Title}}",
-"{{ModID}}_HotCereal.Mail": "{{i18n:FC.HotCereal.Mail}}%item cookingRecipe {{ModID}}_HotCereal %%[#]{{i18n:FC.HotCereal.Title}}",
-"{{ModID}}_CheesyWhiteRisotto.Mail": "{{i18n:FC.CheesyWhiteRisotto.Mail}}%item cookingRecipe {{ModID}}_CheesyWhiteRisotto %%[#]{{i18n:FC.CheesyWhiteRisotto.Title}}",
-"{{ModID}}_BarronsBook.Mail": "{{i18n:Mail.BarronsBook}} %item quest {{ModID}}_BarronsBook true %%",
-"{{ModID}}_TheCuff.Mail": "{{i18n:Mail.TheCuff}} %item quest {{ModID}}_TheCuff true %%",
-"{{ModID}}_PhoebesPackage.Mail": "{{i18n:Mail.PhoebesPackage}} %item quest {{ModID}}_PhoebesPackage true %%",
-"{{ModID}}_TastyPasty.Mail": "{{i18n:Mail.TastyPastry}}%item cookingRecipe {{ModID}}_TastyPastry%%[#]{{i18n:BarronsTastyPastry}}",
-"{{ModID}}_GemBirdPatties.Mail": "{{i18n:Mail.GemBirdPatties}} %item cookingRecipe {{ModID}}_GemBirdPatties%%[#]{{i18n:PhoebesGemBirdPatties}}",
-"{{ModID}}_VoidJuice.Mail": "{{i18n:Mail.VoidJuice}}%item cookingRecipe {{ModID}}_VoidJuice%%[#]{{i18n:BarronsVoidJuice}}",
-"{{ModID}}_Temple.Mail": "{{i18n:FC.Temple.Mail}}[#]{{i18n:FC.Temple.Title}}",
-"{{ModID}}_BubbasBirth.Mail": "{{i18n:FC.BubbasBirth.Mail}}[#]{{i18n:FC.BubbasBirth.Title}}",
-"{{ModID}}_PoppersSiblings.Mail": "{{i18n:FC.PoppersSiblings.Mail}}[#]{{i18n:FC.PoppersSiblings.Title}}",
-"{{ModID}}_JohnsHat.Mail": "{{i18n:FC.JohnsHat.Mail}} %item id (H){{ModID}}_JohnsHat%%[#]{{i18n:FC.JohnsHat.Title}}",
+"{{ModID}}_BagOfSeaglass.Mail": "{{i18n:FC.BagOfSeaglass.Mail}} %item quest {{ModID}}_BagOfSeaglass.Quest true %%[#]{{i18n:FC.BagOfSeaglass.Mail.Title}}",
+"{{ModID}}_JohnsWine.Mail": "{{i18n:FC.JohnsWine.Mail}} %item quest {{ModID}}_JohnsWine.Quest true %%[#]{{i18n:FC.JohnsWine.Mail.Title}}",
+"{{ModID}}_JohnsRing.Mail": "{{i18n:FC.JohnsRing.Mail}} %item quest {{ModID}}_JohnsRing.Quest true %%[#]{{i18n:FC.JohnsRing.Mail.Title}}",
+"{{ModID}}_JohnsNecklace.Mail": "{{i18n:FC.JohnsNecklace.Mail}} %item quest {{ModID}}_JohnsNecklace.Quest true %%[#]{{i18n:FC.JohnsNecklace.Mail.Title}}",
+"{{ModID}}_FrostedCake.Mail": "{{i18n:FC.FrostedCake.Mail}}%item cookingRecipe {{ModID}}_FrostedCake %%[#]{{i18n:FC.FrostedCake.Mail.Title}}",
+"{{ModID}}_HotCereal.Mail": "{{i18n:FC.HotCereal.Mail}}%item cookingRecipe {{ModID}}_HotCereal %%[#]{{i18n:FC.HotCereal.Mail.Title}}",
+"{{ModID}}_CheesyWhiteRisotto.Mail": "{{i18n:FC.CheesyWhiteRisotto.Mail}}%item cookingRecipe {{ModID}}_CheesyWhiteRisotto %%[#]{{i18n:FC.CheesyWhiteRisotto.Mail.Title}}",
+"{{ModID}}_BarronsBook.Mail": "{{i18n:FC.Mail.BarronsBook}} %item quest {{ModID}}_BarronsBook true %%[#]{{i18n:FC.BarronsBook.Mail.Title}}",
+"{{ModID}}_TheCuff.Mail": "{{i18n:FC.Mail.TheCuff}} %item quest {{ModID}}_TheCuff true %%[#]{{i18n:FC.CheesyWhiteRisotto.Mail.Title}}",
+"{{ModID}}_PhoebesPackage.Mail": "{{i18n:FC.Mail.PhoebesPackage}} %item quest {{ModID}}_PhoebesPackage true %%[#]{{i18n:FC.PhoebesPackage.Mail.Title}}",
+"{{ModID}}_TastyPasty.Mail": "{{i18n:FC.Mail.TastyPastry}}%item cookingRecipe {{ModID}}_TastyPastry %%[#]{{i18n:FC.TastyPastry.Mail.Title}}",
+"{{ModID}}_GemBirdPatties.Mail": "{{i18n:FC.Mail.GemBirdPatties}} %item cookingRecipe {{ModID}}_GemBirdPatties %%[#]{{i18n:FC.PhoebesGemBirdPatties.Mail.Title}}",
+"{{ModID}}_VoidJuice.Mail": "{{i18n:FC.Mail.VoidJuice}}%item cookingRecipe {{ModID}}_VoidJuice %%[#]{{i18n:FC.BarronsVoidJuice.Mail.Title}}",
+"{{ModID}}_Temple.Mail": "{{i18n:FC.Temple.Mail}}[#]{{i18n:FC.Temple.Mail.Title}}",
+"{{ModID}}_BubbasBirth.Mail": "{{i18n:FC.BubbasBirth.Mail}}[#]{{i18n:FC.BubbasBirth.Mail.Title}}",
+"{{ModID}}_PoppersSiblings.Mail": "{{i18n:FC.PoppersSiblings.Mail}}[#]{{i18n:FC.PoppersSiblings.Mail.Title}}",
+"{{ModID}}_JohnsHat.Mail": "{{i18n:FC.JohnsHat.Mail}} %item id (H){{ModID}}_JohnsHat%%[#]{{i18n:FC.JohnsHat.Mail.Title}}",
 "{{ModID}}_LostJournal.Mail": "{{i18n:FC.LostJournal.Mail}} %item quest {{ModID}}_LostJournal.Quest true %%[#]{{i18n:FC.LostJournal.Mail.Title}}",
 "{{ModID}}_StoneRelic.Mail": "{{i18n:FC.StoneRelic.Mail}} %item quest {{ModID}}_StoneRelic.Quest true %%[#]{{i18n:FC.StoneRelic.Mail.Title}}",
 "{{ModID}}_LostPipe.Mail": "{{i18n:FC.LostPipe.Mail}} %item quest {{ModID}}_LostPipe.Quest true %%[#]{{i18n:FC.LostPipe.Mail.Title}}",
@@ -73,7 +73,6 @@
 "{{ModID}}_PassedOutCottons.Mail": "{{i18n:FC.PassedOutCottons.Mail}}[#]{{i18n:FC.PassedOutCottons.Mail.Title}}",
 "{{ModID}}_FireWorkShow.Mail": "{{i18n:FC.FireWorkShow.Mail}}[#]{{i18n:FC.FireWorkShow.Mail.Title}}",
 }
-
 },
       //Removes daily repeatables
           {
@@ -101,7 +100,8 @@
 "Entries": {
 "{{ModID}}_ShaavarIntroduction.Trigger":{
 "Id": "{{ModID}}_ShaavarIntroduction.Trigger",
-"Trigger": "DayStarted",
+"MarkActionApplied": true,
+"Trigger": "LocationChanged",
 "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_ShaavarIntroduction",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_ShaavarIntro.Mail",
@@ -117,7 +117,8 @@
 "Entries": {
 "{{ModID}}_ZuuieIntro.Trigger":{
 "Id": "{{ModID}}_ZuuieIntro.Trigger",
-"Trigger": "DayStarted",
+"MarkActionApplied": true,
+"Trigger": "LocationChanged",
 "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_CaveBlockUnlock",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_ZuuieIntro.Mail",
@@ -134,7 +135,8 @@
 "Entries": {
 "{{ModID}}_DezerieIntro.Trigger":{
 "Id": "{{ModID}}_DezerieIntro.Trigger",
-"Trigger": "DayStarted",
+"MarkActionApplied": true,
+"Trigger": "LocationChanged",
 "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_StoneIntroduction",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_DezerieIntro.Mail",
@@ -151,7 +153,8 @@
 "Entries": {
 "{{ModID}}_GradyIntro.Trigger":{
 "Id": "{{ModID}}_GradyIntro.Trigger",
-"Trigger": "DayStarted",
+"MarkActionApplied": true,
+"Trigger": "LocationChanged",
 "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_GradyIntroduction",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_GradyIntro.Mail",
@@ -168,7 +171,8 @@
 "Entries": {
 "{{ModID}}_BarronIntro.Trigger":{
 "Id": "{{ModID}}_BarronIntro.Trigger",
-"Trigger": "DayStarted",
+"MarkActionApplied": true,
+"Trigger": "LocationChanged",
 "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_BarronIntroduction",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_BarronIntro.Mail",
@@ -185,7 +189,8 @@
 "Entries": {
 "{{ModID}}_JohnIntro.Trigger":{
 "Id": "{{ModID}}_JohnIntro.Trigger",
-"Trigger": "DayStarted",
+"MarkActionApplied": true,
+"Trigger": "LocationChanged",
 "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_JohnIntroduction",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_JohnIntro.Mail",
@@ -202,7 +207,8 @@
 "Entries": {
 "{{ModID}}_PhoebeIntro.Trigger":{
 "Id": "{{ModID}}_PhoebeIntro.Trigger",
-"Trigger": "DayStarted",
+"MarkActionApplied": true,
+"Trigger": "LocationChanged",
 "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_PhoebesIntroduction",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_PhoebeIntro.Mail",
@@ -219,7 +225,8 @@
 "Entries": {
 "{{ModID}}_AmandaIntro.Trigger":{
 "Id": "{{ModID}}_AmandaIntro.Trigger",
-"Trigger": "DayStarted",
+"MarkActionApplied": true,
+"Trigger": "LocationChanged",
 "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_AmandasIntroduction",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_AmandaIntro.Mail",
@@ -236,7 +243,8 @@
 "Entries": {
 "{{ModID}}_ThaliaIntro.Trigger":{
 "Id": "{{ModID}}_ThaliaIntro.Trigger",
-"Trigger": "DayStarted",
+"MarkActionApplied": true,
+"Trigger": "LocationChanged",
 "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_ThaliaIntroduction",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_ThaliaIntro.Mail",

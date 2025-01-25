@@ -4,12 +4,13 @@
 GIFT TASTES
  ************************************************/
  {
-"LogName": "GiftTastes",
+"LogName": "GiftTastes Passerby Items",
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Alan": "{{i18n:Alan.gift.love}}/68 70 72 90/{{i18n:Alan.gift.like}}/{{ModID}}_MilkCoffee 101/{{i18n:Alan.gift.dislike}}/{{ModID}}_BellPods {{ModID}}_LureBerries 22/{{i18n:Alan.gift.hate}}/{{ModID}}_StoneShroom {{ModID}}_HeavyRoot {{ModID}}_FairyFingers 143/{{i18n:Alan.gift.neutral}}/253 346 348/",
+"FC.Alan": "{{i18n:Alan.gift.love}}/86 101 201 253 {{ModID}}_LoMaCakes {{ModID}}_AcornCake {{ModID}}_ToughenTonic {{ModID}}_FairyFingerTea/{{i18n:Alan.gift.like}}/342 346 351 {{ModID}}_FarmHandSupper {{ModID}}_KingsRangoonDish {{ModID}}_SootheingCure/{{i18n:Alan.gift.dislike}}/445 456 444 {{ModID}}_PeircingShot {{ModID}}_MovoraptorMayo {{ModID}}_PaneekiStirFry/{{i18n:Alan.gift.hate}}/198 64 20 {{ModID}}_StuffedMidnightCarp {{ModID}}_FirePepperMeatPie {{ModID}}_CheesyWhiteRisotto/{{i18n:Alan.gift.neutral}}/{{ModID}}_GemBirdPatties {{ModID}}_SmokedGemBirdMeat {{ModID}}_HotCereal/",
 }
- },
+},
 ]
 }
+

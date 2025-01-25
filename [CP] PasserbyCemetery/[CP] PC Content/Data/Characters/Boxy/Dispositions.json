@@ -246,7 +246,7 @@ Dispositions
 "IsIslandAttire": false,
 },
 ],
-"MugShotSourceRect": { "X": 2, "Y":9, "Width": 16, "Height": 24 },
+"MugShotSourceRect": { "X": 0, "Y":144, "Width": 16, "Height": 16 },
 "Size": { "X": 16, "Y": 32 },
 "Breather":false,
 "BreathChestRect":null,

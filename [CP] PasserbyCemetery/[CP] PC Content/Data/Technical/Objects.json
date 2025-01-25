@@ -361,7 +361,7 @@
 "Target": "Data/Objects",
 "Entries":{
 "{{ModID}}_Necklace2":{
-"Name": "{{ModID}}_Necklace1",
+"Name": "{{ModID}}_Necklace2",
 "DisplayName": "{{i18n:FC.Necklace}}",
 "Description": "{{i18n:FC.Necklace.Desc}}",
 "Type": "Mineral",
@@ -904,9 +904,13 @@
 "CanBeTrashed": false,
 "ExcludeFromShippingCollection": true,
 "Texture": "Mods/{{ModID}}/Objects",
-"SpriteIndex": 209
+"SpriteIndex": 209,
+"ContextTags": [
+"quest_item",
+],
+"CustomFields": null
 }
-},
+}
 },
 {
 "Action": "EditData",
@@ -2461,7 +2465,7 @@
 "Entries":{
  "{{ModID}}_ChocoFruitExtract":{
 "Name": "{{ModID}}_ChocoFruitExtract",
-"DisplayName": "{{i18n:FC.ChocoFruitExtract}}",
+"DisplayName": "{{i18n:FC.MovoraptorMayo}}",
 "Description": "{{i18n:FC.ChocoFruitExtract.Desc}}",
 "Type": "Artisan Goods",
 "Category": -26,
@@ -2773,7 +2777,6 @@
 "Defense": 0.0,
 "Attack": 0.0
 },
-"CustomFields": null
 }
 ],
 "GeodeDropsDefaultItems": false,
@@ -5342,7 +5345,7 @@
 "Description": "{{i18n:FC.WhiteTruffleOil.Desc}}",
 "Type": "Artisan Goods",
 "Category": 26,
- "Price": 8000,
+ "Price": 650,
 "Edibility": 10,
 "IsDrink": false,
  "CanBeGivenAsGift": true,
@@ -6856,7 +6859,7 @@
 "Description": "{{i18n:FC.WhiteTruffle.Desc}}",
 "Type": "Vegetable",
 "Category": -75,
- "Price": 4000,
+ "Price": 400,
 "Edibility": 10,
 "IsDrink": false,
  "CanBeGivenAsGift": true,
@@ -6895,8 +6898,8 @@
 "BuffId": null,
 "IconTexture": null,
 "IconSpriteIndex": 0,
-"Duration": 600,
-"IsDebuff": true,
+"Duration": 0,
+"IsDebuff": false,
 "GlowColor": null,
 "CustomAttributes":{
 "FarmingLevel": 0.0,
@@ -6908,7 +6911,7 @@
 "MagneticRadius": 0.0,
 "Speed": 0.0,
 "Defense": 0.0,
-"Attack": -1.0
+"Attack": 0.0
 },
 "CustomFields": null
 }
@@ -7471,16 +7474,6 @@
 }
 },
 ///Seed Object Data
-
-
-
-
-
-
-
-
-
-
 {
 "Action": "EditData",
 "Target": "Data/Objects",
@@ -7797,14 +7790,6 @@
 }
 }
 },
-
-
-
-
-
-
-
-
 {
 "Action": "EditData",
 "Target": "Data/Objects",

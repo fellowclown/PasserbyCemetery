@@ -863,6 +863,7 @@
 "Nikolai.TroutDerby": "I loved the derby, it's so much fun!$1",
 "Nikolai.SquidFest": "This is actually pretty nice, I'm not really into squid though...But maybe I should be.$1",
 "Nikolai.Sleeping": "%He's sleeping like a rock.",
+"Nikolai.NightMarket": "Figured I would set up shop and try to earn some money!$1#$b#Want anything?$1",
 ///FestivalcDialogue
 "Nikolai.festival-default":"I love most of the festivals, it’s so much fun gathering like this.$1", // TODO
 "Nikolai.spring13.unmet":"I hope all the eggs are found.$3#$e#It would start smelling pretty bad around here if they're not...$2",
@@ -915,10 +916,6 @@
 "Nikolai.winter25.dating":"Don't let me catch you under the mistletoe.$4",
 "Nikolai.winter25.spouse":"I got this for you.$4[# # #]#$b#I know I was only supposed to shop for one person, but I couldn't help it!$1",
 "Nikolai.winter25.divorced":"...Have a nice holiday.$2$e#That's not a invitation to talk to me.$2",
-//Passive Festivals
-"Nikolai.Nightmarket.A":"I love this, being underwater is so cool!$1",
-"Nikolai.Nightmarket.B":"I hope we see a weird fish soon, I've been wanting to spot something odd.$6",
-"Nikolai.Nightmarket.C":"Wow I'm getting really tired, I should head home soon I think.",
 "Nikolai.PhoneCall.1":"Hey @, hope you're doing well.$1#$b#I saw this weird looking egg?#$b#Found it on the beach, I think it's an egg but my ma insists it's some kind of shell.$1#$b#I'll have to show you sometime.#$b#Well I gotta go, I'm supposed to be cleaning but I had to call before I forgot.$1#$b#Bye now.",
 "Nikolai.PhoneCall.2":"There's something outside my house.$1#$b#I know there is, I can hear it walking around at night.#$b#If you come by and see something weird, let me know okay?$2#$b#I need to prove to my ma there's something out there.$2#$b#Talk later okay, I gotta go look for myself one more time.$5",
 //Movies
@@ -3171,6 +3168,13 @@
 "Cotton.gift.dislike": "What a bad gift this is, what a joke!",
 "Cotton.gift.hate": "Wow, I hate this! How about you get lost.$5#$action spacechase0.SpaceCore_PlaySound grunt",
 "Cotton.gift.neutral": "Eh, I guess I can use this.",
+"Resort_Entering.Cotton":"Damn it's hot...",
+"Resort_Leaving.Cotton":"I think I got sand in my shorts...",
+"Resort_Shore.Cotton":"The ocean is pretty ain't it?$1#$b#Sort of wish I knew how to swim.$2",
+"Resort_Umbrella.Cotton":"I think I'm getting sun burn on my freaking toes, it's so hot out here.$2",
+"Resort_Wander.Cotton":"I found this weird looking creature in the sand, didn't taste very good.$2",
+"Resort_Bar.Cotton":"They don't have any void drinks, it sucks.",
+"Resort.Cotton":"I guess this place is nice, feels weird being out in shorts though.$1",
 "RejectBouquet_NpcAlreadyMarried.Cotton": "I don't want to marry you, plus I don't like sharing anyway!.$5#$action spacechase0.SpaceCore_PlaySound grunt",
 "RejectBouquet_Divorced.Cotton": "Ha! Never again scrub!$5#$action spacechase0.SpaceCore_PlaySound grunt",
 "RejectBouquet_VeryLowHeart.Cotton": "Ew, no.$2#$action spacechase0.SpaceCore_PlaySound grunt",
@@ -6923,41 +6927,44 @@ Shaavar's Information
 "FC.HeaviousFruitLollipop.Mail.Title": "Heavious Fruit Lollipop",
 "FC.MeekFruitLollipop.Mail": "This candy recipe is just packed with sugar, but I can't stop eating it.^I thought maybe you'd like it too.^-Shaavar",
 "FC.MeekFruitLollipop.Mail.Title": "Meek Fruit Lollipop",
-"FC.WildTrees.Mail": "Dear @,^I wanted to offer you some special wild tree seeds.^With the new animals waiting at Marnie’s, you'll need a Tropical Hutch in order to buy and house them.^So I wanted to give you some of the seeds needed to harvest the wood for the buildings.^ If you don't want to harvest more seeds yourself, Grady is trading seeds for Arcanian Coins at Driftwood farm, inside our home.^Be happy and Stay shapely!^-Lyell",
+"FC.WildTrees.Mail": "Dear @,^I wanted to offer you some special wild tree seeds.^With the new animals waiting at Marnie’s, you'll need a Tropical Hutch in order to buy and house them.^So I wanted to give you some of the seeds needed to harvest the wood for the buildings.^Be happy and Stay shapely!^-Lyell",
 "FC.WildTrees.Mail.Title": "Building challenge!",
 "FC.Exhibit.Mail": "Dearest @,^I wanted to thank you from the bottom of my heart for all your contributions to the exhibit.^As a token of my gratitude, I would like for you to have this gift. Please take extra care  with this, as it is extremely hard to fine.[Fellowclown.PC_StatueGem]",
 "FC.Exhibit.Mail.Title": "From the lost nomads exhibit.",
 "FC.JohnsHat.Mail": "Let's be twins this egg festival, I made this hat just for you.^-John Lovejoy",
-"FC.JohnsHat.Title": "Wanna be twins?",
-"FC.BagOfSeaglass.Title":"John's Bag Of Sea glass.",
+"FC.JohnsHat.Mail.Title": "Wanna be twins?",
+"FC.BagOfSeaglass.Mail.Title":"John's Bag Of Sea glass.",
 "FC.BagOfSeaglass.Mail":"After collecting an entire bag of Sea Glass, I realized on my way home that I lost it.^If you could find it and return it to me I would be very grateful.^-John",
-"FC.FrostedCake.Title":"Father's Frosted Cake Recipe.",
+"FC.FrostedCake.Mail.Title":"Father's Frosted Cake Recipe.",
 "FC.FrostedCake.Mail":"This is my father's favorite, the recipe has been in the family for a long time. -John",
-"FC.HotCereal.Title":"Mother's Hot Cereal Recipe.",
+"FC.HotCereal.Mail.Title":"Mother's Hot Cereal Recipe.",
 "FC.HotCereal.Mail":"My mother used to make this every Sunday for breakfast, you should try it out. -John",
-"FC.JohnsWine.Title":"The Missing Altar Wine.",
+"FC.JohnsWine.Mail.Title":"The Missing Altar Wine.",
 "FC.JohnsWine.Mail":"I just lost my recently purchased bottle of Altar Wine.^If you find it, please return it. I'll reward you if you do.^-John",
-"FC.JohnsRing.Title":"The Missing Ring.",
+"FC.JohnsRing.Mail.Title":"The Missing Ring.",
 "FC.JohnsRing.Mail":"My ring has gone missing, if you find it, I'll trade a reward for it.^-John",
-"FC.JohnsNecklace.Title":"The Missing Necklace.",
+"FC.JohnsNecklace.Mail.Title":"The Missing Necklace.",
 "FC.JohnsNecklace.Mail":"I can't find my mother's necklace, she gave it to me when I earned my Priesthood.^I keep misplacing everything. Please if you find it, return it to me.^I'll reward you.^-John", 
-"FC.Temple.Title":"Grand Opening!!!",
+"FC.Temple.Mail.Title":"Grand Opening!!!",
 "FC.Temple.Mail":"The new Passerby Temple has been renovated and is open to patrons.^We hold sermons every Wednesday and Sunday at ten in the morning.^Consider joining us today between 9am and 1pm for a small house warming party!^Excitedly^-John Lovejoy",
 "FC.CheesyWhiteRisotto.Mail":"I forgot to mention, that since there's an Arcanian Hog wandering the valley.^That you might just come across the White Truffles.^Though it'd be easier just to get am Arcanian Hog from Marnie's.^When you get a hold of enough White Truffles, try this recipe out.^My father used to make it every sunday.^-John Lovejoy",
-"FC.CheesyWhiteRisotto.Title":"Cheesy White Risotto Recipe",
-"Mail.BarronsBook":"I can't find my book anywhere, it's my favorite one.^I've looked all over the cemetery and Pelican Town for it.^If you come across it, please consider returning it.^I will happily reward you for your help as well.^-Barron",
-"Mail.TheCuff":"For generations, my family has passed down a very special golden bracelet.^I've been wearing it for years, only to notice it isn’t on my wrist anymore.^I can't find it and it would mean the world to me if you find it and return it.^It's a very thick cuff bracelet.^I hope you've better luck than me.^-Phoebe",
-"Mail.PhoebesPackage":"The toy store owner Phoebe got a package late last night.^I don't have time to deliver it, please go to my house and pick up the package.^Then when you get a chance, deliver it to her please.^Thanks. -Lewis",
-"Mail.TastyPastry":"This pastry was my favorite winter treat.^Try it fresh and hot with a glass of cold milk, it's honestly the best.^-Barron",
-"BarronsTastyPastry":"Barron's Tasty Pasty.",
-"mail.GemBirdPatties":"I heard a lady named Marnie has partners with the Thylacine sanctuary.^If you buy one of the beauties from her shop try out this recipe.^Thylacine's hunt Gem Birds, so you'd need to keep an eye out for their kills.^-Phoebe",
-"PhoebesGemBirdPatties":"Phoebe's Gem Bird Patties",
-"Mail.VoidJuice":"I discovered a pretty tasty recipe for juice, give it a shot!^-Barron",
-"BarronsVoidJuice":"Barron's Void Juice",
-"FC.BubbasBirth.Title":"Big News from the Alkias family!",
+"FC.CheesyWhiteRisotto.Mail.Title":"Cheesy White Risotto Recipe",
+"FC.BarronsBook.Mail.Title": "Barron's Book",
+"FC.Mail.BarronsBook":"I can't find my book anywhere, it's my favorite one.^I've looked all over the cemetery and Pelican Town for it.^If you come across it, please consider returning it.^I will happily reward you for your help as well.^-Barron",
+"FC.Mail.TheCuff":"For generations, my family has passed down a very special golden bracelet.^I've been wearing it for years, only to notice it isn’t on my wrist anymore.^I can't find it and it would mean the world to me if you find it and return it.^It's a very thick cuff bracelet.^I hope you've better luck than me.^-Phoebe",
+"FC.TheCuff.Mail.Title": "Missing Cuff",
+"FC.PhoebesPackage.Mail.Title": "Delivery for Phoebe",
+"FC.Mail.PhoebesPackage":"The toy store owner Phoebe got a package late last night.^I don't have time to deliver it, please go to my house and pick up the package.^Then when you get a chance, deliver it to her please.^Thanks. -Lewis",
+"FC.Mail.TastyPastry":"This pastry was my favorite winter treat.^Try it fresh and hot with a glass of cold milk, it's honestly the best.^-Barron",
+"FC.TastyPastry.Mail.Title":"Barron's Tasty Pasty.",
+"FC.Mail.GemBirdPatties":"I heard a lady named Marnie has partners with the Thylacine sanctuary.^If you buy one of the beauties from her shop try out this recipe.^Thylacine's hunt Gem Birds, so you'd need to keep an eye out for their kills.^-Phoebe",
+"FC.PhoebesGemBirdPatties.Mail.Title":"Phoebe's Gem Bird Patties",
+"FC.Mail.VoidJuice":"I discovered a pretty tasty recipe for juice, give it a shot!^-Barron",
+"FC.BarronsVoidJuice.Mail.Title":"Barron's Void Juice",
+"FC.BubbasBirth.Mail.Title":"Big News from the Alkias family!",
 "FC.BubbasBirth.Mail":"Since you were there during the appointment, I figured you'd want to know what was happening with Jinx.^Well, we didn't get those test results back in time, because jinx was pregnant!^She just gave birth to a little tazzy last night. If you want you should come stop by and say hello to little Bubba, he's a little feisty but he sure is cute. But not today, he's still getting used to his surroundings-Phoebe",
 "FC.PoppersSiblings.Mail": "To whom it may concern, the Agency of Foreign Animal Welfare has tasked me with homing several Arcanian Shevits. These species of rodent are large and require a Tropical Hutch to live healthy lives, a Shevit is similar to a house cat. So these species of Rodents are unable to live out in the wild. For a small adoption fee, you can come and take home a Shevit in need. Hope to see you soon^- Marnie",
-"FC.PoppersSiblings.Title": "Pops siblings.",
+"FC.PoppersSiblings.Mail.Title": "Pops siblings.",
 
 "FC.DezeriesGift.Mail": "Dearest @,^I've been contemplating our friendship for a while now and I wanted to give you something to show my appreciation. If you could join me at Passerby Cemetery, I will be thrilled to finally pass on a treasured object to you.^-Your friend, Dezerie Stone.",
 "FC.DezeriesGift.Mail.Title": "Part of the family.",
@@ -7007,7 +7014,7 @@ Shaavar's Information
 "FC.PeircingShot.Mail.Title" : "Piercing Shot Recipe.",
 "FC.CucaSerum.Mail" : "Hey, try out this recipe, would ya? Lyell says it doesn't do anything for him, but I bet it'll help you out.^-Grady",
 "FC.CucaSerum.Mail.Title" : "Cuca Serum Recipe.",
-"FC.SootheingCure.Mail" : "Come visit Driftwood and buy a selection of seeds, tonics and more. As an offering, here's a gift from me to you. Enjoy the recipe.^-Grady",
+"FC.SootheingCure.Mail" : "Come visit Driftwood!.^As an offering, here's a gift from me to you.^Enjoy the recipe.^-Grady",
 "FC.SootheingCure.Mail.Title" : "Soothing Cure Recipe.",
 "FC.RettNote.Mail": "After researching the situation, I have come to the conclusion that a spirit has been attempting to contact me. I've been made aware of a lost journal or a page of said journal being somewhere in the cemetery. If you could find it and bring it to my residents I would be grateful.^-Valerie",
 "FC.RettNote.Mail.Title": "The Missing Page.",
@@ -7089,7 +7096,7 @@ Shaavar's Information
 "FC.DeepCaveFruitJuiceRecipe.Title":"Deep Cave Fruit Juice Recipe",
 ///Custom Shops
 "FC.Jank.Shop": "Snails Barking Intensifies!",
-"FC.Lyells.Shop": "For every Arcanian Coin traded with me, I'll donate a equal amount of Ferngill currency to the cause.$1",
+"FC.Lyells.Shop": "For every Arcanian Coin traded with me, I'll donate a equal amount of Ferngill currency to the cause.",
 "FC.GP": "Hey, want something pretty?",
 "FC.GP.Closed": "Sorry pal, we're closed.",
 "FC.DodoShop": "My profits benefit the Dodo Foundation.",
@@ -7275,7 +7282,7 @@ Shaavar's Information
 
 "Marketpalooza.Jank": "He's dozing off as he waits for customers.",
 "GraveYard.ElderTropaTree": "There's something different about this stump...",
-"TravelingLibrary.RoadSign": "Road Work Ahead.",
+"TravelingLibrary.RoadSign": "Passerby Road.",
 "ThaliaPatio.Statue": "A statue of Arah.",
 "CottonPatio.TreeSign": "No Chopping Allowed!",
 "CottonPatio.TreeCut": "Cotton's Void Tree.",
@@ -7768,6 +7775,8 @@ Shaavar's Information
 "Turnabout.BeerStorage": "Does Eve make her own beer?",
 "Turnabout.FoodStorage": "It's dried food storage.",
 "Turnabout.Storage": "It's filled with odd spices.",
+"PasserbyRoad.Frog": "She's breathing softly, is she sleeping? Her eyes open though!",
+
 //// Anti Social Npcs
 ////EVE
 "FC.Eve": "Eve",
@@ -7881,6 +7890,8 @@ Shaavar's Information
 "RejectItem_125": "It was common for cultures to carve documents instead of writing them.#$b#This one...It states a warning.$2#$b#But I can't make out the full translation, the memories are so...Overwhleming.$2#$b#%He spits it out and gives it back.", //Golden Relic
 "RejectItem_???": "???$2#$b#%He spits it out and gives it back.", //strange doll1
 ///Custom Map Names
+
+"FC.LoreMemorial": "The Kings Memorial",
 "FC.PasserbyCliffs": "Passerby Cliffs",
 "FC.TurnaboutSaloon": "Turnabout Saloon",
 "FC.TurnaboutSaloonBasement": "Turnabout Saloon Basement",
@@ -7897,24 +7908,33 @@ Shaavar's Information
 "FC.Halkiasresidents": "Halkias Residence",
 "FC.ApplegateResidents": "Applegate Residence.",
 "FC.JohnsTempRoom": "Maverick's Shed",
-"FC.BoatHouse": "Boat Green House",
+"FC.BoatHouse": "S.S.Valan Stone",
 "FC.FakeNpc": "the Stone Residence.",
 "FC.CottonsHouse": "Behind The Falls.",
 "FC.BoxysHouse": "Boxy's House",
 "FC.GradysRoom": "Grady's Room",
 "FC.RoswellsCoop": "Roswell's Coop",
 "FC.LyellsProperty": "Driftwood Farm",
-"FC.HalkiasBarn": "Halkias Barn.",
-"FC.HalkiasCoop": "Halkias Coop",
-"FC.HalkiasShed": "Halkias Shed",
+"FC.HalkiasBarn": "DriftWood Barn.",
+"FC.HalkiasCoop": "DriftWood Coop",
+"FC.HalkiasShed": "DriftWood Shed",
 "FC.NiksRoom": "Nikolai's Room",
 "FC.AlansRoom": "Alan's Room",
-"FC.AncientGraveYard": "Ancient Graveyard",
-"FC.GuardianHome": "Guardian's Home",
-"FC.ExhibitSecondFloor": "Passerby Exhibit Second Floor",
-"FC.PasserbyExhibit": "Passerby Exhibit First Floor",
+"FC.AncientGraveYard": "The Circle",
+"FC.GuardianHome": "Guardian's Shack",
+"FC.PasserbyExhibit": "Passerby Exhibit",
 "FC.SecretCave": "Falls Cave",
 "FC.Marketpalooza": "Marketpalooza",
+"FC.FisherHome": "Jank's",
+"FC.PasserbyRestrooms": "Passerby Restrooms",
+"FC.ElderTropaTree": "Elder Tropa Tree",
+"GotzPigPen": "Gotz Pig Pen",
+"FC.PasserbyRoundabout": "Passerby Roundabout",
+"FC.FallsCave": "Falls Cave",
+"FC.JanksGoodies": "Janks' Goodies",
+"FC.LyellsTruck": "Lyell's Truck",
+"FC.DriftWoodCampSite": "DriftWood CampSite",
+"FC.DriftWoodBathNook": "DriftWood Bath Nook",
 ///Marketpalooza
 "Event.cs.1531": "Don't forget to enter a raffle ticket to win a prize at the end.$6#$e#$q -1 null#Should I start the raffle?#$r -1 0 yes#Yes.#$r -1 0 no#Not yet.",
 "mainEvent1.01": "Thank you everyone for coming!$1", //Nikolai
@@ -7991,7 +8011,7 @@ Shaavar's Information
 "Marketpalooza2.14": "Hey there! I'm still developing what type of trinkets I would make for my own stall, but it's coming along.$1", //Maru
 "Marketpalooza2.15": "I would really like to find a new hoodie if I can can, but first I'm sort of obsessed with some of the weapons this uh...Guinea folk? Is selling...", //Sebastian
 "Marketpalooza2.16": "This time around, I have some pretty new stock. Care to take a look?$1", //Pierre
-"Marketpalooza2.17": "I wish we could just enjoy ourselves, but this is for a good cause.$1#$b#Besides,seeing pierre do charity work makes me happy.$1", //Caroline
+"Marketpalooza2.17": "I wish we could just enjoy ourselves, but this is for a good cause.$1#$b#Besides, seeing pierre do charity work makes me happy.$1", //Caroline
 "Marketpalooza2.18": "I've saved up enough money for one of Nikolai's fresh speciality honey.$1", //Linus
 "Marketpalooza2.19": "Do you think Emily would teach me some stuff about sewing? If I could mend my pants, maybe my granny could have more money for this event.$1", //Alex
 "Marketpalooza2.20": "It's too cold for this, couldn't we hold a charity event during, I don't know.$2#$b#Summer?!$3", //George
@@ -8048,7 +8068,7 @@ Shaavar's Information
 "TheExhibit.08": "Eh you hear him from there?#$b#Hearing like a Shevit, Grady doesn't miss anything.$1", //Lyell
 "TheExhibit.09": "I'll be sure to reward you for the artifacts as well, maybe a payment of coin?$1", //Thalia
 "TheExhibit.10": "I must get back to work though, those Artifacts Lyell brought over won't restore themselves.$1", //Thalia
-"TheExhibit.11": "Hope you can find some things for her @, I would love for the Exhibit to expand into something really amazing.$1#$b#Oh, I've noticed that a lot of Artifacts here in Passerby seem to hidden under white flowers, if you see one growing I suggest digging it up.$1#$b#Those flowers are invasive anyway, so you'll be doing the land a favor.$1#$b#Good luck @.$1", //Lyell
+"TheExhibit.11": "Hope you can find some things for her @, I would love for the Exhibit to expand into something really amazing.$1#$b#Oh, I've noticed that a lot of Artifacts are buried around Passerby, if you see one growing I suggest digging it up.$1#$b#Those flowers are invasive anyway, so you'll be doing the land a favor.$1#$b#Good luck @.$1", //Lyell
 "TheBridge.00": "You...You freed me.$2", //Cotton
 "TheBridge.01": "I don't know what your angle is...$2", //Cotton
 "TheBridge.02": "But thank you, I've been stuck in there for years...$2", //Cotton
@@ -8064,7 +8084,7 @@ Shaavar's Information
 "UnlockTropaTree.07": "....$2#$b#Yeah...I didn't mean to lose them, I wanted to donate them to the Exhibit.$2", //Lyell
 "UnlockTropaTree.08": "I know buddy, don't worry we'll find them.$1", //Grady
 "UnlockTropaTree.09": "Well hey, take this Tropa tree sapling, it bears fruit in winter and you can make some pretty expensive wines from it by putting the fruit into a keg and then aging the wine it creates in a cask.$1", //Lyell
-"UnlockTropaTree.10": "Now that that's take care of, we actually need to prepare the Reu tree seeds for sell too.$1", //Grady
+"UnlockTropaTree.10": "Now that that's take care of, we actually need to prepare the Reu tree seeds for planting.$1", //Grady
 "UnlockTropaTree.11": "Right, I forgot about the Reu seeds...$3#$b#Let's take care of that.", //Lyell
 "UnlockTropaTree.12": "Be happy!", //Lyell
 "UnlockTropaTree.13": "And stay shapely!", //Grady
@@ -8682,7 +8702,7 @@ Shaavar's Information
 "FireWorks2.09": "...$2#$b#I don't think you understand how fleeting things are @.$2#$b#But...I guess these things do matter, I just wish life would slow down...And that all the bullshit inside my head would quiet down for one night.$5",
 "FireWorks2.10": "It works out for people, but not for me.$1#$b#For me, things just keep going. And going...And going...$2#$b#Maybe one day you'll get it from my perspective...Lately I've cared less about secrets and more about peace so maybe I'll send you my dirty laundry.$3#$b#I'm kidding mostly, I don't want to bother people with my brand of problems.$2",
 "FireWorks2.11": "Listen.",
-"FireWorks2.12 ": "If you see Grady, let him know I'm going into Zuzu city for a few days.$2#$b#I'm needing to be alone.$2#$b#Guess that truck of mine is going out for spin, license be damned.$5",
+"FireWorks2.12": "If you see Grady, let him know I'm going into Zuzu city for a few days.$2#$b#I'm needing to be alone.$2#$b#Guess that truck of mine is going out for spin, license be damned.$5",
 "LyellReturns.00": "I hope it's okay to visit, I wanted to say thank you @.$2#$b#For checking on me the other day, I was in a real bad place and I needed that conversation to happen.#1#$b#I know I can always talk to Grady, but I hate worrying his poor heart.$2#$b#Here, I got this for you too...#$b#Thanks again.",
 "TalkingWithLyell.00": "Hey there @, great to see you visiting Turnabout.$1#$b#Eve and Gus has been working really hard to get this place set up.#$b#The Inn down in the basement was even finished in record time.#$b#I'm not exactly working here offically, but I come by whenever Eve phones me for help.$1#$b#Like on busy nights like this!$1",
 "TalkingWithLyell.01": "Does @ want anything to drink? Or maybe something to eat?$1#$b#Eve might even be a better cook then I am you know.$1",
@@ -8767,13 +8787,11 @@ Shaavar's Information
 "ElizabethSetting.09": "Come on buddy, I think you need some rest.$7#$b#You know how you get when you drink whiskey.$2", //Grady
 "ElizabethSetting.10": "I know...I'm sorry Grady, be right there.$2", //Lyell
 "ElizabethSetting.11": "I'll be seeing you friend, be happy and stay shapely.$2", //Lyell
-
 "RoswellsEscape.00": "She makes a low, angry sound at you.$3", //Roswell
 "RoswellsEscape.01": "Give Roswell a dancer fish?#Yes#No",
 "RoswellsEscape.02": "She's getting ready to charge.",
 "RoswellsEscape.03": "You made Roswell very happy, you've earned her favor for the time being.$1", //Roswell
 "RoswellsEscape.04": "Hm...", //Zuuie
-
 "GreatNews.00": "Vincent?", //Jodi
 "GreatNews.01": "You ready?", //Jodi
 "GreatNews.02": "Sigh", //Grady
@@ -10084,7 +10102,7 @@ Shaavar's Information
 "ShaavarIntroduction.00": "Abomination! You're not welcomed here-$3", //Shaavar
 "ShaavarIntroduction.01": "Gurgles...", //CorruptedGhost
 "ShaavarIntroduction.02": "You there!$3#$b#What are you doing here, how did you find this place?!$3", //Shaavar
-"ShaavarIntroduction.03": "There's not been a stranger in the circle for over twenty years!$3", //Shaavar
+"ShaavarIntroduction.03": "There's not been any outsiders in the circle for over twenty years!$3", //Shaavar
 "ShaavarIntroduction.04": "Twenty...Years...", //Shaavar
 "ShaavarIntroduction.05": "This place is...sacred land, my ancestors rest here.$2#$b#I am here to keep them safe...Safe from...#$b#I...$2", //Shaavar
 "ShaavarIntroduction.06": "I can't remember...$5", //Shaavar
@@ -10119,4 +10137,21 @@ Shaavar's Information
 "TheTerror.20": "I'm outta here.",
 "TheTerror.21": "Old Prick.",
 "TheTerror.22": "What even...That was the weirdest interaction I ever had...$2#$b#I'm so confused...$2#$b#And...did that kid look green to you?$2",
+"Crunch.00": "Hey!",
+"Crunch.01": "Don't you dare touch those slimes!$5",
+"Crunch.02": "They're mine!",
+"Crunch.03": "Ah, lip smacking good.$1#$b#You know, this is familiar.$1#$b#I had a friend I met this way.$1",
+"Crunch.04": "You humans are all so weak, I heard ya'll don't even eat your slimes when you fight them!$2",
+"Crunch.05": "#Ew, why would I eat them?#No, the poor slimes!#Do they taste good?",
+"Crunch.06": "Uh, because they're tasty, it's a great way to stay energized too when deep in the mines.",
+"Crunch.07": "Aw, what's the matter? Gonna cry over a slime?$1#$b#It's good eating, I eat them all the time when I'm adventuring through the mines.",
+"Crunch.08": "Yeah! They're great and they really give you a kick of energy too.$1#$b#Though, I don't know if a human could actually stomach a slime...#$b#You know, cause of the toxins.$1#$b#But hell, you should try one and find out. Let me know how it goes if you don't die!$1",
+"Crunch.09": "Whatever.",
+"Crunch.10": "The mines is my territory by the way, but I guess I'll let you get minerals anyway.$1#$b#But only because I'm feeling so generous and nice.$5",
+"Crunch.11": "You know, my...I guess dad?$2#$b#He hated me going down into the mines, always was scared I'd get killed or something.$2#$b#But I'm not no weakling you know?$1#$b#But well, him being a bear and all. He probably saw me as weak...$2",
+"Crunch.12": "#You're part bear?#I'm sure he didn't, he just cared about you.",
+"Crunch.13": "No you idiot, I'm not actually part bear. He just raised me as his own.$5#$b#You know, before I was trapped behind the falls and all...$2",
+"Crunch.14": "Maybe...I don't know about that honestly, he was more concerned with maple syrup and trash usually.",
+"Crunch.15": "Whatever, I'm going to go visit a friend.$1#$b#Been forever since I seen him, hopefully the little shadow remembers me.$1",
+"Crunch.16": "Move it.",
 }

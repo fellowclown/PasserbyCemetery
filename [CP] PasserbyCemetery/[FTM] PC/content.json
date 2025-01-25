@@ -19,6 +19,63 @@
         "WinterItemIndex": [
           "Fellowclown.PC_StoneShroom"
         ],
+        "UniqueAreaID": "Fellowclown.PC_PasserbyRoad forage area 1",
+        "MapName": "Fellowclown.PC_PasserbyRoad",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Grass",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [
+          "Stone",
+          "Wood",
+          "Quarry"
+        ],
+        "IncludeCoordinates": [
+          "0,0/28,37"
+        ],
+        "ExcludeCoordinates": [
+          "40,38/44,47"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          "Fellowclown.PC_HeavyRoot"
+        ],
+        "SummerItemIndex": [
+          "Fellowclown.PC_FairyFingers"
+        ],
+        "FallItemIndex": [
+          "Fellowclown.PC_FireSnapper",
+          "Fellowclown.PC_SpiritBud"
+        ],
+        "WinterItemIndex": [
+          "Fellowclown.PC_StoneShroom"
+        ],
         "UniqueAreaID": "Fellowclown.PC_PasserbyCliffs forage area 1",
         "MapName": "Fellowclown.PC_PasserbyCliffs",
         "MinimumSpawnsPerDay": 2,
@@ -877,6 +934,68 @@
         ],
         "ExcludeCoordinates": [
           "30,44/49,53"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 2000,
+          "EndTime": 2600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 6,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "rockGolemSpawn"
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "SpawnWeight": 3,
+              "HP": 30,
+              "Damage": 4,
+              "Defense": 1,
+              "EXP": 5,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/Wilderness Golem",
+              "RelatedSkill": "Combat",
+              "ExtraLoot": false,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Fellowclown.PC_ArcaCoin",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "PasserbyRoad2",
+        "MapName": "Fellowclown.PC_PasserbyRoad",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 8,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "0,0/48,47"
+        ],
+        "ExcludeCoordinates": [
+          "1,45/35,47"
         ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {

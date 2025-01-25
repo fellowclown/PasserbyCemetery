@@ -47,7 +47,7 @@
 
 "Sat": "MAIL {{ModID}}_FreeCotton.Mail/GOTO NO_SCHEDULE/610 Town 47 68 1 {{ModID}}_CottonLollipop/1000 Beach 38 33 3/1400 Forest 37 95 1 {{ModID}}_CottonLollipop/1800 Mountain/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
 
-"Sun": "MAIL {{ModID}}_FreeCotton.Mail/GOTO NO_SCHEDULE/610 {{ModID}}_SecretCave 9 10 2 {{ModID}}_CottonPout/900 {{ModID}}_OldGraveYard 29 78 1 {{ModID}}_CottonLollipop/1200 {{ModID}}_TravelingTrailer/1500 {{ModID}}_SecretCave 5 8 2 {{ModID}}_CottonSit2/2000 {{CottonTurnAbout}}/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
+"Sun": "MAIL {{ModID}}_FreeCotton.Mail/GOTO NO_SCHEDULE/610 {{ModID}}_SecretCave 9 10 2 {{ModID}}_CottonPout/900 {{ModID}}_OldGraveYard 29 78 1 {{ModID}}_CottonLollipop/1200 Mine 15 6 1 {{ModID}}_CottonLollipop/1500 {{ModID}}_SecretCave 5 8 2 {{ModID}}_CottonSit2/2000 {{CottonTurnAbout}}/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
 
 "rain": "MAIL {{ModID}}_FreeCotton.Mail/GOTO NO_SCHEDULE/610 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"/1200 Animalshop 16 13 2/1500 {{ModID}}_CottonsHome 7 7 2/1900 {{ModID}}_CottonsHome 11 19 3/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
 

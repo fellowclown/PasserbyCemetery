@@ -64,7 +64,7 @@
 "Action": "EditData",
 "Target": "Data/FishPondData",
 "Entries": {
-"{{ModID}}_GraveCrab": {
+"{{ModID}}_GulpFish": {
 "ID": "{{ModID}}_GraveCrab",
 "RequiredTags": [
 "fish_GraveCrab", "fish_crab_pot","fish_freshwater",

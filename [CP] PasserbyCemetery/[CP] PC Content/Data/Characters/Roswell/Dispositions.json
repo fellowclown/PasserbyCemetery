@@ -244,7 +244,7 @@ NPCSPAWNS
 "Precedence": -20,
 },
     ],
-"MugShotSourceRect": { "X": 6, "Y": 7, "Width": 16, "Height": 24 },
+"MugShotSourceRect": { "X": 0, "Y": 330, "Width": 16, "Height": 16 },
 "Size": { "X": 32, "Y": 32 },
 "Breather":false,
 "BreathChestRect":null,

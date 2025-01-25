@@ -8,9 +8,8 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Grady": "{{i18n:Grady.gift.love}}/395 {{ModID}}_MovoraptorEgg {{ModID}}_GaggleShrooms/{{i18n:Grady.gift.like}}/{{ModID}}_DragaDoughnut {{ModID}}_CapWedges {{ModID}}_LoMaCakes {{ModID}}_ZinfazuIcecream {{ModID}}_IceBerryWine {{ModID}}_FarmhandSupper {{ModID}}_AdáuulaCakes {{ModID}}_WarpRootTea/{{i18n:Grady.gift.dislike}}/{{ModID}}_DragaWhiskey {{ModID}}_LavaPop/{{i18n:Grady.gift.hate}}/346/{{i18n:Grady.gift.neutral}}/{{ModID}}_TropaWine/",
-
+"FC.Grady": "{{i18n:Grady.gift.love}}/239 241 253 {{ModID}}_GemmedCuff {{ModID}}_HammerAndPick {{ModID}}_Guardian3 {{ModID}}_Guardian2 {{ModID}}_Guardian1 {{ModID}}_ShevitFigure {{ModID}}_Hairclip {{ModID}}_Necklace2 {{ModID}}_Necklace1 {{ModID}}_Rattler {{ModID}}_FamilyTablet {{ModID}}_LifeTablet {{ModID}}_MiniphantFigure {{ModID}}_AluuaTablet {{ModID}}_ArahTablet {{ModID}}_LipheumTablet {{ModID}}_Pot2 {{ModID}}_Pot1 {{ModID}}_MaleWarrior {{ModID}}_FemaleWarrior {{ModID}}_ChocoFrog {{ModID}}_RainbowHoneyPichi {{ModID}}_ChocoBar/{{i18n:Grady.gift.like}}/243 238 237 {{ModID}}_JellyBellyBumbleBees {{ModID}}_SnowPop {{ModID}}_BayDrop/{{i18n:Grady.gift.dislike}}/236 235 231 {{ModID}}_RoastedReuuNut {{ModID}}_StuffedMidnightCarp {{ModID}}_DragaTailPudding {{ModID}}_FairyFingerTea/{{i18n:Grady.gift.hate}}/215 208 209 {{ModID}}_FirePepperMeatPie/{{i18n:Grady.gift.neutral}}// ",
 }
- },
+}
 ]
 }

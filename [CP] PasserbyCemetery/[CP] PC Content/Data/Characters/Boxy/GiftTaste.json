@@ -1,14 +1,14 @@
 { "Changes": [
 /************************************************
-Gift Tastes
-************************************************/
-{
+GIFT TASTES
+ ************************************************/
+ {
 "LogName": "GiftTastes",
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Boxy": "{{i18n:Boxy.gift.love}}/684 698 699 700 701 702/{{i18n:Boxy.gift.like}}/704 705 706 707 708/{{i18n:Boxy.gift.dislike}}/723 715 716 717 718/{{i18n:Boxy.gift.hate}}/719 720 721 722/{{i18n:Boxy.gift.neutral}}/131/",
+"FC.Boxy": "{{i18n:Boxy.gift.love}}/684 721 717 {{ModID}}_GulpFish {{ModID}}_SeafoamHoney {{ModID}}_RiverBedJelly/{{i18n:Boxy.gift.like}}/67 767 716 {{ModID}}_SmallGaleabisonMilk {{ModID}}_MovoraptorFeather {{ModID}}_FireSnapper/{{i18n:Boxy.gift.dislike}}/234 250 260 {{ModID}}_DragaTail {{ModID}}_VoidFruit/{{i18n:Boxy.gift.hate}}/24 78 12 {{ModID}}_DragaWhiskey {{ModID}}_WarpRootTea {{ModID}}_VoidMilk/{{i18n:Boxy.gift.neutral}}/{{ModID}}_MovoraptorEgg {{ModID}}_MaleMovoraptorEgg {{ModID}}_FrenchDodoEgg/ ",
 }
-},
+}
 ]
 }

@@ -8,8 +8,8 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Nikolai": "{{i18n:Nikolai.gift.love}}/{{ModID}}_SunshineHoney {{ModID}}_CherryBlossomHoney 22 60 340/{{i18n:Nikolai.gift.like}}/{{ModID}}_VoidHoney {{ModID}}_ChocoFruit {{ModID}}_ButtonFruit {{ModID}}_YohoFruit 342 346 348/{{i18n:Nikolai.gift.dislike}}/16 20 78/{{i18n:Nikolai.gift.hate}}/372/{{i18n:Nikolai.gift.neutral}}/66 392/",
+"FC.Nikolai": "{{i18n:Nikolai.gift.love}}/459 340 807 {{ModID}}_MovoraptorFeather {{ModID}}_SunshineHoney {{ModID}}_SnowHoney/{{i18n:Nikolai.gift.like}}/194 167 18 {{ModID}}_SeafoamHoney {{ModID}}_VoidHoney {{ModID}}_CherryBlossomHoney {{ModID}}_LavaHoney {{ModID}}_ChocoBar/{{i18n:Nikolai.gift.dislike}}/139 222 244 {{ModID}}_GreenAppleHoneyPop {{ModID}}_BudJelly {{ModID}}_HoneyGopper/{{i18n:Nikolai.gift.hate}}/58 259 260 {{ModID}}_PaneekiStirFry {{ModID}}_PopachiniStew {{ModID}}_RefinedTropaWine/{{i18n:Nikolai.gift.neutral}}/{{ModID}}_MovoraptorMayo {{ModID}}_CucaSerum {{ModID}}_FarmHandSupper/ ",
 }
- },
+}
 ]
 }

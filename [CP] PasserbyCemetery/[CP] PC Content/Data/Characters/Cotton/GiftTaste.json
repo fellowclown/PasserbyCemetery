@@ -8,8 +8,8 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Cotton": "{{i18n:Cotton.gift.love}}/203 {{ModID}}_FirePepperMeatPie {{ModID}}_VoidHoney {{ModID}}_VoidMilk 305 308/{{i18n:Cotton.gift.like}}/{{ModID}}_VoidFruit 769 795/{{i18n:Cotton.gift.dislike}}/303 {{ModID}}_DodoMayo {{ModID}}_DeepCaveFruitJuice/{{i18n:Cotton.gift.hate}}/346 {{ModID}}_LargeArcaGoatMilk {{ModID}}_SmallArcaGoatMilk/{{i18n:Cotton.gift.neutral}}/206/",
+"FC.Cotton": "{{i18n:Cotton.gift.love}}/118 82 148 308 {{ModID}}_VoidHoney {{ModID}}_VoidJuice {{ModID}}_VoidMilk {{ModID}}_VoidFruit/{{i18n:Cotton.gift.like}}/94 195 205 {{ModID}}_MashedGiggles {{ModID}}_GiggleSmoothie {{ModID}}_GiggleBowlSalad {{ModID}}_LavaPop/{{i18n:Cotton.gift.dislike}}/208 211 232 {{ModID}}_DragaWhiskey {{ModID}}_FairyFingers {{ModID}}_RootJuice/{{i18n:Cotton.gift.hate}}/233 609 611 {{ModID}}_HotCereal {{ModID}}_FrostedCake {{ModID}}_EnchantedDrink/{{i18n:Cotton.gift.neutral}}/{{ModID}}_MilkCoffee {{ModID}}_MeekFruitLollipop {{ModID}}_HeaviousFruitSmoothie/ ",
 }
- },
+}
 ]
 }

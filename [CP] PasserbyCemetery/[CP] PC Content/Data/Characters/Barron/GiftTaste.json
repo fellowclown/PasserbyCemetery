@@ -8,19 +8,9 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Barron": "{{i18n:Barron.gift.love}}/Fellowclown.TD_GemBirdPatties 60 84 208/{{i18n:Barron.gift.like}}/211 307 340/{{i18n:Barron.gift.dislike}}/399 403 416/{{i18n:Barron.gift.hate}}/426 445 542/{{i18n:Barron.gift.neutral}}/346 350/ ",
+"FC.Barron": "{{i18n:Barron.gift.love}}/607 606 608 {{ModID}}_MiniphantFigure {{ModID}}_YohoHash {{ModID}}_ChocoBun/{{i18n:Barron.gift.like}}/614 618 733 {{ModID}}_DeepCaveFruitJuice {{ModID}}_HotChoco {{ModID}}_MegaWrap/{{i18n:Barron.gift.dislike}}/732 807 612 {{ModID}}_DodoMayo {{ModID}}_LemonberryJuice {{ModID}}_KingsRangoonDish/{{i18n:Barron.gift.hate}}/64 395 394 {{ModID}}_HoneyCrumble {{ModID}}_AcornCake {{ModID}}_SweetenBreadPudding/{{i18n:Barron.gift.neutral}}/{{ModID}}_ZinfazuIcecream {{ModID}}_IceBerryWine {{ModID}}_FarmHandSupper/ ",
 }
- },
-   {
-"LogName": "GiftTastes",
-"Action": "EditData",
-"Target": "Data/NPCGiftTastes",
-             "When": {
-"HasMod |contains=TheFrenchDodo.RodneyOBrien": true,
- },
-"Entries": {
-"FC.Barron": "{{i18n:Barron.gift.love}}/(O)WWWA.AutographedPhoto Fellowclown.TD_GemBirdPatties 60 84 208/{{i18n:Barron.gift.like}}/211 307 340/{{i18n:Barron.gift.dislike}}/399 403 416/{{i18n:Barron.gift.hate}}/426 445 542/{{i18n:Barron.gift.neutral}}/346 350/ ",
 }
- },
 ]
 }
+

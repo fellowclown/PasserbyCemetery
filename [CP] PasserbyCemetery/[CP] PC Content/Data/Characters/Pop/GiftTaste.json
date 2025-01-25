@@ -8,20 +8,37 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Popper": "{{i18n:Popper.gift.love}}/808 {{ModID}}_Button 78 105 138 167/{{i18n:Popper.gift.like}}/174 229 118/{{i18n:Popper.gift.dislike}}/143 157 152 222/{{i18n:Popper.gift.hate}}/248 260 264 284/{{i18n:Popper.gift.neutral}}/250 256/ ",
+"FC.Popper": "{{i18n:Popper.gift.love}}/110 90 167 {{ModID}}_Button {{ModID}}_JellyBellyBumbleBees {{ModID}}_ShevitFigure {{ModID}}_HoneyGopper/{{i18n:Popper.gift.like}}/296 307 342 {{ModID}}_LureBerries {{ModID}}_FairyCap/{{i18n:Popper.gift.dislike}}/346 348 648 {{ModID}}_AdauulaFlour {{ModID}}_GemBirdMeat/{{i18n:Popper.gift.hate}}/723 732 800 {{ModID}}_FirePepper {{ModID}}_FairyFingerTea {{ModID}}_MilkCoffee/{{i18n:Popper.gift.neutral}}/{{ModID}}_RootJuice {{ModID}}_FrenchDodoEgg {{ModID}}_MaleMovoraptorEgg {{ModID}}_MovoraptorEgg/ ",
 }
- },
+},
  {
 "LogName": "GiftTastes",
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Popper": "{{i18n:HumanPopper.gift.love}}/808 {{ModID}}_Button 78 105 138 167/{{i18n:HumanPopper.gift.like}}/174 229 118/{{i18n:HumanPopper.gift.dislike}}/143 157 152 222/{{i18n:HumanPopper.gift.hate}}/248 260 264 284/{{i18n:HumanPopper.gift.neutral}}/250 256/ ",
+"FC.Popper": "{{i18n:HumanPopper.gift.love}}/110 90 167 {{ModID}}_Button {{ModID}}_JellyBellyBumbleBees {{ModID}}_ShevitFigure {{ModID}}_HoneyGopper/{{i18n:HumanPopper.gift.like}}/296 307 342 {{ModID}}_LureBerries {{ModID}}_FairyCap/{{i18n:HumanPopper.gift.dislike}}/346 348 648 {{ModID}}_AdauulaFlour {{ModID}}_GemBirdMeat/{{i18n:HumanPopper.gift.hate}}/723 732 800 {{ModID}}_FirePepper {{ModID}}_FairyFingerTea {{ModID}}_MilkCoffee/{{i18n:HumanPopper.gift.neutral}}/{{ModID}}_RootJuice {{ModID}}_FrenchDodoEgg {{ModID}}_MaleMovoraptorEgg {{ModID}}_MovoraptorEgg/ ",
 },
    "When": {
 "HasFlag":"{{ModID}}_TrueShape.Mail",  
-
 }
 },
+{
+"LogName": "Gift Tastes Vanilla",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"TextOperations": [
+///FC.Popper
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "FC.Popper", "1"], 
+"Value": "Objection777_JojaColaExpanded_JC_Cherry Objection777_JojaColaExpanded_JC_Grape Objection777_JojaColaExpanded_JC_Cream Objection777_JojaColaExpanded_JC_Star Objection777_JojaColaExpanded_JC_Quartz Objection777_JojaColaExpanded_JC_Bean Objection777_JojaColaExpanded_JC_ParrotPunch Objection777_JojaColaExpanded_JC_Gamer Objection777_JojaColaExpanded_JC_BajojaBlast Objection777_JojaColaExpanded_JC_HoneyLightning Objection777_JojaColaExpanded_JC_Bluu Objection777_JojaColaExpanded_JC_Recharge Objection777_JojaColaExpanded_JC_Overcharge Objection777_JojaColaExpanded_JC_RechargePeach Objection777_JojaColaExpanded_JC_Battery Objection777_JojaColaExpanded_JC_JackedCherry Objection777_JojaColaExpanded_JC_Jacked Objection777_JojaColaExpanded_JC_JackedGold Objection777_JojaColaExpanded_JC_Void Objection777_JojaColaExpanded_JC_Berserk Objection777_JojaColaExpanded_JC_Z Objection777_JojaColaExpanded_JC_Burn Objection777_JojaColaExpanded_JC_PrismaticPride Objection777_JojaColaExpanded_JC_Hydro Objection777_JojaColaExpanded_JC_Fantasy Objection777_JojaColaExpanded_JC_AllStar Objection777_JojaColaExpanded_JC_Do Objection777_JojaColaExpanded_JC_DoCodeStrawberry Objection777_JojaColaExpanded_JC_DoBlueJazz Objection777_JojaColaExpanded_JC_Rip Objection777_JojaColaExpanded_JC_Gold Objection777_JojaColaExpanded_JC_Freedom Objection777_JojaColaExpanded_JC_OriginalRecipe Objection777_JojaColaExpanded_JC_Sarsaparilla Objection777_JojaColaExpanded_JC_Pink Objection777_JojaColaExpanded_JC_Wumbus Objection777_JojaColaExpanded_JC_Rare Objection777_JojaColaExpanded_JC_Discovery Objection777_JojaColaExpanded_JC_Come",
+"Delimiter": " ",
+"When": {
+"HasMod |contains=Objection777.JojaColaExpandedCode": true,}
+}
 ]
 }
+]
+}
+

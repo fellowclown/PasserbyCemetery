@@ -104,7 +104,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.John 19 34 2",
+                    "Value": "FC.John 20 34 2",
                     "Delimiter": "/"
                 },
                      {
@@ -113,19 +113,9 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.John 19 34 2",
+                    "Value": "FC.John 20 34 2",
                     "Delimiter": "/"
                 },
-                                     {
-             "Operation": "Append",
-             "Target": ["Fields", "set-up{{YearCheck}}", 5],
-             "Value": "/animate FC.John false true 360 31 31 31"
-            },
-            {
-             "Operation": "Append",
-             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
-             "Value": "/animate FC.John false true 360 31 31 31",
-        },
         ]
     },
                    {

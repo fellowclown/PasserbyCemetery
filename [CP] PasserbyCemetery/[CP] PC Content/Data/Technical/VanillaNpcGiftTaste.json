@@ -1,0 +1,1444 @@
+{
+"Changes": [
+/************************************************
+Vanilla NPC GIFT TASTES
+ ************************************************/
+ ///Also applies to custom NPCS
+ ///Universal Love
+ {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": ["Entries", "Universal_Love"],
+            "Value": "",
+            "Delimiter": " "
+        }
+    ]
+},
+ ///Universal Likes
+ {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": ["Entries", "Universal_Likes"],
+            "Value": "",
+            "Delimiter": " "
+        }
+    ]
+},
+ ///Universal Dislikes
+ {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": ["Entries", "Universal_Dislikes"],
+            "Value": "",
+            "Delimiter": " "
+        }
+    ]
+},
+ ///Universal Hates
+ {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": ["Entries", "Universal_Hate"],
+            "Value": "",
+            "Delimiter": " "
+        }
+    ]
+},
+ ///Universal Neutral
+ {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": ["Entries", "Universal_Neutral"],
+            "Value": "",
+            "Delimiter": " "
+        }
+    ]
+},
+////Character specific gift taste
+{
+"LogName": "Gift Tastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"TextOperations": [
+///Abigail
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Abigail", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Abigail", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Abigail", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Abigail", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Abigail", "9"],
+"Value": "",
+"Delimiter": " "
+},
+ ///Alex
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Alex", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Alex", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Alex", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Alex", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Alex", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+ ///Caroline
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Caroline", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Caroline", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Caroline", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Caroline", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Caroline", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+ ///Clint
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Clint", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Clint", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Clint", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Clint", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Clint", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+ ///Demetrius
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Demetrius", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Demetrius", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Demetrius", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Demetrius", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Demetrius", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+ ///Dwarf
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Dwarf", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Dwarf", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Dwarf", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Dwarf", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Dwarf", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+ ///Elliott
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Elliott", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Elliott", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Elliott", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Elliott", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Elliott", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Emily
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Emily", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Emily", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Emily", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Emily", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Emily", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Evelyn
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Evelyn", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Evelyn", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Evelyn", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Evelyn", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Evelyn", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///George
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "George", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "George", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "George", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "George", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "George", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Gus
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Gus", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Gus", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Gus", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Gus", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Gus", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Harvey
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Harvey", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Harvey", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Harvey", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Harvey", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Harvey", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Jas
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Jas", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Jas", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Jas", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Jas", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Jas", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Jas", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Jas", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Jas", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Jas", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Jas", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Jodi
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Jodi", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Jodi", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Jodi", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Jodi", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Jodi", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Kent
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Kent", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Kent", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Kent", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Kent", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Kent", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Krobus
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Krobus", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Krobus", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Krobus", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Krobus", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Krobus", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Leah
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Leah", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Leah", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Leah", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Leah", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Leah", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Lewis
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Lewis", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Lewis", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Lewis", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Lewis", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Lewis", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Linus
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Linus", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Linus", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Linus", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Linus", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Linus", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Marnie
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Marnie", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Marnie", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Marnie", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Marnie", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Marnie", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Maru
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Maru", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Maru", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Maru", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Maru", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Maru", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Marnie
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Marnie", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Marnie", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Marnie", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Marnie", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Marnie", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Maru
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Maru", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Maru", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Maru", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Maru", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Maru", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Pam
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Pam", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Pam", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Pam", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Pam", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Pam", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///ParrotBoy
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "ParrotBoy", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "ParrotBoy", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "ParrotBoy", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "ParrotBoy", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "ParrotBoy", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Penny
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Penny", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Penny", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Penny", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Penny", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Penny", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Pierre
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Pierre", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Pierre", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Pierre", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Pierre", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Pierre", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Robin
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Robin", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Robin", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Robin", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Robin", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Robin", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Sam
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Sam", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Sam", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Sam", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Sam", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Sam", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Sandy
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Sandy", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Sandy", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Sandy", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Sandy", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Sandy", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Sebastian
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Sebastian", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Sebastian", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Sebastian", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Sebastian", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Sebastian", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Shane
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Shane", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Shane", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Shane", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Shane", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Shane", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Vincent
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Vincent", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Vincent", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Vincent", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Vincent", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Vincent", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Willy
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Willy", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Willy", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Willy", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Willy", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Willy", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+///Wizard
+ {
+// Love
+"Operation": "Append",
+"Target": ["Fields", "Wizard", "1"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Like
+"Operation": "Append",
+"Target": ["Fields", "Wizard", "3"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Dislike
+"Operation": "Append",
+"Target": ["Fields", "Wizard", "5"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Hate
+"Operation": "Append",
+"Target": ["Fields", "Wizard", "7"],
+"Value": "",
+"Delimiter": " "
+},
+{
+// Neutral
+"Operation": "Append",
+"Target": ["Fields", "Wizard", "9"],
+"Value": "",
+"Delimiter": " "
+},
+]
+},
+]
+}

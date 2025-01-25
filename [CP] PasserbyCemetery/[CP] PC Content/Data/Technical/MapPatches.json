@@ -323,15 +323,15 @@
   {
   "LogName": "unlock traveling trailer 1",
   "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_OldGraveYard",
+  "Target": "Maps/{{ModID}}_PasserbyRoad",
   "Update": "OnTimeChange, OnLocationChange",
   "When": {
   "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,},
   "MapTiles": [
 {
   "Position": {
-"X": 45,
-"Y": 32
+"X": 12,
+"Y": 29
   },
   "Layer": "Buildings",
   "SetProperties": {
@@ -344,15 +344,15 @@
   {
   "LogName": "unlock traveling trailer 2",
   "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_OldGraveYard",
+  "Target": "Maps/{{ModID}}_PasserbyRoad",
   "Update": "OnTimeChange, OnLocationChange",
   "When": {
   "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,},
   "MapTiles": [
 {
   "Position": {
-"X": 46,
-"Y": 32
+"X": 13,
+"Y": 29
   },
   "Layer": "Buildings",
   "SetProperties": {

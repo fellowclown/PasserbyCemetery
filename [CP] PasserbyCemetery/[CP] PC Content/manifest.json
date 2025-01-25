@@ -1,67 +1,70 @@
 {
-  "Name": "Passerby Cemetery",
-   "Author": "Fellowclown",
-   "Description": "Fellowclown's expansion mod",
-   "Version": "2.31.0", ///Version of your mod
-   "UniqueID": "Fellowclown.PC", 
+"Name": "Passerby Cemetery",
+ "Author": "Fellowclown",
+ "Description": "Fellowclown's expansion mod",
+ "Version": "2.37.0", ///Version of your mod
+ "UniqueID": "Fellowclown.PC", 
  
-   "ContentPackFor": {
-       "UniqueID": "Pathoschild.ContentPatcher",
-       "MinimumVersion": "1.30.4"
-    },
-    "DH.MEEP": "2.0.0",
-    "DH.MEEP.InvulnerableTrees": "",
-    "DH.MEEP.CloseupInteractions": "",
-    "DH.MEEP.VanillaLetters": "",
-    "DH.MEEP.SetMailFlag": "",
-    "DH.MEEP.FarmAnimalSpawns": "",
-    "DH.MEEP.AddConversationTopic": "",
-   "UpdateKeys": [ "Nexus:22600" ],
-  "Dependencies": [
-      {
-            "UniqueID": "Fellowclown.ClownCore",  "IsRequired": true 
-        },
-         {
-            "UniqueID": "DecidedlyHuman.MappingExtensionsAndExtraProperties",  "IsRequired": true 
-        },
-         {
-            "UniqueID": "spacechase0.SpaceCore",  "IsRequired": true 
-        },
-         {
-            "UniqueID": "FlashShifter.StardewValleyExpandedCP",  "IsRequired": false 
-        },
-          {
-            "UniqueID": "Bouhm.NPCMapLocations",  "IsRequired": false 
-        },
-          {
-            "UniqueID": "Esca.FarmTypeManager",  "IsRequired": true 
-        },
-         {
-            "UniqueID": "Wolf.RomRas",  "IsRequired": false 
-        },
-            {
-            "UniqueID": "shekurika.worldMaps",  "IsRequired": false 
-        },
-                  {
-            "UniqueID": "poohnhi.PoohCore",  "IsRequired": true 
-        },
-                   {
-            "UniqueID": "DLX.Bundles",  "IsRequired": true 
-        },
-                     {
-            "UniqueID": "EnderTedi.Polyamory",  "IsRequired": false 
-        },
-                      {
-            "UniqueID": "ichortower.SecretNoteFramework",  "IsRequired": false 
-        },
-                        {
-            "UniqueID": "RaffieJohn.LovelyDigspot",  "IsRequired": false 
-        },
-                            {
-            "UniqueID": "DaisyNiko.EarthyRecolour",  "IsRequired": false 
-        },
-                               {
-            "UniqueID": "TheMightyAmondee.EventLimiter",  "IsRequired": false 
-        },
-    ]
+ "ContentPackFor": {
+ "UniqueID": "Pathoschild.ContentPatcher",
+ "MinimumVersion": "1.30.4"
+},
+"DH.MEEP": "2.0.0",
+"DH.MEEP.InvulnerableTrees": "",
+"DH.MEEP.CloseupInteractions": "",
+"DH.MEEP.VanillaLetters": "",
+"DH.MEEP.SetMailFlag": "",
+"DH.MEEP.FarmAnimalSpawns": "",
+"DH.MEEP.AddConversationTopic": "",
+ "UpdateKeys": [ "Nexus:22600" ],
+"Dependencies": [
+{
+"UniqueID": "Fellowclown.ClownCore","IsRequired": true 
+},
+ {
+"UniqueID": "DecidedlyHuman.MappingExtensionsAndExtraProperties","IsRequired": true 
+},
+ {
+"UniqueID": "spacechase0.SpaceCore","IsRequired": true 
+},
+ {
+"UniqueID": "FlashShifter.StardewValleyExpandedCP","IsRequired": false 
+},
+{
+"UniqueID": "Bouhm.NPCMapLocations","IsRequired": false 
+},
+{
+"UniqueID": "Esca.FarmTypeManager","IsRequired": true 
+},
+ {
+"UniqueID": "Wolf.RomRas","IsRequired": false 
+},
+{
+"UniqueID": "shekurika.worldMaps","IsRequired": false 
+},
+{
+"UniqueID": "poohnhi.PoohCore","IsRequired": true 
+},
+ {
+"UniqueID": "DLX.Bundles","IsRequired": true 
+},
+ {
+"UniqueID": "EnderTedi.Polyamory","IsRequired": false 
+},
+{
+"UniqueID": "ichortower.SecretNoteFramework","IsRequired": false 
+},
+{
+"UniqueID": "RaffieJohn.LovelyDigspot","IsRequired": false 
+},
+{
+"UniqueID": "DaisyNiko.EarthyRecolour","IsRequired": false 
+},
+ {
+"UniqueID": "TheMightyAmondee.EventLimiter","IsRequired": false 
+},
+ {
+"UniqueID": "Objection777.JojaColaExpandedCode","IsRequired": false 
+},
+]
 }

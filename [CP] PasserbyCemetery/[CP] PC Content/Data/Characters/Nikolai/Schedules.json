@@ -12,6 +12,7 @@ Schedule Strings
 "Nikolai.DesertFestival": "{{i18n:Nikolai.DesertFestival}}",
 "Nikolai.TroutDerby": "{{i18n:Nikolai.TroutDerby}}",
 "Nikolai.SquidFest": "{{i18n:Nikolai.SquidFest}}",
+"Nikolai.NightMarket": "{{i18n:Nikolai.NightMarket}}",
 }
 },
 /************************************************
@@ -45,7 +46,7 @@ Schedule Strings
 
 "Mon": "MAIL landslideDone/GOTO NO_SCHEDULE/900 SebastianRoom 8 6 0/1200 {{ModID}}_LeslaHouse 24 12 2 {{ModID}}_Nikolai_SitChair2/1600 {{NikolaiTurnAbout}}/2200 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleeping\"",
 
-"Tue": "MAIL landslideDone/GOTO NO_SCHEDULE/900 {{ModID}}_BeeNursery 8 7 2\"/1300 {{ModID}}_NiksRoom 10 12 3/1530 Town 9 86 2 {{ModID}}_Nikolai_StandIdle/1800 {{ModID}}_NiksRoom 13 14 0 {{ModID}}_Nikolai_Dishes/2000 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/2200 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleeping\"",
+"Tue": "MAIL landslideDone/GOTO NO_SCHEDULE/900 {{ModID}}_BeeNursery 8 7 2\"/1300 {{ModID}}_NiksRoom 10 12 3/1530 Town 9 88 2 {{ModID}}_Nikolai_StandIdle/1800 {{ModID}}_NiksRoom 13 14 0 {{ModID}}_Nikolai_Dishes/2000 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/2200 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleeping\"",
 
 "Wed": "GOTO Sat",
 
@@ -53,7 +54,7 @@ Schedule Strings
 
 "Fri": "MAIL landslideDone/GOTO NO_SCHEDULE/610 {{ModID}}_LyellsProperty 41 41 0 {{ModID}}_Nikolai_StandIdle/800 SamHouse 19 14 3/1200 Town 101 54 2/1500 {{NikolaiTurnAbout}}/2200 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleeping\"",
 
-"Sat": "MAIL landslideDone/GOTO NO_SCHEDULE/900 Town 9 86 2 {{ModID}}_Nikolai_StandIdle/1230 SamHouse 19 14 3 {{ModID}}_Nikolai_StandIdle/1700 Town 9 86 2 {{ModID}}_Nikolai_StandIdle/2000 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/2200 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleeping\"",
+"Sat": "MAIL landslideDone/GOTO NO_SCHEDULE/900 Town 9 88 2 {{ModID}}_Nikolai_StandIdle/1230 SamHouse 19 14 3 {{ModID}}_Nikolai_StandIdle/1700 Town 9 88 2 {{ModID}}_Nikolai_StandIdle/2000 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/2200 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleeping\"",
 
 "Sun": "MAIL landslideDone/GOTO NO_SCHEDULE/900 {{ModID}}_OldGraveYard 38 64 1/1200 Town 47 73 1/1500 {{NikolaiTurnAbout}}/1800 {{ModID}}_BeeNursery 8 7 2/2200 {{ModID}}_NiksRoom 11 11 2 {{ModID}}_Nikolai_Sleep \"Strings\\schedules\\FC.Nikolai:Nikolai.Sleeping\"",
 

@@ -1,6 +1,5 @@
 {
 "Changes": [
-
 /************************************************
 GIFT TASTES
  ************************************************/
@@ -9,8 +8,9 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Lyell": "{{i18n:Lyell.gift.love}}/395 {{ModID}}_MovoraptorEgg {{ModID}}_DragaWhiskey {{ModID}}_ArkaCoin 84 86 346/{{i18n:Lyell.gift.like}}/{{ModID}}_GaggleShrooms {{ModID}}_DragaDoughnut {{ModID}}_CapWedges {{ModID}}_LoMaCakes {{ModID}}_ZinfazuIcecream {{ModID}}_IceBerryWine {{ModID}}_FarmhandsSupper {{ModID}}_AdáuulaCakes {{ModID}}_WarpRootTea {{ModID}}_LavaPop/{{i18n:Lyell.gift.dislike}}/399 400/{{i18n:Lyell.gift.hate}}/403 406/{{i18n:Lyell.gift.neutral}}/396 398/",
+"FC.Lyell": "{{i18n:Lyell.gift.love}}/86 84 82 {{ModID}}_ZinfazuIcecream {{ModID}}_LoMaCakes {{ModID}}_GemmedCuff {{ModID}}_HammerAndPick {{ModID}}_Guardian3 {{ModID}}_Guardian2 {{ModID}}_Guardian1 {{ModID}}_ShevitFigure {{ModID}}_Hairclip {{ModID}}_Necklace2 {{ModID}}_Necklace1 {{ModID}}_Rattler {{ModID}}_FamilyTablet {{ModID}}_LifeTablet {{ModID}}_MiniphantFigure {{ModID}}_AluuaTablet {{ModID}}_ArahTablet {{ModID}}_LipheumTablet {{ModID}}_Pot2 {{ModID}}_Pot1 {{ModID}}_MaleWarrior {{ModID}}_FemaleWarrior {{ModID}}_RefinedTropaWine {{ModID}}_PaneekiStirFry {{ModID}}_DragaWhiskey {{ModID}}_MaleMovoraptorEgg/{{i18n:Lyell.gift.like}}/88 90 114 {{ModID}}_WarpRootTea {{ModID}}_AdauulaCakes {{ModID}}_MovoraptorFeather {{ModID}}_MovoraptorEgg/{{i18n:Lyell.gift.dislike}}/162 203 222 {{ModID}}_SeafoamHoney {{ModID}}_GreenAppleHoneyPop {{ModID}}_BayDrop {{ModID}}_PopachiniStew/{{i18n:Lyell.gift.hate}}/227 238 248 {{ModID}}_IceBerryWine {{ModID}}_MidnightBubbly {{ModID}}_LemonberryJuice/{{i18n:Lyell.gift.neutral}}/{{ModID}}_HotChoco {{ModID}}_ChocoBun/ ",
 }
- },
+}
 ]
 }
+

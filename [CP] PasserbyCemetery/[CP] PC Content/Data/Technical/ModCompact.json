@@ -68,10 +68,44 @@
         },
           "FC.Eve": {
             "Exclude": true
-        }
+        },
+            "FC.Monty": {
+            "Exclude": true
+        },
+                    "FC.Shaavar": {
+            "Exclude": true
+        },
+                            "FC.Cotton": {
+            "Exclude": true
+        },
+
     },
             "When": {
                  "HasMod": "Bouhm.NPCMapLocations"
+            }
+},
+       {
+    "Action": "EditData",
+    "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+    "Entries": {
+        "FC.Shaavar": {
+            "Exclude": false
+        }
+    },
+            "When": {
+                 "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
+            }
+},
+       {
+    "Action": "EditData",
+    "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+    "Entries": {
+        "FC.Cotton": {
+            "Exclude": false
+        }
+    },
+            "When": {
+                 "HasFlag |contains=FC.CottonsFreedom": true,
             }
 },
        {
@@ -109,7 +143,7 @@
             "MarkerCropOffset": 574,
         },
          "FC.Roswell": {
-            "MarkerCropOffset": 327,
+            "MarkerCropOffset": 330,
         },
          "FC.Alan": {
             "MarkerCropOffset": 5,
@@ -120,8 +154,11 @@
           "FC.Thalia": {
             "MarkerCropOffset": 4,
         },
-              "FC.Barron": {
+        "FC.Barron": {
             "MarkerCropOffset": 320,
+        },
+          "FC.Jank": {
+            "MarkerCropOffset": 112,
         },
          "FC.Jinx": {
             "MarkerCropOffset": 224,
@@ -133,7 +170,7 @@
             "MarkerCropOffset": 5,
         },
              "FC.Boxy": {
-            "MarkerCropOffset": 15,
+            "MarkerCropOffset": 144,
         },
               "FC.Zuuie": {
             "MarkerCropOffset": 12,

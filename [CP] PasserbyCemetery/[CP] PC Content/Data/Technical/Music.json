@@ -1,5 +1,19 @@
 {
 "Changes": [
+                {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Bounce": {
+"ID": "{{ModID}}_Bounce",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Bounce.ogg}}" ],
+"StreamedVorbis": false,
+"Looped": true
+}
+}
+},
+  
             {
 "Action": "EditData",
 "Target": "Data/AudioChanges",

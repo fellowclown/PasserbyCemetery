@@ -8,8 +8,10 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Maverick": "{{i18n:Maverick.gift.love}}/22 60 340/{{i18n:Maverick.gift.like}}/342 346 348/{{i18n:Maverick.gift.dislike}}/160 20 78/{{i18n:Maverick.gift.hate}}/372/{{i18n:Maverick.gift.neutral}}/66 392/",
+"FC.Maverick": "{{i18n:Maverick.gift.love}}/221 237 241 {{ModID}}_LemonberryJuice {{ModID}}_MidnightBubbly {{ModID}}_MegaWrap/{{i18n:Maverick.gift.like}}/250 276 279 {{ModID}}_WhiteTruffleOil {{ModID}}_HotCereal {{ModID}}_ButtonFruitCake {{ModID}}_FrostedCake/{{i18n:Maverick.gift.dislike}}/307 306 308 {{ModID}}_RootJuice {{ModID}}_MovoraptorFeather/{{i18n:Maverick.gift.hate}}/400 399 398 {{ModID}}_MilkCoffee {{ModID}}_TastyPastry {{ModID}}_SmokedGemBirdMeat/{{i18n:Maverick.gift.neutral}}/{{ModID}}_WhiteTruffleOil/ ",
 }
-},
+}
 ]
 }
+
+

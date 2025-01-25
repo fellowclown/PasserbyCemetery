@@ -8,8 +8,9 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Amanda": "{{i18n:Amanda.gift.love}}/Fellowclown.TD_GemBirdPatties {{ModID}}_SeaglassFlowerDisplay {{ModID}}_Seaglass {{ModID}}_TastyPastry/{{i18n:Amanda.gift.like}}/{{ModID}}_Button {{ModID}}_FrostedCake {{ModID}}_HotCereal/{{i18n:Amanda.gift.dislike}}/{{ModID}}_VoidJuice 64 84/{{i18n:Amanda.gift.hate}}/308 340 342/{{i18n:Amanda.gift.neutral}}/344 346/ ",
+"FC.Amanda": "{{i18n:Amanda.gift.love}}/20 82 303 {{ModID}}_AdauulaCakes {{ModID}}_HotCereal {{ModID}}_SmokedGemBirdMeat {{ModID}}_WarpRootTea/{{i18n:Amanda.gift.like}}/344 403 421 {{ModID}}_FrostedCake {{ModID}}_AgedLargeGouudCheese {{ModID}}_LargeGaleabisonMilk/{{i18n:Amanda.gift.dislike}}/457 459 557 {{ModID}}_WhiteTruffle {{ModID}}_HeavyRoot {{ModID}}_MashedGiggles/{{i18n:Amanda.gift.hate}}/648 637 634 {{ModID}}_GiggleSmoothie {{ModID}}_GiggleBowlSalad {{ModID}}_DragaWhiskey/{{i18n:Amanda.gift.neutral}}/{{ModID}}_DragaEye {{ModID}}_SpiritBud {{ModID}}_FairyFingers/ ",
 }
- },
+}
 ]
 }
+

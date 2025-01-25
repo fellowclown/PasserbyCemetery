@@ -168,6 +168,7 @@
 "Precedence": -10,
 },
 ],
+"MugShotSourceRect": { "X": 0, "Y": 112, "Width": 16, "Height": 16 },
 "Size": { "X": 32, "Y": 36 },
 "Breather":false,
 ///Advanced

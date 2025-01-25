@@ -89,7 +89,7 @@
 },
 {
   "Name": "AmandaTurnAbout",
-  "Value": "{{ModID}}_TrailingTravel 12 17 2 {{ModID}}_AmandaKnit",
+  "Value": "{{ModID}}_TravelingTrailer 12 17 2 {{ModID}}_AmandaKnit",
 },
 {
   "Name": "AmandaTurnAbout",
@@ -312,7 +312,7 @@
 },
 {
   "Name": "JohnBookWorm",
-  "Value": "{{ModID}}_TravelingTrailer 23 16 1 {{ModID}}_JohnSit1",
+  "Value": "{{ModID}}_TravelingTrailer 23 17 1 {{ModID}}_JohnSit1",
   "When": {
 "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
   }
@@ -411,8 +411,19 @@
 },
 //Phoebe schedule Replacements
 {
+  "Name": "PhoebeExhibit",
+  "Value": "{{ModID}}_OldGraveYard 31 40 3",
+},
+{
+  "Name": "PhoebeExhibit",
+  "Value": "{{ModID}}_Exhibit 12 9 1",
+  "When": {
+"HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,
+  }
+},
+{
   "Name": "PhoebeTurnAbout",
-  "Value": "{{ModID}}_TrailingTravelDecker 21 17 3",
+  "Value": "{{ModID}}_TravelingTrailerDecker 21 17 3",
 },
 {
   "Name": "PhoebeTurnAbout",
@@ -618,7 +629,7 @@ Technical Includes
   {
 "LogName": "PC Technical Information",
 "Action": "Include",
-"FromFile": "Data/Technical/Buildings.json,Data/Technical/ZootInfo.json,Data/Technical/SecretNotes.json,Data/Technical/GiantCrops.json,Data/Technical/WorldMap.json,Data/Technical/TheaterEditions.json,Data/Technical/MoviesVanillaEditions.json,Data/Technical/Buffs.json,Data/Technical/ExtraDialogue.json,Data/Technical/Meep.json,Data/Technical/NonFarmAnimals.json,Data/Technical/AnimalSpawns.json,Data/Technical/Tools.json,Data/Technical/Crops.json,Data/Technical/Quest.json,Data/Technical/MapPatches.json,Data/Technical/FarmAnimals.json,Data/Technical/Fish.json,Data/Technical/Loadables.json,Data/Technical/LocationalMaps.json,Data/Technical/MailTriggers.json,Data/Technical/Music.json,Data/Technical/Objects.json,Data/Technical/Shops.json,Data/Technical/Totems.json,Data/Technical/WorldEvents.json,Data/Technical/Machines.json,Data/Technical/Marketpalooza.json,Data/Technical/Recipes.json,Data/Technical/Trees.json,Data/Technical/ModCompact.json"
+"FromFile": "Data/Technical/Trinket.json,Data/Technical/UniversalGiftTaste.json,Data/Technical/ZootInfo.json,Data/Technical/SecretNotes.json,Data/Technical/GiantCrops.json,Data/Technical/WorldMap.json,Data/Technical/TheaterEditions.json,Data/Technical/MoviesVanillaEditions.json,Data/Technical/Buffs.json,Data/Technical/ExtraDialogue.json,Data/Technical/Meep.json,Data/Technical/NonFarmAnimals.json,Data/Technical/AnimalSpawns.json,Data/Technical/Tools.json,Data/Technical/Crops.json,Data/Technical/Quest.json,Data/Technical/MapPatches.json,Data/Technical/FarmAnimals.json,Data/Technical/Fish.json,Data/Technical/Loadables.json,Data/Technical/LocationalMaps.json,Data/Technical/MailTriggers.json,Data/Technical/Music.json,Data/Technical/Objects.json,Data/Technical/Shops.json,Data/Technical/Totems.json,Data/Technical/WorldEvents.json,Data/Technical/Machines.json,Data/Technical/Marketpalooza.json,Data/Technical/Recipes.json,Data/Technical/Trees.json,Data/Technical/ModCompact.json"
  }, 
    {
 "LogName": "PC AntiSocialNpcs Information",

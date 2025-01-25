@@ -2,14 +2,15 @@
 "Changes": [
 /************************************************
 GIFT TASTES
-************************************************/
-{
+ ************************************************/
+ {
 "LogName": "GiftTastes",
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Kaia": "{{i18n:Kaia.gift.love}}/342 346 348 921 907/{{i18n:Kaia.gift.like}}/906 905 904 903 873/{{i18n:Kaia.gift.dislike}}/874 865 851 836/{{i18n:Kaia.gift.hate}}/832 393/{{i18n:Kaia.gift.neutral}}/395/",
+"FC.Kaia": "{{i18n:Kaia.gift.love}}/618 614 610 {{ModID}}_RiverBedJelly {{ModID}}_ButtonFruitCake {{ModID}}_YohoHash/{{i18n:Kaia.gift.like}}/611 609 608 {{ModID}}_ChocoBun {{ModID}}_HotChoco {{ModID}}_MidnightBubbly/{{i18n:Kaia.gift.dislike}}/638 446 442 {{ModID}}_SweetenBreadPudding {{ModID}}_AcornCake {{ModID}}_CapWedges/{{i18n:Kaia.gift.hate}}/420 419 408 {{ModID}}_LoMaCakes {{ModID}}_IceBerryWine {{ModID}}_FarmHandSupper/{{i18n:Kaia.gift.neutral}}/{{ModID}}_CucaSerum {{ModID}}_MovoraptorMayo {{ModID}}_TropaWine/ ",
 }
-},
+}
 ]
 }
+

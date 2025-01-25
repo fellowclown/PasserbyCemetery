@@ -8,8 +8,9 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Jinx": "{{i18n:Jinx.gift.love}}/139 140 142/{{i18n:Jinx.gift.like}}/143 144 145/{{i18n:Jinx.gift.dislike}}/146 147/{{i18n:Jinx.gift.hate}}/148/{{i18n:Jinx.gift.neutral}}/150/ ",
+"FC.Jinx": "{{i18n:Jinx.gift.love}}/182 180 684 105 {{ModID}}_OldShoes {{ModID}}_RoastedReuuNut {{ModID}}_GemBirdMeat/{{i18n:Jinx.gift.like}}/699 701 716 {{ModID}}_FrenchDodoEgg {{ModID}}_MaleMovoraptorEgg {{ModID}}_MovoraptorEgg/{{i18n:Jinx.gift.dislike}}/727 140 145/{{i18n:Jinx.gift.hate}}/16 20 78 {{ModID}}_WhiteTruffle {{ModID}}_FireSnapper {{ModID}}_StoneShroom/{{i18n:Jinx.gift.neutral}}/{{ModID}}_HeaviousFruit {{ModID}}_MeekFruit {{ModID}}_DragaTail/ ",
 }
- },
+}
 ]
 }
+

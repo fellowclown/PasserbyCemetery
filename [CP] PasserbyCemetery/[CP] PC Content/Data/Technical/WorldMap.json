@@ -1,327 +1,701 @@
 
-  {
-  "Changes": [
+{
+"Changes": [
+ {
+"LogName": "Create Passerby Region",
+"Action": "EditData",
+"Target": "Data/WorldMap",
+"Entries": {
+"{{ModID}}_OldGraveYard": {
+"BaseTexture": [
+{
+"Id": "Default",
+"Condition": null,
+"Texture": "{{ModID}}/Maps/WorldMap",
+"SourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 300,
+"Height": 180
+},
+"MapPixelArea": {
+"X": 0,
+"Y": 0,
+"Width": 300,
+"Height": 180
+}
+}
+],
+"MapNeighborIdAliases": {
+},
+"MapAreas": [
+{
+"Id": "Default",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 0,
+"Y": 0,
+"Width": 300,
+"Height": 180
+},
+"ScrollText": null,
+"Textures": [],
+"Tooltips": [
     {
-      "Action": "EditData",
-      "Target": "Data/WorldMap",
-      "Entries": {
-        "{{ModID}}_OldGraveYard": {
-          // The main map background to draw.
-          "BaseTexture": [
-            {
-              "Id": "Default",
-              "Texture": "{{ModID}}/Maps/WorldMap"
-            }
-          ],
-          // The map areas that can provide tooltips, scroll text, texture overlays, and world positions.
-          "MapAreas": [
-            {
-              "Id": "{{ModID}}_PasserbyCemetery",
-              "PixelArea": {
-                "X": 75,
-                "Y": 0,
-                "Width": 140,
-                "Height": 180
-              },
-              "ScrollText": "{{i18n:FC.PasserbyCemetery}}",
-              "Tooltips": [
-                  {
-                  "Id": "{{ModID}}_LyellsHouse",
-                  "PixelArea": {
-                    "X": 32,
-                    "Y": 37,
-                    "Width": 17,
-                    "Height": 18
-                  },
-                  "Text": "{{i18n:FC.Halkiasresidents}}"
-                },
-                {
-                  "Id": "{{ModID}}_SecretCave",
-                  "PixelArea": {
-                    "X": 155,
-                    "Y": 66,
-                    "Width": 6,
-                    "Height": 7
-                  },
-                  "Text": "{{i18n:FC.SecretCave}}"
-                },
-                 {
-              "Id": "{{ModID}}_PasserbyCliffs",
-              "PixelArea": {
-                "X": 105,
-                "Y": 0,
-                "Width": 25,
-                "Height": 6
-              },
-              "ScrollText": "{{i18n:FC.PasserbyCliffs}}",
-            },
-                {
-                  "Id": "{{ModID}}_StoneHouse",
-                  "PixelArea": {
-                    "X": 102,
-                    "Y": 118,
-                    "Width": 19,
-                    "Height": 14
-                  },
-                  "Text": "{{i18n:FC.Stoneresidents}}"
-                },
-                {
-                  "Id": "{{ModID}}_LeslaHouse",
-                  "PixelArea": {
-                    "X": 159,
-                    "Y": 12,
-                    "Width": 20,
-                    "Height": 16
-                  },
-                  "Text": "{{i18n:FC.Leslaresidents}}"
-                },
-                {
-                  "Id": "{{ModID}}_BeeNursery",
-                  "PixelArea": {
-                    "X": 116,
-                    "Y": 10,
-                    "Width": 21,
-                    "Height": 16
-                  },
-                  "Text": "{{i18n:FC.BeeNursery}}"
-                },
-                {
-                  "Id": "{{ModID}}_MavericksHouse",
-                  "PixelArea": {
-                    "X": 90,
-                    "Y": 80,
-                    "Width": 24,
-                    "Height": 15
-                  },
-                  "Text": "{{i18n:FC.LoveJoyresidents}}"
-                },
-                   {
-                  "Id": "{{ModID}}_TravelingTrailer",
-                  "PixelArea": {
-                   "X": 207,
-                    "Y": 67,
-                  "Width": 14,
-                    "Height": 5
-                  },
-                  "Text": "{{i18n:FC.BookWormMobile}}"
-                },
-                    {
-                  "Id": "{{ModID}}_TravelingTrailerDecker",
-                  "PixelArea": {
-                  "X": 208,
-                    "Y": 60,
-                    "Width": 12,
-                    "Height": 6
-                  },
-                  "Text": "{{i18n:FC.BookWormMobileDecker}}",
-                },
-                       {
-                  "Id": "{{ModID}}_Exhibit",
-                  "PixelArea": {
-                  "X": 102,
-                    "Y": 139,
-                    "Width": 8,
-                    "Height": 9
-                  },
-                  "Text": "{{i18n:FC.PasserbyExhibit}}",
-                },
-                     {
-                  "Id": "{{ModID}}_Temple",
-                  "PixelArea": {
-                   "X": 188,
-                    "Y": 40,
-                    "Width": 14,
-                    "Height": 11
-                  },
-                  "Text": "{{i18n:FC.PasserbyTemple}}",
-                },
-                      {
-                  "Id": "{{ModID}}_TurnaboutSaloon",
-                  "PixelArea": {
-                 "X": 137,
-                    "Y": 130,
-                    "Width": 12,
-                    "Height": 14
-                  },
-                  "Text": "{{i18n:FC.TurnaboutSaloon}}",
-                },
-              ],
-              // Match location names & tile positions to this map area. For example, when the player is
-              // in the 'Lumisteria.MtVapius_Inn' location, their marker on the map is shown on top of the
-              // inn building.
-              "WorldPositions": [
-             {
-                  "Id": "{{ModID}}_SecretCave",
-                  "LocationName": "{{ModID}}_SecretCave",
-                  "MapPixelArea": {
-                    "X": 155,
-                    "Y": 66,
-                    "Width": 6,
-                    "Height": 7
-                  },
-                  "Text": "{{i18n:FC.SecretCave}}"
-                },
-                 {
-                  "Id": "{{ModID}}_Temple",
-                  "LocationName": "{{ModID}}_Temple",
-                  "MapPixelArea": {
-                 "X": 188,
-                    "Y": 40,
-                    "Width": 14,
-                    "Height": 11
-                  },
-                  "ScrollText": "{{i18n:FC.PasserbyTemple}}"
-                },
-            {
-                  "Id": "{{ModID}}_PasserbyCliffs",
-                  "LocationName": "{{ModID}}_PasserbyCliffs",
-                  "MapPixelArea": {
-                 "X": 105,
-                    "Y": 0,
-                    "Width": 25,
-                    "Height": 6
-                  },
-                  "ScrollText": "{{i18n:FC.PasserbyCliffs}}"
-                },
-                        {
-                  "Id": "{{ModID}}_TurnaboutSaloon",
-                  "LocationName": "{{ModID}}_TurnaboutSaloon",
-                  "MapPixelArea": {
-                 "X": 137,
-                    "Y": 130,
-                    "Width": 12,
-                    "Height": 14
-                  },
-                  "ScrollText": "{{i18n:FC.TurnaboutSaloon}}"
-                },
-                           {
-                  "Id": "{{ModID}}_TempleRuins",
-                  "LocationName": "{{ModID}}_TempleRuins",
-                  "MapPixelArea": {
-                 "X": 188,
-                    "Y": 40,
-                    "Width": 14,
-                    "Height": 11
-                  },
-                  "ScrollText": "{{i18n:FC.PasserbyTemple}}"
-                },
-                {
-                  "Id": "{{ModID}}_Default",
-                  "LocationName": "{{ModID}}_OldGraveYard"
-                },
-                {
-                  "Id": "{{ModID}}_PasserbyCemetery",
-                  "LocationName": "{{ModID}}_PasserbyCemetery",
-                  "MapPixelArea": {
-                    "X": 182,
-                    "Y": 174,
-                    "Width": 198,
-                    "Height": 180
-                  },
-                  "ScrollText": "Stone Residents" // optional, defaults to parent area's scroll text (if any)
-                },
-                {
-                  "Id": "{{ModID}}_StoneHouse",
-                  "LocationName": "{{ModID}}_StoneHouse",
-                  "MapPixelArea": {
-                    "X": 102,
-                    "Y": 118,
-                    "Width": 19,
-                    "Height": 14
-                  },
-                  "ScrollText": "{{i18n:FC.Stoneresidents}}" // optional, defaults to parent area's scroll text (if any)
-                },
-                {
-                  "Id": "{{ModID}}_LeslaHouse",
-                  "LocationName": "{{ModID}}_LeslaHouse",
-                  "MapPixelArea": {
-                    "X": 159,
-                    "Y": 12,
-                    "Width": 20,
-                    "Height": 16
-                  },
-                  "ScrollText": "{{i18n:FC.Leslaresidents}}" // optional, defaults to parent area's scroll text (if any)
-                },
-                {
-                  "Id": "{{ModID}}_BeeNursery",
-                  "LocationName": "{{ModID}}_BeeNursery",
-                  "MapPixelArea": {
-                    "X": 116,
-                    "Y": 10,
-                    "Width": 21,
-                    "Height": 16
-                  },
-                  "ScrollText": "{{i18n:FC.BeeNursery}}" // optional, defaults to parent area's scroll text (if any)
-                },
-                {
-                  "Id": "{{ModID}}_MavericksHouse",
-                  "LocationName": "{{ModID}}_MavericksHouse",
-                  "MapPixelArea": {
-                    "X": 90,
-                    "Y": 80,
-                    "Width": 24,
-                    "Height": 15
-                  },
-                  "ScrollText": "{{i18n:FC.LoveJoyresidents}}" // optional, defaults to parent area's scroll text (if any)
-                },
-                {
-                  "Id": "{{ModID}}_LyellsHouse",
-                  "LocationName": "{{ModID}}_LyellsHouse",
-                  "MapPixelArea": {
-                    "X": 32,
-                    "Y": 37,
-                    "Width": 17,
-                    "Height": 18
-                  },
-                  "ScrollText": "{{i18n:FC.Halkiasresidents}}" // optional, defaults to parent area's scroll text (if any)
-                },
-                      {
-                  "Id": "{{ModID}}_TravelingTrailerDecker",
-                  "LocationName": "{{ModID}}_TravelingTrailerDecker",
-                  "MapPixelArea": {
-                    "X": 208,
-                    "Y": 60,
-                   "Width": 12,
-                    "Height": 6
-                  },
-                  "ScrollText": "{{i18n:FC.BookWormMobileDecker}}",
-                },
-                     {
-                  "Id": "{{ModID}}_TravelingTrailer",
-                  "LocationName": "{{ModID}}_TravelingTrailer",
-                  "MapPixelArea": {
-                    "X": 207,
-                    "Y": 67,
-                    "Width": 14,
-                    "Height": 5
-                  },
-                  "ScrollText": "{{i18n:FC.BookWormMobile}}"
-                },
-                       {
-                  "Id": "{{ModID}}_Exhibit",
-                  "LocationName": "{{ModID}}_Exhibit",
-                  "MapPixelArea": {
-                 "X": 102,
-                    "Y": 139,
-                    "Width": 8,
-                    "Height": 9
-                  },
-                  "ScrollText": "{{i18n:FC.PasserbyExhibit}}"
-                },
-                   {
-                  "Id": "{{ModID}}_LyellsHouse",
-                  "LocationName": "{{ModID}}_LyellsHouse",
-                  "MapPixelArea": {
-                    "X": 32,
-                    "Y": 37,
-                    "Width": 17,
-                    "Height": 18
-                  },
-                  "ScrollText": "{{i18n:FC.Halkiasresidents}}" // optional, defaults to parent area's scroll text (if any)
-                },
-                ]  
-                }   
-              ]
+"Id": "Exhibit",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 93,
+"Y": 147,
+"Width": 13,
+"Height": 8
+},
+"Text": "{{i18n:FC.PasserbyExhibit}}",
+},
+    {
+"Id": "TurnaboutSaloon",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 137,
+"Y": 142,
+"Width": 14,
+"Height": 12
+},
+"Text": "{{i18n:FC.TurnaboutSaloon}}",
+},
+    {
+"Id": "StoneHouse",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 105,
+"Y": 134,
+"Width": 12,
+"Height": 9
+},
+"Text": "{{i18n:FC.Stoneresidents}}",
+},
+
+    {
+"Id": "BoatHouse",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 173,
+"Y": 130,
+"Width": 21,
+"Height": 11
+},
+"Text": "{{i18n:FC.BoatHouse}}",
+},
+    {
+"Id": "Memorial",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 113,
+"Y": 104,
+"Width": 25,
+"Height": 21
+},
+"Text": "{{i18n:FC.LoreMemorial}}",
+},
+    {
+"Id": "LovejoyHouse",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 91,
+"Y": 103,
+"Width": 15,
+"Height": 7
+},
+"Text": "{{i18n:FC.LoveJoyresidents}}",
+},
+    {
+"Id": "Restroom1",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 167,
+"Y": 156,
+"Width": 8,
+"Height": 10
+},
+"Text": "{{i18n:FC.PasserbyRestrooms}}",
+},
+    {
+"Id": "Restroom2",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 147,
+"Y": 91,
+"Width": 8,
+"Height": 9
+},
+"Text": "{{i18n:FC.PasserbyRestrooms}}",
+},
+    {
+"Id": "ElderTropaTree1",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 195,
+"Y": 97,
+"Width": 20,
+"Height": 21
+},
+"Text": "{{i18n:FC.ElderTropaTree}}",
+},
+    {
+"Id": "ElderTropaTree2",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 0,
+"Y": 76,
+"Width": 17,
+"Height": 21
+},
+"Text": "{{i18n:FC.ElderTropaTree}}",
+},
+    {
+"Id": "BookwormMobile",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 206,
+"Y": 85,
+"Width": 16,
+"Height": 9
+},
+"Text": "{{i18n:FC.BookWormMobile}}",
+},
+    {
+"Id": "PasserbyTemple",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 189,
+"Y": 68,
+"Width": 12,
+"Height": 9
+},
+"Text": "{{i18n:FC.PasserbyTemple}}",
+},
+    {
+"Id": "GotzPigPen",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 181,
+"Y": 46,
+"Width": 14,
+"Height": 10
+},
+"Text": "{{i18n:FC.GotzPigPen}}",
+},
+    {
+"Id": "LeslaHouse",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 160,
+"Y": 48,
+"Width": 18,
+"Height": 8
+},
+"Text": "{{i18n:FC.Leslaresidents}}",
+},
+    {
+"Id": "LeslaBeeNursery",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 121,
+"Y": 46,
+"Width": 11,
+"Height": 10
+},
+"Text": "{{i18n:FC.BeeNursery}}",
+},
+    {
+"Id": "PasserbyRoundabout",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 76,
+"Y": 44,
+"Width": 38,
+"Height": 47
+},
+"Text": "{{i18n:FC.PasserbyRoundabout}}",
+},
+    {
+"Id": "FallsCave",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 155,
+"Y": 89,
+"Width": 6,
+"Height": 6
+},
+"Text": "{{i18n:FC.FallsCave}}",
+},
+
+    {
+"Id": "Janks",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 121,
+"Y": 4,
+"Width": 6,
+"Height": 8
+},
+"Text": "{{i18n:FC.JanksGoodies}}",
+},
+
+    {
+"Id": "HalkiasResidents",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 32,
+"Y": 68,
+"Width": 15,
+"Height": 7
+},
+"Text": "{{i18n:FC.Halkiasresidents}}",
+},
+
+    {
+"Id": "DriftWoodCoop",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 43,
+"Y": 68,
+"Width": 5,
+"Height": 5
+},
+"Text": "{{i18n:FC.HalkiasCoop}}",
+},
+
+    {
+"Id": "DriftWoodShed",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 35,
+"Y": 37,
+"Width": 11,
+"Height": 8
+},
+"Text": "{{i18n:FC.HalkiasShed}}",
+},
+    {
+"Id": "DriftWoodBarn",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 56,
+"Y": 42,
+"Width": 12,
+"Height": 7
+},
+"Text": "{{i18n:FC.HalkiasBarn}}",
+},
+    {
+"Id": "RustyTruck",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 48,
+"Y": 70,
+"Width": 5,
+"Height": 15
+},
+"Text": "{{i18n:FC.LyellsTruck}}",
+},
+    {
+"Id": "DriftWoodCampSite",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 24,
+"Y": 50,
+"Width": 12,
+"Height": 9
+},
+"Text": "{{i18n:FC.DriftWoodCampSite}}",
+},
+    {
+"Id": "DriftWoodBathNook",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 28,
+"Y": 58,
+"Width": 6,
+"Height": 5
+},
+"Text": "{{i18n:FC.DriftWoodBathNook}}",
+},
+   {
+"Id": "GuardianHouse",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 275,
+"Y": 52,
+"Width": 5,
+"Height": 7
+},
+"Text": "{{i18n:FC.GuardianHome}}",
+},
+   {
+"Id": "AncientGraveYard",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 264,
+"Y": 49,
+"Width": 10,
+"Height": 10
+},
+"Text": "{{i18n:FC.GuardianHome}}",
+},
+],
+"WorldPositions": [
+{
+"Id": "PasserbyCemeterySection",
+"LocationName": "{{ModId}}_OldGraveYard",
+"MapPixelArea": {
+"X": 78,
+"Y": 31,
+"Width":144,
+"Height": 150
+},
+"ScrollText": null,
+},
+{
+"Id": "Exhibit",
+"LocationName": "{{ModId}}_Exhibit",
+"MapPixelArea": {
+"X": 93,
+"Y": 147,
+"Width": 13,
+"Height": 8
+},
+"ScrollText": null,
+},
+{
+"Id": "Exhibit",
+"LocationName": "{{ModId}}_ExhibitSecondFloor",
+"MapPixelArea": {
+"X": 93,
+"Y": 147,
+"Width": 13,
+"Height": 8
+},
+"ScrollText": null,
+},
+{
+"Id": "TurnaboutSaloon",
+"LocationName": "{{ModId}}_TurnaboutSaloon",
+"MapPixelArea": {
+"X": 137,
+"Y": 142,
+"Width": 14,
+"Height": 12
+},
+"ScrollText": null,
+},
+{
+"Id": "TurnaboutSaloon",
+"LocationName": "{{ModId}}_TurnaboutSaloonBasement",
+"MapPixelArea": {
+"X": 137,
+"Y": 142,
+"Width": 14,
+"Height": 12
+},
+"ScrollText": null,
+},
+{
+"Id": "StoneHouse",
+"LocationName": "{{ModId}}_StoneHouse",
+"MapPixelArea": {
+"X": 105,
+"Y": 134,
+"Width": 12,
+"Height": 9
+},
+"ScrollText": null,
+},
+{
+"Id": "StoneHouse",
+"LocationName": "{{ModId}}_AlansRoom",
+"MapPixelArea": {
+"X": 105,
+"Y": 134,
+"Width": 12,
+"Height": 9
+},
+"ScrollText": null,
+},
+{
+"Id": "BoatHouse",
+"LocationName": "{{ModId}}_BoatHouse",
+"MapPixelArea": {
+"X": 173,
+"Y": 130,
+"Width": 21,
+"Height": 11
+},
+"ScrollText": null,
+},
+{
+"Id": "LovejoyHouse",
+"LocationName": "{{ModId}}_MavericksHouse",
+"MapPixelArea": {
+"X": 91,
+"Y": 103,
+"Width": 15,
+"Height": 7
+},
+"ScrollText": null,
+},
+{
+"Id": "LovejoyHouse",
+"LocationName": "{{ModId}}_JohnsTempRoom",
+"MapPixelArea": {
+"X": 91,
+"Y": 103,
+"Width": 15,
+"Height": 7
+},
+"ScrollText": null,
+},
+{
+"Id": "BookwormMobile",
+"LocationName": "{{ModId}}_TravelingTrailer",
+"MapPixelArea": {
+"X": 206,
+"Y": 85,
+"Width": 16,
+"Height": 9
+},
+"ScrollText": null,
+},
+{
+"Id": "BookwormMobile",
+"LocationName": "{{ModId}}_TravelingTrailerDecker",
+"MapPixelArea": {
+"X": 206,
+"Y": 85,
+"Width": 16,
+"Height": 9
+},
+"ScrollText": null,
+},
+{
+"Id": "PasserbyTemple",
+"LocationName": "{{ModId}}_TempleRuins",
+"MapPixelArea": {
+"X": 189,
+"Y": 68,
+"Width": 12,
+"Height": 9
+},
+"ScrollText": null,
+},
+{
+"Id": "PasserbyTemple",
+"LocationName": "{{ModId}}_Temple",
+"MapPixelArea": {
+"X": 189,
+"Y": 68,
+"Width": 12,
+"Height": 9
+},
+"ScrollText": null,
+},
+{
+"Id": "LeslaHouse",
+"LocationName": "{{ModId}}_LeslaHouse",
+"MapPixelArea": {
+"X": 160,
+"Y": 48,
+"Width": 18,
+"Height": 8
+},
+"ScrollText": null,
+},
+{
+"Id": "LeslaHouse",
+"LocationName": "{{ModId}}_NiksRoom",
+"MapPixelArea": {
+"X": 160,
+"Y": 48,
+"Width": 18,
+"Height": 8
+},
+"ScrollText": null,
+},
+{
+"Id": "LeslaBeeNursery",
+"LocationName": "{{ModId}}_BeeNursery",
+"MapPixelArea": {
+"X": 121,
+"Y": 46,
+"Width": 11,
+"Height": 10
+},
+"ScrollText": null,
+},
+{
+"Id": "FallsCave",
+"LocationName": "{{ModId}}_SecretCave",
+"MapPixelArea": {
+"X": 155,
+"Y": 89,
+"Width": 6,
+"Height": 6
+},
+"ScrollText": null,
+},
+{
+"Id": "FallsCave",
+"LocationName": "{{ModId}}_CottonsHome",
+"MapPixelArea": {
+"X": 155,
+"Y": 89,
+"Width": 6,
+"Height": 6
+},
+"ScrollText": null,
+},
+{
+"Id": "PasserbyCliffs",
+"LocationName": "{{ModId}}_PasserbyCliffs",
+"MapPixelArea": {
+"X": 73,
+"Y": 0,
+"Width": 77,
+"Height": 33
+},
+"ScrollText": null,
+},
+{
+"Id": "Janks",
+"LocationName": "{{ModId}}_FisherHome",
+"MapPixelArea": {
+"X": 121,
+"Y": 4,
+"Width": 6,
+"Height": 8
+},
+"ScrollText": null,
+},
+{
+"Id": "DriftWoodFarm",
+"LocationName": "{{ModId}}_LyellsProperty",
+"MapPixelArea": {
+"X": 0,
+"Y": 36,
+"Width": 77,
+"Height": 60
+},
+"ScrollText": null,
+},
+{
+"Id": "HalkiasResidents",
+"LocationName": "{{ModId}}_LyellsHouse",
+"MapPixelArea": {
+"X": 32,
+"Y": 68,
+"Width": 15,
+"Height": 7
+},
+"ScrollText": null,
+},
+{
+"Id": "HalkiasResidents",
+"LocationName": "{{ModId}}_GradysRoom",
+"MapPixelArea": {
+"X": 32,
+"Y": 68,
+"Width": 15,
+"Height": 7
+},
+"ScrollText": null,
+},
+{
+"Id": "DriftWoodCoop",
+"LocationName": "{{ModId}}_LyellsCoop",
+"MapPixelArea": {
+"X": 43,
+"Y": 68,
+"Width": 5,
+"Height": 5
+},
+"ScrollText": null,
+},
+{
+"Id": "DriftWoodShed",
+"LocationName": "{{ModId}}_LyellsShed",
+"MapPixelArea": {
+  "X": 35,
+"Y": 37,
+"Width": 11,
+"Height": 8
+},
+"ScrollText": null,
+},
+{
+"Id": "DriftWoodBarn",
+"LocationName": "{{ModId}}_LyellsBarn",
+"MapPixelArea": {
+"X": 56,
+"Y": 42,
+"Width": 12,
+"Height": 7
+},
+"ScrollText": null,
+},
+{
+"Id": "AncientGraveYard",
+"LocationName": "{{ModId}}_AncientGraveYard",
+"MapPixelArea": {
+"X": 264,
+"Y": 49,
+"Width": 10,
+"Height": 10
+},
+"ScrollText": null,
+},
+{
+"Id": "GuardianHouse",
+"LocationName": "{{ModId}}_GuardianHome",
+"MapPixelArea": {
+"X": 275,
+"Y": 52,
+"Width": 5,
+"Height": 7
+},
+"ScrollText": null,
+},
+],
+"CustomFields": {}
+}
+]
 }
 }
 }

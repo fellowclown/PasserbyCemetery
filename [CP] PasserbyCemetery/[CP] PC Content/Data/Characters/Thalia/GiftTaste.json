@@ -8,8 +8,8 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Thalia": "{{i18n:Thalia.gift.love}}/{{ModID}}_DodoMayo {{ModID}}_DeepCaveFruitJuice {{ModID}}_ChocoBun {{ModID}}_PopachiniStew/{{i18n:Thalia.gift.like}}/{{ModID}}_PaneekiStirFry {{ModID}}_RefinedTropaWine {{ModID}}_TropaWine {{ModID}}_WarpRootTea {{ModID}}_ArcaCoin {{ModID}}_AdauulaCakes/{{i18n:Thalia.gift.dislike}}/{{ModID}}_GaggleShrooms {{ModID}}_MovoraptorMayo {{ModID}}_LureBerryJuice/{{i18n:Thalia.gift.hate}}/{{ModID}}_MidnightSurpise {{ModID}}_DarkTuffWedges/{{i18n:Thalia.gift.neutral}}/{{ModID}}_FairyFingerTea {{ModID}}_FirePepperMeatPie/",
+"FC.Thalia": "{{i18n:Thalia.gift.love}}/208 211 220 {{ModID}}_GemmedCuff {{ModID}}_HammerAndPick {{ModID}}_Guardian3 {{ModID}}_Guardian2 {{ModID}}_Guardian1 {{ModID}}_ShevitFigure {{ModID}}_Hairclip {{ModID}}_Necklace2 {{ModID}}_Necklace1 {{ModID}}_Rattler {{ModID}}_FamilyTablet {{ModID}}_LifeTablet {{ModID}}_MiniphantFigure {{ModID}}_AluuaTablet {{ModID}}_ArahTablet {{ModID}}_LipheumTablet {{ModID}}_Pot2 {{ModID}}_Pot1 {{ModID}}_MaleWarrior {{ModID}}_FemaleWarrior {{ModID}}_MilkCoffee {{ModID}}_ChocoFrog {{ModID}}_ChocoBar {{ModID}}_HotChoco {{ModID}}_SweetenBreadPudding/{{i18n:Thalia.gift.like}}/221 223 233 {{ModID}}_WarpRootTea {{ModID}}_MidnightBubbly {{ModID}}_IceBerryWine/{{i18n:Thalia.gift.dislike}}/242 244 256 {{ModID}}_TropaWine  {{ModID}}_RefinedTropaWine {{ModID}}_PaneekiStirFry/{{i18n:Thalia.gift.hate}}/259 260 278 {{ModID}}_MashedGiggles {{ModID}}_GiggleSmoothie {{ModID}}_GiggleBowlSalad {{ModID}}_VoidFruit {{ModID}}_GemBirdMeat/{{i18n:Thalia.gift.neutral}}/{{ModID}}_HotCereal {{ModID}}_RootJuice {{ModID}}_ButtonFruitCake/ ",
 }
- },
+}
 ]
 }

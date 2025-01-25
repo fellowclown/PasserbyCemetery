@@ -8,8 +8,9 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Dezerie": "{{i18n:Dezerie.gift.love}}/{{ModID}}_FireSnapperEssence {{ModID}}_RootJuice {{ModID}}_DragaTailTonic 341/{{i18n:Dezerie.gift.like}}/344 346 408 416 419/{{i18n:Dezerie.gift.dislike}}/{{ModID}}_MilkCoffee/{{i18n:Dezerie.gift.hate}}/436 438 445 442/{{i18n:Dezerie.gift.neutral}}/{{ModID}}_StoneShroom {{ModID}}_HeavyRoot {{ModID}}_FairyFingers {{ModID}}_FrozenRoot {{ModID}}_DarkTuff/",
+"FC.Dezerie": "{{i18n:Dezerie.gift.love}}/648 165 199 {{ModID}}_ChocoBun {{ModID}}_HotChoco {{ModID}}_PeircingShot/{{i18n:Dezerie.gift.like}}/200 208 213 {{ModID}}_DodoMayo {{ModID}}_DeepCaveFruitJuice {{ModID}}_ButtonFruitCake/{{i18n:Dezerie.gift.dislike}}/215 231 232 {{ModID}}_CucaSerum {{ModID}}_MovoraptorMayo/{{i18n:Dezerie.gift.hate}}/240 241 242 {{ModID}}_PopachiniStew {{ModID}}_PaneekiStirFry {{ModID}}_HoneyGopper/{{i18n:Dezerie.gift.neutral}}/{{ModID}}_TropaWine {{ModID}}_RefinedTropaWine {{ModID}}_BudJelly/ ",
 }
- },
+}
 ]
 }
+

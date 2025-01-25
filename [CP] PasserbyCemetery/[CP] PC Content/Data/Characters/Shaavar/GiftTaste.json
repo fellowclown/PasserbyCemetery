@@ -8,8 +8,8 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Shaavar": "{{i18n:Shaavar.gift.love}}/{{ModID}}_GemBirdPatties {{ModID}}_MovoraptorFeather {{ModID}}_TastyPastry/{{i18n:Shaavar.gift.like}}/{{ModID}}_SmokedGemBirdMeat {{ModID}}_WarpRootTea {{ModID}}_DragaWhiskey {{ModID}}_LavaPop/{{i18n:Shaavar.gift.dislike}}/{{ModID}}_IceBerryWine {{ModID}}_FarmHandSupper/{{i18n:Shaavar.gift.hate}}/{{ModID}}_ZinfazuIcecream {{ModID}}_ZinfazuFruit/{{i18n:Shaavar.gift.neutral}}/{{ModID}}_TropaWine/ ",
+"FC.Shavaar": "{{i18n:Shavaar.gift.love}}/279 281 348 {{ModID}}_LavaHoney {{ModID}}_LavaPop {{ModID}}_TropaFruit/{{i18n:Shavaar.gift.like}}/376 402 461 {{ModID}}_DragaWhiskey/{{i18n:Shavaar.gift.dislike}}/552 595 716 {{ModID}}_WarpRootTea {{ModID}}_AdauulaCakes {{ModID}}_MovoraptorFeather/{{i18n:Shavaar.gift.hate}}/795 797 807 {{ModID}}_LargeArcaGoatMilk {{ModID}}_SmallArcaGoatMilk {{ModID}}_WhiteTruffleOil/{{i18n:Shavaar.gift.neutral}}/{{ModID}}_HotCereal {{ModID}}_FrostedCake {{ModID}}_SmokedGemBirdMeat/ ",
 }
- },
+}
 ]
 }
