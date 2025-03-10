@@ -5,6 +5,7 @@
 "Action":"EditData",
 "Target":"Data/Quests",
 "Entries":{
+"{{ModID}}_Carrots.Quest":"ItemDelivery/{{i18n:FC.Carrots.Quest.Title}}/{{i18n:FC.Carrots.Quest.Desc}}/{{i18n:FC.Carrots.Quest.Obj}}/FC.Sunshine Carrot 6/-1/0/-1/true/{{i18n:FC.Carrots.Quest.Reaction}}",
 "{{ModID}}_FindGemYes.Quest":"ItemDelivery/{{i18n:FC.FindGemYes.Quest.Title}}/{{i18n:FC.FindGemYes.Quest.Desc}}./{{i18n:FC.FindGemYes.Quest.Obj}}/FC.Maverick {{ModID}}_StatueGem 1/-1/150/-1/true/{{i18n:FC.FindGemYes.Quest.Reaction}}",
 "{{ModID}}_LostJournal.Quest": "ItemDelivery/{{i18n:FC.LostJournal.Quest.Title}}/{{i18n:FC.LostJournal.Quest.Desc}}/{{i18n:FC.LostJournal.Quest.Obj}}/FC.Lyell {{ModID}}_LostJournal 1/-1/500/-1/true/{{i18n:FC.LostJournal.Quest.Reaction}}",
 "{{ModID}}_StoneRelic.Quest": "ItemDelivery/{{i18n:FC.StoneRelic.Quest.Title}}/{{i18n:FC.StoneRelic.Quest.Desc}}/{{i18n:FC.StoneRelic.Quest.Obj}}/FC.Lyell {{ModID}}_StoneRelic 1/-1/780/-1/true/{{i18n:FC.StoneRelic.Quest.Reaction}}",

@@ -38,7 +38,7 @@
       },
      {
             "Action": "Load",
-            "FromFile": "Assets/Maps/Tilesheets/PC_Icon.png",
+            "FromFile": "Assets/Maps/Tilesheets/Compact/PC_Icon.png",
             "Target": "Mods/{{ModID}}/PC_Icon",
             "When": {
                 "HasMod": "shekurika.worldMaps"

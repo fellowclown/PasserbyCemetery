@@ -32,7 +32,7 @@
 "{{ModID}}_CucaSerum.Mail": "{{i18n:FC.CucaSerum.Mail}} %item cookingRecipe {{ModID}}_CucaSerum %%[#]{{i18n:FC.CucaSerum.Mail.Title}}",
 "{{ModID}}_SootheingCure.Mail": "{{i18n:FC.SootheingCure.Mail}} %item cookingRecipe {{ModID}}_SootheingCure %%[#]{{i18n:FC.SootheingCure.Mail.Title}}",
 "{{ModID}}_Graveyard.Mail": "{{i18n:FC.Graveyard.Mail}}[#]{{i18n:FC.Graveyard.Mail.Title}}",
-"{{ModID}}_DodoEgg.Mail": "{{i18n:FC.DodoEgg.Mail}}[#]{{i18n:FC.DodoEgg.Mail.Title}}",
+"{{ModID}}_RaphusEgg.Mail": "{{i18n:FC.RaphusEgg.Mail}}[#]{{i18n:FC.RaphusEgg.Mail.Title}}",
 "{{ModID}}_Marketpalooza.Mail": "{{i18n:FC.Marketpalooza.Mail}}[#]{{i18n:FC.Marketpalooza.Mail.Title}}",
 "{{ModID}}_ChocoFruit.Mail": "{{i18n:FC.ChocoFruit.Mail}} %item quest {{ModID}}_ChocoFruit.Quest true %%[#]{{i18n:FC.ChocoFruit.Mail.Title}}",
 "{{ModID}}_YohoFruit.Mail": "{{i18n:FC.YohoFruit.Mail}} %item quest {{ModID}}_YohoFruit.Quest true %%[#]{{i18n:FC.YohoFruit.Mail.Title}}",
@@ -59,7 +59,6 @@
 "{{ModID}}_UnlockTropaTree.Mail": "{{i18n:FC.UnlockTropaTree.Mail}}[#]{{i18n:FC.UnlockTropaTree.Mail.Title}}",
 "{{ModID}}_CottonsArt.Mail": "{{i18n:FC.CottonsArt.Mail}} %item furniture {{Random:{{ModID}}_CA1,{{ModID}}_CA2,{{ModID}}_CA3}}%%[#]{{i18n:FC.CottonsArt.Mail.Title}}",
 "{{ModID}}_DezeriesGift.Mail": "{{i18n:FC.DezeriesGift.Mail}}[#]{{i18n:FC.DezeriesGift.Mail.Title}}",
-"{{ModID}}_Exhibit.Mail": "{{i18n:FC.Exhibit.Mail}}[#]{{i18n:FC.Exhibit.Mail.Title}}",
 "{{ModID}}_WildTrees.Mail": "{{i18n:FC.WildTrees.Mail}} %item object {{ModID}}_HeaviousSeed 10 %%[#]{{i18n:FC.WildTrees.Mail.Title}}",
 "{{ModID}}_HeaviousFruitSmoothie.Mail": "{{i18n:FC.HeaviousFruitSmoothie.Mail}} %item cookingRecipe {{ModID}}_HeaviousFruitSmoothie %%[#]{{i18n:FC.HeaviousFruitSmoothie.Mail.Title}}",
 "{{ModID}}_MeekFruitSmoothie.Mail": "{{i18n:FC.MeekFruitSmoothie.Mail}} %item cookingRecipe {{ModID}}_MeekFruitSmoothie %%[#]{{i18n:FC.MeekFruitSmoothie.Mail.Title}}",
@@ -72,6 +71,17 @@
 "{{ModID}}_PopsBigChange.Mail": "{{i18n:FC.PopsBigChange.Mail}}[#]{{i18n:FC.PopsBigChange.Mail.Title}}",
 "{{ModID}}_PassedOutCottons.Mail": "{{i18n:FC.PassedOutCottons.Mail}}[#]{{i18n:FC.PassedOutCottons.Mail.Title}}",
 "{{ModID}}_FireWorkShow.Mail": "{{i18n:FC.FireWorkShow.Mail}}[#]{{i18n:FC.FireWorkShow.Mail.Title}}",
+"{{ModID}}_Carrot.Mail": "{{i18n:FC.Carrot.Mail}} %item quest {{ModID}}_Carrots.Quest true %%[#]{{i18n:FC.Carrot.Title}}",
+"{{ModID}}_AppleSauce.Mail": "{{i18n:FC.AppleSauce.Mail}}[#]{{i18n:FC.AppleSauce.Mail.Title}}",
+"{{ModID}}_ExhibitBundlesFinished.Mail": "{{i18n:FC.ExhibitBundlesFinished.Mail}} %item object {{ModID}}_MamaHog 1 %%[#]{{i18n:FC.ExhibitBundlesFinished.Mail.Title}}",
+
+"{{ModID}}_ExhibitBundle1Finished.Mail": "{{i18n:FC.ExhibitBundle.Mail}} %item object {{ModID}}_StrawScareCrow 1 %%[#]{{i18n:FC.ExhibitBundle1Finished.Mail.Title}}",
+"{{ModID}}_ExhibitBundle2Finished.Mail": "{{i18n:FC.ExhibitBundle.Mail}} %item object {{ModID}}_ArcaHat 1 %%[#]{{i18n:FC.ExhibitBundle2Finished.Mail.Title}}",
+"{{ModID}}_ExhibitBundle3Finished.Mail": "{{i18n:FC.ExhibitBundle.Mail}} %item object {{ModID}}_Sword2 1 %%[#]{{i18n:FC.ExhibitBundle3Finished.Mail.Title}}",
+"{{ModID}}_ExhibitBundle4Finished.Mail": "{{i18n:FC.ExhibitBundle.Mail}} %item object {{ModID}}_BullsFuryRing 1 %%[#]{{i18n:FC.ExhibitBundle4Finished.Mail.Title}}",
+"{{ModID}}_ExhibitBundle5Finished.Mail": "{{i18n:FC.ExhibitBundle.Mail}} %item object {{ModID}}_TraditionalLantern 1 %%[#]{{i18n:FC.ExhibitBundle5Finished.Mail.Title}}",
+"{{ModID}}_ExhibitBundle6Finished.Mail": "{{i18n:FC.ExhibitBundle.Mail}} %item object {{ModID}}_StatueGem 1 %%[#]{{i18n:FC.ExhibitBundle6Finished.Mail.Title}}",
+
 }
 },
       //Removes daily repeatables
@@ -334,7 +344,42 @@
 }
 }
 },
+{
+"LogName": "exhibit bundles finished",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Update": "OnTimeChange, OnLocationChange",
+"Entries": {
+"{{ModID}}_ExhibitBundlesFinished.Trigger":{
+"Id": "{{ModID}}_ExhibitBundlesFinished.Trigger",
+"Trigger": "LocationChanged",
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_ExhibitBundle1Finished.Mail,PLAYER_HAS_MAIL Current {{ModID}}_ExhibitBundle2Finished.Mail,PLAYER_HAS_MAIL Current {{ModID}}_ExhibitBundle3Finished.Mail,PLAYER_HAS_MAIL Current {{ModID}}_ExhibitBundle4Finished.Mail,PLAYER_HAS_MAIL Current {{ModID}}_ExhibitBundle5Finished.Mail,PLAYER_HAS_MAIL Current {{ModID}}_ExhibitBundle6Finished.Mail",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_ExhibitBundlesFinished.Mail",
+"Actions": null,
+"CustomFields": {},
+ "When":{
+         },
+ }
+}
+},
 ///Recipe Trigger Actions
+{
+"LogName": "AppleSauce",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_AppleSauce.Trigger":  {
+"Id": "{{ModID}}_AppleSauce.Trigger",
+"Trigger": "DayStarted",
+"Condition": "PLAYER_HAS_SEEN_EVENT current {{ModID}}_AppleSauce",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_AppleSauce.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
 {
 "LogName": "MashedGiggles",
 "Action": "EditData",
@@ -343,7 +388,7 @@
 "{{ModID}}_MashedGiggles.Trigger":{
 "Id": "{{ModID}}_MashedGiggles.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Cotton 250,SEASON Spring,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_GiggleFit",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Cotton 250",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_MashedGiggles.Mail",
 "Actions": null,
@@ -359,7 +404,7 @@
 "{{ModID}}_GiggleSmoothie.Trigger":{
 "Id": "{{ModID}}_GiggleSmoothie.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Cotton 750,SEASON Summer,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_GiggleFit",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Cotton 750",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_GiggleSmoothie.Mail",
 "Actions": null,
@@ -375,7 +420,7 @@
 "{{ModID}}_GiggleBowlSalad.Trigger":{
 "Id": "{{ModID}}_GiggleBowlSalad.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Cotton 1200,SEASON Summer,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_GiggleFit",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Cotton 1200",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_GiggleBowlSalad.Mail",
 "Actions": null,
@@ -391,7 +436,7 @@
 "{{ModID}}_HeaviousFruitSmoothie.Trigger":{
 "Id": "{{ModID}}_HeaviousFruitSmoothie.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Shaavar 500,,SEASON Summer",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Shaavar 500",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_HeaviousFruitSmoothie.Mail",
 "Actions": null,
@@ -407,7 +452,7 @@
 "{{ModID}}_MeekFruitSmoothie.Trigger":{
 "Id": "{{ModID}}_MeekFruitSmoothie.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Shaavar 750,SEASON Spring",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Shaavar 750",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_MeekFruitSmoothie.Mail",
 "Actions": null,
@@ -423,7 +468,7 @@
 "{{ModID}}_HeaviousMeekCake.Trigger":{
 "Id": "{{ModID}}_HeaviousMeekCake.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Shaavar 1250,,SEASON Summer",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Shaavar 1250",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_HeaviousMeekCake.Mail",
 "Actions": null,
@@ -439,7 +484,7 @@
 "{{ModID}}_MeekFruitLollipop.Trigger":{
 "Id": "{{ModID}}_MeekFruitLollipop.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Shaavar 2000,SEASON Fall",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Shaavar 2000",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_MeekFruitLollipop.Mail",
 "Actions": null,
@@ -455,7 +500,7 @@
 "{{ModID}}_HeaviousFruitLollipop.Trigger":{
 "Id": "{{ModID}}_HeaviousFruitLollipop.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Shaavar 2000,SEASON Fall",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Shaavar 2000",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_HeaviousFruitLollipop.Mail",
 "Actions": null,
@@ -480,16 +525,17 @@
 }
 },
 {
-"LogName": "Exhibit",
+"LogName": "Carrot Quest",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
+"Update": "OnTimeChange, OnLocationChange",
 "Entries": {
-"{{ModID}}_Exhibit.Trigger":{
-"Id": "{{ModID}}_Exhibit.Trigger",
-"Trigger": "DayStarted",
-"Condition": "PLAYER_HAS_CONVERSATION_TOPIC Current FC.ExhibitBundle1,PLAYER_HAS_CONVERSATION_TOPIC Current FC.ExhibitBundle2,PLAYER_HAS_CONVERSATION_TOPIC Current FC.ExhibitBundle3,PLAYER_HAS_CONVERSATION_TOPIC Current FC.ExhibitBundle4,PLAYER_HAS_CONVERSATION_TOPIC Current FC.ExhibitBundle5,PLAYER_HAS_CONVERSATION_TOPIC Current FC.ExhibitBundle6",
+"{{ModID}}_Carrot.Trigger":  {
+"Id": "{{ModID}}_Carrot.Trigger",
+"Trigger": "LocationChanged",
+"Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Sunshine 250",
 "HostOnly": false,
-"Action": "AddMail Current {{ModID}}_Exhibit.Mail",
+"Action": "AddMail current {{ModID}}_Carrot.Mail",
 "Actions": null,
 "CustomFields": {}
 }
@@ -551,7 +597,7 @@
 "{{ModID}}_UnlockTropaTree.Trigger":{
 "Id": "{{ModID}}_UnlockTropaTree.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_HAS_CONVERSATION_TOPIC Current cc_Greenhouse",
+"Condition": "PLAYER_HAS_MAIL Current ccPantry",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_UnlockTropaTree.Mail",
 "Actions": null,
@@ -761,7 +807,7 @@
 "Trigger": "LocationChanged",
 "Condition": "PLAYER_HAS_MAIL landslideDone Received",
 "HostOnly": false,
-"Action": "AddConversationTopic FC.ClearEntrance 10",
+"Action": "AddConversationTopic FC.ClearEntrance 999",
 "Actions": null,
 "CustomFields": {}
 }
@@ -771,10 +817,6 @@
 "LogName": "GiveGem",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
- "When": {
-"HasMod |contains=Fellowclown.WE": false,
-},
-
 "Entries": {
 "{{ModID}}_GemGive.Trigger":{
 "Id": "{{ModID}}_GemGive.Trigger",
@@ -791,10 +833,6 @@
 "LogName": "GotGem",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
- "When": {
-"HasMod |contains=Fellowclown.WE": false,
-},
-
 "Entries": {
 "{{ModID}}_GotGem.Trigger":{
 "Id": "{{ModID}}_GotGem.Trigger",
@@ -825,17 +863,17 @@
 }
 },
 {
-"LogName": "DodoEgg Mail",
+"LogName": "RaphusEgg Mail",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
 
 "Entries": {
-"{{ModID}}_DodoEgg.Trigger":{
-"Id": "{{ModID}}_DodoEgg.Trigger",
+"{{ModID}}_RaphusEgg.Trigger":{
+"Id": "{{ModID}}_RaphusEgg.Trigger",
 "Trigger": "DayStarted",
 "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_CaveBlockUnlock",
 "HostOnly": false,
-"Action": "AddMail Current {{ModID}}_DodoEgg.Mail",
+"Action": "AddMail Current {{ModID}}_RaphusEgg.Mail",
 "Actions": null,
 "CustomFields": {}
 }
@@ -1197,7 +1235,7 @@
 "{{ModID}}_BubbasBirth.Trigger":{
 "Id": "{{ModID}}_BubbasBirth.Trigger",
 "Trigger": "DayStarted",
-"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_JinxSituation,SEASON_DAY Winter 27",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_JinxSituation,SEASON Winter",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_BubbasBirth.Mail",
 "Actions": null,

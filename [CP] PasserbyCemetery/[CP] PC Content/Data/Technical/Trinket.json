@@ -7,7 +7,7 @@
       "Target": "Data/Buffs",
       "Entries": {
         "{{ModId}}_MamaHog": {
-          "DisplayName": "{{i18n: MamaHog.Buff}}",
+          "DisplayName": "{{i18n: FC.MamaHog.Buff}}",
           "Duration": 20000,
           "MaxDuration": -1,
           "IconTexture": "Mods/{{ModID}}/FC.BuffIcons",
@@ -26,8 +26,8 @@
       "Entries": {
         "{{ModID}}_MamaHog": {
           "Id": "{{ModID}}_MamaHog",
-          "DisplayName": "{{i18n:FC.MamaHog}}",
-          "Description": "{{i18n:FC.MamaHog.Desc}}",
+          "DisplayName": "{{i18n:FC.MamaHogTrinket}}",
+          "Description": "{{i18n:FC.MamaHogTrinket.Desc}}",
           "Texture": "Mods/{{ModID}}/Objects",
           "SheetIndex": 256,
           "TrinketEffectClass": "StardewValley.Objects.Trinkets.TrinketEffect",

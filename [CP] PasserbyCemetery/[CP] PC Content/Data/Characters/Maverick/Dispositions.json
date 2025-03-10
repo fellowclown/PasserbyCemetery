@@ -155,7 +155,7 @@
 "Weight": 1,
 "Outdoors": true,
 "Indoors": true,
-"IsIslandAttire": false,
+"IsIslandAttire": true,
 "Precedence": -10,
 },
 {

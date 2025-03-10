@@ -3,6 +3,9 @@
        {
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
+                        "When": {
+   "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+},
             "TextOperations": [
                 {
                     "Operation": "Append",
@@ -27,6 +30,9 @@
            {
             "Action": "EditData",
             "Target": "Data/Festivals/spring24",
+                                    "When": {
+   "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+},
             "TextOperations": [
                 {
                     "Operation": "Append",
@@ -46,16 +52,14 @@
                     "Value": "FC.Barron 6 17 2",
                     "Delimiter": "/"
                 },
-                     {
-             "Operation": "Append",
-             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
-             "Value": "/hideShadow FC.Barron true"
-            },
         ]
     },
                {
             "Action": "EditData",
             "Target": "Data/Festivals/summer11",
+                                    "When": {
+   "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+},
             "TextOperations": [
                 {
                     "Operation": "Append",
@@ -80,6 +84,9 @@
                {
             "Action": "EditData",
             "Target": "Data/Festivals/summer28",
+                                    "When": {
+   "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+},
             "TextOperations": [
                 {
                     "Operation": "Append",
@@ -117,6 +124,8 @@
             "Target": "Data/Festivals/summer20",
                                     "When": {
             "HasMod |contains=violetlizabet.CP.FireworksFestival": true,
+               "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+
             },
             "TextOperations": [
                 {
@@ -157,6 +166,9 @@
                        {
             "Action": "EditData",
             "Target": "Data/Festivals/fall16",
+                                                "When": {
+   "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+},
             "TextOperations": [
                 {
                     "Operation": "Append",
@@ -172,8 +184,8 @@
             {
             "Action": "EditData",
             "Target": "Data/Festivals/fall27",
-                        "When": {
- "HasFlag|contains=landslideDone": true,
+                                    "When": {
+   "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
 },
             "TextOperations": [
                 {
@@ -195,6 +207,9 @@
                    {
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",
+                                                "When": {
+   "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+},
             "TextOperations": [
                 {
                     "Operation": "Append",
@@ -219,6 +234,9 @@
                     {
             "Action": "EditData",
             "Target": "Data/Festivals/winter25",
+                                                "When": {
+   "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,
+},
             "TextOperations": [
                 {
                     "Operation": "Append",

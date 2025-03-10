@@ -1,0 +1,90 @@
+{
+"Changes": [
+   /************************************************
+ **  Dialogues
+ ************************************************/ 
+ {
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/FC.Sunshine",
+  "Entries": {
+// Special Keys
+"AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Sunshine}}",
+// RESORT
+"Resort_Entering": "{{i18n:Resort_Entering.Sunshine}}",
+"Resort_Leaving": "{{i18n:Resort_Leaving.Sunshine}}",
+"Resort_Shore": "{{i18n:Resort_Shore.Sunshine}}",
+"Resort_Umbrella": "{{i18n:Resort_Umbrella.Sunshine}}",
+"Resort_Wander": "{{i18n:Resort_Wander.Sunshine}}",
+"Resort_Bar": "{{i18n:Resort_Bar.Sunshine.}}",
+"Resort": "{{i18n:Resort.Sunshine}}",
+"AcceptBirthdayGift_Loved": "{{i18n:AcceptBirthdayGift_Loved.Sunshine}}",
+"AcceptBirthdayGift_Liked": "{{i18n:AcceptBirthdayGift_Liked.Sunshine}}",
+"AcceptBirthdayGift_Disliked": "{{i18n:AcceptBirthdayGift_Disliked.Sunshine}}",
+"AcceptBirthdayGift_Hated": "{{i18n:AcceptBirthdayGift_Hated.Sunshine}}",
+"AcceptBirthdayGift_Neutral": "{{i18n:AcceptBirthdayGift_Neutral.Sunshine}}",
+"HitBySlingshot": "{{i18n:HitBySlingshot.Sunshine}}",
+"DumpsterDiveComment": "{{i18n:DumpsterDiveComment.Sunshine}}",
+"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:RejectMovieTicket_AlreadyInvitedBySomeoneElse.Sunshine}}",
+"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek.Sunshine}}",
+"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie.Sunshine}}",
+"RejectGift_Divorced": "{{i18n:RejectGift_Divorced.Sunshine}}",
+"MovieInvitation": "{{i18n:MovieInvitation.Sunshine}}",
+  }
+},
+
+       {
+            "LogName": "Dialogue - 0-4",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.Sunshine",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Sunshine.LowHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Sunshine.LowHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Sunshine.LowHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Sunshine.LowHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Sunshine.LowHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Sunshine.LowHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Sunshine.LowHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Sunshine": "{{Range: 0, 4}}" 
+}
+},
+  {
+            "LogName": "Dialogue - 5-8",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.Sunshine",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Sunshine.MidHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Sunshine.MidHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Sunshine.MidHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Sunshine.MidHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Sunshine.MidHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Sunshine.MidHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Sunshine.MidHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Sunshine": "{{Range: 5, 8}}" 
+}
+},
+  {
+            "LogName": "Dialogue - Dating",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.Sunshine",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Sunshine.Highheart.{{season}}}}",
+"Tue": "{{i18n:Tue.Sunshine.Highheart.{{season}}}}",
+"Wed": "{{i18n:Wed.Sunshine.Highheart.{{season}}}}",
+"Thu": "{{i18n:Thu.Sunshine.Highheart.{{season}}}}",
+"Fri": "{{i18n:Fri.Sunshine.Highheart.{{season}}}}",
+"Sat": "{{i18n:Sat.Sunshine.Highheart.{{season}}}}",
+"Sun": "{{i18n:Sun.Sunshine.Highheart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Sunshine": "{{Range: 9, 10}}" 
+}
+},
+]
+}

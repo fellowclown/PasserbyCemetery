@@ -7,13 +7,6 @@
 "FC.FaintingIncident": "{{i18n:FC.FaintingIncident.{{TargetWithoutPath}}}}",
   }
 },
-        {
-  "Action": "EditData",
-  "Target": "Characters/Dialogue/Lewis,Characters/Dialogue/Abigail,Characters/Dialogue/Sam,Characters/Dialogue/Penny,Characters/Dialogue/Vincent,Characters/Dialogue/Jas,Characters/Dialogue/Clint,Characters/Dialogue/Emily,Characters/Dialogue/Leah",
-  "Entries": {
-"FC.StrugglesWithLyell": "{{i18n:CT.{{TargetWithoutPath}}.FC.StrugglesWithLyell}}",
-  }
-},
 {
 "Action": "EditData",
 "Target": "Characters/Dialogue/Abigail,Characters/Dialogue/Alex,Characters/Dialogue/Caroline,Characters/Dialogue/Clint,Characters/Dialogue/Demetrius,Characters/Dialogue/Elliott,Characters/Dialogue/Emily,Characters/Dialogue/Evelyn,Characters/Dialogue/George,Characters/Dialogue/Gus,Characters/Dialogue/Haley,Characters/Dialogue/Harvey,Characters/Dialogue/Jas,Characters/Dialogue/Jodi,Characters/Dialogue/Kent,Characters/Dialogue/Leah,Characters/Dialogue/LeoMainland,Characters/Dialogue/Lewis,Characters/Dialogue/Linus,Characters/Dialogue/Marnie,Characters/Dialogue/Maru,Characters/Dialogue/Pam,Characters/Dialogue/Penny,Characters/Dialogue/Pierre,Characters/Dialogue/Robin,Characters/Dialogue/Sam,Characters/Dialogue/Sebastian,Characters/Dialogue/Shane,Characters/Dialogue/Vincent,Characters/Dialogue/Willy,Characters/Dialogue/Wizard,Characters/Dialogue/Krobus,Characters/Dialogue/Mister Qi",
@@ -157,7 +150,6 @@ NoneChangingDialogue
 "FC.LyellsIntro":"{{i18n:CT.{{TargetWithoutPath}}.FC.LyellsIntro}}",
 "FC.LyellsShopVisit":"{{i18n:CT.{{TargetWithoutPath}}.FC.LyellsShopVisit}}",
 "FC.GaveCoin":"{{i18n:CT.{{TargetWithoutPath}}.FC.GaveCoin}}",
-"FC.StrugglesWithLyell":"{{i18n:CT.{{TargetWithoutPath}}.FC.StrugglesWithLyell}}",
 "FC.ElizabethSetting":"{{i18n:CT.{{TargetWithoutPath}}.FC.ElizabethSetting}}",
 "FC.TheStatue":"{{i18n:CT.{{TargetWithoutPath}}.FC.TheStatue}}",
 "FC.MavericksProblem":"{{i18n:CT.{{TargetWithoutPath}}.FC.MavericksProblem}}",

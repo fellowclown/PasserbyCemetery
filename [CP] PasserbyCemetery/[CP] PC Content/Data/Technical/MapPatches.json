@@ -27,7 +27,7 @@
       {
 "Action": "EditImage",
 "Target": "Maps/spring_Fellowclown_Outdoors,Maps/summer_Fellowclown_Outdoors,Maps/fall_Fellowclown_Outdoors,Maps/winter_Fellowclown_Outdoors",
-"FromFile": "Assets/Maps/Tilesheets/GlowFlowerOpen.png",
+"FromFile": "Assets/Maps/Tilesheets/TilesheetEdits/GlowFlowerOpen.png",
 "Update": "OnTimeChange, OnLocationChange",
 "ToArea": { "X": 576, "Y": 624, "Width": 16, "Height": 32 },
 "When": {
@@ -37,35 +37,35 @@
     {
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
-"FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/GlowFlower.tbin",
+"FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
  "PatchMode":"overlay",
 "ToArea": { "X": 32, "Y": 10, "Width": 1, "Height": 2 },
 },
     {
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
-"FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/GlowFlower.tbin",
+"FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
  "PatchMode":"overlay",
 "ToArea": { "X": 18, "Y": 30, "Width": 1, "Height": 2 },
 },
     {
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
-"FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/GlowFlower.tbin",
+"FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
  "PatchMode":"overlay",
 "ToArea": { "X": 39, "Y": 29, "Width": 1, "Height": 2 },
 },
     {
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
-"FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/GlowFlower.tbin",
+"FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
  "PatchMode":"overlay",
 "ToArea": { "X": 17, "Y": 21, "Width": 1, "Height": 2 },
 },
     {
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
-"FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/GlowFlower.tbin",
+"FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
  "PatchMode":"overlay",
 "ToArea": { "X": 10, "Y": 20, "Width": 1, "Height": 2 },
 "When": {
@@ -75,21 +75,21 @@
     {
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
-"FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/GlowFlower.tbin",
+"FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
  "PatchMode":"overlay",
 "ToArea": { "X": 13, "Y": 25, "Width": 1, "Height": 2 },
 },
     {
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
-"FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/GlowFlower.tbin",
+"FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
  "PatchMode":"overlay",
 "ToArea": { "X": 46, "Y": 29, "Width": 1, "Height": 2 },
 },
     {
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
-"FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/GlowFlower.tbin",
+"FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
  "PatchMode":"overlay",
 "ToArea": { "X": 46, "Y": 23, "Width": 1, "Height": 2 },
 },
@@ -102,7 +102,7 @@
 "{{ModID}}_PasserbyCart": {
 "Id": "{{ModID}}_PasserbyCart",
 "DisplayName": "{{i18n:FC.PasserbyCemetery}}",
-  "TargetLocation": "{{ModID}}_OldGraveYard",
+"TargetLocation": "{{ModID}}_OldGraveYard",
 "TargetTile": { "X": 23, "Y": 60 },
 "TargetDirection": "down",
 }
@@ -110,9 +110,29 @@
 },
 ////Entrances
 {
+  "LogName": "Tillys eentrance",
+  "Action": "EditMap",
+  "Target": "Maps/{{ModID}}_PasserbyRoad",
+  "When": {
+  "HasSeenEvent |contains={{ModID}}_TillyIntroduction": true,},
+  "MapTiles": [
+{
+  "Position": {
+"X": 9,
+"Y": 7
+  },
+  "Layer": "Buildings",
+  "SetProperties": {
+"Action": "LockedDoorWarp 4 10 {{ModID}}_MobileHome 800 2300"
+  },
+
+}
+  ]
+},
+{
   "LogName": "Turn about saloon entrance",
   "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_OldGraveYard",
+  "Target": "Maps/{{ModID}}_PasserbyRoad",
   "Update": "OnTimeChange, OnLocationChange",
   "When": {
   "HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
@@ -120,8 +140,8 @@
   "MapTiles": [
 {
   "Position": {
-"X": 21,
-"Y": 69
+"X": 23,
+"Y": 23
   },
   "Layer": "Buildings",
   "SetProperties": {
@@ -280,6 +300,63 @@
   ]
 },
 {
+  "LogName": "unlock Wades Office",
+  "Action": "EditMap",
+  "Target": "Maps/{{ModID}}_Temple",
+  "Update": "OnTimeChange, OnLocationChange",
+  "When": {
+  "HasSeenEvent |contains={{ModID}}_WadesOffice": true, 
+"HasSeenEvent |contains={{ModID}}_HouseParty": true,
+},
+  "MapTiles": [
+{
+  "Position": {
+"X": 18,
+"Y": 18
+  },
+  "Layer": "Buildings",
+  "SetProperties": {
+"TouchAction": "Warp {{ModID}}_WadesOffice 5 9"
+  },
+
+}
+  ]
+},
+{
+  "LogName": "unlock Wades Office",
+  "Action": "EditMap",
+  "Target": "Maps/{{ModID}}_Temple",
+  "Update": "OnTimeChange, OnLocationChange",
+  "When": {
+  "HasSeenEvent |contains={{ModID}}_WadesOffice": true, 
+"HasSeenEvent |contains={{ModID}}_HouseParty": true,
+},
+  "MapTiles": [
+{
+  "Position": {
+"X": 18,
+"Y": 19
+  },
+  "Layer": "Buildings",
+  "SetProperties": {
+"TouchAction": "Warp {{ModID}}_WadesOffice 5 10"
+  },
+
+}
+  ]
+},
+  {
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_TravelingTrailer",
+"FromFile": "Assets/Maps/Map Patches/WadesOfficeEntrance.tbin",
+"Update": "OnTimeChange",
+"ToArea": { "X": 17, "Y": 14, "Width": 3, "Height": 7 },
+"When": {
+  "HasSeenEvent |contains={{ModID}}_WadesOffice": true, 
+"HasSeenEvent |contains={{ModID}}_HouseParty": true,
+}
+},
+{
   "LogName": "unlock traveling trailer 1",
   "Action": "EditMap",
   "Target": "Maps/{{ModID}}_TravelingTrailer",
@@ -363,29 +440,24 @@
   ]
 },
   ///Map edits
-        {
+  //This patch would allow you to add a custom tilesheet to your paito and spouse room
+{
 "Action": "EditMap",
-"Target": "Maps/{{ModID}}_LyellsProperty",
-"FromFile": "Assets/Maps/Map Patches/LyellsTruckGone.tbin",
-"Update": "OnTimeChange, OnLocationChange",
-"ToArea": { "X": 43, "Y": 34, "Width": 5, "Height": 8 },
+"Target": "Maps/FarmHouse,Maps/FarmHouse2, Maps/FarmHouse2_marriage, Maps/FarmHouse1_marriage",
+"FromFile": "Assets/Maps/Map Patches/farmhouse-tilesheets.tbin",
+"FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 1 },
+"ToArea": { "X": 0, "Y": 0, "Width": 1, "Height": 1 },
+   "PatchMode": "Overlay"
+},
+  {
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_PasserbyRoad",
+"FromFile": "Assets/Maps/Map Patches/TillysCar.tbin",
+"ToArea": { "X": 34, "Y": 23, "Width": 4, "Height":4},
 "When": {
- "HasSeenEvent |contains={{ModID}}_FireWorks2": true,
- "HasSeenEvent |contains={{ModID}}_LyellReturns": false,
-
+ "HasSeenEvent |contains={{ModID}}_TillyIntroduction": "true",
 }
 },
- {
-"Action": "EditMap",
-"Target": "Maps/Town",
-"FromFile": "Assets/Maps/Map Patches/Swing.tbin",
-"Update": "OnTimeChange",
-"ToArea": { "X": 15, "Y": 12, "Width": 1, "Height": 1 },
-"When": {
-"Time": "{{Range: 1300, 1500}}",
-}
-},
- 
 {
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_OldGraveYard",
@@ -477,7 +549,7 @@
  "LogName": "gemedit",
  "Action": "EditMap",
  "Target": "Maps/{{ModID}}_OldGraveYard",
- "FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/BoxysHouse.tbin",
+ "FromFile": "Assets/Maps/Map Patches/BoxysHouse.tbin",
 "Update": "OnTimeChange, OnLocationChange",
  "ToArea": { "X": 11, "Y": 49, "Width":3, "Height": 3 },
  "When": {
@@ -488,50 +560,47 @@
  "LogName": "CoffinOpen",
  "Action": "EditMap",
  "Target": "Maps/{{ModID}}_OldGraveYard",
- "FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/CoffinOpened.tbin",
+ "FromFile": "Assets/Maps/Map Patches/CoffinOpened.tbin",
 "Update": "OnLocationChange",
  "ToArea": { "X": 2, "Y": 70, "Width":4, "Height": 4 },
  "When": {
   "HasSeenEvent |contains={{ModID}}_TheCreature": true,
 }
 },
-  {
+  
+          {
  "LogName": "gemedit",
  "Action": "EditMap",
  "Target": "Maps/{{ModID}}_OldGraveYard",
- "FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/Glow.tbin",
+ "FromFile": "Assets/Maps/Map Patches/TempShop.tbin",
  "PatchMode":"overlay",
 "Update": "OnTimeChange, OnLocationChange",
  "ToArea": { "X": 30, "Y": 80, "Width":1, "Height": 2 },
  "When": {
-"HasSeenEvent |contains={{ModID}}_TheStatue": true,
-"HasFlag |contains={{ModID}}_GotGem.Mail": false,
-"Time": "{{Range: 2000, 2300}}",
-"Weather": "Rain,Storm,GreenRain,Snow",
- "HasMod |contains=Fellowclown.WE": false,
+            "HasSeenEvent |contains={{ModID}}_TheStatue": true,
+              "HasSeenEvent |contains={{ModID}}_ForestTrouble": false,
+            "Time": "{{Range: 2000, 2300}}",
+"Weather": "Rain,Storm,GreenRain,Snow,Kana.WeatherWonders_Drizzle,Kana.WeatherWonders_AcidRain,Kana.WeatherWonders_Blizzard,Kana.WeatherWonders_MuddyRain,Kana.WeatherWonders_RainSnowMix,Kana.WeatherWonders_Deluge",
 }
-},
-  {
+        },
+                  {
  "LogName": "gemedit",
  "Action": "EditMap",
- "Target": "Maps/{{ModID}}_OldGraveYard",
- "FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/GlowShop.tbin",
+ "Target": "Maps/{{ModID}}_PasserbyRoad",
+ "FromFile": "Assets/Maps/Map Patches/PermaShop.tbin",
 "Update": "OnTimeChange, OnLocationChange",
- "ToArea": { "X": 29, "Y": 77, "Width":5, "Height": 5 },
+ "ToArea": { "X": 7, "Y": 35, "Width":7, "Height":7},
  "When": {
-"HasFlag |contains={{ModID}}_GotGem.Mail": true,
-  "HasSeenEvent |contains={{ModID}}_CaveBlockUnlock": true,
-"Time": "{{Range: 2000, 2600}}",
-"Weather": "Rain,Storm,GreenRain,Snow",
-  "HasMod |contains=Fellowclown.WE": false,
+            "HasFlag |contains={{ModID}}_GotGem.Mail": true,
+            "HasSeenEvent |contains={{ModID}}_ForestTrouble": true,
 }
-},
+        },
 ///Graveyard Map Edits
 {
  "LogName": "OldGraveYardStatueMoved",
  "Action": "EditMap",
  "Target": "Maps/{{ModID}}_OldGraveYard",
- "FromFile": "Assets/Maps/Map Patches/GraveYard Map Edits/OldGraveYardStatueMoved.tbin",
+ "FromFile": "Assets/Maps/Map Patches/OldGraveYardStatueMoved.tbin",
 "Update": "OnTimeChange, OnLocationChange",
  "ToArea": { "X": 26, "Y": 31, "Width": 4, "Height": 5 },
  "When": {
@@ -607,5 +676,123 @@
 "HasFlag |contains=landslideDone": true,
 }
   },
+
+////FESTIVAL EDITS
+{
+    "Action": "EditMap",
+    "Target": "Maps/Forest-FlowerFestival,Maps/Forest-FlowerFestival2",
+    "FromFile": "Assets/Maps/Map Patches/FlowerFestivalEditWOLFROMRAS.tbin",
+    "ToArea": { "X":0, "Y": 9, "Width": 27, "Height":12},
+    "When": {
+        "HasMod |contains=Wolf.RomRas": true
+            }
+        },
+         {
+    "Action": "EditMap",
+    "Target": "Maps/Forest-FlowerFestival,Maps/Forest-FlowerFestival2",
+    "FromFile": "Assets/Maps/Map Patches/RSVFlowerFestivalEditWOLFROMRAS.tbin",
+    "ToArea": { "X":0, "Y": 9, "Width": 27, "Height":12},
+    "When": {
+        "HasMod |contains=Wolf.RomRas": true,
+        "HasMod |contains=Rafseazz.RSVCP": true
+            }
+        },
+    {
+    "Action": "EditMap",
+    "Target": "Maps/Forest-FlowerFestival,Maps/Forest-FlowerFestival2",
+    "FromFile": "Assets/Maps/Map Patches/FlowerFestivalEdit.tbin",
+    "ToArea": { "X":0, "Y": 9, "Width": 27, "Height":12},
+    "When": {
+        "HasMod |contains=Rafseazz.RSVCP": false,
+        "HasMod |contains=Wolf.RomRas": false
+            }
+        },
+         {
+    "Action": "EditMap",
+    "Target": "Maps/Forest-FlowerFestival,Maps/Forest-FlowerFestival2",
+    "FromFile": "Assets/Maps/Map Patches/RSVFlowerFestivalEdit.tbin",
+    "ToArea": { "X":0, "Y": 9, "Width": 27, "Height":12
+    },
+         "When": {
+        "HasMod |contains=Rafseazz.RSVCP": true
+            }
+        },
+                             {
+    "Action": "EditMap",
+    "Target": "Maps/Beach-NightMarket",
+    "FromFile": "Assets/Maps/Map Patches/NightMarketEdit.tbin",
+    "ToArea": { "X":0, "Y": 17, "Width": 12, "Height":7},
+        },
+                         {
+    "Action": "EditMap",
+    "Target": "Maps/Town-Christmas",
+    "FromFile": "Assets/Maps/Map Patches/ChristmasEdit.tbin",
+    "ToArea": { "X":53, "Y": 83, "Width": 3, "Height":3},
+        },
+               {
+    "Action": "EditMap",
+    "Target": "Maps/Beach-Luau,Maps/Beach-Luau2",
+    "FromFile": "Assets/Maps/Map Patches/BeachEditNonEvent.tbin",
+    "ToArea": { "X":14, "Y": 25, "Width": 10, "Height":11},
+        },
+                    {
+    "Action": "EditMap",
+    "Target": "Maps/Beach-Jellies,Maps/Beach-Jellies2",
+    "FromFile": "Assets/Maps/Map Patches/BeachEditNonEvent.tbin",
+    "ToArea": { "X":14, "Y": 25, "Width": 10, "Height":11},
+        },
+                        {
+    "Action": "EditMap",
+    "Target": "Maps/Beach",
+    "FromFile": "Assets/Maps/Map Patches/BeachEditEvent.tbin",
+    "ToArea": { "X":14, "Y": 25, "Width": 10, "Height":11},
+         "When": {
+        "DayEvent |contains=dance of the moonlight jellies": true,
+            }
+        },
+                            {
+    "Action": "EditMap",
+    "Target": "Maps/Forest-IceFestival,Maps/Forest-IceFestival2",
+    "FromFile": "Assets/Maps/Map Patches/IceFestivalEdit.tbin",
+    "ToArea": { "X":93, "Y": 12, "Width": 18, "Height":11},
+         "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+                                    {
+    "Action": "EditMap",
+    "Target": "Maps/Forest-IceFestival,Maps/Forest-IceFestival2",
+    "FromFile": "Assets/Maps/Map Patches/IceFestivalEditSVE.tbin",
+    "ToArea": { "X":93, "Y": 11, "Width": 18, "Height":12},
+         "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+
+                                            {
+    "Action": "EditMap",
+    "Target": "Maps/Town-Fair,Maps/Town-Fair2",
+    "FromFile": "Assets/Maps/Map Patches/FairFestivalEdit.tbin",
+    "ToArea": { "X":57, "Y": 94, "Width": 17, "Height":12
+    },
+        },
+{
+    "Action": "EditMap",
+    "Target": "Maps/Town-Halloween,Maps/Town-Halloween2",
+    "FromFile": "Assets/Maps/Map Patches/HalloweenEdit.tbin",
+    "ToArea": { "X":21, "Y": 73, "Width": 18, "Height":12},
+     "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+}
+},
+{
+    "Action": "EditMap",
+    "Target": "Maps/Town-Halloween,Maps/Town-Halloween2",
+    "FromFile": "Assets/Maps/Map Patches/HalloweenEdit-SVE.tbin",
+    "ToArea": { "X":21, "Y": 72, "Width": 18, "Height":14},
+     "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+}
+},
 ]
 }

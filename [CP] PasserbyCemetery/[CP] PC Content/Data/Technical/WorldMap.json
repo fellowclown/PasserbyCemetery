@@ -59,10 +59,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 137,
-"Y": 142,
+"X": 256,
+"Y": 78,
 "Width": 14,
-"Height": 12
+"Height": 8
 },
 "Text": "{{i18n:FC.TurnaboutSaloon}}",
 },
@@ -168,10 +168,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 206,
-"Y": 85,
-"Width": 16,
-"Height": 9
+"X": 244,
+"Y": 81,
+"Width": 10,
+"Height": 7
 },
 "Text": "{{i18n:FC.BookWormMobile}}",
 },
@@ -186,18 +186,6 @@
 "Height": 9
 },
 "Text": "{{i18n:FC.PasserbyTemple}}",
-},
-    {
-"Id": "GotzPigPen",
-"Condition": null,
-"KnownCondition": null,
-"PixelArea": {
-"X": 181,
-"Y": 46,
-"Width": 14,
-"Height": 10
-},
-"Text": "{{i18n:FC.GotzPigPen}}",
 },
     {
 "Id": "LeslaHouse",
@@ -249,7 +237,7 @@
 },
 
     {
-"Id": "Janks",
+"Id": "Cranks",
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
@@ -258,7 +246,7 @@
 "Width": 6,
 "Height": 8
 },
-"Text": "{{i18n:FC.JanksGoodies}}",
+"Text": "{{i18n:FC.CranksGoodies}}",
 },
 
     {
@@ -352,8 +340,8 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 275,
-"Y": 52,
+"X": 274,
+"Y": 32,
 "Width": 5,
 "Height": 7
 },
@@ -364,12 +352,12 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 264,
-"Y": 49,
-"Width": 10,
-"Height": 10
+"X": 260,
+"Y": 26,
+"Width": 14,
+"Height": 17
 },
-"Text": "{{i18n:FC.GuardianHome}}",
+"Text": "{{i18n:FC.AncientGraveYard}}",
 },
 ],
 "WorldPositions": [
@@ -410,10 +398,10 @@
 "Id": "TurnaboutSaloon",
 "LocationName": "{{ModId}}_TurnaboutSaloon",
 "MapPixelArea": {
-"X": 137,
-"Y": 142,
+"X": 256,
+"Y": 78,
 "Width": 14,
-"Height": 12
+"Height": 8
 },
 "ScrollText": null,
 },
@@ -421,10 +409,10 @@
 "Id": "TurnaboutSaloon",
 "LocationName": "{{ModId}}_TurnaboutSaloonBasement",
 "MapPixelArea": {
-"X": 137,
-"Y": 142,
+"X": 256,
+"Y": 78,
 "Width": 14,
-"Height": 12
+"Height": 8
 },
 "ScrollText": null,
 },
@@ -487,10 +475,10 @@
 "Id": "BookwormMobile",
 "LocationName": "{{ModId}}_TravelingTrailer",
 "MapPixelArea": {
-"X": 206,
-"Y": 85,
-"Width": 16,
-"Height": 9
+"X": 244,
+"Y": 81,
+"Width": 10,
+"Height": 7
 },
 "ScrollText": null,
 },
@@ -498,10 +486,10 @@
 "Id": "BookwormMobile",
 "LocationName": "{{ModId}}_TravelingTrailerDecker",
 "MapPixelArea": {
-"X": 206,
-"Y": 85,
-"Width": 16,
-"Height": 9
+"X": 244,
+"Y": 81,
+"Width": 10,
+"Height": 7
 },
 "ScrollText": null,
 },
@@ -674,10 +662,10 @@
 "Id": "AncientGraveYard",
 "LocationName": "{{ModId}}_AncientGraveYard",
 "MapPixelArea": {
-"X": 264,
-"Y": 49,
-"Width": 10,
-"Height": 10
+"X": 260,
+"Y": 26,
+"Width": 14,
+"Height": 17
 },
 "ScrollText": null,
 },
@@ -685,8 +673,8 @@
 "Id": "GuardianHouse",
 "LocationName": "{{ModId}}_GuardianHome",
 "MapPixelArea": {
-"X": 275,
-"Y": 52,
+"X": 274,
+"Y": 32,
 "Width": 5,
 "Height": 7
 },

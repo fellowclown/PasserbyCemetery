@@ -1,5 +1,53 @@
 {
 "Changes": [
+  {
+"LogName": "Mobile Home",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_MobileHome": {
+"DisplayName": "{{i18n:FC.MobileHome}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_MobileHome",
+"AlwaysActive": true,
+},
+"DefaultArrivalTile": {
+"X": 4,
+"Y":10
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage": [],
+"CustomFields": {}
+}
+}
+},
+   {
+"LogName": "Shop",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_Shop": {
+"DisplayName": "{{i18n:FC.ShopOfWonders}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_InnerShop",
+"AlwaysActive": true,
+},
+"DefaultArrivalTile": {
+"X": 3,
+"Y":6
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage": [],
+"CustomFields": {}
+}
+}
+},
           {
 "LogName": "PasserbyRoad",
 "Action": "EditData",
@@ -55,7 +103,26 @@
 "QualityModifierMode": "Stack",
 },
    {
-"Chance": 0.5,
+"Chance": 0.1,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_LipheumTablet",
+"ItemId": "(O){{ModID}}_LipheumTablet",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+   {
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArcaCoin",
@@ -74,7 +141,7 @@
 "QualityModifierMode": "Stack",
 },
   {
-"Chance": 0.5,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot1",
@@ -93,7 +160,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.5,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot2",
@@ -112,7 +179,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArahTablet",
@@ -131,7 +198,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_AluuaTablet",
@@ -150,7 +217,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_MiniphantFigure",
@@ -169,7 +236,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_LifeTablet",
@@ -188,7 +255,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_FamilyTablet",
@@ -207,7 +274,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Rattler",
@@ -226,7 +293,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace1",
@@ -245,7 +312,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace2",
@@ -264,7 +331,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Hairclip",
@@ -283,7 +350,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ShevitFigure",
@@ -302,7 +369,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian1",
@@ -321,7 +388,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian2",
@@ -340,7 +407,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian3",
@@ -397,7 +464,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.6,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_OldShoes",
@@ -902,7 +969,7 @@
 },
 "ExcludeFromNpcPathfinding": false,
 "ArtifactSpots": [
-       {
+             {
 "Chance": 0.01,
 "Season": null,
 "Condition": null,
@@ -922,11 +989,11 @@
 "QualityModifierMode": "Stack",
 },
      {
-"Chance": 0.1,
+"Chance": 0.2,
 "Season": null,
-"Condition": "PLAYER_HAS_DIALOGUE_ANSWER Current Gigglefit_NotSeen,PLAYER_HAS_DIALOGUE_ANSWER Current  Gigglefit_HasSeen",
-"Id": "(O){{ModID}}_GiggleFitSeeds",
-"ItemId": "{{ModID}}_GiggleFitSeeds",
+"Condition": null,
+"Id": "{{ModID}}_GiggleFitSeeds",
+"ItemId": "(O){{ModID}}_GiggleFitSeeds",
 "RandomItemId": null,
 "MinStack": 1,
 "MaxStack": 4,
@@ -941,7 +1008,26 @@
 "QualityModifierMode": "Stack",
 },
    {
-"Chance": 0.5,
+"Chance": 0.1,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_LipheumTablet",
+"ItemId": "(O){{ModID}}_LipheumTablet",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+   {
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArcaCoin",
@@ -960,7 +1046,7 @@
 "QualityModifierMode": "Stack",
 },
   {
-"Chance": 0.5,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot1",
@@ -979,7 +1065,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.5,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot2",
@@ -998,7 +1084,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArahTablet",
@@ -1017,7 +1103,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_AluuaTablet",
@@ -1036,7 +1122,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_MiniphantFigure",
@@ -1055,7 +1141,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_LifeTablet",
@@ -1074,7 +1160,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_FamilyTablet",
@@ -1093,7 +1179,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Rattler",
@@ -1112,7 +1198,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace1",
@@ -1131,7 +1217,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace2",
@@ -1150,7 +1236,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Hairclip",
@@ -1169,7 +1255,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ShevitFigure",
@@ -1188,7 +1274,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian1",
@@ -1207,7 +1293,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian2",
@@ -1226,7 +1312,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian3",
@@ -1283,7 +1369,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.6,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_OldShoes",
@@ -1960,25 +2046,7 @@
 },
 "ExcludeFromNpcPathfinding": false,
 "ArtifactSpots": [
-       {
-"Chance": 0.1,
-"Season": null,
-"Condition": "PLAYER_HAS_DIALOGUE_ANSWER Current Gigglefit_NotSeen,PLAYER_HAS_DIALOGUE_ANSWER Current  Gigglefit_HasSeen",
-"Id": "(O){{ModID}}_GiggleFitSeeds",
-"ItemId": "{{ModID}}_GiggleFitSeeds",
-"RandomItemId": null,
-"MinStack": 1,
-"MaxStack": 4,
-"Quality": -1,
-"ObjectInternalName": null,
-"ObjectDisplayName": null,
-"ToolUpgradeLevel": -1,
-"IsRecipe": false,
-"StackModifiers": null,
-"StackModifierMode": "Stack",
-"QualityModifiers": null,
-"QualityModifierMode": "Stack",
-},       {
+              {
 "Chance": 0.01,
 "Season": null,
 "Condition": null,
@@ -1998,11 +2066,11 @@
 "QualityModifierMode": "Stack",
 },
      {
-"Chance": 0.1,
+"Chance": 0.2,
 "Season": null,
-"Condition": "PLAYER_HAS_DIALOGUE_ANSWER Current Gigglefit_NotSeen,PLAYER_HAS_DIALOGUE_ANSWER Current  Gigglefit_HasSeen",
-"Id": "(O){{ModID}}_GiggleFitSeeds",
-"ItemId": "{{ModID}}_GiggleFitSeeds",
+"Condition": null,
+"Id": "{{ModID}}_GiggleFitSeeds",
+"ItemId": "(O){{ModID}}_GiggleFitSeeds",
 "RandomItemId": null,
 "MinStack": 1,
 "MaxStack": 4,
@@ -2017,7 +2085,26 @@
 "QualityModifierMode": "Stack",
 },
    {
-"Chance": 0.5,
+"Chance": 0.1,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_LipheumTablet",
+"ItemId": "(O){{ModID}}_LipheumTablet",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+   {
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArcaCoin",
@@ -2036,7 +2123,7 @@
 "QualityModifierMode": "Stack",
 },
   {
-"Chance": 0.5,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot1",
@@ -2055,7 +2142,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.5,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot2",
@@ -2074,7 +2161,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArahTablet",
@@ -2093,7 +2180,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_AluuaTablet",
@@ -2112,7 +2199,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_MiniphantFigure",
@@ -2131,7 +2218,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_LifeTablet",
@@ -2150,7 +2237,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_FamilyTablet",
@@ -2169,7 +2256,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Rattler",
@@ -2188,7 +2275,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace1",
@@ -2207,7 +2294,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace2",
@@ -2226,7 +2313,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Hairclip",
@@ -2245,7 +2332,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ShevitFigure",
@@ -2264,7 +2351,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian1",
@@ -2283,7 +2370,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian2",
@@ -2302,7 +2389,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian3",
@@ -2359,7 +2446,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.6,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_OldShoes",
@@ -2761,7 +2848,7 @@
 },
 "ExcludeFromNpcPathfinding": false,
 "ArtifactSpots": [
-        {
+            {
 "Chance": 0.01,
 "Season": null,
 "Condition": null,
@@ -2781,11 +2868,11 @@
 "QualityModifierMode": "Stack",
 },
      {
-"Chance": 0.1,
+"Chance": 0.2,
 "Season": null,
-"Condition": "PLAYER_HAS_DIALOGUE_ANSWER Current Gigglefit_NotSeen,PLAYER_HAS_DIALOGUE_ANSWER Current  Gigglefit_HasSeen",
-"Id": "(O){{ModID}}_GiggleFitSeeds",
-"ItemId": "{{ModID}}_GiggleFitSeeds",
+"Condition": null,
+"Id": "{{ModID}}_GiggleFitSeeds",
+"ItemId": "(O){{ModID}}_GiggleFitSeeds",
 "RandomItemId": null,
 "MinStack": 1,
 "MaxStack": 4,
@@ -2800,7 +2887,26 @@
 "QualityModifierMode": "Stack",
 },
    {
-"Chance": 0.5,
+"Chance": 0.1,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_LipheumTablet",
+"ItemId": "(O){{ModID}}_LipheumTablet",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+   {
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArcaCoin",
@@ -2819,7 +2925,7 @@
 "QualityModifierMode": "Stack",
 },
   {
-"Chance": 0.5,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot1",
@@ -2838,7 +2944,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.5,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot2",
@@ -2857,7 +2963,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArahTablet",
@@ -2876,7 +2982,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_AluuaTablet",
@@ -2895,7 +3001,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_MiniphantFigure",
@@ -2914,7 +3020,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_LifeTablet",
@@ -2933,7 +3039,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_FamilyTablet",
@@ -2952,7 +3058,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Rattler",
@@ -2971,7 +3077,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace1",
@@ -2990,7 +3096,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace2",
@@ -3009,7 +3115,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Hairclip",
@@ -3028,7 +3134,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ShevitFigure",
@@ -3047,7 +3153,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian1",
@@ -3066,7 +3172,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian2",
@@ -3085,7 +3191,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian3",
@@ -3142,7 +3248,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.6,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_OldShoes",
@@ -3323,6 +3429,25 @@
 },
 "ExcludeFromNpcPathfinding": false,
 "ArtifactSpots": [
+           {
+"Chance": 0.01,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_Button",
+"ItemId": "{{ModID}}_Button",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 2,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
      {
 "Chance": 0.2,
 "Season": null,
@@ -3343,7 +3468,26 @@
 "QualityModifierMode": "Stack",
 },
    {
-"Chance": 0.5,
+"Chance": 0.1,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_LipheumTablet",
+"ItemId": "(O){{ModID}}_LipheumTablet",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+   {
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArcaCoin",
@@ -3362,7 +3506,7 @@
 "QualityModifierMode": "Stack",
 },
   {
-"Chance": 0.5,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot1",
@@ -3381,7 +3525,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.5,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot2",
@@ -3400,7 +3544,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArahTablet",
@@ -3419,7 +3563,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_AluuaTablet",
@@ -3438,7 +3582,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_MiniphantFigure",
@@ -3457,7 +3601,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_LifeTablet",
@@ -3476,7 +3620,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_FamilyTablet",
@@ -3495,7 +3639,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Rattler",
@@ -3514,7 +3658,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace1",
@@ -3533,7 +3677,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace2",
@@ -3552,7 +3696,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Hairclip",
@@ -3571,7 +3715,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.4,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ShevitFigure",
@@ -3590,7 +3734,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian1",
@@ -3609,7 +3753,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian2",
@@ -3628,7 +3772,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.3,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian3",
@@ -3685,7 +3829,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.6,
+"Chance": 0.2,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_OldShoes",
@@ -4416,7 +4560,6 @@
 "HalkiasProperty.PrayerRoomEntrance": "{{i18n:HalkiasProperty.PrayerRoomEntrance}}",
 "HalkiasProperty.FemaleStatue": "{{i18n:HalkiasProperty.FemaleStatue}}",
 "HalkiasProperty.MaleStatue": "{{i18n:HalkiasProperty.MaleStatue}}",
-"HalkiasProperty.MailBox": "{{i18n:HalkiasProperty.MailBox}}",
 "HalkiasProperty.BigtropaTree": "{{i18n:HalkiasProperty.BigtropaTree.{{season}}}}",
 "HalkiasProperty.GhostFlower.DayTime": "{{i18n:HalkiasProperty.GhostFlower.DayTime}}",
 "HalkiasProperty.GhostFlower.NightTime": "{{i18n:HalkiasProperty.GhostFlower.NightTime}}",
@@ -4646,7 +4789,6 @@
 "LeslaHome.GraveChester":"{{i18n:LeslaHome.GraveChester}}",
 "LeslaHome.Warthog":"{{i18n:LeslaHome.Warthog}}",
 "LeslaHome.BlueTinyFlowers":"{{i18n:LeslaHome.BlueTinyFlowers}}",
-"LeslaHome.MailBox":"{{i18n:LeslaHome.MailBox}}",
 "LeslaHome.Bike":"{{i18n:LeslaHome.Bike}}",
 "LeslaHome.Coffee":"{{i18n:LeslaHome.Coffee}}",
 "LeslaHome.FerretCage":"{{i18n:LeslaHome.FerretCage}}",
@@ -4822,8 +4964,40 @@
 "Turnabout.FoodStorage": "{{i18n:Turnabout.FoodStorage}}",
 "Turnabout.Storage": "{{i18n:Turnabout.Storage}}",
 "FC.ApplegateResidents": "{{i18n:FC.ApplegateResidents}}",
-"Marketpalooza.Jank": "{{i18n:Marketpalooza.Jank}}",
+"Marketpalooza.Crank": "{{i18n:Marketpalooza.Crank}}",
 "PasserbyRoad.Frog": "{{i18n:PasserbyRoad.Frog}}",
+"FC.Halkiasresidents": "{{i18n:FC.Halkiasresidents}}",
+"FC.Stoneresidents": "{{i18n:FC.Stoneresidents}}",
+"FC.Leslaresidents": "{{i18n:FC.Leslaresidents}}",
+"FC.LoveJoyresidents": "{{i18n:FC.LoveJoyresidents}}",
+"SecretCave.StumpDollGame": "{{i18n:SecretCave.StumpDollGame}}",
+"GraveYard.Usagi.Grandfather": "{{i18n:GraveYard.Usagi.Grandfather}}",
+"GraveYard.Usagi.Grandmother": "{{i18n:GraveYard.Usagi.Grandmother}}",
+"PasserbyRoad.EvesTruck": "{{i18n:PasserbyRoad.EvesTruck}}",
+"AppleGate.TV": "{{i18n:AppleGate.TV}}",
+"AppleGate.CoffeeMachine": "{{i18n:AppleGate.CoffeeMachine}}",
+"AppleGate.Sink": "{{i18n:AppleGate.Sink}}",
+"AppleGate.Stove": "{{i18n:AppleGate.Stove}}",
+"AppleGate.Fridge": "{{i18n:AppleGate.Fridge}}",
+"AppleGate.PlantDresser": "{{i18n:AppleGate.PlantDresser}}",
+"AppleGate.FrogCage": "{{i18n:AppleGate.FrogCage}}",
+"AppleGate.Radio": "{{i18n:AppleGate.Radio}}",
+"AppleGate.Computer": "{{i18n:AppleGate.Computer}}",
+"AppleGate.DinoPlush": "{{i18n:AppleGate.DinoPlush}}",
+"PasserbyRoad.TillysCar": "{{i18n:PasserbyRoad.TillysCar}}",
+"Hutch.Berries": "{{i18n:Hutch.Berries}}",
+"CottonsHome.Pond": "{{i18n:CottonsHome.Pond}}",
+"CottonsHome.CaveFlower": "{{i18n:CottonsHome.CaveFlower}}",
+"CottonsHome.GoblinToy": "{{i18n:CottonsHome.GoblinToy}}",
+"CottonsHome.Jar": "{{i18n:CottonsHome.Jar}}",
+"CottonsHome.Keg": "{{i18n:CottonsHome.Keg}}",
+"CottonsHome.CookingPot": "{{i18n:CottonsHome.CookingPot}}",
+"CottonsHome.Bones": "{{i18n:CottonsHome.Bones}}",
+"CottonsHome.KeepOutSign": "{{i18n:CottonsHome.KeepOutSign}}",
+"CottonsHome.Boxes": "{{i18n:CottonsHome.Boxes}}",
+"CottonsHome.Shoes": "{{i18n:CottonsHome.Shoes}}",
+"CottonsHome.Sofa": "{{i18n:CottonsHome.Sofa}}",
+"CottonsHome.PiggyToy": "{{i18n:CottonsHome.PiggyToy}}",
 
 }
  },

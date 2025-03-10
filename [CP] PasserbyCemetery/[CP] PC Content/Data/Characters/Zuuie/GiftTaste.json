@@ -8,7 +8,7 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Zuuie": "{{i18n:Zuuie.gift.love}}/684 84 86 {{ModID}}_StoneShroom {{ModID}}_FireSnapper {{ModID}}_WhiteTruffle/{{i18n:Zuuie.gift.like}}/92 109 107 {{ModID}}_HeavyRoot {{ModID}}_HeaviousFruit {{ModID}}_FairyFingers/{{i18n:Zuuie.gift.dislike}}/116 30 16 {{ModID}}_SpiritBud {{ModID}}_ReuuNut {{ModID}}_ReuuResin/{{i18n:Zuuie.gift.hate}}/128 138 139 {{ModID}}_SmokedGemBirdMeat {{ModID}}_GemBirdPatties {{ModID}}_GemBirdMeat/{{i18n:Zuuie.gift.neutral}}/{{ModID}}_MeekFruitSmoothie {{ModID}}_LureBerryJuice {{ModID}}_MidnightSurpise/ ",
+"FC.Zuuie": "{{i18n:Zuuie.gift.love}}/684 84 86 {{ModID}}_StoneShroom {{ModID}}_FireSnapper {{ModID}}_WhiteTruffle/{{i18n:Zuuie.gift.like}}/92 109 107 {{ModID}}_HeavyRoot {{ModID}}_HeaviousFruit {{ModID}}_FairyFingers/{{i18n:Zuuie.gift.dislike}}/116 16 {{ModID}}_SpiritBud {{ModID}}_ReuuNut {{ModID}}_ReuuResin/{{i18n:Zuuie.gift.hate}}/128 138 139 {{ModID}}_SmokedGemBirdMeat {{ModID}}_GemBirdPatties {{ModID}}_GemBirdMeat/{{i18n:Zuuie.gift.neutral}}/{{ModID}}_MeekFruitSmoothie {{ModID}}_LureBerryJuice {{ModID}}_MidnightSurpise/ ",
 }
 }
 ]

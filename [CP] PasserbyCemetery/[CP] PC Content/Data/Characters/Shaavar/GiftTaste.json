@@ -8,7 +8,7 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Shavaar": "{{i18n:Shavaar.gift.love}}/279 281 348 {{ModID}}_LavaHoney {{ModID}}_LavaPop {{ModID}}_TropaFruit/{{i18n:Shavaar.gift.like}}/376 402 461 {{ModID}}_DragaWhiskey/{{i18n:Shavaar.gift.dislike}}/552 595 716 {{ModID}}_WarpRootTea {{ModID}}_AdauulaCakes {{ModID}}_MovoraptorFeather/{{i18n:Shavaar.gift.hate}}/795 797 807 {{ModID}}_LargeArcaGoatMilk {{ModID}}_SmallArcaGoatMilk {{ModID}}_WhiteTruffleOil/{{i18n:Shavaar.gift.neutral}}/{{ModID}}_HotCereal {{ModID}}_FrostedCake {{ModID}}_SmokedGemBirdMeat/ ",
+"FC.Shaavar": "{{i18n:Shaavar.gift.love}}/281 348 {{ModID}}_LavaHoney {{ModID}}_LavaPop {{ModID}}_TropaFruit/{{i18n:Shaavar.gift.like}}/376 402 461 {{ModID}}_DragaWhiskey/{{i18n:Shaavar.gift.dislike}}/552 595 716 {{ModID}}_WarpRootTea {{ModID}}_AdauulaCakes {{ModID}}_MovoraptorFeather/{{i18n:Shaavar.gift.hate}}/795 797 807 {{ModID}}_LargeArcaGoatMilk {{ModID}}_SmallArcaGoatMilk {{ModID}}_WhiteTruffleOil/{{i18n:Shaavar.gift.neutral}}/{{ModID}}_HotCereal {{ModID}}_FrostedCake {{ModID}}_SmokedGemBirdMeat/ ",
 }
 }
 ]

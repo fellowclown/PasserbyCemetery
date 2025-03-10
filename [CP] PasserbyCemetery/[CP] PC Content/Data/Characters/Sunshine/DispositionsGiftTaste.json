@@ -1,0 +1,101 @@
+{
+"Changes": [
+   {
+"LogName": "Sunshine Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Sunshine": {
+"DisplayName":"{{i18n:FC.Sunshine}}",
+"Breather": false,
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Rude",
+"SocialAnxiety":"Shy",
+"Optimism":"Negative",
+"BirthSeason":"summer",
+"Birthday":"6",
+"HomeRegion":"Town",
+"IsDarkSkinned":false,
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland":true,
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":false,
+"SpouseWantsChildren":false,
+"SpouseGiftJealousy":false,
+"IntroductionsQuest":"{{IncludeIntro}}",
+"ItemDeliveryQuests":true,
+"PerfectionScore":"{{IncludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"20",
+"DumpsterDiveFriendshipEffect":"1",
+"FlowerDanceCanDance":false,
+"KissSpriteIndex": 28,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+    3
+],
+"SpouseRoom": {},
+"SpousePatio":{},
+
+"SpouseFloors": [ ],
+"SpouseWallpapers": [],
+"FriendsAndFamily": {},
+"WinterStarGifts": [],
+"WinterStarParticipant": false,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": "!PLAYER_HAS_SEEN_EVENT current Fellowclown.PC_CaveBlockUnlock",
+"Location": "{{ModID}}_Shop",
+"Tile": {
+"X": -3000,
+"Y": -3000
+},
+"Direction": "right"
+},
+{
+"Id": "DefaultHome",
+"Condition": "PLAYER_HAS_SEEN_EVENT current Fellowclown.PC_CaveBlockUnlock",
+"Location": "{{ModID}}_Shop",
+"Tile": {
+"X": 2,
+"Y": 5
+},
+"Direction": "down"
+}
+],
+"Appearance": [
+    {
+"ID": "{{ModID}}.Sunshine",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Sunshine/FC.Sunshine_Spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Sunshine/FC.Sunshine_Spring.png}}"
+},
+],
+}
+}
+},
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Sunshine": "{{i18n:Sunshine.gift.love}}/{{ModID}}_AppleMash {{ModID}}_FermentedAppleSauce Fellowclown.PC_AdauulaStalks Fellowclown.PC_WarpRoot 221 222 154 613 178/{{i18n:Sunshine.gift.like}}/635/{{i18n:Sunshine.gift.dislike}}/289 928 107/{{i18n:Sunshine.gift.hate}}/174 182/{{i18n:Sunshine.gift.neutral}}/253/ ",
+}
+ },
+]
+}

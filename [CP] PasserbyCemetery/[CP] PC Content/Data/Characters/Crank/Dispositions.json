@@ -1,0 +1,133 @@
+{
+"Changes": [
+/************************************************
+Dispositions 
+************************************************/
+
+ {
+"LogName": "Crank Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Crank": {
+///Basic Info
+"DisplayName":"{{i18n:FC.Crank}}",
+"Language":"Default",
+"Gender":"Female",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"shy",
+"Optimism":"Positive",
+"BirthSeason":"Winter",
+"BirthDay":2,
+"HomeRegion":"Town",
+"IsDarkSkinned":false,
+///Social Features
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":false,
+"CanVisitIsland": false,
+"LoveInterest":null,
+"Calendar": "HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SpouseAdopts":null,
+"SpouseWantsChildren":false,
+"SpouseGiftJealousy":false,
+"SpouseGiftJealousyFriendshipChange":-10,
+"SpouseRoom": {
+"MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 6,
+"Height": 9
+}
+},
+"SpousePatio": {
+"MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 4,
+"Height": 4
+}
+},
+"SpouseFloors": [],
+"SpouseWallpapers": [],
+"IntroductionsQuest":"{{IncludeIntro}}",
+"ItemDeliveryQuests":true,
+"PerfectionScore": false,
+"EndSlideShow":"TrailingGroup",
+"FriendsAndFamily":null,
+///Dumpster Diving
+"DumpsterDiveEmote":12,
+"DumpsterDiveFriendshipEffect":-2,
+///Festivals
+"FlowerDanceCanDance":true,
+"WinterStarParticipant":true,
+"WinterStarGifts": [],
+//Spawn Rules
+"UnlockConditions":null,
+"SpawnIfMissing":true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_FisherHome",
+"Tile": {
+"X": 8,
+"Y": 12
+},
+"Direction": "right"
+},
+],
+///Appearance & Sprites
+"TextureName":null,
+"Appearance": [
+ {
+"ID": "{{ModID}}.Crank",
+"Portrait": "Portraits/FC.Crank",
+"Sprite": "Characters/FC.Crank",
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+"Precedence": -10,
+},
+ {
+"ID": "{{ModID}}.Crank_SwimWear",
+"Portrait": "Portraits/FC.Crank",
+"Sprite": "Characters/FC.Crank",
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": true,
+"Precedence": -10,
+},
+],
+"MugShotSourceRect": { "X": 0, "Y": 0, "Width": 16, "Height": 24 },
+"Size": { "X": 16, "Y": 32 },
+"Breather":false,
+"BreathChestRect":null,
+"BreathChestPosition":null,
+"Shadow":{ "Visible": true },
+"EmoteOffset": {},
+"ShakePortraits":[],
+"KissSpriteIndex":"28",
+"KissSpriteFacingDirection":null,
+///Hidden Gift Log Emote
+"HiddenProfileEmoteSound":null,
+"HiddenProfileEmoteDuration":-1,
+"HiddenProfileEmoteStartFrame":0,
+"HiddenProfileEmoteFrameCount":4,
+"HiddenProfileEmoteFrameDuration":200.0,
+///Advanced
+"CustomFields":{},
+"FormerCharacterNames": [],
+}
+}
+}
+]
+}

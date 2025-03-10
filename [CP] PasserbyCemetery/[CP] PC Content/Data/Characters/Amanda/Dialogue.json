@@ -10,7 +10,6 @@
 // Special Keys
 "Introduction": "{{i18n:Introduction.Amanda}}",
 "AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Amanda}}",
-"Saloon_FC.Amanda_RareGreeting": "Saloon_Amanda_RareGreeting.Amanda",
 "AcceptBirthdayGift_Loved": "{{i18n:AcceptBirthdayGift_Loved.Amanda}}",
 "AcceptBirthdayGift_Liked": "{{i18n:AcceptBirthdayGift_Liked.Amanda}}",
 "AcceptBirthdayGift_Disliked": "{{i18n:AcceptBirthdayGift_Disliked.Amanda}}",

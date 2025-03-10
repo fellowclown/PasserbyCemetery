@@ -1,0 +1,16 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Crank": "{{i18n:Crank.gift.love}}/{{ModID}}_TastyPastry/{{i18n:Crank.gift.like}}/{{ModID}}_FrostedCake {{ModID}}_HotCereal/{{i18n:Crank.gift.dislike}}/64 84/{{i18n:Crank.gift.hate}}/340 342/{{i18n:Crank.gift.neutral}}/346/ ",
+}
+}
+]
+}
+

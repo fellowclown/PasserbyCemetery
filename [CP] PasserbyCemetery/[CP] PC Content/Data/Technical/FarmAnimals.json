@@ -9,10 +9,10 @@
 
 "{{ModID}}_Thylacine": {
     "DisplayName": "{{i18n:FC.Thylacine}}",
-    "House": "{{AnimalHouseValue}}",
+    "House": "Fellowclown.ClownCore_SmallTropicalHutch",
     "Gender": "MaleOrFemale",
-    "PurchasePrice": 8000,
-    "SellPrice": 16000,
+    "PurchasePrice": 2800,
+    "SellPrice": 2600,
     "ShopTexture": "LooseSprites\\FC.Tazzy_Icon",
     "ShopSourceRect": {
       "X": 0,
@@ -22,7 +22,7 @@
     },
     "ShopDisplayName": "{{i18n:FC.Thylacine}}",
     "ShopDescription": "{{i18n:FC.Thylacine.Desc}}",
-    "ShopMissingBuildingDescription": "{{MarnieShopDescription}}",
+    "ShopMissingBuildingDescription": "{{i18n:FC.MissingBuilding}}",
     "RequiredBuilding": null,
     "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
     "AlternatePurchaseTypes": null,
@@ -126,10 +126,10 @@
 "Entries": {
 "{{ModID}}_Warthog": {
     "DisplayName": "{{i18n:FC.Warthog}}",
-    "House": "{{AnimalHouseValue}}",
+    "House": "Fellowclown.ClownCore_SmallTropicalHutch",
     "Gender": "MaleOrFemale",
-    "PurchasePrice": 16000,
-    "SellPrice": 14000,
+    "PurchasePrice": 1600,
+    "SellPrice": 1400,
     "ShopTexture": "LooseSprites\\FC.Warthog_Icon",
     "ShopSourceRect": {
       "X": 0,
@@ -139,7 +139,7 @@
     },
     "ShopDisplayName": "{{i18n:FC.Warthog}}",
     "ShopDescription": "{{i18n:FC.Warthog.Desc}}",
-    "ShopMissingBuildingDescription": "{{MarnieShopDescription}}",
+    "ShopMissingBuildingDescription": "{{i18n:FC.MissingBuilding}}",
     "RequiredBuilding": null,
     "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
     "AlternatePurchaseTypes": null,
@@ -247,7 +247,7 @@
 "Entries": {
 "{{ModID}}_ArcaGoat": {
     "DisplayName": "{{i18n:FC.ArcaGoat}}",
-    "House": "{{AnimalHouseValue}}",
+    "House": "Fellowclown.ClownCore_SmallTropicalHutch",
     "Gender": "MaleOrFemale",
     "PurchasePrice": 2000,
     "SellPrice": 1000,
@@ -260,7 +260,7 @@
     },
     "ShopDisplayName": "{{i18n:FC.ArcaGoat}}",
     "ShopDescription": "{{i18n:FC.ArcaGoat.Desc}}",
-    "ShopMissingBuildingDescription": "{{MarnieShopDescription}}",
+    "ShopMissingBuildingDescription": "{{i18n:FC.MissingBuilding}}",
     "RequiredBuilding": null,
     "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
     "AlternatePurchaseTypes": null,
@@ -373,7 +373,7 @@
 "Entries": {
 "{{ModID}}_MaleMovoraptor": {
     "DisplayName": "{{i18n:FC.MaleMovoraptor}}",
-    "House": "{{AnimalHouseValue}}",
+    "House": "Fellowclown.ClownCore_SmallTropicalHutch",
     "Gender": "Male",
     "PurchasePrice": -1,
     "SellPrice": -1,
@@ -431,6 +431,7 @@
     "UseFlippedRightForLeft": false,
     "SpriteWidth": 32,
     "SpriteHeight": 32,
+    "SleepFrame": 17,
     "EmoteOffset": {
       "X": 0,
       "Y": 0
@@ -499,7 +500,7 @@
 "Entries": {
 "{{ModID}}_Movoraptor": {
     "DisplayName": "{{i18n:FC.Movoraptor}}",
-    "House": "{{AnimalHouseValue}}",
+    "House": "Fellowclown.ClownCore_SmallTropicalHutch",
     "Gender": "Female",
     "PurchasePrice": 2500,
     "SellPrice": 1500,
@@ -512,7 +513,7 @@
     },
     "ShopDisplayName": "{{i18n:FC.Movoraptor}}",
     "ShopDescription": "{{i18n:FC.Movoraptor.desc}}",
-    "ShopMissingBuildingDescription":  "{{MarnieShopDescription}}",
+    "ShopMissingBuildingDescription":  "{{i18n:FC.MissingBuilding}}",
     "RequiredBuilding": null,
     "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
     "AlternatePurchaseTypes": [
@@ -652,7 +653,7 @@
 "Entries": {
 "{{ModID}}_ArcaCow": {
     "DisplayName": "{{i18n:FC.ArcaCow}}",
-    "House": "{{AnimalHouseValue}}",
+    "House": "Fellowclown.ClownCore_SmallTropicalHutch",
     "Gender": "MaleOrFemale",
     "PurchasePrice": 3500,
     "SellPrice": 4000,
@@ -665,7 +666,7 @@
     },
     "ShopDisplayName": "{{i18n:FC.ArcaCow}}",
     "ShopDescription": "{{i18n:FC.ArcaCow.desc}}",
-    "ShopMissingBuildingDescription":  "{{MarnieShopDescription}}",
+    "ShopMissingBuildingDescription":  "{{i18n:FC.MissingBuilding}}",
     "RequiredBuilding":null,
     "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
     "AlternatePurchaseTypes": null,
@@ -774,7 +775,7 @@
 "Entries": {
 "{{ModID}}_ArcaTapi": {
     "DisplayName": "{{i18n:FC.ArcaTapi}}",
-    "House": "{{AnimalHouseValue}}",
+    "House": "Fellowclown.ClownCore_SmallTropicalHutch",
     "Gender": "MaleOrFemale",
     "PurchasePrice": 3500,
     "SellPrice": 2000,
@@ -787,7 +788,7 @@
     },
     "ShopDisplayName": "{{i18n:FC.ArcaTapi}}",
     "ShopDescription": "{{i18n:FC.ArcaTapi.desc}}",
-    "ShopMissingBuildingDescription":  "{{MarnieShopDescription}}",
+    "ShopMissingBuildingDescription":  "{{i18n:FC.MissingBuilding}}",
     "RequiredBuilding": null,
     "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
     "AlternatePurchaseTypes": null,
@@ -890,40 +891,40 @@
   }
 },
 {
-        "LogName": "FrenchDodo",
+        "LogName": "Raphus",
         "Action": "EditData",
         "Target": "Data/FarmAnimals",
         "Entries": { 
-            "{{ModID}}_FrenchDodo": {
-"DisplayName": "{{i18n:FC.FrenchDodo}}",
-"House": "{{AnimalHouseValue}}",
+            "{{ModID}}_Raphus": {
+"DisplayName": "{{i18n:FC.Raphus}}",
+"House": "Fellowclown.ClownCore_SmallTropicalHutch",
 "Gender": "MaleOrFemale",
 "PurchasePrice": 2500,
 "SellPrice": 1200,
-"ShopTexture": "LooseSprites\\FC.FrenchDodo_Icon",
+"ShopTexture": "LooseSprites\\FC.Raphus_Icon",
 "ShopSourceRect": {
 "X": 0,
 "Y": 0,
 "Width":32,
 "Height": 16
 },
-"ShopMissingBuildingDescription": "{{MarnieShopDescription}}",
+"ShopMissingBuildingDescription": "{{i18n:FC.MissingBuilding}}",
 "RequiredBuilding": null,
-"UnlockCondition":"PLAYER_HAS_MAIL Current {{ModID}}_DodoEgg.Mail",
-"EggItemIds": [ "{{ModID}}_FrenchDodoEgg" ],
+"UnlockCondition":"PLAYER_HAS_MAIL Current {{ModID}}_RaphusEgg.Mail",
+"EggItemIds": [ "{{ModID}}_RaphusEgg" ],
 "IncubationTime": 4500,
 "IncubatorParentSheetOffset": 1,
-"BirthText": "{{i18n:FC.DodoHatch}}",
+"BirthText": "{{i18n:FC.RaphusHatch}}",
 "DaysToMature": 7,
 "CanGetPregnant": false,
 "DaysToProduce": 3,
 "HarvestType": "DropOvernight",
 "ProduceItemIds": [
                       {
-  "Id": "{{ModID}}_FrenchDodoEgg",
+  "Id": "{{ModID}}_RaphusEgg",
   "Condition": null,
   "MinimumFriendship": 0,
-  "ItemId": "{{ModID}}_FrenchDodoEgg"
+  "ItemId": "{{ModID}}_RaphusEgg"
                       },
                          {
   "Id": "DodoBread",
@@ -938,32 +939,32 @@
 "ProfessionForFasterProduce": 11,
 "Sound": "{{ModID}}_Dodo",
 "BabySound": "{{ModID}}_Dodo",
-"Texture": "Animals\\FC.FrenchDodo_Adult_Gray",
-"BabyTexture": "Animals\\FC.FrenchDodo_Baby_Gray",
+"Texture": "Animals\\FC.Raphus_Adult_Gray",
+"BabyTexture": "Animals\\FC.Raphus_Baby_Gray",
 "Skins":[
 {
-"ID": "FC.FrenchDodo_Gray",
+"ID": "FC.Raphus_Gray",
 "Weight": 3.0,
-"Texture": "Animals\\FC.FrenchDodo_Adult_Gray",
-"BabyTexture": "Animals\\FC.FrenchDodo_Baby_Gray"
+"Texture": "Animals\\FC.Raphus_Adult_Gray",
+"BabyTexture": "Animals\\FC.Raphus_Baby_Gray"
 },
  {
-"ID": "FC.FrenchDodo_Black",
+"ID": "FC.Raphus_Black",
 "Weight": 2.0,
-"Texture": "Animals\\FC.FrenchDodo_Adult_Black",
-"BabyTexture": "Animals\\FC.FrenchDodo_Baby_Black"
+"Texture": "Animals\\FC.Raphus_Adult_Black",
+"BabyTexture": "Animals\\FC.Raphus_Baby_Black"
 },
 {
-"ID": "FC.FrenchDodo_Blue",
+"ID": "FC.Raphus_Blue",
 "Weight": 1.0,
-"Texture": "Animals\\FC.FrenchDodo_Adult_Blue",
-"BabyTexture": "Animals\\FC.FrenchDodo_Baby_Blue"
+"Texture": "Animals\\FC.Raphus_Adult_Blue",
+"BabyTexture": "Animals\\FC.Raphus_Baby_Blue"
 },
 {
-"ID": "FC.FrenchDodo_Pale",
+"ID": "FC.Raphus_Pale",
 "Weight": 1.0,
-"Texture": "Animals\\FC.FrenchDodo_Adult_Pale",
-"BabyTexture": "Animals\\FC.FrenchDodo_Baby_Pale"
+"Texture": "Animals\\FC.Raphus_Adult_Pale",
+"BabyTexture": "Animals\\FC.Raphus_Baby_Pale"
 },
 ],
 "UseFlippedRightForLeft": true,

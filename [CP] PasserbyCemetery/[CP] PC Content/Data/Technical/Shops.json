@@ -1,28 +1,89 @@
 {
     "Changes": [
-{
+      {
 "Action": "EditData",
 "Target": "Data/Shops",
 "Entries":
 {
-"{{ModID}}_JanksShop": {
+"{{ModID}}_MellieShop": {
  "Owners": [
 {
 "Name": "AnyOrNone",
-"Portrait": "Portraits/FC.Jank",
+"Portrait": "Portraits/FC.Mellie",
 "Dialogues": [
     // dialogue any other time
     {
-  "Id": "{{ModID}}.Jank",
-  "Dialogue": "{{i18n:FC.Jank.Shop}}"
+  "Id": "{{ModID}}.Mellie",
+  "Dialogue": "{{i18n:FC.Mellie.Shop}}"
     },
 ]
 },
  ],
  "Items": [
 {
-"Id":"{{ModID}}_FrenchDodoEgg",
-"ItemId":"{{ModID}}_FrenchDodoEgg",
+"Id":"FC.MellieShop",
+"AvaliableStock":1,
+"Price": 0,
+"TradeItemId": "{{ModID}}_ArcaCoin",
+"TradeItemAmount": 10,
+"AvailableStockLimit":"Player",
+"RandomItemId":[
+"{{ModID}}_AlanDoll",
+"{{ModID}}_AmandaDoll",
+"{{ModID}}_BarronDoll",
+"{{ModID}}_KittyPlush",
+"{{ModID}}_CottonDoll",
+"{{ModID}}_CrankDoll",
+"{{ModID}}_DezerieDoll",
+"{{ModID}}_GradyDoll",
+"{{ModID}}_JinglesDoll",
+"{{ModID}}_JinxDoll",
+"{{ModID}}_JohnDoll",
+"{{ModID}}_KaiaDoll",
+"{{ModID}}_LyellDoll",
+"{{ModID}}_MaverickDoll",
+"{{ModID}}_NikolaiDoll",
+"{{ModID}}_PhoebeDoll",
+"{{ModID}}_PopDoll",
+"{{ModID}}_HumanPopDoll",
+"{{ModID}}_RoswellDoll",
+"{{ModID}}_ShavaarDoll",
+"{{ModID}}_SunshineDoll",
+"{{ModID}}_ThaliaDoll",
+"{{ModID}}_ValerieDoll",
+"{{ModID}}_EveDoll",
+"{{ModID}}_CreatureDoll",
+"{{ModID}}_WadeDoll",
+"{{ModID}}_TateDoll",
+]
+},
+],
+},
+},
+},
+{
+"Action": "EditData",
+"Target": "Data/Shops",
+"Entries":
+{
+"{{ModID}}_CranksShop": {
+ "Owners": [
+{
+"Name": "AnyOrNone",
+"Portrait": "Portraits/FC.Crank",
+"Dialogues": [
+    // dialogue any other time
+    {
+  "Id": "{{ModID}}.Crank",
+  "Dialogue": "{{i18n:FC.Crank.Shop}}"
+    },
+]
+},
+ ],
+ "Items": [
+{
+"Id":"{{ModID}}_RaphusEgg",
+"ItemId":"{{ModID}}_RaphusEgg",
 "AvailableStock":2,
 "AvailableStockLimit":"2",
 "Price":200,
@@ -162,44 +223,49 @@
 "AvailableStockLimit": "6"
 },
 {
-"Id":"(O){{ModID}}_ChocoFruitSeeds",
-"Condition":null,
+"Id":"{{ModID}}_ChocoFruitSeeds",
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_ChocoFruitSeeds",
+"ItemId":"{{ModID}}_ChocoFruitSeeds",
 "AvailableStock":10,
 "AvailableStockLimit":"player",
 "Condition": "SEASON Fall",
 },
 {
-"Id":"(O){{ModID}}_ButtonFruitSeeds",
-"Condition":null,
+"Id":"{{ModID}}_ButtonFruitSeeds",
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_ButtonFruitSeeds",
+"ItemId":"{{ModID}}_ButtonFruitSeeds",
 "AvailableStock":10,
 "AvailableStockLimit":"player",
 "Condition": "SEASON Summer",
 },
 {
-"Id":"(O){{ModID}}_YohoFruitSeeds",
-"Condition":null,
+"Id":"{{ModID}}_YohoFruitSeeds",
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_YohoFruitSeeds",
+"ItemId":"{{ModID}}_YohoFruitSeeds",
 "AvailableStock":10,
 "AvailableStockLimit":"player",
 "Condition": "SEASON Spring",
 },
 {
-"Id":"(O){{ModID}}_DeepCaveFruitSeeds",
-"Condition":null,
+"Id":"{{ModID}}_DeepCaveFruitSeeds",
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_DeepCaveFruitSeeds",
+"ItemId":"{{ModID}}_DeepCaveFruitSeeds",
 "AvailableStock":10,
 "AvailableStockLimit":"player",
 "Condition": "SEASON Summer",
+},
+{
+"Id":"{{ModID}}_TropaTreeSapling",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockTropaTree",
+"TradeItemId":null,
+"TradeItemAmount":0,
+"ItemId":"{{ModID}}_TropaTreeSapling",
+"AvailableStock":2,
+"AvailableStockLimit":"player",
 },
  ],
  },
@@ -847,7 +913,7 @@
 },
     {
 "Id": "{{ModID}}_FireSnapperEssenceRecipe",
-"ItemId": "(O){{ModID}}_FireSnapperEssence",
+"ItemId": "{{ModID}}_FireSnapperEssence",
 "Price": 500,
 "AvailableStock":5,
 "AvailableStockLimit": "5",
@@ -863,7 +929,7 @@
 },
 {
 "Id": "{{ModID}}_DragaTailTonicRecipe",
-"ItemId": "(O){{ModID}}_DragaTailTonic",
+"ItemId": "{{ModID}}_DragaTailTonic",
 "Price": 300,
 "AvailableStock":5,
 "AvailableStockLimit": "5",
@@ -871,7 +937,7 @@
 },
   {
 "Id": "{{ModID}}_FairyFingerTonicRecipe",
-"ItemId": "(O){{ModID}}_FairyFingerTonic",
+"ItemId": "{{ModID}}_FairyFingerTonic",
 "Price": 1000,
 "AvailableStock":5,
 "AvailableStockLimit": "5",
@@ -879,7 +945,7 @@
 },
   {
 "Id": "{{ModID}}_DragaEyeTonicRecipe",
-"ItemId": "(O){{ModID}}_DragaEyeTonic",
+"ItemId": "{{ModID}}_DragaEyeTonic",
 "Price": 120,
 "AvailableStock":5,
 "AvailableStockLimit": "5",
@@ -887,7 +953,7 @@
 },
   {
 "Id": "{{ModID}}_ToughenTonicRecipe",
-"ItemId": "(O){{ModID}}_ToughenTonic",
+"ItemId": "{{ModID}}_ToughenTonic",
 "Price": 320,
 "AvailableStock":5,
 "AvailableStockLimit": "5",
@@ -895,7 +961,7 @@
 },
   {
 "Id": "{{ModID}}_PeircingShotRecipe",
-"ItemId": "(O){{ModID}}_PeircingShot",
+"ItemId": "{{ModID}}_PeircingShot",
 "Price": 420,
 "AvailableStock":5,
 "AvailableStockLimit": "5",
@@ -903,7 +969,7 @@
 },
   {
 "Id": "{{ModID}}_CucaSerumRecipe",
-"ItemId": "(O){{ModID}}_CucaSerum",
+"ItemId": "{{ModID}}_CucaSerum",
 "Price": 420,
 "AvailableStock":5,
 "AvailableStockLimit": "5",
@@ -943,88 +1009,88 @@
 ],
 "Items":[
 {
-"Id":"(O){{ModID}}_CherryBlossomHoney",
+"Id":"{{ModID}}_CherryBlossomHoney",
 "Condition":null,
 "Price":2000,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_CherryBlossomHoney",
+"ItemId":"{{ModID}}_CherryBlossomHoney",
 "AvailableStock":5,
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_LavaHoney",
+"Id":"{{ModID}}_LavaHoney",
 "Condition":null,
 "Price":205,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_LavaHoney",
+"ItemId":"{{ModID}}_LavaHoney",
 "AvailableStock":5,
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_SeafoamHoney",
+"Id":"{{ModID}}_SeafoamHoney",
 "Condition":null,
 "Price":2020,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_SeafoamHoney",
+"ItemId":"{{ModID}}_SeafoamHoney",
 "AvailableStock":5,
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_SnowHoney",
+"Id":"{{ModID}}_SnowHoney",
 "Condition":null,
 "Price":2030,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_SnowHoney",
+"ItemId":"{{ModID}}_SnowHoney",
 "AvailableStock":5,
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_SunshineHoney",
+"Id":"{{ModID}}_SunshineHoney",
 "Condition":null,
 "Price":3000,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_SunshineHoney",
+"ItemId":"{{ModID}}_SunshineHoney",
 "AvailableStock":5,
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_VoidHoney",
+"Id":"{{ModID}}_VoidHoney",
 "Condition":null,
 "Price":3000,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_VoidHoney",
+"ItemId":"{{ModID}}_VoidHoney",
 "AvailableStock":5,
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_ChocoFrog",
+"Id":"{{ModID}}_ChocoFrog",
 "Condition":null,
 "Price":15,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_ChocoFrog",
+"ItemId":"{{ModID}}_ChocoFrog",
 "AvailableStock":5,
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_RainbowHoneyPichi",
+"Id":"{{ModID}}_RainbowHoneyPichi",
 "Condition":null,
 "Price":120,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_RainbowHoneyPichi",
+"ItemId":"{{ModID}}_RainbowHoneyPichi",
 "AvailableStock":5,
 "AvailableStockLimit":"player"
 },
 
 {
-"Id":"(O){{ModID}}_JellyBellyBumbleBees",
+"Id":"{{ModID}}_JellyBellyBumbleBees",
 "Condition":null,
 "Price":130,
 "TradeItemId":null,
@@ -1035,7 +1101,7 @@
 },
 
 {
-"Id":"(O){{ModID}}_HoneyDrops",
+"Id":"{{ModID}}_HoneyDrops",
 "Condition":null,
 "Price":150,
 "TradeItemId":null,
@@ -1046,7 +1112,7 @@
 },
 
 {
-"Id":"(O){{ModID}}_ChocoBar",
+"Id":"{{ModID}}_ChocoBar",
 "Condition":null,
 "Price":160,
 "TradeItemId":null,
@@ -1056,7 +1122,7 @@
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_BudJelly",
+"Id":"{{ModID}}_BudJelly",
 "Condition":null,
 "Price":170,
 "TradeItemId":null,
@@ -1066,7 +1132,7 @@
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_HoneyGopper",
+"Id":"{{ModID}}_HoneyGopper",
 "Condition":null,
 "Price":180,
 "TradeItemId":null,
@@ -1076,7 +1142,7 @@
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_SnowPop",
+"Id":"{{ModID}}_SnowPop",
 "Condition":null,
 "Price":190,
 "TradeItemId":null,
@@ -1096,7 +1162,7 @@
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_GreenAppleHoneyPop",
+"Id":"{{ModID}}_GreenAppleHoneyPop",
 "Condition":null,
 "Price":1000,
 "TradeItemId":null,
@@ -1671,12 +1737,12 @@
 ],
 "Items":[
 {
-"Id":"(O){{ModID}}_KingsRangoonDish",
+"Id":"{{ModID}}_KingsRangoonDish",
 "Condition":null,
 "Price":120,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_KingsRangoonDish",
+"ItemId":"{{ModID}}_KingsRangoonDish",
 "AvailableStock":3,
 "AvailableStockLimit":"player"
 },
@@ -1686,74 +1752,74 @@
 "Price":120,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_MegaWrap",
+"ItemId":"{{ModID}}_MegaWrap",
 "AvailableStock":3,
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_SweetenBreadPudding",
+"Id":"{{ModID}}_SweetenBreadPudding",
 "Condition":null,
 "Price":100,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_SweetenBreadPudding",
+"ItemId":"{{ModID}}_SweetenBreadPudding",
 "AvailableStock":3,
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_AcornCake",
+"Id":"{{ModID}}_AcornCake",
 "Condition":null,
 "Price":100,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_AcornCake",
+"ItemId":"{{ModID}}_AcornCake",
 "AvailableStock":3,
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_HoneyCrumble",
+"Id":"{{ModID}}_HoneyCrumble",
 "Condition":null,
 "Price":100,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_HoneyCrumble",
+"ItemId":"{{ModID}}_HoneyCrumble",
 "AvailableStock":3,
 "AvailableStockLimit":"player"
 },
 
 {
-"Id":"(O){{ModID}}_LemonberryJuice",
+"Id":"{{ModID}}_LemonberryJuice",
 "Condition":null,
 "Price":100,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_LemonberryJuice",
+"ItemId":"{{ModID}}_LemonberryJuice",
 "AvailableStock":3,
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_MidnightBubbly",
+"Id":"{{ModID}}_MidnightBubbly",
 "Condition":null,
 "Price":100,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_MidnightBubbly",
+"ItemId":"{{ModID}}_MidnightBubbly",
 "AvailableStock":3,
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O){{ModID}}_HotChoco",
+"Id":"{{ModID}}_HotChoco",
 "Condition":null,
 "Price":100,
 "TradeItemId":null,
 "TradeItemAmount":0,
-"ItemId":"(O){{ModID}}_HotChoco",
+"ItemId":"{{ModID}}_HotChoco",
 "AvailableStock":3,
 "AvailableStockLimit":"player"
 },
   {
 "Id": "{{ModID}}_HotChocoRecipe",
-"ItemId": "(O){{ModID}}_HotChoco",
+"ItemId": "{{ModID}}_HotChoco",
 "Price": 500,
 "AvailableStock":3,
 "AvailableStockLimit": "player",
@@ -1762,7 +1828,7 @@
 },
   {
 "Id": "{{ModID}}_MilkCoffeeRecipe",
-"ItemId": "(O){{ModID}}_MilkCoffee",
+"ItemId": "{{ModID}}_MilkCoffee",
 "Price": 500,
 "AvailableStock":3,
 "AvailableStockLimit": "player",
@@ -1780,7 +1846,7 @@
 },
   {
 "Id": "{{ModID}}_DragaTailPuddingRecipe",
-"ItemId": "(O){{ModID}}_DragaTailPudding",
+"ItemId": "{{ModID}}_DragaTailPudding",
 "Price": 500,
 "AvailableStock":3,
 "AvailableStockLimit": "player",
@@ -1789,7 +1855,7 @@
 },
   {
 "Id": "{{ModID}}_FirePepperMeatPieRecipe",
-"ItemId": "(O){{ModID}}_FirePepperMeatPie",
+"ItemId": "{{ModID}}_FirePepperMeatPie",
 "Price": 500,
 "AvailableStock":3,
 "AvailableStockLimit": "player",
@@ -1798,7 +1864,7 @@
 },
   {
 "Id": "{{ModID}}_DarkTuffWedgesRecipe",
-"ItemId": "(O){{ModID}}_DarkTuffWedges",
+"ItemId": "{{ModID}}_DarkTuffWedges",
 "Price": 500,
 "AvailableStock":3,
 "AvailableStockLimit": "player",
@@ -1807,7 +1873,7 @@
 },
   {
 "Id": "{{ModID}}_MidnightSurpiseRecipe",
-"ItemId": "(O){{ModID}}_MidnightSurpise",
+"ItemId": "{{ModID}}_MidnightSurpise",
 "Price": 500,
 "AvailableStock":3,
 "AvailableStockLimit": "player",
@@ -1816,7 +1882,7 @@
 },
   {
 "Id": "{{ModID}}_FarmHandSupperRecipe",
-"ItemId": "(O){{ModID}}_FarmHandSupper",
+"ItemId": "{{ModID}}_FarmHandSupper",
 "Price": 500,
 "AvailableStock":3,
 "AvailableStockLimit": "player",
@@ -1825,7 +1891,7 @@
 },
   {
 "Id": "{{ModID}}_PaneekiStirFryRecipe",
-"ItemId": "(O){{ModID}}_PaneekiStirFry",
+"ItemId": "{{ModID}}_PaneekiStirFry",
 "Price": 500,
 "AvailableStock":3,
 "AvailableStockLimit": "player",
@@ -1834,7 +1900,7 @@
 },
   {
 "Id": "{{ModID}}_ButtonFruitCakeRecipe",
-"ItemId": "(O){{ModID}}_ButtonFruitCake",
+"ItemId": "{{ModID}}_ButtonFruitCake",
 "Price": 500,
 "AvailableStock":3,
 "AvailableStockLimit": "player",
@@ -1843,7 +1909,7 @@
 },
   {
 "Id": "{{ModID}}_YohoHashRecipe",
-"ItemId": "(O){{ModID}}_YohoHash",
+"ItemId": "{{ModID}}_YohoHash",
 "Price": 500,
 "AvailableStock":3,
 "AvailableStockLimit": "player",
@@ -1852,7 +1918,7 @@
 },
   {
 "Id": "{{ModID}}_ChocoBunRecipe",
-"ItemId": "(O){{ModID}}_ChocoBun",
+"ItemId": "{{ModID}}_ChocoBun",
 "Price": 500,
 "AvailableStock":3,
 "AvailableStockLimit": "player",
@@ -1861,7 +1927,7 @@
 },
   {
 "Id": "{{ModID}}_DeepCaveFruitJuiceRecipe",
-"ItemId": "(O){{ModID}}_DeepCaveFruitJuice",
+"ItemId": "{{ModID}}_DeepCaveFruitJuice",
 "Price": 500,
 "AvailableStock":3,
 "AvailableStockLimit": "player",
@@ -2003,7 +2069,7 @@
 "Owners":[
 {
 "Name": "AnyOrNone",
-"Portrait": "Portraits/FC.SunshineShop",
+"Portrait": "Portraits/FC.Sunshine",
 "Dialogues":[
 //dialogueanyothertime
 {
@@ -2081,36 +2147,36 @@
 ],
 "Items":[
     {
-"Id":"(O)390",
-"ItemId":"(O)390",
+"Id":"390",
+"ItemId":"390",
 "AvailableStock":100,
 "Price":5,
 "AvailableStockLimit":"player"
 },
   {
-"Id":"(O)388",
-"ItemId":"(O)388",
+"Id":"388",
+"ItemId":"388",
 "AvailableStock":100,
 "Price":5,
 "AvailableStockLimit":"player"
 },
   {
-"Id":"(O)771",
-"ItemId":"(O)771",
+"Id":"771",
+"ItemId":"771",
 "AvailableStock":100,
 "Price":5,
 "AvailableStockLimit":"player"
 },
 {
-"Id":"(O)330",
-"ItemId":"(O)330",
+"Id":"330",
+"ItemId":"330",
 "AvailableStock":100,
 "Price":30,
 "AvailableStockLimit":"player"
 },
   {
-"Id":"(O)709",
-"ItemId":"(O)709",
+"Id":"709",
+"ItemId":"709",
 "AvailableStock":20,
 "Price":60,
 "AvailableStockLimit":"player"
@@ -2203,16 +2269,13 @@
  {
 "Action": "EditData",
 "Target": "Data/Shops",
- "When": {
-  "HasMod |contains=Fellowclown.WE": false,
-  },
 "Entries":
 {
 "Fellowclown.GP_Shop": {
 "Owners": [
 {
 "Name": "AnyOrNone",
-"Portrait": "Portraits/FC.SunshineShop",
+"Portrait": "Portraits/FC.Sunshine",
 "Dialogues": [
 // dialogue any other time
 {
@@ -2391,6 +2454,14 @@
 "AvailableStock":1,
 "AvailableStockLimit": "player",
 "Condition": "PLAYER_HAS_MAIL Current {{ModID}}_GotGem.Mail",
+},
+{
+"Id": "{{ModID}}_FermentedAppleSauce",
+"ItemId": "{{ModID}}_FermentedAppleSauce",
+"Price": 5,
+"AvailableStock":5,
+"AvailableStockLimit": "player",
+"Condition": null,
 },
 ]
 }

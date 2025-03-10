@@ -30,7 +30,7 @@
 
 "Mon": "MAIL {{ModID}}_ShaavarIntro.Mail/GOTO NO_SCHEDULE/800 {{ModID}}_AncientGraveYard 45 30 0/1000 {{ShavaarExhibit}}/1200 Town 46 102 2/1900 {{ModID}}_GuardianHome 12 10 1 {{ModID}}_ShaavarSleep",
 
-"Tue": "MAIL {{ModID}}_ShaavarIntro.Mail/GOTO NO_SCHEDULE/800 {{ModID}}_GuardianHome 13 15 2 {{ModID}}_ShaavarSit2/1000 {{ShavaarExhibit}}/1200 Mountain 79 23 3/1900 {{ModID}}_GuardianHome 12 10 1 {{ModID}}_ShaavarSleep",
+"Tue": "MAIL {{ModID}}_ShaavarIntro.Mail/GOTO NO_SCHEDULE/800 {{ModID}}_GuardianHome 13 15 2 {{ModID}}_ShaavarSit2/1000 {{ShavaarExhibit}}/1200 Beach 32 34 2/1900 {{ModID}}_GuardianHome 12 10 1 {{ModID}}_ShaavarSleep",
 
 "Wed": "MAIL {{ModID}}_ShaavarIntro.Mail/GOTO NO_SCHEDULE/700 Forest 33 96 1/1200 Beach 32 34 2/1500 Town 93 32 3/1900 {{ModID}}_GuardianHome 12 10 1 {{ModID}}_ShaavarSleep",
 

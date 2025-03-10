@@ -28,6 +28,7 @@
 "Maverick.NightMarket": "{{i18n:Maverick.NightMarket}}",
 "Maverick.Temple": "{{i18n:Maverick.Temple}}",
 "Maverick.Sleeping": "{{i18n:Maverick.Sleeping}}",
+"Maverick.GraveFriend": "{{i18n:Maverick.GraveFriend}}"
 }
 },
 /************************************************
@@ -40,15 +41,15 @@
 "Target": "Characters/schedules/FC.Maverick",
 "Entries": {
 "spring": "GOTO Mon",
-"Mon": "MAIL landslideDone/GOTO NO_SCHEDULE/800 {{ModID}}_OldGraveYard 22 63 1 {{ModID}}_MavTrim1/900 {{MaverickTemple}}/1030 {{ModID}}_OldGraveYard 9 54 2 {{ModID}}_MavClean2/1130 {{ModID}}_OldGraveYard 6 76 3 {{ModID}}_MavClean3/1200 Town 46 90 1 {{ModID}}_MavRake1/1500 Beach 40 37 2 {{ModID}}_MavSit2/1700 {{MaverickTurnAbout}}/2100 {{ModID}}_OldGraveYard 7 44 1/2300 {{ModID}}_MavericksHouse 11 9 1 {{ModID}}_MavSleep \"Strings\\schedules\\FC.Maverick:Maverick.Sleeping\"", //
+"Mon": "MAIL landslideDone/GOTO NO_SCHEDULE/800 {{ModID}}_OldGraveYard 22 63 1 {{ModID}}_MavTrim1/900 {{MaverickTemple}}/1030 {{ModID}}_OldGraveYard 21 66 2 {{ModID}}_MavClean2 \"Strings\\schedules\\FC.Maverick:Maverick.GraveFriend\"/1130 {{ModID}}_OldGraveYard 6 76 3 {{ModID}}_MavClean3/1200 Town 46 90 1 {{ModID}}_MavRake1/1500 Beach 40 37 2 {{ModID}}_MavSit2/1700 {{MaverickTurnAbout}}/2100 {{ModID}}_OldGraveYard 7 44 1/2300 {{ModID}}_MavericksHouse 11 9 1 {{ModID}}_MavSleep \"Strings\\schedules\\FC.Maverick:Maverick.Sleeping\"", //
 
-"Tue": "MAIL landslideDone/GOTO NO_SCHEDULE/800 {{ModID}}_OldGraveYard 22 63 1 {{ModID}}_MavTrim1/900 {{MaverickTemple}}/1030 {{ModID}}_OldGraveYard 9 54 2 {{ModID}}_MavClean2/1130 {{ModID}}_OldGraveYard 6 76 3 {{ModID}}_MavClean3/1400 {{ModID}}_OldGraveYard 7 44 1/2100 {{MaverickTurnAbout}}/2200 {{ModID}}_MavericksHouse 11 9 1 {{ModID}}_MavSleep \"Strings\\schedules\\FC.Maverick:Maverick.Sleeping\"",
+"Tue": "MAIL landslideDone/GOTO NO_SCHEDULE/800 {{ModID}}_OldGraveYard 22 63 1 {{ModID}}_MavTrim1/900 {{MaverickTemple}}/1030 {{ModID}}_OldGraveYard 21 66 2 {{ModID}}_MavClean2 \"Strings\\schedules\\FC.Maverick:Maverick.GraveFriend\"/1130 {{ModID}}_OldGraveYard 6 76 3 {{ModID}}_MavClean3/1400 {{ModID}}_OldGraveYard 7 44 1/2100 {{MaverickTurnAbout}}/2200 {{ModID}}_MavericksHouse 11 9 1 {{ModID}}_MavSleep \"Strings\\schedules\\FC.Maverick:Maverick.Sleeping\"",
 
-"Wed": "MAIL landslideDone/GOTO NO_SCHEDULE/800 {{ModID}}_OldGraveYard 22 63 1 {{ModID}}_MavTrim1/900 {{MaverickTemple}}/1030 {{ModID}}_OldGraveYard 9 54 2 {{ModID}}_MavClean2/1130 {{ModID}}_OldGraveYard 6 76 3 {{ModID}}_MavClean3/1200 Beach 40 37 2 {{ModID}}_MavSit2/1700 {{ModID}}_OldGraveYard 7 44 1/2100 {{ModID}}_MavericksHouse 7 11 2 {{ModID}}_MavSit2/2200 {{ModID}}_MavericksHouse 11 9 1 {{ModID}}_MavSleep \"Strings\\schedules\\FC.Maverick:Maverick.Sleeping\"",
+"Wed": "MAIL landslideDone/GOTO NO_SCHEDULE/800 {{ModID}}_OldGraveYard 22 63 1 {{ModID}}_MavTrim1/900 {{MaverickTemple}}/1030 {{ModID}}_OldGraveYard 21 66 2 {{ModID}}_MavClean2 \"Strings\\schedules\\FC.Maverick:Maverick.GraveFriend\"/1130 {{ModID}}_OldGraveYard 6 76 3 {{ModID}}_MavClean3/1200 Beach 40 37 2 {{ModID}}_MavSit2/1700 {{ModID}}_OldGraveYard 7 44 1/2100 {{ModID}}_MavericksHouse 7 11 2 {{ModID}}_MavSit2/2200 {{ModID}}_MavericksHouse 11 9 1 {{ModID}}_MavSleep \"Strings\\schedules\\FC.Maverick:Maverick.Sleeping\"",
 
 "Thu": "MAIL landslideDone/GOTO NO_SCHEDULE/900 {{MaverickTemple}}/1100 {{ModID}}_OldGraveYard 18 45 2/1400 Beach 40 37 2 {{ModID}}_MavSit2/1600 {{MaverickTurnAbout}}/2300 {{ModID}}_MavericksHouse 11 9 1 {{ModID}}_MavSleep \"Strings\\schedules\\FC.Maverick:Maverick.Sleeping\"",
 
-"Fri": "MAIL landslideDone/GOTO NO_SCHEDULE/800 {{ModID}}_OldGraveYard 22 63 1 {{ModID}}_MavTrim1/900 {{MaverickTemple}}/1030 {{ModID}}_OldGraveYard 9 54 2 {{ModID}}_MavClean2/1130 {{ModID}}_OldGraveYard 6 76 3 {{ModID}}_MavClean3/1200 {{MaverickTurnAbout}}/1500 {{ModID}}_OldGraveYard 7 44 1/2100 {{MaverickTurnAbout}}/2300 {{ModID}}_MavericksHouse 11 9 1 {{ModID}}_MavSleep \"Strings\\schedules\\FC.Maverick:Maverick.Sleeping\"",
+"Fri": "MAIL landslideDone/GOTO NO_SCHEDULE/800 {{ModID}}_OldGraveYard 22 63 1 {{ModID}}_MavTrim1/900 {{MaverickTemple}}/1030 {{ModID}}_OldGraveYard 21 66 2 {{ModID}}_MavClean2 \"Strings\\schedules\\FC.Maverick:Maverick.GraveFriend\"/1130 {{ModID}}_OldGraveYard 6 76 3 {{ModID}}_MavClean3/1200 {{MaverickTurnAbout}}/1500 {{ModID}}_OldGraveYard 7 44 1/2100 {{MaverickTurnAbout}}/2300 {{ModID}}_MavericksHouse 11 9 1 {{ModID}}_MavSleep \"Strings\\schedules\\FC.Maverick:Maverick.Sleeping\"",
 
 "Sat": "GOTO Thu",
 

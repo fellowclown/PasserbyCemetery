@@ -1,0 +1,86 @@
+{
+"Changes": [
+   /************************************************
+ **  Dialogues
+ ************************************************/ 
+ {
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/FC.Jingles",
+  "Entries": {
+// Special Keys
+"AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Jingles}}",
+// RESORT
+"Resort_Entering": "{{i18n:Resort_Entering.Jingles}}",
+"Resort_Leaving": "{{i18n:Resort_Leaving.Jingles}}",
+"Resort_Shore": "{{i18n:Resort_Shore.Jingles}}",
+"Resort_Umbrella": "{{i18n:Resort_Umbrella.Jingles}}",
+"Resort_Wander": "{{i18n:Resort_Wander.Jingles}}",
+"Resort_Bar": "{{i18n:Resort_Bar.Jingles.}}",
+"Resort": "{{i18n:Resort.Jingles}}",
+"AcceptBirthdayGift_Loved": "{{i18n:AcceptBirthdayGift_Loved.Jingles}}",
+"AcceptBirthdayGift_Liked": "{{i18n:AcceptBirthdayGift_Liked.Jingles}}",
+"AcceptBirthdayGift_Disliked": "{{i18n:AcceptBirthdayGift_Disliked.Jingles}}",
+"AcceptBirthdayGift_Hated": "{{i18n:AcceptBirthdayGift_Hated.Jingles}}",
+"AcceptBirthdayGift_Neutral": "{{i18n:AcceptBirthdayGift_Neutral.Jingles}}",
+"HitBySlingshot": "{{i18n:HitBySlingshot.Jingles}}",
+"DumpsterDiveComment": "{{i18n:DumpsterDiveComment.Jingles}}",
+"reject_809":"{{i18n:reject_809.Jingles}}",
+  }
+},
+
+       {
+            "LogName": "Dialogue - 0-4",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.Jingles",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Jingles.LowHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Jingles.LowHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Jingles.LowHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Jingles.LowHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Jingles.LowHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Jingles.LowHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Jingles.LowHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Jingles": "{{Range: 0, 4}}" 
+}
+},
+  {
+            "LogName": "Dialogue - 5-8",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.Jingles",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Jingles.MidHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Jingles.MidHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Jingles.MidHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Jingles.MidHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Jingles.MidHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Jingles.MidHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Jingles.MidHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Jingles": "{{Range: 5, 8}}" 
+}
+},
+  {
+            "LogName": "Dialogue - Dating",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.Jingles",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Jingles.Highheart.{{season}}}}",
+"Tue": "{{i18n:Tue.Jingles.Highheart.{{season}}}}",
+"Wed": "{{i18n:Wed.Jingles.Highheart.{{season}}}}",
+"Thu": "{{i18n:Thu.Jingles.Highheart.{{season}}}}",
+"Fri": "{{i18n:Fri.Jingles.Highheart.{{season}}}}",
+"Sat": "{{i18n:Sat.Jingles.Highheart.{{season}}}}",
+"Sun": "{{i18n:Sun.Jingles.Highheart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Jingles": "{{Range: 9, 10}}" 
+}
+},
+]
+}

@@ -1,0 +1,11 @@
+{
+    "Changes": [
+  {
+"Action": "EditData",
+"Target": "Data/Events/Forest",
+"Entries": {
+ "{{ModID}}_ForestTrouble/t 1000 2200/e Fellowclown.PC_CaveBlockUnlock": "Cowboy_OVERWORLD/-1000 -1000/farmer 92 22 2 FC.Sunshine -3000 -3000 2/viewport 95 25/skippable/addConversationTopic FC.ForestTrouble/showFrame FC.Sunshine 24/addTemporaryActor FC.SunshineRide 32 48 104 25 3 false Character/addTemporaryActor FC.PopperSteal 16 32 84 25 1 false Character/pause 1000/speed FC.PopperSteal 4/advancedmove FC.PopperSteal false 6 0 1 1000 -20 0 3 10/speed FC.SunshineRide 5/move FC.SunshineRide -13 0 3 true/pause 1000/textAbovehead FC.SunshineRide \"{{i18n:SunshineIntro.00}}\"/pause 1000/textAbovehead FC.SunshineRide \"{{i18n:SunshineIntro.01}}\"/jump FC.PopperSteal 6/textAbovehead FC.PopperSteal \"{{i18n:SunshineIntro.02}}\"/pause 1000/showFrame FC.SunshineRide 16/pause 250/showFrame FC.SunshineRide 17/pause 250/showFrame FC.SunshineRide 18/warp FC.Sunshine 92 24/positionOffset FC.Sunshine 30 0/pause 150/positionOffset FC.Sunshine 30 0/pause 150/positionOffset FC.Sunshine 30 0/pause 150/positionOffset FC.Sunshine 0 30/pause 150/positionOffset FC.Sunshine 0 30/pause 150/positionOffset FC.Sunshine 0 30/jump farmer 6/pause 1000/move farmer 0 1 1/move farmer 1 0 2/move farmer 0 1 2/showFrame farmer 4/pause 1000/emote FC.Sunshine 28/pause 250/showFrame FC.Sunshine 12/showFrame farmer 0/pause 1000/faceDirection FC.Sunshine 0/pause 250/speak FC.Sunshine \"{{i18n:SunshineIntro.03}}\"/pause 1000/jump FC.Sunshine/speak FC.Sunshine \"{{i18n:SunshineIntro.04}}\"/faceDirection FC.Sunshine 3/pause 200/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/message \"{{i18n:SunshineIntro.05}}\"/end",
+  }, 
+},
+]
+}

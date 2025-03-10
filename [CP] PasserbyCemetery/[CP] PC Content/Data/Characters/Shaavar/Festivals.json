@@ -4,7 +4,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
             "When": {
- "HasFlag|contains=landslideDone": true,
    "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
 },
             "TextOperations": [
@@ -33,7 +32,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring24",
                         "When": {
- "HasFlag|contains=landslideDone": true,
    "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
 },
             "TextOperations": [
@@ -61,7 +59,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer11",
                         "When": {
- "HasFlag|contains=landslideDone": true,
    "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
 },
             "TextOperations": [
@@ -89,7 +86,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer28",
                         "When": {
- "HasFlag|contains=landslideDone": true,
    "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
 },
             "TextOperations": [
@@ -117,7 +113,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall3,Data/Festivals/winter3",
                         "When": {
- "HasFlag|contains=landslideDone": true,
    "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
 },
             "TextOperations": [
@@ -136,7 +131,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Shaavar 14 26 1",
+                    "Value": "FC.Shaavar 14 27 1",
                     "Delimiter": "/"
                 },
         ]
@@ -145,7 +140,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall16",
                         "When": {
- "HasFlag|contains=landslideDone": true,
    "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
 },
             "TextOperations": [
@@ -173,7 +167,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall27",
                         "When": {
- "HasFlag|contains=landslideDone": true,
     "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
 
 },
@@ -194,7 +187,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",
                         "When": {
- "HasFlag|contains=landslideDone": true,
    "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
 },
             "TextOperations": [
@@ -222,7 +214,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/winter25",
                         "When": {
- "HasFlag|contains=landslideDone": true,
    "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,
 },
             "TextOperations": [

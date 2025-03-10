@@ -55,11 +55,6 @@
                     "Value": "FC.Roswell 77 15 2",
                     "Delimiter": "/",
         },
-              {
-             "Operation": "Append",
-             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
-             "Value": "/hideShadow FC.Roswell true"
-            },
         ]
     },
             {
@@ -90,12 +85,12 @@
                 },
                        {
              "Operation": "Append",
-             "Target": ["Fields", "set-up{{YearCheck}}", 5],
+             "Target": ["Fields", "set-up", 5],
              "Value": "/positionOffset FC.Roswell -40 0"
             },
             {
              "Operation": "Append",
-             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
+             "Target": ["Fields", "mainEvent", 5],
              "Value": "/positionOffset FC.Roswell -40 0"
             },
         ]
@@ -133,7 +128,7 @@
             },
                  {
              "Operation": "Append",
-             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
+             "Target": ["Fields", "mainEvent", 5],
              "Value": "/positionOffset FC.Roswell -40 0"
             },
         ]
@@ -208,35 +203,6 @@
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
                     "Value": "FC.Roswell 22 79 0",
-                    "Delimiter": "/"
-                },
-        ]
-    },
-       
-       {
-            "Action": "EditData",
-            "Target": "Data/Festivals/winter8",
-             "When": {
-      "HasFlag|contains=landslideDone": true,
-     
-             },
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters{{YearCheck}}"
-                    ],
-                    "Value": "FC.Roswell 106 17 2",
-                    "Delimiter": "/"
-                },
-                     {
-                    "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "MainEvent_additionalCharacters{{YearCheck}}"
-                    ],
-                    "Value": "FC.Roswell 106 17 2",
                     "Delimiter": "/"
                 },
         ]

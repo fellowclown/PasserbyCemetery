@@ -1,0 +1,53 @@
+{
+"Changes": [
+     {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModID}}_CrankSlorp": "12/13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 12 13 14 14 15 15 16 16 17 17 18 18 19 19 18 18 17 17 16 16 15 15 14 14/13",
+"{{ModID}}_CrankSit": "16/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 18 18 18 19 19 19/16",
+"{{ModID}}_CrankFish": "10/10 10 11 11 11 10 10 10 11 11/11",
+
+}
+ },
+      {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/ScheduleAnimationExtensionData",
+      "Entries":
+      {
+        // This is an example based on Clint's clint_hammer animation.
+        "{{ModID}}_CrankSlorp": { // Change this to your animation name
+          "SourceRectSize": "32, 32",
+          "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
+          }
+        },
+      },
+           {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/ScheduleAnimationExtensionData",
+      "Entries":
+      {
+        // This is an example based on Clint's clint_hammer animation.
+        "{{ModID}}_CrankFish": { // Change this to your animation name
+          "SourceRectSize": "32, 32",
+          "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
+          }
+        },
+      }, 
+     {
+"LogName": "Cranks Schedule",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Crank",
+"Entries": {
+"Mon": "610 {{ModID}}_FisherHome 8 12 2 {{ModID}}_CrankSit/2100 {{ModID}}_FisherHome 2 6 3",//Work
+"Tue": "GOTO MON",//Work
+"Wed": "GOTO MON",//Work
+"Thu": "GOTO MON",//Work
+"Fri": "700 {{ModID}}_LyellsProperty 44 41 2/900 {{ModID}}_LyellsProperty 44 41 2 {{ModID}}_CrankSlorp/1200 {{ModID}}_PasserbyRoad 36 41 1/1400 {{ModID}}_PasserbyRoad 36 41 1 {{ModID}}_CrankFish/2100 {{ModID}}_FisherHome 2 6 3",
+"Sat": "900 {{ModID}}_AncientGraveYard 49 29 2/1200 {{ModID}}_PasserbyRoad 36 41 1/1400 {{ModID}}_PasserbyRoad 36 41 1 {{ModID}}_CrankFish/1900 Mountain 49 33 1/2300 {{ModID}}_FisherHome 2 6 3",
+"Sun": "900 Mountain 49 33 1/1400 Mountain 49 33 1 {{ModID}}_CrankSlorp/1700 {{ModID}}_LyellsProperty 44 41 2/1900 {{ModID}}_LyellsProperty 44 41 2 {{ModID}}_CrankSlorp/2300 {{ModID}}_FisherHome 2 6 3",
+}, 
+},
+]
+}

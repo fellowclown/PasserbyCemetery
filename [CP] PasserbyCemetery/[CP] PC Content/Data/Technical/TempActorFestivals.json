@@ -1,0 +1,28 @@
+{
+    "Changes": [
+     {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                            {
+             "Operation": "Append",
+             "Target": ["Fields", "set-up{{YearCheck}}", 5],
+             "Value": "/addTemporaryActor FC.BoxWell 32 32 106 17 2 false character/hideShadow FC.BoxWell true/animate FC.BoxWell false true 460 0 0 0 1 1 1 2 2 2 3 3 3 4 4 5 5 6 6 7 7"
+            },
+               {
+             "Operation": "Append",
+             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
+             "Value": "/addTemporaryActor FC.BoxWell 32 32 106 17 2 false character/hideShadow FC.BoxWell true/animate FC.BoxWell false true 460 0 0 0 1 1 1 2 2 2 3 3 3 4 4 5 5 6 6 7 7"
+            },
+        ]
+    },
+         {
+"LogName": "Festival dialogue",
+"Action": "EditData",
+"Target": "Data/Festivals/winter8",
+"Entries": {
+"FC.BoxWell{{YearCheck}}": "{{i18n:BoxWell.Cuddle}}",
+} 
+ },
+  ]
+}

@@ -928,7 +928,7 @@ Trailer Floor Two
 },
 "Layer": "Buildings",
 "SetProperties": {
-  "HasFlag |contains={{ModID}}_Temple.Mail": true,
+ "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Noodles",
 "MEEP_CloseupInteraction_Text": "{{i18n:FC.Noodles}}"
 }
 }

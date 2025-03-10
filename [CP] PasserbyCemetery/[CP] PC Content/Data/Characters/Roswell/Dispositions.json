@@ -57,7 +57,7 @@ NPCSPAWNS
 "SpouseFloors": [],
 "SpouseWallpapers": [],
 "IntroductionsQuest":"{{IncludeIntro}}",
-"ItemDeliveryQuests":true,
+"ItemDeliveryQuests":false,
 "PerfectionScore":"{{IncludePerfection}}",
 "EndSlideShow":"TrailingGroup",
 "FriendsAndFamily":null,

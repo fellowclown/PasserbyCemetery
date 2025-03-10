@@ -4,7 +4,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
                         "When": {
- "HasFlag|contains=landslideDone": true,
  "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
 },
             "TextOperations": [
@@ -33,7 +32,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring24",
                         "When": {
- "HasFlag|contains=landslideDone": true,
  "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
 },
             "TextOperations": [
@@ -61,7 +59,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer11",
                         "When": {
- "HasFlag|contains=landslideDone": true,
  "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
 },
             "TextOperations": [
@@ -89,7 +86,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/summer28",
                         "When": {
- "HasFlag|contains=landslideDone": true,
  "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
 },
             "TextOperations": [
@@ -117,7 +113,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall3,Data/Festivals/winter3",
                         "When": {
- "HasFlag|contains=landslideDone": true,
+ "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
 },
             "TextOperations": [
                 {
@@ -144,7 +140,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall27",
                         "When": {
- "HasFlag|contains=landslideDone": true,
+ "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
 },
             "TextOperations": [
                 {
@@ -162,7 +158,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",
                         "When": {
- "HasFlag|contains=landslideDone": true,
  "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
 },
             "TextOperations": [
@@ -190,7 +185,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/winter25",
                         "When": {
- "HasFlag|contains=landslideDone": true,
  "HasSeenEvent |contains={{ModID}}_StoneIntroduction": true,
 },
             "TextOperations": [

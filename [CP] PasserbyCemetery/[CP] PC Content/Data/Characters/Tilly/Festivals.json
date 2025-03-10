@@ -1,0 +1,221 @@
+{
+    "Changes": [
+       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+                                                "When": {
+   "HasSeenEvent |contains={{ModID}}_TillyIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 47 63 3",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 47 63 3",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+           {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+ "When": {
+   "HasSeenEvent |contains={{ModID}}_TillyIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 14 19 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 14 19 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+               {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+             "When": {
+   "HasSeenEvent |contains={{ModID}}_TillyIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 21 31 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 21 31 1",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+               {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+             "When": {
+   "HasSeenEvent |contains={{ModID}}_TillyIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 21 31 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 21 31 1",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+                   {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3,Data/Festivals/winter3",
+             "When": {
+   "HasSeenEvent |contains={{ModID}}_TillyIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 25 29 1",
+                    "Delimiter": "/"
+                },
+
+        ]
+    },
+                       {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+             "When": {
+   "HasSeenEvent |contains={{ModID}}_TillyIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 61 103 3",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+            {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+             "When": {
+   "HasSeenEvent |contains={{ModID}}_TillyIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 31 80 0",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+                   {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+             "When": {
+   "HasSeenEvent |contains={{ModID}}_TillyIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 94 17 1",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 94 17 1",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+                    {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+             "When": {
+   "HasSeenEvent |contains={{ModID}}_TillyIntroduction": true,
+},
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 55 96 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 55 96 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+  ]
+}

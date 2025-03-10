@@ -67,11 +67,6 @@
              "Target": ["Fields", "set-up{{YearCheck}}", 5],
              "Value": "/animate FC.Popper false true 260 20 20 20 21 21 21 20 20 20 20 21 21 21 22 22 22 23 23 23 23 23 23 23 23 23 22 22 21 21 21"
             },
-               {
-             "Operation": "Append",
-             "Target": ["Fields", "mainEvent{{YearCheck}}", 5],
-             "Value": "/animate FC.Popper false true 260 20 20 20 21 21 21 20 20 20 20 21 21 21 22 22 22 23 23 23 23 23 23 23 23 23 22 22 22 21 21 21"
-            },
         ]
     },
                {

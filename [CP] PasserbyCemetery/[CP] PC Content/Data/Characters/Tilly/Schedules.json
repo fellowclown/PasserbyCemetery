@@ -1,0 +1,59 @@
+{
+"Changes": [
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+"{{ModID}}_TillySleep": "45/45/45",
+"{{ModID}}_TillySit2": "34/34/34",
+"{{ModID}}_TillySitDrink1": "25/25 25 25 26 26 26 27 27 27 27 27 27 27 26 26 26 25 25 25 25 25/25",
+"{{ModID}}_TillySitBlink1": "45/46 46 46 46 46 46 46 46 46 46 46 46 46 46 46 46 46 46 46 46 46/46",
+"{{ModID}}_TillyExercise": "40/40 40 41 41 41 42 42 42 43 43 43 44 44 44 43 43 43 42 42 42 41 41/41",
+"{{ModID}}_TillySitBlink2": "47/48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48/48",
+"{{ModID}}_TillySit0": "49/49/49",
+"{{ModID}}_TillyShop3": "30/31 31 31 31 31 31 31 31 31 31 31 31/30",
+"{{ModID}}_TillyShop2": "32/32 32 32 33 33 33 33 33 33 33 32/32",
+"{{ModID}}_TillySitWork2": "34/34/34//offset -30 0",
+
+}
+ },
+ {
+"LogName": "Tilly Schedule Dialogue Default",
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Tilly",
+  "Entries": {
+"Tilly.Sleep":  "{{i18n:Tilly.Sleep}}",
+}
+ },
+ ////Tuesday, Thursday,Saturday,Sunday at east scarp  7am-1pm
+ ////Monday, Wednesday,Friday at the pelican town 7am-1pm
+        {
+            "LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Tilly",
+
+"Entries": {
+"spring": "GOTO Mon",
+/// Weekday Schedules 
+"Mon": "900 {{ModID}}_PasserbyRoad 33 44 2 {{ModID}}_TillySitBlink2/1200 {{ModID}}_StoneHouse 13 10 3/1600 {{ModID}}_LyellsProperty 24 30 3/2000 {{TillyTurnAbout}}/2300 {{ModID}}_MobileHome 16 5 1",
+
+"Tue": "700 SeedShop 28 20 2/1300 SeedShop 28 20 2 {{ModID}}_TillyExercise/1600 SeedShop 2 19 3 {{ModID}}_TillyShop3/1630 SeedShop 3 20 2 {{ModID}}_TillyShop2/1800 {{TillyTurnAbout}}/2300 {{ModID}}_MobileHome 16 5 1",
+
+"Wed": "900 Beach 33 35 3/1500 {{ModID}}_PasserbyRoad 27 22 1 {{ModID}}_TillySitDrink1/1800 {{TillyTurnAbout}}/2300 {{ModID}}_MobileHome 16 5 1",
+
+"Thu": "900 {{TillyWork}}/1630 {{ModID}}_PasserbyRoad 27 22 1 {{ModID}}_TillySitDrink1/1800 {{TillyTurnAbout}}/2300 {{ModID}}_MobileHome 16 5 1", ///work
+
+"Fri": "GOTO Thu", ///work
+
+"Sat": "GOTO Thu", ///work
+
+"Sun": "1000 {{TillyTurnAbout}}/1430 {{ModID}}_OldGraveYard 30 52 2 {{ModID}}_TillySit2/1700 Beach 49 23 2 {{ModID}}_TillyExercise/2300 {{ModID}}_MobileHome 16 5 1",
+
+///Special Schedules
+"rain": "GOTO Tue",
+"GreenRain": "GOTO Thu",
+},
+},  
+]
+}

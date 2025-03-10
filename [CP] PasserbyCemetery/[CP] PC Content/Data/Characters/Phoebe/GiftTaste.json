@@ -8,7 +8,7 @@ GIFT TASTES
 "Action": "EditData",
 "Target": "Data/NPCGiftTastes",
 "Entries": {
-"FC.Phoebe": "{{i18n:Phoebe.gift.love}}/254 258 265 {{ModID}}_FarmHandSupper {{ModID}}_DragaWhiskey {{ModID}}_WarpRootTea/{{i18n:Phoebe.gift.like}}/279 282 296 {{ModID}}_YohoHash {{ModID}}_AdauulaCakes {{ModID}}_YohoHash/{{i18n:Phoebe.gift.dislike}}/303 350 404 {{ModID}}_DeepCaveFruitJuice {{ModID}}_DodoMayo {{ModID}}_HotChoco {{ModID}}_LemonberryJuice/{{i18n:Phoebe.gift.hate}}/402 426 606 {{ModID}}_SweetenBreadPudding {{ModID}}_AcornCake {{ModID}}_DragaDoughnut/{{i18n:Phoebe.gift.neutral}}/{{ModID}}_LoMaCakes {{ModID}}_ZinfazuIcecream {{ModID}}_IceBerryWine/ ",
+"FC.Phoebe": "{{i18n:Phoebe.gift.love}}/254 258 265 {{ModID}}_FarmHandSupper {{ModID}}_DragaWhiskey {{ModID}}_WarpRootTea/{{i18n:Phoebe.gift.like}}/279 282 296 {{ModID}}_YohoHash {{ModID}}_AdauulaCakes/{{i18n:Phoebe.gift.dislike}}/303 350 404 {{ModID}}_DeepCaveFruitJuice {{ModID}}_DodoMayo {{ModID}}_HotChoco {{ModID}}_LemonberryJuice/{{i18n:Phoebe.gift.hate}}/402 426 606 {{ModID}}_SweetenBreadPudding {{ModID}}_AcornCake {{ModID}}_DragaDoughnut/{{i18n:Phoebe.gift.neutral}}/{{ModID}}_LoMaCakes {{ModID}}_ZinfazuIcecream {{ModID}}_IceBerryWine/ ",
 }
 }
 ]

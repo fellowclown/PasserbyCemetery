@@ -8,7 +8,6 @@ NoneChangingDialogue
 "Target":"Characters/Dialogue/FC.Maverick",
 "Entries":{
 "Introduction":"{{i18n:Introduction.Maverick}}",
-"Saloon_FC.Maverick_RareGreeting":"Saloon_Maverick_RareGreeting.Maverick",
 "AcceptBirthdayGift_Loved":"{{i18n:AcceptBirthdayGift_Loved.Maverick}}",
 "AcceptBirthdayGift_Liked":"{{i18n:AcceptBirthdayGift_Liked.Maverick}}",
 "AcceptBirthdayGift_Disliked":"{{i18n:AcceptBirthdayGift_Disliked.Maverick}}",

@@ -162,7 +162,7 @@
 "DuringMovie": {
 "ResponsePoint": null,
 "Script": null,
-"Text": "{{i18n:Barron.movies.6.during}}",
+"Text": "{{i18n:Barron.movies.5.during}}",
 },
 "AfterMovie": {
 "ResponsePoint": null,

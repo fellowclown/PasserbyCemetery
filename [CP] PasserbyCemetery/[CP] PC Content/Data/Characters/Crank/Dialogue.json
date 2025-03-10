@@ -1,0 +1,140 @@
+{
+"Changes":[
+/************************************************
+NoneChangingDialogue
+************************************************/
+{
+"Action":"EditData",
+"Target":"Characters/Dialogue/FC.Crank",
+"Entries":{
+"AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Crank}}",
+"Introduction":"{{i18n:Introduction.Crank}}",
+"AcceptBirthdayGift_Loved":"{{i18n:AcceptBirthdayGift_Loved.Crank}}",
+"AcceptBirthdayGift_Liked":"{{i18n:AcceptBirthdayGift_Liked.Crank}}",
+"AcceptBirthdayGift_Disliked":"{{i18n:AcceptBirthdayGift_Disliked.Crank}}",
+"AcceptBirthdayGift_Hated":"{{i18n:AcceptBirthdayGift_Hated.Crank}}",
+"AcceptBirthdayGift_Neutral":"{{i18n:AcceptBirthdayGift_Neutral.Crank}}",
+"HitBySlingshot":"{{i18n:HitBySlingshot.Crank}}",
+"DumpsterDiveComment":"{{i18n:DumpsterDiveComment.Crank}}",
+"GreenRain": "{{i18n:GreenRain.Crank}}",
+"GreenRain_2": "{{i18n:GreenRain_2.Crank}}",
+"reject_809":"{{i18n:reject_809.Crank}}",
+///Gifts
+"reject_809":"{{i18n:reject_809.Crank}}",
+"RejectItem_(O)96": "{{i18n:RejectItem_96}}", //dwarf scroll I
+"RejectItem_(O)97": "{{i18n:RejectItem_97}}", //dwarf scroll II
+"RejectItem_(O)98": "{{i18n:RejectItem_98}}", //dwarf scroll III
+"RejectItem_(O)99": "{{i18n:RejectItem_99}}", //dwarf scroll IV
+"RejectItem_(O)100": "{{i18n:RejectItem_100}}", //Chipped Amphora
+"RejectItem_(O)101": "{{i18n:RejectItem_101}}", //Arrowhead
+"RejectItem_(O)103": "{{i18n:RejectItem_103}}", //Elvish Jewelry
+"RejectItem_(O)104": "{{i18n:RejectItem_104}}", //Chewing Stick
+"RejectItem_(O)105": "{{i18n:RejectItem_105}}", //Ornamental Fan
+"RejectItem_(O)106": "{{i18n:RejectItem_106}}", //Dinosaur Egg
+"RejectItem_(O)107": "{{i18n:RejectItem_107}}", //Rare Disc
+"RejectItem_(O)108": "{{i18n:RejectItem_108}}", //Ancient Sword
+"RejectItem_(O)109": "{{i18n:RejectItem_109}}", //Rusty Spoon
+"RejectItem_(O)110": "{{i18n:RejectItem_110}}", //Rusty Spur
+"RejectItem_(O)111": "{{i18n:RejectItem_111}}", //Rusty Cog
+"RejectItem_(O)113": "{{i18n:RejectItem_113}}", //Chicken Statue
+"RejectItem_(O)114": "{{i18n:RejectItem_114}}", //Ancient Seed
+"RejectItem_(O)115": "{{i18n:RejectItem_115}}", //Prehistoric Tool
+"RejectItem_(O)116": "{{i18n:RejectItem_116}}", //Dried Starfish
+"RejectItem_(O)117": "{{i18n:RejectItem_117}}", //Anchor
+"RejectItem_(O)118": "{{i18n:RejectItem_118}}", //Glass Shards
+"RejectItem_(O)119": "{{i18n:RejectItem_119}}", //Bone Flute
+"RejectItem_(O)120": "{{i18n:RejectItem_120}}", //Prehistoric Handaxe
+"RejectItem_(O)121": "{{i18n:RejectItem_121}}", //Dwarvish Helm
+"RejectItem_(O)122": "{{i18n:RejectItem_122}}", //Dwarf Gadget
+"RejectItem_(O)123": "{{i18n:RejectItem_123}}", //Ancient Drum
+"RejectItem_(O)124": "{{i18n:RejectItem_124}}", //Golden Mask
+"RejectItem_(O)125": "{{i18n:RejectItem_125}}", //Golden Relic
+"RejectItem_(O)126": "{{i18n:RejectItem_???}}", //strange doll1
+"RejectItem_(O)127": "{{i18n:RejectItem_???}}", //strange doll 2 
+"RejectItem_(O){{ModID}}_FemaleWarrior": "{{i18n:Crank.FemaleWarrior}}",
+"RejectItem_(O){{ModID}}_MaleWarrior": "{{i18n:Crank.MaleWarrior}}",
+"RejectItem_(O){{ModID}}_Pot1": "{{i18n:Crank.Pot1}}",
+"RejectItem_(O){{ModID}}_Pot2": "{{i18n:Crank.Pot2}}",
+"RejectItem_(O){{ModID}}_LipheumTablet": "{{i18n:Crank.LipheumTablet}}",
+"RejectItem_(O){{ModID}}_ArahTablet": "{{i18n:Crank.ArahTablet}}",
+"RejectItem_(O){{ModID}}_AluuaTablet": "{{i18n:Crank.AluuaTablet}}",
+"RejectItem_(O){{ModID}}_MiniphantFigure": "{{i18n:Crank.MiniphantFigure}}",
+"RejectItem_(O){{ModID}}_LifeTablet": "{{i18n:Crank.LifeTablet}}",
+"RejectItem_(O){{ModID}}_FamilyTablet": "{{i18n:Crank.FamilyTablet}}",
+"RejectItem_(O){{ModID}}_Rattler": "{{i18n:Crank.Rattler}}",
+"RejectItem_(O){{ModID}}_Necklace1": "{{i18n:Crank.Necklace1}}",
+"RejectItem_(O){{ModID}}_Necklace2": "{{i18n:Crank.Necklace2}}",
+"RejectItem_(O){{ModID}}_Hairclip": "{{i18n:Crank.Hairclip}}",
+"RejectItem_(O){{ModID}}_ShevitFigure": "{{i18n:Crank.ShevitFigure}}",
+"RejectItem_(O){{ModID}}_Guardian1": "{{i18n:Crank.Guardian1}}",
+"RejectItem_(O){{ModID}}_Guardian2": "{{i18n:Crank.Guardian2}}",
+"RejectItem_(O){{ModID}}_Guardian3": "{{i18n:Crank.Guardian3}}",
+"RejectItem_(O){{ModID}}_HammerAndPick": "{{i18n:Crank.HammerAndPick}}",
+"RejectItem_(O){{ModID}}_GemmedCuff": "{{i18n:Crank.GemmedCuff}}",
+"RejectItem_(O){{ModID}}_OldShoes": "{{i18n:Crank.OldShoes}}",
+"RejectItem_(O){{ModID}}_StatueGem": "{{i18n:Crank.StatueGem}}",
+"RejectItem_(O){{ModID}}_WalkMan": "{{i18n:Crank.WalkMan}}",
+"RejectItem_(O){{ModID}}_ElizabethsRing": "{{i18n:Crank.ElizabethsRing}}",
+"RejectItem_(O){{ModID}}_LostJournal": "{{i18n:Crank.LostJournal}}",
+"RejectItem_(O){{ModID}}_LostPipe": "{{i18n:Crank.LostPipe}}",
+"RejectItem_(O){{ModID}}_StoneRelic": "{{i18n:Crank.StoneRelic}}",
+"RejectItem_(O){{ModID}}_LostAmulet": "{{i18n:Crank.LostAmulet}}",
+"RejectItem_(O){{ModID}}_RettNote": "{{i18n:Crank.RettNote}}",
+"RejectItem_(O){{ModID}}_LostKey": "{{i18n:Crank.LostKey}}",
+"RejectItem_(O){{ModID}}_BarronsBook": "{{i18n:Crank.BarronsBook}}",
+"RejectItem_(O){{ModID}}_TheCuff": "{{i18n:Crank.TheCuff}}",
+"RejectItem_(O){{ModID}}_PhoebesPackage": "{{i18n:Crank.PhoebesPackage}}",
+"RejectItem_(O){{ModID}}_BagOfSeaglass": "{{i18n:Crank.BagOfSeaglass}}",
+"RejectItem_(O){{ModID}}_Button": "{{i18n:Crank.Button}}",
+"RejectItem_(O){{ModID}}_JohnsNecklace": "{{i18n:Crank.JohnsNecklace}}",
+"RejectItem_(O){{ModID}}_JohnsRing": "{{i18n:Crank.JohnsRing}}",
+"RejectItem_(O){{ModID}}_JohnsWine": "{{i18n:Crank.JohnsWine}}",
+"RejectItem_(O){{ModID}}_TwistedBread": "{{i18n:Crank.TwistedBread}}",
+"AcceptGift_{{ModID}}_TropaWine": "{{i18n:Crank.TropaWine}}",
+"AcceptGift_{{ModID}}_RefinedTropaWine": "{{i18n:Crank.RefinedTropaWine}}",
+"AcceptGift_{{ModID}}_DragaWhiskey": "{{i18n:Crank.DragaWhiskey}}",
+"RejectItem_(O)7thAxis.DitR_Items.VoidLavaSnail": "{{i18n:Crank.VoidLavaSnail}}",
+"RejectItem_(O)WWWA.AutographedPhoto": "{{i18n:Crank.AutographedPhoto}}",
+"RejectItem_(O)WWWA.GenuineAutograph": "{{i18n:Crank.GenuineAutograph}}",
+"AcceptGift_TenebrousNova.EliDylan.CP_TenebrousNova.EnD.MandrakeRoot": "{{i18n:Crank.MandrakeRoot}}",
+"AcceptGift_MadDog.HashtagBearfam.GunnarPerfectRamen": "{{i18n:Crank.GunnarPerfectRamen}}",
+"RejectItem_(O)DN.SnS_druidicessence": "{{i18n:Crank.druidicessence}}",
+"AcceptGift_{{ModID}}_KingsRangoonDish": "{{i18n:Crank.KingsRangoonDish}}",
+},
+},
+{
+"LogName":"Dialogue-0-4",
+"Action":"EditData",
+"Target":"Characters/Dialogue/FC.Crank",
+"Entries":{
+"Mon":"{{i18n:Mon.Crank.LowHeart.{{season}}}}",
+"Tue":"{{i18n:Tue.Crank.LowHeart.{{season}}}}",
+"Wed":"{{i18n:Wed.Crank.LowHeart.{{season}}}}",
+"Thu":"{{i18n:Thu.Crank.LowHeart.{{season}}}}",
+"Fri":"{{i18n:Fri.Crank.LowHeart.{{season}}}}",
+"Sat":"{{i18n:Sat.Crank.LowHeart.{{season}}}}",
+"Sun":"{{i18n:Sun.Crank.LowHeart.{{season}}}}",
+},
+"When":{
+"Hearts:FC.Crank":"{{Range:0,4}}",
+}
+},
+{
+"LogName":"Dialogue-5-10",
+"Action":"EditData",
+"Target":"Characters/Dialogue/FC.Crank",
+"Entries":{
+"Mon":"{{i18n:Mon.Crank.MidHeart.{{season}}}}",
+"Tue":"{{i18n:Tue.Crank.MidHeart.{{season}}}}",
+"Wed":"{{i18n:Wed.Crank.MidHeart.{{season}}}}",
+"Thu":"{{i18n:Thu.Crank.MidHeart.{{season}}}}",
+"Fri":"{{i18n:Fri.Crank.MidHeart.{{season}}}}",
+"Sat":"{{i18n:Sat.Crank.MidHeart.{{season}}}}",
+"Sun":"{{i18n:Sun.Crank.MidHeart.{{season}}}}",
+},
+"When":{
+"Hearts:FC.Crank":"{{Range:5,10}}",
+}
+},
+]
+}

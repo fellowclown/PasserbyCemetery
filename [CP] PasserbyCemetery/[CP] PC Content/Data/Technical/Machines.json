@@ -1,5 +1,43 @@
 {
   "Changes": [
+{
+      "LogName": "FermentedAppleSauce",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)12",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModID}}_FermentedAppleSauce": {
+          "Id": "{{ModID}}_FermentedAppleSauce",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModID}}_AppleMash",
+              "RequiredCount": 1
+            },
+          ],
+          "OutputItem": [
+            {
+            "Id": "{{ModID}}_FermentedAppleSauce",
+            "ItemId": "{{ModID}}_FermentedAppleSauce",
+        
+          }
+        ],
+        "MinutesUntilReady": -1,
+        "DaysUntilReady": 3,
+        "InvalidCountMessage": null,
+        "RecalculateOnCollect": false
+  }
+},
+    "MoveEntries": [
+        {
+          "Id": "{{ModID}}_FermentedAppleSauce",
+          "BeforeId": "Default_Wine"
+     }
+],
+},
     {
       "Action": "EditData",
       "Target": "Data/Buildings",
@@ -1092,6 +1130,23 @@
               "OutputItem": [
                 {
             "ItemId": "{{ModID}}_ChocoFruitExtract",
+                }
+              ],
+              "MinutesUntilReady": 600
+            },
+                                            {
+              "Id": "{{ModID}}_AppleMash",
+              "Triggers": [
+                {
+                 "Id": "ItemPlacedInMachine",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)613",
+                  "RequiredCount": 1,
+                }
+              ],
+              "OutputItem": [
+                {
+            "ItemId": "{{ModID}}_AppleMash",
                 }
               ],
               "MinutesUntilReady": 600

@@ -3,10 +3,6 @@
     {
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
-                        "When": {
- "HasFlag|contains=landslideDone": true,
-  
-},
             "TextOperations": [
                 {
                     "Operation": "Append",
@@ -203,34 +199,6 @@
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
                     "Value": "FC.Boxy 22 78 1",
-                    "Delimiter": "/"
-                },
-        ]
-    },
-       {
-            "Action": "EditData",
-            "Target": "Data/Festivals/winter8",
-                        "When": {
- "HasFlag|contains=landslideDone": true,
-  
-},
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters{{YearCheck}}"
-                    ],
-                    "Value": "FC.Boxy 107 17 2",
-                    "Delimiter": "/"
-                },
-                     {
-                    "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "MainEvent_additionalCharacters{{YearCheck}}"
-                    ],
-                    "Value": "FC.Boxy 107 17 2",
                     "Delimiter": "/"
                 },
         ]

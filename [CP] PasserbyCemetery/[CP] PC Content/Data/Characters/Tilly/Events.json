@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_OldGraveYard",
+"Entries": {
+    "{{ModID}}_TillyIntroduction/t 1500 1900/e {{ModID}}_TheFather/!z fall/a 48 33": "Majestic/-1000 -1000/farmer 48 33 3 FC.Tilly 43 33 3/viewport 43 31 clamp true/skippable/addConversationTopic FC.TillyArrives 20/addTemporaryActor FC.Lulu 32 32 41 33 1 false Character/pause 1000/emote FC.Lulu 12/pause 360/speak FC.Tilly \"{{i18n:TillyIntroduction.00}}\"/move farmer -3 0 3 true/pause 1000/message \"{{i18n:TillyIntroduction.01}}\"/pause 360/emote FC.Tilly 28/pause 360/speak FC.Tilly \"{{i18n:TillyIntroduction.02}}\"/pause 360/emote farmer 8/jump FC.Tilly 7/pause 360/faceDirection FC.Tilly 1/pause 360/speak FC.Tilly \"{{i18n:TillyIntroduction.03}}\"/pause 1000/quickQuestion {{i18n:TillyIntroduction.04}}(break)speak FC.Tilly \"{{i18n:TillyIntroduction.05}}\"\\friendship FC.Tilly 3(break)speak FC.Tilly \"{{i18n:TillyIntroduction.06}}\"\\friendship FC.Tilly 5/pause 360/faceDirection FC.Tilly 3/pause 300/speak FC.Tilly \"{{i18n:TillyIntroduction.07}}\"/pause 300/emote FC.Lulu 32/speed FC.Lulu 4/move FC.Lulu 0 1 1/speed FC.Lulu 4/move FC.Lulu 10 0 1 true/faceDirection FC.Tilly 1/speak FC.Tilly \"{{i18n:TillyIntroduction.08}}\"/pause 1000/textAbovehead FC.Tilly \"{{i18n:TillyIntroduction.09}}\"/speed FC.Tilly 4/move FC.Tilly 0 1 1/speed FC.Tilly 4/move FC.Tilly 10 0 1 true/faceDirection farmer 1/pause 200/globalFade/viewport -1000 -1000/end",
+}
+},
+]
+}

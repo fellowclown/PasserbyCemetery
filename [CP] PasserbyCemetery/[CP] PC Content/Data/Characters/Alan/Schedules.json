@@ -14,7 +14,7 @@
 "{{ModID}}_AlanWork2": "24/24 24 25 25 25 26 26 26 27 27 27 26 26 26 25 25/25",
 "{{ModID}}_AlanSit1": "28/28/28",
 "{{ModID}}_AlanSit2": "29/29/29",
-"{{ModID}}_AlanKickSit2": "30/30 30 30 30 30 31 31 31 31 31 31 31/30//offset 0 30",
+"{{ModID}}_AlanKickSit2": "30/30 30 30 30 30 31 31 31 31 31 31 31/30",
 }
 },
 /************************************************
@@ -50,7 +50,7 @@
 "spring": "GOTO spring_Mon",
 ///Weekday Schedules
 "Mon": "MAIL landslideDone/GOTO NO_SCHEDULE/610 Town 98 81 2 {{ModID}}_AlanWork2/1000 Forest 92 21 1/1400 {{ModID}}_OldGraveYard 26 80 1 \"Strings\\schedules\\FC.Alan:Alan.VultureFountainValerie\"/1800 {{ModID}}_LeslaHouse 20 12 2 {{ModID}}_AlanSit2/2100 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_AlanKickSit2/2300 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
-"Fri": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{ModID}}_OldGraveYard 26 80 1 \"Strings\\schedules\\FC.Alan:Alan.VultureFountainDezerie\"/1000 {{ModID}}_PasserbyCliffs 10 32 2 square_3_0/1400 {{ModID}}_GradysRoom 6 12 2 {{ModID}}_AlanWork2 \"Strings\\schedules\\FC.Alan:Alan.WorkingWithGrady\"/1800 {{AlanTurnAbout}}/2300 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+"Fri": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{ModID}}_OldGraveYard 26 80 1 \"Strings\\schedules\\FC.Alan:Alan.VultureFountainDezerie\"/1000 {{ModID}}_PasserbyCliffs 10 32 2 square_3_0/1400 {{ModID}}_GradysRoom 5 13 2 {{ModID}}_AlanWork2 \"Strings\\schedules\\FC.Alan:Alan.WorkingWithGrady\"/1800 {{AlanTurnAbout}}/2300 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 "Sat": "MAIL landslideDone/GOTO NO_SCHEDULE/800 {{ModID}}_AlansRoom 6 7 0 {{ModID}}_Alan_Work0/1200 {{ModID}}_BeeNursery 10 15 0 square_3_0 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.00\"/1600 {{ModID}}_LeslaHouse 20 12 2 {{ModID}}_AlanSit2/1900 {{ModID}}_OldGraveYard 17 49 0/2100 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_AlanKickSit2/2300 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 "Sun": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{AlanBookWormMobile}}/1000 {{ModID}}_PasserbyCliffs 10 32 2 square_3_0/1300 {{AlanTurnAbout}}/1700 {{ModID}}_OldGraveYard 28 37 1/2100 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_AlanKickSit2/2300 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 
@@ -58,19 +58,17 @@
 "Tue": "MAIL landslideDone/GOTO NO_SCHEDULE/900 {{ModID}}_StoneHouse 12 18 2/2000 {{AlanTurnAbout}}/2300 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"", //work
 "Wed": "GOTO Tue",//work
 "Thu": "GOTO Tue",//work
+"rain": "GOTO Tue",
 
 ///Special Schedules
 "GreenRain": "MAIL landslideDone/GOTO NO_SCHEDULE/900 {{AlanTurnAbout}}/1100 {{ModID}}_AlansRoom 6 7 0 \"Strings\\schedules\\FC.Alan:Alan.GreenRain\"/1430 {{ModID}}_StoneHouse 12 18 2/1800 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_AlanSit2/2200 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
-"DesertFestival": "MAIL landslideDone/GOTO NO_SCHEDULE/1000 Desert 14 41 1 \"Strings\\schedules\\FC.Alan:Alan.DesertFestival.01\"/1500 Desert 29 67 0 \"Strings\\schedules\\FC.Alan:Alan.DesertFestival.02\"/1800 Desert 25 24 2 \"Strings\\schedules\\FC.Alan:Alan.DesertFestival.03\"/2200 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
+"DesertFestival": "MAIL landslideDone/GOTO NO_SCHEDULE/1000 Desert 14 42 1 \"Strings\\schedules\\FC.Alan:Alan.DesertFestival.01\"/1500 Desert 29 67 0 \"Strings\\schedules\\FC.Alan:Alan.DesertFestival.02\"/1800 Desert 25 24 2 \"Strings\\schedules\\FC.Alan:Alan.DesertFestival.03\"/2200 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 "TroutDerby": "MAIL landslideDone/GOTO NO_SCHEDULE/800 Forest 59 47 1 \"Strings\\schedules\\FC.Alan:Alan.TroutDerby\"/1200 {{ModID}}_GradysRoom 4 14 0 {{ModID}}_AlanWork2 \"Strings\\schedules\\FC.Alan:Alan.WorkingWithGrady\"/1500 {{ModID}}_BeeNursery 10 15 0 square_3_0_0 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.00\"/1700 {{ModID}}_StoneHouse 12 20 2/2100 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 "SquidFest": "MAIL landslideDone/GOTO NO_SCHEDULE/1000 Beach 29 20 1 \"Strings\\schedules\\FC.Alan:Alan.SquidFest\"/1500 {{ModID}}_StoneHouse 12 18 2/1700 {{ModID}}_BeeNursery 10 15 0 square_3_0_0 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.00\"/2100 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 "winter_15": "MAIL landslideDone/GOTO NO_SCHEDULE/700 Beach 9 14 3 \"Strings\\schedules\\FC.Alan:Alan.NightMarket\"/1500 {{ModID}}_GradysRoom 4 14 0 {{ModID}}_AlanWork0 \"Strings\\schedules\\FC.Alan:Alan.WorkingWithGrady\"/1700  {{ModID}}_BeeNursery 10 15 0 square_3_0_0 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.00\"/1900 {{ModID}}_StoneHouse 12 20 2/2200 {{ModID}}_AlansRoom 10 7 3 {{ModID}}_Alan_Sleep \"Strings\\schedules\\FC.Alan:Alan.Sleeping\"",
 
 ///Seasonal Marriage
-"marriage_spring_Fri": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{ModID}}_OldGraveYard 26 80 1 \"Strings\\schedules\\FC.Alan:Alan.VultureFountainDezerie\"/1000 {{AlanBookWormMobile}}/1500 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_AlanKickSit2/2000 {{AlanTurnAbout}}/2300 bed" ,
-"marriage_summer_Fri": "MAIL landslideDone/GOTO NO_SCHEDULE/610 Forest 92 21 1/1300 Town 96 81 2 {{ModID}}_AlanWork2/1600 Town 105 90 3/2000 bed" ,
-"marriage_fall_Fri": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{AlanBookWormMobile}}/1000 {{ModID}}_NiksRoom 8 12 1 \"Strings\\schedules\\FC.Alan:Alan.NiksRoom\"/1500 {{ModID}}_BeeNursery 8 16 2 square_3_0 \"Strings\\schedules\\FC.Alan:Alan.BeeNursery.00\"/2000 {{AlanTurnAbout}}/2300 bed" ,
-"marriage_Winter_Fri": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_AlanSit2/1000 {{ModID}}_AlansRoom 12 9 1/2000 bed" ,
+"marriage_Fri": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{ModID}}_OldGraveYard 26 80 1 \"Strings\\schedules\\FC.Alan:Alan.VultureFountainDezerie\"/1000 {{AlanBookWormMobile}}/1500 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_AlanKickSit2/2000 {{AlanTurnAbout}}/2300 bed" ,
 }, 
 },
 ]

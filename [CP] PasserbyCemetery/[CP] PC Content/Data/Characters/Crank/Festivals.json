@@ -1,0 +1,27 @@
+{
+    "Changes": [
+                   {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3,Data/Festivals/winter3",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Crank 11 30 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+      {
+"LogName": "Festival dialogue",
+"Action": "EditData",
+"Target": "Data/Festivals/fall3,Data/Festivals/winter3",
+"Entries": {
+"FC.Crank{{YearCheck}}": "{{i18n:Crank.Marketpalooza}}",
+} 
+ },
+  ]
+}

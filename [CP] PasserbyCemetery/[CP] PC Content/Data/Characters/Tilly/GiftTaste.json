@@ -1,0 +1,16 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Tilly": "{{i18n:Tilly.gift.love}}/{{ModID}}_YohoHash {{ModID}}_ChocoBun {{ModID}}_HotChoco/{{i18n:Tilly.gift.like}}/{{ModID}}_MidnightBubbly {{ModID}}_SweetenBreadPudding {{ModID}}_ZinfazuIcecream/{{i18n:Tilly.gift.dislike}}/{{ModID}}_RaphusMayo {{ModID}}_MovoraptorMayo {{ModID}}_IceBerryWine/{{i18n:Tilly.gift.hate}}/{{ModID}}_DragaWhiskey 348 346 303/{{i18n:Tilly.gift.neutral}}/459 {{ModID}}_AdauulaCakes {{ModID}}_MeekFruit/ ",
+}
+}
+]
+}
+

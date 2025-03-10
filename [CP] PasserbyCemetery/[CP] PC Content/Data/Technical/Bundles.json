@@ -51,15 +51,13 @@
 						"{{ModID}}_Pot2": 1,
 						
 					},
-					"BundleReward": {
-                    "money": 250,
-                     },
 						"EditMap": "Maps/{{ModID}}_ExhibitBundle1",
 						"EditMapLocation": "{{ModID}}_ExhibitSecondFloor",
 						"EditMapPosition": "2,3",
 						"EditMapMode": "ReplaceByLayer",
 						"BundleCompletedActions": [
-                        "AddConversationTopic FC.ExhibitBundle1 5"],
+                        "AddConversationTopic FC.ExhibitBundle1 999",
+                     "AddMail Current {{ModID}}_ExhibitBundle1Finished.Mail",],
 					},
 				},
 			},
@@ -87,15 +85,14 @@
 						"{{ModID}}_LifeTablet": 1,
 						"{{ModID}}_FamilyTablet": 1,
 					},
-					"BundleReward": {
-                    "money": 550,
-                     },
 						"EditMap": "Maps/{{ModID}}_ExhibitBundle2",
 						"EditMapLocation": "{{ModID}}_ExhibitSecondFloor",
 						"EditMapPosition": "1,3",
 						"EditMapMode": "ReplaceByLayer",
 						"BundleCompletedActions": [
-                        "AddConversationTopic FC.ExhibitBundle2 5"],
+                        "AddConversationTopic FC.ExhibitBundle2 999",
+                        "AddMail Current {{ModID}}_ExhibitBundle2Finished.Mail",
+                    ],
 					},
 				},
 			},
@@ -122,15 +119,13 @@
                          "{{ModID}}_GemmedCuff": 1,
 						
 					},
-					"BundleReward": {
-                    "money": 420,
-                     },
 						"EditMap": "Maps/{{ModID}}_ExhibitBundle3",
 						"EditMapLocation": "{{ModID}}_ExhibitSecondFloor",
 						"EditMapPosition": "7,3",
 						"EditMapMode": "ReplaceByLayer",
 						"BundleCompletedActions": [
-                        "AddConversationTopic FC.ExhibitBundle3 5"],
+                        "AddConversationTopic FC.ExhibitBundle3 999",
+                     "AddMail Current {{ModID}}_ExhibitBundle3Finished.Mail",],
 					},
 				},
 			},
@@ -156,15 +151,13 @@
 						"{{ModID}}_Guardian3": 1,
 						
 					},
-					"BundleReward": {
-                    "money": 350,
-                     },
 						"EditMap": "Maps/{{ModID}}_ExhibitBundle4",
 						"EditMapLocation": "{{ModID}}_ExhibitSecondFloor",
 						"EditMapPosition": "3,7",
 						"EditMapMode": "ReplaceByLayer",
 						"BundleCompletedActions": [
-                        "AddConversationTopic FC.ExhibitBundle4 5"],
+                        "AddConversationTopic FC.ExhibitBundle4 999",
+                     "AddMail Current {{ModID}}_ExhibitBundle4Finished.Mail",],
 					},
 				},
 			},
@@ -190,15 +183,14 @@
 				           "{{ModID}}_Rattler": 1,
 						
 					},
-					"BundleReward": {
-                    "money": 300,
-                     },
 						"EditMap": "Maps/{{ModID}}_ExhibitBundle5",
 						"EditMapLocation": "{{ModID}}_ExhibitSecondFloor",
 						"EditMapPosition": "9,6",
 						"EditMapMode": "ReplaceByLayer",
                         "BundleCompletedActions": [
-                        "AddConversationTopic FC.ExhibitBundle5 5"],
+                        "AddConversationTopic FC.ExhibitBundle5 999",
+                         "AddMail Current {{ModID}}_ExhibitBundle5Finished.Mail",
+                    ],
 					},
 				},
 			},
@@ -223,15 +215,14 @@
 							"{{ModID}}_OldShoes": 1,
 						
 					},
-					"BundleReward": {
-                    "money": 200,
-                     },
 						"EditMap": "Maps/{{ModID}}_ExhibitBundle6",
 						"EditMapLocation": "{{ModID}}_ExhibitSecondFloor",
 						"EditMapPosition": "1,10",
 						"EditMapMode": "ReplaceByLayer",
 						"BundleCompletedActions": [
-                                 "AddConversationTopic FC.ExhibitBundle6 5"],
+                                 "AddConversationTopic FC.ExhibitBundle6 999",
+                                  "AddMail Current {{ModID}}_ExhibitBundle6Finished.Mail",
+                            ],
 					},
 				},
 			},

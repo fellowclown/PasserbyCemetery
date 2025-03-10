@@ -1,0 +1,50 @@
+{
+"Changes": [
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+    "Jingles_Rest1": "16/16/16",
+    "Jingles_Sleep": "17/17/17",
+    "Jingles_Sit1": "19/19/19",
+    "Jingles_Sit3": "18/18/18",
+    "Jingles_Sit2": "20/20/20",
+    "Jingles_Drink": "21/21 21 21 21 21 21 21 21 22 22 23 23 24 24 24 24 23 23 22 22/21",
+}
+ },
+ {
+"LogName": "Jingles Schedule Dialogue Default",
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Jingles",
+  "Entries": {
+"Jingles.GreenRain": "{{i18n:Jingles.GreenRain}}",
+"Jingles.NightMarket": "{{i18n:Jingles.NightMarket}}",
+}
+ },
+ ////Tuesday, Thursday,Saturday,Sunday at east scarp  7am-1pm
+ ////Monday, Wednesday,Friday at the pelican town 7am-1pm
+        {
+            "LogName": "Schedule Edit",
+"Action": "EditData",
+"When": {
+        "HasSeenEvent |contains={{ModID}}_ForestTrouble": "true",
+            },
+"Target": "Characters/schedules/FC.Jingles",
+"Entries": {
+"Mon": "900 Fellowclown.PC_OldGraveYard 45 66 2 Jingles_Sit2/1300 {{ModID}}_Shop 4 3 2 Jingles_Drink/1600 Saloon 7 17 2 Jingles_Drink/2000 {{ModID}}_Shop 4 5 3 Jingles_Sleep", 
+"Tue": "900 Fellowclown.PC_OldGraveYard 41 16 3/1300 Fellowclown.PC_OldGraveYard 27 30 2/1600 Saloon 7 17 2 Jingles_Drink/2000 {{ModID}}_Shop 4 5 3 Jingles_Sleep",
+"Wed": "900 Mountain 18 7 1 Jingles_Rest1/1300 Mine 12 11 1 Jingles_Rest1/1600 Saloon 7 17 2 Jingles_Drink/2000 {{ModID}}_Shop 4 5 3 Jingles_Sleep",
+"Thu": "900 Town 64 93 2 Jingles_Drink/1300 Town 26 29 2 Jingles_Drink/1600 Saloon 7 17 2 Jingles_Drink/2000 {{ModID}}_Shop 4 5 3 Jingles_Sleep",
+"Fri": "900 Mine 12 11 1 Jingles_Rest1/1300 Fellowclown.PC_OldGraveYard 45 66 2 Jingles_Sit2/1600 Saloon 7 17 2 Jingles_Drink/2000 {{ModID}}_Shop 4 5 3 Jingles_Sleep",
+"Sat": "900 Fellowclown.PC_OldGraveYard 45 66 2 Jingles_Sit2/1300 Fellowclown.PC_OldGraveYard 45 66 2 Jingles_Sit2/1600 Saloon 7 17 2 Jingles_Drink/2000 {{ModID}}_Shop 4 5 3 Jingles_Sleep",
+"Sun": "900 Fellowclown.PC_OldGraveYard 45 66 2 Jingles_Sit2/1300 Beach 43 36 2 Jingles_Drink/1600 Saloon 7 17 2 Jingles_Drink/2000 {{ModID}}_Shop 4 5 3 Jingles_Sleep",
+"rain": "900 Beach 43 36 2 Jingles_Drink/1300 Forest 93 39 2 Jingles_Drink/1600 Saloon 7 17 2 Jingles_Drink/2000 {{ModID}}_Shop 4 5 3 Jingles_Sleep",
+"GreenRain": "900 Town 64 93 2 Jingles_Drink \"Strings\\schedules\\FC.Jingles:Jingles.GreenRain\"/1300 Town 26 29 2 Jingles_Drink/1600 Saloon 7 17 2 Jingles_Drink/2000 {{ModID}}_Shop 4 5 3 Jingles_Sleep",
+"winter_16": "900 Fellowclown.PC_OldGraveYard 27 30 2/1700 Beach 9 15 2 Jingles_Drink \"Strings\\schedules\\FC.Jingles:Jingles.NightMarket\"/1900 Saloon 7 17 2 Jingles_Drink/2100 {{ModID}}_Shop 4 5 3 Jingles_Sleep",
+ 
+}
+},  
+
+]
+}

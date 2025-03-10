@@ -37,11 +37,11 @@
 "Entries": {
 "spring": "GOTO Mon",
 
-"Mon": "MAIL landslideDone/GOTO NO_SCHEDULE/610 {{PopTemple}}/800 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1000 {{ModID}}_OldGraveYard 40 34 2 square_5_0/1400 Town 55 85 1/1600 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1900 {{ModID}}_AncientGraveYard 50 26 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
+"Mon": "MAIL landslideDone/GOTO NO_SCHEDULE/610 {{PopTemple}}/800 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1000 {{ModID}}_PasserbyRoad 19 28 2 square_5_0/1400 Town 55 85 1/1600 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1900 {{ModID}}_AncientGraveYard 50 26 2 {{ModID}}_PopSleep \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
 
 "Tue": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash/1000 Town 52 64 0/1200 ManorHouse 9 5 0 {{ModID}}_PopSnoop/1400 {{ModID}}_MavericksHouse 8 9 0 {{ModID}}_PopSnoop/2000 {{PopRoom}}",
 
-"Wed": "MAIL landslideDone/GOTO NO_SCHEDULE/700 Forest 95 23 2 square_5_0/1000 Town 12 86 1/1300 Town 52 64 0/1500 Town 18 89 1/1700 {{ModID}}_OldGraveYard 40 34 2 square_5_0/1900 {{ModID}}_LyellsHouse 15 17 0 {{ModID}}_PopSnoop/2200 {{PopRoom}} \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
+"Wed": "MAIL landslideDone/GOTO NO_SCHEDULE/700 Forest 93 25 2 square_5_0/1000 Town 12 86 1/1300 Town 52 64 0/1500 Town 18 89 1/1700 {{ModID}}_PasserbyRoad 19 28 2 square_5_0/1900 {{ModID}}_LyellsHouse 15 17 0 {{ModID}}_PopSnoop/2200 {{PopRoom}} \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",
 
 "Thu": "MAIL landslideDone/GOTO NO_SCHEDULE/700 AnimalShop 3 15 1/1200 {{ModID}}_LyellsCoop 9 4 2/1700 {{ModID}}_StoneHouse 18 22 3/2000 {{ModID}}_AncientGraveYard 30 30 3/2200 {{PopRoom}}",
 
@@ -54,7 +54,7 @@
 "rain": "GOTO Thu",
 
 "GreenRain": "MAIL landslideDone/GOTO NO_SCHEDULE/610 {{PopTemple}}/2200 {{PopRoom}} \"Strings\\schedules\\FC.Popper:Popper.Sleeping\"",  
-"Marriage_Tue": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSquat/1200 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash \"Strings\\schedules\\FC.Popper:Popper.Trash\"/1500 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSquat/1700 {{ModID}}_OldGraveYard 40 34 2 square_5_0/1900 Bed",
+"Marriage_Tue": "MAIL landslideDone/GOTO NO_SCHEDULE/700 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSquat/1200 {{ModID}}_OldGraveYard 7 62 2 {{ModID}}_PopTrash \"Strings\\schedules\\FC.Popper:Popper.Trash\"/1500 {{ModID}}_PoppersRoom 9 11 2 {{ModID}}_PopSquat/1700 {{ModID}}_PasserbyRoad 19 28 2 square_5_0/1900 Bed",
 
 }
 },

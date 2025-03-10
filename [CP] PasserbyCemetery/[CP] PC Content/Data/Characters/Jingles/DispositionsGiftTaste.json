@@ -1,0 +1,101 @@
+{
+"Changes": [
+   {
+"LogName": "Jingles Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Jingles": {
+"DisplayName":"{{i18n:FC.Jingles}}",
+"Breather": false,
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Rude",
+"SocialAnxiety":"Shy",
+"Optimism":"Negative",
+"BirthSeason":"summer",
+"Birthday":"6",
+"HomeRegion":"Town",
+"IsDarkSkinned":false,
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland":true,
+"LoveInterest":null,
+"Calendar":"HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SocialTabIconSourceRect":null,
+"SpouseAdopts":false,
+"SpouseWantsChildren":false,
+"SpouseGiftJealousy":false,
+"IntroductionsQuest":"{{IncludeIntro}}",
+"ItemDeliveryQuests":true,
+"PerfectionScore":"{{IncludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"DumpsterDiveEmote":"20",
+"DumpsterDiveFriendshipEffect":"1",
+"FlowerDanceCanDance":false,
+"KissSpriteIndex": 28,
+"HiddenProfileEmoteSound": null,
+"HiddenProfileEmoteDuration": -1,
+"HiddenProfileEmoteStartFrame": 37,
+"HiddenProfileEmoteFrameCount": 3,
+"HiddenProfileEmoteFrameDuration": 360.0,
+"ShakePortraits": [
+    3
+],
+"SpouseRoom": {},
+"SpousePatio":{},
+
+"SpouseFloors": [ ],
+"SpouseWallpapers": [],
+"FriendsAndFamily": {},
+"WinterStarGifts": [],
+"WinterStarParticipant": false,
+"UnlockConditions": null,
+"SpawnIfMissing": true,
+"Home": [
+{
+"Id": "Default",
+"Condition": "!PLAYER_HAS_SEEN_EVENT current Fellowclown.PC_CaveBlockUnlock",
+"Location": "{{ModID}}_Shop",
+"Tile": {
+"X": -3000,
+"Y": -3000
+},
+"Direction": "down"
+},
+{
+"Id": "Default",
+"Condition": "PLAYER_HAS_SEEN_EVENT current Fellowclown.PC_CaveBlockUnlock",
+"Location": "{{ModID}}_Shop",
+"Tile": {
+"X": 5,
+"Y": 4
+},
+"Direction": "down"
+}
+],
+"Appearance": [
+    {
+"ID": "{{ModID}}.Jingles",
+"Portrait": "{{InternalAssetKey: Assets/Npcs/Portraits/FC.Jingles/FC.Jingles_Spring.png}}",
+"Sprite": "{{InternalAssetKey: Assets/Npcs/Characters/FC.Jingles/FC.Jingles_Spring.png}}"
+},
+],
+}
+}
+},
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Jingles": "{{i18n:Jingles.gift.love}}/{{ModID}}_AppleMash {{ModID}}_FermentedAppleSauce Fellowclown.PC_AdauulaStalks Fellowclown.PC_WarpRoot 22 78 613 178/{{i18n:Jingles.gift.like}}/635/{{i18n:Jingles.gift.dislike}}/289 928 107/{{i18n:Jingles.gift.hate}}/174 184/{{i18n:Jingles.gift.neutral}}/253/ ",
+}
+ },
+]
+}
