@@ -45,13 +45,13 @@
 "Entries": {
 "spring": "GOTO Mon",
 /// Weekday Schedules 
-"Mon": "MAIL {{ModID}}_DezerieIntro.Mail/GOTO NO_SCHEDULE/610 Forest 65 96 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1000 Town 41 57 1/1300 {{DezerieExhibit}}/1500 {{ModID}}_PasserbyCliffs 8 18 2 square_2_0 \"Strings\\schedules\\FC.Dezerie:Dezerie.Ridge\"/1800 {{DezerieTurnAbout}}/2200 {{ModID}}_StoneHouse 19 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+"Mon": "MAIL {{ModID}}_DezerieIntro.Mail/GOTO NO_SCHEDULE/610 Forest 65 96 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1000 Town 32 56 3/1300 {{DezerieExhibit}}/1500 {{ModID}}_PasserbyCliffs 8 18 2 square_2_0 \"Strings\\schedules\\FC.Dezerie:Dezerie.Ridge\"/1800 {{DezerieTurnAbout}}/2200 {{ModID}}_StoneHouse 19 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
 
 "Tue": "MAIL {{ModID}}_DezerieIntro.Mail/GOTO NO_SCHEDULE/610 {{DezerieExhibit}}/900 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieRelax/1200 {{ModID}}_OldGraveYard 15 63 3 \"Strings\\schedules\\FC.Dezerie:Dezerie.Wait\"/1600 {{ModID}}_Travelingtrailer 15 14 0/2000 {{DezerieTurnAbout}}/2200 {{ModID}}_StoneHouse 19 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
 
 "Wed": "MAIL {{ModID}}_DezerieIntro.Mail/GOTO NO_SCHEDULE/700 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/900 {{DezerieTemple}}/1200 {{ModID}}_StoneHouse 18 22 3/1800 {{DezerieTurnAbout}}/2200 {{ModID}}_StoneHouse 19 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
 
-"Thu": "MAIL {{ModID}}_DezerieIntro.Mail/GOTO NO_SCHEDULE/900 {{DezerieExhibit}}/1300 Town 41 57 1/1600 Beach 10 39 2 {{ModID}}_DezerieRelax/1900 {{DezerieTurnAbout}}/2400 {{ModID}}_StoneHouse 19 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+"Thu": "MAIL {{ModID}}_DezerieIntro.Mail/GOTO NO_SCHEDULE/900 {{DezerieExhibit}}/1300 Town 32 56 3/1600 Beach 10 39 2 {{ModID}}_DezerieRelax/1900 {{DezerieTurnAbout}}/2400 {{ModID}}_StoneHouse 19 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
  
 "Fri": "MAIL {{ModID}}_DezerieIntro.Mail/GOTO NO_SCHEDULE/610 {{ModID}}_OldGraveYard 28 80 3/900 {{ModID}}_OldGraveYard 37 65 2 {{ModID}}_DezerieRelax/1200 Forest 65 96 2 {{ModID}}_DezerieRelax/1600 WizardHouse 12 17 3/1900 {{DezerieTurnAbout}}/2400 {{ModID}}_StoneHouse 19 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
 
@@ -63,13 +63,14 @@
 
 "winter_16": "MAIL {{ModID}}_DezerieIntro.Mail/GOTO NO_SCHEDULE/900 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieRelax/1200 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_DezerieSit2/1300 Beach 2 19 2 \"Strings\\schedules\\FC.Dezerie:Dezerie.NightMarket\"/1900 {{ModID}}_StoneHouse 19 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
 
-"GreenRain": "MAIL {{ModID}}_DezerieIntro.Mail/GOTO NO_SCHEDULE/900 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1200 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_DezerieSit2/1600 {{ModID}}_OldGraveYard 37 65 2 {{ModID}}_DezerieRelax \"Strings\\schedules\\FC.Dezerie:Dezerie.GreenRain\"/1600 {{ModID}}_StoneHouse 19 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+"GreenRain": "MAIL {{ModID}}_DezerieIntro.Mail/GOTO NO_SCHEDULE/900 {{ModID}}_StoneHouse 14 22 2 {{ModID}}_DezerieCastMagic \"Strings\\schedules\\FC.Dezerie:Dezerie.CastMagic\"/1200 {{ModID}}_StoneHouse 5 21 2 {{ModID}}_DezerieSit2/1600 {{ModID}}_OldGraveYard 37 65 2 {{ModID}}_DezerieRelax \"Strings\\schedules\\FC.Dezerie:Dezerie.GreenRain\"/2000 {{ModID}}_StoneHouse 19 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
 
 "DesertFestival": "MAIL {{ModID}}_DezerieIntro.Mail/GOTO NO_SCHEDULE/900 {{ModID}}_OldGraveYard 37 65 2 {{ModID}}_DezerieRelax/1300 Desert 2 33 1 \"Strings\\schedules\\FC.Dezerie:Dezerie.DesertFestival\"/1600 {{ModID}}_StoneHouse 19 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
 
 "TroutDerby": "MAIL {{ModID}}_DezerieIntro.Mail/GOTO NO_SCHEDULE/900 Forest 35 25 2 \"Strings\\schedules\\FC.Dezerie:Dezerie.TroutDerby\"/1400 Forest 21 28 1/1600 {{ModID}}_OldGraveYard 19 48 3/1900 {{ModID}}_StoneHouse 19 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
 
 "SquidFest": "MAIL {{ModID}}_DezerieIntro.Mail/GOTO NO_SCHEDULE/900 Forest 35 25 2/1300 Beach 42 5 2 \"Strings\\schedules\\FC.Dezerie:Dezerie.SquidFest\"/1900 {{ModID}}_StoneHouse 19 19 2 {{ModID}}_Dezerie_Sleep \"Strings\\schedules\\FC.Dezerie:Dezerie.Sleeping\"",
+
 }, 
 },
 ]

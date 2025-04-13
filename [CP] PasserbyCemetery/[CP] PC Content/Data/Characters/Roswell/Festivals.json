@@ -147,7 +147,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Roswell 29 42 3",
+                    "Value": "FC.Roswell 38 45 1",
                     "Delimiter": "/"
                 },
                      {
@@ -156,7 +156,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Roswell 29 42 3",
+                    "Value": "FC.Roswell 22 24 2",
                     "Delimiter": "/"
                 },
         ]

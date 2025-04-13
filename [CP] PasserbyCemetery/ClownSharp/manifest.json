@@ -10,11 +10,11 @@
   "UniqueID": "DecidedlyHuman.ClownSharp",
   "Name": "Clown Sharp",
   "Author": "DecidedlyHuman",
-  "Version": "2.50.0",
+  "Version": "2.64.0",
   "Description": "Where all of the C# sorcery for Passerby Cemetary lives.",
-  "MinimumApiVersion": "3.15.0",
+  "MinimumApiVersion": "2.5.3",
   "EntryDll": "ClownSharp.dll",
   "UpdateKeys": [
-    "Nexus:00000"
+    "Nexus:22600"
   ]
 }

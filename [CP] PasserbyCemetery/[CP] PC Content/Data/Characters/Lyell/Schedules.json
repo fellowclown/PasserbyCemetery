@@ -44,7 +44,7 @@
 "Entries": {
 "spring": "GOTO Mon",
 
-"Mon": "MAIL landslideDone/GOTO NO_SCHEDULE/610 {{ModID}}_LyellsProperty 23 33 1 {{ModId}}_LyellWater1/700 {{ModID}}_LyellsProperty 28 31 2 {{ModId}}_LyellWater2/730 {{ModID}}_LyellsProperty 29 42 1 {{ModId}}_LyellWater1/800 {{ModID}}_LyellsProperty 41 43 2 {{ModID}}_LyellWater2/830 {{ModID}}_LyellsProperty 26 11 1 {{ModId}}_LyellWater1/900 {{ModID}}_LyellsShed 3 7 0/1200 {{ModID}}_LyellsHouse 13 19 1 {{ModId}}_LyellDrinkSitLeft/1400 {{ModID}}_LyellsCoop 3 6 2/1530 {{ModID}}_LyellsProperty 38 8 2 {{ModId}}_LyellSmokeSit/1600 {{LyellTurnAbout}}/2000 {{ModID}}_OldGraveYard 9 46 0/2200 {{ModID}}_LyellsProperty 41 41 2 {{ModId}}_LyellGunGuard \"Strings\\schedules\\FC.Lyell:Lyell.Guard\"/2300 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleeping\"",
+"Mon": "MAIL landslideDone/GOTO NO_SCHEDULE/610 {{ModID}}_LyellsProperty 23 33 1 {{ModId}}_LyellWater1/700 {{ModID}}_LyellsProperty 28 31 2 {{ModId}}_LyellWater2/730 {{ModID}}_LyellsProperty 29 42 1 {{ModId}}_LyellWater1/800 {{ModID}}_LyellsProperty 41 43 2 {{ModID}}_LyellWater2/830 {{ModID}}_LyellsProperty 26 11 1 {{ModId}}_LyellWater1/900 {{ModID}}_LyellsShed 3 7 0/1200 {{ModID}}_LyellsHouse 16 19 3 {{ModId}}_LyellDrinkSitLeft/1400 {{ModID}}_LyellsCoop 3 6 2/1530 {{ModID}}_LyellsProperty 38 8 2 {{ModId}}_LyellSmokeSit/1600 {{LyellTurnAbout}}/2000 {{ModID}}_OldGraveYard 9 46 0/2200 {{ModID}}_LyellsProperty 41 41 2 {{ModId}}_LyellGunGuard \"Strings\\schedules\\FC.Lyell:Lyell.Guard\"/2300 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleeping\"",
 
 "Tue": "MAIL landslideDone/GOTO NO_SCHEDULE/700 Town 29 25 2 square_0_3/1400 Beach 13 39 2 {{ModId}}_LyellSmokeStand/1730 {{ModID}}_OldGraveYard 30 52 3/1800 {{ModID}}_LyellsHouse 14 17 0/2200 {{ModID}}_LyellsHouse 19 16 2 {{ModId}}_LyellSmokeSit/2330 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleeping\"",
 
@@ -56,11 +56,11 @@
 
 "Sat": "GOTO Mon",
 
-"Sun": "MAIL landslideDone/GOTO NO_SCHEDULE/800 {{ModID}}_LyellsProperty 23 30 0 \"Strings\\schedules\\FC.Lyell:Lyell.Prayer\"/1000 Forest 33 25 2 {{ModId}}_LyellSmokeStand/1500 29 25 2 square_0_3_2/2000 {{LyellTurnAbout}}/2300 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleeping\"",
+"Sun": "MAIL landslideDone/GOTO NO_SCHEDULE/800 {{ModID}}_LyellsProperty 23 30 0 \"Strings\\schedules\\FC.Lyell:Lyell.Prayer\"/1000 Forest 33 25 2 {{ModId}}_LyellSmokeStand/1500 {{ModID}}_LyellsHouse 16 19 1 {{ModId}}_LyellDrinkSitLeft/2000 {{LyellTurnAbout}}/2300 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleeping\"",
 
 "rain": "MAIL landslideDone/GOTO NO_SCHEDULE/610 {{ModID}}_LyellsBarn 12 3 2/900 {{ModID}}_LyellsCoop 4 6 2 {{ModId}}_LyellGunGuard \"Strings\\schedules\\FC.Lyell:Lyell.Guard\"/1200 {{ModID}}_LyellsHouse 16 19 2 {{ModId}}_LyellSmokeSit/1900 {{ModID}}_LyellsHouse 14 17 0/2100 {{ModID}}_LyellsHouse 13 10 2 {{ModId}}_LyellSleep \"Strings\\schedules\\FC.Lyell:Lyell.Sleeping\"",
 
-"marriageJob": "MAIL landslideDone/GOTO NO_SCHEDULE/900 {{ModID}}_LyellsProperty 23 30 0 \"Strings\\schedules\\FC.Lyell:Lyell.Prayer\"/1300 {{ModID}}_LyellsProperty 38 8 1 {{ModId}}_LyellDrinkSitLeft/1500 {{LyellTurnAbout}}/1900 Bed",
+"marriage_Tue": "GOTO marriage_Thu",
 
 "marriage_Thu": "MAIL landslideDone/GOTO NO_SCHEDULE/610 {{ModID}}_LyellsProperty 23 33 1 {{ModId}}_LyellWater1/700 {{ModID}}_LyellsProperty 28 31 2 {{ModId}}_LyellWater2/730 {{ModID}}_LyellsProperty 29 42 1 {{ModId}}_LyellWater1/800 {{ModID}}_LyellsProperty 41 43 2 {{ModID}}_LyellWater2/830 {{ModID}}_LyellsProperty 26 11 1 {{ModId}}_LyellWater1/900 {{ModID}}_LyellsProperty 23 30 0 \"Strings\\schedules\\FC.Lyell:Lyell.Prayer\"/1300 {{ModID}}_LyellsProperty 38 8 1 {{ModId}}_LyellDrinkSitLeft/1500 {{LyellTurnAbout}}/1900 Bed",
 

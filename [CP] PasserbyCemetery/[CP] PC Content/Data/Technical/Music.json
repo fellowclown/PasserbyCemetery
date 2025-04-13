@@ -1,6 +1,6 @@
 {
 "Changes": [
-                  {
+{
 "Action": "EditData",
 "Target": "Data/AudioChanges",
 "Entries": {
@@ -13,7 +13,7 @@
 }
 }
 },
-            {
+{
 "Action": "EditData",
 "Target": "Data/AudioChanges",
 "Entries": {
@@ -26,7 +26,7 @@
 }
 }
 },
-        {
+{
 "Action": "EditData",
 "Target": "Data/AudioChanges",
 "Entries": {
@@ -39,7 +39,7 @@
 }
 }
 },
-    {
+{
 "Action": "EditData",
 "Target": "Data/AudioChanges",
 "Entries": {
@@ -52,7 +52,7 @@
 }
 }
 },
-         {
+ {
 "Action": "EditData",
 "Target": "Data/AudioChanges",
 "Entries": {
@@ -65,7 +65,7 @@
 }
 }
 },
-     {
+ {
 "Action": "EditData",
 "Target": "Data/AudioChanges",
 "Entries": {
@@ -130,7 +130,7 @@
 }
 }
 },
-     {
+ {
 "Action": "EditData",
 "Target": "Data/AudioChanges",
 "Entries": {
@@ -143,7 +143,7 @@
 }
 }
 },
-    {
+{
 "Action": "EditData",
 "Target": "Data/AudioChanges",
 "Entries": {
@@ -170,71 +170,71 @@
 }
 },
  {
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
-                "{{ModID}}_Marketpalooza": {
-                    "ID": "{{ModID}}_Marketpalooza",
-                    "Category": "Music",
-                    "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Marketpalooza.ogg}}" ],
-                    "StreamedVorbis": false,
-                    "Looped": true
-                }
-            }
-        },
-         {
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
-                "{{ModID}}_Squeak": {
-                    "ID": "{{ModID}}_Squeak",
-                    "Category": "Sound",
-                    "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Squeak.ogg}}" ],
-                    "StreamedVorbis": false,
-                    "Looped": false
-                }
-            }
-        },
-          {
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
-                "{{ModID}}_LongSqueak": {
-                    "ID": "{{ModID}}_LongSqueak",
-                    "Category": "Sound",
-                    "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.LongSqueak.ogg}}" ],
-                    "StreamedVorbis": false,
-                    "Looped": false
-                }
-            }
-        },
-                {
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
-                "{{ModID}}_BoxysTheme": {
-                    "ID": "{{ModID}}_BoxysTheme",
-                    "Category": "Music",
-                    "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.BoxysTheme.ogg}}" ],
-                    "StreamedVorbis": false,
-                    "Looped": true
-                }
-            }
-        },
-                       {
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
-                "{{ModID}}_QuietTime": {
-                    "ID": "{{ModID}}_QuietTime",
-                    "Category": "Music",
-                    "FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.QuietTime.ogg}}" ],
-                    "StreamedVorbis": false,
-                    "Looped": true
-                }
-            }
-        },
-         {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Marketpalooza": {
+"ID": "{{ModID}}_Marketpalooza",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Marketpalooza.ogg}}" ],
+"StreamedVorbis": false,
+"Looped": true
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_Squeak": {
+"ID": "{{ModID}}_Squeak",
+"Category": "Sound",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.Squeak.ogg}}" ],
+"StreamedVorbis": false,
+"Looped": false
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_LongSqueak": {
+"ID": "{{ModID}}_LongSqueak",
+"Category": "Sound",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.LongSqueak.ogg}}" ],
+"StreamedVorbis": false,
+"Looped": false
+}
+}
+},
+{
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_BoxysTheme": {
+"ID": "{{ModID}}_BoxysTheme",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.BoxysTheme.ogg}}" ],
+"StreamedVorbis": false,
+"Looped": true
+}
+}
+},
+ {
+"Action": "EditData",
+"Target": "Data/AudioChanges",
+"Entries": {
+"{{ModID}}_QuietTime": {
+"ID": "{{ModID}}_QuietTime",
+"Category": "Music",
+"FilePaths": [ "{{AbsoluteFilePath:Assets/Music/FC.QuietTime.ogg}}" ],
+"StreamedVorbis": false,
+"Looped": true
+}
+}
+},
+ {
 "Action": "EditData",
 "Target": "Data/AudioChanges",
 "Entries": {

@@ -1,30 +1,40 @@
 {
 "Changes": [
-       {
-        "Action": "EditImage",
-        "LogName": "Overworld map edit",
-        "Target": "LooseSprites/map,LooseSprites/map_summer,LooseSprites/map_fall,LooseSprites/map_winter",
-        "FromFile": "Assets/Maps/Tilesheets/WorldMap/map_{{season}}.png",
-         "PatchMode":"overlay",
-        "ToArea":{ "X": 181, "Y": 0, "Width": 64, "Height": 27
-       },
-          "When": {"OverWorldMapEdit": true, }
-   },
-          {
-        "Action": "EditImage",
-        "LogName": "Overworld map edit",
-        "Target": "LooseSprites/map,LooseSprites/map_summer,LooseSprites/map_fall,LooseSprites/map_winter",
-        "FromFile": "Assets/Maps/Tilesheets/WorldMap/map_Sve_{{season}}.png",
-         "PatchMode":"overlay",
-        "ToArea":{ "X": 181, "Y": 0, "Width": 64, "Height": 27
-         },
-          "When": {
-          "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
-          "OverWorldMapEdit": true,
-           }
-   },
-  ///GlowFlower Overlays
-      {
+	///Weather Effects
+	  {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModID}}_OldGraveYard,Maps/{{ModID}}_LyellsProperty,Maps/{{ModID}}_AncientGraveYard,Maps/{{ModID}}_PasserbyRoad,Maps/{{ModID}}_PasserbyCliffs,Maps/{{ModID}}_SecretCave",
+      "MapProperties": {
+        "mushymato.MMAP_WoodsLighting": "#827897",
+        "mushymato.MMAP_SteamOverlay": "T 0 0 #d1cddb 0.4 4"
+          },
+        },
+        /////
+ {
+"Action": "EditImage",
+"LogName": "Overworld map edit",
+"Target": "LooseSprites/map,LooseSprites/map_summer,LooseSprites/map_fall,LooseSprites/map_winter",
+"FromFile": "Assets/Maps/Tilesheets/WorldMap/map_{{season}}.png",
+ "PatchMode":"overlay",
+"ToArea":{ "X": 181, "Y": 0, "Width": 64, "Height": 27
+ },
+"When": {"OverWorldMapEdit": true, }
+ },
+{
+"Action": "EditImage",
+"LogName": "Overworld map edit",
+"Target": "LooseSprites/map,LooseSprites/map_summer,LooseSprites/map_fall,LooseSprites/map_winter",
+"FromFile": "Assets/Maps/Tilesheets/WorldMap/map_Sve_{{season}}.png",
+ "PatchMode":"overlay",
+"ToArea":{ "X": 181, "Y": 0, "Width": 64, "Height": 27
+ },
+"When": {
+"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+"OverWorldMapEdit": true,
+ }
+ },
+///GlowFlower Overlays
+{
 "Action": "EditImage",
 "Target": "Maps/spring_Fellowclown_Outdoors,Maps/summer_Fellowclown_Outdoors,Maps/fall_Fellowclown_Outdoors,Maps/winter_Fellowclown_Outdoors",
 "FromFile": "Assets/Maps/Tilesheets/TilesheetEdits/GlowFlowerOpen.png",
@@ -34,35 +44,35 @@
 "Time": "{{Range: 2000, 2400}}",
 }
 },
-    {
+{
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
 "FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
  "PatchMode":"overlay",
 "ToArea": { "X": 32, "Y": 10, "Width": 1, "Height": 2 },
 },
-    {
+{
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
 "FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
  "PatchMode":"overlay",
 "ToArea": { "X": 18, "Y": 30, "Width": 1, "Height": 2 },
 },
-    {
+{
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
 "FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
  "PatchMode":"overlay",
 "ToArea": { "X": 39, "Y": 29, "Width": 1, "Height": 2 },
 },
-    {
+{
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
 "FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
  "PatchMode":"overlay",
 "ToArea": { "X": 17, "Y": 21, "Width": 1, "Height": 2 },
 },
-    {
+{
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
 "FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
@@ -72,28 +82,28 @@
 "Time": "{{Range: 2000, 2400}}",
 }
 },
-    {
+{
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
 "FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
  "PatchMode":"overlay",
 "ToArea": { "X": 13, "Y": 25, "Width": 1, "Height": 2 },
 },
-    {
+{
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
 "FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
  "PatchMode":"overlay",
 "ToArea": { "X": 46, "Y": 29, "Width": 1, "Height": 2 },
 },
-    {
+{
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_AncientGraveYard",
 "FromFile": "Assets/Maps/Map Patches/GlowFlower.tbin",
  "PatchMode":"overlay",
 "ToArea": { "X": 46, "Y": 23, "Width": 1, "Height": 2 },
 },
-  ////Minecarts
+////Minecarts
 {
 "Action": "EditData",
 "Target": "Data/Minecarts",
@@ -110,346 +120,368 @@
 },
 ////Entrances
 {
-  "LogName": "Tillys eentrance",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_PasserbyRoad",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_TillyIntroduction": true,},
-  "MapTiles": [
+"LogName": "Tillys eentrance",
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_PasserbyRoad",
+"When": {
+"HasSeenEvent |contains={{ModID}}_TillyIntroduction": true,},
+"MapTiles": [
 {
-  "Position": {
+"Position": {
 "X": 9,
 "Y": 7
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
+},
+"Layer": "Buildings",
+"SetProperties": {
 "Action": "LockedDoorWarp 4 10 {{ModID}}_MobileHome 800 2300"
-  },
+},
 
 }
-  ]
+]
 },
 {
-  "LogName": "Turn about saloon entrance",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_PasserbyRoad",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+"LogName": "Turn about saloon entrance",
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_PasserbyRoad",
+"Update": "OnTimeChange, OnLocationChange",
+"When": {
+"HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
 },
-  "MapTiles": [
+"MapTiles": [
 {
-  "Position": {
+"Position": {
 "X": 23,
 "Y": 23
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
+},
+"Layer": "Buildings",
+"SetProperties": {
 "Action": "LockedDoorWarp 10 24 {{ModID}}_TurnaboutSaloon 900 2600"
-  },
+},
 }
-  ]
+]
 },
 {
-  "LogName": "Pops Temple Room entrance",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_Temple",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_PopsBigChange": true,
+"LogName": "Pops Temple Room entrance",
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_Temple",
+"Update": "OnTimeChange, OnLocationChange",
+"When": {
+"HasSeenEvent |contains={{ModID}}_PopsBigChange": true,
 },
-  "MapTiles": [
+"MapTiles": [
 {
-  "Position": {
+"Position": {
 "X": 6,
 "Y": 15
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
+},
+"Layer": "Buildings",
+"SetProperties": {
 "Action": "LockedDoorWarp 8 13 {{ModID}}_PoppersRoom 800 2300"
-  },
+},
 }
-  ]
+]
 },
 {
-  "LogName": "Shaavars eentrance",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_AncientGraveYard",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,},
-  "MapTiles": [
+"LogName": "Shaavars eentrance",
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_AncientGraveYard",
+"Update": "OnTimeChange, OnLocationChange",
+"When": {
+"HasSeenEvent |contains={{ModID}}_ShaavarIntroduction": true,},
+"MapTiles": [
 {
-  "Position": {
+"Position": {
 "X": 49,
 "Y": 32
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
+},
+"Layer": "Buildings",
+"SetProperties": {
 "Action": "LockedDoorWarp 12 18 {{ModID}}_GuardianHome 800 2300"
-  },
+},
 
 }
-  ]
+]
 },
-    {
+{
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_Exhibit",
 "FromFile": "Assets/Maps/Map Patches/ExhibitStairs.tbin",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_TheExhibit": true,},
+"Update": "OnTimeChange, OnLocationChange",
+"When": {
+"HasSeenEvent |contains={{ModID}}_TheExhibit": true,},
 "ToArea": { "X": 11, "Y": 1, "Width": 2, "Height": 4 },
 },
 {
-  "LogName": "Gift from dezerie",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_OldGraveYard",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_GiftFromDezerie": true,},
-  "MapTiles": [
+"LogName": "Gift from dezerie",
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_OldGraveYard",
+"Update": "OnTimeChange, OnLocationChange",
+"When": {
+"HasSeenEvent |contains={{ModID}}_GiftFromDezerie": true,},
+"MapTiles": [
 {
-  "Position": {
+"Position": {
 "X": 37,
 "Y": 60
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
+},
+"Layer": "Buildings",
+"SetProperties": {
 "Action": "LockedDoorWarp 12 19 {{ModID}}_BoatHouse 600 2600"
-  },
+},
 
 }
-  ]
+]
 },
 {
-  "LogName": "Exhibit open",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_OldGraveYard",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,},
-  "MapTiles": [
+"LogName": "Exhibit open",
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_OldGraveYard",
+"Update": "OnTimeChange, OnLocationChange",
+"When": {
+"HasSeenEvent |contains={{ModID}}_ThaliaIntroduction": true,},
+"MapTiles": [
 {
-  "Position": {
+"Position": {
 "X": 7,
 "Y": 69
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
+},
+"Layer": "Buildings",
+"SetProperties": {
 "Action": "LockedDoorWarp 5 13 {{ModID}}_Exhibit 1200 2200"
-  },
+},
 
 }
-  ]
+]
 },
  {
-  "LogName": "LyellDoorOpen",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_LyellsProperty",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
+"LogName": "LyellDoorOpen",
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_LyellsProperty",
+"Update": "OnTimeChange, OnLocationChange",
+"When": {
  "HasFlag |contains=landslideDone": true,
  },
-  "MapTiles": [
+"MapTiles": [
 {
-  "Position": {
+"Position": {
 "X": 34,
 "Y": 36
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
+},
+"Layer": "Buildings",
+"SetProperties": {
 "Action": "LockedDoorWarp 7 20 {{ModID}}_LyellsHouse 700 2200"
-  },
+},
 
 }
-  ]
+]
 },
-  {
+{
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_OldGraveYard",
 "FromFile": "Assets/Maps/Map Patches/MavericksShedLocked.tbin",
 "Update": "OnTimeChange",
 "ToArea": { "X": 10, "Y": 43, "Width": 1, "Height": 1 },
 "When": {
-  "HasSeenEvent |contains={{ModID}}_HouseParty": true, 
+"HasSeenEvent |contains={{ModID}}_HouseParty": true, 
 "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true,
 }
 },
 {
-  "LogName": "unlock Johns room",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_OldGraveYard",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_JohnIntroduction": true, 
+"LogName": "unlock Johns room",
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_OldGraveYard",
+"Update": "OnTimeChange, OnLocationChange",
+"When": {
+"HasSeenEvent |contains={{ModID}}_JohnIntroduction": true, 
 "HasSeenEvent |contains={{ModID}}_HouseParty": false,
 },
-  "MapTiles": [
+"MapTiles": [
 {
-  "Position": {
+"Position": {
 "X": 10,
 "Y": 43
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
+},
+"Layer": "Buildings",
+"SetProperties": {
 "Action": "LockedDoorWarp 5 9 {{ModID}}_JohnsTempRoom 1000 1900"
-  },
+},
 
 }
-  ]
+]
 },
 {
-  "LogName": "unlock Wades Office",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_Temple",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_WadesOffice": true, 
+"LogName": "unlock Tillys Office",
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_Temple",
+"Update": "OnTimeChange, OnLocationChange",
+"When": {
+"HasSeenEvent |contains={{ModID}}_WadesOffice": true, 
 "HasSeenEvent |contains={{ModID}}_HouseParty": true,
 },
-  "MapTiles": [
+"MapTiles": [
 {
-  "Position": {
+"Position": {
 "X": 18,
 "Y": 18
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
+},
+"Layer": "Buildings",
+"SetProperties": {
 "TouchAction": "Warp {{ModID}}_WadesOffice 5 9"
-  },
+},
 
 }
-  ]
+]
 },
 {
-  "LogName": "unlock Wades Office",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_Temple",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_WadesOffice": true, 
+"LogName": "unlock Tillys Office",
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_Temple",
+"Update": "OnTimeChange, OnLocationChange",
+"When": {
+"HasSeenEvent |contains={{ModID}}_WadesOffice": true, 
 "HasSeenEvent |contains={{ModID}}_HouseParty": true,
 },
-  "MapTiles": [
+"MapTiles": [
 {
-  "Position": {
+"Position": {
 "X": 18,
 "Y": 19
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
+},
+"Layer": "Buildings",
+"SetProperties": {
 "TouchAction": "Warp {{ModID}}_WadesOffice 5 10"
-  },
+},
 
 }
-  ]
+]
 },
-  {
+{
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_TravelingTrailer",
 "FromFile": "Assets/Maps/Map Patches/WadesOfficeEntrance.tbin",
 "Update": "OnTimeChange",
 "ToArea": { "X": 17, "Y": 14, "Width": 3, "Height": 7 },
 "When": {
-  "HasSeenEvent |contains={{ModID}}_WadesOffice": true, 
+"HasSeenEvent |contains={{ModID}}_WadesOffice": true, 
 "HasSeenEvent |contains={{ModID}}_HouseParty": true,
 }
 },
 {
-  "LogName": "unlock traveling trailer 1",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_TravelingTrailer",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,},
-  "MapTiles": [
+"LogName": "unlock traveling trailer 1",
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_TravelingTrailer",
+"Update": "OnTimeChange, OnLocationChange",
+"When": {
+"HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,},
+"MapTiles": [
 {
-  "Position": {
+"Position": {
 "X": 19,
 "Y": 15
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
-"Action": "LockedDoorWarp 14 16 {{ModID}}_TravelingTrailerDecker 600 2300"
-  },
-
-}
-  ]
 },
-  {
-  "LogName": "unlock traveling trailer 1",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_TravelingTrailer",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,},
-  "MapTiles": [
-{
-  "Position": {
-"X": 20,
-"Y": 15
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
+"Layer": "Buildings",
+"SetProperties": {
 "Action": "LockedDoorWarp 14 16 {{ModID}}_TravelingTrailerDecker 600 2300"
-  },
+},
+
 }
 ]
 },
-  {
-  "LogName": "unlock traveling trailer 1",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_PasserbyRoad",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,},
-  "MapTiles": [
 {
-  "Position": {
+"LogName": "unlock traveling trailer 1",
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_TravelingTrailer",
+"Update": "OnTimeChange, OnLocationChange",
+"When": {
+"HasSeenEvent |contains={{ModID}}_PhoebesIntroduction": true,},
+"MapTiles": [
+{
+"Position": {
+"X": 20,
+"Y": 15
+},
+"Layer": "Buildings",
+"SetProperties": {
+"Action": "LockedDoorWarp 14 16 {{ModID}}_TravelingTrailerDecker 600 2300"
+},
+}
+]
+},
+{
+"LogName": "unlock traveling trailer 1",
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_PasserbyRoad",
+"Update": "OnTimeChange, OnLocationChange",
+"When": {
+"HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,},
+"MapTiles": [
+{
+"Position": {
 "X": 12,
 "Y": 29
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
+},
+"Layer": "Buildings",
+"SetProperties": {
 "Action": "LockedDoorWarp 7 18 {{ModID}}_TravelingTrailer 610 2030"
-  },
+},
 
 }
-  ]
+]
 },
-  {
-  "LogName": "unlock traveling trailer 2",
-  "Action": "EditMap",
-  "Target": "Maps/{{ModID}}_PasserbyRoad",
-  "Update": "OnTimeChange, OnLocationChange",
-  "When": {
-  "HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,},
-  "MapTiles": [
 {
-  "Position": {
+"LogName": "unlock traveling trailer 2",
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_PasserbyRoad",
+"Update": "OnTimeChange, OnLocationChange",
+"When": {
+"HasSeenEvent |contains={{ModID}}_BarronIntroduction": true,},
+"MapTiles": [
+{
+"Position": {
 "X": 13,
 "Y": 29
-  },
-  "Layer": "Buildings",
-  "SetProperties": {
+},
+"Layer": "Buildings",
+"SetProperties": {
 "Action": "LockedDoorWarp 7 18 {{ModID}}_TravelingTrailer 610 2030"
-  },
+},
 
 }
-  ]
+]
 },
-  ///Map edits
-  //This patch would allow you to add a custom tilesheet to your paito and spouse room
+///Map edits
+{
+"Action": "EditMap",
+"Target": "Maps/Fellowclown.PC_TropicalAnimalHouseMapSmall,Maps/Fellowclown.PC_TropicalAnimalHouseMapMedium,Maps/Fellowclown.PC_TropicalAnimalHouseMapLarge",
+"FromFile": "Assets/Maps/Map Patches/AnimalShop.tbin",
+ "Update": "OnLocationChange",
+ "PatchMode":"overlay",
+"ToArea": { "X": 6, "Y": 8, "Width": 2, "Height": 3 },
+ "When": {
+"HasFlag |contains={{ModID}}_GainedLicense.Mail": true,
+}
+},
+{
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_AncientGraveYard",
+"FromFile": "Assets/Maps/Map Patches/CaveUnblockMale.tbin",
+ "Update": "OnLocationChange",
+"ToArea": { "X": 41, "Y": 25, "Width": 2, "Height": 4
+ },
+ "When": {
+ "HasSeenEvent |contains={{ModID}}_CaveBlockUnlock2": "true",
+}
+},
+//This patch would allow you to add a custom tilesheet to your paito and spouse room
 {
 "Action": "EditMap",
 "Target": "Maps/FarmHouse,Maps/FarmHouse2, Maps/FarmHouse2_marriage, Maps/FarmHouse1_marriage",
 "FromFile": "Assets/Maps/Map Patches/farmhouse-tilesheets.tbin",
 "FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 1 },
 "ToArea": { "X": 0, "Y": 0, "Width": 1, "Height": 1 },
-   "PatchMode": "Overlay"
+ "PatchMode": "Overlay"
 },
-  {
+{
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_PasserbyRoad",
 "FromFile": "Assets/Maps/Map Patches/TillysCar.tbin",
@@ -475,11 +507,11 @@
 "Update": "OnTimeChange",
 "ToArea": { "X": 20, "Y":10, "Width": 1, "Height": 2 },
 "When": {
-  "HasFlag |contains={{ModID}}_BubbasBirth.Mail": true,
+"HasFlag |contains={{ModID}}_BubbasBirth.Mail": true,
 
 }
 },
-  {
+{
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_TravelingTrailer",
 "FromFile": "Assets/Maps/Map Patches/AmandasRoom.tbin",
@@ -506,7 +538,7 @@
 "ToArea": { "X":17, "Y": 44, "Width": 2, "Height":1},
 "Update": "OnTimeChange",
 "When": {
-  "HasSeenEvent |contains={{ModID}}_TheBooksKey": "true",
+"HasSeenEvent |contains={{ModID}}_TheBooksKey": "true",
 }
 },
 
@@ -545,7 +577,7 @@
 "HasMod": "FlashShifter.StardewValleyExpandedCP",
 },
 },
-  {
+{
  "LogName": "gemedit",
  "Action": "EditMap",
  "Target": "Maps/{{ModID}}_OldGraveYard",
@@ -556,7 +588,7 @@
 "HasSeenEvent |contains={{ModID}}_BoxysHouse": true,
 }
 },
-  {
+{
  "LogName": "CoffinOpen",
  "Action": "EditMap",
  "Target": "Maps/{{ModID}}_OldGraveYard",
@@ -564,11 +596,11 @@
 "Update": "OnLocationChange",
  "ToArea": { "X": 2, "Y": 70, "Width":4, "Height": 4 },
  "When": {
-  "HasSeenEvent |contains={{ModID}}_TheCreature": true,
+"HasSeenEvent |contains={{ModID}}_TheCreature": true,
 }
 },
-  
-          {
+
+{
  "LogName": "gemedit",
  "Action": "EditMap",
  "Target": "Maps/{{ModID}}_OldGraveYard",
@@ -577,13 +609,13 @@
 "Update": "OnTimeChange, OnLocationChange",
  "ToArea": { "X": 30, "Y": 80, "Width":1, "Height": 2 },
  "When": {
-            "HasSeenEvent |contains={{ModID}}_TheStatue": true,
-              "HasSeenEvent |contains={{ModID}}_ForestTrouble": false,
-            "Time": "{{Range: 2000, 2300}}",
+"HasSeenEvent |contains={{ModID}}_TheStatue": true,
+"HasSeenEvent |contains={{ModID}}_ForestTrouble": false,
+"Time": "{{Range: 2000, 2300}}",
 "Weather": "Rain,Storm,GreenRain,Snow,Kana.WeatherWonders_Drizzle,Kana.WeatherWonders_AcidRain,Kana.WeatherWonders_Blizzard,Kana.WeatherWonders_MuddyRain,Kana.WeatherWonders_RainSnowMix,Kana.WeatherWonders_Deluge",
 }
-        },
-                  {
+},
+{
  "LogName": "gemedit",
  "Action": "EditMap",
  "Target": "Maps/{{ModID}}_PasserbyRoad",
@@ -591,11 +623,10 @@
 "Update": "OnTimeChange, OnLocationChange",
  "ToArea": { "X": 7, "Y": 35, "Width":7, "Height":7},
  "When": {
-            "HasFlag |contains={{ModID}}_GotGem.Mail": true,
-            "HasSeenEvent |contains={{ModID}}_ForestTrouble": true,
+"HasFlag |contains={{ModID}}_GotGem.Mail": true,
+"HasSeenEvent |contains={{ModID}}_ForestTrouble": true,
 }
-        },
-///Graveyard Map Edits
+},
 {
  "LogName": "OldGraveYardStatueMoved",
  "Action": "EditMap",
@@ -604,7 +635,7 @@
 "Update": "OnTimeChange, OnLocationChange",
  "ToArea": { "X": 26, "Y": 31, "Width": 4, "Height": 5 },
  "When": {
-  "HasSeenEvent |contains={{ModID}}_CaveBlockUnlock": true,
+"HasSeenEvent |contains={{ModID}}_CaveBlockUnlock": true,
 }
 },
 //Vanilla Map Edits 
@@ -628,7 +659,7 @@
  "Value": "64 0 {{ModID}}_OldGraveYard 37 84 64 0 {{ModID}}_OldGraveYard 37 84",
  "Delimiter": " "
 }
-]  
+]
 },
 {
 "LogName": "Core Map Entrance-VanillaOnly-True",
@@ -636,34 +667,34 @@
  "Target": "Maps/Mountain",
  "FromFile": "Assets/Maps/Map Patches/MountainSDVBlocked.tbin",
  "ToArea": { "X": 60, "Y": 0, "Width": 9, "Height": 10 }, 
-  "When": {
+"When": {
 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
 "HasFlag |contains=landslideDone": false,
 }
-  },
+},
 {
 "LogName": "Core Map Entrance-VanillaOnly-True",
  "Action": "EditMap",
  "Target": "Maps/Mountain",
  "FromFile": "Assets/Maps/Map Patches/MountainSVEBlocked.tbin",
  "ToArea": { "X": 62, "Y": 0, "Width": 6, "Height": 12 },
-  "When": {
+"When": {
 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
 "HasFlag |contains=landslideDone": false,
 }
-  },
-  {
+},
+{
 "LogName": "Core Map Entrance-VanillaOnly-True",
  "Action": "EditMap",
  "Target": "Maps/Mountain",
 "Update": "OnTimeChange, OnLocationChange",
  "FromFile": "Assets/Maps/Map Patches/MountainSDV.tbin",
  "ToArea": { "X": 60, "Y": 0, "Width": 9, "Height": 10 }, 
-  "When": {
+"When": {
 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
 "HasFlag |contains=landslideDone": true,
 }
-  },
+},
 {
 "LogName": "Core Map Entrance-VanillaOnly-True",
  "Action": "EditMap",
@@ -671,127 +702,156 @@
 "Update": "OnTimeChange, OnLocationChange",
  "FromFile": "Assets/Maps/Map Patches/MountainSVE.tbin",
  "ToArea": { "X": 62, "Y": 0, "Width": 6, "Height": 12 },
-  "When": {
+"When": {
 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
 "HasFlag |contains=landslideDone": true,
 }
-  },
+},
 
 ////FESTIVAL EDITS
 {
-    "Action": "EditMap",
-    "Target": "Maps/Forest-FlowerFestival,Maps/Forest-FlowerFestival2",
-    "FromFile": "Assets/Maps/Map Patches/FlowerFestivalEditWOLFROMRAS.tbin",
-    "ToArea": { "X":0, "Y": 9, "Width": 27, "Height":12},
-    "When": {
-        "HasMod |contains=Wolf.RomRas": true
-            }
-        },
-         {
-    "Action": "EditMap",
-    "Target": "Maps/Forest-FlowerFestival,Maps/Forest-FlowerFestival2",
-    "FromFile": "Assets/Maps/Map Patches/RSVFlowerFestivalEditWOLFROMRAS.tbin",
-    "ToArea": { "X":0, "Y": 9, "Width": 27, "Height":12},
-    "When": {
-        "HasMod |contains=Wolf.RomRas": true,
-        "HasMod |contains=Rafseazz.RSVCP": true
-            }
-        },
-    {
-    "Action": "EditMap",
-    "Target": "Maps/Forest-FlowerFestival,Maps/Forest-FlowerFestival2",
-    "FromFile": "Assets/Maps/Map Patches/FlowerFestivalEdit.tbin",
-    "ToArea": { "X":0, "Y": 9, "Width": 27, "Height":12},
-    "When": {
-        "HasMod |contains=Rafseazz.RSVCP": false,
-        "HasMod |contains=Wolf.RomRas": false
-            }
-        },
-         {
-    "Action": "EditMap",
-    "Target": "Maps/Forest-FlowerFestival,Maps/Forest-FlowerFestival2",
-    "FromFile": "Assets/Maps/Map Patches/RSVFlowerFestivalEdit.tbin",
-    "ToArea": { "X":0, "Y": 9, "Width": 27, "Height":12
-    },
-         "When": {
-        "HasMod |contains=Rafseazz.RSVCP": true
-            }
-        },
-                             {
-    "Action": "EditMap",
-    "Target": "Maps/Beach-NightMarket",
-    "FromFile": "Assets/Maps/Map Patches/NightMarketEdit.tbin",
-    "ToArea": { "X":0, "Y": 17, "Width": 12, "Height":7},
-        },
-                         {
-    "Action": "EditMap",
-    "Target": "Maps/Town-Christmas",
-    "FromFile": "Assets/Maps/Map Patches/ChristmasEdit.tbin",
-    "ToArea": { "X":53, "Y": 83, "Width": 3, "Height":3},
-        },
-               {
-    "Action": "EditMap",
-    "Target": "Maps/Beach-Luau,Maps/Beach-Luau2",
-    "FromFile": "Assets/Maps/Map Patches/BeachEditNonEvent.tbin",
-    "ToArea": { "X":14, "Y": 25, "Width": 10, "Height":11},
-        },
-                    {
-    "Action": "EditMap",
-    "Target": "Maps/Beach-Jellies,Maps/Beach-Jellies2",
-    "FromFile": "Assets/Maps/Map Patches/BeachEditNonEvent.tbin",
-    "ToArea": { "X":14, "Y": 25, "Width": 10, "Height":11},
-        },
-                        {
-    "Action": "EditMap",
-    "Target": "Maps/Beach",
-    "FromFile": "Assets/Maps/Map Patches/BeachEditEvent.tbin",
-    "ToArea": { "X":14, "Y": 25, "Width": 10, "Height":11},
-         "When": {
-        "DayEvent |contains=dance of the moonlight jellies": true,
-            }
-        },
-                            {
-    "Action": "EditMap",
-    "Target": "Maps/Forest-IceFestival,Maps/Forest-IceFestival2",
-    "FromFile": "Assets/Maps/Map Patches/IceFestivalEdit.tbin",
-    "ToArea": { "X":93, "Y": 12, "Width": 18, "Height":11},
-         "When": {
-        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
-            }
-        },
-                                    {
-    "Action": "EditMap",
-    "Target": "Maps/Forest-IceFestival,Maps/Forest-IceFestival2",
-    "FromFile": "Assets/Maps/Map Patches/IceFestivalEditSVE.tbin",
-    "ToArea": { "X":93, "Y": 11, "Width": 18, "Height":12},
-         "When": {
-        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
-            }
-        },
-
-                                            {
-    "Action": "EditMap",
-    "Target": "Maps/Town-Fair,Maps/Town-Fair2",
-    "FromFile": "Assets/Maps/Map Patches/FairFestivalEdit.tbin",
-    "ToArea": { "X":57, "Y": 94, "Width": 17, "Height":12
-    },
-        },
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_TurnaboutSaloon",
+ "When": {
+ "Day": "3"
+ },
+ "MapTiles": [
 {
-    "Action": "EditMap",
-    "Target": "Maps/Town-Halloween,Maps/Town-Halloween2",
-    "FromFile": "Assets/Maps/Map Patches/HalloweenEdit.tbin",
-    "ToArea": { "X":21, "Y": 73, "Width": 18, "Height":12},
-     "When": {
-        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+"Position": { "X": 6, "Y": 21 },
+"Layer": "Buildings",
+"Remove": true,
+},
+],
+},
+{
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_TurnaboutSaloon",
+ "When": {
+ "Day": "3"
+ },
+ "MapTiles": [
+{
+"Position": { "X": 6, "Y": 20 },
+"Layer": "Front",
+"Remove": true,
+},
+],
+},
+///////
+{
+"Action": "EditMap",
+"Target": "Maps/Forest-FlowerFestival,Maps/Forest-FlowerFestival2",
+"FromFile": "Assets/Maps/Map Patches/FlowerFestivalEditWOLFROMRAS.tbin",
+"ToArea": { "X":0, "Y": 9, "Width": 27, "Height":12},
+"When": {
+"HasMod |contains=Wolf.RomRas": true
+}
+},
+ {
+"Action": "EditMap",
+"Target": "Maps/Forest-FlowerFestival,Maps/Forest-FlowerFestival2",
+"FromFile": "Assets/Maps/Map Patches/RSVFlowerFestivalEditWOLFROMRAS.tbin",
+"ToArea": { "X":0, "Y": 9, "Width": 27, "Height":12},
+"When": {
+"HasMod |contains=Wolf.RomRas": true,
+"HasMod |contains=Rafseazz.RSVCP": true
 }
 },
 {
-    "Action": "EditMap",
-    "Target": "Maps/Town-Halloween,Maps/Town-Halloween2",
-    "FromFile": "Assets/Maps/Map Patches/HalloweenEdit-SVE.tbin",
-    "ToArea": { "X":21, "Y": 72, "Width": 18, "Height":14},
-     "When": {
-        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+"Action": "EditMap",
+"Target": "Maps/Forest-FlowerFestival,Maps/Forest-FlowerFestival2",
+"FromFile": "Assets/Maps/Map Patches/FlowerFestivalEdit.tbin",
+"ToArea": { "X":0, "Y": 9, "Width": 27, "Height":12},
+"When": {
+"HasMod |contains=Rafseazz.RSVCP": false,
+"HasMod |contains=Wolf.RomRas": false
+}
+},
+ {
+"Action": "EditMap",
+"Target": "Maps/Forest-FlowerFestival,Maps/Forest-FlowerFestival2",
+"FromFile": "Assets/Maps/Map Patches/RSVFlowerFestivalEdit.tbin",
+"ToArea": { "X":0, "Y": 9, "Width": 27, "Height":12
+},
+ "When": {
+"HasMod |contains=Rafseazz.RSVCP": true
+}
+},
+ {
+"Action": "EditMap",
+"Target": "Maps/Beach-NightMarket",
+"FromFile": "Assets/Maps/Map Patches/NightMarketEdit.tbin",
+"ToArea": { "X":0, "Y": 17, "Width": 12, "Height":7},
+},
+ {
+"Action": "EditMap",
+"Target": "Maps/Town-Christmas",
+"FromFile": "Assets/Maps/Map Patches/ChristmasEdit.tbin",
+"ToArea": { "X":53, "Y": 83, "Width": 3, "Height":3},
+},
+ {
+"Action": "EditMap",
+"Target": "Maps/Beach-Luau,Maps/Beach-Luau2",
+"FromFile": "Assets/Maps/Map Patches/BeachEditNonEvent.tbin",
+"ToArea": { "X":14, "Y": 25, "Width": 10, "Height":11},
+},
+{
+"Action": "EditMap",
+"Target": "Maps/Beach-Jellies,Maps/Beach-Jellies2",
+"FromFile": "Assets/Maps/Map Patches/BeachEditNonEvent.tbin",
+"ToArea": { "X":14, "Y": 25, "Width": 10, "Height":11},
+},
+{
+"Action": "EditMap",
+"Target": "Maps/Beach",
+"FromFile": "Assets/Maps/Map Patches/BeachEditEvent.tbin",
+"ToArea": { "X":14, "Y": 25, "Width": 10, "Height":11},
+ "When": {
+"DayEvent |contains=dance of the moonlight jellies": true,
+}
+},
+{
+"Action": "EditMap",
+"Target": "Maps/Forest-IceFestival,Maps/Forest-IceFestival2",
+"FromFile": "Assets/Maps/Map Patches/IceFestivalEdit.tbin",
+"ToArea": { "X":93, "Y": 12, "Width": 18, "Height":11},
+ "When": {
+"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+}
+},
+{
+"Action": "EditMap",
+"Target": "Maps/Forest-IceFestival,Maps/Forest-IceFestival2",
+"FromFile": "Assets/Maps/Map Patches/IceFestivalEditSVE.tbin",
+"ToArea": { "X":93, "Y": 11, "Width": 18, "Height":12},
+ "When": {
+"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+}
+},
+
+{
+"Action": "EditMap",
+"Target": "Maps/Town-Fair,Maps/Town-Fair2",
+"FromFile": "Assets/Maps/Map Patches/FairFestivalEdit.tbin",
+"ToArea": { "X":57, "Y": 94, "Width": 17, "Height":12
+},
+},
+{
+"Action": "EditMap",
+"Target": "Maps/Town-Halloween,Maps/Town-Halloween2",
+"FromFile": "Assets/Maps/Map Patches/HalloweenEdit.tbin",
+"ToArea": { "X":21, "Y": 73, "Width": 18, "Height":12},
+ "When": {
+"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+}
+},
+{
+"Action": "EditMap",
+"Target": "Maps/Town-Halloween,Maps/Town-Halloween2",
+"FromFile": "Assets/Maps/Map Patches/HalloweenEdit-SVE.tbin",
+"ToArea": { "X":21, "Y": 72, "Width": 18, "Height":13},
+ "When": {
+"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
 }
 },
 ]

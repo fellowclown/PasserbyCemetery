@@ -107,7 +107,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Alan 36 24 2",
+                    "Value": "FC.Alan 39 31 2",
                     "Delimiter": "/"
                 },
                      {
@@ -116,7 +116,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Alan 36 24 2",
+                    "Value": "FC.Alan 32 31 3",
                     "Delimiter": "/"
                 },
         ]

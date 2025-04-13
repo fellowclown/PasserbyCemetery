@@ -156,7 +156,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Popper 14 38 2",
+                    "Value": "FC.Popper 21 42 2",
                     "Delimiter": "/"
                 },
                                  {
@@ -165,7 +165,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Popper 33 10 3",
+                    "Value": "FC.Popper 30 23 2",
                     "Delimiter": "/",
         },
         ]

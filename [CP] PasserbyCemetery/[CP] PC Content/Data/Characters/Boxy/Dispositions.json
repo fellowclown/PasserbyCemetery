@@ -252,7 +252,6 @@ Dispositions
 "BreathChestRect":null,
 "BreathChestPosition":null,
 "Shadow":{ "Visible": true },
-"EmoteOffset": { "X": 0, "Y": 45 },
 "ShakePortraits":[],
 "KissSpriteIndex":"28",
 "KissSpriteFacingDirection":null,

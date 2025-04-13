@@ -127,7 +127,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Grady 24 24 1",
+                    "Value": "FC.Grady 24 29 1",
                     "Delimiter": "/"
                 },
                      {
@@ -136,7 +136,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Grady 24 24 1",
+                    "Value": "FC.Grady 22 31 1",
                     "Delimiter": "/"
                 },
         ]

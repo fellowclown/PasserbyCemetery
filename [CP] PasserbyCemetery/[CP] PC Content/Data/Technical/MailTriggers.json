@@ -12,9 +12,9 @@
 "{{ModID}}_FrostedCake.Mail": "{{i18n:FC.FrostedCake.Mail}}%item cookingRecipe {{ModID}}_FrostedCake %%[#]{{i18n:FC.FrostedCake.Mail.Title}}",
 "{{ModID}}_HotCereal.Mail": "{{i18n:FC.HotCereal.Mail}}%item cookingRecipe {{ModID}}_HotCereal %%[#]{{i18n:FC.HotCereal.Mail.Title}}",
 "{{ModID}}_CheesyWhiteRisotto.Mail": "{{i18n:FC.CheesyWhiteRisotto.Mail}}%item cookingRecipe {{ModID}}_CheesyWhiteRisotto %%[#]{{i18n:FC.CheesyWhiteRisotto.Mail.Title}}",
-"{{ModID}}_BarronsBook.Mail": "{{i18n:FC.Mail.BarronsBook}} %item quest {{ModID}}_BarronsBook true %%[#]{{i18n:FC.BarronsBook.Mail.Title}}",
-"{{ModID}}_TheCuff.Mail": "{{i18n:FC.Mail.TheCuff}} %item quest {{ModID}}_TheCuff true %%[#]{{i18n:FC.CheesyWhiteRisotto.Mail.Title}}",
-"{{ModID}}_PhoebesPackage.Mail": "{{i18n:FC.Mail.PhoebesPackage}} %item quest {{ModID}}_PhoebesPackage true %%[#]{{i18n:FC.PhoebesPackage.Mail.Title}}",
+"{{ModID}}_BarronsBook.Mail": "{{i18n:FC.Mail.BarronsBook}} %item quest {{ModID}}_BarronsBook.Quest true %%[#]{{i18n:FC.BarronsBook.Mail.Title}}",
+"{{ModID}}_TheCuff.Mail": "{{i18n:FC.Mail.TheCuff}} %item quest {{ModID}}_TheCuff.Quest true %%[#]{{i18n:FC.CheesyWhiteRisotto.Mail.Title}}",
+"{{ModID}}_PhoebesPackage.Mail": "{{i18n:FC.Mail.PhoebesPackage}} %item quest {{ModID}}_PhoebesPackage.Quest true %%[#]{{i18n:FC.PhoebesPackage.Mail.Title}}",
 "{{ModID}}_TastyPasty.Mail": "{{i18n:FC.Mail.TastyPastry}}%item cookingRecipe {{ModID}}_TastyPastry %%[#]{{i18n:FC.TastyPastry.Mail.Title}}",
 "{{ModID}}_GemBirdPatties.Mail": "{{i18n:FC.Mail.GemBirdPatties}} %item cookingRecipe {{ModID}}_GemBirdPatties %%[#]{{i18n:FC.PhoebesGemBirdPatties.Mail.Title}}",
 "{{ModID}}_VoidJuice.Mail": "{{i18n:FC.Mail.VoidJuice}}%item cookingRecipe {{ModID}}_VoidJuice %%[#]{{i18n:FC.BarronsVoidJuice.Mail.Title}}",
@@ -33,7 +33,6 @@
 "{{ModID}}_SootheingCure.Mail": "{{i18n:FC.SootheingCure.Mail}} %item cookingRecipe {{ModID}}_SootheingCure %%[#]{{i18n:FC.SootheingCure.Mail.Title}}",
 "{{ModID}}_Graveyard.Mail": "{{i18n:FC.Graveyard.Mail}}[#]{{i18n:FC.Graveyard.Mail.Title}}",
 "{{ModID}}_RaphusEgg.Mail": "{{i18n:FC.RaphusEgg.Mail}}[#]{{i18n:FC.RaphusEgg.Mail.Title}}",
-"{{ModID}}_Marketpalooza.Mail": "{{i18n:FC.Marketpalooza.Mail}}[#]{{i18n:FC.Marketpalooza.Mail.Title}}",
 "{{ModID}}_ChocoFruit.Mail": "{{i18n:FC.ChocoFruit.Mail}} %item quest {{ModID}}_ChocoFruit.Quest true %%[#]{{i18n:FC.ChocoFruit.Mail.Title}}",
 "{{ModID}}_YohoFruit.Mail": "{{i18n:FC.YohoFruit.Mail}} %item quest {{ModID}}_YohoFruit.Quest true %%[#]{{i18n:FC.YohoFruit.Mail.Title}}",
 "{{ModID}}_ButtonFruit.Mail": "{{i18n:FC.ButtonFruit.Mail}} %item quest {{ModID}}_ButtonFruit.Quest true %%[#]{{i18n:FC.ButtonFruit.Mail.Title}}",
@@ -70,40 +69,109 @@
 "{{ModID}}_GiggleBowlSalad.Mail": "{{i18n:FC.GiggleBowlSalad.Mail}} %item cookingRecipe {{ModID}}_GiggleBowlSalad %%[#]{{i18n:FC.GiggleBowlSalad.Mail.Title}}",
 "{{ModID}}_PopsBigChange.Mail": "{{i18n:FC.PopsBigChange.Mail}}[#]{{i18n:FC.PopsBigChange.Mail.Title}}",
 "{{ModID}}_PassedOutCottons.Mail": "{{i18n:FC.PassedOutCottons.Mail}}[#]{{i18n:FC.PassedOutCottons.Mail.Title}}",
-"{{ModID}}_FireWorkShow.Mail": "{{i18n:FC.FireWorkShow.Mail}}[#]{{i18n:FC.FireWorkShow.Mail.Title}}",
 "{{ModID}}_Carrot.Mail": "{{i18n:FC.Carrot.Mail}} %item quest {{ModID}}_Carrots.Quest true %%[#]{{i18n:FC.Carrot.Title}}",
 "{{ModID}}_AppleSauce.Mail": "{{i18n:FC.AppleSauce.Mail}}[#]{{i18n:FC.AppleSauce.Mail.Title}}",
 "{{ModID}}_ExhibitBundlesFinished.Mail": "{{i18n:FC.ExhibitBundlesFinished.Mail}} %item object {{ModID}}_MamaHog 1 %%[#]{{i18n:FC.ExhibitBundlesFinished.Mail.Title}}",
-
+"{{ModID}}_PassedOutAncientCaveSystem.Mail": "{{i18n:FC.PassedOutAncientCaveSystem.Mail}}[#]{{i18n:FC.PassedOutAncientCaveSystem.Mail.Title}}",
 "{{ModID}}_ExhibitBundle1Finished.Mail": "{{i18n:FC.ExhibitBundle.Mail}} %item object {{ModID}}_StrawScareCrow 1 %%[#]{{i18n:FC.ExhibitBundle1Finished.Mail.Title}}",
 "{{ModID}}_ExhibitBundle2Finished.Mail": "{{i18n:FC.ExhibitBundle.Mail}} %item object {{ModID}}_ArcaHat 1 %%[#]{{i18n:FC.ExhibitBundle2Finished.Mail.Title}}",
 "{{ModID}}_ExhibitBundle3Finished.Mail": "{{i18n:FC.ExhibitBundle.Mail}} %item object {{ModID}}_Sword2 1 %%[#]{{i18n:FC.ExhibitBundle3Finished.Mail.Title}}",
 "{{ModID}}_ExhibitBundle4Finished.Mail": "{{i18n:FC.ExhibitBundle.Mail}} %item object {{ModID}}_BullsFuryRing 1 %%[#]{{i18n:FC.ExhibitBundle4Finished.Mail.Title}}",
 "{{ModID}}_ExhibitBundle5Finished.Mail": "{{i18n:FC.ExhibitBundle.Mail}} %item object {{ModID}}_TraditionalLantern 1 %%[#]{{i18n:FC.ExhibitBundle5Finished.Mail.Title}}",
 "{{ModID}}_ExhibitBundle6Finished.Mail": "{{i18n:FC.ExhibitBundle.Mail}} %item object {{ModID}}_StatueGem 1 %%[#]{{i18n:FC.ExhibitBundle6Finished.Mail.Title}}",
+"{{ModID}}_GainedLicense.Mail": "{{i18n:FC.GainedLicense.Mail}}[#]{{i18n:FC.GainedLicense.Mail.Title}}",
+"{{ModID}}_CoinQuest.Mail": "{{i18n:FC.CoinQuest.Mail}} %item quest {{ModID}}_CoinQuest.Quest true %%[#]{{i18n:FC.CoinQues.Mail.Title}}",
+"{{ModID}}_Marketpalooza.Mail": "{{i18n:FC.Marketpalooza.Mail}}[#]{{i18n:FC.Marketpalooza.Mail.Title}}",
 
 }
 },
-      //Removes daily repeatables
-          {
-            "LogName": "Bulk Daily Flag Remover", 
-            "Action": "EditData",
-            "Target": "Data/TriggerActions",
-            "Entries": {
-      
-                "{{ModID}}_TriggerRepeatables": {
-                    "Id": "{{ModID}}_TriggerRepeatables",
-                    "MarkActionApplied": false,
-                    "Trigger": "DayStarted",
-                    "Actions": [
-                        "RemoveMail Current {{ModID}}_TellerReact",
-                        "RemoveMail Current {{ModID}}_QuestCompleted",
-                    ]
-                }
-            }
-        },
+{
+"LogName": "GainedLicense",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_GainedLicense.Trigger":{
+"Id": "{{ModID}}_GainedLicense.Trigger",
+"MarkActionApplied": true,
+"Trigger": "LocationChanged",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Lyell 750",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_GainedLicense.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "Bulk Daily Flag Remover", 
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_TriggerRepeatables": {
+"Id": "{{ModID}}_TriggerRepeatables",
+"MarkActionApplied": false,
+"Trigger": "DayEnding",
+"Actions": [
+"RemoveMail Current {{ModID}}_Marketpalooza.Mail",
+
+]
+}
+}
+},
+{
+"LogName": "Marketpalooza",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_MarketpaloozaReminder.Trigger":{
+"Id": "{{ModID}}_MarketpaloozaReminder.Trigger",
+"MarkActionApplied": false,
+"Trigger": "DayEnding",
+"Condition": "SEASON_DAY Summer 28",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_Marketpalooza.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+//Removes daily repeatables
+{
+"LogName": "Bulk Daily Flag Remover", 
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+
+"{{ModID}}_TriggerRepeatables": {
+"Id": "{{ModID}}_TriggerRepeatables",
+"MarkActionApplied": false,
+"Trigger": "DayStarted",
+"Actions": [
+"RemoveMail Current {{ModID}}_TellerReact",
+"RemoveMail Current {{ModID}}_QuestCompleted",
+]
+}
+}
+},
 ////Add Schedule Trigger
-        {
+{
+"LogName": "SunshineJinglesIntro Mail",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_SunshineJinglesIntro.Trigger":{
+"Id": "{{ModID}}_SunshineJinglesIntro.Trigger",
+"MarkActionApplied": true,
+"Trigger": "LocationChanged",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_ForestTrouble",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_SunshineJinglesIntro.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
 "LogName": "ShaavarIntroduction Mail",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
@@ -120,7 +188,7 @@
 }
 }
 },
-        {
+{
 "LogName": "ZuuieIntro Mail",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
@@ -137,7 +205,7 @@
 }
 }
 },
-        {
+{
 "LogName": "DezerieIntro Mail",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
@@ -155,7 +223,7 @@
 }
 }
 },
-        {
+{
 "LogName": "GradyIntro Mail",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
@@ -173,7 +241,7 @@
 }
 }
 },
-        {
+{
 "LogName": "BarronIntro Mail",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
@@ -191,7 +259,7 @@
 }
 }
 },
-        {
+{
 "LogName": "BarronIntro Mail",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
@@ -209,7 +277,7 @@
 }
 }
 },
-        {
+{
 "LogName": "PhoebeIntro Mail",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
@@ -227,7 +295,7 @@
 }
 }
 },
-        {
+{
 "LogName": "AmandaIntro Mail",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
@@ -245,7 +313,7 @@
 }
 }
 },
-        {
+{
 "LogName": "ThaliaIntro Mail",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
@@ -264,54 +332,6 @@
 }
 },
 ///Event Trigger Actions
-{
-"LogName": "FireWorkShow",
-"Action": "EditData",
-"Target": "Data/TriggerActions",
-"Entries": {
-"{{ModID}}_FireWorkShow.Trigger":{
-"Id": "{{ModID}}_FireWorkShow.Trigger",
-"Trigger": "LocationChanged",
-"Condition": "SEASON Fall,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_ElizabethSetting,PLAYER_FRIENDSHIP_POINTS Current FC.Lyell 1250",
-"HostOnly": false,
-"Action": "AddMail Current {{ModID}}_FireWorkShow.Mail",
-"Actions": null,
-"CustomFields": {}
-}
-}
-},
-{
-"LogName": "FireWorks1",
-"Action": "EditData",
-"Target": "Data/TriggerActions",
-"Entries": {
-"{{ModID}}_FireWorks1.Trigger":{
-"Id": "{{ModID}}_FireWorks1.Trigger",
-"Trigger": "LocationChanged",
-"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_FireWorks1",
-"HostOnly": false,
-"Action": "SetNpcInvisible FC.Lyell 999",
-"Actions": null,
-"CustomFields": {}
-}
-}
-},
-{
-"LogName": "LyellReturns",
-"Action": "EditData",
-"Target": "Data/TriggerActions",
-"Entries": {
-"{{ModID}}_LyellReturns2.Trigger":{
-"Id": "{{ModID}}_LyellReturns2.Trigger",
-"Trigger": "DayStarted",
-"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_LyellReturns",
-"HostOnly": false,
-"Action": "SetNpcVisible FC.Lyell",
-"Actions": null,
-"CustomFields": {}
-}
-}
-},
 {
 "LogName": "PopsBigChange",
 "Action": "EditData",
@@ -358,8 +378,6 @@
 "Action": "AddMail Current {{ModID}}_ExhibitBundlesFinished.Mail",
 "Actions": null,
 "CustomFields": {},
- "When":{
-         },
  }
 }
 },
@@ -369,7 +387,7 @@
 "Action": "EditData",
 "Target": "Data/TriggerActions",
 "Entries": {
-"{{ModID}}_AppleSauce.Trigger":  {
+"{{ModID}}_AppleSauce.Trigger":{
 "Id": "{{ModID}}_AppleSauce.Trigger",
 "Trigger": "DayStarted",
 "Condition": "PLAYER_HAS_SEEN_EVENT current {{ModID}}_AppleSauce",
@@ -525,12 +543,29 @@
 }
 },
 {
+"LogName": "CoinQuest Mail",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_CoinQuest.Trigger":{
+"Id": "{{ModID}}_CoinQuest.Trigger",
+"MarkActionApplied": true,
+"Trigger": "LocationChanged",
+"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockTropaTree",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_CoinQuest.Mail",
+"Actions": null,
+"CustomFields": {}
+}
+}
+},
+{
 "LogName": "Carrot Quest",
 "Action": "EditData",
 "Target": "Data/TriggerActions",
 "Update": "OnTimeChange, OnLocationChange",
 "Entries": {
-"{{ModID}}_Carrot.Trigger":  {
+"{{ModID}}_Carrot.Trigger":{
 "Id": "{{ModID}}_Carrot.Trigger",
 "Trigger": "LocationChanged",
 "Condition": "PLAYER_FRIENDSHIP_POINTS current FC.Sunshine 250",
@@ -922,22 +957,6 @@
 "Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Nikolai 750,DAY_OF_WEEK Fri",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_RefugeInvite.Mail",
-"Actions": null,
-"CustomFields": {}
-}
-}
-},
-{
-"LogName": "Marketpalooza",
-"Action": "EditData",
-"Target": "Data/TriggerActions",
-"Entries": {
-"{{ModID}}_MarketpaloozaStart.Trigger":{
-"Id": "{{ModID}}_MarketpaloozaStart.Trigger",
-"Trigger": "DayStarted",
-"Condition": null,
-"HostOnly": false,
-"Action": "AddMail Current {{ModID}}_Marketpalooza.Mail",
 "Actions": null,
 "CustomFields": {}
 }

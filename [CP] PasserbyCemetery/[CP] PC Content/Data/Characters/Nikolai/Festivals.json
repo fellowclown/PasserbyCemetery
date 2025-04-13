@@ -126,7 +126,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Nikolai 6 27 2",
+                    "Value": "FC.Nikolai 39 40 2",
                     "Delimiter": "/"
                 },
                      {
@@ -135,7 +135,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Nikolai 24 28 2",
+                    "Value": "FC.Nikolai 27 31 2",
                     "Delimiter": "/"
                 },
         ]

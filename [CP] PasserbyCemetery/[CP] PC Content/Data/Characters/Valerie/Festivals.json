@@ -127,7 +127,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Valerie 4 15 2",
+                    "Value": "FC.Valerie 6 25 2",
                     "Delimiter": "/"
                 },
                      {
@@ -136,7 +136,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Valerie 4 15 2",
+                    "Value": "FC.Valerie 33 32 3",
                     "Delimiter": "/"
                 },
         ]

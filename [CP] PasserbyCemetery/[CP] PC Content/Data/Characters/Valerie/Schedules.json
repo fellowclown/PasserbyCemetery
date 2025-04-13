@@ -62,7 +62,6 @@
 "winter_15": "MAIL landslideDone/GOTO NO_SCHEDULE/930 {{ValerieTurnAbout}}/1000 {{ModID}}_StoneHouse 11 11 3/1300 Beach 2 21 1 \"Strings\\schedules\\FC.Valerie:Valerie.NightMarket\"/2100 {{ModID}}_StoneHouse 18 10 3 {{ModID}}_Valerie_Sleep \"Strings\\schedules\\FC.Valerie:Valerie.Sleeping\"",
 "winter_16": "MAIL landslideDone/GOTO NO_SCHEDULE/930 {{ValerieTurnAbout}}/1000 {{ModID}}_StoneHouse 11 11 3/1300 Beach 2 21 1 \"Strings\\schedules\\FC.Valerie:Valerie.NightMarket\"/2100 {{ModID}}_StoneHouse 18 10 3 {{ModID}}_Valerie_Sleep \"Strings\\schedules\\FC.Valerie:Valerie.Sleeping\"",
 "winter_17": "MAIL landslideDone/GOTO NO_SCHEDULE/930 {{ValerieTurnAbout}}/1000 {{ModID}}_StoneHouse 11 11 3/1300 Beach 2 21 1 \"Strings\\schedules\\FC.Valerie:Valerie.NightMarket\"/2100 {{ModID}}_StoneHouse 18 10 3 {{ModID}}_Valerie_Sleep \"Strings\\schedules\\FC.Valerie:Valerie.Sleeping\"",
-
 }
 },
 ]

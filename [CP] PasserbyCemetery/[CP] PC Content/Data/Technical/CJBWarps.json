@@ -1,0 +1,53 @@
+{
+"Changes": [
+		{
+    "Action": "EditData",
+    "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+    "Entries": {
+        "{{ModId}}_OldGraveYard": {
+            "Id": "{{ModId}}_OldGraveYard",
+            "DisplayName": "{{i18n:FC.PasserbyCemetery}}"
+        }
+    }
+},
+{
+    "Action": "EditData",
+    "Target": "Mods/CJBok.CheatsMenu/Warps",
+    "Entries": {
+        "{{ModId}}_OldGraveYard_Entrance": {
+            "Id": "{{ModId}}_OldGraveYard_Entrance",
+            "SectionId": "{{ModId}}_OldGraveYard",
+            "DisplayName": "{{i18n:FC.Cemetery}}",
+            "Location": "{{ModId}}_OldGraveYard",
+            "Tile": "37, 84"
+        }
+    }
+},
+{
+    "Action": "EditData",
+    "Target": "Mods/CJBok.CheatsMenu/Warps",
+    "Entries": {
+        "{{ModId}}_PasserbyCliffs": {
+            "Id": "{{ModId}}_PasserbyCliffs",
+            "SectionId": "{{ModId}}_OldGraveYard",
+            "DisplayName": "{{i18n:FC.PasserbyCliffs}}",
+            "Location": "{{ModId}}_PasserbyCliffs",
+            "Tile": "11, 36"
+        }
+    }
+},
+{
+    "Action": "EditData",
+    "Target": "Mods/CJBok.CheatsMenu/Warps",
+    "Entries": {
+        "{{ModId}}_AncientGraveYard": {
+            "Id": "{{ModId}}_AncientGraveYard",
+            "SectionId": "{{ModId}}_OldGraveYard",
+            "DisplayName": "{{i18n:FC.AncientGraveYard}}",
+            "Location": "{{ModId}}_AncientGraveYard",
+            "Tile": "36, 55"
+        }
+    }
+},
+]
+}

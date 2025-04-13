@@ -70,8 +70,6 @@ Schedule Strings
 "winter_15": "MAIL landslideDone/GOTO NO_SCHEDULE/800 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/1100 {{ModID}}_LeslaHouse 20 12 2 {{ModID}}_Nikolai_EatChair2/1300 Beach 8 19 2 \"Strings\\schedules\\FC.Nikolai:Nikolai.NightMarket\"",
 "winter_16": "MAIL landslideDone/GOTO NO_SCHEDULE/800 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/1100 {{ModID}}_LeslaHouse 20 12 2 {{ModID}}_Nikolai_EatChair2/1300 Beach 8 19 2\"Strings\\schedules\\FC.Nikolai:Nikolai.NightMarket\"",
 "winter_17": "MAIL landslideDone/GOTO NO_SCHEDULE/800 {{ModID}}_LeslaHouse 21 11 0 {{ModID}}_Nikolai_Dishes/1100 {{ModID}}_LeslaHouse 20 12 2 {{ModID}}_Nikolai_EatChair2/1300 Beach 8 19 2 \"Strings\\schedules\\FC.Nikolai:Nikolai.NightMarket\"",
-
-
 }, 
 },
 ]

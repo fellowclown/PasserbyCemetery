@@ -127,7 +127,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Kaia 20 28 1",
+                    "Value": "FC.Kaia 24 32 1",
                     "Delimiter": "/"
                 },
                      {
@@ -136,7 +136,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Kaia 23 28 2",
+                    "Value": "FC.Kaia 29 31 2",
                     "Delimiter": "/"
                 },
         ]

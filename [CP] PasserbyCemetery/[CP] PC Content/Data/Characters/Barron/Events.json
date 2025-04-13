@@ -1,15 +1,5 @@
 {
     "Changes": [
-
-        {
-"Action": "EditData",
-"Target": "Data/Events/{{ModID}}_OldGraveYard",
-"Entries": {
-  ////Intro////
-"{{ModID}}_TheBooksKey/hasItem Fellowclown.PC_KingsRangoonDish/tile 18 45": "ragtime/-1000 -1000/farmer 18 45 0/viewport 18 45 clamp true/skippable/pause 1000/question fork0 \"Want to give an offering of Rangoons to the king?#Yes#No#\"/fork FC.GiveRangoons/end position 18 45",
-"FC.GiveRangoons": "pause 100/faceDirection farmer 3/addTemporaryActor FC.KingsRangoons 16 16 17 45 2 false Character/pause 300/playSound discoverMineral/pause 300/message \"The king is pleased with your offering, here's your reward.\"/pause 300/itemAboveHead {{ModID}}_LostKey/addItem {{ModID}}_LostKey 1/pause 1000/removeItem Fellowclown.PC_KingsRangoonDish/end position 18 45",
-}
-},
   {
 "Action": "EditData",
 "Target": "Data/Events/{{ModID}}_PasserbyRoad",

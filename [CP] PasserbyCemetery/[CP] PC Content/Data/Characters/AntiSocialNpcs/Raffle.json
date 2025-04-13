@@ -1,0 +1,108 @@
+{
+"Changes": [
+                     {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3,Data/Festivals/winter3",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Raffle 8 43 2",
+                    "Delimiter": "/"
+                },
+                         {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Raffle 8 43 2",
+                    "Delimiter": "/"
+                },
+        ]
+    },
+  {
+"LogName": "Festival dialogue",
+"Action": "EditData",
+"Target": "Data/Festivals/fall3,Data/Festivals/winter3",
+"Entries": {
+"FC.Raffle{{YearCheck}}": "{{i18n:FC.EnterRaffle}}",
+} 
+ },
+ {
+"LogName": "Raffle Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Raffle": {
+///Basic Info
+"DisplayName":"Raffle",
+"Language":"Default",
+"Gender":"Male",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"HomeRegion":"Town",
+///Social Features
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":false,
+"CanCommentOnPurchasedShopItems":false,
+"CanGreetNearbyCharacters":false,
+"CanVisitIsland": false,
+"LoveInterest":null,
+"Calendar": "HiddenAlways",
+"SocialTab":"HiddenAlways",
+"IntroductionsQuest": false,
+"ItemDeliveryQuests":false,
+"PerfectionScore": false,
+"EndSlideShow":"Hidden",
+"FlowerDanceCanDance":false,
+"WinterStarParticipant":false,
+//Spawn Rules
+"UnlockConditions":null,
+"SpawnIfMissing":true,
+"Home": [
+{
+"Id": "Default",
+"Condition": null,
+"Location": "{{ModID}}_Marketpalooza",
+"Tile": {
+"X": 9,
+"Y": 43
+},
+"Direction": "right"
+},
+],
+///Appearance & Sprites
+"TextureName":null,
+"Appearance": [
+{
+"ID": "{{ModID}}.Raffle",
+"Portrait": "Portraits/FC.StoryTeller",
+"Sprite": "Characters/FC.Raffle",
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+"Precedence": -10,
+},
+],
+"Size": { "X": 48, "Y": 64 },
+"Breather":false,
+///Advanced
+"CustomFields":{
+    "poohnhi.PoohCore/WideCharacter": true,
+"poohnhi.PoohCore/HighCharacter": true,
+"StardewDruid.Reactions.Affinity": "-1",
+},
+"FormerCharacterNames": [],
+}
+}
+},
+]
+}

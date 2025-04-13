@@ -247,7 +247,7 @@
 "IsIslandAttire": false,
 },
     ],
-"MugShotSourceRect": { "X": 0, "Y": 321, "Width": 16, "Height": 16 },
+"MugShotSourceRect": { "X": 0, "Y": 321, "Width": 16, "Height": 24 },
 "Size": { "X": 32, "Y": 32 },
 "Breather":false,
 "BreathChestRect":null,

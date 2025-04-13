@@ -1,8 +1,8 @@
 {
-  "AnimalHouse": "Hutch",
   "IntroQuest": "Exclude",
   "PerfectionScoreNpc": "Exclude",
   "PerfectionScoreFish": "Exclude",
   "PerfectionScoreObjects": "Exclude",
-  "OverWorldMapEdit": "true"
+  "OverWorldMapEdit": "true",
+  "Poly&MonoCulture": "Exclude"
 }

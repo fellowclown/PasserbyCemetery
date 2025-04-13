@@ -121,7 +121,16 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Tilly 25 29 1",
+                    "Value": "FC.Tilly 26 37 1",
+                    "Delimiter": "/"
+                },
+                                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters{{YearCheck}}"
+                    ],
+                    "Value": "FC.Tilly 26 34 0",
                     "Delimiter": "/"
                 },
 

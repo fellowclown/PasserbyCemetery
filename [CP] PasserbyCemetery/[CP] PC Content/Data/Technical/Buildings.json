@@ -1,18 +1,612 @@
 {
 "Changes": [
-{
+	{
 "Action": "EditData",
 "Target": "Data/PaintData",
 "Entries": {
-"Fellowclown.ClownCore_TropicalHutch": "Building/-50 -10/Roof/-25 0/Trim/-25 -8",
-"Fellowclown.ClownCore_MediumTropicalHutch": "Building/-50 -10/Roof/-25 0/Trim/-25 -8",
-"Fellowclown.ClownCore_SmallTropicalHutch": "Building/-50 -10/Roof/-25 0/Trim/-25 -8",
+ "Fellowclown.ClownCore_TropicalHutch": "Building/-15 0/Roof/-10 5/Trim/-10 5",
+ "Fellowclown.ClownCore_MediumTropicalHutch": "Building/-15 0/Roof/-10 5/Trim/-10 5",
+ "Fellowclown.ClownCore_SmallTropicalHutch": "Building/-15 0/Roof/-10 5/Trim/-10 5",
+ "{{ModID}}_TropicalCoopLarge": "Building/-25 0/Roof/-15 5/Trim/-25 0",
+ "{{ModID}}_TropicalCoopMedium": "Building/-25 0/Roof/-15 5/Trim/-25 0",
+ "{{ModID}}_TropicalCoopSmall": "Building/-25 0/Roof/-15 5/Trim/-25 0",
 }
 },
 {
 "Action": "EditData",
 "Target": "Data/Buildings",
 "Entries": {
+"{{ModID}}_TropicalCoopLarge": {
+"Name": "{{i18n:FC.TropicalCoopLarge}}",
+"Description": "{{i18n:FC.TropicalCoopLarge.Desc}}",
+"Texture": "Buildings\\FC.TropicalCoopLarge",
+"Skins": [],
+"DrawShadow": true,
+"UpgradeSignTile": "4.5, 2",
+"UpgradeSignHeight": 31.0,
+"Size": {
+"X": 6,
+"Y": 3
+},
+"FadeWhenBehind": true,
+"SourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 96,
+"Height": 112 
+},
+"SeasonOffset": {
+"X": 0,
+"Y": 0
+},
+"DrawOffset": "0, 0",
+"SortTileOffset": 0.0,
+"CollisionMap": null,
+"AdditionalPlacementTiles": null,
+"BuildingType": null,
+"Builder": "Robin",
+"BuildCondition": null,
+"BuildDays": 3,
+"BuildCost": 10000,
+"BuildMaterials": [
+{
+"ItemId": "(O)Fellowclown.PC_MeekWood",
+"Amount": 350
+},
+{
+"ItemId": "(O)Fellowclown.PC_HeaviousWood",
+"Amount": 500
+},
+],
+"BuildingToUpgrade": "{{ModID}}_TropicalCoopMedium",
+"MagicalConstruction": false,
+"BuildMenuDrawOffset": {
+"X": 0,
+"Y": 0
+},
+"HumanDoor": {
+"X": 2,
+"Y": 2
+},
+"AnimalDoor": {
+"X": 4,
+"Y": 3,
+"Width": 1,
+"Height": 1
+},
+"AnimalDoorOpenDuration": 0.4,
+"AnimalDoorOpenSound": "doorCreak",
+"AnimalDoorCloseDuration": 0.6,
+"AnimalDoorCloseSound": "doorCreakReverse",
+"NonInstancedIndoorLocation": null,
+"IndoorMap": "Fellowclown.PC_TropicalAnimalHouseMapLarge",
+"IndoorMapType": "StardewValley.AnimalHouse",
+"MaxOccupants": 12,
+"ValidOccupantTypes": [
+"{{ModID}}_TropicalCoopLarge","{{ModID}}_TropicalCoopMedium","{{ModID}}_TropicalCoopSmall",
+],
+"AllowAnimalPregnancy": true,
+"IndoorItems": [
+{
+"Id": "Default_FeedHopper",
+"ItemId": "(BC)99",
+"Tile": {
+"X": 8,
+"Y": 6
+},
+"Indestructible": false
+},
+{
+"Id": "Default_Incubator",
+"ItemId": "(BC)101",
+"Tile": {
+"X": 8,
+"Y":5
+},
+"Indestructible": false
+},
+ {
+"Id": "Default_Incubator",
+"ItemId": "(BC)101",
+"Tile": {
+"X": 8,
+"Y": 8
+},
+"Indestructible": false
+}
+],
+"AddMailOnBuild": null,
+"Metadata": {},
+"ModData": {},
+"HayCapacity": 600,
+"Chests": null,
+"DefaultAction": null,
+"AdditionalTilePropertyRadius": 0,
+"ActionTiles": [],
+"TileProperties": [],
+"ItemConversions": null,
+"DrawLayers": [
+{
+"Id": "Default_AnimalDoor_Bottom",
+"Texture": null,
+"SourceRect": {
+"X": 16,
+"Y": 112,
+"Width": 16,
+"Height": 16
+},
+"DrawPosition": "53, 96",
+"DrawInBackground": true,
+"SortTileOffset": 0.02,
+"OnlyDrawIfChestHasContents": null,
+"FrameDuration": 90,
+"FrameCount": 1,
+"FramesPerRow": -1,
+"AnimalDoorOffset": {
+"X": 0,
+"Y": -19
+}
+},
+{
+"Id": "Default_AnimalDoor_Top",
+"Texture": null,
+"SourceRect": {
+"X": 0,
+"Y": 112,
+"Width": 16,
+"Height": 16
+},
+"DrawPosition": "53, 96",
+"DrawInBackground": false,
+"SortTileOffset": 0.02,
+"OnlyDrawIfChestHasContents": null,
+"FrameDuration": 90,
+"FrameCount": 1,
+"FramesPerRow": -1,
+"AnimalDoorOffset": {
+"X": 0,
+"Y": -19
+}
+},
+{
+"Id": "Default_AnimalDoor_Open_Top",
+"Texture": null,
+"SourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 16,
+"Height": 16
+},
+"DrawPosition": "53, 96",
+"DrawInBackground": false,
+"SortTileOffset": 1.0,
+"OnlyDrawIfChestHasContents": null,
+"FrameDuration": 90,
+"FrameCount": 1,
+"FramesPerRow": -1,
+"AnimalDoorOffset": {
+"X": 0,
+"Y": 0
+}
+},
+{
+"Id": "Default_AnimalDoor_Open_Bottom",
+"Texture": null,
+"SourceRect": {
+"X": 16,
+"Y": 112,
+"Width": 16,
+"Height": 16
+},
+"DrawPosition": "53, 96",
+"DrawInBackground": true,
+"SortTileOffset": 1.0,
+"OnlyDrawIfChestHasContents": null,
+"FrameDuration": 90,
+"FrameCount": 1,
+"FramesPerRow": -1,
+"AnimalDoorOffset": {
+"X": 0,
+"Y": 0
+}
+}
+],
+"CustomFields": {}
+},
+"{{ModID}}_TropicalCoopMedium": {
+"Name": "{{i18n:FC.TropicalCoopMedium}}",
+"Description": "{{i18n:FC.TropicalCoopMedium.Desc}}",
+"Texture": "Buildings\\FC.TropicalCoopMedium",
+"Skins": [],
+"DrawShadow": true,
+"UpgradeSignTile": "4.5, 2",
+"UpgradeSignHeight": 31.0,
+"Size": {
+"X": 6,
+"Y": 3
+},
+"FadeWhenBehind": true,
+"SourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 96,
+"Height": 112 
+},
+"SeasonOffset": {
+"X": 0,
+"Y": 0
+},
+"DrawOffset": "0, 0",
+"SortTileOffset": 0.0,
+"CollisionMap": null,
+"AdditionalPlacementTiles": null,
+"BuildingType": null,
+"Builder": "Robin",
+"BuildCondition": null,
+"BuildDays": 3,
+"BuildCost": 6000,
+"BuildMaterials": [
+{
+"ItemId": "(O)Fellowclown.PC_MeekWood",
+"Amount": 150
+},
+{
+"ItemId": "(O)Fellowclown.PC_HeaviousWood",
+"Amount": 300
+},
+],
+"BuildingToUpgrade": "{{ModID}}_TropicalCoopSmall",
+"MagicalConstruction": false,
+"BuildMenuDrawOffset": {
+"X": 0,
+"Y": 0
+},
+"HumanDoor": {
+"X": 2,
+"Y": 2
+},
+"AnimalDoor": {
+"X": 4,
+"Y": 3,
+"Width": 1,
+"Height": 1
+},
+"AnimalDoorOpenDuration": 0.4,
+"AnimalDoorOpenSound": "doorCreak",
+"AnimalDoorCloseDuration": 0.6,
+"AnimalDoorCloseSound": "doorCreakReverse",
+"NonInstancedIndoorLocation": null,
+"IndoorMap": "Fellowclown.PC_TropicalAnimalHouseMapMedium",
+"IndoorMapType": "StardewValley.AnimalHouse",
+"MaxOccupants": 12,
+"ValidOccupantTypes": [
+"{{ModID}}_TropicalCoopLarge","{{ModID}}_TropicalCoopMedium","{{ModID}}_TropicalCoopSmall",
+],
+"AllowAnimalPregnancy": true,
+"IndoorItems": [
+{
+"Id": "Default_FeedHopper",
+"ItemId": "(BC)99",
+"Tile": {
+"X": 8,
+"Y": 6
+},
+"Indestructible": false
+},
+{
+"Id": "Default_Incubator",
+"ItemId": "(BC)101",
+"Tile": {
+"X": 8,
+"Y":5
+},
+"Indestructible": false
+},
+ {
+"Id": "Default_Incubator",
+"ItemId": "(BC)101",
+"Tile": {
+"X": 8,
+"Y": 8
+},
+"Indestructible": false
+}
+],
+"AddMailOnBuild": null,
+"Metadata": {},
+"ModData": {},
+"HayCapacity": 600,
+"Chests": null,
+"DefaultAction": null,
+"AdditionalTilePropertyRadius": 0,
+"ActionTiles": [],
+"TileProperties": [],
+"ItemConversions": null,
+"DrawLayers": [
+{
+"Id": "Default_AnimalDoor_Bottom",
+"Texture": null,
+"SourceRect": {
+"X": 16,
+"Y": 112,
+"Width": 16,
+"Height": 16
+},
+"DrawPosition": "53, 96",
+"DrawInBackground": true,
+"SortTileOffset": 0.02,
+"OnlyDrawIfChestHasContents": null,
+"FrameDuration": 90,
+"FrameCount": 1,
+"FramesPerRow": -1,
+"AnimalDoorOffset": {
+"X": 0,
+"Y": -19
+}
+},
+{
+"Id": "Default_AnimalDoor_Top",
+"Texture": null,
+"SourceRect": {
+"X": 0,
+"Y": 112,
+"Width": 16,
+"Height": 16
+},
+"DrawPosition": "53, 96",
+"DrawInBackground": false,
+"SortTileOffset": 0.02,
+"OnlyDrawIfChestHasContents": null,
+"FrameDuration": 90,
+"FrameCount": 1,
+"FramesPerRow": -1,
+"AnimalDoorOffset": {
+"X": 0,
+"Y": -19
+}
+},
+{
+"Id": "Default_AnimalDoor_Open_Top",
+"Texture": null,
+"SourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 16,
+"Height": 16
+},
+"DrawPosition": "53, 96",
+"DrawInBackground": false,
+"SortTileOffset": 1.0,
+"OnlyDrawIfChestHasContents": null,
+"FrameDuration": 90,
+"FrameCount": 1,
+"FramesPerRow": -1,
+"AnimalDoorOffset": {
+"X": 0,
+"Y": 0
+}
+},
+{
+"Id": "Default_AnimalDoor_Open_Bottom",
+"Texture": null,
+"SourceRect": {
+"X": 16,
+"Y": 112,
+"Width": 16,
+"Height": 16
+},
+"DrawPosition": "53, 96",
+"DrawInBackground": true,
+"SortTileOffset": 1.0,
+"OnlyDrawIfChestHasContents": null,
+"FrameDuration": 90,
+"FrameCount": 1,
+"FramesPerRow": -1,
+"AnimalDoorOffset": {
+"X": 0,
+"Y": 0
+}
+}
+],
+"CustomFields": {}
+},
+"{{ModID}}_TropicalCoopSmall": {
+"Name": "{{i18n:FC.TropicalCoopSmall}}",
+"Description": "{{i18n:FC.TropicalCoopSmall.Desc}}",
+"Texture": "Buildings\\FC.TropicalCoopSmall",
+"Skins": [],
+"DrawShadow": true,
+"UpgradeSignTile": "4.5, 2",
+"UpgradeSignHeight": 31.0,
+"Size": {
+"X": 6,
+"Y": 3
+},
+"FadeWhenBehind": true,
+"SourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 96,
+"Height": 112 
+},
+"SeasonOffset": {
+"X": 0,
+"Y": 0
+},
+"DrawOffset": "0, 0",
+"SortTileOffset": 0.0,
+"CollisionMap": null,
+"AdditionalPlacementTiles": null,
+"BuildingType": null,
+"Builder": "Robin",
+"BuildCondition": null,
+"BuildDays": 3,
+"BuildCost": 2000,
+"BuildMaterials": [
+{
+"ItemId": "(O)Fellowclown.PC_MeekWood",
+"Amount": 90
+},
+{
+"ItemId": "(O)Fellowclown.PC_HeaviousWood",
+"Amount": 150
+},
+],
+"BuildingToUpgrade": null,
+"MagicalConstruction": false,
+"BuildMenuDrawOffset": {
+"X": 0,
+"Y": 0
+},
+"HumanDoor": {
+"X": 2,
+"Y": 2
+},
+"AnimalDoor": {
+"X": 4,
+"Y": 3,
+"Width": 1,
+"Height": 1
+},
+"AnimalDoorOpenDuration": 0.4,
+"AnimalDoorOpenSound": "doorCreak",
+"AnimalDoorCloseDuration": 0.6,
+"AnimalDoorCloseSound": "doorCreakReverse",
+"NonInstancedIndoorLocation": null,
+"IndoorMap": "Fellowclown.PC_TropicalAnimalHouseMapSmall",
+"IndoorMapType": "StardewValley.AnimalHouse",
+"MaxOccupants": 12,
+"ValidOccupantTypes": [
+"{{ModID}}_TropicalCoopLarge","{{ModID}}_TropicalCoopMedium","{{ModID}}_TropicalCoopSmall",
+],
+"AllowAnimalPregnancy": true,
+"IndoorItems": [
+{
+"Id": "Default_FeedHopper",
+"ItemId": "(BC)99",
+"Tile": {
+"X": 8,
+"Y": 6
+},
+"Indestructible": false
+},
+{
+"Id": "Default_Incubator",
+"ItemId": "(BC)101",
+"Tile": {
+"X": 8,
+"Y":5
+},
+"Indestructible": false
+},
+ {
+"Id": "Default_Incubator",
+"ItemId": "(BC)101",
+"Tile": {
+"X": 8,
+"Y": 8
+},
+"Indestructible": false
+}
+],
+"AddMailOnBuild": null,
+"Metadata": {},
+"ModData": {},
+"HayCapacity": 600,
+"Chests": null,
+"DefaultAction": null,
+"AdditionalTilePropertyRadius": 0,
+"ActionTiles": [],
+"TileProperties": [],
+"ItemConversions": null,
+"DrawLayers": [
+{
+"Id": "Default_AnimalDoor_Bottom",
+"Texture": null,
+"SourceRect": {
+"X": 16,
+"Y": 112,
+"Width": 16,
+"Height": 16
+},
+"DrawPosition": "52, 96",
+"DrawInBackground": true,
+"SortTileOffset": 0.02,
+"OnlyDrawIfChestHasContents": null,
+"FrameDuration": 90,
+"FrameCount": 1,
+"FramesPerRow": -1,
+"AnimalDoorOffset": {
+"X": 0,
+"Y": -19
+}
+},
+{
+"Id": "Default_AnimalDoor_Top",
+"Texture": null,
+"SourceRect": {
+"X": 0,
+"Y": 112,
+"Width": 16,
+"Height": 16
+},
+"DrawPosition": "52, 96",
+"DrawInBackground": false,
+"SortTileOffset": 0.02,
+"OnlyDrawIfChestHasContents": null,
+"FrameDuration": 90,
+"FrameCount": 1,
+"FramesPerRow": -1,
+"AnimalDoorOffset": {
+"X": 0,
+"Y": -19
+}
+},
+{
+"Id": "Default_AnimalDoor_Open_Top",
+"Texture": null,
+"SourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 16,
+"Height": 16
+},
+"DrawPosition": "52, 96",
+"DrawInBackground": false,
+"SortTileOffset": 1.0,
+"OnlyDrawIfChestHasContents": null,
+"FrameDuration": 90,
+"FrameCount": 1,
+"FramesPerRow": -1,
+"AnimalDoorOffset": {
+"X": 0,
+"Y": 0
+}
+},
+{
+"Id": "Default_AnimalDoor_Open_Bottom",
+"Texture": null,
+"SourceRect": {
+"X": 16,
+"Y": 112,
+"Width": 16,
+"Height": 16
+},
+"DrawPosition": "52, 96",
+"DrawInBackground": true,
+"SortTileOffset": 1.0,
+"OnlyDrawIfChestHasContents": null,
+"FrameDuration": 90,
+"FrameCount": 1,
+"FramesPerRow": -1,
+"AnimalDoorOffset": {
+"X": 0,
+"Y": 0
+}
+}
+],
+"CustomFields": {}
+},
 "Fellowclown.ClownCore_TropicalHutch": {
 "Name": "{{i18n:FC.Tropicalhutch}}",
 "Description": "{{i18n:FC.LargeTropicalhutch.Desc}}",
@@ -44,15 +638,15 @@
 "Builder": "Robin",
 "BuildCondition": null,
 "BuildDays": 3,
-"BuildCost": 25000,
+"BuildCost": 10000,
 "BuildMaterials": [
 {
 "ItemId": "(O)Fellowclown.PC_MeekWood",
-"Amount": 550
+"Amount": 350
 },
 {
 "ItemId": "(O)Fellowclown.PC_HeaviousWood",
-"Amount": 150
+"Amount": 500
 },
 ],
 "BuildingToUpgrade": "Fellowclown.ClownCore_MediumTropicalHutch",
@@ -82,7 +676,7 @@
 "ValidOccupantTypes": [
 "Fellowclown.ClownCore_TropicalHutch","Fellowclown.ClownCore_MediumTropicalHutch","Fellowclown.ClownCore_SmallTropicalHutch",
 ],
-"AllowAnimalPregnancy": false,
+"AllowAnimalPregnancy": true,
 "IndoorItems": [
 {
 "Id": "Default_FeedHopper",
@@ -210,12 +804,6 @@
 ],
 "CustomFields": {}
 },
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Buildings",
-"Entries": {
 "Fellowclown.ClownCore_MediumTropicalHutch": {
 "Name": "{{i18n:FC.Tropicalhutch}}",
 "Description": "{{i18n:FC.MediumTropicalhutch.Desc}}",
@@ -247,15 +835,15 @@
 "Builder": "Robin",
 "BuildCondition": null,
 "BuildDays": 3,
-"BuildCost": 15000,
+"BuildCost": 6000,
 "BuildMaterials": [
 {
 "ItemId": "(O)Fellowclown.PC_MeekWood",
-"Amount": 550
+"Amount": 150
 },
 {
 "ItemId": "(O)Fellowclown.PC_HeaviousWood",
-"Amount": 150
+"Amount": 300
 },
 ],
 "BuildingToUpgrade": "Fellowclown.ClownCore_SmallTropicalHutch",
@@ -413,12 +1001,6 @@
 ],
 "CustomFields": {}
 },
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Buildings",
-"Entries": {
 "Fellowclown.ClownCore_SmallTropicalHutch": {
 "Name": "{{i18n:FC.Tropicalhutch}}",
 "Description": "{{i18n:FC.SmallTropicalhutch.Desc}}",
@@ -454,7 +1036,7 @@
 "BuildMaterials": [
 {
 "ItemId": "(O)Fellowclown.PC_MeekWood",
-"Amount": 250
+"Amount": 90
 },
 {
 "ItemId": "(O)Fellowclown.PC_HeaviousWood",
@@ -616,12 +1198,6 @@
 ],
 "CustomFields": {}
 },
-}
-},
-{
-"Action": "EditData",
-"Target": "Data/Buildings",
-"Entries": {
 "{{ModId}}_ElderTropaTree": {
 "Name": "{{i18n:FC.ElderTropaTree}}",
 "Description": "{{i18n:FC.ElderTropaTree.Desc}}",

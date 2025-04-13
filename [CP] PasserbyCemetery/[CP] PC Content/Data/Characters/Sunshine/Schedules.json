@@ -25,21 +25,17 @@
 "Action": "EditData",
 "Target": "Characters/schedules/FC.Sunshine",
 "Entries": {
-"Mon": "700 Fellowclown.PC_OldGraveYard 30 74 3/800 {{ModID}}_Shop 1 3 2/1200 Fellowclown.PC_OldGraveYard 29 79 2/1400 {{ModID}}_Shop 1 3 2/1800 Mountain 8 21 0/2100 {{ModID}}_Shop 1 5 2 Sunshine_Sleep", //Shop Day
-"Tue": "800 SeedShop 20 28 3/1400 Town 6 84 1/1600 Beach 32 34 0/1800 {{ModID}}_Shop 1 5 2 Sunshine_Sleep",
-"Wed": "700 Fellowclown.PC_OldGraveYard 40 64 3/800 {{ModID}}_Shop 1 3 2/1200 Fellowclown.PC_OldGraveYard 38 81 2/1400 {{ModID}}_Shop 1 3 2/1800 Mountain 19 26 3/2100 {{ModID}}_Shop 1 5 2 Sunshine_Sleep", //Shop day
-"Thu": "800 Mine 25 7 2/1400 Forest 92 29 1/1600 Beach 37 31 3/1800 {{ModID}}_Shop 1 5 2 Sunshine_Sleep",
-"Fri": "700 Fellowclown.PC_OldGraveYard 13 46 3/800 {{ModID}}_Shop 1 3 2/1200 Fellowclown.PC_OldGraveYard 15 63 3/1400 {{ModID}}_Shop 1 3 2/1800 Fellowclown.PC_OldGraveYard 19 45 3/2100 {{ModID}}_Shop 1 5 2 Sunshine_Sleep", //Shop Day
-"Sat": "800 Beach 41 36 2/1400 Forest 108 34 3/1600 Mountain 22 20 3/1800 {{ModID}}_Shop 1 5 2 Sunshine_Sleep",
-"Sun": "800 {{ModID}}_PasserbyRoad 31 45 2/1400 Forest 33 96 3/1600 Town 65 77 2/1800 {{ModID}}_Shop 1 5 2 Sunshine_Sleep",
-"rain": "700 Fellowclown.PC_OldGraveYard 37 12 3/800 {{ModID}}_Shop 1 3 2/1200 Fellowclown.PC_OldGraveYard 29 79 2/1400 {{ModID}}_Shop 1 3 2/1800 Mountain 8 21 0/2100 {{ModID}}_Shop 1 5 2 Sunshine_Sleep", //Shop Day
-"GreenRain": "800 {{ModID}}_Shop 1 3 2/1400 {{ModID}}_Shop 5 5 1 SunshineSit1/1600 {{ModID}}_Shop 1 3 2/1800 {{ModID}}_Shop 1 5 2 Sunshine_Sleep",
-"DesertFestival": "800 Fellowclown.PC_OldGraveYard 40 64 3/1400 Mountain 19 26 3/1600 Desert 10 34 2 \"Strings\\schedules\\FC.Sunshine:Sunshine.DesertFestival\"/1800 {{ModID}}_Shop 1 5 2 Sunshine_Sleep",
-"winter_16": "800 Town 6 84 1/1400 Town 65 77 2/1600 Beach 8 21 3 \"Strings\\schedules\\FC.Sunshine:Sunshine.NightMarket\"/1800 {{ModID}}_Shop 1 5 2 Sunshine_Sleep",
- },
-
-     "When": {
- "HasSeenEvent |contains={{ModID}}_ForestTrouble": "true"
+"Mon": "MAIL {{ModID}}_SunshineJinglesIntro.Mail/GOTO NO_SCHEDULE/700 Fellowclown.PC_OldGraveYard 30 74 3/800 {{ModID}}_Shop 1 3 2/1800 Mountain 8 21 0/2100 {{ModID}}_Shop 1 5 2 Sunshine_Sleep", //Shop Day
+"Tue": "MAIL {{ModID}}_SunshineJinglesIntro.Mail/GOTO NO_SCHEDULE/800 SeedShop 20 28 3/1400 Town 6 84 1/1600 Beach 32 34 0/1800 {{ModID}}_Shop 1 5 2 Sunshine_Sleep",
+"Wed": "MAIL {{ModID}}_SunshineJinglesIntro.Mail/GOTO NO_SCHEDULE/700 Fellowclown.PC_OldGraveYard 40 64 3/800 {{ModID}}_Shop 1 3 2/1800 Mountain 19 26 3/2100 {{ModID}}_Shop 1 5 2 Sunshine_Sleep", //Shop day
+"Thu": "MAIL {{ModID}}_SunshineJinglesIntro.Mail/GOTO NO_SCHEDULE/800 Mine 25 7 2/1400 Forest 92 29 1/1600 Beach 37 31 3/1800 {{ModID}}_Shop 1 5 2 Sunshine_Sleep",
+"Fri": "MAIL {{ModID}}_SunshineJinglesIntro.Mail/GOTO NO_SCHEDULE/700 Fellowclown.PC_OldGraveYard 13 46 3/800 {{ModID}}_Shop 1 3 2/1800 Fellowclown.PC_OldGraveYard 19 45 3/2100 {{ModID}}_Shop 1 5 2 Sunshine_Sleep", //Shop Day
+"Sat": "MAIL {{ModID}}_SunshineJinglesIntro.Mail/GOTO NO_SCHEDULE/800 Beach 41 36 2/1400 Forest 108 34 3/1600 Mountain 22 20 3/1800 {{ModID}}_Shop 1 5 2 Sunshine_Sleep",
+"Sun": "MAIL {{ModID}}_SunshineJinglesIntro.Mail/GOTO NO_SCHEDULE/800 {{ModID}}_PasserbyRoad 31 45 2/1400 Forest 33 96 3/1600 Town 65 77 2/1800 {{ModID}}_Shop 1 5 2 Sunshine_Sleep",
+"rain": "MAIL {{ModID}}_SunshineJinglesIntro.Mail/GOTO NO_SCHEDULE/700 Fellowclown.PC_OldGraveYard 37 12 3/800 {{ModID}}_Shop 1 3 2/1800 Mountain 8 21 0/2100 {{ModID}}_Shop 1 5 2 Sunshine_Sleep", //Shop Day
+"GreenRain": "MAIL {{ModID}}_SunshineJinglesIntro.Mail/GOTO NO_SCHEDULE/800 {{ModID}}_Shop 1 3 2/1600 {{ModID}}_Shop 1 3 2/1800 {{ModID}}_Shop 1 5 2 Sunshine_Sleep",
+"DesertFestival": "MAIL {{ModID}}_SunshineJinglesIntro.Mail/GOTO NO_SCHEDULE/800 Fellowclown.PC_OldGraveYard 40 64 3/1400 Mountain 19 26 3/1600 Desert 10 34 2 \"Strings\\schedules\\FC.Sunshine:Sunshine.DesertFestival\"/1800 {{ModID}}_Shop 1 5 2 Sunshine_Sleep",
+"winter_16": "MAIL {{ModID}}_SunshineJinglesIntro.Mail/GOTO NO_SCHEDULE/800 Town 6 84 1/1400 Town 65 77 2/1600 Beach 8 21 3 \"Strings\\schedules\\FC.Sunshine:Sunshine.NightMarket\"/1800 {{ModID}}_Shop 1 5 2 Sunshine_Sleep",
 }
 },
 ]

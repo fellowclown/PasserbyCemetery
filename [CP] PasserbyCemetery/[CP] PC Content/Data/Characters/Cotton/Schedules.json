@@ -11,7 +11,7 @@
 "Entries": {
 "{{ModID}}_CottonSit2": "16/16/16",
 "{{ModID}}_CottonPout": "19/19 19 19 19 20 20 20 20 20/19",
-"{{ModID}}_CottonLollipop": "30/30 30 30 30 30 30 31 31 32 32 33 33 34 34 35 35 34 34 32 32 31 31/30",
+"{{ModID}}_CottonCandy": "30/30 30 30 30 30 30 31 31 32 32 33 33 34 34 35 35 34 34 32 32 31 31 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30/30",
 "{{ModID}}_CottonRest": "21/21/21//laying_down/offset -30 -30",
 }
 },
@@ -35,26 +35,31 @@
 "Entries": {
 "spring": "GOTO Mon",
 /// Weekday Schedules  
-"Mon": "MAIL {{ModID}}_FreeCotton.Mail/GOTO NO_SCHEDULE/610 {{ModID}}_AncientGraveYard 39 47 1 {{ModID}}_CottonLollipop/900 {{ModID}}_SecretCave 9 10 2 {{ModID}}_CottonPout/1200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2/1500 Mountain 66 15 2 {{ModID}}_CottonLollipop/2000 {{CottonTurnAbout}}/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
+"Mon": "610 {{ModID}}_AncientGraveYard 39 47 1 {{ModID}}_CottonCandy/900 {{ModID}}_SecretCave 9 10 2 {{ModID}}_CottonPout/1200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2/1500 Mountain 66 15 2 {{ModID}}_CottonCandy/2000 {{CottonTurnAbout}}/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
 
-"Tue": "MAIL {{ModID}}_FreeCotton.Mail/GOTO NO_SCHEDULE/900 {{ModID}}_OldGraveYard 29 73 2 {{ModID}}_CottonPout/1200 Town 74 54 2 {{ModID}}_CottonLollipop/1700 Mountain 66 15 2 {{ModID}}_CottonLollipop/2000 {{CottonTurnAbout}}/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
+"Tue": "900 {{ModID}}_OldGraveYard 29 73 2 {{ModID}}_CottonPout/1200 Town 74 54 2 {{ModID}}_CottonCandy/1610 Mountain 66 15 2 {{ModID}}_CottonCandy/2000 {{CottonTurnAbout}}/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
 
-"Wed": "MAIL {{ModID}}_FreeCotton.Mail/GOTO NO_SCHEDULE/700 {{ModID}}_SecretCave 5 8 2 {{ModID}}_CottonSit2/1000 {{ModID}}_TravelingTrailer 18 11 3/1300 {{ModID}}_OldGraveYard 33 32 1 {{ModID}}_CottonLollipop/1700 {{CottonTurnAbout}}/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
+"Wed": "610 {{ModID}}_SecretCave 9 10 2 {{ModID}}_CottonCandy/1000 {{ModID}}_TravelingTrailer 18 11 3/1300 {{ModID}}_OldGraveYard 33 32 1 {{ModID}}_CottonCandy/1610 {{CottonTurnAbout}}/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
 
-"Thu": "MAIL {{ModID}}_FreeCotton.Mail/GOTO NO_SCHEDULE/800 {{ModID}}_OldGraveYard 29 78 1 {{ModID}}_CottonLollipop/1100 Beach 14 24 2 {{ModID}}_CottonPout/1500 Forest 37 95 1 {{ModID}}_CottonLollipop/2000 {{CottonTurnAbout}}/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
+"Thu": "800 {{ModID}}_OldGraveYard 29 78 1 {{ModID}}_CottonCandy/1100 Beach 14 24 2 {{ModID}}_CottonPout/1500 Forest 37 95 1 {{ModID}}_CottonCandy/2000 {{CottonTurnAbout}}/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
 
-"Fri": "MAIL {{ModID}}_FreeCotton.Mail/GOTO NO_SCHEDULE/900 {{ModID}}_LyellsProperty 32 19 2 {{ModID}}_CottonSit2/1200 Beach 38 33 3/1500 Forest 37 95 1 {{ModID}}_CottonLollipop/2000 {{CottonTurnAbout}}/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
+"Fri": "900 {{ModID}}_LyellsProperty 32 19 2 {{ModID}}_CottonSit2/1200 Beach 38 33 3/1500 Forest 37 95 1 {{ModID}}_CottonCandy/2000 {{CottonTurnAbout}}/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
 
-"Sat": "MAIL {{ModID}}_FreeCotton.Mail/GOTO NO_SCHEDULE/610 Town 47 68 1 {{ModID}}_CottonLollipop/1000 Beach 38 33 3/1400 Forest 37 95 1 {{ModID}}_CottonLollipop/1800 Mountain 66 15 2 {{ModID}}_CottonLollipop/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
+"Sat": "610 Town 53 103 1 {{ModID}}_CottonCandy/1000 Beach 38 33 3/1400 Forest 37 95 1 {{ModID}}_CottonCandy/1800 Mountain 66 15 2 {{ModID}}_CottonCandy/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
 
-"Sun": "MAIL {{ModID}}_FreeCotton.Mail/GOTO NO_SCHEDULE/610 {{ModID}}_SecretCave 9 10 2 {{ModID}}_CottonPout/900 {{ModID}}_OldGraveYard 29 78 1 {{ModID}}_CottonLollipop/1200 Mine 15 6 1 {{ModID}}_CottonLollipop/1500 {{ModID}}_SecretCave 5 8 2 {{ModID}}_CottonSit2/2000 {{CottonTurnAbout}}/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
+"Sun": "610 {{ModID}}_SecretCave 9 10 2 {{ModID}}_CottonPout/900 {{ModID}}_OldGraveYard 29 78 1 {{ModID}}_CottonCandy/1200 Mine 15 6 1 {{ModID}}_CottonCandy/1500 {{ModID}}_SecretCave 9 10 2 {{ModID}}_CottonCandy/2000 {{CottonTurnAbout}}/2200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"",
 
-"rain": "MAIL {{ModID}}_FreeCotton.Mail/GOTO NO_SCHEDULE/610 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"/1200 Animalshop 16 13 2/1500 {{ModID}}_CottonsHome 7 7 2/1900 {{ModID}}_CottonsHome 11 19 3/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
+"rain": "610 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"/1200 Animalshop 16 13 2/1500 {{ModID}}_CottonsHome 7 7 2/1900 {{ModID}}_CottonsHome 11 19 3/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
 
-"GreenRain": "MAIL {{ModID}}_FreeCotton.Mail/GOTO NO_SCHEDULE/610 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"/1000 {{ModID}}_CottonsHome 11 19 3 \"Strings\\schedules\\FC.Cotton:Cotton.GreenRain\"/1800 {{ModID}}_OldGraveYard 19 44 2/1200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
-"winter_16": "610 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"/1000 Animalshop 16 13 2/1400 Forest 34 9 2/1700 Beach 3 22 1 {{ModID}}_CottonLollipop \"Strings\\schedules\\FC.Cotton:Cotton.NightMarket\"/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
+"GreenRain": "610 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"/1000 {{ModID}}_CottonsHome 11 19 3 \"Strings\\schedules\\FC.Cotton:Cotton.GreenRain\"/1800 {{ModID}}_OldGraveYard 19 44 2/1200 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
+"winter_16": "610 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"/1000 Animalshop 16 13 2/1400 Forest 34 9 2/1610 Beach 3 22 1 {{ModID}}_CottonCandy \"Strings\\schedules\\FC.Cotton:Cotton.NightMarket\"/2300 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonSit2",
+
+"marriage_Tues": "610 {{ModID}}_CottonsHome 13 5 2 {{ModID}}_CottonRest \"Strings\\schedules\\FC.Cotton:Cotton.Sleeping\"/1200 Animalshop 16 13 2/1500 {{ModID}}_CottonsHome 7 7 2/2300 bed",
 
 }, 
+"When":{
+  "DLX.Bundles/Discovered":"{{ModID}}_CottonsBundle"
+}
 },
 ]
 }

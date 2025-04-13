@@ -1,13 +1,7 @@
 {
-"Format":"2.0.0",
+"Format":"2.5.3",
 // CONFIG OPTIONS
   "ConfigSchema": {
-"AnimalHouse": {
-"Description": "Switch between using the barn or custom hutch for animals added by this mod.",
-"AllowValues": "Barn, Hutch",
-"Default": "Hutch",
-"AllowBlank": false
-},
   "IntroQuest": {
 "Description": "Exclude or Include Npcs from Intro Quest.",
 "AllowValues": "Exclude, Include",
@@ -38,8 +32,26 @@
 "Default": "true",
  "AllowBlank": false,
 },
+  "Poly&MonoCulture": {
+"Description": "Exclude or Include crops from Poly&MonoCulture.",
+"AllowValues": "Exclude, Include",
+"Default": "Exclude",
+"AllowBlank": false
+},
   },
 "DynamicTokens": [
+  //Switch animal seller to Lyell
+{
+  "Name": "PreLicense",
+  "Value": "true",
+},
+{
+  "Name": "PreLicense",
+  "Value": "false",
+  "When": {
+ "HasFlag |contains={{ModID}}_GainedLicense.Mail": true,
+  }
+},
 //Alan schedule Replacements
 {
   "Name": "AlanTurnAbout",
@@ -529,6 +541,15 @@
 },
 //Configuration options
   {
+"Name": "CropCulture",
+"Value": "false"
+},
+{
+"Name": "CropCulture",
+"When": {"Poly&MonoCulture": "Include",},
+"Value": "true"
+},
+  {
 "Name": "IncludeFish",
 "Value": "true"
 },
@@ -564,24 +585,6 @@
 "When": {"IntroQuest": "Include",},
 "Value": "true"
 },
-{
-"Name": "AnimalHouseValue",
-"Value": "Barn"
-},
-{
-"Name": "AnimalHouseValue",
-"When": {"AnimalHouse": "Hutch"},
-"Value": "Fellowclown.ClownCore_SmallTropicalHutch"
-},
-{
-"Name": "MarnieShopDescription",
-"Value": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5931]"
-},
-{
-"Name": "MarnieShopDescription",
-"When": {"AnimalHouse": "Hutch"},
-"Value": "{{i18n:FC.MissingTropicalHutch}}"
-},
 ///Marketpalooza raffle
   {
   "Name": "VanillaMovieNpcs",
@@ -589,7 +592,7 @@
    },
    {
   "Name": "ValidNpcs",
-  "Value": "{{Random:Marnie,Robin,Shane,FC.Lyell,Grady,FC.Valerie,FC.Alan,Lewis,Pierre,Abby,Sam,Alex,Pam,Sebastian,Jodi,Coraline,Marlon}},{{PlayerName}}"
+  "Value": "{{Random:Marnie,Robin,Shane,Lyell,Grady,Valerie,Alan,Lewis,Pierre,Abby,Sam,Alex,Pam,Sebastian,Jodi,Coraline,Marlon}},{{PlayerName}}"
    },
 
 {
@@ -640,12 +643,12 @@ Technical Includes
   {
 "LogName": "PC Technical Information",
 "Action": "Include",
-"FromFile": "Data/Technical/Buildings.json,Data/Technical/TempActorFestivals.json,Data/Technical/Trinket.json,Data/Technical/UniversalGiftTaste.json,Data/Technical/ZootInfo.json,Data/Technical/SecretNotes.json,Data/Technical/WorldMap.json,Data/Technical/TheaterEditions.json,Data/Technical/MoviesVanillaEditions.json,Data/Technical/Buffs.json,Data/Technical/ExtraDialogue.json,Data/Technical/Meep.json,Data/Technical/NonFarmAnimals.json,Data/Technical/AnimalSpawns.json,Data/Technical/Tools.json,Data/Technical/Crops.json,Data/Technical/Quest.json,Data/Technical/MapPatches.json,Data/Technical/FarmAnimals.json,Data/Technical/Fish.json,Data/Technical/Loadables.json,Data/Technical/LocationalMaps.json,Data/Technical/MailTriggers.json,Data/Technical/Music.json,Data/Technical/Objects.json,Data/Technical/Shops.json,Data/Technical/Totems.json,Data/Technical/WorldEvents.json,Data/Technical/Machines.json,Data/Technical/Marketpalooza.json,Data/Technical/Recipes.json,Data/Technical/Trees.json,Data/Technical/ModCompact.json"
+"FromFile": "Data/Technical/Bundles.json,Data/Technical/CJBWarps.json,Data/Technical/Pets.json,Data/Technical/Buildings.json,Data/Technical/TempActorFestivals.json,Data/Technical/Trinket.json,Data/Technical/UniversalGiftTaste.json,Data/Technical/ZootInfo.json,Data/Technical/SecretNotes.json,Data/Technical/WorldMap.json,Data/Technical/TheaterEditions.json,Data/Technical/MoviesVanillaEditions.json,Data/Technical/Buffs.json,Data/Technical/ExtraDialogue.json,Data/Technical/Meep.json,Data/Technical/NonFarmAnimals.json,Data/Technical/AnimalSpawns.json,Data/Technical/Tools.json,Data/Technical/Crops.json,Data/Technical/Quest.json,Data/Technical/MapPatches.json,Data/Technical/FarmAnimals.json,Data/Technical/Fish.json,Data/Technical/Loadables.json,Data/Technical/LocationalMaps.json,Data/Technical/MailTriggers.json,Data/Technical/Music.json,Data/Technical/Objects.json,Data/Technical/Shops.json,Data/Technical/Totems.json,Data/Technical/WorldEvents.json,Data/Technical/Machines.json,Data/Technical/Marketpalooza.json,Data/Technical/Recipes.json,Data/Technical/Trees.json,Data/Technical/ModCompact.json"
  }, 
    {
 "LogName": "PC AntiSocialNpcs Information",
 "Action": "Include",
-"FromFile": "Data/Technical/Bundles.json,Data/Characters/AntiSocialNpcs/Eve.json,Data/Characters/AntiSocialNpcs/Monty.json",
+"FromFile": "Data/Characters/AntiSocialNpcs/Raffle.json,Data/Characters/AntiSocialNpcs/Eve.json,Data/Characters/AntiSocialNpcs/Monty.json",
 }, 
  /************************************************
  Character Includes
@@ -678,7 +681,7 @@ Technical Includes
    {
 "LogName": "Crank Info",
 "Action": "Include",
-"FromFile": "Data/Characters/Crank/Festivals.json,Data/Characters/Crank/Dialogue.json,Data/Characters/Crank/Dispositions.json,Data/Characters/Crank/GiftTaste.json,Data/Characters/Crank/Movies.json,Data/Characters/Crank/Schedules.json"
+"FromFile": "Data/Characters/Crank/Events.json,Data/Characters/Crank/Festivals.json,Data/Characters/Crank/Dialogue.json,Data/Characters/Crank/Dispositions.json,Data/Characters/Crank/GiftTaste.json,Data/Characters/Crank/Movies.json,Data/Characters/Crank/Schedules.json"
  },
    {
 "LogName": "Dezerie Info",

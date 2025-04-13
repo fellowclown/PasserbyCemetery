@@ -1,772 +1,1009 @@
 {
-    "Changes": [
-      //////////////////USe Hutch
-      {
+"Changes": [
+  {
+  "LogName": "Add Animal Shop",
+  "Action": "EditMap",
+  "Target": "Maps/{{ModID}}_LyellsHouse",
+    "Update": "OnLocationChange",
+  "When": {
+  "HasFlag |contains={{ModID}}_GainedLicense.Mail": true,
+  },
+  "MapTiles": [
+{
+  "Position": {
+"X": 8,
+"Y": 18
+  },
+  "Layer": "Buildings",
+  "SetProperties": {
+"Action": "mushymato.LivestockBazaar_Shop {{ModID}}_LyellsAnimalBook down"
+  },
+
+}
+  ]
+},
+{
+"LogName": "Death Bird",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": { 
+"{{ModID}}_DeathBird": {
+"DisplayName": "{{i18n:FC.DeathBird}}",
+"House": "{{ModID}}_TropicalCoopSmall",
+"Gender": "Female",
+"PurchasePrice":800,
+"SellPrice": 750,
+"ShopTexture": "LooseSprites\\FC.DeathBird_Icon",
+"ShopSourceRect": {
+"X": 0,
+"Y": 0,
+"Width":32,
+"Height": 16
+},
+"ShopDisplayName": "{{i18n:FC.DeathBird}}",
+"ShopDescription": "{{i18n:FC.DeathBird.Desc}}",
+"ShopMissingBuildingDescription": "{{i18n:FC.MissingBuildingCoop}}",
+"RequiredBuilding": "{{ModID}}_TropicalCoopSmall",
+"UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+"EggItemIds": [ "{{ModID}}_DeathBirdEgg" ],
+"IncubationTime": 15000,
+"IncubatorParentSheetOffset": 1,
+"BirthText": "{{i18n:FC.DeathBirdHatch}}",
+"DaysToMature": 3,
+"CanGetPregnant": false,
+"DaysToProduce": 3,
+"HarvestType": "DropOvernight",
+"ProduceItemIds": [
+{
+"Id": "{{ModID}}_DeaBirdEggDrop",
+"Condition": null,
+"MinimumFriendship": 0,
+"ItemId": "{{ModID}}_DeathBirdEgg"
+},
+],
+"DeluxeProduceItemIds": [
+{
+"Id": "{{ModID}}_DeaBirdBoneFragmentDrop",
+"Condition": "RANDOM 0.2",
+"MinimumFriendship": 250,
+"ItemId": "881"
+},
+],
+"ProduceOnMature": true,
+"ProfessionForHappinessBoost": 11,
+"ProfessionForQualityBoost": 11,
+"ProfessionForFasterProduce": 11,
+"Sound": "bob",
+"BabySound": "bob",
+"Texture": "Animals\\FC.DeathBird_Adult_Blue",
+"BabyTexture": "Animals\\FC.DeathBird_Baby_Blue",
+"Skins":[
+{
+"ID": "FC.DeathBird_Gold",
+"Weight": 1.0,
+"Texture": "Animals\\FC.DeathBird_Adult_Gold",
+"BabyTexture": "Animals\\FC.DeathBird_Baby_Gold"
+},
+ {
+"ID": "FC.DeathBird_Green",
+"Weight": 1.0,
+"Texture": "FC.DeathBird_Adult_Green",
+"BabyTexture": "FC.DeathBird_Baby_Green"
+},
+{
+"ID": "FC.DeathBird_Purple",
+"Weight": 2.0,
+"Texture": "Animals\\FC.DeathBird_Adult_Purple",
+"BabyTexture": "Animals\\FC.DeathBird_Baby_Purple"
+},
+{
+"ID": "FC.DeathBird_Blue",
+"Weight": 3.0,
+"Texture": "Animals\\FC.DeathBird_Adult_Blue",
+"BabyTexture": "Animals\\FC.DeathBird_Baby_Blue"
+},
+],
+"UseFlippedRightForLeft": true,
+"UseDoubleUniqueAnimationFrames": false,
+"SleepFrame": 17,
+"SpriteWidth": 16,
+"SpriteHeight": 16,
+"ShadowWhenBaby": { "Visible": true },
+"ShadowWhenBabySwims": { "Visible": false },
+"ShadowWhenAdult": { "Visible": true },
+"ShadowWhenAdultSwims": { "Visible": false },
+"CanSwim": false,
+"BabiesFollowAdults": true,
+"GrassEatAmount": 2,
+"HappinessDrain": 1,
+"UpDownPetHitboxTileSize": "1, 1",
+"LeftRightPetHitboxTileSize": "1, 1",
+"BabyUpDownPetHitboxTileSize": "1, 1",
+"BabyLeftRightPetHitboxTileSize": "1, 1",
+"StatToIncrementOnProduce": [
+],
+"ShowInSummitCredits": false,
+"CustomFields": {
+"mushymato.LivestockBazaar/BuyFrom.Marnie": "{{PreLicense}}",
+"mushymato.LivestockBazaar/BuyFrom.{{ModID}}_LyellsAnimalBook": true,
+}
+}
+}
+},
+{
+"LogName": "MiniPhant",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": { 
+"{{ModID}}_MiniPhant": {
+"DisplayName": "{{i18n:FC.MiniPhant}}",
+"House": "{{ModID}}_TropicalCoopSmall",
+"Gender": "MaleOrFemale",
+"PurchasePrice": 1000,
+"SellPrice": 600,
+"ShopTexture": "LooseSprites\\FC.MiniPhant_Icon",
+"ShopSourceRect": {
+"X": 0,
+"Y": 0,
+"Width":32,
+"Height": 16
+},
+"ShopDisplayName": "{{i18n:FC.MiniPhant}}",
+"ShopDescription": "{{i18n:FC.MiniPhant.Desc}}",
+"ShopMissingBuildingDescription": "{{i18n:FC.MissingBuildingCoop}}",
+"RequiredBuilding": "{{ModID}}_TropicalCoopSmall",
+"UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+"EggItemIds": [],
+"IncubationTime": -1,
+"IncubatorParentSheetOffset": -1,
+"BirthText": "{{i18n:FC.MiniPhantBirth}}",
+"DaysToMature": 3,
+"CanGetPregnant": true,
+"DaysToProduce": 3,
+"HarvestType": "DropOvernight",
+"ProduceItemIds": [
+{
+"Id": "{{ModID}}_MiniPhantTuskDrop",
+"Condition": "RANDOM 0.6",
+"MinimumFriendship": 0,
+"ItemId": "{{ModID}}_MiniPhantTusk"
+},
+],
+"ProduceOnMature": true,
+"ProfessionForHappinessBoost": 11,
+"ProfessionForQualityBoost": 11,
+"ProfessionForFasterProduce": 11,
+"Sound": "wind",
+"BabySound": "wind",
+"Texture": "Animals\\FC.MiniPhant_Adult_Gray",
+"BabyTexture": "Animals\\FC.MiniPhant_Baby_Gray",
+"Skins":[
+{
+"ID": "FC.MiniPhant_Gray",
+"Weight": 3.0,
+"Texture": "Animals\\FC.MiniPhant_Adult_Gray",
+"BabyTexture": "Animals\\FC.MiniPhant_Baby_Gray"
+},
+ {
+"ID": "FC.MiniPhant_Blue",
+"Weight": 2.0,
+"Texture": "Animals\\FC.MiniPhant_Adult_Blue",
+"BabyTexture": "Animals\\FC.MiniPhant_Baby_Blue"
+},
+{
+"ID": "FC.MiniPhant_Pale",
+"Weight": 1.0,
+"Texture": "Animals\\FC.MiniPhant_Adult_Pale",
+"BabyTexture": "Animals\\FC.MiniPhant_Baby_Pale"
+},
+{
+"ID": "FC.MiniPhant_Pink",
+"Weight": 1.0,
+"Texture": "Animals\\FC.MiniPhant_Adult_Pink",
+"BabyTexture": "Animals\\FC.MiniPhant_Baby_Pink"
+},
+],
+"UseFlippedRightForLeft": true,
+"UseDoubleUniqueAnimationFrames": false,
+"SleepFrame": 23,
+"SpriteWidth": 16,
+"SpriteHeight": 16,
+"ShadowWhenBaby": { "Visible": true },
+"ShadowWhenBabySwims": { "Visible": false },
+"ShadowWhenAdult": { "Visible": true },
+"ShadowWhenAdultSwims": { "Visible": false },
+"CanSwim": false,
+"BabiesFollowAdults": true,
+"GrassEatAmount": 2,
+"HappinessDrain": 1,
+"UpDownPetHitboxTileSize": "1, 1",
+"LeftRightPetHitboxTileSize": "1, 1",
+"BabyUpDownPetHitboxTileSize": "1, 1",
+"BabyLeftRightPetHitboxTileSize": "1, 1",
+ "StatToIncrementOnProduce": [
+],
+"ShowInSummitCredits": false,
+"CustomFields": {
+"mushymato.LivestockBazaar/BuyFrom.Marnie": "{{PreLicense}}",
+"mushymato.LivestockBazaar/BuyFrom.{{ModID}}_LyellsAnimalBook": true,
+}
+}
+}
+},
+{
  "LogName": "Thylacine",
 "Action": "EditData",
 "Target": "Data/FarmAnimals",
 "Entries": {
 
 "{{ModID}}_Thylacine": {
-    "DisplayName": "{{i18n:FC.Thylacine}}",
-    "House": "Fellowclown.ClownCore_SmallTropicalHutch",
-    "Gender": "MaleOrFemale",
-    "PurchasePrice": 2800,
-    "SellPrice": 2600,
-    "ShopTexture": "LooseSprites\\FC.Tazzy_Icon",
-    "ShopSourceRect": {
-      "X": 0,
-      "Y": 0,
-      "Width": 32,
-      "Height": 16
-    },
-    "ShopDisplayName": "{{i18n:FC.Thylacine}}",
-    "ShopDescription": "{{i18n:FC.Thylacine.Desc}}",
-    "ShopMissingBuildingDescription": "{{i18n:FC.MissingBuilding}}",
-    "RequiredBuilding": null,
-    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
-    "AlternatePurchaseTypes": null,
-    "EggItemIds": null,
-    "IncubationTime": -1,
-    "IncubatorParentSheetOffset": 1,
-    "BirthText": "{{i18n:FC.ThylacineBirth}}",
-    "DaysToMature": 10,
-    "CanGetPregnant": true,
-    "DaysToProduce": 1,
-    "HarvestType": "DropOvernight",
-    "HarvestTool": null,
-    "ProduceItemIds": [
-      {
-        "Id": "Default",
-        "Condition": null,
-        "MinimumFriendship": 200,
-        "ItemId": "{{ModID}}_GemBirdMeat"
-      }
-    ],
-    "DeluxeProduceItemIds": null,
-    "ProduceOnMature": true,
-    "FriendshipForFasterProduce": 1,
-    "DeluxeProduceMinimumFriendship": 200,
-    "DeluxeProduceCareDivisor": 1200.0,
-    "DeluxeProduceLuckMultiplier": 0.0,
-    "ProfessionForHappinessBoost": 3,
-    "ProfessionForQualityBoost": 3,
-    "ProfessionForFasterProduce": -1,
-    "Sound": "{{ModID}}_Thylacine",
-    "BabySound": "{{ModID}}_Thylacine",
-    "Texture": "Animals\\FC.Thylacine_Adult_Black",
-    "HarvestedTexture": null,
-    "BabyTexture": "Animals\\FC.Thylacine_Baby_Black",
-    "UseFlippedRightForLeft": true,
-    "UseDoubleUniqueAnimationFrames": false,
-    "SleepFrame": 12,
-    "SpriteWidth": 32,
-    "SpriteHeight": 32,
-    "EmoteOffset": {
-      "X": 0,
-      "Y": 0
-    },
-     "Skins": [
-        {
-              "ID": "{{ModID}}_BlackThylacine",
-              "Weight": 2.0,
-              "Texture": "Animals\\FC.Thylacine_Adult_Black",
-              "BabyTexture": "Animals\\FC.Thylacine_Baby_Black"
-            },
-             {
-              "ID": "{{ModID}}_BrownThylacine",
-            "Weight": 4.00,
-              "Texture": "Animals\\FC.Thylacine_Adult_Brown",
-              "BabyTexture": "Animals\\FC.Thylacine_Baby_Brown"
-            },
-             {
-              "ID": "{{ModID}}_PaleThylacine",
-              "Texture": "Animals\\FC.Thylacine_Adult_Pale",
-              "Weight": 1.0,
-              "BabyTexture": "Animals\\FC.Thylacine_Baby_Pale"
-            },
-             {
-              "ID": "{{ModID}}_RedThylacine",
-               "Weight": 3.0,
-              "Texture": "Animals\\FC.Thylacine_Adult_Red",
-              "BabyTexture": "Animals\\FC.Thylacine_Baby_Red"
-            },
-          ],
-     "ShadowWhenBaby" :
-   {
-  "Visible" : false, // not actually needed, is true if omitted
+"DisplayName": "{{i18n:FC.Thylacine}}",
+"House": "Fellowclown.ClownCore_SmallTropicalHutch",
+"Gender": "MaleOrFemale",
+"PurchasePrice": 2800,
+"SellPrice": 2600,
+"ShopTexture": "LooseSprites\\FC.Tazzy_Icon",
+"ShopSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 32,
+"Height": 16
 },
-  "ShadowWhenAdult" : {
-  "Visible" : false, // not actually needed, is true if omitted
-},
-  "ShadowWhenBabySwims" : {
-  "Visible" : false, // not actually needed, is true if omitted
-},
-  "ShadowWhenAdultSwims" : {
-  "Visible" : false, // not actually needed, is true if omitted
-},
-    "CanSwim": false,
-    "BabiesFollowAdults": true,
-    "GrassEatAmount": 3,
-    "HappinessDrain": 3,
-    "UpDownPetHitboxTileSize": "1.5, 1.75",
-    "LeftRightPetHitboxTileSize": "1.75, 1.25",
-    "BabyUpDownPetHitboxTileSize": "1, 1.75",
-    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
-    "StatToIncrementOnProduce": null,
-    "ShowInSummitCredits": false,
-    "CustomFields": {}
-   }
-},
-},
+"ShopDisplayName": "{{i18n:FC.Thylacine}}",
+"ShopDescription": "{{i18n:FC.Thylacine.Desc}}",
+"ShopMissingBuildingDescription": "{{i18n:FC.MissingBuilding}}",
+"RequiredBuilding": "Fellowclown.ClownCore_SmallTropicalHutch",
+"UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+"AlternatePurchaseTypes": null,
+"EggItemIds": null,
+"IncubationTime": -1,
+"IncubatorParentSheetOffset": 1,
+"BirthText": "{{i18n:FC.ThylacineBirth}}",
+"DaysToMature": 5,
+"CanGetPregnant": true,
+"DaysToProduce": 1,
+"HarvestType": "DropOvernight",
+"HarvestTool": null,
+"ProduceItemIds": [
+{
+"Id": "{{ModID}}_FishDrop",
+"Condition": null,
+"MinimumFriendship": 0,
+"ItemId": "{{Random:{{ModID}}_IficusFish,{{ModID}}_DancerFish,{{ModID}}_RiverBedJelly,{{ModID}}_GraveCrab,{{ModID}}_GulpFish}}"
+}
+],
+"DeluxeProduceItemIds": [
   {
+"Id": "{{ModID}}_GemBirdMeatDrop",
+"Condition": "RANDOM 0.4",
+"MinimumFriendship": 250,
+"ItemId": "{{ModID}}_GemBirdMeat"
+}
+],
+"ProduceOnMature": true,
+"FriendshipForFasterProduce": 1,
+"DeluxeProduceMinimumFriendship": 200,
+"DeluxeProduceCareDivisor": 1200.0,
+"DeluxeProduceLuckMultiplier": 0.0,
+"ProfessionForHappinessBoost": 3,
+"ProfessionForQualityBoost": 3,
+"ProfessionForFasterProduce": -1,
+"Sound": "{{ModID}}_Thylacine",
+"BabySound": "{{ModID}}_Thylacine",
+"Texture": "Animals\\FC.Thylacine_Adult_Black",
+"HarvestedTexture": null,
+"BabyTexture": "Animals\\FC.Thylacine_Baby_Black",
+"UseFlippedRightForLeft": true,
+"UseDoubleUniqueAnimationFrames": false,
+"SleepFrame": 12,
+"SpriteWidth": 32,
+"SpriteHeight": 32,
+"EmoteOffset": {
+"X": 0,
+"Y": 0
+},
+ "Skins": [
+{
+"ID": "{{ModID}}_BlackThylacine",
+"Weight": 2.0,
+"Texture": "Animals\\FC.Thylacine_Adult_Black",
+"BabyTexture": "Animals\\FC.Thylacine_Baby_Black"
+},
+ {
+"ID": "{{ModID}}_BrownThylacine",
+"Weight": 4.00,
+"Texture": "Animals\\FC.Thylacine_Adult_Brown",
+"BabyTexture": "Animals\\FC.Thylacine_Baby_Brown"
+},
+ {
+"ID": "{{ModID}}_PaleThylacine",
+"Texture": "Animals\\FC.Thylacine_Adult_Pale",
+"Weight": 1.0,
+"BabyTexture": "Animals\\FC.Thylacine_Baby_Pale"
+},
+ {
+"ID": "{{ModID}}_RedThylacine",
+ "Weight": 3.0,
+"Texture": "Animals\\FC.Thylacine_Adult_Red",
+"BabyTexture": "Animals\\FC.Thylacine_Baby_Red"
+},
+],
+ "ShadowWhenBaby" :
+ {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenAdult" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenBabySwims" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenAdultSwims" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"CanSwim": false,
+"BabiesFollowAdults": true,
+"GrassEatAmount": 3,
+"HappinessDrain": 3,
+"UpDownPetHitboxTileSize": "1.5, 1.75",
+"LeftRightPetHitboxTileSize": "1.75, 1.25",
+"BabyUpDownPetHitboxTileSize": "1, 1.75",
+"BabyLeftRightPetHitboxTileSize": "1.75, 1",
+"StatToIncrementOnProduce": null,
+"ShowInSummitCredits": false,
+"CustomFields": {
+"mushymato.LivestockBazaar/BuyFrom.Marnie": "{{PreLicense}}",
+"mushymato.LivestockBazaar/BuyFrom.{{ModID}}_LyellsAnimalBook": true,
+}
+ }
+},
+},
+{
  "LogName": "Warthog",
 "Action": "EditData",
 "Target": "Data/FarmAnimals",
 "Entries": {
 "{{ModID}}_Warthog": {
-    "DisplayName": "{{i18n:FC.Warthog}}",
-    "House": "Fellowclown.ClownCore_SmallTropicalHutch",
-    "Gender": "MaleOrFemale",
-    "PurchasePrice": 1600,
-    "SellPrice": 1400,
-    "ShopTexture": "LooseSprites\\FC.Warthog_Icon",
-    "ShopSourceRect": {
-      "X": 0,
-      "Y": 0,
-      "Width": 32,
-      "Height": 16
-    },
-    "ShopDisplayName": "{{i18n:FC.Warthog}}",
-    "ShopDescription": "{{i18n:FC.Warthog.Desc}}",
-    "ShopMissingBuildingDescription": "{{i18n:FC.MissingBuilding}}",
-    "RequiredBuilding": null,
-    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
-    "AlternatePurchaseTypes": null,
-    "EggItemIds": null,
-    "IncubationTime": -1,
-    "IncubatorParentSheetOffset": 1,
-    "BirthText": "{{i18n:FC.WarthogBirth}}",
-    "DaysToMature": 10,
-    "CanGetPregnant": true,
-    "DaysToProduce": 6,
-    "HarvestType": "DropOvernight",
-    "HarvestTool": null,
-    "ProduceItemIds": [
-      {
-        "Id": "Default",
-        "Condition": null,
-        "MinimumFriendship": 0,
-        "ItemId": "{{ModID}}_WhiteTruffle"
-      }
-    ],
-    "DeluxeProduceItemIds": [],
-    "ProduceOnMature": true,
-    "FriendshipForFasterProduce": -1,
-    "DeluxeProduceMinimumFriendship": 200,
-    "DeluxeProduceCareDivisor": 1200.0,
-    "DeluxeProduceLuckMultiplier": 0.0,
-    "ProfessionForHappinessBoost": 3,
-    "ProfessionForQualityBoost": 3,
-    "ProfessionForFasterProduce": -1,
-    "Sound": "pig",
-    "BabySound": "pig",
-    "Texture": "Animals\\FC.Warthog_Adult_Black",
-    "HarvestedTexture": null,
-    "BabyTexture": "Animals\\FC.Warthog_Baby_Black",
-    "UseFlippedRightForLeft": true,
-    "UseDoubleUniqueAnimationFrames": false,
-    "SleepFrame": 12,
-    "SpriteWidth": 32,
-    "SpriteHeight": 32,
-    "EmoteOffset": {
-      "X": 0,
-      "Y": 0
-    },
-    "Skins": [
-        {
-              "ID": "{{ModID}}_BlackWarthog",
-              "Weight": 2.0,
-              "Texture": "Animals\\FC.Warthog_Adult_Black",
-              "BabyTexture": "Animals\\FC.Warthog_Baby_Black"
-            },
-             {
-              "ID": "{{ModID}}_BrownWarthog",
-              "Weight": 4.00,
-              "Texture": "Animals\\FC.Warthog_Adult_Brown",
-              "BabyTexture": "Animals\\FC.Warthog_Baby_Brown"
-            },
-             {
-              "ID": "{{ModID}}_PaleWarthog",
-              "Texture": "Animals\\FC.Warthog_Adult_Pale",
-              "Weight": 1.0,
-              "BabyTexture": "Animals\\FC.Warthog_Baby_Pale"
-            },
-             {
-              "ID": "{{ModID}}_RedWarthog",
-              "Weight": 3.0,
-              "Texture": "Animals\\FC.Warthog_Adult_Red",
-              "BabyTexture": "Animals\\FC.Warthog_Baby_Red"
-            },
-          ],
-    "ShadowWhenBaby" :
-   {
-  "Visible" : false, // not actually needed, is true if omitted
+"DisplayName": "{{i18n:FC.Warthog}}",
+"House": "Fellowclown.ClownCore_SmallTropicalHutch",
+"Gender": "MaleOrFemale",
+"PurchasePrice": 1600,
+"SellPrice": 1400,
+"ShopTexture": "LooseSprites\\FC.Warthog_Icon",
+"ShopSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 32,
+"Height": 16
 },
-  "ShadowWhenAdult" : {
-  "Visible" : false, // not actually needed, is true if omitted
+"ShopDisplayName": "{{i18n:FC.Warthog}}",
+"ShopDescription": "{{i18n:FC.Warthog.Desc}}",
+"ShopMissingBuildingDescription": "{{i18n:FC.MissingBuilding}}",
+"RequiredBuilding": "Fellowclown.ClownCore_SmallTropicalHutch",
+"UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+"AlternatePurchaseTypes": null,
+"EggItemIds": null,
+"IncubationTime": -1,
+"IncubatorParentSheetOffset": 1,
+"BirthText": "{{i18n:FC.WarthogBirth}}",
+"DaysToMature": 5,
+"CanGetPregnant": true,
+"DaysToProduce": 6,
+"HarvestType": "DropOvernight",
+"HarvestTool": null,
+"ProduceItemIds": [
+{
+"Id": "{{ModID}}_WhiteTruffleDrop",
+"Condition": "RANDOM 0.2",
+"MinimumFriendship": 0,
+"ItemId": "{{ModID}}_WhiteTruffle"
+}
+],
+"DeluxeProduceItemIds": [],
+"ProduceOnMature": true,
+"FriendshipForFasterProduce": -1,
+"DeluxeProduceMinimumFriendship": 200,
+"DeluxeProduceCareDivisor": 1200.0,
+"DeluxeProduceLuckMultiplier": 0.0,
+"ProfessionForHappinessBoost": 3,
+"ProfessionForQualityBoost": 3,
+"ProfessionForFasterProduce": -1,
+"Sound": "pig",
+"BabySound": "pig",
+"Texture": "Animals\\FC.Warthog_Adult_Black",
+"HarvestedTexture": null,
+"BabyTexture": "Animals\\FC.Warthog_Baby_Black",
+"UseFlippedRightForLeft": true,
+"UseDoubleUniqueAnimationFrames": false,
+"SleepFrame": 12,
+"SpriteWidth": 32,
+"SpriteHeight": 32,
+"EmoteOffset": {
+"X": 0,
+"Y": 0
 },
-  "ShadowWhenBabySwims" : {
-  "Visible" : false, // not actually needed, is true if omitted
+"Skins": [
+{
+"ID": "{{ModID}}_BlackWarthog",
+"Weight": 2.0,
+"Texture": "Animals\\FC.Warthog_Adult_Black",
+"BabyTexture": "Animals\\FC.Warthog_Baby_Black"
 },
-  "ShadowWhenAdultSwims" : {
-  "Visible" : false, // not actually needed, is true if omitted
+ {
+"ID": "{{ModID}}_BrownWarthog",
+"Weight": 4.00,
+"Texture": "Animals\\FC.Warthog_Adult_Brown",
+"BabyTexture": "Animals\\FC.Warthog_Baby_Brown"
 },
-    "CanSwim": false,
-    "BabiesFollowAdults": true,
-    "GrassEatAmount": 4,
-    "HappinessDrain": 3,
-    "UpDownPetHitboxTileSize": "1.5, 1.75",
-    "LeftRightPetHitboxTileSize": "1.75, 1.25",
-    "BabyUpDownPetHitboxTileSize": "1, 1.75",
-    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
-    "StatToIncrementOnProduce": null,
-    "ShowInSummitCredits": false,
-    "CustomFields": {}
-  },
+ {
+"ID": "{{ModID}}_PaleWarthog",
+"Texture": "Animals\\FC.Warthog_Adult_Pale",
+"Weight": 1.0,
+"BabyTexture": "Animals\\FC.Warthog_Baby_Pale"
+},
+ {
+"ID": "{{ModID}}_RedWarthog",
+"Weight": 3.0,
+"Texture": "Animals\\FC.Warthog_Adult_Red",
+"BabyTexture": "Animals\\FC.Warthog_Baby_Red"
+},
+],
+"ShadowWhenBaby" :
+ {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenAdult" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenBabySwims" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenAdultSwims" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"CanSwim": false,
+"BabiesFollowAdults": true,
+"GrassEatAmount": 4,
+"HappinessDrain": 3,
+"UpDownPetHitboxTileSize": "1.5, 1.75",
+"LeftRightPetHitboxTileSize": "1.75, 1.25",
+"BabyUpDownPetHitboxTileSize": "1, 1.75",
+"BabyLeftRightPetHitboxTileSize": "1.75, 1",
+"StatToIncrementOnProduce": null,
+"ShowInSummitCredits": false,
+"CustomFields": {
+"mushymato.LivestockBazaar/BuyFrom.Marnie": "{{PreLicense}}",
+"mushymato.LivestockBazaar/BuyFrom.{{ModID}}_LyellsAnimalBook": true,
+}
+},
 },
 },
  {
  "LogName": "ArcaGoat",
 "Action": "EditData",
 "Target": "Data/FarmAnimals",
- "When": {
-         "AnimalHouse": "Hutch",
-
-       },
 "Entries": {
 "{{ModID}}_ArcaGoat": {
-    "DisplayName": "{{i18n:FC.ArcaGoat}}",
-    "House": "Fellowclown.ClownCore_SmallTropicalHutch",
-    "Gender": "MaleOrFemale",
-    "PurchasePrice": 2000,
-    "SellPrice": 1000,
-    "ShopTexture": "LooseSprites\\FC.ArcaGoat_Icon",
-    "ShopSourceRect": {
-      "X": 0,
-      "Y": 0,
-      "Width": 32,
-      "Height": 32
-    },
-    "ShopDisplayName": "{{i18n:FC.ArcaGoat}}",
-    "ShopDescription": "{{i18n:FC.ArcaGoat.Desc}}",
-    "ShopMissingBuildingDescription": "{{i18n:FC.MissingBuilding}}",
-    "RequiredBuilding": null,
-    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
-    "AlternatePurchaseTypes": null,
-    "EggItemIds": null,
-    "IncubationTime": -1,
-    "IncubatorParentSheetOffset": 1,
-    "BirthText": "{{i18n:FC.ArcaGoatBirth}}",
-    "DaysToMature": 6,
-    "CanGetPregnant": true,
-    "DaysToProduce": 2,
-    "HarvestType": "HarvestWithTool",
-    "HarvestTool": "Milk Pail",
-    "ProduceItemIds": [
-      {
-        "Id": "Default",
-        "Condition": null,
-        "MinimumFriendship": 0,
-        "ItemId": "{{ModID}}_SmallArcaGoatMilk"
-      }
-    ],
-    "DeluxeProduceItemIds": [
-        {
-        "Id": "Default",
-        "Condition": null,
-        "MinimumFriendship": 350,
-        "ItemId": "{{ModID}}_LargeArcaGoatMilk"
-      }
-    ],
-    "ProduceOnMature": true,
-    "FriendshipForFasterProduce": 250,
-    "DeluxeProduceMinimumFriendship": 700,
-    "DeluxeProduceCareDivisor": 1200.0,
-    "DeluxeProduceLuckMultiplier": 0.0,
-    "ProfessionForHappinessBoost": 2,
-    "ProfessionForQualityBoost": 1,
-    "ProfessionForFasterProduce": 2,
-    "Sound": "goat",
-    "BabySound": "goat",
-    "Texture": "Animals\\FC.ArcaGoat_Adult_Brown",
-    "HarvestedTexture": null,
-    "BabyTexture": "Animals\\FC.ArcaGoat_Baby_Brown",
-    "UseFlippedRightForLeft": true,
-    "SpriteWidth": 32,
-    "SpriteHeight": 32,
-    "EmoteOffset": {
-      "X": 0,
-      "Y": 0
-    },
-    "Skins": [
-         {
-              "ID": "{{ModID}}_ArcaGoatBrown",
-               "Weight": 4.00,
-              "Texture": "Animals\\FC.ArcaGoat_Adult_Brown",
-              "BabyTexture": "Animals\\FC.ArcaGoat_Baby_Brown"
-            },
-            {
-              "ID": "{{ModID}}_ArcaGoatBlue",
-              "Weight": 3.0,
-              "Texture": "Animals\\FC.ArcaGoat_Adult_Blue",
-              "BabyTexture": "Animals\\FC.ArcaGoat_Baby_Blue"
-            },
-            {
-              "ID": "{{ModID}}_ArcaGoatPale",
-              "Weight": 1.0,
-              "Texture": "Animals\\FC.ArcaGoat_Adult_Pale",
-              "BabyTexture": "Animals\\FC.ArcaGoat_Baby_Pale"
-            },
-            {
-              "ID": "{{ModID}}_ArcaGoatBlack",
-              "Weight": 2.0,
-              "Texture": "Animals\\FC.ArcaGoat_Adult_Black",
-              "BabyTexture": "Animals\\FC.ArcaGoat_Baby_Black"
-            },
-          ],
-    "ShadowWhenBaby" :
-   {
-  "Visible" : true, // not actually needed, is true if omitted
+"DisplayName": "{{i18n:FC.ArcaGoat}}",
+"House": "{{ModID}}_TropicalCoopSmall",
+"Gender": "MaleOrFemale",
+"PurchasePrice": 2000,
+"SellPrice": 1000,
+"ShopTexture": "LooseSprites\\FC.ArcaGoat_Icon",
+"ShopSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 32,
+"Height": 16
 },
-  "ShadowWhenAdult" : {
-  "Visible" : true, // not actually needed, is true if omitted
+"ShopDisplayName": "{{i18n:FC.ArcaGoat}}",
+"ShopDescription": "{{i18n:FC.ArcaGoat.Desc}}",
+"ShopMissingBuildingDescription": "{{i18n:FC.MissingBuildingCoop}}",
+"RequiredBuilding": "{{ModID}}_TropicalCoopSmall",
+"UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+"AlternatePurchaseTypes": null,
+"EggItemIds": null,
+"IncubationTime": -1,
+"IncubatorParentSheetOffset": 1,
+"BirthText": "{{i18n:FC.ArcaGoatBirth}}",
+"DaysToMature": 3,
+"CanGetPregnant": true,
+"DaysToProduce": 2,
+"HarvestType": "HarvestWithTool",
+"HarvestTool": "Milk Pail",
+"ProduceItemIds": [
+{
+"Id": "{{ModID}}_SmallArcaGoatMilkDrop",
+"Condition": null,
+"MinimumFriendship": 0,
+"ItemId": "{{ModID}}_SmallArcaGoatMilk"
+}
+],
+"DeluxeProduceItemIds": [
+{
+"Id": "{{ModID}}_LargeArcaGoatMilkDrop",
+"Condition": "RANDOM 0.5",
+"MinimumFriendship": 350,
+"ItemId": "{{ModID}}_LargeArcaGoatMilk"
+}
+],
+"ProduceOnMature": true,
+"FriendshipForFasterProduce": 250,
+"DeluxeProduceMinimumFriendship": 700,
+"DeluxeProduceCareDivisor": 1200.0,
+"DeluxeProduceLuckMultiplier": 0.0,
+"ProfessionForHappinessBoost": 2,
+"ProfessionForQualityBoost": 1,
+"ProfessionForFasterProduce": 2,
+"Sound": "goat",
+"BabySound": "goat",
+"Texture": "Animals\\FC.ArcaGoat_Adult_Brown",
+"HarvestedTexture": null,
+"BabyTexture": "Animals\\FC.ArcaGoat_Baby_Brown",
+"UseFlippedRightForLeft": true,
+"SpriteWidth": 16,
+"SpriteHeight": 16,
+"EmoteOffset": {
+"X": 0,
+"Y": 0
 },
-  "ShadowWhenBabySwims" : {
-  "Visible" : false, // not actually needed, is true if omitted
+"Skins": [
+ {
+"ID": "{{ModID}}_ArcaGoatBrown",
+ "Weight": 4.00,
+"Texture": "Animals\\FC.ArcaGoat_Adult_Brown",
+"BabyTexture": "Animals\\FC.ArcaGoat_Baby_Brown"
 },
-  "ShadowWhenAdultSwims" : {
-  "Visible" : false, // not actually needed, is true if omitted
+{
+"ID": "{{ModID}}_ArcaGoatBlue",
+"Weight": 3.0,
+"Texture": "Animals\\FC.ArcaGoat_Adult_Blue",
+"BabyTexture": "Animals\\FC.ArcaGoat_Baby_Blue"
 },
-    "CanSwim": false,
-    "BabiesFollowAdults": true,
-    "GrassEatAmount": 4,
-    "HappinessDrain": 3,
-    "UpDownPetHitboxTileSize": "1.5, 1.75",
-    "LeftRightPetHitboxTileSize": "1.75, 1.25",
-    "BabyUpDownPetHitboxTileSize": "1, 1.75",
-    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
-    "StatToIncrementOnProduce": null,
-    "ShowInSummitCredits": false,
-    "CustomFields": {}
-  },
+{
+"ID": "{{ModID}}_ArcaGoatPale",
+"Weight": 1.0,
+"Texture": "Animals\\FC.ArcaGoat_Adult_Pale",
+"BabyTexture": "Animals\\FC.ArcaGoat_Baby_Pale"
+},
+{
+"ID": "{{ModID}}_ArcaGoatBlack",
+"Weight": 2.0,
+"Texture": "Animals\\FC.ArcaGoat_Adult_Black",
+"BabyTexture": "Animals\\FC.ArcaGoat_Baby_Black"
+},
+],
+"ShadowWhenBaby" :
+ {
+"Visible" : true, // not actually needed, is true if omitted
+},
+"ShadowWhenAdult" : {
+"Visible" : true, // not actually needed, is true if omitted
+},
+"ShadowWhenBabySwims" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenAdultSwims" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"CanSwim": false,
+"BabiesFollowAdults": true,
+"GrassEatAmount": 2,
+"HappinessDrain": 1,
+"UpDownPetHitboxTileSize": "1.5, 1.75",
+"LeftRightPetHitboxTileSize": "1.75, 1.25",
+"BabyUpDownPetHitboxTileSize": "1, 1.75",
+"BabyLeftRightPetHitboxTileSize": "1.75, 1",
+"StatToIncrementOnProduce": null,
+"ShowInSummitCredits": false,
+"CustomFields": {
+"mushymato.LivestockBazaar/BuyFrom.Marnie": "{{PreLicense}}",
+"mushymato.LivestockBazaar/BuyFrom.{{ModID}}_LyellsAnimalBook": true,
+}
+},
 },
 },
 {
  "LogName": "MaleMovoraptor",
 "Action": "EditData",
 "Target": "Data/FarmAnimals",
- "When": {
-         "AnimalHouse": "Hutch",
-
-       },
 "Entries": {
 "{{ModID}}_MaleMovoraptor": {
-    "DisplayName": "{{i18n:FC.MaleMovoraptor}}",
-    "House": "Fellowclown.ClownCore_SmallTropicalHutch",
-    "Gender": "Male",
-    "PurchasePrice": -1,
-    "SellPrice": -1,
-    "ShopTexture": null,
-    "ShopSourceRect": {
-      "X": 0,
-      "Y": 0,
-      "Width": 32,
-      "Height": 16
-    },
-    "ShopDisplayName": null,
-    "ShopDescription": null,
-    "ShopMissingBuildingDescription":  null,
-    "RequiredBuilding":null,
-    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
-    "AlternatePurchaseTypes": null,
-   "EggItemIds": [ "{{ModID}}_MaleMovoraptorEgg" ],
-    "IncubationTime": -1,
-    "IncubatorParentSheetOffset": 1,
-    "BirthText": "{{i18n:FC.MovoraptorHatch}}",
-    "DaysToMature": 6,
-    "CanGetPregnant": true,
-    "DaysToProduce": 3,
-    "HarvestType": "DropOvernight",
-    "HarvestTool": null,
-    "ProduceItemIds": [
-      {
-        "Id": "Default",
-        "Condition": null,
-        "MinimumFriendship": 0,
-        "ItemId": "{{ModID}}_ArcaCoin"
-      }
-    ],
-    "DeluxeProduceItemIds": [
-      {
-        "Id": "DefaultLarge",
-        "Condition": null,
-        "MinimumFriendship": 350,
-        "ItemId": "{{ModID}}_MovoraptorFeather"
-      }
-    ],
-    "ProduceOnMature": false,
-    "FriendshipForFasterProduce": -1,
-    "DeluxeProduceMinimumFriendship": 200,
-    "DeluxeProduceCareDivisor": 1200.0,
-    "DeluxeProduceLuckMultiplier": 0.0,
-    "ProfessionForHappinessBoost": 3,
-    "ProfessionForQualityBoost": 3,
-    "ProfessionForFasterProduce": -1,
-    "Sound": "{{ModID}}_Movoraptor",
-    "BabySound": null,
-    "Texture": "Animals\\FC.Movoraptor_Male_Adult_Green",
-    "HarvestedTexture": null,
-    "BabyTexture": "Animals\\FC.Movoraptor_Male_Baby_Green",
-    "UseFlippedRightForLeft": false,
-    "SpriteWidth": 32,
-    "SpriteHeight": 32,
-    "SleepFrame": 17,
-    "EmoteOffset": {
-      "X": 0,
-      "Y": 0
-    },
-    "Skins":[
-         {
-              "ID": "FC.Movoraptor_Male_Green",
-               "Weight": 4.0,
-              "Texture": "Animals\\FC.Movoraptor_Male_Adult_Green",
-              "BabyTexture": "Animals\\FC.Movoraptor_Male_Baby_Green"
-            },
-             {
-              "ID": "FC.Movoraptor_Male_Blue",
-              "Weight": 3.00,
-              "Texture": "Animals\\FC.Movoraptor_Male_Adult_Blue",
-              "BabyTexture": "Animals\\FC.Movoraptor_Male_Baby_Blue"
-            },
-             {
-              "ID": "FC.Movoraptor_Male_Yellow",
-              "Texture": "Animals\\FC.Movoraptor_Male_Adult_Yellow",
-              "Weight": 2.0,
-              "BabyTexture": "Animals\\FC.Movoraptor_Male_Baby_Yellow"
-            },
-             {
-              "ID": "{{ModID}}Movoraptor_Male_Pale",
-              "Weight": 1.0,
-              "Texture": "Animals\\FC.Movoraptor_Male_Adult_Pale",
-              "BabyTexture": "Animals\\FC.Movoraptor_Male_Baby_Pale"
-            },
-          ],
-    "ShadowWhenBaby" :
-   {
-  "Visible" : false, // not actually needed, is true if omitted
+"DisplayName": "{{i18n:FC.MaleMovoraptor}}",
+"House": "Fellowclown.ClownCore_SmallTropicalHutch",
+"Gender": "Male",
+"PurchasePrice": -1,
+"SellPrice": 2000,
+"ShopTexture": null,
+"ShopSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 32,
+"Height": 16
 },
-  "ShadowWhenAdult" : {
-  "Visible" : false, // not actually needed, is true if omitted
+"ShopDisplayName": null,
+"ShopDescription": null,
+"ShopMissingBuildingDescription":null,
+"RequiredBuilding": "Fellowclown.ClownCore_SmallTropicalHutch",
+"UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+"AlternatePurchaseTypes": null,
+ "EggItemIds": [ "{{ModID}}_MaleMovoraptorEgg" ],
+"IncubationTime": 18000,
+"IncubatorParentSheetOffset": 1,
+"BirthText": "{{i18n:FC.MovoraptorHatch}}",
+"DaysToMature": 5,
+"CanGetPregnant": true,
+"DaysToProduce": 3,
+"HarvestType": "DropOvernight",
+"HarvestTool": null,
+"ProduceItemIds": [
+{
+"Id": "{{ModID}}_MovoCoindrop",
+"Condition": null,
+"MinimumFriendship": 750,
+"ItemId": "{{ModID}}_ArcaCoin"
+}
+],
+"DeluxeProduceItemIds": [
+{
+"Id": "{{ModID}}_MovoFeatherDrop",
+"Condition": null,
+"MinimumFriendship": 0,
+"ItemId": "{{ModID}}_MovoraptorFeather"
+}
+],
+"ProduceOnMature": false,
+"FriendshipForFasterProduce": -1,
+"DeluxeProduceMinimumFriendship": 200,
+"DeluxeProduceCareDivisor": 1200.0,
+"DeluxeProduceLuckMultiplier": 0.0,
+"ProfessionForHappinessBoost": 3,
+"ProfessionForQualityBoost": 3,
+"ProfessionForFasterProduce": -1,
+"Sound": "{{ModID}}_Movoraptor",
+"BabySound": null,
+"Texture": "Animals\\FC.Movoraptor_Male_Adult_Green",
+"HarvestedTexture": null,
+"BabyTexture": "Animals\\FC.Movoraptor_Male_Baby_Green",
+"UseDoubleUniqueAnimationFrames": false,
+"UseFlippedRightForLeft": true,
+"SpriteWidth": 32,
+"SpriteHeight": 32,
+"SleepFrame": 17,
+"EmoteOffset": {
+"X": 0,
+"Y": 0
 },
-  "ShadowWhenBabySwims" : {
-  "Visible" : false, // not actually needed, is true if omitted
+"Skins":[
+ {
+"ID": "FC.Movoraptor_Male_Green",
+ "Weight": 4.0,
+"Texture": "Animals\\FC.Movoraptor_Male_Adult_Green",
+"BabyTexture": "Animals\\FC.Movoraptor_Male_Baby_Green"
 },
-  "ShadowWhenAdultSwims" : {
-  "Visible" : false, // not actually needed, is true if omitted
+ {
+"ID": "FC.Movoraptor_Male_Blue",
+"Weight": 3.00,
+"Texture": "Animals\\FC.Movoraptor_Male_Adult_Blue",
+"BabyTexture": "Animals\\FC.Movoraptor_Male_Baby_Blue"
 },
-    "CanSwim": false,
-    "BabiesFollowAdults": true,
-    "GrassEatAmount": 4,
-    "HappinessDrain": 5,
-    "UpDownPetHitboxTileSize": "1, 1.75",
-    "LeftRightPetHitboxTileSize": "1.75, 1.25",
-    "BabyUpDownPetHitboxTileSize": "1, 1.75",
-    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
-    "StatToIncrementOnProduce": null,
-    "ShowInSummitCredits": false,
-    "CustomFields": {}
-  }
-  }
+ {
+"ID": "FC.Movoraptor_Male_Yellow",
+"Texture": "Animals\\FC.Movoraptor_Male_Adult_Yellow",
+"Weight": 2.0,
+"BabyTexture": "Animals\\FC.Movoraptor_Male_Baby_Yellow"
+},
+ {
+"ID": "{{ModID}}Movoraptor_Male_Pale",
+"Weight": 1.0,
+"Texture": "Animals\\FC.Movoraptor_Male_Adult_Pale",
+"BabyTexture": "Animals\\FC.Movoraptor_Male_Baby_Pale"
+},
+],
+"ShadowWhenBaby" :
+ {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenAdult" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenBabySwims" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenAdultSwims" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"CanSwim": false,
+"BabiesFollowAdults": true,
+"GrassEatAmount": 4,
+"HappinessDrain": 5,
+"UpDownPetHitboxTileSize": "1, 1.75",
+"LeftRightPetHitboxTileSize": "1.75, 1.25",
+"BabyUpDownPetHitboxTileSize": "1, 1.75",
+"BabyLeftRightPetHitboxTileSize": "1.75, 1",
+"StatToIncrementOnProduce": null,
+"ShowInSummitCredits": false,
+"CustomFields": { 
+}
+}
+}
 },
 {
  "LogName": "Movoraptor",
 "Action": "EditData",
 "Target": "Data/FarmAnimals",
- "When": {
-         "AnimalHouse": "Hutch",
-
-       },
 "Entries": {
 "{{ModID}}_Movoraptor": {
-    "DisplayName": "{{i18n:FC.Movoraptor}}",
-    "House": "Fellowclown.ClownCore_SmallTropicalHutch",
-    "Gender": "Female",
-    "PurchasePrice": 2500,
-    "SellPrice": 1500,
-    "ShopTexture": "LooseSprites\\FC.Movo_Icon",
-    "ShopSourceRect": {
-      "X": 0,
-      "Y": 0,
-      "Width": 32,
-      "Height": 16
-    },
-    "ShopDisplayName": "{{i18n:FC.Movoraptor}}",
-    "ShopDescription": "{{i18n:FC.Movoraptor.desc}}",
-    "ShopMissingBuildingDescription":  "{{i18n:FC.MissingBuilding}}",
-    "RequiredBuilding": null,
-    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
-    "AlternatePurchaseTypes": [
-    ],
-  "EggItemIds": [ "{{ModID}}_MovoraptorEgg" ],
-   "IncubationTime": 18000,
-    "IncubatorParentSheetOffset": 1,
-    "BirthText": "{{i18n:FC.MovoraptorHatch}}",
-    "DaysToMature": 6,
-    "CanGetPregnant": false,
-    "DaysToProduce": 3,
-    "HarvestType": "DropOvernight",
-    "HarvestTool": null,
-    "ProduceItemIds": [
-      {
-        "Id": "Default",
-        "Condition": null,
-        "MinimumFriendship": 0,
-        "ItemId": "{{ModID}}_RiverBedJelly"
-      }
-    ],
-    "DeluxeProduceItemIds": [
-      {
-        "Id": "Default",
-        "Condition": "RANDOM 0.2 @addDailyLuck",
-        "MinimumFriendship": 500,
-        "ItemId": "{{ModID}}_MaleMovoraptorEgg"
-      },
-      {
-        "Id": "Default",
-        "Condition": null,
-        "MinimumFriendship": 500,
-        "ItemId": "{{ModID}}_MovoraptorEgg"
-      }
-    ],
-    "ProduceOnMature": true,
-    "FriendshipForFasterProduce": 1000,
-    "DeluxeProduceMinimumFriendship": 250,
-    "DeluxeProduceCareDivisor": 1000.0,
-    "DeluxeProduceLuckMultiplier": 0.0,
-    "ProfessionForHappinessBoost": 2,
-    "ProfessionForQualityBoost": 2,
-    "ProfessionForFasterProduce":2,
-    "Sound": "{{ModID}}_Movoraptor",
-    "BabySound": "{{ModID}}_Movoraptor",
-    "Texture": "Animals\\FC.Movoraptor_Purple_Adult",
-    "HarvestedTexture": null,
-    "BabyTexture": "Animals\\FC.Movoraptor_Purple_Baby",
-    "UseFlippedRightForLeft": false,
-    "UseDoubleUniqueAnimationFrames": true,
-    "SpriteWidth": 32,
-    "SpriteHeight": 32,
-    "SleepFrame": 17,
-    "EmoteOffset": {
-      "X": 0,
-      "Y": 0
-    },
-     "SwimOffset": {
-      "X": 0,
-      "Y": 224
-    },
-    "Skins":[
-       {
-              "ID": "{{ModID}}_BlackMovoraptor",
-               "Weight": 2.00,
-              "Texture": "Animals\\FC.Movoraptor_Black_Adult",
-              "BabyTexture": "Animals\\FC.Movoraptor_Black_Baby"
-            },
-         {
-              "ID": "{{ModID}}_BlueMovoraptor",
-               "Weight": 2.00,
-              "Texture": "Animals\\FC.Movoraptor_Blue_Adult",
-              "BabyTexture": "Animals\\FC.Movoraptor_Blue_Baby"
-            },
-            {
-              "ID": "{{ModID}}_PinkMovoraptor",
-              "Weight": 1.0,
-              "Texture": "Animals\\FC.Movoraptor_Pink_Adult",
-              "BabyTexture": "Animals\\FC.Movoraptor_Pink_Baby"
-            },
-            {
-              "ID": "{{ModID}}_PurpleMovoraptor",
-              "Weight": 3.0,
-              "Texture": "Animals\\FC.Movoraptor_Purple_Adult",
-              "BabyTexture": "Animals\\FC.Movoraptor_Purple_Baby"
-            },
-            {
-              "ID": "{{ModID}}_PaleMovoraptor",
-              "Weight": 0.001,
-              "Texture": "Animals\\FC.Movoraptor_Pale_Adult",
-              "BabyTexture": "Animals\\FC.Movoraptor_Pale_Baby"
-            },
-          ],
-  "ShadowWhenBaby" :
-   {
-  "Visible" : true, // not actually needed, is true if omitted
+"DisplayName": "{{i18n:FC.Movoraptor}}",
+"House": "Fellowclown.ClownCore_SmallTropicalHutch",
+"Gender": "Female",
+"PurchasePrice": 2500,
+"SellPrice": 1500,
+"ShopTexture": "LooseSprites\\FC.Movo_Icon",
+"ShopSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 32,
+"Height": 16
 },
-  "ShadowWhenAdult" : {
-  "Visible" : true, // not actually needed, is true if omitted
+"ShopDisplayName": "{{i18n:FC.Movoraptor}}",
+"ShopDescription": "{{i18n:FC.Movoraptor.desc}}",
+"ShopMissingBuildingDescription":"{{i18n:FC.MissingBuilding}}",
+"RequiredBuilding": "Fellowclown.ClownCore_SmallTropicalHutch",
+"UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+"AlternatePurchaseTypes": [
+],
+"EggItemIds": [ "{{ModID}}_MovoraptorEgg" ],
+ "IncubationTime": 18000,
+"IncubatorParentSheetOffset": 1,
+"BirthText": "{{i18n:FC.MovoraptorHatch}}",
+"DaysToMature":4,
+"CanGetPregnant": false,
+"DaysToProduce": 3,
+"HarvestType": "DropOvernight",
+"HarvestTool": null,
+"ProduceItemIds": [
+{
+"Id": "{{ModID}}_FemaleMovoEggDrop",
+"Condition": null,
+"MinimumFriendship": 0,
+"ItemId": "{{ModID}}_MovoraptorEgg"
+}
+],
+"DeluxeProduceItemIds": [
+{
+"Id": "{{ModID}}_MaleMovoEggDrop",
+"Condition": "RANDOM 0.1 @addDailyLuck",
+"MinimumFriendship": 500,
+"ItemId": "{{ModID}}_MaleMovoraptorEgg"
 },
-  "ShadowWhenBabySwims" : {
-  "Visible" : true, // not actually needed, is true if omitted
+{
+"Id": "{{ModID}}_RiverBedJellyDrop",
+"Condition": "RANDOM 0.2,SEASON Winter",
+"MinimumFriendship": 250,
+"ItemId": "{{ModID}}_RiverBedJelly"
 },
-  "ShadowWhenAdultSwims" : {
-  "Visible" : true, // not actually needed, is true if omitted
+],
+"ProduceOnMature": true,
+"FriendshipForFasterProduce": 1000,
+"DeluxeProduceMinimumFriendship": 250,
+"DeluxeProduceCareDivisor": 1000.0,
+"DeluxeProduceLuckMultiplier": 0.0,
+"ProfessionForHappinessBoost": 2,
+"ProfessionForQualityBoost": 2,
+"ProfessionForFasterProduce":2,
+"Sound": "{{ModID}}_Movoraptor",
+"BabySound": "{{ModID}}_Movoraptor",
+"Texture": "Animals\\FC.Movoraptor_Purple_Adult",
+"HarvestedTexture": null,
+"BabyTexture": "Animals\\FC.Movoraptor_Purple_Baby",
+"UseFlippedRightForLeft": false,
+"UseDoubleUniqueAnimationFrames": true,
+"SpriteWidth": 32,
+"SpriteHeight": 32,
+"SleepFrame": 17,
+"EmoteOffset": {
+"X": 0,
+"Y": 0
 },
-    "CanSwim": true,
-    "BabiesFollowAdults": true,
-    "GrassEatAmount":4,
-    "HappinessDrain":2,
-    "UpDownPetHitboxTileSize": "1.5, 2",
-    "LeftRightPetHitboxTileSize": "2, 2",
-    "BabyUpDownPetHitboxTileSize": "1, 1",
-    "BabyLeftRightPetHitboxTileSize": "1, 1",
-  "StatToIncrementOnProduce": [
-      {
-        "RequiredItemId": null,
-        "RequiredTags": [
-          "egg_item"
-        ],
-        "StatName": "ChickenEggsLayed"
-      }
-    ],
-    "ShowInSummitCredits": false,
-    "CustomFields": {}
-  }
+ "SwimOffset": {
+"X": 0,
+"Y": 224
+},
+"Skins":[
+ {
+"ID": "{{ModID}}_BlackMovoraptor",
+ "Weight": 2.00,
+"Texture": "Animals\\FC.Movoraptor_Black_Adult",
+"BabyTexture": "Animals\\FC.Movoraptor_Black_Baby"
+},
+ {
+"ID": "{{ModID}}_BlueMovoraptor",
+ "Weight": 2.00,
+"Texture": "Animals\\FC.Movoraptor_Blue_Adult",
+"BabyTexture": "Animals\\FC.Movoraptor_Blue_Baby"
+},
+{
+"ID": "{{ModID}}_PinkMovoraptor",
+"Weight": 1.0,
+"Texture": "Animals\\FC.Movoraptor_Pink_Adult",
+"BabyTexture": "Animals\\FC.Movoraptor_Pink_Baby"
+},
+{
+"ID": "{{ModID}}_PurpleMovoraptor",
+"Weight": 3.0,
+"Texture": "Animals\\FC.Movoraptor_Purple_Adult",
+"BabyTexture": "Animals\\FC.Movoraptor_Purple_Baby"
+},
+{
+"ID": "{{ModID}}_PaleMovoraptor",
+"Weight": 0.001,
+"Texture": "Animals\\FC.Movoraptor_Pale_Adult",
+"BabyTexture": "Animals\\FC.Movoraptor_Pale_Baby"
+},
+],
+"ShadowWhenBaby" :
+ {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenAdult" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenBabySwims" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenAdultSwims" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"CanSwim": true,
+"BabiesFollowAdults": true,
+"GrassEatAmount":4,
+"HappinessDrain":2,
+"UpDownPetHitboxTileSize": "1.5, 2",
+"LeftRightPetHitboxTileSize": "2, 2",
+"BabyUpDownPetHitboxTileSize": "1, 1",
+"BabyLeftRightPetHitboxTileSize": "1, 1",
+"StatToIncrementOnProduce": [
+{
+"RequiredItemId": null,
+"RequiredTags": [
+"egg_item"
+],
+"StatName": "ChickenEggsLayed"
+}
+],
+"ShowInSummitCredits": false,
+"CustomFields": {
+"mushymato.LivestockBazaar/BuyFrom.Marnie": "{{PreLicense}}",
+"mushymato.LivestockBazaar/BuyFrom.{{ModID}}_LyellsAnimalBook": true,
+}
+}
 },
 },
 {
  "LogName": "ArcaCow",
 "Action": "EditData",
 "Target": "Data/FarmAnimals",
- "When": {
-         "AnimalHouse": "Hutch",
-
-       },
 "Entries": {
 "{{ModID}}_ArcaCow": {
-    "DisplayName": "{{i18n:FC.ArcaCow}}",
-    "House": "Fellowclown.ClownCore_SmallTropicalHutch",
-    "Gender": "MaleOrFemale",
-    "PurchasePrice": 3500,
-    "SellPrice": 4000,
-    "ShopTexture": "LooseSprites\\FC.ArcaCow_Icon",
-    "ShopSourceRect": {
-      "X": 0,
-      "Y": 0,
-      "Width": 32,
-      "Height": 16
-    },
-    "ShopDisplayName": "{{i18n:FC.ArcaCow}}",
-    "ShopDescription": "{{i18n:FC.ArcaCow.desc}}",
-    "ShopMissingBuildingDescription":  "{{i18n:FC.MissingBuilding}}",
-    "RequiredBuilding":null,
-    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
-    "AlternatePurchaseTypes": null,
-    "EggItemIds": null,
-    "IncubationTime": -1,
-    "IncubatorParentSheetOffset": 1,
-    "BirthText": "{{i18n:FC.ArcaCowBirth}}",
-    "DaysToMature": 8,
-    "CanGetPregnant": true,
-    "DaysToProduce": 2,
-    "HarvestType": "HarvestWithTool",
-    "HarvestTool": "Milk Pail",
-    "ProduceItemIds": [
-      {
-        "Id": "Default",
-        "Condition": null,
-        "MinimumFriendship": 0,
-        "ItemId": "{{ModID}}_SmallGaleabisonMilk"
-      }
-    ],
-    "DeluxeProduceItemIds": [
-      {
-        "Id": "DefaultLarge",
-        "Condition": null,
-        "MinimumFriendship": 350,
-        "ItemId": "{{ModID}}_LargeGaleabisonMilk"
-      }
-    ],
-    "ProduceOnMature": false,
-    "FriendshipForFasterProduce": -1,
-    "DeluxeProduceMinimumFriendship": 200,
-    "DeluxeProduceCareDivisor": 1200.0,
-    "DeluxeProduceLuckMultiplier": 0.0,
-    "ProfessionForHappinessBoost": 3,
-    "ProfessionForQualityBoost": 3,
-    "ProfessionForFasterProduce": -1,
-    "Sound": "cow",
-    "BabySound": null,
-    "Texture": "Animals\\FC.ArcaCow_Adult_Black",
-    "HarvestedTexture": null,
-    "BabyTexture": "Animals\\FC.ArcaCow_Baby_Black",
-    "UseFlippedRightForLeft": true,
-    "SpriteWidth": 32,
-    "SpriteHeight": 32,
-    "EmoteOffset": {
-      "X": 0,
-      "Y": 0
-    },
-    "Skins":[
-         {
-              "ID": "{{ModID}}_BlackArcaCow",
-               "Weight": 2.0,
-              "Texture": "Animals\\FC.ArcaCow_Adult_Black",
-              "BabyTexture": "Animals\\FC.ArcaCow_Baby_Black"
-            },
-             {
-              "ID": "{{ModID}}_BrownArcaCow",
-              "Weight": 3.00,
-              "Texture": "Animals\\FC.ArcaCow_Adult_Brown",
-              "BabyTexture": "Animals\\FC.ArcaCow_Baby_Brown"
-            },
-             {
-              "ID": "{{ModID}}_PaleArcaCow",
-              "Texture": "Animals\\FC.ArcaCow_Adult_Pale",
-              "Weight": 1.0,
-              "BabyTexture": "Animals\\FC.ArcaCow_Baby_Pale"
-            },
-             {
-              "ID": "{{ModID}}_RedArcaCow",
-              "Weight": 4.0,
-              "Texture": "Animals\\FC.ArcaCow_Adult_Red",
-              "BabyTexture": "Animals\\FC.ArcaCow_Baby_Red"
-            },
-          ],
-    "ShadowWhenBaby" :
-   {
-  "Visible" : true, // not actually needed, is true if omitted
+"DisplayName": "{{i18n:FC.ArcaCow}}",
+"House": "Fellowclown.ClownCore_SmallTropicalHutch",
+"Gender": "MaleOrFemale",
+"PurchasePrice": 3500,
+"SellPrice": 4000,
+"ShopTexture": "LooseSprites\\FC.ArcaCow_Icon",
+"ShopSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 32,
+"Height": 16
 },
-  "ShadowWhenAdult" : {
-  "Visible" : true, // not actually needed, is true if omitted
+"ShopDisplayName": "{{i18n:FC.ArcaCow}}",
+"ShopDescription": "{{i18n:FC.ArcaCow.desc}}",
+"ShopMissingBuildingDescription":"{{i18n:FC.MissingBuilding}}",
+"RequiredBuilding": "Fellowclown.ClownCore_SmallTropicalHutch",
+"UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+"AlternatePurchaseTypes": null,
+"EggItemIds": null,
+"IncubationTime": -1,
+"IncubatorParentSheetOffset": 1,
+"BirthText": "{{i18n:FC.ArcaCowBirth}}",
+"DaysToMature": 4,
+"CanGetPregnant": true,
+"DaysToProduce": 2,
+"HarvestType": "HarvestWithTool",
+"HarvestTool": "Milk Pail",
+"ProduceItemIds": [
+{
+"Id": "{{ModID}}_SmallGaleabisonMilkDrop",
+"Condition": null,
+"MinimumFriendship": 0,
+"ItemId": "{{ModID}}_SmallGaleabisonMilk"
+}
+],
+"DeluxeProduceItemIds": [
+{
+"Id": "{{ModID}}_LargeGaleabisonMilkDrop",
+"Condition": "RANDOM 0.5",
+"MinimumFriendship": 350,
+"ItemId": "{{ModID}}_LargeGaleabisonMilk"
+}
+],
+"ProduceOnMature": false,
+"FriendshipForFasterProduce": -1,
+"DeluxeProduceMinimumFriendship": 200,
+"DeluxeProduceCareDivisor": 1200.0,
+"DeluxeProduceLuckMultiplier": 0.0,
+"ProfessionForHappinessBoost": 3,
+"ProfessionForQualityBoost": 3,
+"ProfessionForFasterProduce": -1,
+"Sound": "cow",
+"BabySound": null,
+"Texture": "Animals\\FC.ArcaCow_Adult_Black",
+"HarvestedTexture": null,
+"BabyTexture": "Animals\\FC.ArcaCow_Baby_Black",
+"UseFlippedRightForLeft": true,
+"SpriteWidth": 32,
+"SpriteHeight": 32,
+"EmoteOffset": {
+"X": 0,
+"Y": 0
 },
-  "ShadowWhenBabySwims" : {
-  "Visible" : false, // not actually needed, is true if omitted
+"Skins":[
+ {
+"ID": "{{ModID}}_BlackArcaCow",
+ "Weight": 2.0,
+"Texture": "Animals\\FC.ArcaCow_Adult_Black",
+"BabyTexture": "Animals\\FC.ArcaCow_Baby_Black"
 },
-  "ShadowWhenAdultSwims" : {
-  "Visible" : false, // not actually needed, is true if omitted
+ {
+"ID": "{{ModID}}_BrownArcaCow",
+"Weight": 3.00,
+"Texture": "Animals\\FC.ArcaCow_Adult_Brown",
+"BabyTexture": "Animals\\FC.ArcaCow_Baby_Brown"
 },
-    "CanSwim": false,
-    "BabiesFollowAdults": true,
-    "GrassEatAmount": 4,
-    "HappinessDrain": 5,
-    "UpDownPetHitboxTileSize": "1, 1.75",
-    "LeftRightPetHitboxTileSize": "1.75, 1.25",
-    "BabyUpDownPetHitboxTileSize": "1, 1.75",
-    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
-    "StatToIncrementOnProduce": null,
-    "ShowInSummitCredits": false,
-    "CustomFields": {}
-  }
-  }
+ {
+"ID": "{{ModID}}_PaleArcaCow",
+"Texture": "Animals\\FC.ArcaCow_Adult_Pale",
+"Weight": 1.0,
+"BabyTexture": "Animals\\FC.ArcaCow_Baby_Pale"
+},
+ {
+"ID": "{{ModID}}_RedArcaCow",
+"Weight": 4.0,
+"Texture": "Animals\\FC.ArcaCow_Adult_Red",
+"BabyTexture": "Animals\\FC.ArcaCow_Baby_Red"
+},
+],
+"ShadowWhenBaby" :
+ {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenAdult" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenBabySwims" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenAdultSwims" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"CanSwim": false,
+"BabiesFollowAdults": true,
+"GrassEatAmount": 4,
+"HappinessDrain": 5,
+"UpDownPetHitboxTileSize": "1, 1.75",
+"LeftRightPetHitboxTileSize": "1.75, 1.25",
+"BabyUpDownPetHitboxTileSize": "1, 1.75",
+"BabyLeftRightPetHitboxTileSize": "1.75, 1",
+"StatToIncrementOnProduce": null,
+"ShowInSummitCredits": false,
+"CustomFields": {
+"mushymato.LivestockBazaar/BuyFrom.Marnie": "{{PreLicense}}",
+"mushymato.LivestockBazaar/BuyFrom.{{ModID}}_LyellsAnimalBook": true,
+}
+}
+}
 },
 {
  "LogName": "ArcaTapi",
@@ -774,128 +1011,131 @@
 "Target": "Data/FarmAnimals",
 "Entries": {
 "{{ModID}}_ArcaTapi": {
-    "DisplayName": "{{i18n:FC.ArcaTapi}}",
-    "House": "Fellowclown.ClownCore_SmallTropicalHutch",
-    "Gender": "MaleOrFemale",
-    "PurchasePrice": 3500,
-    "SellPrice": 2000,
-    "ShopTexture": "LooseSprites\\FC.Tapi_Icon",
-    "ShopSourceRect": {
-      "X": 0,
-      "Y": 0,
-      "Width": 32,
-      "Height": 16
-    },
-    "ShopDisplayName": "{{i18n:FC.ArcaTapi}}",
-    "ShopDescription": "{{i18n:FC.ArcaTapi.desc}}",
-    "ShopMissingBuildingDescription":  "{{i18n:FC.MissingBuilding}}",
-    "RequiredBuilding": null,
-    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
-    "AlternatePurchaseTypes": null,
-    "EggItemIds": null,
-    "IncubationTime": -1,
-    "IncubatorParentSheetOffset": 1,
-    "BirthText": "{{i18n:FC.ArcaTapiBirth}}",
-    "DaysToMature": 8,
-    "CanGetPregnant": true,
-    "DaysToProduce": 1,
-    "HarvestType": "DropOvernight",
-    "HarvestTool": null,
-    "ProduceItemIds": [
-      {
-        "Id": "Default",
-        "Condition": null,
-        "MinimumFriendship": 0,
-        "ItemId": "390"
-      }
-    ],
-    "DeluxeProduceItemIds": [
-      {
-        "Id": "Default",
-        "Condition": null,
-        "MinimumFriendship": 300,
-        "ItemId": "{{ModID}}_WarpRoot"
-      }
-    ],
-    "ProduceOnMature": true,
-    "FriendshipForFasterProduce": 500,
-    "DeluxeProduceMinimumFriendship": 200,
-    "DeluxeProduceCareDivisor": 1200.0,
-    "DeluxeProduceLuckMultiplier": 1.0,
-    "ProfessionForHappinessBoost": 3,
-    "ProfessionForQualityBoost": 3,
-    "ProfessionForFasterProduce": -1,
-    "Sound": "pig",
-    "BabySound": "pig",
-    "Texture": "Animals\\FC.ArcaTapi_Adult_Black",
-    "HarvestedTexture": null,
-    "BabyTexture": "Animals\\FC.ArcaTapi_Baby_Black",
-    "UseFlippedRightForLeft": true,
-    "SpriteWidth": 32,
-    "SpriteHeight": 32,
-    "EmoteOffset": {
-      "X": 0,
-      "Y": 0
-    },
-    "Skins":[
-         {
-              "ID": "{{ModID}}_BlackArcaTapi",
-               "Weight": 2.0,
-              "Texture": "Animals\\FC.ArcaTapi_Adult_Black",
-              "BabyTexture": "Animals\\FC.ArcaTapi_Baby_Black"
-            },
-             {
-              "ID": "{{ModID}}_BrownArcaTapi",
-              "Weight": 3.0,
-              "Texture": "Animals\\FC.ArcaTapi_Adult_Brown",
-              "BabyTexture": "Animals\\FC.ArcaTapi_Baby_Brown"
-            },
-             {
-              "ID": "{{ModID}}_PaleArcaTapi",
-              "Texture": "Animals\\FC.ArcaTapi_Adult_Pale",
-              "Weight": 1.0,
-              "BabyTexture": "Animals\\FC.ArcaTapi_Baby_Pale"
-            },
-             {
-              "ID": "{{ModID}}_RedArcaTapi",
-              "Weight": 4.0,
-              "Texture": "Animals\\FC.ArcaTapi_Adult_Red",
-              "BabyTexture": "Animals\\FC.ArcaTapi_Baby_Red"
-            },
-          ],
-    "ShadowWhenBaby" :
-   {
-  "Visible" : true, // not actually needed, is true if omitted
+"DisplayName": "{{i18n:FC.ArcaTapi}}",
+"House": "Fellowclown.ClownCore_SmallTropicalHutch",
+"Gender": "MaleOrFemale",
+"PurchasePrice": 3500,
+"SellPrice": 2000,
+"ShopTexture": "LooseSprites\\FC.Tapi_Icon",
+"ShopSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 32,
+"Height": 16
 },
-  "ShadowWhenAdult" : {
-  "Visible" : true, // not actually needed, is true if omitted
+"ShopDisplayName": "{{i18n:FC.ArcaTapi}}",
+"ShopDescription": "{{i18n:FC.ArcaTapi.desc}}",
+"ShopMissingBuildingDescription":"{{i18n:FC.MissingBuilding}}",
+"RequiredBuilding": "Fellowclown.ClownCore_SmallTropicalHutch",
+"UnlockCondition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+"AlternatePurchaseTypes": null,
+"EggItemIds": null,
+"IncubationTime": -1,
+"IncubatorParentSheetOffset": 1,
+"BirthText": "{{i18n:FC.ArcaTapiBirth}}",
+"DaysToMature": 5,
+"CanGetPregnant": true,
+"DaysToProduce": 1,
+"HarvestType": "DropOvernight",
+"HarvestTool": null,
+"ProduceItemIds": [
+{
+"Id": "{{ModID}}_StoneDrop",
+"Condition": null,
+"MinimumFriendship": 0,
+"ItemId": "390"
+}
+],
+"DeluxeProduceItemIds": [
+{
+"Id": "{{ModID}}_WarpRootDrop",
+"Condition": "RANDOM 0.2,SEASON Fall",
+"MinimumFriendship": 300,
+"ItemId": "{{ModID}}_WarpRoot"
+}
+],
+"ProduceOnMature": true,
+"FriendshipForFasterProduce": 500,
+"DeluxeProduceMinimumFriendship": 200,
+"DeluxeProduceCareDivisor": 1200.0,
+"DeluxeProduceLuckMultiplier": 1.0,
+"ProfessionForHappinessBoost": 3,
+"ProfessionForQualityBoost": 3,
+"ProfessionForFasterProduce": -1,
+"Sound": "pig",
+"BabySound": "pig",
+"Texture": "Animals\\FC.ArcaTapi_Adult_Black",
+"HarvestedTexture": null,
+"BabyTexture": "Animals\\FC.ArcaTapi_Baby_Black",
+"UseFlippedRightForLeft": true,
+"SpriteWidth": 32,
+"SpriteHeight": 32,
+"EmoteOffset": {
+"X": 0,
+"Y": 0
 },
-  "ShadowWhenBabySwims" : {
-  "Visible" : false, // not actually needed, is true if omitted
+"Skins":[
+ {
+"ID": "{{ModID}}_BlackArcaTapi",
+ "Weight": 2.0,
+"Texture": "Animals\\FC.ArcaTapi_Adult_Black",
+"BabyTexture": "Animals\\FC.ArcaTapi_Baby_Black"
 },
-  "ShadowWhenAdultSwims" : {
-  "Visible" : false, // not actually needed, is true if omitted
+ {
+"ID": "{{ModID}}_BrownArcaTapi",
+"Weight": 3.0,
+"Texture": "Animals\\FC.ArcaTapi_Adult_Brown",
+"BabyTexture": "Animals\\FC.ArcaTapi_Baby_Brown"
 },
-    "CanSwim": false,
-    "BabiesFollowAdults": true,
-    "GrassEatAmount": 4,
-    "HappinessDrain": 5,
-    "UpDownPetHitboxTileSize": "1, 1.75",
-    "LeftRightPetHitboxTileSize": "1.75, 1.25",
-    "BabyUpDownPetHitboxTileSize": "1, 1.75",
-    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
-    "StatToIncrementOnProduce": null,
-    "ShowInSummitCredits": false,
-    "CustomFields": {}
-  }
-  }
+ {
+"ID": "{{ModID}}_PaleArcaTapi",
+"Texture": "Animals\\FC.ArcaTapi_Adult_Pale",
+"Weight": 1.0,
+"BabyTexture": "Animals\\FC.ArcaTapi_Baby_Pale"
+},
+ {
+"ID": "{{ModID}}_RedArcaTapi",
+"Weight": 4.0,
+"Texture": "Animals\\FC.ArcaTapi_Adult_Red",
+"BabyTexture": "Animals\\FC.ArcaTapi_Baby_Red"
+},
+],
+"ShadowWhenBaby" :
+ {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenAdult" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenBabySwims" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"ShadowWhenAdultSwims" : {
+"Visible" : false, // not actually needed, is true if omitted
+},
+"CanSwim": false,
+"BabiesFollowAdults": true,
+"GrassEatAmount": 4,
+"HappinessDrain": 5,
+"UpDownPetHitboxTileSize": "1, 1.75",
+"LeftRightPetHitboxTileSize": "1.75, 1.25",
+"BabyUpDownPetHitboxTileSize": "1, 1.75",
+"BabyLeftRightPetHitboxTileSize": "1.75, 1",
+"StatToIncrementOnProduce": null,
+"ShowInSummitCredits": false,
+"CustomFields": {
+"mushymato.LivestockBazaar/BuyFrom.Marnie": "{{PreLicense}}",
+"mushymato.LivestockBazaar/BuyFrom.{{ModID}}_LyellsAnimalBook": true,
+}
+}
+}
 },
 {
-        "LogName": "Raphus",
-        "Action": "EditData",
-        "Target": "Data/FarmAnimals",
-        "Entries": { 
-            "{{ModID}}_Raphus": {
+"LogName": "Raphus",
+"Action": "EditData",
+"Target": "Data/FarmAnimals",
+"Entries": { 
+"{{ModID}}_Raphus": {
 "DisplayName": "{{i18n:FC.Raphus}}",
 "House": "Fellowclown.ClownCore_SmallTropicalHutch",
 "Gender": "MaleOrFemale",
@@ -908,31 +1148,27 @@
 "Width":32,
 "Height": 16
 },
+"ShopDisplayName": "{{i18n:FC.Raphus}}",
+"ShopDescription": "{{i18n:FC.Raphus.Desc}}",
 "ShopMissingBuildingDescription": "{{i18n:FC.MissingBuilding}}",
-"RequiredBuilding": null,
+"RequiredBuilding": "Fellowclown.ClownCore_SmallTropicalHutch",
 "UnlockCondition":"PLAYER_HAS_MAIL Current {{ModID}}_RaphusEgg.Mail",
 "EggItemIds": [ "{{ModID}}_RaphusEgg" ],
 "IncubationTime": 4500,
 "IncubatorParentSheetOffset": 1,
 "BirthText": "{{i18n:FC.RaphusHatch}}",
-"DaysToMature": 7,
+"DaysToMature": 4,
 "CanGetPregnant": false,
 "DaysToProduce": 3,
 "HarvestType": "DropOvernight",
 "ProduceItemIds": [
-                      {
-  "Id": "{{ModID}}_RaphusEgg",
-  "Condition": null,
-  "MinimumFriendship": 0,
-  "ItemId": "{{ModID}}_RaphusEgg"
-                      },
-                         {
-  "Id": "DodoBread",
-  "Condition": null,
-  "MinimumFriendship": 200,
-  "ItemId": "216"
-                      },
-                    ],
+{
+"Id": "{{ModID}}_RaphusEggDrop",
+"Condition": null,
+"MinimumFriendship": 0,
+"ItemId": "{{ModID}}_RaphusEgg"
+},
+],
 "ProduceOnMature": true,
 "ProfessionForHappinessBoost": 11,
 "ProfessionForQualityBoost": 11,
@@ -974,7 +1210,7 @@
 "SpriteHeight": 32,
 "ShadowWhenBaby": { "Visible": true },
 "ShadowWhenBabySwims": { "Visible": false },
-"ShadowWhenAdult": { "Visible": true },
+"ShadowWhenAdult": { "Visible": false },
 "ShadowWhenAdultSwims": { "Visible": false },
 "CanSwim": false,
 "BabiesFollowAdults": true,
@@ -984,10 +1220,13 @@
 "LeftRightPetHitboxTileSize": "1, 1",
 "BabyUpDownPetHitboxTileSize": "1, 1",
 "BabyLeftRightPetHitboxTileSize": "1, 1",
-   "StatToIncrementOnProduce": [
+ "StatToIncrementOnProduce": [
 ],
 "ShowInSummitCredits": true,
-"CustomFields": {}
+"CustomFields": {
+"mushymato.LivestockBazaar/BuyFrom.Marnie": "{{PreLicense}}",
+"mushymato.LivestockBazaar/BuyFrom.{{ModID}}_LyellsAnimalBook": true,
+}
 }
 }
 },

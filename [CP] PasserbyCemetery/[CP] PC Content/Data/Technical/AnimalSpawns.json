@@ -16,12 +16,6 @@
 "HomeTileY": 6,
 "Condition": ""
 },
-}
-},
-	{
-"Action": "EditData",
-"Target": "MEEP/FarmAnimals/SpawnData",
-"Entries": {
 "{{ModID}}_Curly": {
 "AnimalId": "{{ModID}}_Curly",
 "Age": 0,
@@ -34,15 +28,9 @@
 "HomeTileY": 10,
 "Condition": ""
 },
-}
-},
-{
-"Action": "EditData",
-"Target": "MEEP/FarmAnimals/SpawnData",
-"Entries": {
-"{{ModID}}_Bashful": {
-"AnimalId": "{{ModID}}_Bashful",
-"Age": 0,
+"{{ModID}}_ArcaGoat1": {
+"AnimalId": "{{ModID}}_ArcaGoat",
+"Age": 100,
 "LocationId": "{{ModID}}_LyellsBarn",
 "DisplayName": "{{i18n:FC.Bashful}}",
 "PetMessage": [
@@ -52,15 +40,9 @@
 "HomeTileY": 5,
 "Condition": ""
 },
-}
-},
-{
-"Action": "EditData",
-"Target": "MEEP/FarmAnimals/SpawnData",
-"Entries": {
-"{{ModID}}_Cream": {
-"AnimalId": "{{ModID}}_Cream",
-"Age": 0,
+"{{ModID}}_ArcaCow1": {
+"AnimalId": "{{ModID}}_ArcaCow",
+"Age": 100,
 "LocationId": "{{ModID}}_LyellsBarn",
 "DisplayName": "{{i18n:FC.Cream}}",
 "PetMessage": [
@@ -70,15 +52,9 @@
 "HomeTileY": 4,
 "Condition": ""
 },
-}
-},
-{
-"Action": "EditData",
-"Target": "MEEP/FarmAnimals/SpawnData",
-"Entries": {
-"{{ModID}}_Berries": {
-"AnimalId": "{{ModID}}_Berries",
-"Age": 0,
+"{{ModID}}_ArcaCow2": {
+"AnimalId": "{{ModID}}_ArcaCow",
+"Age": 100,
 "LocationId": "{{ModID}}_LyellsBarn",
 "DisplayName": "{{i18n:FC.Berries}}",
 "PetMessage": [
@@ -88,15 +64,9 @@
 "HomeTileY": 4,
 "Condition": ""
 },
-}
-},
-{
-"Action": "EditData",
-"Target": "MEEP/FarmAnimals/SpawnData",
-"Entries": {
-"{{ModID}}_Gobble": {
-"AnimalId": "{{ModID}}_Gobble",
-"Age": 0,
+"{{ModID}}_ArcaTapi1": {
+"AnimalId": "{{ModID}}_ArcaTapi",
+"Age": 100,
 "LocationId": "{{ModID}}_LyellsBarn",
 "DisplayName": "{{i18n:FC.Gobble}}",
 "PetMessage": [
@@ -106,15 +76,9 @@
 "HomeTileY":10,
 "Condition": ""
 },
-}
-},
-{
-"Action": "EditData",
-"Target": "MEEP/FarmAnimals/SpawnData",
-"Entries": {
-"{{ModID}}_Rumple": {
+"{{ModID}}_Rumple1": {
 "AnimalId": "{{ModID}}_Rumple",
-"Age": 0,
+"Age": 100,
 "LocationId": "{{ModID}}_LyellsBarn",
 "DisplayName": "{{i18n:FC.Rumple}}",
 "PetMessage": [
@@ -124,15 +88,9 @@
 "HomeTileY":6,
 "Condition": ""
 },
-}
-},
-{
-"Action": "EditData",
-"Target": "MEEP/FarmAnimals/SpawnData",
-"Entries": {
-"{{ModID}}_Boba": {
-"AnimalId": "{{ModID}}_Boba",
-"Age": 0,
+"{{ModID}}_Movoraptor1": {
+"AnimalId": "{{ModID}}_Movoraptor",
+"Age": 100,
 "LocationId": "{{ModID}}_LyellsCoop",
 "DisplayName": "{{i18n:FC.Boba}}",
 "PetMessage": [
@@ -142,15 +100,9 @@
 "HomeTileY":7,
 "Condition": ""
 },
-}
-},
-{
-"Action": "EditData",
-"Target": "MEEP/FarmAnimals/SpawnData",
-"Entries": {
-"{{ModID}}_Applesauce": {
-"AnimalId": "{{ModID}}_Applesauce",
-"Age": 0,
+"{{ModID}}_Movoraptor2": {
+"AnimalId": "{{ModID}}_Movoraptor",
+"Age": 100,
 "LocationId": "{{ModID}}_LyellsCoop",
 "DisplayName": "{{i18n:FC.Applesauce}}",
 "PetMessage": [
@@ -160,15 +112,9 @@
 "HomeTileY":6,
 "Condition": ""
 },
-}
-},
-{
-"Action": "EditData",
-"Target": "MEEP/FarmAnimals/SpawnData",
-"Entries": {
-"{{ModID}}_Bubbles": {
-"AnimalId": "{{ModID}}_Bubbles",
-"Age": 0,
+"{{ModID}}_MaleMovoraptor1": {
+"AnimalId": "{{ModID}}_MaleMovoraptor",
+"Age": 100,
 "LocationId": "{{ModID}}_LyellsCoop",
 "DisplayName": "{{i18n:FC.Bubbles}}",
 "PetMessage": [
@@ -178,15 +124,9 @@
 "HomeTileY":4,
 "Condition": ""
 },
-}
-},
-{
-"Action": "EditData",
-"Target": "MEEP/FarmAnimals/SpawnData",
-"Entries": {
-"{{ModID}}_Parsley": {
-"AnimalId": "{{ModID}}_Parsley",
-"Age": 0,
+"{{ModID}}_MaleMovoraptor2": {
+"AnimalId": "{{ModID}}_MaleMovoraptor",
+"Age": 100,
 "LocationId": "{{ModID}}_LyellsProperty",
 "DisplayName": "{{i18n:FC.Parsley}}",
 "PetMessage": [
@@ -196,15 +136,9 @@
 "HomeTileY":37,
 "Condition": ""
 },
-}
-},
-{
-"Action": "EditData",
-"Target": "MEEP/FarmAnimals/SpawnData",
-"Entries": {
-"{{ModID}}_Pepper": {
-"AnimalId": "{{ModID}}_Pepper",
-"Age": 0,
+"{{ModID}}_Movoraptor3": {
+"AnimalId": "{{ModID}}_Movoraptor",
+"Age": 100,
 "LocationId": "{{ModID}}_LyellsProperty",
 "DisplayName": "{{i18n:FC.Pepper}}",
 "PetMessage": [
@@ -214,15 +148,9 @@
 "HomeTileY":36,
 "Condition": ""
 },
-}
-},
-{
-"Action": "EditData",
-"Target": "MEEP/FarmAnimals/SpawnData",
-"Entries": {
-"{{ModID}}_Puddin": {
-"AnimalId": "{{ModID}}_Puddin",
-"Age": 0,
+"{{ModID}}_Movoraptor4": {
+"AnimalId": "{{ModID}}_Movoraptor",
+"Age": 100,
 "LocationId": "{{ModID}}_LyellsProperty",
 "DisplayName": "{{i18n:FC.Puddin}}",
 "PetMessage": [
@@ -232,15 +160,9 @@
 "HomeTileY":35,
 "Condition": ""
 },
-}
-},
- {
-"Action": "EditData",
-"Target": "MEEP/FarmAnimals/SpawnData",
-"Entries": {
-"{{ModID}}_Peaches": {
-"AnimalId": "{{ModID}}_Peaches",
-"Age": 0,
+"{{ModID}}_Movoraptor5": {
+"AnimalId": "{{ModID}}_Movoraptor",
+"Age": 100,
 "LocationId": "{{ModID}}_LyellsProperty",
 "DisplayName": "{{i18n:FC.Peaches}}",
 "PetMessage": [

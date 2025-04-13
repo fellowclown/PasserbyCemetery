@@ -1,5 +1,504 @@
 {
 "Changes": [
+    {
+"LogName": "AncientCaveSystem",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_AncientCaveSystem": {
+"DisplayName": "{{i18n:FC.AncientCaveSystem}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_AncientCaveSystem",
+"AlwaysActive": true,
+},
+"DefaultArrivalTile": {
+"X": 13,
+"Y":21
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [
+ {
+"Chance": 0.01,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_Button",
+"ItemId": "{{ModID}}_Button",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 2,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+     {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "{{ModID}}_GiggleFitSeeds",
+"ItemId": "(O){{ModID}}_GiggleFitSeeds",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 4,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+   {
+"Chance": 0.1,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_LipheumTablet",
+"ItemId": "(O){{ModID}}_LipheumTablet",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+  {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_Pot1",
+"ItemId": "(O){{ModID}}_Pot1",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_Pot2",
+"ItemId": "(O){{ModID}}_Pot2",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_ArahTablet",
+"ItemId": "(O){{ModID}}_ArahTablet",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_AluuaTablet",
+"ItemId": "(O){{ModID}}_AluuaTablet",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_MiniphantFigure",
+"ItemId": "(O){{ModID}}_MiniphantFigure",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_LifeTablet",
+"ItemId": "(O){{ModID}}_LifeTablet",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_FamilyTablet",
+"ItemId": "(O){{ModID}}_FamilyTablet",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_Rattler",
+"ItemId": "(O){{ModID}}_Rattler",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_Necklace1",
+"ItemId": "(O){{ModID}}_Necklace1",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_Necklace2",
+"ItemId": "(O){{ModID}}_Necklace2",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_Hairclip",
+"ItemId": "(O){{ModID}}_Hairclip",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_ShevitFigure",
+"ItemId": "(O){{ModID}}_ShevitFigure",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_Guardian1",
+"ItemId": "(O){{ModID}}_Guardian1",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_Guardian2",
+"ItemId": "(O){{ModID}}_Guardian2",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_Guardian3",
+"ItemId": "(O){{ModID}}_Guardian3",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_HammerAndPick",
+"ItemId": "(O){{ModID}}_HammerAndPick",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 0.1,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_GemmedCuff",
+"ItemId": "(O){{ModID}}_GemmedCuff",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+ {
+"Chance": 2.0,
+"Season": null,
+"Condition": null,
+"Id": "(O){{ModID}}_OldShoes",
+"ItemId": "(O){{ModID}}_OldShoes",
+"RandomItemId": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+}, 
+],
+"FishAreas": {
+"{{ModID}}_AncientCaveSystem": {
+"DisplayName": "{{i18n:FC.AncientCaveSystem}}",
+   "Position": {
+  "X": 0,
+  "Y": 0,
+  "Width": 10000,
+  "Height": 10000
+},
+"CrabPotFishTypes": [
+  "freshwater"
+],
+"CrabPotJunkChance": 0.45
+  },
+  "Ocean": {
+"DisplayName": null,
+"Position": null,
+"CrabPotFishTypes": [
+  "ocean"
+],
+"CrabPotJunkChance": 2.0
+}
+},
+"Fish": [
+    {
+"Id": "{{ModID}}_GraveCrab",
+"ItemId": "(O){{ModID}}_GraveCrab",
+"FishaAreaID": "{{ModID}}_AncientCaveSystem",
+"Condition": null,
+},
+],
+"Forage": [],
+"CustomFields": {}
+}
+}
+},
+{
+"LogName": "CottonsHouse",
+"Action": "EditData",
+"Target": "Data/LocationContexts",
+"Entries": {
+  "{{ModID}}_AncientCaveSystem": {
+    "CopyWeatherFromLocation": "Desert",
+    "ReviveLocations": [],
+    "MaxPassOutCost": 0,
+    "PassOutMail": [
+      {
+        "Id": "{{ModID}}.FoundByShaavar",
+        "Condition": null,
+        "Mail": "{{ModID}}_PassedOutAncientCaveSystem.Mail",
+        "MaxPassOutCost": 0,
+        "SkipRandomSelection": true
+      },
+    ],
+    "CustomFields": null
+  },
+}
+},
+  {
+"LogName": "Marketpalooza",
+"Action": "EditData",
+"Target": "Data/Locations",
+"Entries": {
+"{{ModID}}_Marketpalooza": {
+"DisplayName": "{{i18n:FC.Marketpalooza}}",
+"CreateOnLoad": {
+"MapPath": "Maps/{{ModID}}_Marketpalooza",
+"AlwaysActive": true,
+},
+"DefaultArrivalTile": {
+"X": 4,
+"Y":10
+},
+"ExcludeFromNpcPathfinding": false,
+"ArtifactSpots": [],
+"FishAreas": {},
+"Fish": [],
+"Forage": [],
+"CustomFields": {}
+}
+}
+},
   {
 "LogName": "Mobile Home",
 "Action": "EditData",
@@ -84,7 +583,7 @@
 "QualityModifierMode": "Stack",
 },
      {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "{{ModID}}_GiggleFitSeeds",
@@ -121,27 +620,8 @@
 "QualityModifiers": null,
 "QualityModifierMode": "Stack",
 },
-   {
-"Chance": 0.2,
-"Season": null,
-"Condition": null,
-"Id": "(O){{ModID}}_ArcaCoin",
-"ItemId": "(O){{ModID}}_ArcaCoin",
-"RandomItemId": null,
-"MinStack": 1,
-"MaxStack": 20,
-"Quality": -1,
-"ObjectInternalName": null,
-"ObjectDisplayName": null,
-"ToolUpgradeLevel": -1,
-"IsRecipe": false,
-"StackModifiers": null,
-"StackModifierMode": "Stack",
-"QualityModifiers": null,
-"QualityModifierMode": "Stack",
-},
   {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot1",
@@ -160,7 +640,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot2",
@@ -179,7 +659,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArahTablet",
@@ -198,7 +678,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_AluuaTablet",
@@ -217,7 +697,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_MiniphantFigure",
@@ -236,7 +716,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_LifeTablet",
@@ -255,7 +735,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_FamilyTablet",
@@ -274,7 +754,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Rattler",
@@ -293,7 +773,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace1",
@@ -312,7 +792,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace2",
@@ -331,7 +811,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Hairclip",
@@ -350,7 +830,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ShevitFigure",
@@ -369,7 +849,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian1",
@@ -388,7 +868,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian2",
@@ -407,7 +887,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian3",
@@ -426,7 +906,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_HammerAndPick",
@@ -464,7 +944,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_OldShoes",
@@ -503,7 +983,7 @@
 "CrabPotFishTypes": [
   "ocean"
 ],
-"CrabPotJunkChance": 0.2
+"CrabPotJunkChance": 2.0
 },
 },
 "Fish": [
@@ -989,7 +1469,7 @@
 "QualityModifierMode": "Stack",
 },
      {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "{{ModID}}_GiggleFitSeeds",
@@ -1026,27 +1506,8 @@
 "QualityModifiers": null,
 "QualityModifierMode": "Stack",
 },
-   {
-"Chance": 0.2,
-"Season": null,
-"Condition": null,
-"Id": "(O){{ModID}}_ArcaCoin",
-"ItemId": "(O){{ModID}}_ArcaCoin",
-"RandomItemId": null,
-"MinStack": 1,
-"MaxStack": 20,
-"Quality": -1,
-"ObjectInternalName": null,
-"ObjectDisplayName": null,
-"ToolUpgradeLevel": -1,
-"IsRecipe": false,
-"StackModifiers": null,
-"StackModifierMode": "Stack",
-"QualityModifiers": null,
-"QualityModifierMode": "Stack",
-},
   {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot1",
@@ -1065,7 +1526,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot2",
@@ -1084,7 +1545,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArahTablet",
@@ -1103,7 +1564,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_AluuaTablet",
@@ -1122,7 +1583,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_MiniphantFigure",
@@ -1141,7 +1602,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_LifeTablet",
@@ -1160,7 +1621,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_FamilyTablet",
@@ -1179,7 +1640,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Rattler",
@@ -1198,7 +1659,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace1",
@@ -1217,7 +1678,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace2",
@@ -1236,7 +1697,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Hairclip",
@@ -1255,7 +1716,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ShevitFigure",
@@ -1274,7 +1735,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian1",
@@ -1293,7 +1754,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian2",
@@ -1312,7 +1773,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian3",
@@ -1331,7 +1792,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_HammerAndPick",
@@ -1369,7 +1830,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_OldShoes",
@@ -1408,7 +1869,7 @@
 "CrabPotFishTypes": [
   "ocean"
 ],
-"CrabPotJunkChance": 0.2
+"CrabPotJunkChance": 2.0
 },
 },
 "Fish": [
@@ -1950,86 +2411,6 @@
 }
 }
 },
-    {
-"LogName": "Edit Town",
-"Action": "EditData",
-"Target": "Data/Locations",
-"TargetField": ["Town","ArtifactSpots"],
-"Entries": {
-"(O){{ModID}}_ArcaCoin": {
-"Chance": 0.5,
-"Condition": "LOCATION_SEASON Here spring summer fall winter",
-"Id": "(O){{ModID}}_ArcaCoin",
-"ItemId": "(O){{ModID}}_ArcaCoin",
-"MinStack": 2,
-"MaxStack": 5
-},
-}
-},
-{
-"LogName": "Edit Mountain",
-"Action": "EditData",
-"Target": "Data/Locations",
-"TargetField": ["Mountain","ArtifactSpots"],
-"Entries": {
-"(O){{ModID}}_ArcaCoin": {
-"Chance": 0.5,
-"Condition": "LOCATION_SEASON Here spring summer fall winter",
-"Id": "(O){{ModID}}_ArcaCoin",
-"ItemId": "(O){{ModID}}_ArcaCoin",
-"MinStack": 2,
-"MaxStack": 5
-},
-}
-},
-{
-"LogName": "Edit Forest",
-"Action": "EditData",
-"Target": "Data/Locations",
-"TargetField": ["Forest","ArtifactSpots"],
-"Entries": {
-"(O){{ModID}}_ArcaCoin": {
-"Chance": 0.5,
-"Condition": "LOCATION_SEASON Here spring summer fall winter",
-"Id": "(O){{ModID}}_ArcaCoin",
-"ItemId": "(O){{ModID}}_ArcaCoin",
-"MinStack": 2,
-"MaxStack": 5
-},
-}
-},
-{
-"LogName": "Edit Woods",
-"Action": "EditData",
-"Target": "Data/Locations",
-"TargetField": ["Woods","ArtifactSpots"],
-"Entries": {
-"(O){{ModID}}_ArcaCoin": {
-"Chance": 0.5,
-"Condition": "LOCATION_SEASON Here spring summer fall winter",
-"Id": "(O){{ModID}}_ArcaCoin",
-"ItemId": "(O){{ModID}}_ArcaCoin",
-"MinStack": 2,
-"MaxStack": 5
-},
-}
-},
-{
-"LogName": "Edit Beach",
-"Action": "EditData",
-"Target": "Data/Locations",
-"TargetField": ["Beach","ArtifactSpots"],
-"Entries": {
-"(O){{ModID}}_ArcaCoin": {
-"Chance": 0.5,
-"Condition": "LOCATION_SEASON Here spring summer fall winter",
-"Id": "(O){{ModID}}_ArcaCoin",
-"ItemId": "(O){{ModID}}_ArcaCoin",
-"MinStack": 2,
-"MaxStack": 5
-},
-}
-},
  {
 "LogName": "Ancient GraveYard",
 "Action": "EditData",
@@ -2066,7 +2447,7 @@
 "QualityModifierMode": "Stack",
 },
      {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "{{ModID}}_GiggleFitSeeds",
@@ -2103,27 +2484,8 @@
 "QualityModifiers": null,
 "QualityModifierMode": "Stack",
 },
-   {
-"Chance": 0.2,
-"Season": null,
-"Condition": null,
-"Id": "(O){{ModID}}_ArcaCoin",
-"ItemId": "(O){{ModID}}_ArcaCoin",
-"RandomItemId": null,
-"MinStack": 1,
-"MaxStack": 20,
-"Quality": -1,
-"ObjectInternalName": null,
-"ObjectDisplayName": null,
-"ToolUpgradeLevel": -1,
-"IsRecipe": false,
-"StackModifiers": null,
-"StackModifierMode": "Stack",
-"QualityModifiers": null,
-"QualityModifierMode": "Stack",
-},
   {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot1",
@@ -2142,7 +2504,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot2",
@@ -2161,7 +2523,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArahTablet",
@@ -2180,7 +2542,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_AluuaTablet",
@@ -2199,7 +2561,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_MiniphantFigure",
@@ -2218,7 +2580,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_LifeTablet",
@@ -2237,7 +2599,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_FamilyTablet",
@@ -2256,7 +2618,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Rattler",
@@ -2275,7 +2637,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace1",
@@ -2294,7 +2656,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace2",
@@ -2313,7 +2675,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Hairclip",
@@ -2332,7 +2694,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ShevitFigure",
@@ -2351,7 +2713,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian1",
@@ -2370,7 +2732,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian2",
@@ -2389,7 +2751,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian3",
@@ -2408,7 +2770,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_HammerAndPick",
@@ -2446,7 +2808,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_OldShoes",
@@ -2868,7 +3230,7 @@
 "QualityModifierMode": "Stack",
 },
      {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "{{ModID}}_GiggleFitSeeds",
@@ -2905,27 +3267,8 @@
 "QualityModifiers": null,
 "QualityModifierMode": "Stack",
 },
-   {
-"Chance": 0.2,
-"Season": null,
-"Condition": null,
-"Id": "(O){{ModID}}_ArcaCoin",
-"ItemId": "(O){{ModID}}_ArcaCoin",
-"RandomItemId": null,
-"MinStack": 1,
-"MaxStack": 20,
-"Quality": -1,
-"ObjectInternalName": null,
-"ObjectDisplayName": null,
-"ToolUpgradeLevel": -1,
-"IsRecipe": false,
-"StackModifiers": null,
-"StackModifierMode": "Stack",
-"QualityModifiers": null,
-"QualityModifierMode": "Stack",
-},
   {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot1",
@@ -2944,7 +3287,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot2",
@@ -2963,7 +3306,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArahTablet",
@@ -2982,7 +3325,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_AluuaTablet",
@@ -3001,7 +3344,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_MiniphantFigure",
@@ -3020,7 +3363,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_LifeTablet",
@@ -3039,7 +3382,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_FamilyTablet",
@@ -3058,7 +3401,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Rattler",
@@ -3077,7 +3420,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace1",
@@ -3096,7 +3439,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace2",
@@ -3115,7 +3458,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Hairclip",
@@ -3134,7 +3477,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ShevitFigure",
@@ -3153,7 +3496,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian1",
@@ -3172,7 +3515,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian2",
@@ -3191,7 +3534,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian3",
@@ -3210,7 +3553,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_HammerAndPick",
@@ -3248,7 +3591,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_OldShoes",
@@ -3430,6 +3773,25 @@
 "ExcludeFromNpcPathfinding": false,
 "ArtifactSpots": [
            {
+"Chance": 0.5,
+"Season": null,
+"Condition": "PLAYER_HAS_MAIL Current {{ModID}}_CoinQuest.Mail,!PLAYER_HAS_MAIL Current {{ModID}}_CoinQuestComplete.Mail",
+"Id": "(O){{ModID}}_ArcaCoin",
+"ItemId": "{{ModID}}_ArcaCoin",
+"RandomItemId": null,
+"MinStack": 5,
+"MaxStack": 10,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+},
+           {
 "Chance": 0.01,
 "Season": null,
 "Condition": null,
@@ -3449,7 +3811,7 @@
 "QualityModifierMode": "Stack",
 },
      {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "{{ModID}}_GiggleFitSeeds",
@@ -3486,27 +3848,8 @@
 "QualityModifiers": null,
 "QualityModifierMode": "Stack",
 },
-   {
-"Chance": 0.2,
-"Season": null,
-"Condition": null,
-"Id": "(O){{ModID}}_ArcaCoin",
-"ItemId": "(O){{ModID}}_ArcaCoin",
-"RandomItemId": null,
-"MinStack": 1,
-"MaxStack": 20,
-"Quality": -1,
-"ObjectInternalName": null,
-"ObjectDisplayName": null,
-"ToolUpgradeLevel": -1,
-"IsRecipe": false,
-"StackModifiers": null,
-"StackModifierMode": "Stack",
-"QualityModifiers": null,
-"QualityModifierMode": "Stack",
-},
   {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot1",
@@ -3525,7 +3868,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Pot2",
@@ -3544,7 +3887,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ArahTablet",
@@ -3563,7 +3906,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_AluuaTablet",
@@ -3582,7 +3925,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_MiniphantFigure",
@@ -3601,7 +3944,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_LifeTablet",
@@ -3620,7 +3963,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_FamilyTablet",
@@ -3639,7 +3982,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Rattler",
@@ -3658,7 +4001,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace1",
@@ -3677,7 +4020,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Necklace2",
@@ -3696,7 +4039,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Hairclip",
@@ -3715,7 +4058,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_ShevitFigure",
@@ -3734,7 +4077,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian1",
@@ -3753,7 +4096,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian2",
@@ -3772,7 +4115,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_Guardian3",
@@ -3791,7 +4134,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_HammerAndPick",
@@ -3829,7 +4172,7 @@
 "QualityModifierMode": "Stack",
 },
  {
-"Chance": 0.2,
+"Chance": 2.0,
 "Season": null,
 "Condition": null,
 "Id": "(O){{ModID}}_OldShoes",
@@ -3868,11 +4211,11 @@
 "CrabPotFishTypes": [
   "ocean"
 ],
-"CrabPotJunkChance": 0.2
+"CrabPotJunkChance": 2.0
 },
 },
 "Fish": [
-	{
+    {
 "Id": "{{ModID}}_BoneyHeadedGraveFish",
 "ItemId": "(O){{ModID}}_BoneyHeadedGraveFish",
 "FishaAreaID": "{{ModID}}_OldGraveYard",
@@ -4313,7 +4656,7 @@
 "ModData": null,
 "PerItemCondition": null
   },
-	{
+    {
 "Id": "{{ModID}}_IficusFish",
 "ItemId": "(O){{ModID}}_IficusFish",
 "FishaAreaID": "{{ModID}}_OldGraveYard",
@@ -4460,10 +4803,60 @@
 }
 },
 {
+"LogName": "CottonsHouse",
+"Action": "EditData",
+"Target": "Data/LocationContexts",
+"Entries": {
+  "{{ModID}}_CottonsHome": {
+    "CopyWeatherFromLocation": "Desert",
+    "ReviveLocations": [
+      {
+        "Id": "Default",
+        "Condition": null,
+        "Location": "{{ModID}}_CottonsHome",
+        "Position": {
+          "X": 13,
+          "Y": 7
+        }
+      }
+    ],
+    "MaxPassOutCost": 0,
+    "PassOutMail": [
+      {
+        "Id": "{{ModID}}.FoundByCotton",
+        "Condition": null,
+        "Mail": "{{ModID}}_PassedOutCottons.Mail",
+        "MaxPassOutCost": 50,
+        "SkipRandomSelection": true
+      },
+    ],
+    "CustomFields": null
+  },
+  
+  "{{ModID}}_AncientCaveSystem": {
+    "CopyWeatherFromLocation": "Desert",
+    "ReviveLocations": [],
+    "MaxPassOutCost": 0,
+    "PassOutMail": [
+      {
+        "Id": "{{ModID}}.FoundByShaavar",
+        "Condition": null,
+        "Mail": "{{ModID}}_PassedOutAncientCaveSystem.Mail",
+        "MaxPassOutCost": 0,
+        "SkipRandomSelection": true
+      },
+    ],
+    "CustomFields": null
+  },
+}
+},
+{
 "LogName": "Map Strings Edit",
 "Action": "EditData",
 "Target": "Strings/StringsFromMaps",
 "Entries": {
+"GraveYard.QuestBoard": "{{i18n:GraveYard.QuestBoard}}",
+"GraveYard.DropBox": "{{i18n:GraveYard.DropBox}}",
 "GraveYard.ElderTropaTree": "{{i18n:GraveYard.ElderTropaTree}}",
 "TravelingLibrary.Trash": "{{i18n:TravelingLibrary.Trash}}",
 "TravelingLibrary.RoadSign": "{{i18n:TravelingLibrary.RoadSign}}",
@@ -4762,21 +5155,15 @@
 "Hutch.Pond":"{{i18n:Hutch.Pond}}",
 "GraveYard.Door": "{{i18n:GraveYard.Door}}",
 "Marketpalooza.Ginny":"{{i18n:Marketpalooza.Ginny}}",
-"Marketpalooza.Mouse":"{{i18n:Marketpalooza.Mouse}}",
 "Marketpalooza.Weapons":"{{i18n:Marketpalooza.Weapons}}",
 "Marketpalooza.ClosedStand":"{{i18n:Marketpalooza.ClosedStand}}",
 "Marketpalooza.Raffle":"{{i18n:Marketpalooza.Raffle}}",
-"Marketpalooza.Waterfall":"{{i18n:Marketpalooza.Waterfall}}",
-"Marketpalooza.Frogs":"{{i18n:Marketpalooza.Frogs}}",
-"Marketpalooza.Rabbits":"{{i18n:Marketpalooza.Rabbits}}",
 "Marketpalooza.Fabric":"{{i18n:Marketpalooza.Fabric}}",
 "Marketpalooza.ChangingBooth":"{{i18n:Marketpalooza.ChangingBooth}}",
 "Marketpalooza.Krobus":"{{i18n:Marketpalooza.Krobus}}",
-"Marketpalooza.Trash":"{{i18n:Marketpalooza.Trash}}",
 "Marketpalooza.RestRoom":"{{i18n:Marketpalooza.RestRoom}}",
 "Marketpalooza.SnackStand.1":"{{i18n:Marketpalooza.SnackStand.1}}",
 "Marketpalooza.SnackStand.2":"{{i18n:Marketpalooza.SnackStand.2}}",
-"Marketpalooza.Shoes":"{{i18n:Marketpalooza.Shoes}}",
 "Marketpalooza.SabrineAndLilly":"{{i18n:Marketpalooza.SabrineAndLilly}}",
 "Marketpalooza.Pumpkins":"{{i18n:Marketpalooza.Pumpkins}}",
 "Marketpalooza.Gems":"{{i18n:Marketpalooza.Gems}}",
@@ -4998,7 +5385,8 @@
 "CottonsHome.Shoes": "{{i18n:CottonsHome.Shoes}}",
 "CottonsHome.Sofa": "{{i18n:CottonsHome.Sofa}}",
 "CottonsHome.PiggyToy": "{{i18n:CottonsHome.PiggyToy}}",
-
+"HalkiasHomeStead.SellerAnimalBook": "{{i18n:HalkiasHomeStead.SellerAnimalBook}}",
+"PasserbyCliffs.RitzysDog": "{{i18n:PasserbyCliffs.RitzysDog}}",
 }
  },
 ]

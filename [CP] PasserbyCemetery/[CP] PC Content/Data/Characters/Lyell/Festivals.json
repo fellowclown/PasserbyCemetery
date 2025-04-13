@@ -127,7 +127,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Lyell 26 40 3",
+                    "Value": "FC.Lyell 41 43 2",
                     "Delimiter": "/"
                 },
                      {
@@ -136,7 +136,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.Lyell 26 40 3",
+                    "Value": "FC.Lyell 22 30 1",
                     "Delimiter": "/"
                 },
         ]

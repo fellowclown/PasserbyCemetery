@@ -23,9 +23,7 @@
 {
 "Id":"FC.MellieShop",
 "AvaliableStock":1,
-"Price": 0,
-"TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 10,
+"Price": 50,
 "AvailableStockLimit":"Player",
 "RandomItemId":[
 "{{ModID}}_AlanDoll",
@@ -1986,7 +1984,6 @@
 "Id": "{{ModID}}_TropaWine",
 "Condition": null,
 "Price": 160,
-"TradeItemId": "{{ModID}}_ArcaCoin",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
 }, 
@@ -2208,9 +2205,7 @@
 {
 "Id": "{{i18n:FC.TraditionalLantern}}",
 "Condition": null,
-"Price": 0,
-"TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 10,
+"Price": 10,
 "ItemId": "{{ModID}}_TraditionalLantern",
 "AvailableStock":10,
 "AvailableStockLimit": "5"
@@ -2218,8 +2213,7 @@
 {
 "Id": "{{ModID}}_ArcaHat",
 "Condition": null,
-"TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 10,
+"Price": 10,
 "ItemId": "{{ModID}}_ArcaHat",
 "AvailableStock":1,
 "AvailableStockLimit": "5"
@@ -2229,9 +2223,7 @@
 "ItemId":"(S){{ModID}}_Shirt18",
 "AvailableStock":4,
 "AvailableStockLimit":"4",
-"Price":0,
-"TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 10,
+"Price": 30,
 },
 {
 "Id": "{{ModID}}_DragaWhiskey",
@@ -2245,8 +2237,7 @@
 "Id": "{{ModID}}_MovoraptorEgg",
 "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_UnlockLyellsAnimals",
 "Price": 0,
-"TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 50,
+"Price": 50,
 "ItemId": "{{ModID}}_MovoraptorEgg",
 "AvailableStock":10,
 "AvailableStockLimit": "4"
@@ -2255,8 +2246,7 @@
 "Id": "{{ModID}}_TropaTreeSapling",
 "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModID}}_UnlockTropaTree",
 "Price": 0,
-"TradeItemId": "{{ModID}}_ArcaCoin",
-"TradeItemAmount": 100,
+"Price": 1000,
 "ItemId": "{{ModID}}_TropaTreeSapling",
 "AvailableStock":10,
 "AvailableStockLimit": "5"

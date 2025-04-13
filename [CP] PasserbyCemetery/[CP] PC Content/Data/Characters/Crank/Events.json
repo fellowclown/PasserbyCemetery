@@ -1,2 +1,14 @@
 {
+"Changes": [
+{
+"LogName": "Lyell's Secret",
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_SecretCave",
+"Entries": {
+ "{{ModID}}_MemoriesUntold/w rainy/t 1700 2000/i {{ModID}}_OldShoes": "Cavern/-1000 -1000/farmer 6 13 0 FC.Crank 10 9 2/viewport 10 9/skippable/pause 1000/advancedMove farmer false 0 -3 1 10 3 0 1 10/pause 1000/textAbovehead FC.Crank \"{{i18n:TheShoes.00}}\"/faceDirection FC.Crank 3/pause 300/faceDirection FC.Crank 2/speak FC.Crank \"{{i18n:TheShoes.01}}\"/pause 600/textAbovehead FC.Crank \"{{i18n:TheShoes.02}}\"/pause 1000/question fork1 \"{{i18n:TheShoes.03}}\"/fork FC.DenyShoes/pause 1000/emote FC.Crank 32/pause 250/textAbovehead FC.Crank \"{{i18n:TheShoes.04}}\"/pause 600/textAbovehead FC.Crank \"{{i18n:TheShoes.05}}\"/pause 1000/emote FC.Crank 32/pause 200/speak FC.Crank \"{{i18n:TheShoes.06}}\"/pause 400/textAbovehead FC.Crank \"{{i18n:TheShoes.07}}\"/pause 1000/globalFade/viewport -1000 -1000/pause 300/message \"{{i18n:TheShoes.08}}\"/pause 200/speak FC.Crank \"{{i18n:TheShoes.09}}\"/changeToTemporaryMap {{ModID}}_BreakUp/warp FC.Crank -3000 -3000/warp farmer -3000 -3000/fade false/viewport 7 8/pause 1000/speak FC.Crank \"{{i18n:TheShoes.10}}\"/pause 1000/globalFade/viewport -1000 -1000/speak FC.Crank \"{{i18n:TheShoes.11}}\"/pause 1000/message \"{{i18n:TheShoes.12}}\"/changeLocation {{ModID}}_SecretCave/warp farmer 9 10/fade false/viewport 10 9/emote farmer 12/pause 200/viewport move 0 -1 6000000/globalFade/viewport -1000 -1000/end",
+ 
+"FC.DenyShoes": "pause 1000/emote FC.Crank 12/pause 200/speak FC.Crank \"{{i18n:TheShoes.13}}\"/pause 200/viewport move 0 -1 6000000/globalFade/viewport -1000 -1000/end",
+  }
+},
+]
 }

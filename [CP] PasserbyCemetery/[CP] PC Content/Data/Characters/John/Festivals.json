@@ -131,7 +131,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.John 26 24 3",
+                    "Value": "FC.John 26 30 3",
                     "Delimiter": "/"
                 },
                                  {
@@ -140,7 +140,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters{{YearCheck}}"
                     ],
-                    "Value": "FC.John 33 27 3",
+                    "Value": "FC.John 25 35 0",
                     "Delimiter": "/",
         },
         ]

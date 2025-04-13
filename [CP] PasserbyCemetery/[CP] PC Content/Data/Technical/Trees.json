@@ -1,5 +1,192 @@
 {
 "Changes": [
+                  {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_AncientCaveSystem",
+    "MapTiles": [
+{
+"Position": {
+"X": 20,
+"Y": 20
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_VoidTree"
+}
+}
+]
+},
+                  {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_AncientCaveSystem",
+    "MapTiles": [
+{
+"Position": {
+"X": 17,
+"Y": 18
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_VoidTree"
+}
+}
+]
+},
+                  {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_AncientCaveSystem",
+    "MapTiles": [
+{
+"Position": {
+"X": 23,
+"Y": 15
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_VoidTree"
+}
+}
+]
+},
+                  {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_AncientCaveSystem",
+    "MapTiles": [
+{
+"Position": {
+"X": 20,
+"Y": 13
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_VoidTree"
+}
+}
+]
+},
+                  {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_AncientCaveSystem",
+    "MapTiles": [
+{
+"Position": {
+"X": 19,
+"Y": 9
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_VoidTree"
+}
+}
+]
+},
+                  {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_AncientCaveSystem",
+    "MapTiles": [
+{
+"Position": {
+"X": 11,
+"Y": 11
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_VoidTree"
+}
+}
+]
+},
+                  {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_AncientCaveSystem",
+    "MapTiles": [
+{
+"Position": {
+"X": 7,
+"Y": 15
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_VoidTree"
+}
+}
+]
+},
+              {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyCliffs",
+    "MapTiles": [
+{
+"Position": {
+"X": 11,
+"Y": 12
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_HeaviousTree"
+}
+}
+]
+},
+              {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyCliffs",
+    "MapTiles": [
+{
+"Position": {
+"X": 0,
+"Y": 14
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_HeaviousTree"
+}
+}
+]
+},
+              {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyCliffs",
+    "MapTiles": [
+{
+"Position": {
+"X": 5,
+"Y": 11
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_HeaviousTree"
+}
+}
+]
+},
+              {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyCliffs",
+    "MapTiles": [
+{
+"Position": {
+"X": 3,
+"Y": 6
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_HeaviousTree"
+}
+}
+]
+},
               {
 "Action": "EditMap",
     "Target": "Maps/{{ModID}}_PasserbyCliffs",
@@ -7,12 +194,12 @@
 {
 "Position": {
 "X": 1,
-"Y": 11
+"Y": 8
 },
 "Layer": "Paths",
 "SetIndex": "34",
 "SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
+"SpawnTree": "wild {{ModID}}_HeaviousTree"
 }
 }
 ]
@@ -24,12 +211,12 @@
 {
 "Position": {
 "X": 2,
-"Y": 7
+"Y": 12
 },
 "Layer": "Paths",
 "SetIndex": "34",
 "SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
+"SpawnTree": "wild {{ModID}}_HeaviousTree"
 }
 }
 ]
@@ -40,47 +227,13 @@
     "MapTiles": [
 {
 "Position": {
-"X": 11,
-"Y": 13
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
-          {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_PasserbyRoad",
-    "MapTiles": [
-{
-"Position": {
-"X": 10,
-"Y": 17
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
-          {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_PasserbyRoad",
-    "MapTiles": [
-{
-"Position": {
-"X": 11,
+"X": 3,
 "Y": 15
 },
 "Layer": "Paths",
 "SetIndex": "34",
 "SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
+"SpawnTree": "wild {{ModID}}_HeaviousTree"
 }
 }
 ]
@@ -91,8 +244,8 @@
     "MapTiles": [
 {
 "Position": {
-"X": 7,
-"Y": 15
+"X": 5,
+"Y": 38
 },
 "Layer": "Paths",
 "SetIndex": "34",
@@ -102,196 +255,6 @@
 }
 ]
 },
-          {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_PasserbyRoad",
-    "MapTiles": [
-{
-"Position": {
-"X": 7,
-"Y": 18
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
-          {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_PasserbyRoad",
-    "MapTiles": [
-{
-"Position": {
-"X": 13,
-"Y": 19
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
-
-          {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_PasserbyRoad",
-    "MapTiles": [
-{
-"Position": {
-"X": 25,
-"Y": 6
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
-          {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_PasserbyRoad",
-    "MapTiles": [
-{
-"Position": {
-"X": 29,
-"Y": 9
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
-          {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_PasserbyRoad",
-    "MapTiles": [
-{
-"Position": {
-"X": 33,
-"Y": 12
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
-          {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_PasserbyRoad",
-    "MapTiles": [
-{
-"Position": {
-"X": 38,
-"Y": 1
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
-          {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_PasserbyRoad",
-    "MapTiles": [
-{
-"Position": {
-"X": 24,
-"Y": 14
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
-          {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_PasserbyRoad",
-    "MapTiles": [
-{
-"Position": {
-"X": 19,
-"Y": 18
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
-
-          {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_PasserbyRoad",
-    "MapTiles": [
-{
-"Position": {
-"X": 28,
-"Y": 27
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
-          {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_PasserbyRoad",
-    "MapTiles": [
-{
-"Position": {
-"X": 45,
-"Y":4
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
-          {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_PasserbyRoad",
-    "MapTiles": [
-{
-"Position": {
-"X": 46,
-"Y": 27
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
-
           {
 "Action": "EditMap",
     "Target": "Maps/{{ModID}}_PasserbyRoad",
@@ -332,8 +295,59 @@
     "MapTiles": [
 {
 "Position": {
-"X": 5,
-"Y": 38
+"X": 28,
+"Y": 39
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_MeekTree"
+}
+}
+]
+},
+          {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 33,
+"Y": 36
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_MeekTree"
+}
+}
+]
+},
+          {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 46,
+"Y": 27
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_MeekTree"
+}
+}
+]
+},
+          {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 46,
+"Y": 19
 },
 "Layer": "Paths",
 "SetIndex": "34",
@@ -355,7 +369,24 @@
 "Layer": "Paths",
 "SetIndex": "34",
 "SetProperties": {
-"SpawnTree": "wild {{ModID}}_HeaviousTree"
+"SpawnTree": "wild {{ModID}}_MeekTree"
+}
+}
+]
+},
+          {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 28,
+"Y": 27
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_MeekTree"
 }
 }
 ]
@@ -372,7 +403,126 @@
 "Layer": "Paths",
 "SetIndex": "34",
 "SetProperties": {
+"SpawnTree": "wild {{ModID}}_MeekTree"
+}
+}
+]
+},
+          {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 19,
+"Y": 18
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
 "SpawnTree": "wild {{ModID}}_HeaviousTree"
+}
+}
+]
+},
+          {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 24,
+"Y": 14
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_HeaviousTree"
+}
+}
+]
+},
+          {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 33,
+"Y": 12
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_HeaviousTree"
+}
+}
+]
+},
+          {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 45,
+"Y": 4
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_HeaviousTree"
+}
+}
+]
+},
+          {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 38,
+"Y": 1
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_HeaviousTree"
+}
+}
+]
+},   
+       {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 29,
+"Y": 9
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_HeaviousTree"
+}
+}
+]
+},
+          {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 25,
+"Y": 6
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_MeekTree"
 }
 }
 ]
@@ -389,12 +539,96 @@
 "Layer": "Paths",
 "SetIndex": "34",
 "SetProperties": {
-"SpawnTree": "wild {{ModID}}_HeaviousTree"
+"SpawnTree": "wild {{ModID}}_MeekTree"
 }
 }
 ]
 },
-
+          {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 11,
+"Y": 15
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_MeekTree"
+}
+}
+]
+},
+          {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 7,
+"Y": 15
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_MeekTree"
+}
+}
+]
+},
+          {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 7,
+"Y": 18
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_MeekTree"
+}
+}
+]
+},
+          {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 10,
+"Y": 17
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_MeekTree"
+}
+}
+]
+},
+          {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_PasserbyRoad",
+    "MapTiles": [
+{
+"Position": {
+"X": 13,
+"Y": 19
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_MeekTree"
+}
+}
+]
+},
       {
 "Action": "EditMap",
     "Target": "Maps/{{ModID}}_LyellsProperty",
@@ -429,6 +663,24 @@
 }
 ]
 },
+      {
+"Action": "EditMap",
+    "Target": "Maps/{{ModID}}_LyellsProperty",
+    "MapTiles": [
+{
+"Position": {
+"X": 13,
+"Y": 33
+},
+"Layer": "Paths",
+"SetIndex": "34",
+"SetProperties": {
+"SpawnTree": "wild {{ModID}}_HeaviousTree"
+}
+}
+]
+},
+
       {
 "Action": "EditMap",
     "Target": "Maps/{{ModID}}_LyellsProperty",
@@ -871,57 +1123,6 @@
 }
 ]
 },
-  {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_OldGraveYard",
-    "MapTiles": [
-{
-"Position": {
-"X": 47,
-"Y": 69
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
-  {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_OldGraveYard",
-    "MapTiles": [
-{
-"Position": {
-"X": 44,
-"Y": 70
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
-  {
-"Action": "EditMap",
-    "Target": "Maps/{{ModID}}_OldGraveYard",
-    "MapTiles": [
-{
-"Position": {
-"X": 47,
-"Y": 72
-},
-"Layer": "Paths",
-"SetIndex": "34",
-"SetProperties": {
-"SpawnTree": "wild {{ModID}}_MeekTree"
-}
-}
-]
-},
  {
 "Action": "EditMap",
     "Target": "Maps/{{ModID}}_OldGraveYard",
@@ -1052,7 +1253,7 @@
 "SeedItemId": "(O){{ModID}}_ReuuSeed",
 "IsLeafyInWinter": false,
 "UseAlternateSpriteWhenNotShaken": true,
- "DropWoodOnChop": false,
+ "DropWoodOnChop": true,
  "DropHardwoodOnLumberChop": false,
 "AllowWoodpeckers": true,
 "SeedSpreadChance": "0.1",
@@ -1090,31 +1291,6 @@
 }
 ],
   "ChopItems": [
-      {
-"MinSize": null,
-"MaxSize": null,
-"ForStump": false,
-"Season": null,
-"Chance": 0.1,
-"Condition": null,
-"Id": "{{ModID}}_ReuuSeedDrop",
-"ItemId": "(O){{ModID}}_ReuuSeed",
-"RandomItemId": null,
-"MaxItems": null,
-"MinStack": 1,
-"MaxStack": 1,
-"Quality": -1,
-"ObjectInternalName": null,
-"ObjectDisplayName": null,
-"ToolUpgradeLevel": -1,
-"IsRecipe": false,
-"StackModifiers": null,
-"StackModifierMode": "Stack",
-"QualityModifiers": null,
-"QualityModifierMode": "Stack",
-"ModData": null,
-"PerItemCondition": null
-      },
    {
 "MinSize": null,
 "MaxSize": null,
@@ -1163,7 +1339,7 @@
 "SeedItemId": null,
 "IsLeafyInWinter": false,
 "UseAlternateSpriteWhenNotShaken": true,
- "DropWoodOnChop": false,
+ "DropWoodOnChop": true,
  "DropHardwoodOnLumberChop": false,
 "AllowWoodpeckers": false,
 "SeedDropItems": [],
@@ -1225,34 +1401,33 @@
     "UseAlternateSpriteWhenNotShaken": true,
     "UseAlternateSpriteWhenSeedReady": false,
     "DebrisColor": null,
-    "SeedDropItems": null,
-    "ChopItems": [
+    "SeedSpreadChance": 0.15,
+"SeedDropItems": [
       {
-        "MinSize": null,
-        "MaxSize": null,
-        "ForStump": true,
-        "Season": null,
-        "Chance": 1.0,
-        "Condition": null,
-        "Id": "{{ModID}}_MeekSeedDrop",
-        "ItemId": "(O){{ModID}}_MeekSeed",
-        "RandomItemId": null,
-        "MaxItems": null,
-        "MinStack": 2,
-        "MaxStack": 6,
-        "Quality": -1,
-        "ObjectInternalName": null,
-        "ObjectDisplayName": null,
-        "ObjectColor": null,
-        "ToolUpgradeLevel": -1,
-        "IsRecipe": false,
-        "StackModifiers": null,
-        "StackModifierMode": "Stack",
-        "QualityModifiers": null,
-        "QualityModifierMode": "Stack",
-        "ModData": null,
-        "PerItemCondition": null
-      },
+"ContinueOnDrop": false,
+"Season": null,
+"Chance": 1.0,
+"Condition": null,
+"Id": "(O){{ModID}}_MeekSeed",
+"ItemId": "(O){{ModID}}_MeekSeed",
+"RandomItemId": null,
+"MaxItems": null,
+"MinStack": 1,
+"MaxStack": 1,
+"Quality": -1,
+"ObjectInternalName": null,
+"ObjectDisplayName": null,
+"ToolUpgradeLevel": -1,
+"IsRecipe": false,
+"StackModifiers": null,
+"StackModifierMode": "Stack",
+"QualityModifiers": null,
+"QualityModifierMode": "Stack",
+"ModData": null,
+"PerItemCondition": null
+      }
+    ],
+    "ChopItems": [
         {
         "MinSize": null,
         "MaxSize": null,
@@ -1281,6 +1456,10 @@
       }
     ],
     "TapItems": [
+            {
+        "ItemId": "(O){{ModID}}_MeekSap",
+    "DaysUntilReady": 4
+}
     ],
     "ShakeItems": [
       {
@@ -1349,6 +1528,12 @@
 "PerItemCondition": null
       }
     ],
+    "TapItems": [
+            {
+        "ItemId": "(O){{ModID}}_HeaviousSap",
+    "DaysUntilReady": 7
+}
+    ],
 "ShakeItems": [
 {
     "ItemId": "(O){{ModID}}_HeaviousFruit",
@@ -1358,31 +1543,6 @@
 }
 ],
   "ChopItems": [
-      {
-"MinSize": null,
-"MaxSize": null,
-"ForStump": false,
-"Season": null,
-"Chance": 1.0,
-"Condition": null,
-"Id": "{{ModID}}_HeaviousSeedDrop",
-"ItemId": "(O){{ModID}}_HeaviousSeed",
-"RandomItemId": null,
-"MaxItems": null,
-"MinStack": 1,
-"MaxStack": 6,
-"Quality": -1,
-"ObjectInternalName": null,
-"ObjectDisplayName": null,
-"ToolUpgradeLevel": -1,
-"IsRecipe": false,
-"StackModifiers": null,
-"StackModifierMode": "Stack",
-"QualityModifiers": null,
-"QualityModifierMode": "Stack",
-"ModData": null,
-"PerItemCondition": null
-      },
 {
 "MinSize": null,
 "MaxSize": null,
