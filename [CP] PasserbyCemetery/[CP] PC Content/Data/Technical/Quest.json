@@ -27,7 +27,9 @@
 "{{ModID}}_BarronsBook.Quest": "ItemDelivery/{{i18n:FC.BarronsBook.Quest.Title}}/{{i18n:FC.BarronsBook.Quest.Description}}/{{i18n:FC.BarronsBook.Quest.Objective}}/FC.Barron {{ModID}}_BarronsBook 1/-1/1000/-1/true/{{i18n:FC.BarronsBook.Quest.Reaction}}",
 "{{ModID}}_TheCuff.Quest": "ItemDelivery/{{i18n:FC.TheCuff.Quest.Title}}/{{i18n:FC.TheCuff.Quest.Description}}/{{i18n:FC.TheCuff.Quest.Objective}}/FC.Phoebe {{ModID}}_TheCuff 1/-1/1000/-1/true/{{i18n:FC.TheCuff.Quest.Reaction}}",
 "{{ModID}}_PhoebesPackage.Quest": "LostItem/{{i18n:FC.PhoebesPackage.Quest.Title}}/{{i18n:FC.PhoebesPackage.Quest.Description}}/{{i18n:FC.PhoebesPackage.Quest.Objective}}/FC.Phoebe {{ModID}}_PhoebesPackage ManorHouse 2 6/-1/500/-1/true/{{i18n:FC.PhoebesPackage.Quest.Reaction}}",
-"{{ModID}}_CoinQuest.Quest": "ItemDelivery/{{i18n:FC.CoinQuest.Quest.Title}}/{{i18n:FC.CoinQuest.Quest.Description}}/{{i18n:FC.CoinQuest.Quest.Objective}}/FC.Lyell {{ModID}}_ArcaCoin 500/-1/250/-1/true/{{i18n:FC.CoinQuest.Quest.Reaction}}",
+"{{ModID}}_CoinQuest.Quest": "ItemDelivery/{{i18n:FC.CoinQuest.Quest.Title}}/{{i18n:FC.CoinQuest.Quest.Description}}/{{i18n:FC.CoinQuest.Quest.Objective}}/FC.Lyell {{ModID}}_ArcaCoin 100/-1/250/-1/true/{{i18n:FC.CoinQuest.Quest.Reaction}}",
+"{{ModID}}_LicenseQuest.Quest": "ItemDelivery/{{i18n:FC.LicenseQuest.Quest.Title}}/{{i18n:FC.LicenseQuest.Quest.Description}}/{{i18n:FC.LicenseQuest.Quest.Objective}}/FC.Lyell {{ModID}}_SmallGaleabisonCheese 10/-1/250/-1/true/{{i18n:FC.LicenseQuest.Quest.Reaction}}",
+
 }
 },
 ]

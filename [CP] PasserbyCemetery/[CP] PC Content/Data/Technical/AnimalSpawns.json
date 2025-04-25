@@ -172,6 +172,19 @@
 "HomeTileY":36,
 "Condition": ""
 },
+"{{ModID}}_Seafoam": {
+"AnimalId": "{{ModID}}_Warthog",
+"Age": 0,
+"LocationId": "{{ModID}}_TurnaboutSaloonBasement",
+"DisplayName": "{{i18n:FC.BabyHog}}",
+"PortraitTexture": "Portraits/FC.BabyHog",
+"PetMessage": [
+"{{i18n:FC.Seafoam.01}}"
+],
+"HomeTileX": 37,
+"HomeTileY": 13,
+"Condition": ""
+},
 }
 },
 ]

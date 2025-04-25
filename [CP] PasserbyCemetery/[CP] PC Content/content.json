@@ -2,6 +2,12 @@
 "Format":"2.5.3",
 // CONFIG OPTIONS
   "ConfigSchema": {
+      "MistAndLighting": {
+"Description": "Turn the mist and lighting affects off in the cemetery.",
+"AllowValues": "true, false",
+"Default": true,
+"AllowBlank": false
+},
   "IntroQuest": {
 "Description": "Exclude or Include Npcs from Intro Quest.",
 "AllowValues": "Exclude, Include",
@@ -687,6 +693,11 @@ Technical Includes
 "LogName": "Dezerie Info",
 "Action": "Include",
 "FromFile": "Data/Characters/Dezerie/Dialogue.json,Data/Characters/Dezerie/Dispositions.json,Data/Characters/Dezerie/Events.json,Data/Characters/Dezerie/Festivals.json,Data/Characters/Dezerie/GiftTaste.json,Data/Characters/Dezerie/Movies.json,Data/Characters/Dezerie/Schedules.json"
+ },
+   {
+"LogName": "Eva Info",
+"Action": "Include",
+"FromFile": "Data/Characters/Eva/Dialogue.json,Data/Characters/Eva/Dispositions.json,Data/Characters/Eva/Events.json,Data/Characters/Eva/GiftTaste.json,Data/Characters/Eva/Movies.json,Data/Characters/Eva/Schedules.json"
  },
    {
 "LogName": "Grady Info",

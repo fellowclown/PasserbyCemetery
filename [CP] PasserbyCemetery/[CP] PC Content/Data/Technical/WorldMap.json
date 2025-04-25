@@ -1,6 +1,32 @@
 {
 "Changes": [
  {
+     "LogName": "PasserbyVanillaLocation",
+     "Action": "EditData",
+     "Target": "Data/WorldMap",
+     "When": {
+"OverWorldMapEdit": true,
+     },
+     "TargetField": [ "Valley", "MapAreas" ],
+     "Entries": {
+       "PasserbyVanillaLocation": {
+         "Id": "PCVL",
+         "PixelArea": {
+           "X": 181,
+           "Y": 0,
+           "Width": 64,
+           "Height": 27
+         },
+         "Tooltips": [
+           {
+             "Id": "PCVL",
+             "Text": "{{i18n:FC.PasserbyCemetery}}"
+           }
+         ],
+       }
+     }
+   },
+ {
 "LogName": "Create Passerby Region",
 "Action": "EditData",
 "Target": "Data/WorldMap",
@@ -46,10 +72,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 93,
-"Y": 147,
-"Width": 13,
-"Height": 8
+"X": 91,
+"Y": 149,
+"Width": 10,
+"Height": 13
 },
 "Text": "{{i18n:FC.PasserbyExhibit}}",
 },
@@ -58,10 +84,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 256,
-"Y": 78,
-"Width": 14,
-"Height": 8
+"X": 258,
+"Y": 94,
+"Width": 12,
+"Height": 13
 },
 "Text": "{{i18n:FC.TurnaboutSaloon}}",
 },
@@ -70,23 +96,34 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 105,
-"Y": 134,
-"Width": 12,
-"Height": 9
+"X": 102,
+"Y": 144,
+"Width": 14,
+"Height": 10
 },
 "Text": "{{i18n:FC.Stoneresidents}}",
 },
-
+ {
+"Id": "AppleGate",
+"Condition": null,
+"KnownCondition": null,
+"PixelArea": {
+"X": 235,
+"Y": 87,
+"Width": 13,
+"Height": 8
+},
+"Text": "{{i18n:FC.MobileHome}}",
+},
     {
 "Id": "BoatHouse",
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 173,
-"Y": 130,
-"Width": 21,
-"Height": 11
+"X": 170,
+"Y": 139,
+"Width": 16,
+"Height": 13
 },
 "Text": "{{i18n:FC.BoatHouse}}",
 },
@@ -95,10 +132,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 113,
-"Y": 104,
-"Width": 25,
-"Height": 21
+"X": 115,
+"Y": 117,
+"Width": 23,
+"Height": 24
 },
 "Text": "{{i18n:FC.LoreMemorial}}",
 },
@@ -107,10 +144,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 91,
-"Y": 103,
-"Width": 15,
-"Height": 7
+"X": 95,
+"Y": 124,
+"Width": 9,
+"Height": 8
 },
 "Text": "{{i18n:FC.LoveJoyresidents}}",
 },
@@ -119,9 +156,9 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 167,
-"Y": 156,
-"Width": 8,
+"X": 166,
+"Y": 159,
+"Width": 6,
 "Height": 10
 },
 "Text": "{{i18n:FC.PasserbyRestrooms}}",
@@ -132,9 +169,9 @@
 "KnownCondition": null,
 "PixelArea": {
 "X": 147,
-"Y": 91,
-"Width": 8,
-"Height": 9
+"Y": 113,
+"Width": 6,
+"Height": 10
 },
 "Text": "{{i18n:FC.PasserbyRestrooms}}",
 },
@@ -143,10 +180,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 195,
-"Y": 97,
-"Width": 20,
-"Height": 21
+"X": 188,
+"Y": 122,
+"Width": 13,
+"Height": 13
 },
 "Text": "{{i18n:FC.ElderTropaTree}}",
 },
@@ -155,10 +192,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 0,
-"Y": 76,
-"Width": 17,
-"Height": 21
+"X": 15,
+"Y": 103,
+"Width": 13,
+"Height": 13
 },
 "Text": "{{i18n:FC.ElderTropaTree}}",
 },
@@ -167,10 +204,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 244,
-"Y": 81,
-"Width": 10,
-"Height": 7
+"X": 234,
+"Y": 103,
+"Width": 17,
+"Height": 10
 },
 "Text": "{{i18n:FC.BookWormMobile}}",
 },
@@ -179,9 +216,9 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 189,
-"Y": 68,
-"Width": 12,
+"X": 187,
+"Y": 96,
+"Width": 10,
 "Height": 9
 },
 "Text": "{{i18n:FC.PasserbyTemple}}",
@@ -191,10 +228,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 160,
-"Y": 48,
-"Width": 18,
-"Height": 8
+"X": 165,
+"Y": 81,
+"Width": 17,
+"Height": 9
 },
 "Text": "{{i18n:FC.Leslaresidents}}",
 },
@@ -204,9 +241,9 @@
 "KnownCondition": null,
 "PixelArea": {
 "X": 121,
-"Y": 46,
+"Y": 81,
 "Width": 11,
-"Height": 10
+"Height": 13
 },
 "Text": "{{i18n:FC.BeeNursery}}",
 },
@@ -215,10 +252,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 76,
-"Y": 44,
-"Width": 38,
-"Height": 47
+"X": 84,
+"Y": 88,
+"Width": 25,
+"Height": 28
 },
 "Text": "{{i18n:FC.PasserbyRoundabout}}",
 },
@@ -227,10 +264,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 155,
-"Y": 89,
-"Width": 6,
-"Height": 6
+"X": 153,
+"Y": 115,
+"Width": 8,
+"Height": 4
 },
 "Text": "{{i18n:FC.FallsCave}}",
 },
@@ -240,10 +277,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 121,
-"Y": 4,
-"Width": 6,
-"Height": 8
+"X": 130,
+"Y": 12,
+"Width": 8,
+"Height": 14
 },
 "Text": "{{i18n:FC.CranksGoodies}}",
 },
@@ -253,10 +290,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 32,
-"Y": 68,
-"Width": 15,
-"Height": 7
+"X": 42,
+"Y": 89,
+"Width": 14,
+"Height": 15
 },
 "Text": "{{i18n:FC.Halkiasresidents}}",
 },
@@ -266,10 +303,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 43,
-"Y": 68,
+"X": 55,
+"Y": 91,
 "Width": 5,
-"Height": 5
+"Height": 8
 },
 "Text": "{{i18n:FC.HalkiasCoop}}",
 },
@@ -279,10 +316,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 35,
-"Y": 37,
-"Width": 11,
-"Height": 8
+"X": 42,
+"Y": 63,
+"Width": 8,
+"Height": 9
 },
 "Text": "{{i18n:FC.HalkiasShed}}",
 },
@@ -291,10 +328,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 56,
-"Y": 42,
-"Width": 12,
-"Height": 7
+"X": 62,
+"Y": 72,
+"Width": 11,
+"Height": 8
 },
 "Text": "{{i18n:FC.HalkiasBarn}}",
 },
@@ -303,10 +340,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 48,
-"Y": 70,
-"Width": 5,
-"Height": 15
+"X": 60,
+"Y": 97,
+"Width": 3,
+"Height": 8
 },
 "Text": "{{i18n:FC.LyellsTruck}}",
 },
@@ -315,10 +352,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 24,
-"Y": 50,
-"Width": 12,
-"Height": 9
+"X": 35,
+"Y": 72,
+"Width": 10,
+"Height": 11
 },
 "Text": "{{i18n:FC.DriftWoodCampSite}}",
 },
@@ -327,10 +364,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 28,
-"Y": 58,
-"Width": 6,
-"Height": 5
+"X": 40,
+"Y": 85,
+"Width": 2,
+"Height": 3
 },
 "Text": "{{i18n:FC.DriftWoodBathNook}}",
 },
@@ -340,9 +377,9 @@
 "KnownCondition": null,
 "PixelArea": {
 "X": 274,
-"Y": 32,
-"Width": 5,
-"Height": 7
+"Y": 47,
+"Width": 11,
+"Height": 12
 },
 "Text": "{{i18n:FC.GuardianHome}}",
 },
@@ -351,10 +388,10 @@
 "Condition": null,
 "KnownCondition": null,
 "PixelArea": {
-"X": 260,
-"Y": 26,
-"Width": 14,
-"Height": 17
+"X": 205,
+"Y": 28,
+"Width": 69,
+"Height": 48
 },
 "Text": "{{i18n:FC.AncientGraveYard}}",
 },
@@ -364,10 +401,10 @@
 "Id": "PasserbyCemeterySection",
 "LocationName": "{{ModId}}_OldGraveYard",
 "MapPixelArea": {
-"X": 78,
-"Y": 31,
-"Width":144,
-"Height": 150
+"X": 74,
+"Y": 70,
+"Width":149,
+"Height": 111
 },
 "ScrollText": null,
 },
@@ -375,10 +412,10 @@
 "Id": "Exhibit",
 "LocationName": "{{ModId}}_Exhibit",
 "MapPixelArea": {
-"X": 93,
-"Y": 147,
-"Width": 13,
-"Height": 8
+"X": 91,
+"Y": 149,
+"Width": 10,
+"Height": 13
 },
 "ScrollText": null,
 },
@@ -386,10 +423,10 @@
 "Id": "Exhibit",
 "LocationName": "{{ModId}}_ExhibitSecondFloor",
 "MapPixelArea": {
-"X": 93,
-"Y": 147,
-"Width": 13,
-"Height": 8
+"X": 91,
+"Y": 149,
+"Width": 10,
+"Height": 13
 },
 "ScrollText": null,
 },
@@ -397,10 +434,10 @@
 "Id": "TurnaboutSaloon",
 "LocationName": "{{ModId}}_TurnaboutSaloon",
 "MapPixelArea": {
-"X": 256,
-"Y": 78,
-"Width": 14,
-"Height": 8
+"X": 258,
+"Y": 94,
+"Width": 12,
+"Height": 13
 },
 "ScrollText": null,
 },
@@ -408,10 +445,10 @@
 "Id": "TurnaboutSaloon",
 "LocationName": "{{ModId}}_TurnaboutSaloonBasement",
 "MapPixelArea": {
-"X": 256,
-"Y": 78,
-"Width": 14,
-"Height": 8
+"X": 258,
+"Y": 94,
+"Width": 12,
+"Height": 13
 },
 "ScrollText": null,
 },
@@ -419,10 +456,10 @@
 "Id": "StoneHouse",
 "LocationName": "{{ModId}}_StoneHouse",
 "MapPixelArea": {
-"X": 105,
-"Y": 134,
-"Width": 12,
-"Height": 9
+"X": 102,
+"Y": 144,
+"Width": 14,
+"Height": 10
 },
 "ScrollText": null,
 },
@@ -430,10 +467,10 @@
 "Id": "StoneHouse",
 "LocationName": "{{ModId}}_AlansRoom",
 "MapPixelArea": {
-"X": 105,
-"Y": 134,
-"Width": 12,
-"Height": 9
+"X": 102,
+"Y": 144,
+"Width": 14,
+"Height": 10
 },
 "ScrollText": null,
 },
@@ -441,10 +478,10 @@
 "Id": "BoatHouse",
 "LocationName": "{{ModId}}_BoatHouse",
 "MapPixelArea": {
-"X": 173,
-"Y": 130,
-"Width": 21,
-"Height": 11
+"X": 170,
+"Y": 139,
+"Width": 16,
+"Height": 13
 },
 "ScrollText": null,
 },
@@ -452,10 +489,10 @@
 "Id": "LovejoyHouse",
 "LocationName": "{{ModId}}_MavericksHouse",
 "MapPixelArea": {
-"X": 91,
-"Y": 103,
-"Width": 15,
-"Height": 7
+"X": 95,
+"Y": 124,
+"Width": 9,
+"Height": 8
 },
 "ScrollText": null,
 },
@@ -463,10 +500,10 @@
 "Id": "LovejoyHouse",
 "LocationName": "{{ModId}}_JohnsTempRoom",
 "MapPixelArea": {
-"X": 91,
-"Y": 103,
-"Width": 15,
-"Height": 7
+"X": 95,
+"Y": 124,
+"Width": 9,
+"Height": 8
 },
 "ScrollText": null,
 },
@@ -474,10 +511,10 @@
 "Id": "BookwormMobile",
 "LocationName": "{{ModId}}_TravelingTrailer",
 "MapPixelArea": {
-"X": 244,
-"Y": 81,
+"X": 234,
+"Y": 103,
 "Width": 10,
-"Height": 7
+"Height": 9
 },
 "ScrollText": null,
 },
@@ -485,10 +522,10 @@
 "Id": "BookwormMobile",
 "LocationName": "{{ModId}}_TravelingTrailerDecker",
 "MapPixelArea": {
-"X": 244,
-"Y": 81,
+"X": 234,
+"Y": 103,
 "Width": 10,
-"Height": 7
+"Height": 9
 },
 "ScrollText": null,
 },
@@ -496,9 +533,9 @@
 "Id": "PasserbyTemple",
 "LocationName": "{{ModId}}_TempleRuins",
 "MapPixelArea": {
-"X": 189,
-"Y": 68,
-"Width": 12,
+"X": 187,
+"Y": 96,
+"Width": 10,
 "Height": 9
 },
 "ScrollText": null,
@@ -507,9 +544,9 @@
 "Id": "PasserbyTemple",
 "LocationName": "{{ModId}}_Temple",
 "MapPixelArea": {
-"X": 189,
-"Y": 68,
-"Width": 12,
+"X": 187,
+"Y": 96,
+"Width": 10,
 "Height": 9
 },
 "ScrollText": null,
@@ -518,10 +555,10 @@
 "Id": "LeslaHouse",
 "LocationName": "{{ModId}}_LeslaHouse",
 "MapPixelArea": {
-"X": 160,
-"Y": 48,
-"Width": 18,
-"Height": 8
+"X": 165,
+"Y": 81,
+"Width": 17,
+"Height": 9
 },
 "ScrollText": null,
 },
@@ -529,10 +566,10 @@
 "Id": "LeslaHouse",
 "LocationName": "{{ModId}}_NiksRoom",
 "MapPixelArea": {
-"X": 160,
-"Y": 48,
-"Width": 18,
-"Height": 8
+"X": 165,
+"Y": 81,
+"Width": 17,
+"Height": 9
 },
 "ScrollText": null,
 },
@@ -541,9 +578,9 @@
 "LocationName": "{{ModId}}_BeeNursery",
 "MapPixelArea": {
 "X": 121,
-"Y": 46,
+"Y": 81,
 "Width": 11,
-"Height": 10
+"Height": 13
 },
 "ScrollText": null,
 },
@@ -551,10 +588,10 @@
 "Id": "FallsCave",
 "LocationName": "{{ModId}}_SecretCave",
 "MapPixelArea": {
-"X": 155,
-"Y": 89,
-"Width": 6,
-"Height": 6
+"X": 153,
+"Y": 115,
+"Width": 8,
+"Height": 4
 },
 "ScrollText": null,
 },
@@ -562,10 +599,10 @@
 "Id": "FallsCave",
 "LocationName": "{{ModId}}_CottonsHome",
 "MapPixelArea": {
-"X": 155,
-"Y": 89,
-"Width": 6,
-"Height": 6
+"X": 153,
+"Y": 115,
+"Width": 8,
+"Height": 4
 },
 "ScrollText": null,
 },
@@ -573,21 +610,21 @@
 "Id": "PasserbyCliffs",
 "LocationName": "{{ModId}}_PasserbyCliffs",
 "MapPixelArea": {
-"X": 73,
+"X": 76,
 "Y": 0,
-"Width": 77,
-"Height": 33
+"Width": 87,
+"Height": 69
 },
 "ScrollText": null,
 },
 {
-"Id": "Janks",
+"Id": "Cranks",
 "LocationName": "{{ModId}}_FisherHome",
 "MapPixelArea": {
-"X": 121,
-"Y": 4,
-"Width": 6,
-"Height": 8
+"X": 130,
+"Y": 12,
+"Width": 8,
+"Height": 14
 },
 "ScrollText": null,
 },
@@ -595,10 +632,10 @@
 "Id": "DriftWoodFarm",
 "LocationName": "{{ModId}}_LyellsProperty",
 "MapPixelArea": {
-"X": 0,
-"Y": 36,
-"Width": 77,
-"Height": 60
+"X": 10,
+"Y": 61,
+"Width": 64,
+"Height": 62
 },
 "ScrollText": null,
 },
@@ -606,10 +643,10 @@
 "Id": "HalkiasResidents",
 "LocationName": "{{ModId}}_LyellsHouse",
 "MapPixelArea": {
-"X": 32,
-"Y": 68,
-"Width": 15,
-"Height": 7
+"X": 42,
+"Y": 89,
+"Width": 14,
+"Height": 15
 },
 "ScrollText": null,
 },
@@ -617,10 +654,10 @@
 "Id": "HalkiasResidents",
 "LocationName": "{{ModId}}_GradysRoom",
 "MapPixelArea": {
-"X": 32,
-"Y": 68,
-"Width": 15,
-"Height": 7
+"X": 42,
+"Y": 89,
+"Width": 14,
+"Height": 15
 },
 "ScrollText": null,
 },
@@ -628,10 +665,10 @@
 "Id": "DriftWoodCoop",
 "LocationName": "{{ModId}}_LyellsCoop",
 "MapPixelArea": {
-"X": 43,
-"Y": 68,
+"X": 55,
+"Y": 91,
 "Width": 5,
-"Height": 5
+"Height": 8
 },
 "ScrollText": null,
 },
@@ -639,10 +676,10 @@
 "Id": "DriftWoodShed",
 "LocationName": "{{ModId}}_LyellsShed",
 "MapPixelArea": {
-  "X": 35,
-"Y": 37,
-"Width": 11,
-"Height": 8
+"X": 42,
+"Y": 63,
+"Width": 8,
+"Height": 9
 },
 "ScrollText": null,
 },
@@ -650,10 +687,10 @@
 "Id": "DriftWoodBarn",
 "LocationName": "{{ModId}}_LyellsBarn",
 "MapPixelArea": {
-"X": 56,
-"Y": 42,
-"Width": 12,
-"Height": 7
+"X": 62,
+"Y": 72,
+"Width": 11,
+"Height": 8
 },
 "ScrollText": null,
 },
@@ -673,9 +710,31 @@
 "LocationName": "{{ModId}}_GuardianHome",
 "MapPixelArea": {
 "X": 274,
-"Y": 32,
-"Width": 5,
-"Height": 7
+"Y": 47,
+"Width": 11,
+"Height": 12
+},
+"ScrollText": null,
+},
+{
+"Id": "PasserbyRoad",
+"LocationName": "{{ModId}}_PasserbyRoad",
+"MapPixelArea": {
+"X": 221,
+"Y": 85,
+"Width": 78,
+"Height": 48
+},
+"ScrollText": null,
+},
+{
+"Id": "AppleGate",
+"LocationName": "{{ModId}}_MobileHome",
+"MapPixelArea": {
+"X": 235,
+"Y": 87,
+"Width": 13,
+"Height": 8
 },
 "ScrollText": null,
 },

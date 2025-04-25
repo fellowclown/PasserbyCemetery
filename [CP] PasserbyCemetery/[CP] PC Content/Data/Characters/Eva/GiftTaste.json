@@ -1,0 +1,16 @@
+{
+"Changes": [
+/************************************************
+GIFT TASTES
+ ************************************************/
+ {
+"LogName": "GiftTastes",
+"Action": "EditData",
+"Target": "Data/NPCGiftTastes",
+"Entries": {
+"FC.Eva": "{{i18n:Eve.gift.love}}/ /{{i18n:Eve.gift.like}}/ /{{i18n:Eve.gift.dislike}}/ /{{i18n:Eve.gift.hate}}/ /{{i18n:Eve.gift.neutral}}/ / ",
+}
+}
+]
+}
+

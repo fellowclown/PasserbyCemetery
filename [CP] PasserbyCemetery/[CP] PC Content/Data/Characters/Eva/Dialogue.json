@@ -1,0 +1,105 @@
+{
+"Changes": [
+   /************************************************
+ **  Dialogues
+ ************************************************/ 
+ {
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/FC.Eve",
+  "Entries": {
+// Special Keys
+"Introduction": "{{i18n:Introduction.Eve}}",
+"AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_StardropTea.Eve}}",
+"AcceptBirthdayGift_Loved": "{{i18n:AcceptBirthdayGift_Loved.Eve}}",
+"AcceptBirthdayGift_Liked": "{{i18n:AcceptBirthdayGift_Liked.Eve}}",
+"AcceptBirthdayGift_Disliked": "{{i18n:AcceptBirthdayGift_Disliked.Eve}}",
+"AcceptBirthdayGift_Hated": "{{i18n:AcceptBirthdayGift_Hated.Eve}}",
+"AcceptBirthdayGift_Neutral": "{{i18n:AcceptBirthdayGift_Neutral.Eve}}",
+"HitBySlingshot": "{{i18n:HitBySlingshot.Eve}}",
+"DumpsterDiveComment": "{{i18n:DumpsterDiveComment.Eve}}",
+"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:RejectMovieTicket_AlreadyInvitedBySomeoneElse.Eve}}",
+"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek.Eve}}",
+"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie.Eve}}",
+"MovieInvitation": "{{i18n:MovieInvitation.Eve}}",
+"AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Eve.AcceptGift_(O)WWWA.AutographedPhoto}}",
+"GreenRainFinished": "{{i18n:GreenRainFinished.Eve}}",
+"GreenRain": "{{i18n:GreenRain.Eve}}",
+"GreenRain_2": "{{i18n:GreenRain_2.Eve}}",
+"reject_(O){{ModID}}_WalkMan": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_ElizabethsRing": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostJournal": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostPipe": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_StoneRelic": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostAmulet": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_RettNote": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_LostKey": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_BarronsBook": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_TheCuff": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_PhoebesPackage": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_BagOfSeaglass": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsNecklace": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsRing": "{{i18n:RejectObject.Vanilla}}",
+"reject_(O){{ModID}}_JohnsWine": "{{i18n:RejectObject.Vanilla}}",
+},
+},
+
+       {
+            "LogName": "Dialogue - 0-4",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.Eve",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Eve.LowHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Eve.LowHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Eve.LowHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Eve.LowHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Eve.LowHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Eve.LowHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Eve.LowHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Eve": "{{Range: 0, 4}}",
+}
+},
+  {
+            "LogName": "Dialogue - 5-8",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/FC.Eve",
+            "Entries":     { 
+              ///Main Dialogue
+"Mon": "{{i18n:Mon.Eve.MidHeart.{{season}}}}",
+"Tue": "{{i18n:Tue.Eve.MidHeart.{{season}}}}",
+"Wed": "{{i18n:Wed.Eve.MidHeart.{{season}}}}",
+"Thu": "{{i18n:Thu.Eve.MidHeart.{{season}}}}",
+"Fri": "{{i18n:Fri.Eve.MidHeart.{{season}}}}",
+"Sat": "{{i18n:Sat.Eve.MidHeart.{{season}}}}",
+"Sun": "{{i18n:Sun.Eve.MidHeart.{{season}}}}",
+},
+"When": {
+"Hearts:FC.Eve": "{{Range: 5, 10}}",
+}
+},
+{
+"LogName": "Incoming Calls",
+"Action": "EditData",
+"Target": "Data/IncomingPhoneCalls",
+"Entries": {
+  "{{ModID}}_PhoneEve": {
+"TriggerCondition": null,
+"RingCondition": null,
+"FromNpc": "FC.Eve",
+"FromPortrait": null,
+"FromDisplayName": null,
+"Dialogue": "{{i18n:Eve.PhoneCall.{{Random:1,2,3}}}}",
+"IgnoreBaseChance": false,
+"SimpleDialogueSplitBy": null,
+"MaxCalls": 100,
+"CustomFields": {}
+  }
+},
+     "When": {
+ "HasSeenEvent |contains={{ModID}}_TurnAboutSaloon": true,
+}
+},
+]
+}

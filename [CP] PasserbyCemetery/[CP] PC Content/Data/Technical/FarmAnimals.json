@@ -352,7 +352,7 @@
 "StatToIncrementOnProduce": null,
 "ShowInSummitCredits": false,
 "CustomFields": {
-"mushymato.LivestockBazaar/BuyFrom.Marnie": "{{PreLicense}}",
+"mushymato.LivestockBazaar/BuyFrom.Marnie": false,
 "mushymato.LivestockBazaar/BuyFrom.{{ModID}}_LyellsAnimalBook": true,
 }
  }
@@ -410,9 +410,9 @@
 "ProfessionForFasterProduce": -1,
 "Sound": "pig",
 "BabySound": "pig",
-"Texture": "Animals\\FC.Warthog_Adult_Black",
+"Texture": "Animals\\FC.Warthog_Adult_Brown",
 "HarvestedTexture": null,
-"BabyTexture": "Animals\\FC.Warthog_Baby_Black",
+"BabyTexture": "Animals\\FC.Warthog_Baby_Brown",
 "UseFlippedRightForLeft": true,
 "UseDoubleUniqueAnimationFrames": false,
 "SleepFrame": 12,
@@ -472,7 +472,7 @@
 "StatToIncrementOnProduce": null,
 "ShowInSummitCredits": false,
 "CustomFields": {
-"mushymato.LivestockBazaar/BuyFrom.Marnie": "{{PreLicense}}",
+"mushymato.LivestockBazaar/BuyFrom.Marnie": false,
 "mushymato.LivestockBazaar/BuyFrom.{{ModID}}_LyellsAnimalBook": true,
 }
 },
@@ -874,7 +874,7 @@
 ],
 "ShowInSummitCredits": false,
 "CustomFields": {
-"mushymato.LivestockBazaar/BuyFrom.Marnie": "{{PreLicense}}",
+"mushymato.LivestockBazaar/BuyFrom.Marnie": false,
 "mushymato.LivestockBazaar/BuyFrom.{{ModID}}_LyellsAnimalBook": true,
 }
 }
@@ -1124,7 +1124,7 @@
 "StatToIncrementOnProduce": null,
 "ShowInSummitCredits": false,
 "CustomFields": {
-"mushymato.LivestockBazaar/BuyFrom.Marnie": "{{PreLicense}}",
+"mushymato.LivestockBazaar/BuyFrom.Marnie": false,
 "mushymato.LivestockBazaar/BuyFrom.{{ModID}}_LyellsAnimalBook": true,
 }
 }
@@ -1224,7 +1224,7 @@
 ],
 "ShowInSummitCredits": true,
 "CustomFields": {
-"mushymato.LivestockBazaar/BuyFrom.Marnie": "{{PreLicense}}",
+"mushymato.LivestockBazaar/BuyFrom.Marnie": false,
 "mushymato.LivestockBazaar/BuyFrom.{{ModID}}_LyellsAnimalBook": true,
 }
 }

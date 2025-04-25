@@ -1,0 +1,12 @@
+{
+    "Changes": [
+      {
+"LogName": "Turn About Saloon",
+"Action": "EditData",
+"Target": "Data/Events/{{ModID}}_PasserbyRoad",
+"Entries": {
+ "{{ModID}}_TurnAboutSaloon/e {{ModID}}_ThaliasDelivery/t 600 2600": "breezy/-1000 -1000/FC.Maverick 27 22 1 FC.Kaia 29 22 3 farmer 21 31 1 FC.Thalia 25 26 3 FC.Eva 23 26 1 Gus 24 25 2/viewport 24 25/showFrame FC.Maverick 32/showFrame FC.Kaia 16/positionOffset FC.Kaia 0 20/skippable/pause 1000/advancedMove farmer false 3 0 4 10 0 -4 4 10/pause 500/faceDirection FC.Eva 2/pause 250/emote FC.Eva 32/pause 300/speak FC.Eva \"{{i18n:TurnAboutSaloon.00}}\"/pause 250/faceDirection FC.Eva 1/faceDirection FC.Thalia 2/pause 350/faceDirection FC.Thalia 3 true/ emote FC.Maverick 32/speak FC.Thalia \"{{i18n:TurnAboutSaloon.01}}\"/pause 250 true/emote FC.Kaia 20/textAbovehead Gus \"{{i18n:TurnAboutSaloon.02}}\"/pause 400/speak Gus \"{{i18n:TurnAboutSaloon.03}}\"/pause 250/speak FC.Eva \"{{i18n:TurnAboutSaloon.04}}\"/pause 250/speak FC.Thalia \"{{i18n:TurnAboutSaloon.05}}\"/pause 300/speak Gus \"{{i18n:TurnAboutSaloon.06}}\"/pause 300/speak FC.Eva \"{{i18n:TurnAboutSaloon.07}}\"/pause 250 true/emote FC.Kaia 32/emote FC.Maverick 28 true/speak Gus \"{{i18n:TurnAboutSaloon.08}}\"/pause 250/speak FC.Eva \"{{i18n:TurnAboutSaloon.09}}\"/pause 1000/emote FC.Thalia 60/pause 200/speak FC.Thalia \"{{i18n:TurnAboutSaloon.10}}\"/pause 250/speak FC.Eva \"{{i18n:TurnAboutSaloon.11}}\"/pause 200/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/message \"{{i18n:TurnAboutSaloon.12}}\"/end",
+  }
+},
+]
+}

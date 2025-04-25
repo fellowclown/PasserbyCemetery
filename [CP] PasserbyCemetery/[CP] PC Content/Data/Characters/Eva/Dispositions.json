@@ -1,0 +1,154 @@
+{
+"Changes": [
+
+ {
+"LogName": "Eve Dispositions",
+"Action": "EditData",
+"Target": "Data/Characters",
+"Entries": {
+"FC.Eva": {
+///Basic Info
+"DisplayName":"{{i18n:FC.Eva}}",
+"Language":"Default",
+"Gender":"Female",
+"Age":"Adult",
+"Manner":"Polite",
+"SocialAnxiety":"Outgoing",
+"Optimism":"Positive",
+"BirthSeason":"Summer",
+"BirthDay":1,
+"HomeRegion":"Other",
+"IsDarkSkinned":false,
+///Social Features
+"CanSocialize":true,
+"CanBeRomanced":false,
+"CanReceiveGifts":true,
+"CanCommentOnPurchasedShopItems":true,
+"CanGreetNearbyCharacters":true,
+"CanVisitIsland":"DAY_OF_WEEK Thursday",
+"LoveInterest":null,
+"Calendar": "HiddenUntilMet",
+"SocialTab":"UnknownUntilMet",
+"SpouseAdopts":null,
+"SpouseWantsChildren":null,
+"SpouseGiftJealousy":null,
+"SpouseGiftJealousyFriendshipChange":-1,
+"SpouseRoom": {
+"MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 6,
+"Height": 9
+}
+},
+"SpousePatio": {
+"MapAsset": null,
+"MapSourceRect": {
+"X": 0,
+"Y": 0,
+"Width": 4,
+"Height": 4
+}
+},
+"SpouseFloors": [],
+"SpouseWallpapers": [],
+"IntroductionsQuest":"{{IncludeIntro}}",
+"ItemDeliveryQuests":true,
+"PerfectionScore":"{{IncludePerfection}}",
+"EndSlideShow":"TrailingGroup",
+"FriendsAndFamily":null,
+///Dumpster Diving
+"DumpsterDiveEmote":28,
+"DumpsterDiveFriendshipEffect":-3,
+///Festivals
+"FlowerDanceCanDance":false,
+"WinterStarParticipant":true,
+"WinterStarGifts": [],
+//Spawn Rules
+"UnlockConditions":"PLAYER_HAS_SEEN_EVENT Current {{ModID}}_TurnAboutSaloon",
+"SpawnIfMissing":true,
+"Home": [
+{
+"Id": "DefaultHome",
+"Condition": null,
+"Location": "{{ModID}}_TurnaboutSaloon",
+"Tile": {
+"X": 6,
+"Y": 21
+},
+"Direction": "down"
+}
+],
+///Appearance & Sprites
+"TextureName":null,
+ "Appearance": [
+{
+"ID": "{{ModID}}.Eve_Spring",
+"Season": "spring",
+"Portrait": "Portraits/FC.Eva_Spring",
+"Sprite": "Characters/FC.Eva_Spring",
+"Precedence": -10,
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+},
+{
+"ID": "{{ModID}}.Eve_Summer",
+"Season": "summer",
+"Portrait": "Portraits/FC.Eva_Summer",
+"Sprite": "Characters/FC.Eva_Summer",
+"Precedence": -10,
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+},
+{
+"ID": "{{ModID}}.Eve_Fall",
+"Season": "fall",
+"Portrait": "Portraits/FC.Eva_Fall",
+"Sprite": "Characters/FC.Eva_Fall",
+"Precedence": -10,
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+},
+{
+"ID": "{{ModID}}.Eve_Winter",
+"Season": "winter",
+"Portrait": "Portraits/FC.Eva_Winter",
+"Sprite": "Characters/FC.Eva_Winter",
+"Precedence": -10,
+"Weight": 1,
+"Outdoors": true,
+"Indoors": true,
+"IsIslandAttire": false,
+},
+    ],
+"MugShotSourceRect": { "X": 0, "Y": 0, "Width": 16, "Height": 24 },
+ "Size": { "X": 16, "Y": 32 },
+"Breather":false,
+"BreathChestRect":null,
+"BreathChestPosition":null,
+"Shadow":{ "Visible": true },
+"EmoteOffset":{},
+"ShakePortraits":[],
+"KissSpriteIndex":"42",
+"KissSpriteFacingDirection":null,
+///Hidden Gift Log Emote
+"HiddenProfileEmoteSound":null,
+"HiddenProfileEmoteDuration":-1,
+"HiddenProfileEmoteStartFrame":16,
+"HiddenProfileEmoteFrameCount":4,
+"HiddenProfileEmoteFrameDuration":200.0,
+///Advanced
+"CustomFields":{},
+"FormerCharacterNames": [],
+}
+}
+}
+]
+}

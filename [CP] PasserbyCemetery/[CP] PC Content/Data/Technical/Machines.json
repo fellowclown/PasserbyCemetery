@@ -1,5 +1,27 @@
 {
 "Changes": [
+	  {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC){{ModID}}_AnimalCatalogue": {
+          "InteractMethod": "LivestockBazaar.OpenBazaar, LivestockBazaar: InteractShowLivestockShop",
+          "CustomFields": {
+            "mushymato.LivestockBazaar_ShopTile": "{{ModID}}_LyellsAnimalBook"
+          }
+        }
+      }
+    },
+    // this directly opens the shop
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Fields": {
+        "(BC){{ModID}}_AnimalCatalogue": {
+          "InteractMethod": "LivestockBazaar.OpenBazaar, LivestockBazaar: InteractShowLivestockShop",
+        }
+      }
+    },
 {
 "LogName": "FermentedAppleSauce",
 "Action": "EditData",
@@ -986,6 +1008,19 @@
 },
 
  /*/////////////////////////Actual Custom Machines*/
+ {
+"Action": "EditData",
+"Target": "Data/BigCraftables",
+"Entries": {
+"{{ModID}}_AnimalCatalogue": {
+"Name": "{{ModID}}_AnimalCatalogue",
+"DisplayName": "{{i18n:FC.AnimalCatalogue}}",
+"Description": "{{i18n:FC.AnimalCatalogue.Desc}}",
+"Texture": "Mods/{{ModID}}/Machines",
+"SpriteIndex": 1
+}
+}
+},
 {
 "Action": "EditData",
 "Target": "Data/BigCraftables",

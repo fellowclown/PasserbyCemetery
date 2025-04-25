@@ -74,6 +74,7 @@
 "AcceptGift_(O){{ModID}}_TwistedBread": "{{i18n:AcceptGift_TwistedBread.Lyell}}",
 "AcceptGift_(O){{ModID}}_ArcaCoin": "{{i18n:AcceptGift_arcaCoin.Lyell}}",
 "AcceptGift_(O){{ModID}}_ElizabethsRing": "{{i18n:AcceptGift_ElizabethsRing.Lyell}}",
+"AcceptGift_(O){{ModID}}_ArcaCoin": "{{i18n:AcceptGift_ArcaCoin.Lyell}}",
 "GreenRainFinished": "{{i18n:GreenRainFinished.Lyell}}",
 "GreenRain": "{{i18n:GreenRain.Lyell}}",
 "GreenRain_2": "{{i18n:GreenRain_2.Lyell}}",

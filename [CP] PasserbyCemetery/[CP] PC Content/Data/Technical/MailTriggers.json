@@ -79,10 +79,28 @@
 "{{ModID}}_ExhibitBundle4Finished.Mail": "{{i18n:FC.ExhibitBundle.Mail}} %item object {{ModID}}_BullsFuryRing 1 %%[#]{{i18n:FC.ExhibitBundle4Finished.Mail.Title}}",
 "{{ModID}}_ExhibitBundle5Finished.Mail": "{{i18n:FC.ExhibitBundle.Mail}} %item object {{ModID}}_TraditionalLantern 1 %%[#]{{i18n:FC.ExhibitBundle5Finished.Mail.Title}}",
 "{{ModID}}_ExhibitBundle6Finished.Mail": "{{i18n:FC.ExhibitBundle.Mail}} %item object {{ModID}}_StatueGem 1 %%[#]{{i18n:FC.ExhibitBundle6Finished.Mail.Title}}",
-"{{ModID}}_GainedLicense.Mail": "{{i18n:FC.GainedLicense.Mail}}[#]{{i18n:FC.GainedLicense.Mail.Title}}",
-"{{ModID}}_CoinQuest.Mail": "{{i18n:FC.CoinQuest.Mail}} %item quest {{ModID}}_CoinQuest.Quest true %%[#]{{i18n:FC.CoinQues.Mail.Title}}",
+"{{ModID}}_GainedLicense.Mail": "{{i18n:FC.GainedLicense.Mail}} %item money 1500 %% %item bigobject {{ModID}}_AnimalCatalogue 1 %%[#]{{i18n:FC.GainedLicense.Mail.Title}}",
+"{{ModID}}_CoinQuest.Mail": "{{i18n:FC.CoinQuest.Mail}} %item quest {{ModID}}_CoinQuest.Quest true %%[#]{{i18n:FC.CoinQuest.Mail.Title}}",
 "{{ModID}}_Marketpalooza.Mail": "{{i18n:FC.Marketpalooza.Mail}}[#]{{i18n:FC.Marketpalooza.Mail.Title}}",
+"{{ModID}}_LicenseQuest.Mail": "{{i18n:FC.LicenseQuest.Mail}} %item quest {{ModID}}_LicenseQuest.Quest true %%[#]{{i18n:FC.LicenseQuest.Mail.Title}}",
 
+}
+},
+{
+"LogName": "LicenseQuest",
+"Action": "EditData",
+"Target": "Data/TriggerActions",
+"Entries": {
+"{{ModID}}_LicenseQuest.Trigger":{
+"Id": "{{ModID}}_LicenseQuest.Trigger",
+"MarkActionApplied": true,
+"Trigger": "LocationChanged",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Lyell 500,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals",
+"HostOnly": false,
+"Action": "AddMail Current {{ModID}}_LicenseQuest.Mail",
+"Actions": null,
+"CustomFields": {}
+}
 }
 },
 {
@@ -94,7 +112,7 @@
 "Id": "{{ModID}}_GainedLicense.Trigger",
 "MarkActionApplied": true,
 "Trigger": "LocationChanged",
-"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Lyell 750",
+"Condition": "PLAYER_FRIENDSHIP_POINTS Current FC.Lyell 750,PLAYER_HAS_SEEN_EVENT Current {{ModID}}_UnlockLyellsAnimals,PLAYER_HAS_MAIL Current {{ModID}}_LicenseQuestFinished",
 "HostOnly": false,
 "Action": "AddMail Current {{ModID}}_GainedLicense.Mail",
 "Actions": null,

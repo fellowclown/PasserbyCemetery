@@ -1,0 +1,40 @@
+{
+"Changes": [
+ {
+"LogName": "Animations",
+"Action": "EditData",
+"Target": "Data/animationDescriptions",
+"Entries": {
+
+}
+ },
+ {
+"LogName": "Eve Schedule Dialogue Default",
+"Action": "EditData",
+"Target": "Strings/schedules/FC.Eva",
+  "Entries": {
+"Eve.GreenRain": "{{i18n:Eve.GreenRain}}",
+"Eve.Sleeping": "{{i18n:Eve.Sleeping}}",
+}
+ },
+        {
+"LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/FC.Eva",
+"Entries": {
+"spring": "GOTO spring_Mon",
+/// Weekday Schedules 
+"Mon": "",
+"Tue": "",
+"Wed": "",
+"Thu": "",
+"Fri": "",
+"Sat": "",
+"Sun": "",
+///Special Schedules
+"rain": "",
+"winter_16": "",
+},
+},  
+]
+}

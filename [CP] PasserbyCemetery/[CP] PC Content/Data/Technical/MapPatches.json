@@ -8,7 +8,8 @@
         "mushymato.MMAP_WoodsLighting": "#827897",
         "mushymato.MMAP_SteamOverlay": "T 0 0 #d1cddb 0.4 4"
           },
-        },
+"When": {"MistAndLighting": true, }
+ },
         /////
  {
 "Action": "EditImage",
@@ -310,59 +311,31 @@
 ]
 },
 {
-"LogName": "unlock Tillys Office",
+"LogName": "Tillys Office warp",
+ "Action": "EditMap",
+ "Target": "Maps/{{ModID}}_Temple",
+"Update": "OnTimeChange, OnLocationChange",
+ "TextOperations": [
+{
+ "Operation": "Append",
+ "Target": ["MapProperties", "Warp"],
+ "Value": "18 19 {{ModID}}_TillysOffice 6 9 18 18 {{ModID}}_TillysOffice 6 9",
+ "Delimiter": " "
+}
+],
+"When": {
+"HasSeenEvent |contains={{ModID}}_TillysOffice": true, 
+"HasSeenEvent |contains={{ModID}}_HouseParty": true,
+}
+},
+{
 "Action": "EditMap",
 "Target": "Maps/{{ModID}}_Temple",
-"Update": "OnTimeChange, OnLocationChange",
-"When": {
-"HasSeenEvent |contains={{ModID}}_WadesOffice": true, 
-"HasSeenEvent |contains={{ModID}}_HouseParty": true,
-},
-"MapTiles": [
-{
-"Position": {
-"X": 18,
-"Y": 18
-},
-"Layer": "Buildings",
-"SetProperties": {
-"TouchAction": "Warp {{ModID}}_WadesOffice 5 9"
-},
-
-}
-]
-},
-{
-"LogName": "unlock Tillys Office",
-"Action": "EditMap",
-"Target": "Maps/{{ModID}}_Temple",
-"Update": "OnTimeChange, OnLocationChange",
-"When": {
-"HasSeenEvent |contains={{ModID}}_WadesOffice": true, 
-"HasSeenEvent |contains={{ModID}}_HouseParty": true,
-},
-"MapTiles": [
-{
-"Position": {
-"X": 18,
-"Y": 19
-},
-"Layer": "Buildings",
-"SetProperties": {
-"TouchAction": "Warp {{ModID}}_WadesOffice 5 10"
-},
-
-}
-]
-},
-{
-"Action": "EditMap",
-"Target": "Maps/{{ModID}}_TravelingTrailer",
-"FromFile": "Assets/Maps/Map Patches/WadesOfficeEntrance.tbin",
+"FromFile": "Assets/Maps/Map Patches/TillysOfficeEntrance.tbin",
 "Update": "OnTimeChange",
 "ToArea": { "X": 17, "Y": 14, "Width": 3, "Height": 7 },
 "When": {
-"HasSeenEvent |contains={{ModID}}_WadesOffice": true, 
+"HasSeenEvent |contains={{ModID}}_TillysOffice": true, 
 "HasSeenEvent |contains={{ModID}}_HouseParty": true,
 }
 },
@@ -452,13 +425,12 @@
 ///Map edits
 {
 "Action": "EditMap",
-"Target": "Maps/Fellowclown.PC_TropicalAnimalHouseMapSmall,Maps/Fellowclown.PC_TropicalAnimalHouseMapMedium,Maps/Fellowclown.PC_TropicalAnimalHouseMapLarge",
-"FromFile": "Assets/Maps/Map Patches/AnimalShop.tbin",
- "Update": "OnLocationChange",
- "PatchMode":"overlay",
-"ToArea": { "X": 6, "Y": 8, "Width": 2, "Height": 3 },
- "When": {
-"HasFlag |contains={{ModID}}_GainedLicense.Mail": true,
+"Target": "Maps/{{ModID}}_TurnaboutSaloonBasement",
+"FromFile": "Assets/Maps/Map Patches/EveTV.Tbin",
+"Update": "OnTimeChange",
+"ToArea": { "X": 41, "Y": 8, "Width": 2, "Height": 2 },
+"When": {
+"Time": "{{Range: 1600, 2600}}",
 }
 },
 {
@@ -708,35 +680,6 @@
 }
 },
 
-////FESTIVAL EDITS
-{
-"Action": "EditMap",
-"Target": "Maps/{{ModID}}_TurnaboutSaloon",
- "When": {
- "Day": "3"
- },
- "MapTiles": [
-{
-"Position": { "X": 6, "Y": 21 },
-"Layer": "Buildings",
-"Remove": true,
-},
-],
-},
-{
-"Action": "EditMap",
-"Target": "Maps/{{ModID}}_TurnaboutSaloon",
- "When": {
- "Day": "3"
- },
- "MapTiles": [
-{
-"Position": { "X": 6, "Y": 20 },
-"Layer": "Front",
-"Remove": true,
-},
-],
-},
 ///////
 {
 "Action": "EditMap",
@@ -854,5 +797,228 @@
 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
 }
 },
+{
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_OldGraveYard",
+"FromFile": "Assets/Maps/Map Patches/Monster1.tbin",
+"Update": "OnTimeChange",
+"ToArea": { "X": 42, "Y":44, "Width": 1, "Height": 2 },
+"When": {
+"HasSeenEvent |contains={{ModID}}_TheCreature": true,
+},
+"When": {
+"Time": "{{Range: 900, 1200}}",
+}
+},
+{
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_OldGraveYard",
+"FromFile": "Assets/Maps/Map Patches/Monster2.tbin",
+"Update": "OnTimeChange",
+"ToArea": { "X": 27, "Y":78, "Width": 1, "Height": 1 },
+"When": {
+"HasSeenEvent |contains={{ModID}}_TheCreature": true,
+},
+"When": {
+"Time": "{{Range: 1200, 1900}}",
+}
+},
+{
+"Action": "EditMap",
+"Target": "Maps/{{ModID}}_OldGraveYard",
+"FromFile": "Assets/Maps/Map Patches/Monster3.tbin",
+"Update": "OnTimeChange",
+"ToArea": { "X": 41, "Y":31, "Width": 2, "Height": 1 },
+"When": {
+"HasSeenEvent |contains={{ModID}}_TheCreature": true,
+},
+"When": {
+"Time": "{{Range: 1900, 2400}}",
+}
+},
+    {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModID}}_OldGraveYard",
+   "MapTiles": [
+        {
+          "Position": {
+            "X": 38,
+            "Y": 32
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        },
+         {
+          "Position": {
+            "X": 28,
+            "Y": 15
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        },
+         {
+          "Position": {
+            "X": 9,
+            "Y": 74
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        },
+          {
+          "Position": {
+            "X": 35,
+            "Y": 82
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        }
+      ]
+    },
+        {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModID}}_PasserbyCliffs",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 7,
+            "Y": 30
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        },
+         {
+          "Position": {
+            "X": 10,
+            "Y": 17
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        },
+         {
+          "Position": {
+            "X": 16,
+            "Y": 15
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        },
+          {
+          "Position": {
+            "X": 22,
+            "Y": 29
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        }
+      ]
+    },
+            {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModID}}_LyellsProperty",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 25,
+            "Y": 44
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        },
+         {
+          "Position": {
+            "X": 37,
+            "Y": 16
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        },
+         {
+          "Position": {
+            "X": 23,
+            "Y": 31
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        },
+          {
+          "Position": {
+            "X": 45,
+            "Y": 30
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        }
+      ]
+    },
+            {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModID}}_AncientGraveYard",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 31,
+            "Y": 17
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        },
+         {
+          "Position": {
+            "X": 30,
+            "Y": 33
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        },
+         {
+          "Position": {
+            "X": 48,
+            "Y": 27
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        },
+          {
+          "Position": {
+            "X": 38,
+            "Y": 51
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "mushymato.MMAP_Critter": "Firefly T 8"
+          }
+        }
+      ]
+    },
 ]
 }
